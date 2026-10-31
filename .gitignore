@@ -1,0 +1,7 @@
+build/
+results/**/raw/
+data/
+*.xlsx
+*.docx
+Research*.txt
+ScienceDirect-CG.txt

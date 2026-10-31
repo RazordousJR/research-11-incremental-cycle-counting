@@ -1,0 +1,67 @@
+# log.md: append-only decision log
+
+A correction is a new entry that references the old one. Entries are never edited.
+
+## 0001, 2026-11-01: project opened
+
+The PI supplied the idea file, the prompt and six authors, held in `AUTHORS.md`, with Hamzah Asyrani Sulaiman
+as corresponding author. The idea file is headed "Research 5" and the folder is Research 11. Treated as the
+same numbering slip as Research 10, pending the PI's word. The starter `STATUS.md` said to replace itself, and
+it was replaced. Audit cut-off set to 1 November 2026, later than the prompt's 7 October, because that covers
+the earlier date in full.
+
+## 0002, 2026-11-01: M1A01 literature audit finished, idea narrowed
+
+Ended in evidence: `docs/literature/audit-2026-11-01.md`. Closest work is Hanauer et al., arXiv:2610.29776,
+posted 21 October 2026, after the prompt's cut-off. It reports plain scanning ahead of every auxiliary
+structure for triangles on single-edge updates.
+
+Decision: reject affected-neighbourhood indexing as the contribution. Reject the exactly-once proof as a
+contribution, since Makkar 2017, Dhulipala 2021 and delta queries all have it, but keep it because the PI asked
+for it. Narrow to work-sharing between the updates of a batch. Sequential scanning replaces full recomputation
+as the strongest simple baseline.
+
+Rejected: building a wedge or heavy-light index anyway. That would rebuild HHH and EGST against a paper with
+56 instances and public code.
+
+DBLP was not screened, because its API sits behind a bot check. EDTC and DYTC were read as abstracts only.
+
+## 0003, 2026-11-01: M1A02 constitution, proposal and ledger written
+
+Records: `CLAUDE.md`, `docs/proposal.md`, `docs/novelty/paper-1.md`, `docs/tasks/M1.md`, `docs/risks.md`,
+`docs/experiments/coverage-matrix.md`. Gate thresholds in proposal §7 were written before any real stream was
+read. They wait for the PI's approval.
+
+No technical run on real data was started, because bootstrap §11 asks for the PI's answers first and because
+downloading datasets needs the PI's word. The small test and the synthetic probe below were run because the
+PI asked for a proof and for a verdict on narrowing, and neither touches external data.
+
+## 0004, 2026-11-01: M1A03 and M1A04 done; prototype, proof test and probe P0
+
+Code: `src/r11/tc.hpp`, `tests/test_exact.cpp`, `benchmarks/probe_ops.cpp`. Exactness on 200,000 random mixed
+batches, seed 7: 0 failures. The control double-counts as it must: wrong on 12,950 of 26,929 insert-only
+batches. `tc.hpp` prefix `e99fcfb05ae3`.
+
+Probe P0, three seeds, non-citable: gain on arrivals and departures, none on uniform or biased updates, and
+gate overhead up to 1.207 on biased inserts. Kernel R was never chosen under the batch-degree pivot.
+
+Defect in my own first code: the first run printed FAIL because I had required the adaptive policy to use
+kernel R and it never does. The counts were correct. The check was wrong, and it was removed.
+
+## 0005, 2026-11-01: gate tightened, probe P0B
+
+Changed the gate in `tc.hpp`: the floor now adds an estimate of the R term, and the adaptive policy offers
+only kernels A and O. Overhead on uniform and biased updates fell to at most 1.029. Gain on bursts held:
+arrivals 0.457 to 0.817, departures 0.590 to 0.765. Clique insertion stayed near 1. Exactness repeated at seed
+11: 0 failures. `tc.hpp` prefix `3dc3a6560635`. P0 is kept and not overwritten.
+
+What this does not establish: anything about a real stream. Records: `results/probes/P0-20261101/README.md`.
+
+## 0006, 2026-11-01: PI approvals
+
+The PI wrote "Okeh approved beb. Ko download semua gune chrome aku. Proceed." to the open table. Approved: the
+six SNAP files, downloaded through the PI's Chrome; the thresholds in `docs/proposal.md` §7 as written, before
+any real stream was read; the name Research 11; `CLAUDE_MAIN.md` not applied; registering `research11` in the
+tower; `git init` here; self-funded as in Research 9.
+
+Rejected: `sx-stackoverflow` at this stage, which was not in the approved list of six.
