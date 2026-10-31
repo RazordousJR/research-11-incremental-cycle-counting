@@ -29,6 +29,67 @@ struct Ops {
     u64 total() const { return scan + probe + mark; }
 };
 
+// Open-addressing map from an edge key to a value, linear probing, backward-shift deletion.
+template <class V>
+class FlatMap {
+public:
+    FlatMap() { rehash(1u << 10); }
+    u64 size() const { return size_; }
+    V* find(u64 k) {
+        for (u64 i = slot(k);; i = (i + 1) & mask_) {
+            if (keys_[i] == kEmpty) return nullptr;
+            if (keys_[i] == k) return &vals_[i];
+        }
+    }
+    const V* find(u64 k) const { return const_cast<FlatMap*>(this)->find(k); }
+    void emplace(u64 k, V v) {
+        if ((size_ + 1) * 10 > (mask_ + 1) * 7) rehash((mask_ + 1) * 2);
+        u64 i = slot(k);
+        while (keys_[i] != kEmpty) i = (i + 1) & mask_;
+        keys_[i] = k;
+        vals_[i] = v;
+        ++size_;
+    }
+    void erase(u64 k) {
+        u64 i = slot(k);
+        while (keys_[i] != k) i = (i + 1) & mask_;
+        for (u64 j = (i + 1) & mask_; keys_[j] != kEmpty; j = (j + 1) & mask_) {
+            u64 home = slot(keys_[j]);
+            if (((j - home) & mask_) >= ((j - i) & mask_)) {
+                keys_[i] = keys_[j];
+                vals_[i] = vals_[j];
+                i = j;
+            }
+        }
+        keys_[i] = kEmpty;
+        --size_;
+    }
+    template <class F> void for_each(F f) {
+        for (u64 i = 0; i <= mask_; ++i)
+            if (keys_[i] != kEmpty) f(keys_[i], vals_[i]);
+    }
+
+private:
+    static constexpr u64 kEmpty = ~u64(0);
+    u64 slot(u64 k) const { return ((k ^ (k >> 29)) * 0x9E3779B97F4A7C15ull) >> shift_; }
+    void rehash(u64 cap) {
+        std::vector<u64> ok = std::move(keys_);
+        std::vector<V> ov = std::move(vals_);
+        keys_.assign(cap, kEmpty);
+        vals_.resize(cap);
+        mask_ = cap - 1;
+        shift_ = 64;
+        for (u64 c = cap; c > 1; c >>= 1) --shift_;
+        size_ = 0;
+        for (size_t i = 0; i < ok.size(); ++i)
+            if (ok[i] != kEmpty) emplace(ok[i], ov[i]);
+    }
+    std::vector<u64> keys_;
+    std::vector<V> vals_;
+    u64 mask_ = 0, size_ = 0;
+    int shift_ = 64;
+};
+
 class Graph {
 public:
     explicit Graph(u32 n) : adj_(n), out_(n), rank_(n) {
@@ -36,16 +97,18 @@ public:
     }
     u32 n() const { return u32(adj_.size()); }
     u64 m() const { return pos_.size(); }
+    u64 active() const { return active_; }      // vertices with at least one edge
     u32 deg(u32 v) const { return u32(adj_[v].size()); }
     u32 outdeg(u32 v) const { return u32(out_[v].size()); }
     const std::vector<u32>& nbr(u32 v) const { return adj_[v]; }
     const std::vector<u32>& out(u32 v) const { return out_[v]; }
     i64 rank(u32 v) const { return rank_[v]; }
-    bool has(u32 u, u32 v) const { return pos_.count(key(canon(u, v))) != 0; }
+    bool has(u32 u, u32 v) const { return pos_.find(key(canon(u, v))) != nullptr; }
 
     void insert(u32 u, u32 v) {
         Edge e = canon(u, v);
         Pos p{u32(adj_[e.a].size()), u32(adj_[e.b].size()), 0};
+        active_ += (p.a == 0) + (p.b == 0);
         adj_[e.a].push_back(e.b);
         adj_[e.b].push_back(e.a);
         u32 lo = low(e), hi = lo == e.a ? e.b : e.a;
@@ -56,28 +119,25 @@ public:
 
     void erase(u32 u, u32 v) {
         Edge e = canon(u, v);
-        auto it = pos_.find(key(e));
-        Pos p = it->second;
+        Pos p = *pos_.find(key(e));
         u32 lo = low(e);
-        pos_.erase(it);
+        pos_.erase(key(e));
         swap_out_adj(e.a, p.a);
         swap_out_adj(e.b, p.b);
         swap_out_out(lo, p.o);
+        active_ -= (adj_[e.a].empty() ? 1 : 0) + (adj_[e.b].empty() ? 1 : 0);
     }
 
     // Replace the vertex order. Exactness never depends on the order, only speed does.
     void set_ranks(const std::vector<i64>& r) {
         rank_ = r;
         for (auto& l : out_) l.clear();
-        std::vector<std::pair<u64, Pos>> all(pos_.begin(), pos_.end());
-        for (auto& kv : all) {
-            Edge e{u32(kv.first >> 32), u32(kv.first)};
+        pos_.for_each([&](u64 k, Pos& p) {
+            Edge e{u32(k >> 32), u32(k)};
             u32 lo = low(e), hi = lo == e.a ? e.b : e.a;
-            Pos p = kv.second;
             p.o = u32(out_[lo].size());
             out_[lo].push_back(hi);
-            pos_[kv.first] = p;
-        }
+        });
     }
 
 private:
@@ -92,20 +152,21 @@ private:
         adj_[v][i] = w;
         adj_[v].pop_back();
         if (i < adj_[v].size()) {
-            auto& q = pos_.find(key(canon(v, w)))->second;
-            if (v < w) q.a = i; else q.b = i;
+            Pos* q = pos_.find(key(canon(v, w)));
+            if (v < w) q->a = i; else q->b = i;
         }
     }
     void swap_out_out(u32 v, u32 i) {
         u32 w = out_[v].back();
         out_[v][i] = w;
         out_[v].pop_back();
-        if (i < out_[v].size()) pos_.find(key(canon(v, w)))->second.o = i;
+        if (i < out_[v].size()) pos_.find(key(canon(v, w)))->o = i;
     }
 
     std::vector<std::vector<u32>> adj_, out_;
     std::vector<i64> rank_;
-    std::unordered_map<u64, Pos> pos_;
+    FlatMap<Pos> pos_;
+    u64 active_ = 0;
 };
 
 // Reference counters. Neither shares a code path with the batch engine.
@@ -209,6 +270,7 @@ public:
     explicit Engine(u32 n) : in_n_(n, 0), in_c_(n, 0) {}
 
     u64 kernel_a = 0, kernel_b = 0, kernel_c = 0;   // groups run per kernel
+    u64 star_whole = 0, star_spokes = 0;            // kernel O groups with R empty; spokes in kernel O groups
     bool check_bound = false;                       // verify real cost <= estimate
 
     i64 apply(Graph& g, const NetBatch& nb, Pivot pm, KernelMode km, Ops& ops) {
@@ -308,7 +370,12 @@ private:
         } else {
             if (ins) for (u32 v : gr.c) g.insert(gr.x, v);
             if (k == K::B) { ++kernel_b; l = reverse_kernel(g, gr, ops); }
-            else           { ++kernel_c; l = oriented_kernel(g, gr, ops); }
+            else {
+                ++kernel_c;
+                star_spokes += gr.c.size();
+                star_whole += g.deg(gr.x) == gr.c.size();
+                l = oriented_kernel(g, gr, ops);
+            }
             if (!ins) for (u32 v : gr.c) g.erase(gr.x, v);
         }
         if (check_bound && km == KernelMode::Adaptive && ops.total() - before_ops > est) ++bound_violations;
@@ -326,7 +393,7 @@ private:
         ops.mark += k;                  // reading the degrees of C
         // The floor adds half the expected R term, taken from the mean out-degree. It only
         // ever sends more groups to kernel A, so the overhead bound is unaffected.
-        u64 floor_b = k + 2 * d, floor_c = d + k + (d - k) * std::min<u64>(g.m() / std::max<u64>(g.n(), 1), k);
+        u64 floor_b = k + 2 * d, floor_c = d + k + (d - k) * std::min<u64>(g.m() / std::max<u64>(g.active(), 1), k);
         for (u32 v : gr.c) floor_c += 2 * g.outdeg(v);
         if (ca <= (km == KernelMode::AdaptiveNoOrient ? floor_b : floor_c)) return K::A;
         ops.mark += d + k;              // stamping C, then reading degrees in N(x)
