@@ -1,0 +1,5 @@
+stream,label,k,slot_seconds,method,ops,scan,probe,read,field,edit,slot,recency,queue,count,events,firsts,repeats,noops,scans_event,scans_expiry,elems_repeat,moved,added,fallbacks,rehomed,peak_words,peak_pairs,peak_log,peak_count_longest,static_checks,mismatches,vertices
+CollegeMsg,real timestamps window query,1,1,W,1550896,244010,232785,350637,59795,59806,88553,257003,249862,8445,59835,15041,44754,40,59795,0,154714,2218,8490,2400,0,5049088,5127,74177,2616,1016,0,1899
+CollegeMsg,real timestamps window query,1,1,W0,1904142,573063,194207,670411,59795,59806,88553,0,249862,8445,59835,15041,44754,40,59795,0,483767,2218,8490,0,0,4904251,5127,0,2616,1016,0,1899
+CollegeMsg,real timestamps window query,1,1,P,932573,202543,247516,104600,59795,59806,0,0,249862,8451,59835,15041,44754,40,15041,14862,0,0,0,0,0,3694650,5127,0,2616,1016,0,1899
+CollegeMsg,real timestamps window query,1,1,D,908419,131818,189111,140918,99539,59806,28914,0,249862,8451,59835,15041,44754,40,15041,3656,0,0,0,0,4139,3702333,5127,0,2616,1016,0,1899

@@ -124,3 +124,14 @@ candidates. Thresholds are in `docs/experiments/screen-b-protocol.md`, written b
 Rejected for now: 5-cycles (S1), because Gopher and Cheetah are unread and full text is blocked; the I/O bound (S2), a likely
 corollary of Beame et al.; the exponent map (S6), which needs a theory reader; the Euler signature (S7), which is a different
 paper. All four stay on the ranking.
+
+## 0012, 2026-11-01: M1B01 undecided by its rule, a defect of my protocol; M1B01-B opened
+
+Results: `results/screen-b-M1B01/README.md`. Exact on all six streams. At k = 4, W scored 0.332 to 0.605 against B2, so
+the Go clause held on 6 of 6. At k = 1 it scored 1.086 to 2.568, so one Stop clause held on 6 of 6. I wrote a rule whose
+Go and Stop can both hold, with no precedence. The agent correctly refused to pick a reading, and I do not pick one
+either: M1B01 stays undecided.
+
+Checked by me from the same record: against the better of B1 and B2, W stays at or below 0.67 on 5 of 6 streams at 3,600 s,
+and email-Eu-core-temporal is at 0.982. Two gaps remain: no k-window death counter, and no Fenwick form. M1B01-B adds both.
+It is stricter than M1B01, so it weakens nothing and needs no approval to run.

@@ -35,6 +35,30 @@ refresh semantics, with the cost of re-homing charged.
 
 Report too: peak memory in words, moved units per event, and how far recency order cuts scans.
 
+## M1B01-B: the same family against its strongest baseline
+
+Added on 2026-11-01 after M1B01 ran, as a new screen ID. The M1B01 rule had a defect: its Go and Stop clauses can both
+hold and it states no precedence, which is what happened. M1B01 stays recorded as undecided by its rule (`log.md` 0012).
+This test is stricter than M1B01. It adds a baseline and removes no charge.
+
+**New arms.**
+- **D-k:** a per-pair death counter serving k windows. A triple's weakest pair is its oldest pair, so all triples that
+  share a weakest pair leave any window together. One counter per pair may therefore serve all k windows, with one expiry
+  token per pair per window. Refresh semantics and re-homing as in M1B01.
+- **W-F:** method W with a Fenwick tree over B, so any window length up to the horizon can be read. This prices the
+  "any L" capability that M1B01 did not build. All Fenwick reads and writes are charged.
+
+**Run.** All six streams, k = 4 with the same windows, slot widths 3,600 s and 1 s. The 1 s width is the literal clock.
+
+**Rule.** Let best = the cheaper of B1 and the better B2 per stream. Precedence is stated: Stop is read first, then Go, and
+Pivot is anything else. Each clause is scored at both slot widths and must hold at both.
+- Stop: `min(W-F, D-k) / best` above 0.80 on all 6 streams.
+- Go: `min(W-F, D-k) / best` at most 0.67 on at least 3 streams.
+- Capability check, reported beside the verdict: the "any L" claim survives only if `W-F / D-k` is at most 1.5 on at least
+  3 streams. Otherwise the method is the fixed-k form and the capability is dropped.
+
+Exactness as in M1B01, with D-k added to the oracle and to the mutants.
+
 ## M1B02: count receipts
 
 Source: `docs/literature/scouts/s5-local-and-guarantees.md`, candidate C1. A sum-check audit of a running count.
