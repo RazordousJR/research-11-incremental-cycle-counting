@@ -1,6 +1,9 @@
 # Novelty record, paper 1
 
-Status: **provisional and unearned**. The delta below survived a search on 2026-11-01. GAMMA has been read and does not cover it.
+Status: **refuted at Gate 0, 2026-11-01** (`log.md` 0008). On six real streams the sharing this delta offers is
+worth at most 13% even in hindsight. What follows is the record as written before the gate.
+
+Status before the gate: **provisional and unearned**. The delta below survived a search on 2026-11-01. GAMMA has been read and does not cover it.
 It has not yet survived the TODS text of Mhedhbi et al., EDTC or ParaDyMS, and it has no result on a real
 stream.
 

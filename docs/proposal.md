@@ -1,6 +1,7 @@
 # Proposal: peeling star groups for exact batch triangle maintenance
 
-Status: hypothesis. The exactness results are tested. Nothing here has been measured on a real stream.
+Status: **refuted at Gate 0 on 2026-11-01** on six real streams (`log.md` 0008, 0009). The text below is kept as
+written. The exactness results stand.
 Task M1A02. Prior work is in `docs/literature/audit-2026-11-01.md`.
 
 ## 1. The narrowing

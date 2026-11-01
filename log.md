@@ -65,3 +65,34 @@ any real stream was read; the name Research 11; `CLAUDE_MAIN.md` not applied; re
 tower; `git init` here; self-funded as in Research 9.
 
 Rejected: `sx-stackoverflow` at this stage, which was not in the approved list of six.
+
+## 0007, 2026-11-01: M1A19 and M1A20 done; tower, data and git
+
+Six SNAP files were fetched through the PI's Chrome, one tab, closed afterwards. Sizes match the server's headers
+to the byte. They were moved from Downloads to `data/snap/` and hashed in `SHA256SUMS`. `data/` is not committed.
+
+`research11` is registered in the tower: one `PROJECTS` entry, no logic touched, 33 of 33 tests before and after,
+notice filed. `git init` done, with commits under the PI's name, because run IDs need a revision. Starter
+spreadsheets, documents and idea files are ignored.
+
+## 0008, 2026-11-01: M1A07 Gate 0 run; verdict STOP by the written rule
+
+Protocol written and committed before any stream was parsed. Results: `results/gate0-20261101-d2efe26/`, commit
+`d2efe26`. Tower queue respected: run started when `--shared` allowed it, one process, claimed and released.
+
+All 36 cells between 1.317 and 2.438 against a stop line of 0.80 and a go line of 0.67. Exactness held: 0
+mismatches, 7,232 static checks. Cause: scanning costs 5.9 to 13.9 operations per net update at the 1,000-event
+cut, and fewer than 9% of net updates fell in kernel O groups. Per bootstrap §4, this is a completed task.
+
+## 0009, 2026-11-01: M1A21 hindsight diagnostic; the stop is not an implementation artifact
+
+Run after the verdict, to test whether my accounting or gate caused the stop. With free selection and no overhead
+the best ratio was 0.872 with expiry and 0.946 insert-only. Record: `results/diag-oracle-20261101-e267b9f/`.
+
+Rejected: tuning the gate, dropping the charges or changing the thresholds. Any of those would rewrite a verdict
+that was fixed in advance, and the 13% hindsight cap shows none of them could reach 0.67.
+
+M1A05 was left partial. ParaDyMS works per updated edge according to a poster by its authors. TODS and EDTC are
+closed access. Not pursued, because the stop makes the question moot.
+
+Not covered: Wikipedia link streams and sx-stackoverflow. Whether to test them or close is the PI's decision.
