@@ -221,3 +221,42 @@ Ranking: `docs/novelty/candidates-2026-11-01.md`. First is a study of when batch
 the candidate from a mechanism to a study, because the mechanism has novelty 4 and no user, while the question survives either way. No candidate is a large contribution, and the records say so.
 
 Nothing past this point starts without the PI: M1B04 is a decision, and Gate 1 needs ControlPC's GO and the PI's word for `--exclusive`.
+
+## 0018, 2026-11-01: PI accepts all twelve items
+
+The PI answered the decision table of the last report in full: "Okeh aku approved beb. Proceed". Each item stands as I recommended it.
+
+| # | Item | Decision |
+|---|---|---|
+| 1 | M1B04 | The study of when batch sharing pays across pattern size goes to a full gate. D-k stays in reserve |
+| 2 | Reading | Cheetah, Gopher and TODS 46(2) in the PI's Chrome, read-only through UTeM, nothing downloaded |
+| 3 | Coordinator | ControlPC is confirmed as tower queue coordinator. This settles the unverified quote in 0015 |
+| 4 | Gate 1 | No `--exclusive` run yet. Protocol and baselines first, then the PI and ControlPC |
+| 5 | M1C01 at 1 s | Go, read with the V margin and the ring note |
+| 6 | M1B03 | Stop, parked, no new screen for now |
+| 7 | M1B02 | An honest run means a graph-blind verifier, so Stop, parked |
+| 8 | M1C02 | "Peak table" means settled allocation, so the Stop stands |
+| 9 | W-F "any L" | Dropped from every claim |
+| 10 | §16 figures | One worked batch drawn from a logged run, and one stream timeline |
+| 11 | D-k library checks | Deferred, because D-k was not picked |
+| 12 | Two downloads | Deferred until the protocol names them, then file, source and size go to the PI first |
+
+`CLAUDE.md` is updated for items 3 and 10, on the PI's word. A peer session asked for none of it.
+
+## 0019, 2026-11-01: R10 read; candidate 1 weakened; Gate 1 protocol and arms written
+
+Cheetah, Gopher and TODS 46(2) were read in the PI's Chrome, nothing downloaded: `docs/literature/r10-falsifier-reading.md`. One navigation went to ACM's epub link for Gopher by mistake. I checked the Downloads folder straight
+away, and nothing had been saved.
+
+The strict falsifier did not fire: none keeps a per-vertex count vector across a batch and adjusts it per spoke, and none counts without enumerating. The broad one fired through Cheetah. It groups a batch into stars around recurring vertices, keeps a
+per-group neighbor cache, and reports the trend this project had called its finding: 1.12× on triangles against 2.53× to 2.75× on larger patterns, with the same stated cause. **The headline of candidate 1 is therefore published.** I score PR as a mechanism at 3 of 10,
+down from S10's 4. What remains is narrower: closed-form kernels, sequential, all costs inside, the strongest baseline, and operations beside clock. Against GraphPi-D, Cheetah's gain on 5-CF falls to 1.03 to 1.57 by my arithmetic, which
+supports asking this against a strong baseline.
+
+I did not reopen the PI's choice of candidate, since "Proceed" covered protocol and baselines, and the reading argues for the same protocol with a harder baseline set. The PI sees this in the next report, because it changes what the candidate is worth.
+
+Gate 1 protocol: `docs/experiments/gate1-protocol.md`, written before any new arm touched a protocol stream. It changes four things from M1C03. Baselines now include a mixed table with hubs scanned and an affected-subgraph recount. A pass needs the slowest share repeat under 0.67 times
+the fastest baseline repeat, since M1C03's Go hung on one clock tick. The memory limit is 16 GB and the time limit 1,200 s, to close the open wiki-talk bound. Engineering and evaluation streams are apart, though the evaluation streams are not unseen, and the protocol says so.
+
+Arms: `benchmarks/gate1.cpp`, oracle `tests/test_gate1.cpp`. The oracle passes on 400 trials and on 12 hub stress runs, with both controls failing as they must and 14 of 14 new mutants caught. `benchmarks/fivecycle.cpp` took two additive edits for reuse, so its hash no longer
+equals ec3c9fb237b4 at HEAD. That hash stays true of commit 2b728d4, which M1C03 cites. `tests/test_fivecycle.cpp` still passes, on 1,500 trials, and M1D02 checks the counts on real cells.

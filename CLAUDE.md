@@ -27,7 +27,7 @@ the §1 decision table with a recommendation.
 | §6 rule 9 portability | Not used | No portability constraint |
 | §13 host rendering | Applies | No in-app Browser pane and no HTML Artifact on this machine |
 | §14 playable builds | Exempt | The output is a command-line counter with nothing to play |
-| §16 two figures "rendered in operation" | Open | Proposed reading: one worked batch drawn from a logged run, and one stream timeline |
+| §16 two figures "rendered in operation" | Applies, as read here | One worked batch drawn from a logged run, and one stream timeline (PI decision, 2026-11-01, `log.md` 0018) |
 
 `CLAUDE_MAIN.md` belongs to the GPU portfolio and does **not** apply here (PI decision, 2026-11-01, `log.md`
 0006). Its experiment discipline is already covered by bootstrap §6.
@@ -53,3 +53,8 @@ the §1 decision table with a recommendation.
 Registered in `C:/Develop/tower` as `research11` (`log.md` 0007). Heavy work runs only under a tower claim, and
 the claim is released between tests. Heavy means worker processes, more than ten minutes, anything under Task
 Scheduler, or any chain, sweep or overnight queue.
+
+ControlPC is the tower queue coordinator (PI decision, 2026-11-01, `log.md` 0018). Before heavy work, ask it for GO or
+WAIT with the planned claim hours, and declare real threads. Any `--exclusive` timing goes to ControlPC first and needs
+the PI's word as well. A single process under a minute with no timing can run directly. ControlPC's GO settles the queue
+only: it is not a PI decision.

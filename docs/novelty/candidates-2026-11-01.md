@@ -1,5 +1,9 @@
 # Candidate ranking after Screen B and Screen C, 2026-11-01
 
+**Update, same day, after the PI picked candidate 1 (`log.md` 0018, 0019).** The reading in `docs/literature/r10-falsifier-reading.md` weakens candidate 1. Cheetah already publishes star grouping with per-group reuse, and the trend of low gain on
+triangles and more on larger patterns. PR as a mechanism falls to 3 of 10. The table below stands as written on the evidence of that morning, and its "Why candidate 1 leads" must be read with this note: what is left is the gain against the
+strongest baseline with closed-form kernels and all costs inside. The honest ceiling does not rise, and the chance of reaching it falls.
+
 Serves M1B04. This ranks candidates for a full gate. It claims no contribution. `docs/novelty/paper-1.md` stays the record of the proposal
 refuted at Gate 0. The PI decides the pick. Screen results are non-citable. Literature scores are scout-grade, and every "not found" is weak.
 

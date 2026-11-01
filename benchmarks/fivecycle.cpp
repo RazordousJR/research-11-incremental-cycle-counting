@@ -604,6 +604,16 @@ public:
         return s;
     }
 
+    // Gate 1 only: one entry, read in a's table. No arm of M1C02 or M1C03 calls this.
+    u32 get(u32 a, u32 k) const {
+        const Dir& d = d_[a];
+        if (d.s == zero_) return 0;
+        const u32 x = d.s[find(d, k)];
+        if (!x) return 0;
+        const u32 n = x & cm_;
+        return n == cm_ ? side_count(a, k) : n;
+    }
+
     template <class F> void for_each(F f) const {
         for (u32 a = 0; a < u32(d_.size()); ++a) {
             const Dir& d = d_[a];
@@ -1040,7 +1050,9 @@ public:
                               pos_(n + 1), adjv_(n + 1, 0), t_(n + 1, 0) {}
 
     // True and the count when it finished. False when it passed the budget, and ops then holds what was spent.
-    bool count(const Graph& g, const std::vector<u32>& active, u64 budget, i64& result, u64& ops) {
+    // A template for Gate 1, which recounts an extracted subgraph. It reads only deg and nbr.
+    template <class G>
+    bool count(const G& g, const std::vector<u32>& active, u64 budget, i64& result, u64& ops) {
         const u32 A = u32(active.size());
         ops = 0;
         wedges = inner = sum_min = 0;

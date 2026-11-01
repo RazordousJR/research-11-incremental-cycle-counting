@@ -5,8 +5,10 @@
 - **The original proposal is refuted.** Batch sharing for triangles failed Gate 0, 1.317 to 2.438 times sequential scanning, with a hindsight cap of 13%
   (`log.md` 0008, 0009).
 - **The PI kept the project open** (`log.md` 0010). Screens B and C are done, all non-citable. The ranking is `docs/novelty/candidates-2026-11-01.md`.
-- **Nothing is running. No claim is held.** Tower claim released 17:21:49.
-- M1B04, the choice of candidate, waits on the PI. Do not start a gate before it.
+- **The PI picked the study of when batch sharing pays across pattern size** (`log.md` 0018). D-k stays in reserve.
+- **Reading weakened that pick.** Cheetah publishes star grouping with reuse, and the trend itself (`log.md` 0019). What is left is the gain against the strongest baseline.
+- **Gate 1 is written and its arms are exact on the oracle.** `docs/experiments/gate1-protocol.md`. Series M1D in `docs/tasks/M1.md`.
+- **Nothing is running. No claim is held.**
 
 | Test | Verdict | Read with |
 |---|---|---|
@@ -17,17 +19,17 @@
 | M1C02, 5-cycles on operations | Stop at clause 4 | Clock reverses the winner |
 | M1C03, 5-cycles on the clock | Go by one cell | Shared clock. Worst-of-3 gives Pivot. Operations still favour tables on 16 of 22 |
 
+The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 Stop and parked, M1C02 Stop stands, M1C01 Go read with the V margin and the ring note.
+
 ## Open, waiting on the PI
 
-The live list is the final table of the last report. In short: M1B04, Chrome reading of Cheetah, Gopher and TODS, whether ControlPC is the coordinator, the readings of M1B02, M1B03 and
-M1C01, §16 figures, library checks for D-k, and two dataset downloads.
+The live list is the final table of the last report. In short: the word for an `--exclusive` Gate 1, and the sx-stackoverflow download.
 
 ## Handover notes
 
 - `data/` is not in git. `data/snap/SHA256SUMS` lists the six inputs. Rebuild `data/derived/` with `scripts/prepare_stream.py` and `scripts/prepare_window_stream.py`.
 - Raw per-batch files are ignored by git, under `results/**/raw/`.
-- Heavy work needs a tower claim, released between tests. ControlPC asked on 2026-11-01 for a GO or WAIT before heavy work and first sight of any `--exclusive` timing (`log.md` 0015). R11 follows that
-  until the PI says otherwise.
+- Heavy work needs a tower claim, released between tests. ControlPC is the coordinator (PI, `log.md` 0018; rule in `CLAUDE.md`).
 - After release, a process with the project folder name on its command line reads as R11 load. A watcher reads only lines written after it starts.
 - DBLP sits behind a bot check and is not screened.
 - Commits are under the PI's name, with the assistant as co-author.
