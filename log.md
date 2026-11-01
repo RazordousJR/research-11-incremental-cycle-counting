@@ -282,3 +282,17 @@ put them to the PI before asking for the GO, since the PI's "Proceed" covered pr
 or capped while paging reported, since such a stop is partly this machine's RAM.
 
 M1D02B ran on ControlPC's GO, under a short claim, because it reads engineering streams only: `results/gate1-M1D02B/README.md`. 0 mismatches. P4 / S4 is 0.667 to 0.994 on operations, and P3 / S3 is 1.145 to 1.685.
+
+## 0022, 2026-11-01: PI accepts the guard, the limit and the rest
+
+The PI answered the decision table of the last report in full: "Okeh aku terima semua and approved all. Proceed". Each item stands as I recommended it.
+
+| # | Item | Decision |
+|---|---|---|
+| 1 | Guard on P3 and P4 | Accepted, and disclosed in any paper. PR stays unguarded |
+| 2 | A4 and A5 stop at 300 s | Accepted |
+| 3 | Continue after Cheetah, or change to D-k | Continue through M1D03, and reassess before M1D04 |
+| 4 | `--exclusive` M1D04 | Not yet. Hours go to the PI after M1D03 |
+| 5 | sx-stackoverflow download | Deferred until M1D03 shows Gate 1 still alive |
+
+This satisfies the condition ControlPC set on its GO for M1D03 (0021). `scripts/run_m1d03.sh` takes the 8-hour line as a stop at the next cell boundary.

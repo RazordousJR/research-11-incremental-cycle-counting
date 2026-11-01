@@ -12,6 +12,8 @@ bin=build/gate1/count.exe
 data="${DATA:-data/derived}"
 cells="${CELLS:-sx-askubuntu:expiry sx-superuser:expiry wiki-talk-temporal:expiry sx-askubuntu:insert sx-superuser:insert wiki-talk-temporal:insert}"
 mkdir -p "$out/raw"
+started=$(date +%s)
+line=$((8 * 3600))   # ControlPC's line for this claim. Checked at each cell boundary. A rerun skips what finished.
 
 run() {
   local s=$1 v=$2 c=$3 p=$4 a=$5 f=$6
@@ -35,6 +37,7 @@ for p in 3 4 5; do
       for a in $arms; do run "$s" "$v" "$c" "$p" "$a" "$f"; done
       python -I scripts/check_m1d02.py "$out" "$s" "$v" "$c" || { echo "M1D03-STOP $s $v $c"; exit 1; }
       echo "CELL-DONE p$p $s $v $c $(date -u +%H:%M:%S)"
+      if [ $(($(date +%s) - started)) -ge "$line" ]; then echo "M1D03-LINE stopped at the 8-hour line after p$p $s $v $c"; exit 2; fi
     done
   done
 done
