@@ -15,8 +15,10 @@ mkdir -p "$out/raw"
 
 run() {
   local s=$1 v=$2 c=$3 p=$4 a=$5 f=$6
+  local cap=1200
+  [ "${a:0:1}" = A ] && cap=300
   [ -s "$out/raw/$s-$v-$c-p$p-$a.summary.csv" ] && return 0
-  timeout -k 5 1220 "$bin" "$f" "$s" "$v" "$c" "$p" "$a" "$out" --cap-seconds 1200 --cap-bytes 16000000000 --cpu "$cpu"
+  timeout -k 5 $((cap + 20)) "$bin" "$f" "$s" "$v" "$c" "$p" "$a" "$out" --cap-seconds "$cap" --cap-bytes 16000000000 --cpu "$cpu"
 }
 
 for p in 3 4 5; do

@@ -51,8 +51,10 @@ fi
 run_timing() {
   local s=$1 v=$2 c=$3 p=$4 a=$5 r=$6 f=$7 th="" sfx=""
   if [ "${a:0:1}" = M ]; then th="--theta $(theta_of "$p")"; sfx="-th$(theta_of "$p")"; fi
+  local cap=1200
+  [ "${a:0:1}" = A ] && cap=300
   [ -s "$out/raw/$s-$v-$c-p$p-$a$sfx.t$r.summary.csv" ] && return 0
-  timeout -k 5 1220 "$timing" "$f" "$s" "$v" "$c" "$p" "$a" "$out" $th --rep "$r" --cpu "$cpu" --cap-seconds 1200 --cap-bytes 16000000000
+  timeout -k 5 $((cap + 20)) "$timing" "$f" "$s" "$v" "$c" "$p" "$a" "$out" $th --rep "$r" --cpu "$cpu" --cap-seconds "$cap" --cap-bytes 16000000000
 }
 
 for p in 3 4 5; do

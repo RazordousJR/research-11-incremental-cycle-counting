@@ -84,14 +84,50 @@ inline i64 through4(const Graph& g, u32 u, u32 v, Row& row, Cost& c) {
     return n;
 }
 
+// The guards below read degrees only, are charged, and use nothing beyond the current batch. M1D02 showed why they are needed: a star at a hub with a few small spokes
+// cost P4 more than S4, because S4 walks from the lower-degree side and an unguarded row always walks from x. An arm must not lose to a careless form, and neither has a tuned parameter.
+
+// Triangles: build the row only if writing it costs no more than the probes the spokes would make.
+inline bool row_pays3(const Graph& g, const GroupV& gr, Cost& c) {
+    const u64 dx = g.deg(gr.x);
+    u64 probes = 0;
+    for (u32 v : gr.c) probes += std::min<u64>(dx, g.deg(v));
+    c.deg += gr.c.size() + 1;
+    return dx <= probes;
+}
+
+// 4-cycles: build the row only if the row and its spokes cost less than the scans they replace, as S4 prices them.
+inline bool row_pays4(const Graph& g, const GroupV& gr, Cost& c) {
+    const u32 x = gr.x;
+    const u64 dx = g.deg(x);
+    u64 walk = 0;
+    for (u32 a : g.nbr(x)) walk += g.deg(a);
+    c.deg += dx;
+    u64 star = walk, scans = 0;
+    for (u32 v : gr.c) {
+        const u64 dv = g.deg(v);
+        star += 2 * dv;
+        ++c.deg;
+        if (dv >= dx) { scans += dv + walk; continue; }
+        u64 w = 0;
+        for (u32 a : g.nbr(v)) w += g.deg(a);
+        c.deg += dv;
+        scans += dx + w;
+    }
+    return star < scans;
+}
+
 // Star at x for triangles. Row holds N(x) as adjusted by the spokes so far. A spoke of higher degree than x is read from x's side, so sharing never makes a spoke dearer than S3.
 inline i64 star3(Graph& g, const GroupV& gr, bool ins, Row& row, Cost& c) {
     const u32 x = gr.x;
-    if (gr.c.size() == 1) {
-        const u32 v = gr.c[0];
-        const i64 s = through3(g, x, v, c);
-        edit(g, x, v, ins, c);
-        return ins ? s : -s;
+    if (gr.c.size() == 1 || !row_pays3(g, gr, c)) {
+        i64 delta = 0;
+        for (u32 v : gr.c) {
+            const i64 s = through3(g, x, v, c);
+            edit(g, x, v, ins, c);
+            delta += ins ? s : -s;
+        }
+        return delta;
     }
     row.next();
     for (u32 a : g.nbr(x)) { ++c.scan; row.add(a, 1); c.row += 2; }
@@ -115,11 +151,14 @@ inline i64 star3(Graph& g, const GroupV& gr, bool ins, Row& row, Cost& c) {
 // Star at x for 4-cycles. A[b] is the paths x-a-b with b != x, kept right as each spoke moves.
 inline i64 star4(Graph& g, const GroupV& gr, bool ins, Row& row, Cost& c) {
     const u32 x = gr.x;
-    if (gr.c.size() == 1) {
-        const u32 v = gr.c[0];
-        const i64 s = through4(g, x, v, row, c);
-        edit(g, x, v, ins, c);
-        return ins ? s : -s;
+    if (gr.c.size() == 1 || !row_pays4(g, gr, c)) {
+        i64 delta = 0;
+        for (u32 v : gr.c) {
+            const i64 s = through4(g, x, v, row, c);
+            edit(g, x, v, ins, c);
+            delta += ins ? s : -s;
+        }
+        return delta;
     }
     row.next();
     const std::vector<u32>& nx = g.nbr(x);
@@ -575,6 +614,11 @@ public:
         if (e5_) return e5_->table_capped();
         return mix_ && mix_->wt.capped;
     }
+    // The tables carry their own limit, 6 GB as M1C03 left it, below the job limit. Gate 1 raises both.
+    void set_table_cap(u64 bytes) {
+        if (e5_) { e5_->wedge.cap_bytes = bytes; e5_->wt.cap_bytes = bytes; }
+        if (mix_) mix_->wt.cap_bytes = bytes;
+    }
     u64 heavy() const { return mix_ ? mix_->heavy_now() : 0; }
     u64 saturated() const { return mix_ ? mix_->wt.peak_saturated() : 0; }
     u64 turns() const { return mix_ ? mix_->turns() : 0; }
@@ -800,6 +844,7 @@ int main(int argc, char** argv) {
 
     auto engine = std::make_unique<Counter>(R.pattern, R.arm, R.n, R.theta);
     Counter& s = *engine;
+    s.set_table_cap(cap_bytes);
     R.s = engine.get();
     Normaliser norm;
     std::vector<Update> b;

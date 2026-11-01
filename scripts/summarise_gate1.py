@@ -5,7 +5,7 @@ Writes gate1.csv into the timing outdir and prints the tables. Stop is read firs
 
 READINGS FIXED BEFORE THE FIRST STREAM.
 - Finished: an arm's first repeat finished. An arm that ran once only has that repeat as its median, slowest and fastest.
-- An arm stopped by time enters at the limit, 1,200 s, as a lower bound, for the score and the pass test alike. An arm stopped by memory is out of the cell.
+- An arm stopped by time enters at its limit, 1,200 s, or 300 s for A4 and A5, as a lower bound, for the score and the pass test alike. An arm stopped by memory is out of the cell.
 - Share: P3, P4 or PR. At p = 4, the faster of P4 and B4 by median, and both are printed.
 - Best: the fastest of the other rows, B4 aside, by median for the score and by fastest repeat for the pass test.
 - Scored: share finished and at least one other arm finished. If share did not finish, the cell is listed and not scored.
@@ -43,7 +43,8 @@ def arm(out, s, v, c, p, a):
     if status == "OK":
         return {"status": "OK", "med": statistics.median(ok), "lo": min(ok), "hi": max(ok), "n": len(ok), "bytes": int(runs[0]["table_bytes"])}
     if status == "TIME":
-        return {"status": "TIME", "med": LIMIT, "lo": LIMIT, "hi": LIMIT, "n": 0, "bytes": int(runs[0]["table_bytes"])}
+        lim = 300.0 if a[0] == "A" else LIMIT
+        return {"status": "TIME", "med": lim, "lo": lim, "hi": lim, "n": 0, "bytes": int(runs[0]["table_bytes"])}
     return {"status": status, "med": math.inf, "lo": math.inf, "hi": math.inf, "n": 0, "bytes": int(runs[0]["table_bytes"])}
 
 

@@ -260,3 +260,17 @@ the fastest baseline repeat, since M1C03's Go hung on one clock tick. The memory
 
 Arms: `benchmarks/gate1.cpp`, oracle `tests/test_gate1.cpp`. The oracle passes on 400 trials and on 12 hub stress runs, with both controls failing as they must and 14 of 14 new mutants caught. `benchmarks/fivecycle.cpp` took two additive edits for reuse, so its hash no longer
 equals ec3c9fb237b4 at HEAD. That hash stays true of commit 2b728d4, which M1C03 cites. `tests/test_fivecycle.cpp` still passes, on 1,500 trials, and M1D02 checks the counts on real cells.
+
+## 0020, 2026-11-01: M1D02 clean; three changes before any evaluation run
+
+M1D02 ran 19:42 to 19:52 under an ordinary claim on ControlPC's GO, against a planned 45 minutes: `results/gate1-M1D02/README.md`. R2, PR, WT and WJ match M1C03 on all 48 arm-cells, count and operations, per batch. All arms agree on all 12 engineering cells. Agreement is partial on two
+arm-cells: A5 stopped at the 120 s limit on sx-mathoverflow insert, at 382 of 391 and 1,484 of 3,905 batches. A4 on the same stream at cut 100 took 114 s. These are the three processes past a minute, against a protocol row that said under a minute, as ControlPC asked me to record.
+
+Three changes followed, all before any evaluation run, and engineering streams exist for exactly this.
+
+1. **A guard on P3 and P4.** P4 cost more than S4 on sx-mathoverflow insert and on sx-mathoverflow expiry cut 100, because an unguarded row at a hub cannot pick the cheaper side. That is a careless form of the sharing arm. The guard has no tuned parameter. On sx-mathoverflow insert cut 1,000, P4 falls from 3.25G to 1.77G operations, and S4 is 2.24G.
+   This change favours the sharing arm and was prompted by an engineering stream, so a reader should know it came after seeing operations. PR keeps no guard, to stay checkable against M1C03. Agreement of the guarded arms is M1D02B.
+2. **A4 and A5 stop at 300 s, not 1,200 s.** A5 had spent about 20 times PR's whole run when stopped. Twelve evaluation cells at 20 minutes for an arm that wins nothing is hours of a shared machine. A stopped arm enters at its limit, so this makes the test harder for the sharing arm, never easier.
+3. **The tables' own 6 GB limit is raised with the job limit.** `Wedge` and `WTable` carried their own limit, which would have kept the old bound in place under a 16 GB job. Five arm-cells rerun gave byte-identical raw files.
+
+The P3 and P4 operation figures in M1D02's `run.log` are the unguarded forms. The dry run of the sweep scripts used a synthetic stream under a borrowed name in the scratchpad, and its numbers are not evidence of anything.

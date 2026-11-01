@@ -1,0 +1,289 @@
+CollegeMsg-expiry-1000 p3 S3 status=OK done=120/120 net=31024 ops=747540 t=0 table=0 secs=0.004
+CollegeMsg-expiry-1000 p3 P3 status=OK done=120/120 net=31024 ops=1242450 t=0 table=0 secs=0.004
+CollegeMsg-expiry-1000 p3 T3 status=OK done=120/120 net=31024 ops=8403548 t=0 table=1880088 secs=0.024
+CollegeMsg-expiry-1000 p3 M3 status=OK done=120/120 net=31024 ops=8214294 t=0 table=1668152 secs=0.023
+CollegeMsg-expiry-1000 p4 S4 status=OK done=120/120 net=31024 ops=12053536 t=0 table=0 secs=0.007
+CollegeMsg-expiry-1000 p4 P4 status=OK done=120/120 net=31024 ops=9383870 t=0 table=0 secs=0.007
+CollegeMsg-expiry-1000 p4 T4 status=OK done=120/120 net=31024 ops=8834188 t=0 table=1880088 secs=0.025
+CollegeMsg-expiry-1000 p4 M4 status=OK done=120/120 net=31024 ops=8682221 t=0 table=1668152 secs=0.024
+CollegeMsg-expiry-1000 p4 B4 status=OK done=120/120 net=31024 ops=32541503 t=0 table=0 secs=0.022
+CollegeMsg-expiry-1000 p4 A4 status=OK done=120/120 net=31024 ops=38158418 t=0 table=0 secs=0.038
+CollegeMsg-expiry-1000 p5 R2 status=OK done=120/120 net=31024 ops=41152131 t=0 table=3072 secs=0.028
+CollegeMsg-expiry-1000 p5 PR status=OK done=120/120 net=31024 ops=24861811 t=0 table=3072 secs=0.019
+CollegeMsg-expiry-1000 p5 WT status=OK done=120/120 net=31024 ops=28599040 t=0 table=1880088 secs=0.034
+CollegeMsg-expiry-1000 p5 WJ status=OK done=120/120 net=31024 ops=18753032 t=0 table=1572864 secs=0.094
+CollegeMsg-expiry-1000 p5 M5 status=OK done=120/120 net=31024 ops=32277130 t=0 table=1668152 secs=0.037
+CollegeMsg-expiry-1000 p5 A5 status=OK done=120/120 net=31024 ops=137625887 t=0 table=0 secs=0.096
+CollegeMsg-expiry-1000 p3 final 0 ops M3:8214294 P3:1242450 S3:747540 T3:8403548
+CollegeMsg-expiry-1000 p4 final 0 ops A4:38158418 B4:32541503 M4:8682221 P4:9383870 S4:12053536 T4:8834188
+CollegeMsg-expiry-1000 p5 final 0 ops A5:137625887 M5:32277130 PR:24861811 R2:41152131 WJ:18753032 WT:28599040
+regression CollegeMsg-expiry-1000 R2: 120 batches compared, 0 differ
+regression CollegeMsg-expiry-1000 PR: 120 batches compared, 0 differ
+regression CollegeMsg-expiry-1000 WT: 120 batches compared, 0 differ
+regression CollegeMsg-expiry-1000 WJ: 120 batches compared, 0 differ
+CELL-DONE CollegeMsg expiry 1000
+CollegeMsg-expiry-100 p3 S3 status=OK done=1197/1197 net=31870 ops=762553 t=0 table=0 secs=0.005
+CollegeMsg-expiry-100 p3 P3 status=OK done=1197/1197 net=31870 ops=1293156 t=0 table=0 secs=0.005
+CollegeMsg-expiry-100 p3 T3 status=OK done=1197/1197 net=31870 ops=8609798 t=0 table=1899748 secs=0.025
+CollegeMsg-expiry-100 p3 M3 status=OK done=1197/1197 net=31870 ops=8411380 t=0 table=1683968 secs=0.024
+CollegeMsg-expiry-100 p4 S4 status=OK done=1197/1197 net=31870 ops=12465610 t=0 table=0 secs=0.007
+CollegeMsg-expiry-100 p4 P4 status=OK done=1197/1197 net=31870 ops=12363644 t=0 table=0 secs=0.008
+CollegeMsg-expiry-100 p4 T4 status=OK done=1197/1197 net=31870 ops=9053336 t=0 table=1899748 secs=0.026
+CollegeMsg-expiry-100 p4 M4 status=OK done=1197/1197 net=31870 ops=8895126 t=0 table=1683968 secs=0.025
+CollegeMsg-expiry-100 p4 B4 status=OK done=1197/1197 net=31870 ops=47643123 t=0 table=0 secs=0.025
+CollegeMsg-expiry-100 p4 A4 status=OK done=1197/1197 net=31870 ops=203029296 t=0 table=0 secs=0.191
+CollegeMsg-expiry-100 p5 R2 status=OK done=1197/1197 net=31870 ops=42546062 t=0 table=3072 secs=0.029
+CollegeMsg-expiry-100 p5 PR status=OK done=1197/1197 net=31870 ops=32209918 t=0 table=3072 secs=0.024
+CollegeMsg-expiry-100 p5 WT status=OK done=1197/1197 net=31870 ops=29359917 t=0 table=1899748 secs=0.036
+CollegeMsg-expiry-100 p5 WJ status=OK done=1197/1197 net=31870 ops=19305796 t=0 table=1572864 secs=0.098
+CollegeMsg-expiry-100 p5 M5 status=OK done=1197/1197 net=31870 ops=33156463 t=0 table=1683968 secs=0.038
+CollegeMsg-expiry-100 p5 A5 status=OK done=1197/1197 net=31870 ops=1338281258 t=0 table=0 secs=0.870
+CollegeMsg-expiry-100 p3 final 0 ops M3:8411380 P3:1293156 S3:762553 T3:8609798
+CollegeMsg-expiry-100 p4 final 0 ops A4:203029296 B4:47643123 M4:8895126 P4:12363644 S4:12465610 T4:9053336
+CollegeMsg-expiry-100 p5 final 0 ops A5:1338281258 M5:33156463 PR:32209918 R2:42546062 WJ:19305796 WT:29359917
+regression CollegeMsg-expiry-100 R2: 1197 batches compared, 0 differ
+regression CollegeMsg-expiry-100 PR: 1197 batches compared, 0 differ
+regression CollegeMsg-expiry-100 WT: 1197 batches compared, 0 differ
+regression CollegeMsg-expiry-100 WJ: 1197 batches compared, 0 differ
+CELL-DONE CollegeMsg expiry 100
+CollegeMsg-insert-1000 p3 S3 status=OK done=60/60 net=13838 ops=446138 t=14319 table=0 secs=0.003
+CollegeMsg-insert-1000 p3 P3 status=OK done=60/60 net=13838 ops=735338 t=14319 table=0 secs=0.003
+CollegeMsg-insert-1000 p3 T3 status=OK done=60/60 net=13838 ops=7143502 t=14319 table=6259428 secs=0.016
+CollegeMsg-insert-1000 p3 M3 status=OK done=60/60 net=13838 ops=6770956 t=14319 table=4290636 secs=0.017
+CollegeMsg-insert-1000 p4 S4 status=OK done=60/60 net=13838 ops=13779122 t=729064 table=0 secs=0.006
+CollegeMsg-insert-1000 p4 P4 status=OK done=60/60 net=13838 ops=10657771 t=729064 table=0 secs=0.006
+CollegeMsg-insert-1000 p4 T4 status=OK done=60/60 net=13838 ops=7442294 t=729064 table=6259428 secs=0.017
+CollegeMsg-insert-1000 p4 M4 status=OK done=60/60 net=13838 ops=7513881 t=729064 table=4290636 secs=0.018
+CollegeMsg-insert-1000 p4 B4 status=OK done=60/60 net=13838 ops=39819327 t=729064 table=0 secs=0.019
+CollegeMsg-insert-1000 p4 A4 status=OK done=60/60 net=13838 ops=84880364 t=729064 table=0 secs=0.071
+CollegeMsg-insert-1000 p5 R2 status=OK done=60/60 net=13838 ops=56867773 t=18543001 table=3072 secs=0.028
+CollegeMsg-insert-1000 p5 PR status=OK done=60/60 net=13838 ops=34594704 t=18543001 table=3072 secs=0.018
+CollegeMsg-insert-1000 p5 WT status=OK done=60/60 net=13838 ops=28914460 t=18543001 table=6259428 secs=0.028
+CollegeMsg-insert-1000 p5 WJ status=OK done=60/60 net=13838 ops=21600519 t=18543001 table=12582912 secs=0.115
+CollegeMsg-insert-1000 p5 M5 status=OK done=60/60 net=13838 ops=37066767 t=18543001 table=4290636 secs=0.034
+CollegeMsg-insert-1000 p5 A5 status=OK done=60/60 net=13838 ops=441040770 t=18543001 table=0 secs=0.251
+CollegeMsg-insert-1000 p3 final 14319 ops M3:6770956 P3:735338 S3:446138 T3:7143502
+CollegeMsg-insert-1000 p4 final 729064 ops A4:84880364 B4:39819327 M4:7513881 P4:10657771 S4:13779122 T4:7442294
+CollegeMsg-insert-1000 p5 final 18543001 ops A5:441040770 M5:37066767 PR:34594704 R2:56867773 WJ:21600519 WT:28914460
+regression CollegeMsg-insert-1000 R2: 60 batches compared, 0 differ
+regression CollegeMsg-insert-1000 PR: 60 batches compared, 0 differ
+regression CollegeMsg-insert-1000 WT: 60 batches compared, 0 differ
+regression CollegeMsg-insert-1000 WJ: 60 batches compared, 0 differ
+CELL-DONE CollegeMsg insert 1000
+CollegeMsg-insert-100 p3 S3 status=OK done=599/599 net=13838 ops=445264 t=14319 table=0 secs=0.003
+CollegeMsg-insert-100 p3 P3 status=OK done=599/599 net=13838 ops=779103 t=14319 table=0 secs=0.003
+CollegeMsg-insert-100 p3 T3 status=OK done=599/599 net=13838 ops=7143262 t=14319 table=6244580 secs=0.017
+CollegeMsg-insert-100 p3 M3 status=OK done=599/599 net=13838 ops=6777161 t=14319 table=4307504 secs=0.017
+CollegeMsg-insert-100 p4 S4 status=OK done=599/599 net=13838 ops=13806774 t=729064 table=0 secs=0.006
+CollegeMsg-insert-100 p4 P4 status=OK done=599/599 net=13838 ops=14252225 t=729064 table=0 secs=0.007
+CollegeMsg-insert-100 p4 T4 status=OK done=599/599 net=13838 ops=7441180 t=729064 table=6244580 secs=0.017
+CollegeMsg-insert-100 p4 M4 status=OK done=599/599 net=13838 ops=7526086 t=729064 table=4307504 secs=0.018
+CollegeMsg-insert-100 p4 B4 status=OK done=599/599 net=13838 ops=59898612 t=729064 table=0 secs=0.023
+CollegeMsg-insert-100 p4 A4 status=OK done=599/599 net=13838 ops=439824425 t=729064 table=0 secs=0.361
+CollegeMsg-insert-100 p5 R2 status=OK done=599/599 net=13838 ops=56920853 t=18543001 table=3072 secs=0.028
+CollegeMsg-insert-100 p5 PR status=OK done=599/599 net=13838 ops=43101334 t=18543001 table=3072 secs=0.021
+CollegeMsg-insert-100 p5 WT status=OK done=599/599 net=13838 ops=28872517 t=18543001 table=6244580 secs=0.027
+CollegeMsg-insert-100 p5 WJ status=OK done=599/599 net=13838 ops=21562177 t=18543001 table=12582912 secs=0.114
+CollegeMsg-insert-100 p5 M5 status=OK done=599/599 net=13838 ops=37002329 t=18543001 table=4307504 secs=0.034
+CollegeMsg-insert-100 p5 A5 status=OK done=599/599 net=13838 ops=4366454111 t=18543001 table=0 secs=2.460
+CollegeMsg-insert-100 p3 final 14319 ops M3:6777161 P3:779103 S3:445264 T3:7143262
+CollegeMsg-insert-100 p4 final 729064 ops A4:439824425 B4:59898612 M4:7526086 P4:14252225 S4:13806774 T4:7441180
+CollegeMsg-insert-100 p5 final 18543001 ops A5:4366454111 M5:37002329 PR:43101334 R2:56920853 WJ:21562177 WT:28872517
+regression CollegeMsg-insert-100 R2: 599 batches compared, 0 differ
+regression CollegeMsg-insert-100 PR: 599 batches compared, 0 differ
+regression CollegeMsg-insert-100 WT: 599 batches compared, 0 differ
+regression CollegeMsg-insert-100 WJ: 599 batches compared, 0 differ
+CELL-DONE CollegeMsg insert 100
+email-Eu-core-temporal-expiry-1000 p3 S3 status=OK done=665/665 net=187712 ops=4116834 t=0 table=0 secs=0.023
+email-Eu-core-temporal-expiry-1000 p3 P3 status=OK done=665/665 net=187712 ops=6444463 t=0 table=0 secs=0.021
+email-Eu-core-temporal-expiry-1000 p3 T3 status=OK done=665/665 net=187712 ops=30510262 t=0 table=624784 secs=0.089
+email-Eu-core-temporal-expiry-1000 p3 M3 status=OK done=665/665 net=187712 ops=31636534 t=0 table=624784 secs=0.090
+email-Eu-core-temporal-expiry-1000 p4 S4 status=OK done=665/665 net=187712 ops=37187166 t=0 table=0 secs=0.029
+email-Eu-core-temporal-expiry-1000 p4 P4 status=OK done=665/665 net=187712 ops=29679857 t=0 table=0 secs=0.030
+email-Eu-core-temporal-expiry-1000 p4 T4 status=OK done=665/665 net=187712 ops=32828480 t=0 table=624784 secs=0.093
+email-Eu-core-temporal-expiry-1000 p4 M4 status=OK done=665/665 net=187712 ops=33954752 t=0 table=624784 secs=0.094
+email-Eu-core-temporal-expiry-1000 p4 B4 status=OK done=665/665 net=187712 ops=108413928 t=0 table=0 secs=0.104
+email-Eu-core-temporal-expiry-1000 p4 A4 status=OK done=665/665 net=187712 ops=98282749 t=0 table=0 secs=0.119
+email-Eu-core-temporal-expiry-1000 p5 R2 status=OK done=665/665 net=187712 ops=105096884 t=0 table=3072 secs=0.108
+email-Eu-core-temporal-expiry-1000 p5 PR status=OK done=665/665 net=187712 ops=68289445 t=0 table=3072 secs=0.079
+email-Eu-core-temporal-expiry-1000 p5 WT status=OK done=665/665 net=187712 ops=91929959 t=0 table=624784 secs=0.119
+email-Eu-core-temporal-expiry-1000 p5 WJ status=OK done=665/665 net=187712 ops=55603699 t=0 table=786432 secs=0.250
+email-Eu-core-temporal-expiry-1000 p5 M5 status=OK done=665/665 net=187712 ops=102148090 t=0 table=624784 secs=0.125
+email-Eu-core-temporal-expiry-1000 p5 A5 status=OK done=665/665 net=187712 ops=301575588 t=0 table=0 secs=0.245
+email-Eu-core-temporal-expiry-1000 p3 final 0 ops M3:31636534 P3:6444463 S3:4116834 T3:30510262
+email-Eu-core-temporal-expiry-1000 p4 final 0 ops A4:98282749 B4:108413928 M4:33954752 P4:29679857 S4:37187166 T4:32828480
+email-Eu-core-temporal-expiry-1000 p5 final 0 ops A5:301575588 M5:102148090 PR:68289445 R2:105096884 WJ:55603699 WT:91929959
+regression email-Eu-core-temporal-expiry-1000 R2: 665 batches compared, 0 differ
+regression email-Eu-core-temporal-expiry-1000 PR: 665 batches compared, 0 differ
+regression email-Eu-core-temporal-expiry-1000 WT: 665 batches compared, 0 differ
+regression email-Eu-core-temporal-expiry-1000 WJ: 665 batches compared, 0 differ
+CELL-DONE email-Eu-core-temporal expiry 1000
+email-Eu-core-temporal-expiry-100 p3 S3 status=OK done=6647/6647 net=222950 ops=4776335 t=0 table=0 secs=0.027
+email-Eu-core-temporal-expiry-100 p3 P3 status=OK done=6647/6647 net=222950 ops=7255365 t=0 table=0 secs=0.026
+email-Eu-core-temporal-expiry-100 p3 T3 status=OK done=6647/6647 net=222950 ops=36809040 t=0 table=640900 secs=0.105
+email-Eu-core-temporal-expiry-100 p3 M3 status=OK done=6647/6647 net=222950 ops=38146740 t=0 table=640900 secs=0.106
+email-Eu-core-temporal-expiry-100 p4 S4 status=OK done=6647/6647 net=222950 ops=46717918 t=0 table=0 secs=0.036
+email-Eu-core-temporal-expiry-100 p4 P4 status=OK done=6647/6647 net=222950 ops=40981871 t=0 table=0 secs=0.038
+email-Eu-core-temporal-expiry-100 p4 T4 status=OK done=6647/6647 net=222950 ops=39698664 t=0 table=640900 secs=0.111
+email-Eu-core-temporal-expiry-100 p4 M4 status=OK done=6647/6647 net=222950 ops=41036364 t=0 table=640900 secs=0.113
+email-Eu-core-temporal-expiry-100 p4 B4 status=OK done=6647/6647 net=222950 ops=164559778 t=0 table=0 secs=0.121
+email-Eu-core-temporal-expiry-100 p4 A4 status=OK done=6647/6647 net=222950 ops=473734475 t=0 table=0 secs=0.495
+email-Eu-core-temporal-expiry-100 p5 R2 status=OK done=6647/6647 net=222950 ops=132956253 t=0 table=3072 secs=0.133
+email-Eu-core-temporal-expiry-100 p5 PR status=OK done=6647/6647 net=222950 ops=98826681 t=0 table=3072 secs=0.109
+email-Eu-core-temporal-expiry-100 p5 WT status=OK done=6647/6647 net=222950 ops=114623610 t=0 table=640900 secs=0.142
+email-Eu-core-temporal-expiry-100 p5 WJ status=OK done=6647/6647 net=222950 ops=70329075 t=0 table=786432 secs=0.316
+email-Eu-core-temporal-expiry-100 p5 M5 status=OK done=6647/6647 net=222950 ops=127200529 t=0 table=640900 secs=0.150
+email-Eu-core-temporal-expiry-100 p5 A5 status=OK done=6647/6647 net=222950 ops=2762942879 t=0 table=0 secs=2.020
+email-Eu-core-temporal-expiry-100 p3 final 0 ops M3:38146740 P3:7255365 S3:4776335 T3:36809040
+email-Eu-core-temporal-expiry-100 p4 final 0 ops A4:473734475 B4:164559778 M4:41036364 P4:40981871 S4:46717918 T4:39698664
+email-Eu-core-temporal-expiry-100 p5 final 0 ops A5:2762942879 M5:127200529 PR:98826681 R2:132956253 WJ:70329075 WT:114623610
+regression email-Eu-core-temporal-expiry-100 R2: 6647 batches compared, 0 differ
+regression email-Eu-core-temporal-expiry-100 PR: 6647 batches compared, 0 differ
+regression email-Eu-core-temporal-expiry-100 WT: 6647 batches compared, 0 differ
+regression email-Eu-core-temporal-expiry-100 WJ: 6647 batches compared, 0 differ
+CELL-DONE email-Eu-core-temporal expiry 100
+email-Eu-core-temporal-insert-1000 p3 S3 status=OK done=333/333 net=16064 ops=1377016 t=105461 table=0 secs=0.008
+email-Eu-core-temporal-insert-1000 p3 P3 status=OK done=333/333 net=16064 ops=1843292 t=105461 table=0 secs=0.006
+email-Eu-core-temporal-insert-1000 p3 T3 status=OK done=333/333 net=16064 ops=9550032 t=105461 table=4475424 secs=0.019
+email-Eu-core-temporal-insert-1000 p3 M3 status=OK done=333/333 net=16064 ops=9972898 t=105461 table=3255468 secs=0.020
+email-Eu-core-temporal-insert-1000 p4 S4 status=OK done=333/333 net=16064 ops=38575706 t=4647873 table=0 secs=0.013
+email-Eu-core-temporal-insert-1000 p4 P4 status=OK done=333/333 net=16064 ops=37023369 t=4647873 table=0 secs=0.014
+email-Eu-core-temporal-insert-1000 p4 T4 status=OK done=333/333 net=16064 ops=10230252 t=4647873 table=4475424 secs=0.020
+email-Eu-core-temporal-insert-1000 p4 M4 status=OK done=333/333 net=16064 ops=13201038 t=4647873 table=3255468 secs=0.023
+email-Eu-core-temporal-insert-1000 p4 B4 status=OK done=333/333 net=16064 ops=144897389 t=4647873 table=0 secs=0.049
+email-Eu-core-temporal-insert-1000 p4 A4 status=OK done=333/333 net=16064 ops=961408153 t=4647873 table=0 secs=0.665
+email-Eu-core-temporal-insert-1000 p5 R2 status=OK done=333/333 net=16064 ops=140735647 t=245585096 table=3072 secs=0.059
+email-Eu-core-temporal-insert-1000 p5 PR status=OK done=333/333 net=16064 ops=108229110 t=245585096 table=3072 secs=0.046
+email-Eu-core-temporal-insert-1000 p5 WT status=OK done=333/333 net=16064 ops=71984484 t=245585096 table=4475424 secs=0.045
+email-Eu-core-temporal-insert-1000 p5 WJ status=OK done=333/333 net=16064 ops=57259533 t=245585096 table=6291456 secs=0.216
+email-Eu-core-temporal-insert-1000 p5 M5 status=OK done=333/333 net=16064 ops=97907179 t=245585096 table=3255468 secs=0.059
+email-Eu-core-temporal-insert-1000 p5 A5 status=OK done=333/333 net=16064 ops=8144232379 t=245585096 table=0 secs=3.853
+email-Eu-core-temporal-insert-1000 p3 final 105461 ops M3:9972898 P3:1843292 S3:1377016 T3:9550032
+email-Eu-core-temporal-insert-1000 p4 final 4647873 ops A4:961408153 B4:144897389 M4:13201038 P4:37023369 S4:38575706 T4:10230252
+email-Eu-core-temporal-insert-1000 p5 final 245585096 ops A5:8144232379 M5:97907179 PR:108229110 R2:140735647 WJ:57259533 WT:71984484
+regression email-Eu-core-temporal-insert-1000 R2: 333 batches compared, 0 differ
+regression email-Eu-core-temporal-insert-1000 PR: 333 batches compared, 0 differ
+regression email-Eu-core-temporal-insert-1000 WT: 333 batches compared, 0 differ
+regression email-Eu-core-temporal-insert-1000 WJ: 333 batches compared, 0 differ
+CELL-DONE email-Eu-core-temporal insert 1000
+email-Eu-core-temporal-insert-100 p3 S3 status=OK done=3324/3324 net=16064 ops=1376584 t=105461 table=0 secs=0.008
+email-Eu-core-temporal-insert-100 p3 P3 status=OK done=3324/3324 net=16064 ops=1684056 t=105461 table=0 secs=0.007
+email-Eu-core-temporal-insert-100 p3 T3 status=OK done=3324/3324 net=16064 ops=9550552 t=105461 table=4476448 secs=0.020
+email-Eu-core-temporal-insert-100 p3 M3 status=OK done=3324/3324 net=16064 ops=9968837 t=105461 table=3244248 secs=0.021
+email-Eu-core-temporal-insert-100 p4 S4 status=OK done=3324/3324 net=16064 ops=38571462 t=4647873 table=0 secs=0.014
+email-Eu-core-temporal-insert-100 p4 P4 status=OK done=3324/3324 net=16064 ops=36751898 t=4647873 table=0 secs=0.015
+email-Eu-core-temporal-insert-100 p4 T4 status=OK done=3324/3324 net=16064 ops=10230340 t=4647873 table=4476448 secs=0.021
+email-Eu-core-temporal-insert-100 p4 M4 status=OK done=3324/3324 net=16064 ops=13191022 t=4647873 table=3244248 secs=0.024
+email-Eu-core-temporal-insert-100 p4 B4 status=OK done=3324/3324 net=16064 ops=166668777 t=4647873 table=0 secs=0.054
+email-Eu-core-temporal-insert-100 p4 A4 status=OK done=3324/3324 net=16064 ops=2466297371 t=4647873 table=0 secs=1.760
+email-Eu-core-temporal-insert-100 p5 R2 status=OK done=3324/3324 net=16064 ops=140762283 t=245585096 table=3072 secs=0.060
+email-Eu-core-temporal-insert-100 p5 PR status=OK done=3324/3324 net=16064 ops=120197562 t=245585096 table=3072 secs=0.052
+email-Eu-core-temporal-insert-100 p5 WT status=OK done=3324/3324 net=16064 ops=71958622 t=245585096 table=4476448 secs=0.046
+email-Eu-core-temporal-insert-100 p5 WJ status=OK done=3324/3324 net=16064 ops=57230586 t=245585096 table=6291456 secs=0.218
+email-Eu-core-temporal-insert-100 p5 M5 status=OK done=3324/3324 net=16064 ops=97829915 t=245585096 table=3244248 secs=0.059
+email-Eu-core-temporal-insert-100 p5 A5 status=OK done=3324/3324 net=16064 ops=69186419374 t=245585096 table=0 secs=32.369
+email-Eu-core-temporal-insert-100 p3 final 105461 ops M3:9968837 P3:1684056 S3:1376584 T3:9550552
+email-Eu-core-temporal-insert-100 p4 final 4647873 ops A4:2466297371 B4:166668777 M4:13191022 P4:36751898 S4:38571462 T4:10230340
+email-Eu-core-temporal-insert-100 p5 final 245585096 ops A5:69186419374 M5:97829915 PR:120197562 R2:140762283 WJ:57230586 WT:71958622
+regression email-Eu-core-temporal-insert-100 R2: 3324 batches compared, 0 differ
+regression email-Eu-core-temporal-insert-100 PR: 3324 batches compared, 0 differ
+regression email-Eu-core-temporal-insert-100 WT: 3324 batches compared, 0 differ
+regression email-Eu-core-temporal-insert-100 WJ: 3324 batches compared, 0 differ
+CELL-DONE email-Eu-core-temporal insert 100
+sx-mathoverflow-expiry-1000 p3 S3 status=OK done=781/781 net=485368 ops=6662022 t=0 table=0 secs=0.042
+sx-mathoverflow-expiry-1000 p3 P3 status=OK done=781/781 net=485368 ops=12044366 t=0 table=0 secs=0.041
+sx-mathoverflow-expiry-1000 p3 T3 status=OK done=781/781 net=485368 ops=66209242 t=0 table=1555788 secs=0.214
+sx-mathoverflow-expiry-1000 p3 M3 status=OK done=781/781 net=485368 ops=69107799 t=0 table=1555788 secs=0.215
+sx-mathoverflow-expiry-1000 p4 S4 status=OK done=781/781 net=485368 ops=58574500 t=0 table=0 secs=0.058
+sx-mathoverflow-expiry-1000 p4 P4 status=OK done=781/781 net=485368 ops=46917528 t=0 table=0 secs=0.062
+sx-mathoverflow-expiry-1000 p4 T4 status=OK done=781/781 net=485368 ops=70096080 t=0 table=1555788 secs=0.224
+sx-mathoverflow-expiry-1000 p4 M4 status=OK done=781/781 net=485368 ops=73003852 t=0 table=1555788 secs=0.224
+sx-mathoverflow-expiry-1000 p4 B4 status=OK done=781/781 net=485368 ops=152208821 t=0 table=0 secs=0.193
+sx-mathoverflow-expiry-1000 p4 A4 status=OK done=781/781 net=485368 ops=97147970 t=0 table=0 secs=0.154
+sx-mathoverflow-expiry-1000 p5 R2 status=OK done=781/781 net=485368 ops=186440955 t=0 table=3072 secs=0.206
+sx-mathoverflow-expiry-1000 p5 PR status=OK done=781/781 net=485368 ops=105637222 t=0 table=3072 secs=0.138
+sx-mathoverflow-expiry-1000 p5 WT status=OK done=781/781 net=485368 ops=177495063 t=0 table=1555788 secs=0.270
+sx-mathoverflow-expiry-1000 p5 WJ status=OK done=781/781 net=485368 ops=101468233 t=0 table=786432 secs=0.344
+sx-mathoverflow-expiry-1000 p5 M5 status=OK done=781/781 net=485368 ops=198501354 t=0 table=1555788 secs=0.286
+sx-mathoverflow-expiry-1000 p5 A5 status=OK done=781/781 net=485368 ops=289257754 t=0 table=0 secs=0.271
+sx-mathoverflow-expiry-1000 p3 final 0 ops M3:69107799 P3:12044366 S3:6662022 T3:66209242
+sx-mathoverflow-expiry-1000 p4 final 0 ops A4:97147970 B4:152208821 M4:73003852 P4:46917528 S4:58574500 T4:70096080
+sx-mathoverflow-expiry-1000 p5 final 0 ops A5:289257754 M5:198501354 PR:105637222 R2:186440955 WJ:101468233 WT:177495063
+regression sx-mathoverflow-expiry-1000 R2: 781 batches compared, 0 differ
+regression sx-mathoverflow-expiry-1000 PR: 781 batches compared, 0 differ
+regression sx-mathoverflow-expiry-1000 WT: 781 batches compared, 0 differ
+regression sx-mathoverflow-expiry-1000 WJ: 781 batches compared, 0 differ
+CELL-DONE sx-mathoverflow expiry 1000
+sx-mathoverflow-expiry-100 p3 S3 status=OK done=7809/7809 net=488660 ops=6948354 t=0 table=0 secs=0.044
+sx-mathoverflow-expiry-100 p3 P3 status=OK done=7809/7809 net=488660 ops=12735729 t=0 table=0 secs=0.048
+sx-mathoverflow-expiry-100 p3 T3 status=OK done=7809/7809 net=488660 ops=71325278 t=0 table=1571272 secs=0.233
+sx-mathoverflow-expiry-100 p3 M3 status=OK done=7809/7809 net=488660 ops=74171118 t=0 table=1571272 secs=0.234
+sx-mathoverflow-expiry-100 p4 S4 status=OK done=7809/7809 net=488660 ops=66021324 t=0 table=0 secs=0.062
+sx-mathoverflow-expiry-100 p4 P4 status=OK done=7809/7809 net=488660 ops=72995839 t=0 table=0 secs=0.077
+sx-mathoverflow-expiry-100 p4 T4 status=OK done=7809/7809 net=488660 ops=75490218 t=0 table=1571272 secs=0.241
+sx-mathoverflow-expiry-100 p4 M4 status=OK done=7809/7809 net=488660 ops=78372591 t=0 table=1571272 secs=0.245
+sx-mathoverflow-expiry-100 p4 B4 status=OK done=7809/7809 net=488660 ops=262861167 t=0 table=0 secs=0.232
+sx-mathoverflow-expiry-100 p4 A4 status=OK done=7809/7809 net=488660 ops=568715586 t=0 table=0 secs=0.604
+sx-mathoverflow-expiry-100 p5 R2 status=OK done=7809/7809 net=488660 ops=215211824 t=0 table=3072 secs=0.229
+sx-mathoverflow-expiry-100 p5 PR status=OK done=7809/7809 net=488660 ops=174745786 t=0 table=3072 secs=0.200
+sx-mathoverflow-expiry-100 p5 WT status=OK done=7809/7809 net=488660 ops=202349504 t=0 table=1571272 secs=0.297
+sx-mathoverflow-expiry-100 p5 WJ status=OK done=7809/7809 net=488660 ops=117047588 t=0 table=786432 secs=0.410
+sx-mathoverflow-expiry-100 p5 M5 status=OK done=7809/7809 net=488660 ops=225505129 t=0 table=1571272 secs=0.315
+sx-mathoverflow-expiry-100 p5 A5 status=OK done=7809/7809 net=488660 ops=2570967938 t=0 table=0 secs=1.851
+sx-mathoverflow-expiry-100 p3 final 0 ops M3:74171118 P3:12735729 S3:6948354 T3:71325278
+sx-mathoverflow-expiry-100 p4 final 0 ops A4:568715586 B4:262861167 M4:78372591 P4:72995839 S4:66021324 T4:75490218
+sx-mathoverflow-expiry-100 p5 final 0 ops A5:2570967938 M5:225505129 PR:174745786 R2:215211824 WJ:117047588 WT:202349504
+regression sx-mathoverflow-expiry-100 R2: 7809 batches compared, 0 differ
+regression sx-mathoverflow-expiry-100 PR: 7809 batches compared, 0 differ
+regression sx-mathoverflow-expiry-100 WT: 7809 batches compared, 0 differ
+regression sx-mathoverflow-expiry-100 WJ: 7809 batches compared, 0 differ
+CELL-DONE sx-mathoverflow expiry 100
+sx-mathoverflow-insert-1000 p3 S3 status=OK done=391/391 net=187986 ops=11828606 t=1403919 table=0 secs=0.082
+sx-mathoverflow-insert-1000 p3 P3 status=OK done=391/391 net=187986 ops=33764531 t=1403919 table=0 secs=0.065
+sx-mathoverflow-insert-1000 p3 T3 status=OK done=391/391 net=187986 ops=489993592 t=1403919 table=429156776 secs=1.701
+sx-mathoverflow-insert-1000 p3 M3 status=OK done=391/391 net=187986 ops=135134908 t=1403919 table=39330248 secs=0.324
+sx-mathoverflow-insert-1000 p4 S4 status=OK done=391/391 net=187986 ops=2242775293 t=185375938 table=0 secs=0.531
+sx-mathoverflow-insert-1000 p4 P4 status=OK done=391/391 net=187986 ops=3247728892 t=185375938 table=0 secs=0.775
+sx-mathoverflow-insert-1000 p4 T4 status=OK done=391/391 net=187986 ops=500665344 t=185375938 table=429156776 secs=1.715
+sx-mathoverflow-insert-1000 p4 M4 status=OK done=391/391 net=187986 ops=794724053 t=185375938 table=39330248 secs=0.581
+sx-mathoverflow-insert-1000 p4 B4 status=OK done=391/391 net=187986 ops=9699795232 t=185375938 table=0 secs=2.484
+sx-mathoverflow-insert-1000 p4 A4 status=OK done=391/391 net=187986 ops=22858445750 t=185375938 table=0 secs=14.900
+sx-mathoverflow-insert-1000 p5 R2 status=OK done=391/391 net=187986 ops=16215015360 t=27396207208 table=3072 secs=4.833
+sx-mathoverflow-insert-1000 p5 PR status=OK done=391/391 net=187986 ops=10557516968 t=27396207208 table=3072 secs=3.022
+sx-mathoverflow-insert-1000 p5 WT status=OK done=391/391 net=187986 ops=4650657604 t=27396207208 table=429156776 secs=7.775
+sx-mathoverflow-insert-1000 p5 WJ status=OK done=391/391 net=187986 ops=3923024123 t=27396207208 table=805306368 secs=41.544
+sx-mathoverflow-insert-1000 p5 M5 status=OK done=391/391 net=187986 ops=15545711634 t=27396207208 table=39330248 secs=6.053
+sx-mathoverflow-insert-1000 p5 A5 status=TIME done=382/391 net=184471 ops=285913357029 t=26428213166 table=0 secs=120.077
+sx-mathoverflow-insert-1000 p3 final 1403919 ops M3:135134908 P3:33764531 S3:11828606 T3:489993592
+sx-mathoverflow-insert-1000 p4 final 185375938 ops A4:22858445750 B4:9699795232 M4:794724053 P4:3247728892 S4:2242775293 T4:500665344
+sx-mathoverflow-insert-1000 p5 final 27396207208 ops A5:285911122231(382/391) M5:15545711634 PR:10557516968 R2:16215015360 WJ:3923024123 WT:4650657604
+regression sx-mathoverflow-insert-1000 R2: 391 batches compared, 0 differ
+regression sx-mathoverflow-insert-1000 PR: 391 batches compared, 0 differ
+regression sx-mathoverflow-insert-1000 WT: 391 batches compared, 0 differ
+regression sx-mathoverflow-insert-1000 WJ: 391 batches compared, 0 differ
+CELL-DONE sx-mathoverflow insert 1000
+sx-mathoverflow-insert-100 p3 S3 status=OK done=3905/3905 net=187986 ops=11819028 t=1403919 table=0 secs=0.082
+sx-mathoverflow-insert-100 p3 P3 status=OK done=3905/3905 net=187986 ops=28870167 t=1403919 table=0 secs=0.075
+sx-mathoverflow-insert-100 p3 T3 status=OK done=3905/3905 net=187986 ops=489896018 t=1403919 table=428847464 secs=1.701
+sx-mathoverflow-insert-100 p3 M3 status=OK done=3905/3905 net=187986 ops=135137699 t=1403919 table=39350624 secs=0.339
+sx-mathoverflow-insert-100 p4 S4 status=OK done=3905/3905 net=187986 ops=2246263241 t=185375938 table=0 secs=0.527
+sx-mathoverflow-insert-100 p4 P4 status=OK done=3905/3905 net=187986 ops=3175726773 t=185375938 table=0 secs=0.748
+sx-mathoverflow-insert-100 p4 T4 status=OK done=3905/3905 net=187986 ops=500558192 t=185375938 table=428847464 secs=1.655
+sx-mathoverflow-insert-100 p4 M4 status=OK done=3905/3905 net=187986 ops=795228110 t=185375938 table=39350624 secs=0.545
+sx-mathoverflow-insert-100 p4 B4 status=OK done=3905/3905 net=187986 ops=18121698106 t=185375938 table=0 secs=4.148
+sx-mathoverflow-insert-100 p4 A4 status=OK done=3905/3905 net=187986 ops=186813232596 t=185375938 table=0 secs=114.133
+sx-mathoverflow-insert-100 p5 R2 status=OK done=3905/3905 net=187986 ops=16223520812 t=27396207208 table=3072 secs=4.754
+sx-mathoverflow-insert-100 p5 PR status=OK done=3905/3905 net=187986 ops=14132006471 t=27396207208 table=3072 secs=4.105
+sx-mathoverflow-insert-100 p5 WT status=OK done=3905/3905 net=187986 ops=4642313535 t=27396207208 table=428847464 secs=7.742
+sx-mathoverflow-insert-100 p5 WJ status=OK done=3905/3905 net=187986 ops=3916258142 t=27396207208 table=805306368 secs=41.330
+sx-mathoverflow-insert-100 p5 M5 status=OK done=3905/3905 net=187986 ops=15540165731 t=27396207208 table=39350624 secs=5.975
+sx-mathoverflow-insert-100 p5 A5 status=TIME done=1484/3905 net=73747 ops=280272267195 t=5623393206 table=0 secs=120.080
+sx-mathoverflow-insert-100 p3 final 1403919 ops M3:135137699 P3:28870167 S3:11819028 T3:489896018
+sx-mathoverflow-insert-100 p4 final 185375938 ops A4:186813232596 B4:18121698106 M4:795228110 P4:3175726773 S4:2246263241 T4:500558192
+sx-mathoverflow-insert-100 p5 final 27396207208 ops A5:280271401367(1484/3905) M5:15540165731 PR:14132006471 R2:16223520812 WJ:3916258142 WT:4642313535
+regression sx-mathoverflow-insert-100 R2: 3905 batches compared, 0 differ
+regression sx-mathoverflow-insert-100 PR: 3905 batches compared, 0 differ
+regression sx-mathoverflow-insert-100 WT: 3905 batches compared, 0 differ
+regression sx-mathoverflow-insert-100 WJ: 3905 batches compared, 0 differ
+CELL-DONE sx-mathoverflow insert 100
+M1D02-DONE

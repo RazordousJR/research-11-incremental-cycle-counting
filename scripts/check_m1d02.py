@@ -11,8 +11,15 @@ bad = 0
 
 
 def rows(path):
+    """The rows of a raw file. The last row of a CAP record is left out, since the table stopped inside that batch, as in M1C03."""
     with open(path, newline="") as f:
-        return list(csv.DictReader(f))
+        r = list(csv.DictReader(f))
+    side = path[:-4] + ".summary.csv"
+    if os.path.exists(side):
+        with open(side, newline="") as f:
+            if next(csv.DictReader(f))["status"] == "CAP":
+                r = r[:-1]
+    return r
 
 
 for p in (3, 4, 5):
@@ -22,6 +29,7 @@ for p in (3, 4, 5):
             continue
         name = os.path.basename(path)[len(base) + 1:-4]
         arms[name] = rows(path)
+    arms = {a: r for a, r in arms.items() if r}
     if not arms:
         continue
     longest = max(arms, key=lambda a: len(arms[a]))

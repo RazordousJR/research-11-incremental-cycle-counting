@@ -26,6 +26,9 @@ Source: `benchmarks/gate1.cpp`. The header states every formula and charge. Exac
 | Affected-subgraph recount | | A4 | A5 |
 | Published sharing, BFCB-IG port | | B4 | |
 
+P3 and P4 carry a guard, which reads degrees, is charged, and has no tuned parameter: a star keeps its row only if the row costs less than what it replaces, otherwise its spokes run as scans. PR stays as in M1C03, with no guard, so its counts and operations can be
+checked against that run, and an unguarded PR can only understate sharing.
+
 Not built, with reasons, in the header: A3, because Gate 0 prices a triangle update at 5.9 to 13.9 operations; a BFCB-IG port at p = 5, because no row form of that kind exists there, and PR is the nearest.
 Batch size 1 is not an arm: PR, P3 and P4 reduce to their scan on a group of one, by construction, and the cut of 100 against 1,000 shows the batch axis.
 
@@ -53,6 +56,7 @@ exclusive claim, because a theta picked on a noisy clock would hurt M, and M is 
 |---|---|---|
 | M1D01 | This protocol, the arms and the oracle, before any run on a protocol stream | No claim |
 | M1D02 | Regression: R2, PR, WT and WJ match M1C03 per batch on 4 engineering cells. New arms agree per batch with each other on all 12 engineering cells, count build | Single processes, each under a minute |
+| M1D02B | The guarded P3 and P4 against all other arms on the 12 engineering cells | Inside the M1D03 claim |
 | M1D03 | Operation sweep on the evaluation cells, count build, all arms but M, whose theta is not chosen yet. Operations are the first reading (hard rule 3) | Ordinary claim, ControlPC's GO |
 | M1D04 | Theta selection, then the timing sweep, pinned to one P-core, then the count build of M at the chosen theta | `--exclusive` claim, ControlPC's GO and the PI's word |
 | M1D05 | Verdict by the rule below, read together with M1D03 | No claim |
@@ -61,8 +65,8 @@ exclusive claim, because a theta picked on a noisy clock would hurt M, and M is 
 ## Measure
 
 Timing build, one process at a time, pinned to logical CPU 8, under an exclusive claim. Five repeats on a cell whose fastest arm takes under 60 s, and three otherwise. Arms are interleaved across repeats in a rotated order. An arm is
-run once only, on a cell where it took more than 5 times the fastest arm. Limits per process: 1,200 s and 16 GB of commit, which closes the 6 GB bound left open on wiki-talk in M1C03. Past a limit an arm is **not finished**, which is not a win. Its time
-enters as the limit, if the limit was time. An arm stopped by memory is out of that cell, and the table says so.
+run once only, on a cell where it took more than 5 times the fastest arm. Limits per process: 1,200 s and 16 GB of commit, which closes the 6 GB bound left open on wiki-talk in M1C03. A4 and A5 stop at 300 s, set after M1D02 and before any evaluation run (`log.md` 0020). Past a limit an arm is **not finished**, which is not a win. Its time
+enters as the limit, if the limit was time, so a lower limit makes the test harder for the sharing arm, never easier. An arm stopped by memory is out of that cell, and the table says so.
 
 Every arm's per-batch count must match every other arm's in that pattern and cell. A single mismatch stops the sweep (hard rule 1).
 
