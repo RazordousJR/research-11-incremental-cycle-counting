@@ -9,6 +9,7 @@
 - **Reading weakened that pick.** Cheetah publishes star grouping with reuse, and the trend itself (`log.md` 0019). What is left is the gain against the strongest baseline.
 - **Gate 1 is written and its arms are exact on the oracle.** `docs/experiments/gate1-protocol.md`. Series M1D in `docs/tasks/M1.md`.
 - **M1D03 is done and exact.** 156 of 156 arm-cells, 0 mismatches, 19 stopped at a limit, claim released (`log.md` 0024). On operations the median against best other is 1.447, 0.916, 0.950 at p = 3, 4, 5, without M. Gate 1 is not dead, and M decides it.
+- **M1D04 `main` is done and exact.** 160 arm-cells, 600 timing processes, 0 mismatches, claim released (`log.md` 0027). At p = 5, 6 of 10 cells pass, median 0.599, against a median of 1.131 at p = 3. No verdict until M1D05. Only an exactness failure can now move it off Go with the trend. Most of the sx gain is a cache result, not fewer operations.
 
 | Test | Verdict | Read with |
 |---|---|---|
@@ -19,12 +20,13 @@
 | M1C02, 5-cycles on operations | Stop at clause 4 | Clock reverses the winner |
 | M1C03, 5-cycles on the clock | Go by one cell | Shared clock. Worst-of-3 gives Pivot. Operations still favour tables on 16 of 22 |
 | M1D03, Gate 1 operations | Clean, no verdict | M absent. At p = 5 only wiki-talk reaches 0.67, against a scan. WJ beats PR on 6 of 8 sx cells |
+| M1D04 main, Gate 1 clock | Clean, no verdict yet | 10 of 16 possible p = 5 cells. Best is the scan on 8 of 10. Two passes fall to a WJ 2.6 times faster. One machine, one core |
 
 The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 Stop and parked, M1C02 Stop stands, M1C01 Go read with the V margin and the ring note.
 
 ## Open, waiting on the PI
 
-Nothing is waiting on the PI. The PI approved `--exclusive` M1D04 in two claims, the reading M1D04-R1, and sx-stackoverflow (`log.md` 0025). M1D04 now waits on ControlPC's GO. Run `scripts/run_m1d04.sh` phases `main`, `wiki`, then `held`, each under its own claim with the release chained, and `LINE_HOURS` set to ControlPC's line. `held` needs `data/derived/sx-stackoverflow*.bin` first.
+Nothing is waiting on the PI. Phase `main` is done (`log.md` 0027). Next is phase `wiki` on ControlPC's GO, line 9 hours, which is 12 hours less `main`'s real hours, rounded down. Then phase `held`, a separate request. `data/derived/sx-stackoverflow*.bin` are ready, and no arm has read them. Run `scripts/run_m1d04.sh results/gate1-M1D04 8 <phase>` under its own claim with the release chained, check `hashes.txt` first, and send the log to a new file so the tree stays clean. Then M1D05 with `scripts/gate1_score.py`.
 
 ## Handover notes
 

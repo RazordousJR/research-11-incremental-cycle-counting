@@ -357,3 +357,25 @@ ControlPC answered: derive GO, phase `main` GO straight after it, phases `wiki` 
 | `sx-stackoverflow.ins.bin` | real timestamps, insert-only | 47,903,266 | 958,065,320 | f3df8cff0843 |
 
 63,497,050 lines gave 47,903,266 kept, as self-loops drop, and 2,584,164 vertices. Times are sorted and ids are compact. 7.9 times wiki-talk's insert events, so the rough 6 to 8 hours for `held` was not too high, and its insert cells may finish no arm at all.
+
+## 0027, 2026-11-02: M1D04 main finished clean; six of ten p = 5 cells pass
+
+Phase `main` ran under the exclusive claim from 00:19:17 to 02:48:58, 2 h 29 min 41 s against an estimate of 3.5 to 6.5 hours and a line of 8. `M1D04-DONE`, no restart, tree clean at e23c597, all nine hashes the same after the run. Record: `results/gate1-M1D04/README.md`, scored by the new `scripts/gate1_score.py`.
+
+**Exactness holds.** Every repeat, the M count build and M1D03's arms on the same cells: 13,101,889 batch comparisons, 0 differ. Hard rule 1 is not touched.
+
+**Theta,** from the engineering cells only: 16, 16, 128 at p = 3, 4, 5.
+
+| p | Scored | Median score | Median against scan | Pass |
+|---:|---:|---:|---:|---:|
+| 3 | 10 of 10 | 1.131 | 1.131 | 0 |
+| 4 | 10 of 10 | 1.279 | 0.992 | 0 |
+| 5 | 10 of 10 | 0.599 | 0.599 | 6, on 3 streams, 4 expiry |
+
+Streams: real timestamps with synthetic expiry, and real timestamps insert-only. wiki-talk insert and sx-stackoverflow are not in this reading, and there is no verdict until M1D05.
+
+**The rest cannot turn this but by an exactness failure.** With 16 scored and no further pass, p = 5 stands at 6 of 16, above a third, with its median at worst 0.796, and p = 3 at worst 1.098. That is Go with the trend, unless an exactness failure gives Stop. Phases `wiki` and `held` still run: the PI committed the held-out stream before this clock (0025), and dropping a committed stream once the outcome is seen would be the free option 0024 warned of. They are also the two largest exactness tests, and the only unseen stream.
+
+**0024 expected wrongly.** It said Pivot or a thin Go, resting on M. M is best on 2 of 10 cells at p = 5, and the scan on 8. What moved was the price per operation: PR 0.61 ns, R2 0.72, M5 0.83, WT 1.69, WJ 8.26. WJ does fewer operations than PR on 6 of 8 sx cells at p = 5 and takes 3 to 26 times as long, so most of the sx result is a cache result on one machine. Two of the six passes would fall to a WJ about 2.6 times faster, and those are the ones to attack. Cut 1,000 passes on 5 of 5 cells, and cut 100 on 1 of 5.
+
+**An ablation for M1D06.** p = 3 and 4 chose the end of the grid, and theta came from streams that run in fractions of a second. M5 over the grid on evaluation cells would favour the baseline, and tells how much of the result rests on that.

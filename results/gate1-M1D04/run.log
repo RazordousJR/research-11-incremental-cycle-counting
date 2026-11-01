@@ -1,0 +1,1006 @@
+CollegeMsg-expiry-1000 p3 M3 status=OK done=120/120 net=31024 ops=0 t=0 table=682612 secs=0.013
+CollegeMsg-expiry-100 p3 M3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=686364 secs=0.014
+CollegeMsg-insert-1000 p3 M3 status=OK done=60/60 net=13838 ops=0 t=14319 table=1343784 secs=0.010
+CollegeMsg-insert-100 p3 M3 status=OK done=599/599 net=13838 ops=0 t=14319 table=1344824 secs=0.010
+email-Eu-core-temporal-expiry-1000 p3 M3 status=OK done=665/665 net=187712 ops=0 t=0 table=400252 secs=0.074
+email-Eu-core-temporal-expiry-100 p3 M3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=404888 secs=0.087
+email-Eu-core-temporal-insert-1000 p3 M3 status=OK done=333/333 net=16064 ops=0 t=105461 table=899636 secs=0.013
+email-Eu-core-temporal-insert-100 p3 M3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=899296 secs=0.013
+sx-mathoverflow-expiry-1000 p3 M3 status=OK done=781/781 net=485368 ops=0 t=0 table=1537264 secs=0.165
+sx-mathoverflow-expiry-100 p3 M3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1546256 secs=0.170
+sx-mathoverflow-insert-1000 p3 M3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=7966016 secs=0.108
+sx-mathoverflow-insert-100 p3 M3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=7964156 secs=0.107
+CollegeMsg-expiry-1000 p3 M3 status=OK done=120/120 net=31024 ops=0 t=0 table=1219172 secs=0.019
+CollegeMsg-expiry-100 p3 M3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1237572 secs=0.019
+CollegeMsg-insert-1000 p3 M3 status=OK done=60/60 net=13838 ops=0 t=14319 table=2652100 secs=0.014
+CollegeMsg-insert-100 p3 M3 status=OK done=599/599 net=13838 ops=0 t=14319 table=2656176 secs=0.014
+email-Eu-core-temporal-expiry-1000 p3 M3 status=OK done=665/665 net=187712 ops=0 t=0 table=560580 secs=0.083
+email-Eu-core-temporal-expiry-100 p3 M3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=578564 secs=0.097
+email-Eu-core-temporal-insert-1000 p3 M3 status=OK done=333/333 net=16064 ops=0 t=105461 table=1964196 secs=0.017
+email-Eu-core-temporal-insert-100 p3 M3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=1964664 secs=0.017
+sx-mathoverflow-expiry-1000 p3 M3 status=OK done=781/781 net=485368 ops=0 t=0 table=1554688 secs=0.194
+sx-mathoverflow-expiry-100 p3 M3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1570128 secs=0.207
+sx-mathoverflow-insert-1000 p3 M3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=17665812 secs=0.171
+sx-mathoverflow-insert-100 p3 M3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=17682556 secs=0.171
+CollegeMsg-expiry-1000 p3 M3 status=OK done=120/120 net=31024 ops=0 t=0 table=1668152 secs=0.022
+CollegeMsg-expiry-100 p3 M3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1683968 secs=0.022
+CollegeMsg-insert-1000 p3 M3 status=OK done=60/60 net=13838 ops=0 t=14319 table=4290636 secs=0.016
+CollegeMsg-insert-100 p3 M3 status=OK done=599/599 net=13838 ops=0 t=14319 table=4307504 secs=0.016
+email-Eu-core-temporal-expiry-1000 p3 M3 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.083
+email-Eu-core-temporal-expiry-100 p3 M3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.098
+email-Eu-core-temporal-insert-1000 p3 M3 status=OK done=333/333 net=16064 ops=0 t=105461 table=3255468 secs=0.020
+email-Eu-core-temporal-insert-100 p3 M3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=3244248 secs=0.020
+sx-mathoverflow-expiry-1000 p3 M3 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.202
+sx-mathoverflow-expiry-100 p3 M3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.217
+sx-mathoverflow-insert-1000 p3 M3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=39330248 secs=0.313
+sx-mathoverflow-insert-100 p3 M3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=39350624 secs=0.305
+CollegeMsg-expiry-1000 p3 M3 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.022
+CollegeMsg-expiry-100 p3 M3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.023
+CollegeMsg-insert-1000 p3 M3 status=OK done=60/60 net=13838 ops=0 t=14319 table=6259428 secs=0.016
+CollegeMsg-insert-100 p3 M3 status=OK done=599/599 net=13838 ops=0 t=14319 table=6244580 secs=0.016
+email-Eu-core-temporal-expiry-1000 p3 M3 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.083
+email-Eu-core-temporal-expiry-100 p3 M3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.097
+email-Eu-core-temporal-insert-1000 p3 M3 status=OK done=333/333 net=16064 ops=0 t=105461 table=4178976 secs=0.018
+email-Eu-core-temporal-insert-100 p3 M3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=4177952 secs=0.019
+sx-mathoverflow-expiry-1000 p3 M3 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.201
+sx-mathoverflow-expiry-100 p3 M3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.222
+sx-mathoverflow-insert-1000 p3 M3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=82450016 secs=0.610
+sx-mathoverflow-insert-100 p3 M3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=82378840 secs=0.596
+CollegeMsg-expiry-1000 p3 M3 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.022
+CollegeMsg-expiry-100 p3 M3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.023
+CollegeMsg-insert-1000 p3 M3 status=OK done=60/60 net=13838 ops=0 t=14319 table=6259428 secs=0.016
+CollegeMsg-insert-100 p3 M3 status=OK done=599/599 net=13838 ops=0 t=14319 table=6244580 secs=0.016
+email-Eu-core-temporal-expiry-1000 p3 M3 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.083
+email-Eu-core-temporal-expiry-100 p3 M3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.098
+email-Eu-core-temporal-insert-1000 p3 M3 status=OK done=333/333 net=16064 ops=0 t=105461 table=4475424 secs=0.019
+email-Eu-core-temporal-insert-100 p3 M3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=4476448 secs=0.019
+sx-mathoverflow-expiry-1000 p3 M3 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.200
+sx-mathoverflow-expiry-100 p3 M3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.215
+sx-mathoverflow-insert-1000 p3 M3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=173260796 secs=1.245
+sx-mathoverflow-insert-100 p3 M3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=173111512 secs=1.267
+CollegeMsg-expiry-1000 p3 M3 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.022
+CollegeMsg-expiry-100 p3 M3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.023
+CollegeMsg-insert-1000 p3 M3 status=OK done=60/60 net=13838 ops=0 t=14319 table=6259428 secs=0.016
+CollegeMsg-insert-100 p3 M3 status=OK done=599/599 net=13838 ops=0 t=14319 table=6244580 secs=0.016
+email-Eu-core-temporal-expiry-1000 p3 M3 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.083
+email-Eu-core-temporal-expiry-100 p3 M3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.098
+email-Eu-core-temporal-insert-1000 p3 M3 status=OK done=333/333 net=16064 ops=0 t=105461 table=4475424 secs=0.019
+email-Eu-core-temporal-insert-100 p3 M3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=4476448 secs=0.019
+sx-mathoverflow-expiry-1000 p3 M3 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.200
+sx-mathoverflow-expiry-100 p3 M3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.216
+sx-mathoverflow-insert-1000 p3 M3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=308923248 secs=1.626
+sx-mathoverflow-insert-100 p3 M3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=308715356 secs=1.613
+CollegeMsg-expiry-1000 p3 M3 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.022
+CollegeMsg-expiry-100 p3 M3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.023
+CollegeMsg-insert-1000 p3 M3 status=OK done=60/60 net=13838 ops=0 t=14319 table=6259428 secs=0.016
+CollegeMsg-insert-100 p3 M3 status=OK done=599/599 net=13838 ops=0 t=14319 table=6244580 secs=0.016
+email-Eu-core-temporal-expiry-1000 p3 M3 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.083
+email-Eu-core-temporal-expiry-100 p3 M3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.098
+email-Eu-core-temporal-insert-1000 p3 M3 status=OK done=333/333 net=16064 ops=0 t=105461 table=4475424 secs=0.018
+email-Eu-core-temporal-insert-100 p3 M3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=4476448 secs=0.019
+sx-mathoverflow-expiry-1000 p3 M3 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.201
+sx-mathoverflow-expiry-100 p3 M3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.217
+sx-mathoverflow-insert-1000 p3 M3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=422557240 secs=1.749
+sx-mathoverflow-insert-100 p3 M3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=422489592 secs=1.722
+CollegeMsg-expiry-1000 p4 M4 status=OK done=120/120 net=31024 ops=0 t=0 table=682612 secs=0.016
+CollegeMsg-expiry-100 p4 M4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=686364 secs=0.017
+CollegeMsg-insert-1000 p4 M4 status=OK done=60/60 net=13838 ops=0 t=729064 table=1343784 secs=0.012
+CollegeMsg-insert-100 p4 M4 status=OK done=599/599 net=13838 ops=0 t=729064 table=1344824 secs=0.013
+email-Eu-core-temporal-expiry-1000 p4 M4 status=OK done=665/665 net=187712 ops=0 t=0 table=400252 secs=0.084
+email-Eu-core-temporal-expiry-100 p4 M4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=404888 secs=0.100
+email-Eu-core-temporal-insert-1000 p4 M4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=899636 secs=0.020
+email-Eu-core-temporal-insert-100 p4 M4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=899296 secs=0.022
+sx-mathoverflow-expiry-1000 p4 M4 status=OK done=781/781 net=485368 ops=0 t=0 table=1537264 secs=0.176
+sx-mathoverflow-expiry-100 p4 M4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1546256 secs=0.188
+sx-mathoverflow-insert-1000 p4 M4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=7966016 secs=0.445
+sx-mathoverflow-insert-100 p4 M4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=7964156 secs=0.445
+CollegeMsg-expiry-1000 p4 M4 status=OK done=120/120 net=31024 ops=0 t=0 table=1219172 secs=0.021
+CollegeMsg-expiry-100 p4 M4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1237572 secs=0.021
+CollegeMsg-insert-1000 p4 M4 status=OK done=60/60 net=13838 ops=0 t=729064 table=2652100 secs=0.015
+CollegeMsg-insert-100 p4 M4 status=OK done=599/599 net=13838 ops=0 t=729064 table=2656176 secs=0.016
+email-Eu-core-temporal-expiry-1000 p4 M4 status=OK done=665/665 net=187712 ops=0 t=0 table=560580 secs=0.087
+email-Eu-core-temporal-expiry-100 p4 M4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=578564 secs=0.104
+email-Eu-core-temporal-insert-1000 p4 M4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=1964196 secs=0.022
+email-Eu-core-temporal-insert-100 p4 M4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=1964664 secs=0.022
+sx-mathoverflow-expiry-1000 p4 M4 status=OK done=781/781 net=485368 ops=0 t=0 table=1554688 secs=0.203
+sx-mathoverflow-expiry-100 p4 M4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1570128 secs=0.217
+sx-mathoverflow-insert-1000 p4 M4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=17665812 secs=0.451
+sx-mathoverflow-insert-100 p4 M4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=17682556 secs=0.449
+CollegeMsg-expiry-1000 p4 M4 status=OK done=120/120 net=31024 ops=0 t=0 table=1668152 secs=0.023
+CollegeMsg-expiry-100 p4 M4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1683968 secs=0.023
+CollegeMsg-insert-1000 p4 M4 status=OK done=60/60 net=13838 ops=0 t=729064 table=4290636 secs=0.017
+CollegeMsg-insert-100 p4 M4 status=OK done=599/599 net=13838 ops=0 t=729064 table=4307504 secs=0.018
+email-Eu-core-temporal-expiry-1000 p4 M4 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.088
+email-Eu-core-temporal-expiry-100 p4 M4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.106
+email-Eu-core-temporal-insert-1000 p4 M4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=3255468 secs=0.023
+email-Eu-core-temporal-insert-100 p4 M4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=3244248 secs=0.023
+sx-mathoverflow-expiry-1000 p4 M4 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.214
+sx-mathoverflow-expiry-100 p4 M4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.237
+sx-mathoverflow-insert-1000 p4 M4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=39330248 secs=0.555
+sx-mathoverflow-insert-100 p4 M4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=39350624 secs=0.545
+CollegeMsg-expiry-1000 p4 M4 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.023
+CollegeMsg-expiry-100 p4 M4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.024
+CollegeMsg-insert-1000 p4 M4 status=OK done=60/60 net=13838 ops=0 t=729064 table=6259428 secs=0.016
+CollegeMsg-insert-100 p4 M4 status=OK done=599/599 net=13838 ops=0 t=729064 table=6244580 secs=0.016
+email-Eu-core-temporal-expiry-1000 p4 M4 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.088
+email-Eu-core-temporal-expiry-100 p4 M4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.103
+email-Eu-core-temporal-insert-1000 p4 M4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=4178976 secs=0.020
+email-Eu-core-temporal-insert-100 p4 M4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=4177952 secs=0.020
+sx-mathoverflow-expiry-1000 p4 M4 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.209
+sx-mathoverflow-expiry-100 p4 M4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.224
+sx-mathoverflow-insert-1000 p4 M4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=82450016 secs=0.743
+sx-mathoverflow-insert-100 p4 M4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=82378840 secs=0.743
+CollegeMsg-expiry-1000 p4 M4 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.023
+CollegeMsg-expiry-100 p4 M4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.024
+CollegeMsg-insert-1000 p4 M4 status=OK done=60/60 net=13838 ops=0 t=729064 table=6259428 secs=0.016
+CollegeMsg-insert-100 p4 M4 status=OK done=599/599 net=13838 ops=0 t=729064 table=6244580 secs=0.016
+email-Eu-core-temporal-expiry-1000 p4 M4 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.088
+email-Eu-core-temporal-expiry-100 p4 M4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.103
+email-Eu-core-temporal-insert-1000 p4 M4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=4475424 secs=0.019
+email-Eu-core-temporal-insert-100 p4 M4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=4476448 secs=0.019
+sx-mathoverflow-expiry-1000 p4 M4 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.209
+sx-mathoverflow-expiry-100 p4 M4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.224
+sx-mathoverflow-insert-1000 p4 M4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=173260796 secs=1.232
+sx-mathoverflow-insert-100 p4 M4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=173111512 secs=1.231
+CollegeMsg-expiry-1000 p4 M4 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.023
+CollegeMsg-expiry-100 p4 M4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.024
+CollegeMsg-insert-1000 p4 M4 status=OK done=60/60 net=13838 ops=0 t=729064 table=6259428 secs=0.016
+CollegeMsg-insert-100 p4 M4 status=OK done=599/599 net=13838 ops=0 t=729064 table=6244580 secs=0.016
+email-Eu-core-temporal-expiry-1000 p4 M4 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.087
+email-Eu-core-temporal-expiry-100 p4 M4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.102
+email-Eu-core-temporal-insert-1000 p4 M4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=4475424 secs=0.019
+email-Eu-core-temporal-insert-100 p4 M4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=4476448 secs=0.019
+sx-mathoverflow-expiry-1000 p4 M4 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.208
+sx-mathoverflow-expiry-100 p4 M4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.222
+sx-mathoverflow-insert-1000 p4 M4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=308923248 secs=1.619
+sx-mathoverflow-insert-100 p4 M4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=308715356 secs=1.617
+CollegeMsg-expiry-1000 p4 M4 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.023
+CollegeMsg-expiry-100 p4 M4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.024
+CollegeMsg-insert-1000 p4 M4 status=OK done=60/60 net=13838 ops=0 t=729064 table=6259428 secs=0.016
+CollegeMsg-insert-100 p4 M4 status=OK done=599/599 net=13838 ops=0 t=729064 table=6244580 secs=0.016
+email-Eu-core-temporal-expiry-1000 p4 M4 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.087
+email-Eu-core-temporal-expiry-100 p4 M4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.103
+email-Eu-core-temporal-insert-1000 p4 M4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=4475424 secs=0.019
+email-Eu-core-temporal-insert-100 p4 M4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=4476448 secs=0.019
+sx-mathoverflow-expiry-1000 p4 M4 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.209
+sx-mathoverflow-expiry-100 p4 M4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.223
+sx-mathoverflow-insert-1000 p4 M4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=422557240 secs=1.693
+sx-mathoverflow-insert-100 p4 M4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=422489592 secs=1.697
+CollegeMsg-expiry-1000 p5 M5 status=OK done=120/120 net=31024 ops=0 t=0 table=682612 secs=0.039
+CollegeMsg-expiry-100 p5 M5 status=OK done=1197/1197 net=31870 ops=0 t=0 table=686364 secs=0.040
+CollegeMsg-insert-1000 p5 M5 status=OK done=60/60 net=13838 ops=0 t=18543001 table=1343784 secs=0.040
+CollegeMsg-insert-100 p5 M5 status=OK done=599/599 net=13838 ops=0 t=18543001 table=1344824 secs=0.040
+email-Eu-core-temporal-expiry-1000 p5 M5 status=OK done=665/665 net=187712 ops=0 t=0 table=400252 secs=0.138
+email-Eu-core-temporal-expiry-100 p5 M5 status=OK done=6647/6647 net=222950 ops=0 t=0 table=404888 secs=0.168
+email-Eu-core-temporal-insert-1000 p5 M5 status=OK done=333/333 net=16064 ops=0 t=245585096 table=899636 secs=0.087
+email-Eu-core-temporal-insert-100 p5 M5 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=899296 secs=0.087
+sx-mathoverflow-expiry-1000 p5 M5 status=OK done=781/781 net=485368 ops=0 t=0 table=1537264 secs=0.285
+sx-mathoverflow-expiry-100 p5 M5 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1546256 secs=0.312
+sx-mathoverflow-insert-1000 p5 M5 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=7966016 secs=6.198
+sx-mathoverflow-insert-100 p5 M5 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=7964156 secs=6.528
+CollegeMsg-expiry-1000 p5 M5 status=OK done=120/120 net=31024 ops=0 t=0 table=1219172 secs=0.036
+CollegeMsg-expiry-100 p5 M5 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1237572 secs=0.038
+CollegeMsg-insert-1000 p5 M5 status=OK done=60/60 net=13838 ops=0 t=18543001 table=2652100 secs=0.036
+CollegeMsg-insert-100 p5 M5 status=OK done=599/599 net=13838 ops=0 t=18543001 table=2656176 secs=0.037
+email-Eu-core-temporal-expiry-1000 p5 M5 status=OK done=665/665 net=187712 ops=0 t=0 table=560580 secs=0.121
+email-Eu-core-temporal-expiry-100 p5 M5 status=OK done=6647/6647 net=222950 ops=0 t=0 table=578564 secs=0.147
+email-Eu-core-temporal-insert-1000 p5 M5 status=OK done=333/333 net=16064 ops=0 t=245585096 table=1964196 secs=0.070
+email-Eu-core-temporal-insert-100 p5 M5 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=1964664 secs=0.071
+sx-mathoverflow-expiry-1000 p5 M5 status=OK done=781/781 net=485368 ops=0 t=0 table=1554688 secs=0.280
+sx-mathoverflow-expiry-100 p5 M5 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1570128 secs=0.306
+sx-mathoverflow-insert-1000 p5 M5 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=17665812 secs=5.761
+sx-mathoverflow-insert-100 p5 M5 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=17682556 secs=6.087
+CollegeMsg-expiry-1000 p5 M5 status=OK done=120/120 net=31024 ops=0 t=0 table=1668152 secs=0.035
+CollegeMsg-expiry-100 p5 M5 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1683968 secs=0.036
+CollegeMsg-insert-1000 p5 M5 status=OK done=60/60 net=13838 ops=0 t=18543001 table=4290636 secs=0.034
+CollegeMsg-insert-100 p5 M5 status=OK done=599/599 net=13838 ops=0 t=18543001 table=4307504 secs=0.033
+email-Eu-core-temporal-expiry-1000 p5 M5 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.117
+email-Eu-core-temporal-expiry-100 p5 M5 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.142
+email-Eu-core-temporal-insert-1000 p5 M5 status=OK done=333/333 net=16064 ops=0 t=245585096 table=3255468 secs=0.056
+email-Eu-core-temporal-insert-100 p5 M5 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=3244248 secs=0.056
+sx-mathoverflow-expiry-1000 p5 M5 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.271
+sx-mathoverflow-expiry-100 p5 M5 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.298
+sx-mathoverflow-insert-1000 p5 M5 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=39330248 secs=5.500
+sx-mathoverflow-insert-100 p5 M5 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=39350624 secs=5.814
+CollegeMsg-expiry-1000 p5 M5 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.033
+CollegeMsg-expiry-100 p5 M5 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.035
+CollegeMsg-insert-1000 p5 M5 status=OK done=60/60 net=13838 ops=0 t=18543001 table=6259428 secs=0.028
+CollegeMsg-insert-100 p5 M5 status=OK done=599/599 net=13838 ops=0 t=18543001 table=6244580 secs=0.028
+email-Eu-core-temporal-expiry-1000 p5 M5 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.117
+email-Eu-core-temporal-expiry-100 p5 M5 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.142
+email-Eu-core-temporal-insert-1000 p5 M5 status=OK done=333/333 net=16064 ops=0 t=245585096 table=4178976 secs=0.048
+email-Eu-core-temporal-insert-100 p5 M5 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=4177952 secs=0.048
+sx-mathoverflow-expiry-1000 p5 M5 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.270
+sx-mathoverflow-expiry-100 p5 M5 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.296
+sx-mathoverflow-insert-1000 p5 M5 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=82450016 secs=5.925
+sx-mathoverflow-insert-100 p5 M5 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=82378840 secs=6.209
+CollegeMsg-expiry-1000 p5 M5 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.033
+CollegeMsg-expiry-100 p5 M5 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.035
+CollegeMsg-insert-1000 p5 M5 status=OK done=60/60 net=13838 ops=0 t=18543001 table=6259428 secs=0.028
+CollegeMsg-insert-100 p5 M5 status=OK done=599/599 net=13838 ops=0 t=18543001 table=6244580 secs=0.028
+email-Eu-core-temporal-expiry-1000 p5 M5 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.118
+email-Eu-core-temporal-expiry-100 p5 M5 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.143
+email-Eu-core-temporal-insert-1000 p5 M5 status=OK done=333/333 net=16064 ops=0 t=245585096 table=4475424 secs=0.046
+email-Eu-core-temporal-insert-100 p5 M5 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=4476448 secs=0.046
+sx-mathoverflow-expiry-1000 p5 M5 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.271
+sx-mathoverflow-expiry-100 p5 M5 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.297
+sx-mathoverflow-insert-1000 p5 M5 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=173260796 secs=7.153
+sx-mathoverflow-insert-100 p5 M5 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=173111512 secs=7.138
+CollegeMsg-expiry-1000 p5 M5 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.033
+CollegeMsg-expiry-100 p5 M5 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.034
+CollegeMsg-insert-1000 p5 M5 status=OK done=60/60 net=13838 ops=0 t=18543001 table=6259428 secs=0.027
+CollegeMsg-insert-100 p5 M5 status=OK done=599/599 net=13838 ops=0 t=18543001 table=6244580 secs=0.028
+email-Eu-core-temporal-expiry-1000 p5 M5 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.118
+email-Eu-core-temporal-expiry-100 p5 M5 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.143
+email-Eu-core-temporal-insert-1000 p5 M5 status=OK done=333/333 net=16064 ops=0 t=245585096 table=4475424 secs=0.047
+email-Eu-core-temporal-insert-100 p5 M5 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=4476448 secs=0.046
+sx-mathoverflow-expiry-1000 p5 M5 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.271
+sx-mathoverflow-expiry-100 p5 M5 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.296
+sx-mathoverflow-insert-1000 p5 M5 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=308923248 secs=7.976
+sx-mathoverflow-insert-100 p5 M5 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=308715356 secs=7.991
+CollegeMsg-expiry-1000 p5 M5 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.033
+CollegeMsg-expiry-100 p5 M5 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.034
+CollegeMsg-insert-1000 p5 M5 status=OK done=60/60 net=13838 ops=0 t=18543001 table=6259428 secs=0.027
+CollegeMsg-insert-100 p5 M5 status=OK done=599/599 net=13838 ops=0 t=18543001 table=6244580 secs=0.028
+email-Eu-core-temporal-expiry-1000 p5 M5 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.117
+email-Eu-core-temporal-expiry-100 p5 M5 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.142
+email-Eu-core-temporal-insert-1000 p5 M5 status=OK done=333/333 net=16064 ops=0 t=245585096 table=4475424 secs=0.046
+email-Eu-core-temporal-insert-100 p5 M5 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=4476448 secs=0.046
+sx-mathoverflow-expiry-1000 p5 M5 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.271
+sx-mathoverflow-expiry-100 p5 M5 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.297
+sx-mathoverflow-insert-1000 p5 M5 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=422557240 secs=7.936
+sx-mathoverflow-insert-100 p5 M5 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=422489592 secs=7.945
+p=3 theta=16 16:0.0369 32:0.0490 64:0.0587 128:0.0651 256:0.0737 512:0.0769 1024:0.0776
+p=4 theta=16 16:0.0564 32:0.0633 64:0.0693 128:0.0697 256:0.0752 512:0.0785 1024:0.0792
+p=5 theta=128 16:0.1847 32:0.1674 64:0.1549 128:0.1470 256:0.1503 512:0.1525 1024:0.1519
+sx-askubuntu-expiry-1000 p3 P3 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.090
+sx-askubuntu-expiry-1000 p3 T3 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.692
+sx-askubuntu-expiry-1000 p3 M3 status=OK done=1454/1454 net=961178 ops=0 t=0 table=7917960 secs=0.268
+sx-askubuntu-expiry-1000 p3 S3 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.079
+sx-askubuntu-expiry-1000 p3 M3 status=OK done=1454/1454 net=961178 ops=0 t=0 table=7917960 secs=0.270
+sx-askubuntu-expiry-1000 p3 S3 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.080
+sx-askubuntu-expiry-1000 p3 P3 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.090
+sx-askubuntu-expiry-1000 p3 S3 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.080
+sx-askubuntu-expiry-1000 p3 P3 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.090
+sx-askubuntu-expiry-1000 p3 M3 status=OK done=1454/1454 net=961178 ops=0 t=0 table=7917960 secs=0.267
+sx-askubuntu-expiry-1000 p3 S3 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.080
+sx-askubuntu-expiry-1000 p3 P3 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.093
+sx-askubuntu-expiry-1000 p3 M3 status=OK done=1454/1454 net=961178 ops=0 t=0 table=7917960 secs=0.270
+sx-askubuntu-expiry-1000 p3 S3 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.079
+sx-askubuntu-expiry-1000 p3 P3 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.091
+sx-askubuntu-expiry-1000 p3 M3 status=OK done=1454/1454 net=961178 ops=0 t=0 table=7917960 secs=0.270
+sx-askubuntu-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CELL-DONE p3 sx-askubuntu expiry 1000 16:23:55
+sx-askubuntu-expiry-100 p3 P3 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.099
+sx-askubuntu-expiry-100 p3 T3 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.722
+sx-askubuntu-expiry-100 p3 M3 status=OK done=14534/14534 net=963038 ops=0 t=0 table=7913404 secs=0.268
+sx-askubuntu-expiry-100 p3 S3 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.081
+sx-askubuntu-expiry-100 p3 M3 status=OK done=14534/14534 net=963038 ops=0 t=0 table=7913404 secs=0.273
+sx-askubuntu-expiry-100 p3 S3 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.081
+sx-askubuntu-expiry-100 p3 P3 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.097
+sx-askubuntu-expiry-100 p3 S3 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.080
+sx-askubuntu-expiry-100 p3 P3 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.099
+sx-askubuntu-expiry-100 p3 M3 status=OK done=14534/14534 net=963038 ops=0 t=0 table=7913404 secs=0.270
+sx-askubuntu-expiry-100 p3 S3 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.081
+sx-askubuntu-expiry-100 p3 P3 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.097
+sx-askubuntu-expiry-100 p3 M3 status=OK done=14534/14534 net=963038 ops=0 t=0 table=7913404 secs=0.272
+sx-askubuntu-expiry-100 p3 S3 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.081
+sx-askubuntu-expiry-100 p3 P3 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.097
+sx-askubuntu-expiry-100 p3 M3 status=OK done=14534/14534 net=963038 ops=0 t=0 table=7913404 secs=0.271
+sx-askubuntu-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CELL-DONE p3 sx-askubuntu expiry 100 16:24:00
+sx-superuser-expiry-1000 p3 P3 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.138
+sx-superuser-expiry-1000 p3 T3 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.139
+sx-superuser-expiry-1000 p3 M3 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=9694856 secs=0.430
+sx-superuser-expiry-1000 p3 S3 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.119
+sx-superuser-expiry-1000 p3 M3 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=9694856 secs=0.430
+sx-superuser-expiry-1000 p3 S3 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.119
+sx-superuser-expiry-1000 p3 P3 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.138
+sx-superuser-expiry-1000 p3 S3 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.119
+sx-superuser-expiry-1000 p3 P3 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.138
+sx-superuser-expiry-1000 p3 M3 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=9694856 secs=0.431
+sx-superuser-expiry-1000 p3 S3 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.121
+sx-superuser-expiry-1000 p3 P3 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.137
+sx-superuser-expiry-1000 p3 M3 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=9694856 secs=0.458
+sx-superuser-expiry-1000 p3 S3 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.124
+sx-superuser-expiry-1000 p3 P3 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.140
+sx-superuser-expiry-1000 p3 M3 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=9694856 secs=0.434
+sx-superuser-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CELL-DONE p3 sx-superuser expiry 1000 16:24:07
+sx-superuser-expiry-100 p3 P3 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.148
+sx-superuser-expiry-100 p3 T3 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.176
+sx-superuser-expiry-100 p3 M3 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=9707112 secs=0.431
+sx-superuser-expiry-100 p3 S3 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.120
+sx-superuser-expiry-100 p3 M3 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=9707112 secs=0.435
+sx-superuser-expiry-100 p3 S3 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.121
+sx-superuser-expiry-100 p3 P3 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.148
+sx-superuser-expiry-100 p3 S3 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.120
+sx-superuser-expiry-100 p3 P3 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.148
+sx-superuser-expiry-100 p3 M3 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=9707112 secs=0.435
+sx-superuser-expiry-100 p3 S3 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.120
+sx-superuser-expiry-100 p3 P3 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.149
+sx-superuser-expiry-100 p3 M3 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=9707112 secs=0.432
+sx-superuser-expiry-100 p3 S3 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.120
+sx-superuser-expiry-100 p3 P3 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.148
+sx-superuser-expiry-100 p3 M3 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=9707112 secs=0.433
+sx-superuser-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CELL-DONE p3 sx-superuser expiry 100 16:24:14
+wiki-talk-temporal-expiry-1000 p3 P3 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=1.033
+wiki-talk-temporal-expiry-1000 p3 T3 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=8482251620 secs=176.463
+wiki-talk-temporal-expiry-1000 p3 M3 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=39856556 secs=2.481
+wiki-talk-temporal-expiry-1000 p3 S3 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=0.891
+wiki-talk-temporal-expiry-1000 p3 M3 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=39856556 secs=2.460
+wiki-talk-temporal-expiry-1000 p3 S3 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=0.892
+wiki-talk-temporal-expiry-1000 p3 P3 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=1.008
+wiki-talk-temporal-expiry-1000 p3 S3 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=0.887
+wiki-talk-temporal-expiry-1000 p3 P3 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=1.008
+wiki-talk-temporal-expiry-1000 p3 M3 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=39856556 secs=2.466
+wiki-talk-temporal-expiry-1000 p3 S3 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=0.885
+wiki-talk-temporal-expiry-1000 p3 P3 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=1.006
+wiki-talk-temporal-expiry-1000 p3 M3 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=39856556 secs=2.469
+wiki-talk-temporal-expiry-1000 p3 S3 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=0.880
+wiki-talk-temporal-expiry-1000 p3 P3 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=1.006
+wiki-talk-temporal-expiry-1000 p3 M3 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=39856556 secs=2.470
+wiki-talk-temporal-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CELL-DONE p3 wiki-talk-temporal expiry 1000 16:27:37
+wiki-talk-temporal-expiry-100 p3 P3 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=1.062
+wiki-talk-temporal-expiry-100 p3 T3 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=8482528656 secs=176.536
+wiki-talk-temporal-expiry-100 p3 M3 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=39821688 secs=2.549
+wiki-talk-temporal-expiry-100 p3 S3 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=0.903
+wiki-talk-temporal-expiry-100 p3 M3 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=39821688 secs=2.496
+wiki-talk-temporal-expiry-100 p3 S3 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=0.900
+wiki-talk-temporal-expiry-100 p3 P3 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=1.063
+wiki-talk-temporal-expiry-100 p3 S3 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=0.898
+wiki-talk-temporal-expiry-100 p3 P3 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=1.062
+wiki-talk-temporal-expiry-100 p3 M3 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=39821688 secs=2.511
+wiki-talk-temporal-expiry-100 p3 S3 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=0.896
+wiki-talk-temporal-expiry-100 p3 P3 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=1.060
+wiki-talk-temporal-expiry-100 p3 M3 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=39821688 secs=2.498
+wiki-talk-temporal-expiry-100 p3 S3 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=0.899
+wiki-talk-temporal-expiry-100 p3 P3 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=1.068
+wiki-talk-temporal-expiry-100 p3 M3 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=39821688 secs=2.531
+wiki-talk-temporal-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CELL-DONE p3 wiki-talk-temporal expiry 100 16:31:03
+sx-askubuntu-insert-1000 p3 P3 status=OK done=727/727 net=455691 ops=0 t=680407 table=0 secs=0.141
+sx-askubuntu-insert-1000 p3 T3 status=OK done=727/727 net=455691 ops=0 t=680407 table=2680897812 secs=6.919
+sx-askubuntu-insert-1000 p3 M3 status=OK done=727/727 net=455691 ops=0 t=680407 table=30961052 secs=0.292
+sx-askubuntu-insert-1000 p3 S3 status=OK done=727/727 net=455691 ops=0 t=680407 table=0 secs=0.139
+sx-askubuntu-insert-1000 p3 M3 status=OK done=727/727 net=455691 ops=0 t=680407 table=30961052 secs=0.295
+sx-askubuntu-insert-1000 p3 S3 status=OK done=727/727 net=455691 ops=0 t=680407 table=0 secs=0.139
+sx-askubuntu-insert-1000 p3 P3 status=OK done=727/727 net=455691 ops=0 t=680407 table=0 secs=0.137
+sx-askubuntu-insert-1000 p3 S3 status=OK done=727/727 net=455691 ops=0 t=680407 table=0 secs=0.141
+sx-askubuntu-insert-1000 p3 P3 status=OK done=727/727 net=455691 ops=0 t=680407 table=0 secs=0.140
+sx-askubuntu-insert-1000 p3 M3 status=OK done=727/727 net=455691 ops=0 t=680407 table=30961052 secs=0.292
+sx-askubuntu-insert-1000 p3 S3 status=OK done=727/727 net=455691 ops=0 t=680407 table=0 secs=0.142
+sx-askubuntu-insert-1000 p3 P3 status=OK done=727/727 net=455691 ops=0 t=680407 table=0 secs=0.143
+sx-askubuntu-insert-1000 p3 M3 status=OK done=727/727 net=455691 ops=0 t=680407 table=30961052 secs=0.292
+sx-askubuntu-insert-1000 p3 S3 status=OK done=727/727 net=455691 ops=0 t=680407 table=0 secs=0.141
+sx-askubuntu-insert-1000 p3 P3 status=OK done=727/727 net=455691 ops=0 t=680407 table=0 secs=0.143
+sx-askubuntu-insert-1000 p3 M3 status=OK done=727/727 net=455691 ops=0 t=680407 table=30961052 secs=0.298
+sx-askubuntu-insert-1000 p3 final 680407 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CELL-DONE p3 sx-askubuntu insert 1000 16:31:14
+sx-askubuntu-insert-100 p3 P3 status=OK done=7267/7267 net=455691 ops=0 t=680407 table=0 secs=0.149
+sx-askubuntu-insert-100 p3 T3 status=OK done=7267/7267 net=455691 ops=0 t=680407 table=2680703572 secs=6.914
+sx-askubuntu-insert-100 p3 M3 status=OK done=7267/7267 net=455691 ops=0 t=680407 table=30982128 secs=0.297
+sx-askubuntu-insert-100 p3 S3 status=OK done=7267/7267 net=455691 ops=0 t=680407 table=0 secs=0.139
+sx-askubuntu-insert-100 p3 M3 status=OK done=7267/7267 net=455691 ops=0 t=680407 table=30982128 secs=0.296
+sx-askubuntu-insert-100 p3 S3 status=OK done=7267/7267 net=455691 ops=0 t=680407 table=0 secs=0.141
+sx-askubuntu-insert-100 p3 P3 status=OK done=7267/7267 net=455691 ops=0 t=680407 table=0 secs=0.149
+sx-askubuntu-insert-100 p3 S3 status=OK done=7267/7267 net=455691 ops=0 t=680407 table=0 secs=0.139
+sx-askubuntu-insert-100 p3 P3 status=OK done=7267/7267 net=455691 ops=0 t=680407 table=0 secs=0.152
+sx-askubuntu-insert-100 p3 M3 status=OK done=7267/7267 net=455691 ops=0 t=680407 table=30982128 secs=0.295
+sx-askubuntu-insert-100 p3 S3 status=OK done=7267/7267 net=455691 ops=0 t=680407 table=0 secs=0.139
+sx-askubuntu-insert-100 p3 P3 status=OK done=7267/7267 net=455691 ops=0 t=680407 table=0 secs=0.147
+sx-askubuntu-insert-100 p3 M3 status=OK done=7267/7267 net=455691 ops=0 t=680407 table=30982128 secs=0.294
+sx-askubuntu-insert-100 p3 S3 status=OK done=7267/7267 net=455691 ops=0 t=680407 table=0 secs=0.139
+sx-askubuntu-insert-100 p3 P3 status=OK done=7267/7267 net=455691 ops=0 t=680407 table=0 secs=0.149
+sx-askubuntu-insert-100 p3 M3 status=OK done=7267/7267 net=455691 ops=0 t=680407 table=30982128 secs=0.297
+sx-askubuntu-insert-100 p3 final 680407 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CELL-DONE p3 sx-askubuntu insert 100 16:31:26
+sx-superuser-insert-1000 p3 P3 status=OK done=1109/1109 net=714570 ops=0 t=1543161 table=0 secs=0.255
+sx-superuser-insert-1000 p3 T3 status=OK done=1109/1109 net=714570 ops=0 t=1543161 table=5889581496 secs=16.610
+sx-superuser-insert-1000 p3 M3 status=OK done=1109/1109 net=714570 ops=0 t=1543161 table=50418856 secs=0.653
+sx-superuser-insert-1000 p3 S3 status=OK done=1109/1109 net=714570 ops=0 t=1543161 table=0 secs=0.264
+sx-superuser-insert-1000 p3 M3 status=OK done=1109/1109 net=714570 ops=0 t=1543161 table=50418856 secs=0.571
+sx-superuser-insert-1000 p3 S3 status=OK done=1109/1109 net=714570 ops=0 t=1543161 table=0 secs=0.265
+sx-superuser-insert-1000 p3 P3 status=OK done=1109/1109 net=714570 ops=0 t=1543161 table=0 secs=0.256
+sx-superuser-insert-1000 p3 S3 status=OK done=1109/1109 net=714570 ops=0 t=1543161 table=0 secs=0.263
+sx-superuser-insert-1000 p3 P3 status=OK done=1109/1109 net=714570 ops=0 t=1543161 table=0 secs=0.254
+sx-superuser-insert-1000 p3 M3 status=OK done=1109/1109 net=714570 ops=0 t=1543161 table=50418856 secs=0.573
+sx-superuser-insert-1000 p3 S3 status=OK done=1109/1109 net=714570 ops=0 t=1543161 table=0 secs=0.269
+sx-superuser-insert-1000 p3 P3 status=OK done=1109/1109 net=714570 ops=0 t=1543161 table=0 secs=0.259
+sx-superuser-insert-1000 p3 M3 status=OK done=1109/1109 net=714570 ops=0 t=1543161 table=50418856 secs=0.572
+sx-superuser-insert-1000 p3 S3 status=OK done=1109/1109 net=714570 ops=0 t=1543161 table=0 secs=0.264
+sx-superuser-insert-1000 p3 P3 status=OK done=1109/1109 net=714570 ops=0 t=1543161 table=0 secs=0.256
+sx-superuser-insert-1000 p3 M3 status=OK done=1109/1109 net=714570 ops=0 t=1543161 table=50418856 secs=0.574
+sx-superuser-insert-1000 p3 final 1543161 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CELL-DONE p3 sx-superuser insert 1000 16:31:50
+sx-superuser-insert-100 p3 P3 status=OK done=11088/11088 net=714570 ops=0 t=1543161 table=0 secs=0.274
+sx-superuser-insert-100 p3 T3 status=OK done=11088/11088 net=714570 ops=0 t=1543161 table=5889725720 secs=16.610
+sx-superuser-insert-100 p3 M3 status=OK done=11088/11088 net=714570 ops=0 t=1543161 table=50408756 secs=0.582
+sx-superuser-insert-100 p3 S3 status=OK done=11088/11088 net=714570 ops=0 t=1543161 table=0 secs=0.264
+sx-superuser-insert-100 p3 M3 status=OK done=11088/11088 net=714570 ops=0 t=1543161 table=50408756 secs=0.568
+sx-superuser-insert-100 p3 S3 status=OK done=11088/11088 net=714570 ops=0 t=1543161 table=0 secs=0.268
+sx-superuser-insert-100 p3 P3 status=OK done=11088/11088 net=714570 ops=0 t=1543161 table=0 secs=0.273
+sx-superuser-insert-100 p3 S3 status=OK done=11088/11088 net=714570 ops=0 t=1543161 table=0 secs=0.267
+sx-superuser-insert-100 p3 P3 status=OK done=11088/11088 net=714570 ops=0 t=1543161 table=0 secs=0.277
+sx-superuser-insert-100 p3 M3 status=OK done=11088/11088 net=714570 ops=0 t=1543161 table=50408756 secs=0.569
+sx-superuser-insert-100 p3 S3 status=OK done=11088/11088 net=714570 ops=0 t=1543161 table=0 secs=0.265
+sx-superuser-insert-100 p3 P3 status=OK done=11088/11088 net=714570 ops=0 t=1543161 table=0 secs=0.274
+sx-superuser-insert-100 p3 M3 status=OK done=11088/11088 net=714570 ops=0 t=1543161 table=50408756 secs=0.575
+sx-superuser-insert-100 p3 S3 status=OK done=11088/11088 net=714570 ops=0 t=1543161 table=0 secs=0.266
+sx-superuser-insert-100 p3 P3 status=OK done=11088/11088 net=714570 ops=0 t=1543161 table=0 secs=0.279
+sx-superuser-insert-100 p3 M3 status=OK done=11088/11088 net=714570 ops=0 t=1543161 table=50408756 secs=0.575
+sx-superuser-insert-100 p3 final 1543161 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CELL-DONE p3 sx-superuser insert 100 16:32:15
+sx-askubuntu-expiry-1000 p4 P4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.146
+sx-askubuntu-expiry-1000 p4 T4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.704
+sx-askubuntu-expiry-1000 p4 M4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=7917960 secs=0.294
+sx-askubuntu-expiry-1000 p4 B4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.452
+sx-askubuntu-expiry-1000 p4 A4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.383
+sx-askubuntu-expiry-1000 p4 S4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.124
+sx-askubuntu-expiry-1000 p4 A4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.387
+sx-askubuntu-expiry-1000 p4 S4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.125
+sx-askubuntu-expiry-1000 p4 P4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.147
+sx-askubuntu-expiry-1000 p4 B4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.453
+sx-askubuntu-expiry-1000 p4 M4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=7917960 secs=0.292
+sx-askubuntu-expiry-1000 p4 A4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.383
+sx-askubuntu-expiry-1000 p4 S4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.125
+sx-askubuntu-expiry-1000 p4 P4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.145
+sx-askubuntu-expiry-1000 p4 B4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.452
+sx-askubuntu-expiry-1000 p4 M4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=7917960 secs=0.294
+sx-askubuntu-expiry-1000 p4 S4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.124
+sx-askubuntu-expiry-1000 p4 P4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.146
+sx-askubuntu-expiry-1000 p4 B4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.452
+sx-askubuntu-expiry-1000 p4 M4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=7917960 secs=0.294
+sx-askubuntu-expiry-1000 p4 A4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.384
+sx-askubuntu-expiry-1000 p4 S4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.124
+sx-askubuntu-expiry-1000 p4 P4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.145
+sx-askubuntu-expiry-1000 p4 B4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.451
+sx-askubuntu-expiry-1000 p4 M4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=7917960 secs=0.291
+sx-askubuntu-expiry-1000 p4 A4 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.384
+sx-askubuntu-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-askubuntu-expiry-1000 p4 final 0 ops A4.t1:0 A4.t2:0 A4.t3:0 A4.t4:0 A4.t5:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+CELL-DONE p4 sx-askubuntu expiry 1000 16:32:25
+sx-askubuntu-expiry-100 p4 P4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.166
+sx-askubuntu-expiry-100 p4 T4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.738
+sx-askubuntu-expiry-100 p4 M4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=7913404 secs=0.300
+sx-askubuntu-expiry-100 p4 B4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.551
+sx-askubuntu-expiry-100 p4 A4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=1.288
+sx-askubuntu-expiry-100 p4 S4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.130
+sx-askubuntu-expiry-100 p4 S4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.132
+sx-askubuntu-expiry-100 p4 P4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.168
+sx-askubuntu-expiry-100 p4 B4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.548
+sx-askubuntu-expiry-100 p4 M4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=7913404 secs=0.297
+sx-askubuntu-expiry-100 p4 S4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.130
+sx-askubuntu-expiry-100 p4 P4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.166
+sx-askubuntu-expiry-100 p4 B4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.550
+sx-askubuntu-expiry-100 p4 M4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=7913404 secs=0.297
+sx-askubuntu-expiry-100 p4 S4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.129
+sx-askubuntu-expiry-100 p4 P4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.166
+sx-askubuntu-expiry-100 p4 B4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.549
+sx-askubuntu-expiry-100 p4 M4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=7913404 secs=0.297
+sx-askubuntu-expiry-100 p4 S4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.129
+sx-askubuntu-expiry-100 p4 P4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.167
+sx-askubuntu-expiry-100 p4 B4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=0.549
+sx-askubuntu-expiry-100 p4 M4 status=OK done=14534/14534 net=963038 ops=0 t=0 table=7913404 secs=0.298
+sx-askubuntu-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-askubuntu-expiry-100 p4 final 0 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+CELL-DONE p4 sx-askubuntu expiry 100 16:32:36
+sx-superuser-expiry-1000 p4 P4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.235
+sx-superuser-expiry-1000 p4 T4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.139
+sx-superuser-expiry-1000 p4 M4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=9694856 secs=0.477
+sx-superuser-expiry-1000 p4 B4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.757
+sx-superuser-expiry-1000 p4 A4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.686
+sx-superuser-expiry-1000 p4 S4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.203
+sx-superuser-expiry-1000 p4 A4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.687
+sx-superuser-expiry-1000 p4 S4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.202
+sx-superuser-expiry-1000 p4 P4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.234
+sx-superuser-expiry-1000 p4 B4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.760
+sx-superuser-expiry-1000 p4 M4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=9694856 secs=0.477
+sx-superuser-expiry-1000 p4 A4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.689
+sx-superuser-expiry-1000 p4 S4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.203
+sx-superuser-expiry-1000 p4 P4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.238
+sx-superuser-expiry-1000 p4 B4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.756
+sx-superuser-expiry-1000 p4 M4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=9694856 secs=0.474
+sx-superuser-expiry-1000 p4 S4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.203
+sx-superuser-expiry-1000 p4 P4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.235
+sx-superuser-expiry-1000 p4 B4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.757
+sx-superuser-expiry-1000 p4 M4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=9694856 secs=0.476
+sx-superuser-expiry-1000 p4 A4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.687
+sx-superuser-expiry-1000 p4 S4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.202
+sx-superuser-expiry-1000 p4 P4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.235
+sx-superuser-expiry-1000 p4 B4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.756
+sx-superuser-expiry-1000 p4 M4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=9694856 secs=0.478
+sx-superuser-expiry-1000 p4 A4 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=0.689
+sx-superuser-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-superuser-expiry-1000 p4 final 0 ops A4.t1:0 A4.t2:0 A4.t3:0 A4.t4:0 A4.t5:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+CELL-DONE p4 sx-superuser expiry 1000 16:32:51
+sx-superuser-expiry-100 p4 P4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.266
+sx-superuser-expiry-100 p4 T4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.191
+sx-superuser-expiry-100 p4 M4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=9707112 secs=0.480
+sx-superuser-expiry-100 p4 B4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.904
+sx-superuser-expiry-100 p4 A4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=2.419
+sx-superuser-expiry-100 p4 S4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.207
+sx-superuser-expiry-100 p4 S4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.207
+sx-superuser-expiry-100 p4 P4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.266
+sx-superuser-expiry-100 p4 B4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.911
+sx-superuser-expiry-100 p4 M4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=9707112 secs=0.486
+sx-superuser-expiry-100 p4 S4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.207
+sx-superuser-expiry-100 p4 P4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.265
+sx-superuser-expiry-100 p4 B4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.913
+sx-superuser-expiry-100 p4 M4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=9707112 secs=0.484
+sx-superuser-expiry-100 p4 S4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.207
+sx-superuser-expiry-100 p4 P4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.264
+sx-superuser-expiry-100 p4 B4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.907
+sx-superuser-expiry-100 p4 M4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=9707112 secs=0.481
+sx-superuser-expiry-100 p4 S4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.208
+sx-superuser-expiry-100 p4 P4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.265
+sx-superuser-expiry-100 p4 B4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=0.906
+sx-superuser-expiry-100 p4 M4 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=9707112 secs=0.481
+sx-superuser-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-superuser-expiry-100 p4 final 0 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+CELL-DONE p4 sx-superuser expiry 100 16:33:08
+wiki-talk-temporal-expiry-1000 p4 P4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=4.057
+wiki-talk-temporal-expiry-1000 p4 T4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=8482251620 secs=175.811
+wiki-talk-temporal-expiry-1000 p4 M4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=39856556 secs=3.370
+wiki-talk-temporal-expiry-1000 p4 B4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=39.076
+wiki-talk-temporal-expiry-1000 p4 A4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=25.355
+wiki-talk-temporal-expiry-1000 p4 S4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=7.253
+wiki-talk-temporal-expiry-1000 p4 S4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=7.200
+wiki-talk-temporal-expiry-1000 p4 P4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=4.054
+wiki-talk-temporal-expiry-1000 p4 M4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=39856556 secs=3.295
+wiki-talk-temporal-expiry-1000 p4 S4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=7.204
+wiki-talk-temporal-expiry-1000 p4 P4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=4.047
+wiki-talk-temporal-expiry-1000 p4 M4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=39856556 secs=3.287
+wiki-talk-temporal-expiry-1000 p4 S4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=7.192
+wiki-talk-temporal-expiry-1000 p4 P4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=4.048
+wiki-talk-temporal-expiry-1000 p4 M4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=39856556 secs=3.288
+wiki-talk-temporal-expiry-1000 p4 S4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=7.211
+wiki-talk-temporal-expiry-1000 p4 P4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=4.040
+wiki-talk-temporal-expiry-1000 p4 M4 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=39856556 secs=3.292
+wiki-talk-temporal-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+wiki-talk-temporal-expiry-1000 p4 final 0 ops A4.t1:0 B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+CELL-DONE p4 wiki-talk-temporal expiry 1000 16:38:26
+wiki-talk-temporal-expiry-100 p4 P4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=6.095
+wiki-talk-temporal-expiry-100 p4 T4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=8482528656 secs=174.691
+wiki-talk-temporal-expiry-100 p4 M4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=39821688 secs=3.355
+wiki-talk-temporal-expiry-100 p4 B4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=46.986
+wiki-talk-temporal-expiry-100 p4 A4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=79.975
+wiki-talk-temporal-expiry-100 p4 S4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=7.277
+wiki-talk-temporal-expiry-100 p4 S4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=7.293
+wiki-talk-temporal-expiry-100 p4 P4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=6.100
+wiki-talk-temporal-expiry-100 p4 M4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=39821688 secs=3.347
+wiki-talk-temporal-expiry-100 p4 S4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=7.365
+wiki-talk-temporal-expiry-100 p4 P4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=6.085
+wiki-talk-temporal-expiry-100 p4 M4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=39821688 secs=3.353
+wiki-talk-temporal-expiry-100 p4 S4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=7.287
+wiki-talk-temporal-expiry-100 p4 P4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=6.091
+wiki-talk-temporal-expiry-100 p4 M4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=39821688 secs=3.355
+wiki-talk-temporal-expiry-100 p4 S4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=7.299
+wiki-talk-temporal-expiry-100 p4 P4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=0 secs=6.093
+wiki-talk-temporal-expiry-100 p4 M4 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=39821688 secs=3.347
+wiki-talk-temporal-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+wiki-talk-temporal-expiry-100 p4 final 0 ops A4.t1:0 B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+CELL-DONE p4 wiki-talk-temporal expiry 100 16:45:01
+sx-askubuntu-insert-1000 p4 P4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=0 secs=0.773
+sx-askubuntu-insert-1000 p4 T4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=2680897812 secs=6.872
+sx-askubuntu-insert-1000 p4 M4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=30961052 secs=0.616
+sx-askubuntu-insert-1000 p4 B4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=0 secs=5.037
+sx-askubuntu-insert-1000 p4 A4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=0 secs=30.797
+sx-askubuntu-insert-1000 p4 S4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=0 secs=0.832
+sx-askubuntu-insert-1000 p4 S4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=0 secs=0.833
+sx-askubuntu-insert-1000 p4 P4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=0 secs=0.746
+sx-askubuntu-insert-1000 p4 M4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=30961052 secs=0.586
+sx-askubuntu-insert-1000 p4 S4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=0 secs=0.832
+sx-askubuntu-insert-1000 p4 P4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=0 secs=0.749
+sx-askubuntu-insert-1000 p4 M4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=30961052 secs=0.590
+sx-askubuntu-insert-1000 p4 S4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=0 secs=0.834
+sx-askubuntu-insert-1000 p4 P4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=0 secs=0.745
+sx-askubuntu-insert-1000 p4 M4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=30961052 secs=0.589
+sx-askubuntu-insert-1000 p4 S4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=0 secs=0.831
+sx-askubuntu-insert-1000 p4 P4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=0 secs=0.747
+sx-askubuntu-insert-1000 p4 M4 status=OK done=727/727 net=455691 ops=0 t=71698775 table=30961052 secs=0.594
+sx-askubuntu-insert-1000 p3 final 680407 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-askubuntu-insert-1000 p4 final 71698775 ops A4.t1:0 B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+CELL-DONE p4 sx-askubuntu insert 1000 16:45:57
+sx-askubuntu-insert-100 p4 P4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=0 secs=0.838
+sx-askubuntu-insert-100 p4 T4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=2680703572 secs=6.856
+sx-askubuntu-insert-100 p4 M4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=30982128 secs=0.625
+sx-askubuntu-insert-100 p4 B4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=0 secs=8.976
+sx-askubuntu-insert-100 p4 A4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=0 secs=149.752
+sx-askubuntu-insert-100 p4 S4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=0 secs=0.839
+sx-askubuntu-insert-100 p4 S4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=0 secs=0.839
+sx-askubuntu-insert-100 p4 P4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=0 secs=0.844
+sx-askubuntu-insert-100 p4 M4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=30982128 secs=0.591
+sx-askubuntu-insert-100 p4 S4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=0 secs=0.835
+sx-askubuntu-insert-100 p4 P4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=0 secs=0.841
+sx-askubuntu-insert-100 p4 M4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=30982128 secs=0.586
+sx-askubuntu-insert-100 p4 S4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=0 secs=0.836
+sx-askubuntu-insert-100 p4 P4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=0 secs=0.841
+sx-askubuntu-insert-100 p4 M4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=30982128 secs=0.590
+sx-askubuntu-insert-100 p4 S4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=0 secs=0.835
+sx-askubuntu-insert-100 p4 P4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=0 secs=0.842
+sx-askubuntu-insert-100 p4 M4 status=OK done=7267/7267 net=455691 ops=0 t=71698775 table=30982128 secs=0.596
+sx-askubuntu-insert-100 p3 final 680407 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-askubuntu-insert-100 p4 final 71698775 ops A4.t1:0 B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+CELL-DONE p4 sx-askubuntu insert 100 16:48:56
+sx-superuser-insert-1000 p4 P4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=0 secs=1.966
+sx-superuser-insert-1000 p4 T4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=5889581496 secs=16.667
+sx-superuser-insert-1000 p4 M4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=50418856 secs=1.557
+sx-superuser-insert-1000 p4 B4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=0 secs=13.474
+sx-superuser-insert-1000 p4 A4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=0 secs=104.916
+sx-superuser-insert-1000 p4 S4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=0 secs=2.228
+sx-superuser-insert-1000 p4 S4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=0 secs=2.226
+sx-superuser-insert-1000 p4 P4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=0 secs=1.967
+sx-superuser-insert-1000 p4 M4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=50418856 secs=1.505
+sx-superuser-insert-1000 p4 S4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=0 secs=2.227
+sx-superuser-insert-1000 p4 P4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=0 secs=1.967
+sx-superuser-insert-1000 p4 M4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=50418856 secs=1.491
+sx-superuser-insert-1000 p4 S4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=0 secs=2.211
+sx-superuser-insert-1000 p4 P4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=0 secs=1.993
+sx-superuser-insert-1000 p4 M4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=50418856 secs=1.490
+sx-superuser-insert-1000 p4 S4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=0 secs=2.213
+sx-superuser-insert-1000 p4 P4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=0 secs=1.955
+sx-superuser-insert-1000 p4 M4 status=OK done=1109/1109 net=714570 ops=0 t=230363003 table=50418856 secs=1.493
+sx-superuser-insert-1000 p3 final 1543161 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-superuser-insert-1000 p4 final 230363003 ops A4.t1:0 B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+CELL-DONE p4 sx-superuser insert 1000 16:51:41
+sx-superuser-insert-100 p4 P4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=0 secs=2.171
+sx-superuser-insert-100 p4 T4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=5889725720 secs=16.494
+sx-superuser-insert-100 p4 M4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=50408756 secs=1.564
+sx-superuser-insert-100 p4 B4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=0 secs=22.995
+sx-superuser-insert-100 p4 A4 status=TIME done=8037/11088 net=513596 ops=0 t=164557523 table=0 secs=300.060
+sx-superuser-insert-100 p4 S4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=0 secs=2.213
+sx-superuser-insert-100 p4 S4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=0 secs=2.226
+sx-superuser-insert-100 p4 P4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=0 secs=2.184
+sx-superuser-insert-100 p4 M4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=50408756 secs=1.489
+sx-superuser-insert-100 p4 S4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=0 secs=2.222
+sx-superuser-insert-100 p4 P4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=0 secs=2.180
+sx-superuser-insert-100 p4 M4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=50408756 secs=1.499
+sx-superuser-insert-100 p4 S4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=0 secs=2.268
+sx-superuser-insert-100 p4 P4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=0 secs=2.172
+sx-superuser-insert-100 p4 M4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=50408756 secs=1.485
+sx-superuser-insert-100 p4 S4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=0 secs=2.205
+sx-superuser-insert-100 p4 P4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=0 secs=2.167
+sx-superuser-insert-100 p4 M4 status=OK done=11088/11088 net=714570 ops=0 t=230363003 table=50408756 secs=1.481
+sx-superuser-insert-100 p3 final 1543161 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-superuser-insert-100 p4 final 230363003 ops A4.t1:0(8037/11088) B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+CELL-DONE p4 sx-superuser insert 100 16:57:53
+sx-askubuntu-expiry-1000 p5 PR status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.269
+sx-askubuntu-expiry-1000 p5 WT status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.836
+sx-askubuntu-expiry-1000 p5 WJ status=OK done=1454/1454 net=961178 ops=0 t=0 table=3145728 secs=1.069
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10370876 secs=0.874
+sx-askubuntu-expiry-1000 p5 A5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.763
+sx-askubuntu-expiry-1000 p5 R2 status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.459
+sx-askubuntu-expiry-1000 p5 WJ status=OK done=1454/1454 net=961178 ops=0 t=0 table=3145728 secs=1.069
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10370876 secs=0.876
+sx-askubuntu-expiry-1000 p5 WT status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.834
+sx-askubuntu-expiry-1000 p5 R2 status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.462
+sx-askubuntu-expiry-1000 p5 A5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.762
+sx-askubuntu-expiry-1000 p5 PR status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.270
+sx-askubuntu-expiry-1000 p5 WJ status=OK done=1454/1454 net=961178 ops=0 t=0 table=3145728 secs=1.073
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10370876 secs=0.869
+sx-askubuntu-expiry-1000 p5 WT status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.830
+sx-askubuntu-expiry-1000 p5 R2 status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.456
+sx-askubuntu-expiry-1000 p5 A5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.758
+sx-askubuntu-expiry-1000 p5 PR status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.268
+sx-askubuntu-expiry-1000 p5 R2 status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.456
+sx-askubuntu-expiry-1000 p5 A5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.759
+sx-askubuntu-expiry-1000 p5 PR status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.268
+sx-askubuntu-expiry-1000 p5 WJ status=OK done=1454/1454 net=961178 ops=0 t=0 table=3145728 secs=1.067
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10370876 secs=0.870
+sx-askubuntu-expiry-1000 p5 WT status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.829
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10370876 secs=0.869
+sx-askubuntu-expiry-1000 p5 WT status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.832
+sx-askubuntu-expiry-1000 p5 R2 status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.456
+sx-askubuntu-expiry-1000 p5 A5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=0 secs=0.761
+sx-askubuntu-expiry-1000 p5 PR status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.268
+sx-askubuntu-expiry-1000 p5 WJ status=OK done=1454/1454 net=961178 ops=0 t=0 table=3145728 secs=1.071
+sx-askubuntu-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-askubuntu-expiry-1000 p4 final 0 ops A4.t1:0 A4.t2:0 A4.t3:0 A4.t4:0 A4.t5:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+sx-askubuntu-expiry-1000 p5 final 0 ops A5.t1:0 A5.t2:0 A5.t3:0 A5.t4:0 A5.t5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WJ.t2:0 WJ.t3:0 WJ.t4:0 WJ.t5:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 sx-askubuntu expiry 1000 16:58:17
+sx-askubuntu-expiry-100 p5 PR status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.426
+sx-askubuntu-expiry-100 p5 WT status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.876
+sx-askubuntu-expiry-100 p5 WJ status=OK done=14534/14534 net=963038 ops=0 t=0 table=3145728 secs=1.218
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10410848 secs=0.918
+sx-askubuntu-expiry-100 p5 A5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=0 secs=4.939
+sx-askubuntu-expiry-100 p5 R2 status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.482
+sx-askubuntu-expiry-100 p5 WJ status=OK done=14534/14534 net=963038 ops=0 t=0 table=3145728 secs=1.217
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10410848 secs=0.922
+sx-askubuntu-expiry-100 p5 WT status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.882
+sx-askubuntu-expiry-100 p5 R2 status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.481
+sx-askubuntu-expiry-100 p5 PR status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.430
+sx-askubuntu-expiry-100 p5 WJ status=OK done=14534/14534 net=963038 ops=0 t=0 table=3145728 secs=1.215
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10410848 secs=0.920
+sx-askubuntu-expiry-100 p5 WT status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.881
+sx-askubuntu-expiry-100 p5 R2 status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.480
+sx-askubuntu-expiry-100 p5 PR status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.429
+sx-askubuntu-expiry-100 p5 R2 status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.480
+sx-askubuntu-expiry-100 p5 PR status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.429
+sx-askubuntu-expiry-100 p5 WJ status=OK done=14534/14534 net=963038 ops=0 t=0 table=3145728 secs=1.216
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10410848 secs=0.916
+sx-askubuntu-expiry-100 p5 WT status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.877
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10410848 secs=0.916
+sx-askubuntu-expiry-100 p5 WT status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.875
+sx-askubuntu-expiry-100 p5 R2 status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.478
+sx-askubuntu-expiry-100 p5 PR status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.427
+sx-askubuntu-expiry-100 p5 WJ status=OK done=14534/14534 net=963038 ops=0 t=0 table=3145728 secs=1.215
+sx-askubuntu-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-askubuntu-expiry-100 p4 final 0 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+sx-askubuntu-expiry-100 p5 final 0 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WJ.t2:0 WJ.t3:0 WJ.t4:0 WJ.t5:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 sx-askubuntu expiry 100 16:58:45
+sx-superuser-expiry-1000 p5 PR status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.473
+sx-superuser-expiry-1000 p5 WT status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.382
+sx-superuser-expiry-1000 p5 WJ status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3145728 secs=1.856
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=11732596 secs=1.397
+sx-superuser-expiry-1000 p5 A5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=1.463
+sx-superuser-expiry-1000 p5 R2 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.768
+sx-superuser-expiry-1000 p5 WJ status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3145728 secs=1.843
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=11732596 secs=1.397
+sx-superuser-expiry-1000 p5 WT status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.376
+sx-superuser-expiry-1000 p5 R2 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.774
+sx-superuser-expiry-1000 p5 A5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=1.468
+sx-superuser-expiry-1000 p5 PR status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.467
+sx-superuser-expiry-1000 p5 WJ status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3145728 secs=1.870
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=11732596 secs=1.399
+sx-superuser-expiry-1000 p5 WT status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.381
+sx-superuser-expiry-1000 p5 R2 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.774
+sx-superuser-expiry-1000 p5 A5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=1.472
+sx-superuser-expiry-1000 p5 PR status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.469
+sx-superuser-expiry-1000 p5 R2 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.768
+sx-superuser-expiry-1000 p5 A5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=1.465
+sx-superuser-expiry-1000 p5 PR status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.469
+sx-superuser-expiry-1000 p5 WJ status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3145728 secs=1.843
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=11732596 secs=1.405
+sx-superuser-expiry-1000 p5 WT status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.381
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=11732596 secs=1.395
+sx-superuser-expiry-1000 p5 WT status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.379
+sx-superuser-expiry-1000 p5 R2 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.768
+sx-superuser-expiry-1000 p5 A5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=0 secs=1.463
+sx-superuser-expiry-1000 p5 PR status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.469
+sx-superuser-expiry-1000 p5 WJ status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3145728 secs=1.847
+sx-superuser-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-superuser-expiry-1000 p4 final 0 ops A4.t1:0 A4.t2:0 A4.t3:0 A4.t4:0 A4.t5:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+sx-superuser-expiry-1000 p5 final 0 ops A5.t1:0 A5.t2:0 A5.t3:0 A5.t4:0 A5.t5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WJ.t2:0 WJ.t3:0 WJ.t4:0 WJ.t5:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 sx-superuser expiry 1000 16:59:25
+sx-superuser-expiry-100 p5 PR status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.719
+sx-superuser-expiry-100 p5 WT status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.450
+sx-superuser-expiry-100 p5 WJ status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3145728 secs=2.037
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=11761980 secs=1.436
+sx-superuser-expiry-100 p5 A5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=0 secs=10.004
+sx-superuser-expiry-100 p5 R2 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.803
+sx-superuser-expiry-100 p5 WJ status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3145728 secs=2.025
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=11761980 secs=1.439
+sx-superuser-expiry-100 p5 WT status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.437
+sx-superuser-expiry-100 p5 R2 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.798
+sx-superuser-expiry-100 p5 PR status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.719
+sx-superuser-expiry-100 p5 WJ status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3145728 secs=2.021
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=11761980 secs=1.439
+sx-superuser-expiry-100 p5 WT status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.440
+sx-superuser-expiry-100 p5 R2 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.799
+sx-superuser-expiry-100 p5 PR status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.718
+sx-superuser-expiry-100 p5 R2 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.798
+sx-superuser-expiry-100 p5 PR status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.718
+sx-superuser-expiry-100 p5 WJ status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3145728 secs=2.029
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=11761980 secs=1.531
+sx-superuser-expiry-100 p5 WT status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.515
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=11761980 secs=1.508
+sx-superuser-expiry-100 p5 WT status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.496
+sx-superuser-expiry-100 p5 R2 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.821
+sx-superuser-expiry-100 p5 PR status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.741
+sx-superuser-expiry-100 p5 WJ status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3145728 secs=2.077
+sx-superuser-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-superuser-expiry-100 p4 final 0 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+sx-superuser-expiry-100 p5 final 0 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WJ.t2:0 WJ.t3:0 WJ.t4:0 WJ.t5:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 sx-superuser expiry 100 17:00:12
+wiki-talk-temporal-expiry-1000 p5 PR status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=11.008
+wiki-talk-temporal-expiry-1000 p5 WT status=OK done=12202/12202 net=6598268 ops=0 t=0 table=8482251620 secs=194.747
+wiki-talk-temporal-expiry-1000 p5 WJ status=CAP done=12010/12202 net=6482879 ops=0 t=2924710 table=6442450944 secs=323.873
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=87481000 secs=45.446
+wiki-talk-temporal-expiry-1000 p5 A5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=0 secs=96.934
+wiki-talk-temporal-expiry-1000 p5 R2 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=36.198
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=87481000 secs=45.271
+wiki-talk-temporal-expiry-1000 p5 R2 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=36.151
+wiki-talk-temporal-expiry-1000 p5 PR status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=10.883
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=87481000 secs=45.580
+wiki-talk-temporal-expiry-1000 p5 R2 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=36.331
+wiki-talk-temporal-expiry-1000 p5 PR status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=10.921
+wiki-talk-temporal-expiry-1000 p5 R2 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=36.261
+wiki-talk-temporal-expiry-1000 p5 PR status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=10.877
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=87481000 secs=45.417
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=87481000 secs=45.461
+wiki-talk-temporal-expiry-1000 p5 R2 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=36.417
+wiki-talk-temporal-expiry-1000 p5 PR status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=10.928
+wiki-talk-temporal-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+wiki-talk-temporal-expiry-1000 p4 final 0 ops A4.t1:0 B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+wiki-talk-temporal-expiry-1000 p5 final 0 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0(12009/12202) WT.t1:0
+CELL-DONE p5 wiki-talk-temporal expiry 1000 17:18:17
+wiki-talk-temporal-expiry-100 p5 PR status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=17.674
+wiki-talk-temporal-expiry-100 p5 WT status=OK done=122011/122011 net=6628786 ops=0 t=0 table=8482528656 secs=196.210
+wiki-talk-temporal-expiry-100 p5 WJ status=CAP done=120094/122011 net=6512784 ops=0 t=2917627 table=6442450944 secs=327.333
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=87568280 secs=46.102
+wiki-talk-temporal-expiry-100 p5 A5 status=TIME done=63612/122011 net=3380598 ops=0 t=1276167 table=0 secs=299.933
+wiki-talk-temporal-expiry-100 p5 R2 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=36.293
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=87568280 secs=45.641
+wiki-talk-temporal-expiry-100 p5 R2 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=36.406
+wiki-talk-temporal-expiry-100 p5 PR status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=17.528
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=87568280 secs=45.699
+wiki-talk-temporal-expiry-100 p5 R2 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=36.586
+wiki-talk-temporal-expiry-100 p5 PR status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=17.492
+wiki-talk-temporal-expiry-100 p5 R2 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=36.357
+wiki-talk-temporal-expiry-100 p5 PR status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=17.479
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=87568280 secs=45.964
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=87568280 secs=45.747
+wiki-talk-temporal-expiry-100 p5 R2 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=36.386
+wiki-talk-temporal-expiry-100 p5 PR status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=17.519
+wiki-talk-temporal-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+wiki-talk-temporal-expiry-100 p4 final 0 ops A4.t1:0 B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+wiki-talk-temporal-expiry-100 p5 final 0 ops A5.t1:0(63612/122011) M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0(120093/122011) WT.t1:0
+CELL-DONE p5 wiki-talk-temporal expiry 100 17:40:30
+sx-askubuntu-insert-1000 p5 PR status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=4.861
+sx-askubuntu-insert-1000 p5 WT status=OK done=727/727 net=455691 ops=0 t=7790384985 table=2680897812 secs=20.699
+sx-askubuntu-insert-1000 p5 WJ status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3221225472 secs=124.789
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=204038072 secs=11.755
+sx-askubuntu-insert-1000 p5 A5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=0 secs=178.811
+sx-askubuntu-insert-1000 p5 R2 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=11.834
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=204038072 secs=11.684
+sx-askubuntu-insert-1000 p5 WT status=OK done=727/727 net=455691 ops=0 t=7790384985 table=2680897812 secs=20.560
+sx-askubuntu-insert-1000 p5 R2 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=11.888
+sx-askubuntu-insert-1000 p5 PR status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=4.867
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=204038072 secs=11.760
+sx-askubuntu-insert-1000 p5 WT status=OK done=727/727 net=455691 ops=0 t=7790384985 table=2680897812 secs=20.564
+sx-askubuntu-insert-1000 p5 R2 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=11.832
+sx-askubuntu-insert-1000 p5 PR status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=4.870
+sx-askubuntu-insert-1000 p5 R2 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=11.830
+sx-askubuntu-insert-1000 p5 PR status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=4.865
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=204038072 secs=11.837
+sx-askubuntu-insert-1000 p5 WT status=OK done=727/727 net=455691 ops=0 t=7790384985 table=2680897812 secs=20.557
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=204038072 secs=11.806
+sx-askubuntu-insert-1000 p5 WT status=OK done=727/727 net=455691 ops=0 t=7790384985 table=2680897812 secs=20.625
+sx-askubuntu-insert-1000 p5 R2 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=11.848
+sx-askubuntu-insert-1000 p5 PR status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=4.866
+sx-askubuntu-insert-1000 p3 final 680407 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-askubuntu-insert-1000 p4 final 71698775 ops A4.t1:0 B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+sx-askubuntu-insert-1000 p5 final 7790384985 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 sx-askubuntu insert 1000 17:49:42
+sx-askubuntu-insert-100 p5 PR status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=8.204
+sx-askubuntu-insert-100 p5 WT status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=2680703572 secs=20.551
+sx-askubuntu-insert-100 p5 WJ status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3221225472 secs=125.091
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=204015640 secs=11.798
+sx-askubuntu-insert-100 p5 A5 status=TIME done=3208/7267 net=205127 ops=0 t=2414442767 table=0 secs=300.074
+sx-askubuntu-insert-100 p5 R2 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=11.828
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=204015640 secs=11.717
+sx-askubuntu-insert-100 p5 WT status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=2680703572 secs=20.602
+sx-askubuntu-insert-100 p5 R2 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=11.974
+sx-askubuntu-insert-100 p5 PR status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=8.274
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=204015640 secs=11.693
+sx-askubuntu-insert-100 p5 WT status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=2680703572 secs=20.608
+sx-askubuntu-insert-100 p5 R2 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=11.844
+sx-askubuntu-insert-100 p5 PR status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=8.181
+sx-askubuntu-insert-100 p5 R2 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=11.819
+sx-askubuntu-insert-100 p5 PR status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=8.179
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=204015640 secs=11.694
+sx-askubuntu-insert-100 p5 WT status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=2680703572 secs=21.578
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=204015640 secs=11.769
+sx-askubuntu-insert-100 p5 WT status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=2680703572 secs=20.578
+sx-askubuntu-insert-100 p5 R2 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=11.845
+sx-askubuntu-insert-100 p5 PR status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=8.183
+sx-askubuntu-insert-100 p3 final 680407 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-askubuntu-insert-100 p4 final 71698775 ops A4.t1:0 B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+sx-askubuntu-insert-100 p5 final 7790384985 ops A5.t1:0(3208/7267) M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 sx-askubuntu insert 100 18:01:13
+sx-superuser-insert-1000 p5 PR status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=13.250
+sx-superuser-insert-1000 p5 WT status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=5889581496 secs=52.930
+sx-superuser-insert-1000 p5 WJ status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=6442450944 secs=334.805
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=346412448 secs=33.762
+sx-superuser-insert-1000 p5 A5 status=TIME done=724/1109 net=462754 ops=0 t=19840616399 table=0 secs=300.077
+sx-superuser-insert-1000 p5 R2 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=31.801
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=346412448 secs=33.917
+sx-superuser-insert-1000 p5 WT status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=5889581496 secs=53.016
+sx-superuser-insert-1000 p5 R2 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=31.774
+sx-superuser-insert-1000 p5 PR status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=13.357
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=346412448 secs=34.437
+sx-superuser-insert-1000 p5 WT status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=5889581496 secs=52.957
+sx-superuser-insert-1000 p5 R2 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=31.793
+sx-superuser-insert-1000 p5 PR status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=13.222
+sx-superuser-insert-1000 p5 R2 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=31.760
+sx-superuser-insert-1000 p5 PR status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=13.269
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=346412448 secs=33.927
+sx-superuser-insert-1000 p5 WT status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=5889581496 secs=52.952
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=346412448 secs=33.954
+sx-superuser-insert-1000 p5 WT status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=5889581496 secs=53.007
+sx-superuser-insert-1000 p5 R2 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=31.836
+sx-superuser-insert-1000 p5 PR status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=13.254
+sx-superuser-insert-1000 p3 final 1543161 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-superuser-insert-1000 p4 final 230363003 ops A4.t1:0 B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+sx-superuser-insert-1000 p5 final 32917477697 ops A5.t1:0(724/1109) M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 sx-superuser insert 1000 18:22:52
+sx-superuser-insert-100 p5 PR status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=21.403
+sx-superuser-insert-100 p5 WT status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=5889725720 secs=53.007
+sx-superuser-insert-100 p5 WJ status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=6442450944 secs=334.706
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=346423896 secs=34.676
+sx-superuser-insert-100 p5 A5 status=TIME done=2608/11088 net=168413 ops=0 t=4220029211 table=0 secs=300.069
+sx-superuser-insert-100 p5 R2 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=31.979
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=346423896 secs=33.998
+sx-superuser-insert-100 p5 WT status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=5889725720 secs=52.935
+sx-superuser-insert-100 p5 R2 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=31.809
+sx-superuser-insert-100 p5 PR status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=21.410
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=346423896 secs=33.567
+sx-superuser-insert-100 p5 WT status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=5889725720 secs=52.968
+sx-superuser-insert-100 p5 R2 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=32.823
+sx-superuser-insert-100 p5 PR status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=21.423
+sx-superuser-insert-100 p5 R2 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=31.815
+sx-superuser-insert-100 p5 PR status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=21.417
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=346423896 secs=33.964
+sx-superuser-insert-100 p5 WT status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=5889725720 secs=52.984
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=346423896 secs=34.027
+sx-superuser-insert-100 p5 WT status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=5889725720 secs=53.002
+sx-superuser-insert-100 p5 R2 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=31.781
+sx-superuser-insert-100 p5 PR status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=21.561
+sx-superuser-insert-100 p3 final 1543161 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-superuser-insert-100 p4 final 230363003 ops A4.t1:0(8037/11088) B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0
+sx-superuser-insert-100 p5 final 32917477697 ops A5.t1:0(2608/11088) M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 sx-superuser insert 100 18:45:13
+sx-askubuntu-expiry-1000 p3 M3 status=OK done=1454/1454 net=961178 ops=77738438 t=0 table=7917960 secs=0.289
+mcheck sx-askubuntu-expiry-1000-p3-M3-th16: 1454 batches compared, 0 differ
+sx-askubuntu-expiry-100 p3 M3 status=OK done=14534/14534 net=963038 ops=77905787 t=0 table=7913404 secs=0.294
+mcheck sx-askubuntu-expiry-100-p3-M3-th16: 14534 batches compared, 0 differ
+sx-superuser-expiry-1000 p3 M3 status=OK done=2218/2218 net=1521360 ops=124995557 t=0 table=9694856 secs=0.463
+mcheck sx-superuser-expiry-1000-p3-M3-th16: 2218 batches compared, 0 differ
+sx-superuser-expiry-100 p3 M3 status=OK done=22175/22175 net=1524198 ops=125242036 t=0 table=9707112 secs=0.470
+mcheck sx-superuser-expiry-100-p3-M3-th16: 22175 batches compared, 0 differ
+wiki-talk-temporal-expiry-1000 p3 M3 status=OK done=12202/12202 net=6598268 ops=690456230 t=0 table=39856556 secs=2.666
+mcheck wiki-talk-temporal-expiry-1000-p3-M3-th16: 12202 batches compared, 0 differ
+wiki-talk-temporal-expiry-100 p3 M3 status=OK done=122011/122011 net=6628786 ops=696248428 t=0 table=39821688 secs=2.716
+mcheck wiki-talk-temporal-expiry-100-p3-M3-th16: 122011 batches compared, 0 differ
+sx-askubuntu-insert-1000 p3 M3 status=OK done=727/727 net=455691 ops=148039505 t=680407 table=30961052 secs=0.310
+mcheck sx-askubuntu-insert-1000-p3-M3-th16: 727 batches compared, 0 differ
+sx-askubuntu-insert-100 p3 M3 status=OK done=7267/7267 net=455691 ops=148041098 t=680407 table=30982128 secs=0.309
+mcheck sx-askubuntu-insert-100-p3-M3-th16: 7267 batches compared, 0 differ
+sx-superuser-insert-1000 p3 M3 status=OK done=1109/1109 net=714570 ops=365261033 t=1543161 table=50418856 secs=0.606
+mcheck sx-superuser-insert-1000-p3-M3-th16: 1109 batches compared, 0 differ
+sx-superuser-insert-100 p3 M3 status=OK done=11088/11088 net=714570 ops=365247147 t=1543161 table=50408756 secs=0.611
+mcheck sx-superuser-insert-100-p3-M3-th16: 11088 batches compared, 0 differ
+sx-askubuntu-expiry-1000 p4 M4 status=OK done=1454/1454 net=961178 ops=90169329 t=0 table=7917960 secs=0.315
+mcheck sx-askubuntu-expiry-1000-p4-M4-th16: 1454 batches compared, 0 differ
+sx-askubuntu-expiry-100 p4 M4 status=OK done=14534/14534 net=963038 ops=91487443 t=0 table=7913404 secs=0.320
+mcheck sx-askubuntu-expiry-100-p4-M4-th16: 14534 batches compared, 0 differ
+sx-superuser-expiry-1000 p4 M4 status=OK done=2218/2218 net=1521360 ops=150082462 t=0 table=9694856 secs=0.513
+mcheck sx-superuser-expiry-1000-p4-M4-th16: 2218 batches compared, 0 differ
+sx-superuser-expiry-100 p4 M4 status=OK done=22175/22175 net=1524198 ops=152000168 t=0 table=9707112 secs=0.520
+mcheck sx-superuser-expiry-100-p4-M4-th16: 22175 batches compared, 0 differ
+wiki-talk-temporal-expiry-1000 p4 M4 status=OK done=12202/12202 net=6598268 ops=1281181744 t=0 table=39856556 secs=3.500
+mcheck wiki-talk-temporal-expiry-1000-p4-M4-th16: 12202 batches compared, 0 differ
+wiki-talk-temporal-expiry-100 p4 M4 status=OK done=122011/122011 net=6628786 ops=1302239048 t=0 table=39821688 secs=3.570
+mcheck wiki-talk-temporal-expiry-100-p4-M4-th16: 122011 batches compared, 0 differ
+sx-askubuntu-insert-1000 p4 M4 status=OK done=727/727 net=455691 ops=862406065 t=71698775 table=30961052 secs=0.622
+mcheck sx-askubuntu-insert-1000-p4-M4-th16: 727 batches compared, 0 differ
+sx-askubuntu-insert-100 p4 M4 status=OK done=7267/7267 net=455691 ops=861726152 t=71698775 table=30982128 secs=0.615
+mcheck sx-askubuntu-insert-100-p4-M4-th16: 7267 batches compared, 0 differ
+sx-superuser-insert-1000 p4 M4 status=OK done=1109/1109 net=714570 ops=2980615188 t=230363003 table=50418856 secs=1.559
+mcheck sx-superuser-insert-1000-p4-M4-th16: 1109 batches compared, 0 differ
+sx-superuser-insert-100 p4 M4 status=OK done=11088/11088 net=714570 ops=2981315172 t=230363003 table=50408756 secs=1.645
+mcheck sx-superuser-insert-100-p4-M4-th16: 11088 batches compared, 0 differ
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=678508772 t=0 table=10370876 secs=0.956
+mcheck sx-askubuntu-expiry-1000-p5-M5-th128: 1454 batches compared, 0 differ
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=729559703 t=0 table=10410848 secs=1.003
+mcheck sx-askubuntu-expiry-100-p5-M5-th128: 14534 batches compared, 0 differ
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=1110035367 t=0 table=11732596 secs=1.520
+mcheck sx-superuser-expiry-1000-p5-M5-th128: 2218 batches compared, 0 differ
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=1163719413 t=0 table=11761980 secs=1.563
+mcheck sx-superuser-expiry-100-p5-M5-th128: 22175 batches compared, 0 differ
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=54884444287 t=0 table=87481000 secs=47.987
+mcheck wiki-talk-temporal-expiry-1000-p5-M5-th128: 12202 batches compared, 0 differ
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=55409132075 t=0 table=87568280 secs=48.850
+mcheck wiki-talk-temporal-expiry-100-p5-M5-th128: 122011 batches compared, 0 differ
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=15927261017 t=7790384985 table=204038072 secs=12.151
+mcheck sx-askubuntu-insert-1000-p5-M5-th128: 727 batches compared, 0 differ
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=15943763161 t=7790384985 table=204015640 secs=11.981
+mcheck sx-askubuntu-insert-100-p5-M5-th128: 7267 batches compared, 0 differ
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=46795667061 t=32917477697 table=346412448 secs=34.797
+mcheck sx-superuser-insert-1000-p5-M5-th128: 1109 batches compared, 0 differ
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=46772140738 t=32917477697 table=346423896 secs=34.769
+mcheck sx-superuser-insert-100-p5-M5-th128: 11088 batches compared, 0 differ
+M1D04-DONE results/gate1-M1D04 main
