@@ -96,3 +96,31 @@ M1A05 was left partial. ParaDyMS works per updated edge according to a poster by
 closed access. Not pursued, because the stop makes the question moot.
 
 Not covered: Wikipedia link streams and sx-stackoverflow. Whether to test them or close is the PI's decision.
+
+## 0010, 2026-11-01: PI keeps the project open and widens the search
+
+The PI wrote "Jgn tutup. Okeh kaji dari segi aspek sumbangan lain. Anta agents. Luaskan skop and cari and gali
+lagi. Proceed. Jgn terhadkan" to the closing table. My recommendation to close was rejected.
+
+The proposal of `docs/proposal.md` stays refuted on the six streams. Its Gate 0 record is not reopened. The search
+now covers other contribution types, patterns, cost models, query models and application fields. Seven literature
+scouts were sent, writing to `docs/literature/scouts/`. Every candidate must say why it escapes the cause of the
+Gate 0 failure, which was that updates cost too little for sharing to matter.
+
+A candidate that replaces the plan starts a new task series, per bootstrap §4.
+
+## 0011, 2026-11-01: scouts returned; Screen B opened
+
+Seven scout reports are in `docs/literature/scouts/`. They are scout-grade and each lists its limits. OpenAlex's free
+budget ran out and arXiv throttled, so every "not found" is weak evidence.
+
+Findings I checked or accept now: batch sharing is closed for triangles on proximity graphs too (S7, ratio 1.027 to
+1.439, synthetic). DPTL+ does pivot sharing, which makes audit decision 3 wrong, corrected in the audit file.
+
+Three scouts reached one idea separately: under a window query, expiry needs no scan. On that basis, and because a window
+query makes expiry part of the question and not a synthetic rule, the every-window candidate leads. Screen B tests three
+candidates. Thresholds are in `docs/experiments/screen-b-protocol.md`, written before any run.
+
+Rejected for now: 5-cycles (S1), because Gopher and Cheetah are unread and full text is blocked; the I/O bound (S2), a likely
+corollary of Beame et al.; the exponent map (S6), which needs a theory reader; the Euler signature (S7), which is a different
+paper. All four stay on the ranking.
