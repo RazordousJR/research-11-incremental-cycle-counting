@@ -1,0 +1,6 @@
+stream,kind,cut,policy,ops,kernel_ops,extra_ops,scan,probe,mark,groups_a,groups_r,groups_o,star_whole,star_spokes,reranks,events,net,batches,peak_batch,peak_m,final_t,vertices,static_checks,mismatches
+email-Eu-core-temporal,count,10000,seq_raw,3539110,3068930,470180,1534465,1534465,0,235090,0,0,0,0,0,664668,117958,67,10000,2641,0,986,67,0
+email-Eu-core-temporal,count,10000,seq_net,2735640,1170388,1565252,585194,585194,0,117958,0,0,0,0,0,664668,117958,67,10000,2641,0,986,67,0
+email-Eu-core-temporal,count,10000,grp_edge,3073772,1154646,1919126,577323,577323,0,28624,0,0,0,0,0,664668,117958,67,10000,2641,0,986,67,0
+email-Eu-core-temporal,count,10000,grp_noorient,3443601,1524475,1919126,577323,577323,369829,28624,0,0,0,0,0,664668,117958,67,10000,2641,0,986,67,0
+email-Eu-core-temporal,count,10000,grp_full,3771317,1334274,2437043,515043,411309,407922,27328,0,1296,97,23818,45,664668,117958,67,10000,2641,0,986,67,0

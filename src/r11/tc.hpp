@@ -272,6 +272,8 @@ public:
     u64 kernel_a = 0, kernel_b = 0, kernel_c = 0;   // groups run per kernel
     u64 star_whole = 0, star_spokes = 0;            // kernel O groups with R empty; spokes in kernel O groups
     bool check_bound = false;                       // verify real cost <= estimate
+    bool collect_oracle = false;                    // hindsight diagnostic, charges no operations
+    u64 oracle_a = 0, oracle_min = 0;               // kernel A cost, and min(kernel A, kernel O) per group
 
     i64 apply(Graph& g, const NetBatch& nb, Pivot pm, KernelMode km, Ops& ops) {
         i64 delta = 0;
@@ -357,7 +359,22 @@ private:
         return c;
     }
 
+    u64 oriented_cost(const Graph& g, const Group& gr, bool ins) {
+        u64 k = gr.c.size(), cc = g.deg(gr.x) + (ins ? k : 0) + k;
+        ++epoch_;
+        for (u32 v : gr.c) in_c_[v] = epoch_;
+        for (u32 y : g.nbr(gr.x))
+            if (in_c_[y] != epoch_) cc += 2 * std::min<u64>(g.outdeg(y), k);
+        for (u32 v : gr.c) cc += 2 * (g.outdeg(v) + (ins ? 1 : 0));
+        return cc;
+    }
+
     i64 step(Graph& g, const Group& gr, bool ins, KernelMode km, Ops& ops) {
+        if (collect_oracle) {
+            u64 ca = estimate_a(g, gr, ins);
+            oracle_a += ca;
+            oracle_min += gr.c.size() == 1 ? ca : std::min(ca, oriented_cost(g, gr, ins));
+        }
         K k = choose(g, gr, ins, km, ops);
         u64 before_ops = ops.total(), est = est_chosen_, l = 0;
         if (k == K::A) {
