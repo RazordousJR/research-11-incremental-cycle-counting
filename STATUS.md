@@ -8,7 +8,7 @@
 - **The PI picked the study of when batch sharing pays across pattern size** (`log.md` 0018). D-k stays in reserve.
 - **Reading weakened that pick.** Cheetah publishes star grouping with reuse, and the trend itself (`log.md` 0019). What is left is the gain against the strongest baseline.
 - **Gate 1 is written and its arms are exact on the oracle.** `docs/experiments/gate1-protocol.md`. Series M1D in `docs/tasks/M1.md`.
-- **Nothing is running. No claim is held.**
+- **M1D03 is done and exact.** 156 of 156 arm-cells, 0 mismatches, 19 stopped at a limit, claim released (`log.md` 0024). On operations the median against best other is 1.447, 0.916, 0.950 at p = 3, 4, 5, without M. Gate 1 is not dead, and M decides it.
 
 | Test | Verdict | Read with |
 |---|---|---|
@@ -18,14 +18,19 @@
 | M1B03, ERGM index | Stop on the plain reading | Rule named no graph count. Theta tuned, not fitted |
 | M1C02, 5-cycles on operations | Stop at clause 4 | Clock reverses the winner |
 | M1C03, 5-cycles on the clock | Go by one cell | Shared clock. Worst-of-3 gives Pivot. Operations still favour tables on 16 of 22 |
+| M1D03, Gate 1 operations | Clean, no verdict | M absent. At p = 5 only wiki-talk reaches 0.67, against a scan. WJ beats PR on 6 of 8 sx cells |
 
 The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 Stop and parked, M1C02 Stop stands, M1C01 Go read with the V margin and the ring note.
 
 ## Open, waiting on the PI
 
-The live list is the final table of the last report. In short: after M1D03, the reassessment of the candidate, the word for an `--exclusive` Gate 1, and the sx-stackoverflow download (`log.md` 0022).
+The live list is the final table of the last report. In short, `log.md` 0024: the word for an `--exclusive` M1D04 of 8 to 12 hours, the reading of a time-stopped arm in the rule, and sx-stackoverflow. No request has gone to ControlPC, because the PI's word comes first.
+
+Before M1D04 runs: add a line check to `scripts/run_m1d04.sh`, as in `run_m1d03.sh`, and an agreement check on its M count runs, and record the hash of `build/gate1/timing.exe`.
 
 ## Handover notes
+
+- Closing a desktop session's window does not end its `claude.exe`. A shell it owns keeps running, and the session wakes when that shell ends, so check it before assuming either.
 
 - `data/` is not in git. `data/snap/SHA256SUMS` lists the six inputs. Rebuild `data/derived/` with `scripts/prepare_stream.py` and `scripts/prepare_window_stream.py`.
 - Raw per-batch files are ignored by git, under `results/**/raw/`.

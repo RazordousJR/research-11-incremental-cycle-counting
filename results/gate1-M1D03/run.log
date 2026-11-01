@@ -1,0 +1,299 @@
+sx-askubuntu-expiry-1000 p3 S3 status=OK done=1454/1454 net=961178 ops=11006335 t=0 table=0 secs=0.082
+sx-askubuntu-expiry-1000 p3 P3 status=OK done=1454/1454 net=961178 ops=17948337 t=0 table=0 secs=0.092
+sx-askubuntu-expiry-1000 p3 T3 status=OK done=1454/1454 net=961178 ops=258175490 t=0 table=10385000 secs=0.784
+sx-askubuntu-expiry-1000 p3 final 0 ops P3:17948337 S3:11006335 T3:258175490
+CELL-DONE p3 sx-askubuntu expiry 1000 12:33:08
+sx-askubuntu-expiry-100 p3 S3 status=OK done=14534/14534 net=963038 ops=11216205 t=0 table=0 secs=0.083
+sx-askubuntu-expiry-100 p3 P3 status=OK done=14534/14534 net=963038 ops=17563246 t=0 table=0 secs=0.100
+sx-askubuntu-expiry-100 p3 T3 status=OK done=14534/14534 net=963038 ops=267466578 t=0 table=10429416 secs=0.811
+sx-askubuntu-expiry-100 p3 final 0 ops P3:17563246 S3:11216205 T3:267466578
+CELL-DONE p3 sx-askubuntu expiry 100 12:33:09
+sx-superuser-expiry-1000 p3 S3 status=OK done=2218/2218 net=1521360 ops=17970572 t=0 table=0 secs=0.122
+sx-superuser-expiry-1000 p3 P3 status=OK done=2218/2218 net=1521360 ops=29466741 t=0 table=0 secs=0.143
+sx-superuser-expiry-1000 p3 T3 status=OK done=2218/2218 net=1521360 ops=410590390 t=0 table=12825360 secs=1.279
+sx-superuser-expiry-1000 p3 final 0 ops P3:29466741 S3:17970572 T3:410590390
+CELL-DONE p3 sx-superuser expiry 1000 12:33:11
+sx-superuser-expiry-100 p3 S3 status=OK done=22175/22175 net=1524198 ops=18197329 t=0 table=0 secs=0.124
+sx-superuser-expiry-100 p3 P3 status=OK done=22175/22175 net=1524198 ops=28778356 t=0 table=0 secs=0.158
+sx-superuser-expiry-100 p3 T3 status=OK done=22175/22175 net=1524198 ops=422413982 t=0 table=12889252 secs=1.338
+sx-superuser-expiry-100 p3 final 0 ops P3:28778356 S3:18197329 T3:422413982
+CELL-DONE p3 sx-superuser expiry 100 12:33:13
+wiki-talk-temporal-expiry-1000 p3 S3 status=OK done=12202/12202 net=6598268 ops=112409446 t=0 table=0 secs=0.960
+wiki-talk-temporal-expiry-1000 p3 P3 status=OK done=12202/12202 net=6598268 ops=162426192 t=0 table=0 secs=1.110
+wiki-talk-temporal-expiry-1000 p3 T3 status=OK done=12202/12202 net=6598268 ops=50520541284 t=0 table=8482251620 secs=197.881
+wiki-talk-temporal-expiry-1000 p3 final 0 ops P3:162426192 S3:112409446 T3:50520541284
+CELL-DONE p3 wiki-talk-temporal expiry 1000 12:36:34
+wiki-talk-temporal-expiry-100 p3 S3 status=OK done=122011/122011 net=6628786 ops=114061095 t=0 table=0 secs=0.946
+wiki-talk-temporal-expiry-100 p3 P3 status=OK done=122011/122011 net=6628786 ops=155514111 t=0 table=0 secs=1.084
+wiki-talk-temporal-expiry-100 p3 T3 status=OK done=122011/122011 net=6628786 ops=50630834148 t=0 table=8482528656 secs=196.534
+wiki-talk-temporal-expiry-100 p3 final 0 ops P3:155514111 S3:114061095 T3:50630834148
+CELL-DONE p3 wiki-talk-temporal expiry 100 12:39:54
+sx-askubuntu-insert-1000 p3 S3 status=OK done=727/727 net=455691 ops=14395558 t=680407 table=0 secs=0.141
+sx-askubuntu-insert-1000 p3 P3 status=OK done=727/727 net=455691 ops=21245209 t=680407 table=0 secs=0.142
+sx-askubuntu-insert-1000 p3 T3 status=OK done=727/727 net=455691 ops=2086370935 t=680407 table=2680897812 secs=7.285
+sx-askubuntu-insert-1000 p3 final 680407 ops P3:21245209 S3:14395558 T3:2086370935
+CELL-DONE p3 sx-askubuntu insert 1000 12:40:02
+sx-askubuntu-insert-100 p3 S3 status=OK done=7267/7267 net=455691 ops=14392376 t=680407 table=0 secs=0.141
+sx-askubuntu-insert-100 p3 P3 status=OK done=7267/7267 net=455691 ops=20719002 t=680407 table=0 secs=0.150
+sx-askubuntu-insert-100 p3 T3 status=OK done=7267/7267 net=455691 ops=2086399779 t=680407 table=2680703572 secs=7.316
+sx-askubuntu-insert-100 p3 final 680407 ops P3:20719002 S3:14392376 T3:2086399779
+CELL-DONE p3 sx-askubuntu insert 100 12:40:10
+sx-superuser-insert-1000 p3 S3 status=OK done=1109/1109 net=714570 ops=28200306 t=1543161 table=0 secs=0.269
+sx-superuser-insert-1000 p3 P3 status=OK done=1109/1109 net=714570 ops=40877488 t=1543161 table=0 secs=0.259
+sx-superuser-insert-1000 p3 T3 status=OK done=1109/1109 net=714570 ops=4680002238 t=1543161 table=5889581496 secs=17.542
+sx-superuser-insert-1000 p3 final 1543161 ops P3:40877488 S3:28200306 T3:4680002238
+CELL-DONE p3 sx-superuser insert 1000 12:40:29
+sx-superuser-insert-100 p3 S3 status=OK done=11088/11088 net=714570 ops=28200236 t=1543161 table=0 secs=0.324
+sx-superuser-insert-100 p3 P3 status=OK done=11088/11088 net=714570 ops=40350274 t=1543161 table=0 secs=0.277
+sx-superuser-insert-100 p3 T3 status=OK done=11088/11088 net=714570 ops=4679358182 t=1543161 table=5889725720 secs=17.491
+sx-superuser-insert-100 p3 final 1543161 ops P3:40350274 S3:28200236 T3:4679358182
+CELL-DONE p3 sx-superuser insert 100 12:40:47
+wiki-talk-temporal-insert-1000 p3 S3 status=OK done=6101/6101 net=2787967 ops=197439002 t=8113676 table=0 secs=2.366
+wiki-talk-temporal-insert-1000 p3 P3 status=OK done=6101/6101 net=2787967 ops=269628722 t=8113676 table=0 secs=2.236
+wiki-talk-temporal-insert-1000 p3 T3 status=MEM done=1473/6101 net=657938 ops=10130034154 t=1777606 table=14596066664 secs=35.686
+wiki-talk-temporal-insert-1000 p3 final 8113676 ops P3:269628722 S3:197439002 T3:10126120949(1473/6101)
+CELL-DONE p3 wiki-talk-temporal insert 1000 12:41:30
+wiki-talk-temporal-insert-100 p3 S3 status=OK done=61006/61006 net=2787967 ops=197476572 t=8113676 table=0 secs=2.347
+wiki-talk-temporal-insert-100 p3 P3 status=OK done=61006/61006 net=2787967 ops=249525826 t=8113676 table=0 secs=2.313
+wiki-talk-temporal-insert-100 p3 T3 status=MEM done=14730/61006 net=657533 ops=10128231783 t=1777606 table=14592513008 secs=35.362
+wiki-talk-temporal-insert-100 p3 final 8113676 ops P3:249525826 S3:197476572 T3:10126488337(14730/61006)
+CELL-DONE p3 wiki-talk-temporal insert 100 12:42:13
+sx-askubuntu-expiry-1000 p4 S4 status=OK done=1454/1454 net=961178 ops=154448320 t=0 table=0 secs=0.132
+sx-askubuntu-expiry-1000 p4 P4 status=OK done=1454/1454 net=961178 ops=107056499 t=0 table=0 secs=0.151
+sx-askubuntu-expiry-1000 p4 T4 status=OK done=1454/1454 net=961178 ops=263872236 t=0 table=10385000 secs=0.803
+sx-askubuntu-expiry-1000 p4 B4 status=OK done=1454/1454 net=961178 ops=472463179 t=0 table=0 secs=0.473
+sx-askubuntu-expiry-1000 p4 A4 status=OK done=1454/1454 net=961178 ops=272348444 t=0 table=0 secs=0.396
+sx-askubuntu-expiry-1000 p3 final 0 ops P3:17948337 S3:11006335 T3:258175490
+sx-askubuntu-expiry-1000 p4 final 0 ops A4:272348444 B4:472463179 P4:107056499 S4:154448320 T4:263872236
+CELL-DONE p4 sx-askubuntu expiry 1000 12:42:16
+sx-askubuntu-expiry-100 p4 S4 status=OK done=14534/14534 net=963038 ops=162699784 t=0 table=0 secs=0.137
+sx-askubuntu-expiry-100 p4 P4 status=OK done=14534/14534 net=963038 ops=165036376 t=0 table=0 secs=0.176
+sx-askubuntu-expiry-100 p4 T4 status=OK done=14534/14534 net=963038 ops=273368544 t=0 table=10429416 secs=0.820
+sx-askubuntu-expiry-100 p4 B4 status=OK done=14534/14534 net=963038 ops=731787468 t=0 table=0 secs=0.568
+sx-askubuntu-expiry-100 p4 A4 status=OK done=14534/14534 net=963038 ops=1234303945 t=0 table=0 secs=1.320
+sx-askubuntu-expiry-100 p3 final 0 ops P3:17563246 S3:11216205 T3:267466578
+sx-askubuntu-expiry-100 p4 final 0 ops A4:1234303945 B4:731787468 P4:165036376 S4:162699784 T4:273368544
+CELL-DONE p4 sx-askubuntu expiry 100 12:42:19
+sx-superuser-expiry-1000 p4 S4 status=OK done=2218/2218 net=1521360 ops=269851490 t=0 table=0 secs=0.217
+sx-superuser-expiry-1000 p4 P4 status=OK done=2218/2218 net=1521360 ops=195085480 t=0 table=0 secs=0.245
+sx-superuser-expiry-1000 p4 T4 status=OK done=2218/2218 net=1521360 ops=420322606 t=0 table=12825360 secs=1.281
+sx-superuser-expiry-1000 p4 B4 status=OK done=2218/2218 net=1521360 ops=798267700 t=0 table=0 secs=0.788
+sx-superuser-expiry-1000 p4 A4 status=OK done=2218/2218 net=1521360 ops=515848992 t=0 table=0 secs=0.709
+sx-superuser-expiry-1000 p3 final 0 ops P3:29466741 S3:17970572 T3:410590390
+sx-superuser-expiry-1000 p4 final 0 ops A4:515848992 B4:798267700 P4:195085480 S4:269851490 T4:420322606
+CELL-DONE p4 sx-superuser expiry 1000 12:42:23
+sx-superuser-expiry-100 p4 S4 status=OK done=22175/22175 net=1524198 ops=281005746 t=0 table=0 secs=0.222
+sx-superuser-expiry-100 p4 P4 status=OK done=22175/22175 net=1524198 ops=284023978 t=0 table=0 secs=0.278
+sx-superuser-expiry-100 p4 T4 status=OK done=22175/22175 net=1524198 ops=432365860 t=0 table=12889252 secs=1.320
+sx-superuser-expiry-100 p4 B4 status=OK done=22175/22175 net=1524198 ops=1236763495 t=0 table=0 secs=0.942
+sx-superuser-expiry-100 p4 A4 status=OK done=22175/22175 net=1524198 ops=2346175608 t=0 table=0 secs=2.498
+sx-superuser-expiry-100 p3 final 0 ops P3:28778356 S3:18197329 T3:422413982
+sx-superuser-expiry-100 p4 final 0 ops A4:2346175608 B4:1236763495 P4:284023978 S4:281005746 T4:432365860
+CELL-DONE p4 sx-superuser expiry 100 12:42:29
+wiki-talk-temporal-expiry-1000 p4 S4 status=OK done=12202/12202 net=6598268 ops=22565483564 t=0 table=0 secs=8.009
+wiki-talk-temporal-expiry-1000 p4 P4 status=OK done=12202/12202 net=6598268 ops=5613955328 t=0 table=0 secs=4.245
+wiki-talk-temporal-expiry-1000 p4 T4 status=OK done=12202/12202 net=6598268 ops=50592052908 t=0 table=8482251620 secs=194.235
+wiki-talk-temporal-expiry-1000 p4 B4 status=OK done=12202/12202 net=6598268 ops=71839686047 t=0 table=0 secs=41.357
+wiki-talk-temporal-expiry-1000 p4 A4 status=OK done=12202/12202 net=6598268 ops=26736597450 t=0 table=0 secs=26.037
+wiki-talk-temporal-expiry-1000 p3 final 0 ops P3:162426192 S3:112409446 T3:50520541284
+wiki-talk-temporal-expiry-1000 p4 final 0 ops A4:26736597450 B4:71839686047 P4:5613955328 S4:22565483564 T4:50592052908
+CELL-DONE p4 wiki-talk-temporal expiry 1000 12:47:04
+wiki-talk-temporal-expiry-100 p4 S4 status=OK done=122011/122011 net=6628786 ops=22699646536 t=0 table=0 secs=8.119
+wiki-talk-temporal-expiry-100 p4 P4 status=OK done=122011/122011 net=6628786 ops=8993113653 t=0 table=0 secs=6.431
+wiki-talk-temporal-expiry-100 p4 T4 status=OK done=122011/122011 net=6628786 ops=50703921126 t=0 table=8482528656 secs=194.951
+wiki-talk-temporal-expiry-100 p4 B4 status=OK done=122011/122011 net=6628786 ops=83758722546 t=0 table=0 secs=49.728
+wiki-talk-temporal-expiry-100 p4 A4 status=OK done=122011/122011 net=6628786 ops=85710614818 t=0 table=0 secs=81.604
+wiki-talk-temporal-expiry-100 p3 final 0 ops P3:155514111 S3:114061095 T3:50630834148
+wiki-talk-temporal-expiry-100 p4 final 0 ops A4:85710614818 B4:83758722546 P4:8993113653 S4:22699646536 T4:50703921126
+CELL-DONE p4 wiki-talk-temporal expiry 100 12:52:47
+sx-askubuntu-insert-1000 p4 S4 status=OK done=727/727 net=455691 ops=2941754114 t=71698775 table=0 secs=0.900
+sx-askubuntu-insert-1000 p4 P4 status=OK done=727/727 net=455691 ops=2476834367 t=71698775 table=0 secs=0.831
+sx-askubuntu-insert-1000 p4 T4 status=OK done=727/727 net=455691 ops=2098401789 t=71698775 table=2680897812 secs=7.234
+sx-askubuntu-insert-1000 p4 B4 status=OK done=727/727 net=455691 ops=16538631764 t=71698775 table=0 secs=5.615
+sx-askubuntu-insert-1000 p4 A4 status=OK done=727/727 net=455691 ops=38280836171 t=71698775 table=0 secs=31.178
+sx-askubuntu-insert-1000 p3 final 680407 ops P3:21245209 S3:14395558 T3:2086370935
+sx-askubuntu-insert-1000 p4 final 71698775 ops A4:38280836171 B4:16538631764 P4:2476834367 S4:2941754114 T4:2098401789
+CELL-DONE p4 sx-askubuntu insert 1000 12:53:34
+sx-askubuntu-insert-100 p4 S4 status=OK done=7267/7267 net=455691 ops=2936008800 t=71698775 table=0 secs=0.910
+sx-askubuntu-insert-100 p4 P4 status=OK done=7267/7267 net=455691 ops=2829348390 t=71698775 table=0 secs=0.934
+sx-askubuntu-insert-100 p4 T4 status=OK done=7267/7267 net=455691 ops=2098427451 t=71698775 table=2680703572 secs=7.218
+sx-askubuntu-insert-100 p4 B4 status=OK done=7267/7267 net=455691 ops=30678147394 t=71698775 table=0 secs=9.930
+sx-askubuntu-insert-100 p4 A4 status=OK done=7267/7267 net=455691 ops=200002696365 t=71698775 table=0 secs=151.435
+sx-askubuntu-insert-100 p3 final 680407 ops P3:20719002 S3:14392376 T3:2086399779
+sx-askubuntu-insert-100 p4 final 71698775 ops A4:200002696365 B4:30678147394 P4:2829348390 S4:2936008800 T4:2098427451
+CELL-DONE p4 sx-askubuntu insert 100 12:56:25
+sx-superuser-insert-1000 p4 S4 status=OK done=1109/1109 net=714570 ops=8204054318 t=230363003 table=0 secs=2.403
+sx-superuser-insert-1000 p4 P4 status=OK done=1109/1109 net=714570 ops=6905424262 t=230363003 table=0 secs=2.184
+sx-superuser-insert-1000 p4 T4 status=OK done=1109/1109 net=714570 ops=4704555926 t=230363003 table=5889581496 secs=17.412
+sx-superuser-insert-1000 p4 B4 status=OK done=1109/1109 net=714570 ops=45308338382 t=230363003 table=0 secs=14.869
+sx-superuser-insert-1000 p4 A4 status=OK done=1109/1109 net=714570 ops=134123101551 t=230363003 table=0 secs=105.724
+sx-superuser-insert-1000 p3 final 1543161 ops P3:40877488 S3:28200306 T3:4680002238
+sx-superuser-insert-1000 p4 final 230363003 ops A4:134123101551 B4:45308338382 P4:6905424262 S4:8204054318 T4:4704555926
+CELL-DONE p4 sx-superuser insert 1000 12:58:48
+sx-superuser-insert-100 p4 S4 status=OK done=11088/11088 net=714570 ops=8215956264 t=230363003 table=0 secs=2.438
+sx-superuser-insert-100 p4 P4 status=OK done=11088/11088 net=714570 ops=7722036387 t=230363003 table=0 secs=2.426
+sx-superuser-insert-100 p4 T4 status=OK done=11088/11088 net=714570 ops=4703911800 t=230363003 table=5889725720 secs=17.537
+sx-superuser-insert-100 p4 B4 status=OK done=11088/11088 net=714570 ops=80545784441 t=230363003 table=0 secs=25.681
+sx-superuser-insert-100 p4 A4 status=TIME done=7957/11088 net=508316 ops=419700237560 t=163201990 table=0 secs=300.055
+sx-superuser-insert-100 p3 final 1543161 ops P3:40350274 S3:28200236 T3:4679358182
+sx-superuser-insert-100 p4 final 230363003 ops A4:419698155944(7957/11088) B4:80545784441 P4:7722036387 S4:8215956264 T4:4703911800
+CELL-DONE p4 sx-superuser insert 100 13:04:37
+wiki-talk-temporal-insert-1000 p4 S4 status=OK done=6101/6101 net=2787967 ops=192689531797 t=2411384219 table=0 secs=85.542
+wiki-talk-temporal-insert-1000 p4 P4 status=OK done=6101/6101 net=2787967 ops=112393783873 t=2411384219 table=0 secs=61.249
+wiki-talk-temporal-insert-1000 p4 T4 status=MEM done=1473/6101 net=657938 ops=10160376602 t=244601104 table=14596066664 secs=35.450
+wiki-talk-temporal-insert-1000 p4 B4 status=OK done=6101/6101 net=2787967 ops=825959116840 t=2411384219 table=0 secs=436.632
+wiki-talk-temporal-insert-1000 p4 A4 status=TIME done=2186/6101 net=977810 ops=395040589212 t=415083142 table=0 secs=299.999
+wiki-talk-temporal-insert-1000 p3 final 8113676 ops P3:269628722 S3:197439002 T3:10126120949(1473/6101)
+wiki-talk-temporal-insert-1000 p4 final 2411384219 ops A4:395034950140(2186/6101) B4:825959116840 P4:112393783873 S4:192689531797 T4:10156454827(1473/6101)
+CELL-DONE p4 wiki-talk-temporal insert 1000 13:19:59
+wiki-talk-temporal-insert-100 p4 S4 status=OK done=61006/61006 net=2787967 ops=191445577205 t=2411384219 table=0 secs=84.191
+wiki-talk-temporal-insert-100 p4 P4 status=OK done=61006/61006 net=2787967 ops=157099712958 t=2411384219 table=0 secs=82.307
+wiki-talk-temporal-insert-100 p4 T4 status=MEM done=14730/61006 net=657533 ops=10158558201 t=244601104 table=14592513008 secs=35.385
+wiki-talk-temporal-insert-100 p4 B4 status=OK done=61006/61006 net=2787967 ops=1132893220694 t=2411384219 table=0 secs=642.562
+wiki-talk-temporal-insert-100 p4 A4 status=TIME done=11193/61006 net=493286 ops=460857189658 t=174238841 table=0 secs=299.996
+wiki-talk-temporal-insert-100 p3 final 8113676 ops P3:249525826 S3:197476572 T3:10126488337(14730/61006)
+wiki-talk-temporal-insert-100 p4 final 2411384219 ops A4:460855785292(11193/61006) B4:1132893220694 P4:157099712958 S4:191445577205 T4:10156814529(14730/61006)
+CELL-DONE p4 wiki-talk-temporal insert 100 13:39:07
+sx-askubuntu-expiry-1000 p5 R2 status=OK done=1454/1454 net=961178 ops=556183713 t=0 table=3072 secs=0.519
+sx-askubuntu-expiry-1000 p5 PR status=OK done=1454/1454 net=961178 ops=235735334 t=0 table=3072 secs=0.286
+sx-askubuntu-expiry-1000 p5 WT status=OK done=1454/1454 net=961178 ops=611208235 t=0 table=10385000 secs=0.926
+sx-askubuntu-expiry-1000 p5 WJ status=OK done=1454/1454 net=961178 ops=349469107 t=0 table=3145728 secs=1.091
+sx-askubuntu-expiry-1000 p5 A5 status=OK done=1454/1454 net=961178 ops=937189899 t=0 table=0 secs=0.764
+sx-askubuntu-expiry-1000 p3 final 0 ops P3:17948337 S3:11006335 T3:258175490
+sx-askubuntu-expiry-1000 p4 final 0 ops A4:272348444 B4:472463179 P4:107056499 S4:154448320 T4:263872236
+sx-askubuntu-expiry-1000 p5 final 0 ops A5:937189899 PR:235735334 R2:556183713 WJ:349469107 WT:611208235
+regression sx-askubuntu-expiry-1000 R2: 1454 batches compared, 0 differ
+regression sx-askubuntu-expiry-1000 PR: 1454 batches compared, 0 differ
+regression sx-askubuntu-expiry-1000 WT: 1454 batches compared, 0 differ
+regression sx-askubuntu-expiry-1000 WJ: 1454 batches compared, 0 differ
+CELL-DONE p5 sx-askubuntu expiry 1000 13:39:11
+sx-askubuntu-expiry-100 p5 R2 status=OK done=14534/14534 net=963038 ops=596580156 t=0 table=3072 secs=0.535
+sx-askubuntu-expiry-100 p5 PR status=OK done=14534/14534 net=963038 ops=428191756 t=0 table=3072 secs=0.454
+sx-askubuntu-expiry-100 p5 WT status=OK done=14534/14534 net=963038 ops=660843487 t=0 table=10429416 secs=0.958
+sx-askubuntu-expiry-100 p5 WJ status=OK done=14534/14534 net=963038 ops=380497504 t=0 table=3145728 secs=1.233
+sx-askubuntu-expiry-100 p5 A5 status=OK done=14534/14534 net=963038 ops=7624380179 t=0 table=0 secs=4.959
+sx-askubuntu-expiry-100 p3 final 0 ops P3:17563246 S3:11216205 T3:267466578
+sx-askubuntu-expiry-100 p4 final 0 ops A4:1234303945 B4:731787468 P4:165036376 S4:162699784 T4:273368544
+sx-askubuntu-expiry-100 p5 final 0 ops A5:7624380179 PR:428191756 R2:596580156 WJ:380497504 WT:660843487
+regression sx-askubuntu-expiry-100 R2: 14534 batches compared, 0 differ
+regression sx-askubuntu-expiry-100 PR: 14534 batches compared, 0 differ
+regression sx-askubuntu-expiry-100 WT: 14534 batches compared, 0 differ
+regression sx-askubuntu-expiry-100 WJ: 14534 batches compared, 0 differ
+CELL-DONE p5 sx-askubuntu expiry 100 13:39:19
+sx-superuser-expiry-1000 p5 R2 status=OK done=2218/2218 net=1521360 ops=990247059 t=0 table=3072 secs=0.862
+sx-superuser-expiry-1000 p5 PR status=OK done=2218/2218 net=1521360 ops=451442845 t=0 table=3072 secs=0.497
+sx-superuser-expiry-1000 p5 WT status=OK done=2218/2218 net=1521360 ops=1013895838 t=0 table=12825360 secs=1.503
+sx-superuser-expiry-1000 p5 WJ status=OK done=2218/2218 net=1521360 ops=582107751 t=0 table=3145728 secs=1.877
+sx-superuser-expiry-1000 p5 A5 status=OK done=2218/2218 net=1521360 ops=1823394245 t=0 table=0 secs=1.470
+sx-superuser-expiry-1000 p3 final 0 ops P3:29466741 S3:17970572 T3:410590390
+sx-superuser-expiry-1000 p4 final 0 ops A4:515848992 B4:798267700 P4:195085480 S4:269851490 T4:420322606
+sx-superuser-expiry-1000 p5 final 0 ops A5:1823394245 PR:451442845 R2:990247059 WJ:582107751 WT:1013895838
+regression sx-superuser-expiry-1000 R2: 2218 batches compared, 0 differ
+regression sx-superuser-expiry-1000 PR: 2218 batches compared, 0 differ
+regression sx-superuser-expiry-1000 WT: 2218 batches compared, 0 differ
+regression sx-superuser-expiry-1000 WJ: 2218 batches compared, 0 differ
+CELL-DONE p5 sx-superuser expiry 1000 13:39:26
+sx-superuser-expiry-100 p5 R2 status=OK done=22175/22175 net=1524198 ops=1045989920 t=0 table=3072 secs=0.897
+sx-superuser-expiry-100 p5 PR status=OK done=22175/22175 net=1524198 ops=766116559 t=0 table=3072 secs=0.769
+sx-superuser-expiry-100 p5 WT status=OK done=22175/22175 net=1524198 ops=1069166191 t=0 table=12889252 secs=1.564
+sx-superuser-expiry-100 p5 WJ status=OK done=22175/22175 net=1524198 ops=616656087 t=0 table=3145728 secs=2.056
+sx-superuser-expiry-100 p5 A5 status=OK done=22175/22175 net=1524198 ops=14994772367 t=0 table=0 secs=10.060
+sx-superuser-expiry-100 p3 final 0 ops P3:28778356 S3:18197329 T3:422413982
+sx-superuser-expiry-100 p4 final 0 ops A4:2346175608 B4:1236763495 P4:284023978 S4:281005746 T4:432365860
+sx-superuser-expiry-100 p5 final 0 ops A5:14994772367 PR:766116559 R2:1045989920 WJ:616656087 WT:1069166191
+regression sx-superuser-expiry-100 R2: 22175 batches compared, 0 differ
+regression sx-superuser-expiry-100 PR: 22175 batches compared, 0 differ
+regression sx-superuser-expiry-100 WT: 22175 batches compared, 0 differ
+regression sx-superuser-expiry-100 WJ: 22175 batches compared, 0 differ
+CELL-DONE p5 sx-superuser expiry 100 13:39:42
+wiki-talk-temporal-expiry-1000 p5 R2 status=OK done=12202/12202 net=6598268 ops=50542385344 t=0 table=3072 secs=39.029
+wiki-talk-temporal-expiry-1000 p5 PR status=OK done=12202/12202 net=6598268 ops=18781830648 t=0 table=3072 secs=11.418
+wiki-talk-temporal-expiry-1000 p5 WT status=OK done=12202/12202 net=6598268 ops=73418186526 t=0 table=8482251620 secs=209.609
+wiki-talk-temporal-expiry-1000 p5 WJ status=CAP done=12010/12202 net=6482879 ops=41203513431 t=2924710 table=6442450944 secs=329.178
+wiki-talk-temporal-expiry-1000 p5 A5 status=OK done=12202/12202 net=6598268 ops=150905266061 t=0 table=0 secs=97.427
+wiki-talk-temporal-expiry-1000 p3 final 0 ops P3:162426192 S3:112409446 T3:50520541284
+wiki-talk-temporal-expiry-1000 p4 final 0 ops A4:26736597450 B4:71839686047 P4:5613955328 S4:22565483564 T4:50592052908
+wiki-talk-temporal-expiry-1000 p5 final 0 ops A5:150905266061 PR:18781830648 R2:50542385344 WJ:41142266755(12009/12202) WT:73418186526
+regression wiki-talk-temporal-expiry-1000 R2: 12202 batches compared, 0 differ
+regression wiki-talk-temporal-expiry-1000 PR: 12202 batches compared, 0 differ
+CELL-DONE p5 wiki-talk-temporal expiry 1000 13:51:11
+wiki-talk-temporal-expiry-100 p5 R2 status=OK done=122011/122011 net=6628786 ops=51026290374 t=0 table=3072 secs=39.629
+wiki-talk-temporal-expiry-100 p5 PR status=OK done=122011/122011 net=6628786 ops=27375686260 t=0 table=3072 secs=18.423
+wiki-talk-temporal-expiry-100 p5 WT status=OK done=122011/122011 net=6628786 ops=74040276251 t=0 table=8482528656 secs=211.452
+wiki-talk-temporal-expiry-100 p5 WJ status=CAP done=120094/122011 net=6512784 ops=41632576206 t=2917627 table=6442450944 secs=330.428
+wiki-talk-temporal-expiry-100 p5 A5 status=TIME done=63027/122011 net=3348077 ops=474002816631 t=878583 table=0 secs=299.917
+wiki-talk-temporal-expiry-100 p3 final 0 ops P3:155514111 S3:114061095 T3:50630834148
+wiki-talk-temporal-expiry-100 p4 final 0 ops A4:85710614818 B4:83758722546 P4:8993113653 S4:22699646536 T4:50703921126
+wiki-talk-temporal-expiry-100 p5 final 0 ops A5:473977735133(63027/122011) PR:27375686260 R2:51026290374 WJ:41626021489(120093/122011) WT:74040276251
+regression wiki-talk-temporal-expiry-100 R2: 122011 batches compared, 0 differ
+regression wiki-talk-temporal-expiry-100 PR: 122011 batches compared, 0 differ
+CELL-DONE p5 wiki-talk-temporal expiry 100 14:06:14
+sx-askubuntu-insert-1000 p5 R2 status=OK done=727/727 net=455691 ops=33018959186 t=7790384985 table=3072 secs=12.932
+sx-askubuntu-insert-1000 p5 PR status=OK done=727/727 net=455691 ops=15031512263 t=7790384985 table=3072 secs=5.302
+sx-askubuntu-insert-1000 p5 WT status=OK done=727/727 net=455691 ops=12185385382 t=7790384985 table=2680897812 secs=20.976
+sx-askubuntu-insert-1000 p5 WJ status=OK done=727/727 net=455691 ops=9433849324 t=7790384985 table=3221225472 secs=125.867
+sx-askubuntu-insert-1000 p5 A5 status=OK done=727/727 net=455691 ops=315916266004 t=7790384985 table=0 secs=190.281
+sx-askubuntu-insert-1000 p3 final 680407 ops P3:21245209 S3:14395558 T3:2086370935
+sx-askubuntu-insert-1000 p4 final 71698775 ops A4:38280836171 B4:16538631764 P4:2476834367 S4:2941754114 T4:2098401789
+sx-askubuntu-insert-1000 p5 final 7790384985 ops A5:315916266004 PR:15031512263 R2:33018959186 WJ:9433849324 WT:12185385382
+regression sx-askubuntu-insert-1000 R2: 727 batches compared, 0 differ
+regression sx-askubuntu-insert-1000 PR: 727 batches compared, 0 differ
+regression sx-askubuntu-insert-1000 WT: 727 batches compared, 0 differ
+regression sx-askubuntu-insert-1000 WJ: 727 batches compared, 0 differ
+CELL-DONE p5 sx-askubuntu insert 1000 14:12:10
+sx-askubuntu-insert-100 p5 R2 status=OK done=7267/7267 net=455691 ops=33005727825 t=7790384985 table=3072 secs=12.896
+sx-askubuntu-insert-100 p5 PR status=OK done=7267/7267 net=455691 ops=24295964139 t=7790384985 table=3072 secs=8.859
+sx-askubuntu-insert-100 p5 WT status=OK done=7267/7267 net=455691 ops=12206318449 t=7790384985 table=2680703572 secs=20.906
+sx-askubuntu-insert-100 p5 WJ status=OK done=7267/7267 net=455691 ops=9444209121 t=7790384985 table=3221225472 secs=126.218
+sx-askubuntu-insert-100 p5 A5 status=TIME done=3113/7267 net=199100 ops=527572217365 t=2323976050 table=0 secs=300.071
+sx-askubuntu-insert-100 p3 final 680407 ops P3:20719002 S3:14392376 T3:2086399779
+sx-askubuntu-insert-100 p4 final 71698775 ops A4:200002696365 B4:30678147394 P4:2829348390 S4:2936008800 T4:2098427451
+sx-askubuntu-insert-100 p5 final 7790384985 ops A5:527570175195(3113/7267) PR:24295964139 R2:33005727825 WJ:9444209121 WT:12206318449
+regression sx-askubuntu-insert-100 R2: 7267 batches compared, 0 differ
+regression sx-askubuntu-insert-100 PR: 7267 batches compared, 0 differ
+regression sx-askubuntu-insert-100 WT: 7267 batches compared, 0 differ
+regression sx-askubuntu-insert-100 WJ: 7267 batches compared, 0 differ
+CELL-DONE p5 sx-askubuntu insert 100 14:20:00
+sx-superuser-insert-1000 p5 R2 status=OK done=1109/1109 net=714570 ops=88471472066 t=32917477697 table=3072 secs=34.163
+sx-superuser-insert-1000 p5 PR status=OK done=1109/1109 net=714570 ops=42085400718 t=32917477697 table=3072 secs=14.359
+sx-superuser-insert-1000 p5 WT status=OK done=1109/1109 net=714570 ops=27495024294 t=32917477697 table=5889581496 secs=53.865
+sx-superuser-insert-1000 p5 WJ status=OK done=1109/1109 net=714570 ops=21819221189 t=32917477697 table=6442450944 secs=339.269
+sx-superuser-insert-1000 p5 A5 status=TIME done=687/1109 net=438872 ops=547018155525 t=18532097508 table=0 secs=300.065
+sx-superuser-insert-1000 p3 final 1543161 ops P3:40877488 S3:28200306 T3:4680002238
+sx-superuser-insert-1000 p4 final 230363003 ops A4:134123101551 B4:45308338382 P4:6905424262 S4:8204054318 T4:4704555926
+sx-superuser-insert-1000 p5 final 32917477697 ops A5:547013065293(687/1109) PR:42085400718 R2:88471472066 WJ:21819221189 WT:27495024294
+regression sx-superuser-insert-1000 R2: 1109 batches compared, 0 differ
+regression sx-superuser-insert-1000 PR: 1109 batches compared, 0 differ
+CELL-DONE p5 sx-superuser insert 1000 14:32:23
+sx-superuser-insert-100 p5 R2 status=OK done=11088/11088 net=714570 ops=88485279431 t=32917477697 table=3072 secs=36.835
+sx-superuser-insert-100 p5 PR status=OK done=11088/11088 net=714570 ops=64997576214 t=32917477697 table=3072 secs=23.793
+sx-superuser-insert-100 p5 WT status=OK done=11088/11088 net=714570 ops=27497835047 t=32917477697 table=5889725720 secs=54.837
+sx-superuser-insert-100 p5 WJ status=OK done=11088/11088 net=714570 ops=21811370312 t=32917477697 table=6442450944 secs=338.330
+sx-superuser-insert-100 p5 A5 status=TIME done=2527/11088 net=163301 ops=563892223601 t=4004912375 table=0 secs=300.055
+sx-superuser-insert-100 p3 final 1543161 ops P3:40350274 S3:28200236 T3:4679358182
+sx-superuser-insert-100 p4 final 230363003 ops A4:419698155944(7957/11088) B4:80545784441 P4:7722036387 S4:8215956264 T4:4703911800
+sx-superuser-insert-100 p5 final 32917477697 ops A5:563890493609(2527/11088) PR:64997576214 R2:88485279431 WJ:21811370312 WT:27497835047
+regression sx-superuser-insert-100 R2: 11088 batches compared, 0 differ
+regression sx-superuser-insert-100 PR: 11088 batches compared, 0 differ
+CELL-DONE p5 sx-superuser insert 100 14:44:58
+wiki-talk-temporal-insert-1000 p5 R2 status=OK done=6101/6101 net=2787967 ops=1444279945546 t=494592303423 table=3072 secs=1026.304
+wiki-talk-temporal-insert-1000 p5 PR status=OK done=6101/6101 net=2787967 ops=552709368762 t=494592303423 table=3072 secs=293.276
+wiki-talk-temporal-insert-1000 p5 WT status=MEM done=1473/6101 net=657938 ops=38360873810 t=35686589886 table=14595935592 secs=83.952
+wiki-talk-temporal-insert-1000 p5 WJ status=CAP done=988/6101 net=426480 ops=12240739385 t=19408917050 table=6442450944 secs=160.446
+wiki-talk-temporal-insert-1000 p5 A5 status=TIME done=836/6101 net=339981 ops=670494637001 t=15442120166 table=0 secs=299.982
+wiki-talk-temporal-insert-1000 p3 final 8113676 ops P3:269628722 S3:197439002 T3:10126120949(1473/6101)
+wiki-talk-temporal-insert-1000 p4 final 2411384219 ops A4:395034950140(2186/6101) B4:825959116840 P4:112393783873 S4:192689531797 T4:10156454827(1473/6101)
+wiki-talk-temporal-insert-1000 p5 final 494592303423 ops A5:670490644153(836/6101) PR:552709368762 R2:1444279945546 WJ:12100124942(987/6101) WT:38348071826(1473/6101)
+regression wiki-talk-temporal-insert-1000 PR: 6101 batches compared, 0 differ
+CELL-DONE p5 wiki-talk-temporal insert 1000 15:16:05
+wiki-talk-temporal-insert-100 p5 R2 status=OK done=61006/61006 net=2787967 ops=1442344073812 t=494592303423 table=3072 secs=1021.838
+wiki-talk-temporal-insert-100 p5 PR status=OK done=61006/61006 net=2787967 ops=764785705356 t=494592303423 table=3072 secs=433.376
+wiki-talk-temporal-insert-100 p5 WT status=MEM done=14730/61006 net=657533 ops=38355378058 t=35686589886 table=14592381936 secs=82.512
+wiki-talk-temporal-insert-100 p5 WJ status=CAP done=9880/61006 net=426480 ops=12230285083 t=19408916988 table=6442450944 secs=159.942
+wiki-talk-temporal-insert-100 p5 A5 status=TIME done=3316/61006 net=127614 ops=652859107770 t=3500306818 table=0 secs=299.983
+wiki-talk-temporal-insert-100 p3 final 8113676 ops P3:249525826 S3:197476572 T3:10126488337(14730/61006)
+wiki-talk-temporal-insert-100 p4 final 2411384219 ops A4:460855785292(11193/61006) B4:1132893220694 P4:157099712958 S4:191445577205 T4:10156814529(14730/61006)
+wiki-talk-temporal-insert-100 p5 final 494592303423 ops A5:652857692214(3316/61006) PR:764785705356 R2:1442344073812 WJ:12216945293(9879/61006) WT:38348554891(14730/61006)
+regression wiki-talk-temporal-insert-100 PR: 61006 batches compared, 0 differ
+CELL-DONE p5 wiki-talk-temporal insert 100 15:49:27
+M1D03-DONE results/gate1-M1D03

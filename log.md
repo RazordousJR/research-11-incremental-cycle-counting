@@ -296,3 +296,31 @@ The PI answered the decision table of the last report in full: "Okeh aku terima 
 | 5 | sx-stackoverflow download | Deferred until M1D03 shows Gate 1 still alive |
 
 This satisfies the condition ControlPC set on its GO for M1D03 (0021). `scripts/run_m1d03.sh` takes the 8-hour line as a stop at the next cell boundary.
+
+## 0023, 2026-11-01: Session closed while M1D03 runs
+
+The PI is closing this session while the sweep runs, and a new session takes over. ControlPC asked for the state of the raw folder and the claim to be written here. This is the state at 22:32. It is not a result.
+
+**Claim.** `research11` taken at 20:33:01, one thread on CPU 8, `--commit-gb 16`, no timing read. ControlPC's line is 04:33:01 on 2026-11-02. The sweep's shell is a child of the closing session, and the release is chained in that same shell, so both may die with it. Not verified. A claim held with no R11 process means exactly that.
+
+**Raw folder.** `results/gate1-M1D03/raw/` holds 140 finished arm-cells of 156, shown by a non-empty `.summary.csv`, and 73 MB. The 32 finished cells end at `p5 sx-askubuntu insert 100`. Left are `sx-superuser insert` cut 1,000 arm A5, which was running, then all of `sx-superuser insert` cut 100, and `wiki-talk-temporal insert` at both cuts, all on p=5. A per-batch `.csv` with no `.summary.csv` beside it is a killed arm. It holds no evidence and a rerun replaces it.
+
+**Restart.** ControlPC's terms: tell it before any restart, and restart only if the sweep finishes inside the line. Anything past the line is a new request. The script's own 8-hour counter restarts with it, so the line is kept by hand. `run.log` is appended to, and `hashes.txt` is not rewritten.
+
+## 0024, 2026-11-01: M1D03 clean; candidate reassessed before M1D04
+
+The PI's handover prompt named this entry 0023, but 0023 was already taken by the handover note above.
+
+**The handover's fear did not happen.** At 22:32 the sweep was alive, under the old session's `claude.exe`, which outlives its closed window. The chained release ran too. `M1D03-DONE` at 23:49:27, claim gone by 23:49:58, 3 h 16 min of the 8-hour line. No restart. The old session woke when its shell ended, told ControlPC of the release, and wrote no result.
+
+**Result.** `results/gate1-M1D03/README.md`. 156 of 156 arm-cells, 137 finished, 19 stopped at a limit. Exactness held: 276 arm pairs over 4,723,486 batch comparisons, 0 differ, in a check written after the run. Regression against M1C03 holds on 34 arm-cells. WT stopped on memory on wiki-talk insert as well, which the handover list had not reached.
+
+**Reading on operations, no verdict.** The median of sharing against best other is 1.447 at p = 3, 0.916 at p = 4 and 0.950 at p = 5. At p = 5 only the 4 wiki-talk cells reach 0.67, and there the rival is a scan, since no table finished the whole set. WJ beats PR on 6 of the 8 sx cells on operations. The candidate's question stays open, and it rests on the M arms, which have not run.
+
+**Clock, indicative and not evidence.** The count-build seconds of this ordinary claim say PR is the fastest arm on all 12 p = 5 cells. The median against the scan is 0.51 at p = 5, 0.99 at p = 4 and 1.09 at p = 3. These are not timing under hard rule 3, they are not citable, and M is missing. They show only that Gate 1 is not already dead: on those seconds 7 to 9 of 12 cells sit at or under 0.67, the rule needs 4, and the trend they show is the part Cheetah already published.
+
+**A gap in the protocol, found by this reassessment.** "Best" is defined as the fastest *finished* arm, yet the Measure section says a stopped arm's time "enters as the limit", and 0020 gave that as the reason a lower limit is safe. The two readings differ on the two wiki-talk insert cells, where A5 stopped at 300 s and PR takes about 290 and 430 s. Read one way, the cells can pass against R2. Read the other way, they cannot. No threshold changes either way, but the reading must be fixed before any clock is read, and it is the PI's to fix. I recommend the second reading, which is harder on sharing and is what the PI accepted in 0022.
+
+**M1D04 estimate.** 8 to 12 hours of `--exclusive` claim, by the rules of `scripts/gate1_plan.py` applied to this sweep's seconds, with M's times guessed from M1D02. wiki-talk insert alone is 4 to 6 hours. No request has gone to ControlPC, because the PI's word comes first. `scripts/run_m1d04.sh` has no line check as `run_m1d03.sh` does, and its step 4 has no agreement check on the M count runs. Both need adding before it runs.
+
+**sx-stackoverflow.** `sx-stackoverflow.txt.gz` from `https://snap.stanford.edu/data/`, 529,869,668 bytes by the server's header, 63,497,050 temporal edges and 36,233,450 static edges by SNAP's page. Not downloaded. It goes to the PI as a decision to take now: added after the clock is read, it would be a free option.
