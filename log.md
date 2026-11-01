@@ -324,3 +324,19 @@ The PI's handover prompt named this entry 0023, but 0023 was already taken by th
 **M1D04 estimate.** 8 to 12 hours of `--exclusive` claim, by the rules of `scripts/gate1_plan.py` applied to this sweep's seconds, with M's times guessed from M1D02. wiki-talk insert alone is 4 to 6 hours. No request has gone to ControlPC, because the PI's word comes first. `scripts/run_m1d04.sh` has no line check as `run_m1d03.sh` does, and its step 4 has no agreement check on the M count runs. Both need adding before it runs.
 
 **sx-stackoverflow.** `sx-stackoverflow.txt.gz` from `https://snap.stanford.edu/data/`, 529,869,668 bytes by the server's header, 63,497,050 temporal edges and 36,233,450 static edges by SNAP's page. Not downloaded. It goes to the PI as a decision to take now: added after the clock is read, it would be a free option.
+
+## 0025, 2026-11-02: PI accepts the five items; the reading of a stopped arm is fixed
+
+The PI answered the decision table of the last report in full: "Approved". Each item stands as I recommended it. Nothing here has touched a clock.
+
+| # | Item | Decision |
+|---|---|---|
+| 1 | Candidate | Continue to M1D04. D-k stays in reserve |
+| 2 | A time-stopped arm in "best" | It enters at its limit |
+| 3 | `--exclusive` M1D04 | Approved, 8 to 12 hours, in two claims: the other 12-cell work first, wiki-talk insert apart. ControlPC's GO is still needed |
+| 4 | `scripts/run_m1d04.sh` | Fixed first: a line check, a check on the M count runs, and the hash of `build/gate1/timing.exe` |
+| 5 | sx-stackoverflow | Download approved, and committed now: p = 5 only, in a separate claim after the 12 cells, in the verdict if scored |
+
+**Protocol reading M1D04-R1.** It closes the gap in 0024 and changes no threshold. "Best" is the fastest arm of the other rows, finished or stopped by time, and a time-stopped arm enters at its time limit. An arm stopped by memory stays out of that cell. "Scored" still needs share and at least one other arm to have finished. This is harder on the sharing arm, and it is fixed after M1D03's operations and before any Gate 1 clock.
+
+The PI asked for the download through the PI's own Chrome.

@@ -40,7 +40,7 @@ Hard rule 5 applies. Labels appear in every table (hard rule 4). Insert-only and
 |---|---|---|
 | Engineering | CollegeMsg, email-Eu-core-temporal, sx-mathoverflow | Choosing theta, debugging, the scripts' dry run. Reported, and never in a verdict |
 | Evaluation | sx-askubuntu, sx-superuser, wiki-talk-temporal | The verdict |
-| Held out | sx-stackoverflow, 529.9 MB gz from SNAP | The only stream no arm has seen. Used only if the PI approves the download. 4 more cells, in the verdict if they are scored |
+| Held out | sx-stackoverflow, 529.9 MB gz from SNAP | The only stream no arm has seen. Approved by the PI on 2026-11-02, before any clock (`log.md` 0025). p = 5 only, in a separate claim after the 12 cells. 4 more cells, in the verdict if they are scored |
 
 **Weakness, stated.** The evaluation streams were read by R2, PR, WT and WJ in M1C03. No parameter came from them, and none of the arms has a parameter on them here except theta, which is chosen elsewhere. They are still not
 unseen. KONECT Wikipedia streams stay out of this gate: their format and size are not checked, and they would need a new loader.
@@ -73,6 +73,8 @@ Every arm's per-batch count must match every other arm's in that pattern and cel
 ## Rule
 
 Let **share** be P3, P4 or PR, or at p = 4 the faster of P4 and B4. Let **best** be the fastest finished arm of the other rows, B4 aside.
+
+**Reading M1D04-R1, fixed by the PI on 2026-11-02 (`log.md` 0025), before any Gate 1 clock.** In "best", an arm stopped by time counts as well as a finished arm, and enters at its time limit, so that the Measure section and this rule say the same thing. An arm stopped by memory stays out of that cell. No threshold changes.
 
 A cell **passes** when share's slowest repeat is at most 0.67 times best's fastest repeat. This is stricter than M1C03, on purpose: its Go rested on one clock tick and turned to Pivot on the worst of three.
 The cell's **score** is the ratio of medians. A cell is scored if share finished and at least one other arm finished.

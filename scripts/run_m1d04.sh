@@ -3,19 +3,38 @@
 # Step 1 picks one theta per pattern on the engineering cells. Step 2 is one repeat of every arm on every evaluation cell. Step 3 is the further repeats, for the arms the
 # protocol keeps. Step 4 is the count build of the M arms at the chosen theta. A finished file is never run again, so the script can be restarted.
 # Any count that differs between arms stops the run. Hard rule 1.
-# Usage: scripts/run_m1d04.sh [outdir] [cpu]
-# DATA, ENG and EVAL may be set, only to dry-run this script on synthetic streams. A real run sets none of them.
+# Three phases, each under its own claim (log.md 0025). main: theta, then every evaluation cell but wiki-talk insert. wiki: wiki-talk insert. held: sx-stackoverflow, p = 5 only.
+# Usage: scripts/run_m1d04.sh [outdir] [cpu] [main|wiki|held]
+# DATA, ENG and EVAL may be set, only to dry-run this script on synthetic or engineering streams. A real run sets none of them. LINE_HOURS is ControlPC's line for the claim.
 set -u
 export LC_ALL=C
 out="${1:-results/gate1-M1D04}"
 cpu="${2:-8}"
+phase="${3:-main}"
 timing=build/gate1/timing.exe
 count=build/gate1/count.exe
 data="${DATA:-data/derived}"
 eng="${ENG:-CollegeMsg:expiry CollegeMsg:insert email-Eu-core-temporal:expiry email-Eu-core-temporal:insert sx-mathoverflow:expiry sx-mathoverflow:insert}"
-eval_cells="${EVAL:-sx-askubuntu:expiry sx-superuser:expiry wiki-talk-temporal:expiry sx-askubuntu:insert sx-superuser:insert wiki-talk-temporal:insert}"
+patterns="3 4 5"
+case $phase in
+  main) eval_cells="sx-askubuntu:expiry sx-superuser:expiry wiki-talk-temporal:expiry sx-askubuntu:insert sx-superuser:insert" ;;
+  wiki) eval_cells="wiki-talk-temporal:insert" ;;
+  held) eval_cells="sx-stackoverflow:expiry sx-stackoverflow:insert"; patterns="5" ;;
+  *) echo "unknown phase $phase"; exit 2 ;;
+esac
+eval_cells="${EVAL:-$eval_cells}"
 grid="16 32 64 128 256 512 1024"
 mkdir -p "$out/raw" "$out/theta/raw"
+started=$(date +%s)
+line=$((${LINE_HOURS:-8} * 3600))   # Checked before each process. A rerun skips what finished.
+
+over_line() {
+  if [ $(($(date +%s) - started)) -ge "$line" ]; then echo "M1D04-LINE stopped at the line before $*"; exit 2; fi
+}
+
+if [ ! -s "$out/hashes.txt" ]; then
+  (git rev-parse --short HEAD; sha256sum benchmarks/gate1.cpp benchmarks/fivecycle.cpp tests/test_gate1.cpp src/r11/tc.hpp scripts/run_m1d04.sh scripts/gate1_plan.py scripts/check_m1d02.py "$count" "$timing") > "$out/hashes.txt"
+fi
 
 file_of() { if [ "$2" = insert ]; then echo "$data/$1.ins.bin"; else echo "$data/$1.bin"; fi; }
 
@@ -34,12 +53,14 @@ theta_of() { python -I -c "import sys; print(dict(l.split() for l in open(sys.ar
 
 # Step 1.
 if [ ! -s "$out/theta.txt" ]; then
+  [ "$phase" = main ] || { echo "phase $phase needs theta.txt from phase main"; exit 2; }
   for p in 3 4 5; do
     for th in $grid; do
       for cell in $eng; do
         s="${cell%%:*}"; v="${cell##*:}"; f=$(file_of "$s" "$v")
         for c in 1000 100; do
           [ -s "$out/theta/raw/$s-$v-$c-p$p-M$p-th$th.t1.summary.csv" ] && continue
+          over_line "theta $s $v $c p$p $th"
           timeout -k 5 620 "$timing" "$f" "$s" "$v" "$c" "$p" "M$p" "$out/theta" --theta "$th" --rep 1 --cpu "$cpu" --cap-seconds 600 --cap-bytes 16000000000
         done
       done
@@ -54,10 +75,11 @@ run_timing() {
   local cap=1200
   [ "${a:0:1}" = A ] && cap=300
   [ -s "$out/raw/$s-$v-$c-p$p-$a$sfx.t$r.summary.csv" ] && return 0
+  over_line "$s $v $c p$p $a repeat $r"
   timeout -k 5 $((cap + 20)) "$timing" "$f" "$s" "$v" "$c" "$p" "$a" "$out" $th --rep "$r" --cpu "$cpu" --cap-seconds "$cap" --cap-bytes 16000000000
 }
 
-for p in 3 4 5; do
+for p in $patterns; do
   for cell in $eval_cells; do
     s="${cell%%:*}"; v="${cell##*:}"; f=$(file_of "$s" "$v")
     for c in 1000 100; do
@@ -73,15 +95,18 @@ for p in 3 4 5; do
 done
 
 # Step 4.
-for p in 3 4 5; do
+for p in $patterns; do
   th=$(theta_of "$p")
   for cell in $eval_cells; do
     s="${cell%%:*}"; v="${cell##*:}"; f=$(file_of "$s" "$v")
     for c in 1000 100; do
-      [ -s "$out/count/raw/$s-$v-$c-p$p-M$p-th$th.summary.csv" ] && continue
-      mkdir -p "$out/count/raw"
-      timeout -k 5 1220 "$count" "$f" "$s" "$v" "$c" "$p" "M$p" "$out/count" --theta "$th" --cpu "$cpu" --cap-seconds 1200 --cap-bytes 16000000000
+      if [ ! -s "$out/count/raw/$s-$v-$c-p$p-M$p-th$th.summary.csv" ]; then
+        over_line "count $s $v $c p$p"
+        mkdir -p "$out/count/raw"
+        timeout -k 5 1220 "$count" "$f" "$s" "$v" "$c" "$p" "M$p" "$out/count" --theta "$th" --cpu "$cpu" --cap-seconds 1200 --cap-bytes 16000000000
+      fi
+      python -I scripts/gate1_plan.py mcheck "$out" "$s" "$v" "$c" "$p" "$th" || { echo "M1D04-STOP count $s $v $c p$p"; exit 1; }
     done
   done
 done
-echo "M1D04-DONE $out"
+echo "M1D04-DONE $out $phase"
