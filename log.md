@@ -339,4 +339,6 @@ The PI answered the decision table of the last report in full: "Approved". Each 
 
 **Protocol reading M1D04-R1.** It closes the gap in 0024 and changes no threshold. "Best" is the fastest arm of the other rows, finished or stopped by time, and a time-stopped arm enters at its time limit. An arm stopped by memory stays out of that cell. "Scored" still needs share and at least one other arm to have finished. This is harder on the sharing arm, and it is fixed after M1D03's operations and before any Gate 1 clock.
 
-The PI asked for the download through the PI's own Chrome.
+The PI asked for the download through the PI's own Chrome. It came from the link on SNAP's dataset page, 00:08 to 00:12:58 on 2026-11-02, and only that file was fetched. It sits at `data/snap/held-out/`, apart from the six inputs, with its own `SHA256SUMS`: 529,869,668 bytes, equal to the server's header, sha256 starting fc04264de165, gzip test passed. SNAP publishes no checksum, so that hash fixes what was received and does not verify it. No arm has read it, and I read only its first three lines.
+
+`scripts/run_m1d04.sh` passed a dry run on CollegeMsg, an engineering stream, in the scratchpad: all three phases' paths, the line stop and `mcheck`, 0 differences. Its seconds were thrown away, and its theta values are not a choice.

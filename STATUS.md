@@ -24,15 +24,13 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 
 ## Open, waiting on the PI
 
-The live list is the final table of the last report. In short, `log.md` 0024: the word for an `--exclusive` M1D04 of 8 to 12 hours, the reading of a time-stopped arm in the rule, and sx-stackoverflow. No request has gone to ControlPC, because the PI's word comes first.
-
-Before M1D04 runs: add a line check to `scripts/run_m1d04.sh`, as in `run_m1d03.sh`, and an agreement check on its M count runs, and record the hash of `build/gate1/timing.exe`.
+Nothing is waiting on the PI. The PI approved `--exclusive` M1D04 in two claims, the reading M1D04-R1, and sx-stackoverflow (`log.md` 0025). M1D04 now waits on ControlPC's GO. Run `scripts/run_m1d04.sh` phases `main`, `wiki`, then `held`, each under its own claim with the release chained, and `LINE_HOURS` set to ControlPC's line. `held` needs `data/derived/sx-stackoverflow*.bin` first.
 
 ## Handover notes
 
 - Closing a desktop session's window does not end its `claude.exe`. A shell it owns keeps running, and the session wakes when that shell ends, so check it before assuming either.
 
-- `data/` is not in git. `data/snap/SHA256SUMS` lists the six inputs. Rebuild `data/derived/` with `scripts/prepare_stream.py` and `scripts/prepare_window_stream.py`.
+- `data/` is not in git. `data/snap/SHA256SUMS` lists the six inputs, and `data/snap/held-out/SHA256SUMS` the held-out stream. Rebuild `data/derived/` with `scripts/prepare_stream.py` and `scripts/prepare_window_stream.py`.
 - Raw per-batch files are ignored by git, under `results/**/raw/`.
 - Heavy work needs a tower claim, released between tests. ControlPC is the coordinator (PI, `log.md` 0018; rule in `CLAUDE.md`).
 - After release, a process with the project folder name on its command line reads as R11 load. A watcher reads only lines written after it starts.
