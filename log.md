@@ -342,3 +342,18 @@ The PI answered the decision table of the last report in full: "Approved". Each 
 The PI asked for the download through the PI's own Chrome. It came from the link on SNAP's dataset page, 00:08 to 00:12:58 on 2026-11-02, and only that file was fetched. It sits at `data/snap/held-out/`, apart from the six inputs, with its own `SHA256SUMS`: 529,869,668 bytes, equal to the server's header, sha256 starting fc04264de165, gzip test passed. SNAP publishes no checksum, so that hash fixes what was received and does not verify it. No arm has read it, and I read only its first three lines.
 
 `scripts/run_m1d04.sh` passed a dry run on CollegeMsg, an engineering stream, in the scratchpad: all three phases' paths, the line stop and `mcheck`, 0 differences. Its seconds were thrown away, and its theta values are not a choice.
+
+## 0026, 2026-11-02: ControlPC's GO for main; held-out stream derived
+
+ControlPC answered: derive GO, phase `main` GO straight after it, phases `wiki` and `held` WAIT. Its GO settles the queue only, and the PI's word is 0025. Its terms for `main`: `LINE_HOURS=8`, overrun of 20 minutes accepted, tower clear at the claim, clean tree, a report at 4 hours, at once on STOP or LINE, and at release. This session stays quiet while timing runs: no build, no test, no Chrome, no subagent. The run's README must say that "exclusive" here means no heavy work and not a silent machine, since the machine has other Claude sessions, Chrome, OneDrive and ControlPC's two-hourly status mail.
+
+**A limit on the PI's hours.** ControlPC reads 0025's 8 to 12 hours as covering both claims. So `wiki` gets a line of 12 hours less `main`'s real hours, and if that is too little for its estimate it goes back to the PI first.
+
+**Derive.** A short R9 `pytest` run with no claim read as busy at 00:16, so the derive waited for it. Claim 00:16:53 to 00:18:17, one process at a time, `scripts/prepare_stream.py` unchanged. Expiry 44 s, insert 40 s, peak working set 13.77 GB each, peak commit 14.62 and 14.61 GB.
+
+| File | Label | Events | Bytes | sha256 starts |
+|---|---|---|---|---|
+| `sx-stackoverflow.bin` | real timestamps, synthetic expiry | 95,806,532 | 1,916,130,640 | 3b8720e44e1d |
+| `sx-stackoverflow.ins.bin` | real timestamps, insert-only | 47,903,266 | 958,065,320 | f3df8cff0843 |
+
+63,497,050 lines gave 47,903,266 kept, as self-loops drop, and 2,584,164 vertices. Times are sorted and ids are compact. 7.9 times wiki-talk's insert events, so the rough 6 to 8 hours for `held` was not too high, and its insert cells may finish no arm at all.
