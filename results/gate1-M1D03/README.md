@@ -77,7 +77,7 @@ This is not the verdict. The rule of the protocol is on the clock, the M arms ar
 | 4 | 0.916 | 0.249 to 1.642 | 3 of 12, all wiki-talk-temporal | T4 beats P4 on all 4 sx insert cells. P4 / B4 is 0.078 to 0.244 |
 | 5 | 0.950 | 0.372 to 2.980 | 4 of 12, all wiki-talk-temporal | WJ beats PR on 6 of the 8 sx cells. On the other 4 cells R2 is the rival |
 
-Read the p = 5 row with care. On wiki-talk-temporal PR's only rival on operations is R2, as WJ never finished there and WT did not finish on insert. Its 4 cells therefore show sharing against a scan, and not against a table. The fifth-closest cell, sx-askubuntu expiry cut 1,000, misses at 0.675. If the protocol's pass line were applied to operations, which it is not, the 4 cells would sit on one stream and fail the two-stream clause.
+Read the p = 5 row with care. On wiki-talk-temporal PR's cheapest rival on operations is R2 on all 4 cells: WJ finished none of them, WT finished only the 2 expiry cells, and it costs more than R2 there. These cells therefore show sharing against a scan, and not against a table. The next closest cell, sx-askubuntu expiry cut 1,000, misses at 0.675. If the protocol's pass line were applied to operations, which it is not, the 4 cells would sit on one stream and fail the two-stream clause.
 
 ## Arms stopped at a limit
 

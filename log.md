@@ -315,7 +315,7 @@ The PI's handover prompt named this entry 0023, but 0023 was already taken by th
 
 **Result.** `results/gate1-M1D03/README.md`. 156 of 156 arm-cells, 137 finished, 19 stopped at a limit. Exactness held: 276 arm pairs over 4,723,486 batch comparisons, 0 differ, in a check written after the run. Regression against M1C03 holds on 34 arm-cells. WT stopped on memory on wiki-talk insert as well, which the handover list had not reached.
 
-**Reading on operations, no verdict.** The median of sharing against best other is 1.447 at p = 3, 0.916 at p = 4 and 0.950 at p = 5. At p = 5 only the 4 wiki-talk cells reach 0.67, and there the rival is a scan, since no table finished the whole set. WJ beats PR on 6 of the 8 sx cells on operations. The candidate's question stays open, and it rests on the M arms, which have not run.
+**Reading on operations, no verdict.** The median of sharing against best other is 1.447 at p = 3, 0.916 at p = 4 and 0.950 at p = 5. At p = 5 only the 4 wiki-talk cells reach 0.67, and there the cheapest rival is a scan: WJ finished none of them, and WT finished only the 2 expiry cells, where it costs more than R2. WJ beats PR on 6 of the 8 sx cells on operations. The candidate's question stays open, and it rests on the M arms, which have not run.
 
 **Clock, indicative and not evidence.** The count-build seconds of this ordinary claim say PR is the fastest arm on all 12 p = 5 cells. The median against the scan is 0.51 at p = 5, 0.99 at p = 4 and 1.09 at p = 3. These are not timing under hard rule 3, they are not citable, and M is missing. They show only that Gate 1 is not already dead: on those seconds 7 to 9 of 12 cells sit at or under 0.67, the rule needs 4, and the trend they show is the part Cheetah already published.
 
