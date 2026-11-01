@@ -1,0 +1,21 @@
+state=sx-askubuntu-insert-only-end file=data/derived/sx-askubuntu.ins.bin frac=1.000 seed_base=2000
+n=157222 L=18 raw=726661 applied=455691 noop_share=0.3729 m=455691 T=680407 source_pairs=455691
+running_count_equals_static_count=1 static_ops=21860459
+D=14541515 R=10168082 sum_dplus2=4373433 D_over_R=1.430 iters=126118442 iters_over_LD=0.4818 iters_over_R=12.40 mults=64810931
+theorem_check iters_le_refined=1 refined=168797505 iters_over_refined=0.7472 mults_le_bound=1 mult_bound=102623704 mults_over_bound=0.632
+static_s=0.04261 prover_s_median=0.4107 min=0.3737 max=0.9922 ratio_median=9.6 ratio_max=23.3
+edit_ns=143.1 scan_plus_edit_ns=317.5 scan_ns=174.5 list_elements_per_update=12.22
+sketch_split_ns=10.5 sketch_pure_ns=175.9 ratio_split_vs_scan=0.060 ratio_pure_vs_scan=1.008 forms_agree=1
+source_filter_ns_per_raw_event=28.2 source_filter_ns_per_applied=44.9
+verifier_words pure=113 split=3131 source_words_at_least=911382
+honest                 runs=100 accepted=100 rejected_at_last_check=0
+wrong_claim            runs=100 accepted=0 rejected_at_last_check=0
+liar_random            runs=100 accepted=0 rejected_at_last_check=100
+fabricator             runs=500 accepted=0 rejected_at_last_check=500
+flipped_edge           runs=100 accepted=0 rejected_at_last_check=100
+dropped_update         runs=100 accepted=0 rejected_at_last_check=100
+CONTROL_leaky_flip     runs=100 accepted=100 rejected_at_last_check=0
+CONTROL_leaky_drop     runs=100 accepted=100 rejected_at_last_check=0
+raw_feed_no_filter     runs=1 accepted=0 rejected_at_last_check=1
+prover_labels_noops    runs=1 accepted=1 rejected_at_last_check=0
+flips_with_same_count=72 sketch_vs_graph_mismatches=0

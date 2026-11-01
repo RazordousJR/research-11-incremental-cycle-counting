@@ -1,0 +1,51 @@
+[wiki-talk-temporal-insert-only-end] n=1094018 L=21 raw=6100538 applied=2787967 noop_share=0.5430
+[wiki-talk-temporal-insert-only-end] m=2787967 T=8113676 D=204774739 R=145908916 edit_s=0.510 scan+edit_s=2.637 static_s=0.4193
+  seed 3000 honest accepted=1 6.900s
+  seed 3000 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 3001 honest accepted=1 6.640s
+  seed 3001 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 3002 honest accepted=1 7.713s
+  seed 3002 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 3003 honest accepted=1 8.590s
+  seed 3003 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 3004 honest accepted=1 7.591s
+  seed 3004 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 3005 honest accepted=1 7.119s
+  seed 3005 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 3006 honest accepted=1 7.419s
+  seed 3006 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 3007 honest accepted=1 7.307s
+  seed 3007 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 3008 honest accepted=1 6.913s
+  seed 3008 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 3009 honest accepted=1 7.244s
+  seed 3009 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 3010 honest accepted=1 7.687s
+  seed 3010 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 3011 honest accepted=1 7.733s
+  seed 3011 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 3012 honest accepted=1 8.508s
+  seed 3012 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 3013 honest accepted=1 8.242s
+  seed 3013 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+state=wiki-talk-temporal-insert-only-end file=data/derived/wiki-talk-temporal.ins.bin frac=1.000 seed_base=3000
+n=1094018 L=21 raw=6100538 applied=2787967 noop_share=0.5430 m=2787967 T=8113676 source_pairs=2787967
+running_count_equals_static_count=1 static_ops=301275751
+D=204774739 R=145908916 sum_dplus2=58865823 D_over_R=1.403 iters=1946093252 iters_over_LD=0.4526 iters_over_R=13.34 mults=437040021
+theorem_check iters_le_refined=1 refined=2696244362 iters_over_refined=0.7218 mults_le_bound=1 mult_bound=736122284 mults_over_bound=0.594
+static_s=0.41931 prover_s_median=7.5908 min=6.6399 max=8.5904 ratio_median=18.1 ratio_max=20.5
+edit_ns=182.9 scan_plus_edit_ns=946.0 scan_ns=763.1 list_elements_per_update=31.23
+sketch_split_ns=10.7 sketch_pure_ns=219.4 ratio_split_vs_scan=0.014 ratio_pure_vs_scan=0.287 forms_agree=1
+source_filter_ns_per_raw_event=35.9 source_filter_ns_per_applied=78.6
+verifier_words pure=131 split=9284 source_words_at_least=5575934
+honest                 runs=14 accepted=14 rejected_at_last_check=0
+wrong_claim            runs=14 accepted=0 rejected_at_last_check=0
+liar_random            runs=14 accepted=0 rejected_at_last_check=14
+fabricator             runs=500 accepted=0 rejected_at_last_check=500
+flipped_edge           runs=14 accepted=0 rejected_at_last_check=14
+dropped_update         runs=14 accepted=0 rejected_at_last_check=14
+CONTROL_leaky_flip     runs=14 accepted=14 rejected_at_last_check=0
+CONTROL_leaky_drop     runs=14 accepted=14 rejected_at_last_check=0
+raw_feed_no_filter     runs=1 accepted=0 rejected_at_last_check=1
+prover_labels_noops    runs=1 accepted=1 rejected_at_last_check=0
+flips_with_same_count=10 sketch_vs_graph_mismatches=0

@@ -135,3 +135,89 @@ either: M1B01 stays undecided.
 Checked by me from the same record: against the better of B1 and B2, W stays at or below 0.67 on 5 of 6 streams at 3,600 s,
 and email-Eu-core-temporal is at 0.982. Two gaps remain: no k-window death counter, and no Fenwick form. M1B01-B adds both.
 It is stricter than M1B01, so it weakens nothing and needs no approval to run.
+
+## 0013, 2026-11-01: S8 and S9 returned; M1C01 and M1C02 opened
+
+S8 reads D-k as partly taken. Without refresh it is a composition of Golab and Ozsu 2005, A-Seq 2014 and Hammad 2003. Only exact
+re-homing under refresh with k windows was not found, and that search was weak. S9 reads the sparse prover as folklore in
+substance and finds no user. Its novelty score falls from 7 to 4.
+
+Checked by me against `results/screen-b-M1B01-B/README.md`: plain W is cheaper than D-k on 4 of 6 streams at 3,600 s and 3 of 6 at
+1 s, at 1.75 to 4.18 times its peak words at 3,600 s and 0.94 to 1.36 at 1 s, where the rings dominate both arms. W is the count
+form of a table partitioned by expiry. So the Go of M1B01-B
+stands by its rule, but "D-k is the best arm" is not established. The re-home share in S8 is inferred from a table, and M1C01
+measures it.
+
+M1C01 adds the database baselines. M1C02 tests the 5-cycle candidate that log 0011 set aside because Gopher and Cheetah were
+unread. Those two stay unread unless a route opens, so the risk is recorded and not resolved. Thresholds are in
+`docs/experiments/screen-b-protocol.md`, written before either run.
+
+## 0014, 2026-11-01: M1C01 Go with thin margin; M1C02 Stop; Gopher read; M1C03 opened
+
+M1C01: Go at both widths, `results/screen-c-M1C01/README.md`. The 1 s Go holds at exactly 4 of 6 and has no margin against V: 11%
+cheaper V charges would make it Pivot. DI / D-k is 1.483 to 5.011 and K / D-k is 1.473 to 2.133, so the re-home rule and the shared
+counter both save work. V is 0.945 to 1.434 on operations. M1B01-B's remark that neither W nor D-k dominates is wrong at 1 s.
+
+M1C02: Stop at clause 4, `results/screen-c-M1C02/README.md`. Go was out of reach on any reading, so selection over kernels is closed on
+these streams. The clause rests on a hash probe priced at 1, and the indicative clock reverses the winner.
+
+Gopher and Cheetah were read in the PI's Chrome, through the ACM viewer, with no download: `results/screen-c-M1C02/reading-addendum.md`.
+Gopher reports 5-vertex motif counts under updates. So "no exact dynamic 5-cycle counter" is narrowed to "no dedicated count-only kernel".
+The reading Stop of M1C02 does not fire, since no source uses these kernels.
+
+M1C03 opens as a new screen ID, written before any run. It does not overturn M1C02. It asks a different question, on all six streams, with
+a tuned table as a baseline.
+
+## 0015, 2026-11-01: M1B03 Stop on the plain reading; tower ruling; a false release of mine
+
+M1B03: `results/screen-b-M1B03/README.md`. Step 1 passed and exactness held. Scan over split at 5%, |H| 64: sx-superuser peak 1.88,
+wiki-talk peak 1.15, sx-superuser end 6.10, wiki-talk end 10.84, rMAT 24.44. The Stop line names no graph count, which is a defect of my
+protocol. I adopt the plain reading, "any graph", so wiki-talk at 1.15 gives Stop. "All graphs" would give Pivot, and Go is on no reading.
+The eager arm on end states and rMAT is a formula and was not built. Theta was tuned to acceptance and not fitted, so none of this is
+ERGM practice. Reopening needs a new screen ID with a graph-size quantifier and fitted theta.
+
+The queue coordinator session, ControlPC, ruled at about 15:29 that R11 releases the tower at M1C03-DONE, 16:30 at the latest, so that
+R9's queue can finish. It set a standing rule: ask it for GO or WAIT before heavy work, release between tests, declare threads, and take
+any `--exclusive` timing to it first. It quotes the PI as naming it coordinator on 29 October. `TOWER.md` names no coordinator, so
+that quote is unverified here. I follow the rule because it only narrows what R11 does, and it goes to the PI in the next report. The
+claim had been held since 09:08 across several tests, which my earlier work did not treat as a problem and should have.
+
+My error: the first watcher matched the old `M1C03-STOP` line in `run.log`, left from the harness stop at 14:19, and released the claim
+at 15:31:19 with the run still going. I reclaimed at about 15:31:45 and told ControlPC. R9's waiter read the tower at 15:30:57 and
+15:31:57, so nothing started in the gap. The cause is a watcher that read old log lines. The run was not affected.
+
+Cut-off: at 16:30:34 I stopped the runner, after 23 of 24 cells, and let the arm in progress end. The claim was released at 16:36:05. The
+last cell, wiki-talk insert cut 100, lacks at most PR repeat 3. The script restarts cleanly. The run has no verdict yet.
+
+## 0016, 2026-11-01: M1C03 Go on the clock, by one cell
+
+Results: `results/screen-c-M1C03/README.md`. The run finished under a new claim, 17:14 to 17:21, on ControlPC's GO. Go by the written rule: 22 cells
+scored, score at most 0.67 on 9 cells with 8 needed, 5 streams, 4 expiry cells. PR is faster than every other arm on 21 of 22 cells and ties WT on
+one. Exactness 0 mismatches in 3,103,980 comparisons. Every cell at the worst of its 3 runs gives Pivot at 7.
+
+This Go is narrow, and it does not overturn M1C02. WJ or PW has the lowest operations on 16 of 22 cells, and hard rule 3 makes operations the first
+reading. What passed is sharing against a plain scan, R2, and 4 of the 9 passing cells have no finished table arm. The sx-superuser pair stands, checked from
+the raw files: WT had already spent more than R2's whole run. The wiki-talk expiry pair stands unless WT could finish under 26.1 s and 16.1 s, which is an
+open bound and not a finish time. The clock was shared, so the result only opens Gate 1.
+
+Why this escapes the Gate 0 cause: Gate 0 failed because a triangle update costs 5.9 to 13.9 operations. An R2 update here costs about 7,660 on wiki-talk expiry and
+about 123,800 on sx-superuser insert, at cut 1,000. Sharing has something to share.
+
+Accepted: the 14:23 amendment to the two scripts. It leaves out the last row of a CAP record, and those arms are not finished on those cells, so no such row can reach
+the verdict. Only 1 of the 6 differing rows was traced directly. Recorded, not accepted as good practice: a mistaken run read real streams before the source was
+fixed. Its 622 files are quarantined and unread, no arm time was seen, and the source did not change after it. "Fixed before the first stream run" holds for the
+sweep and not for that run. My decision: no scratch WT in this test, and `layout-trial.md` gets a correction note at its head, since a reader may open only that file.
+
+## 0017, 2026-11-01: S10 returned; candidates ranked; M1B04 goes to the PI
+
+S10 reads the pivot row kernel as partly taken, novelty 4 of 10: `docs/literature/scouts/s10-pivot-row-novelty.md`. Row sharing across a batch is published for triangles (DPTL+)
+and butterflies (BFCB-IG, new to this project), and telescoping for any pattern. Not found: a count-only batch 5-cycle kernel, or a row adjusted in place per spoke. It finds no
+application that needs a global 5-cycle count under batches. It is scout-grade and I did not re-read its sources. It did not read S1 to S4, S6 or S7, so its "new" tags are unchecked.
+
+S10 corrects three notes, which stand as written and are read with this entry. The gap in the M1C02 addendum narrows to a formula-based kernel with no enumeration, for batches, since IncGraph and
+dynG are exact and enumerate. The mixed kernel that the M1C03 README calls the next baseline is HHH's idea for 4-cycles, so it is credited to them. BFCB-IG is closer than DPTL+ as a sharing precedent.
+
+Ranking: `docs/novelty/candidates-2026-11-01.md`. First is a study of when batch sharing pays across pattern size, then D-k, then receipts and the ERGM index, both parked. My recommendation changes
+the candidate from a mechanism to a study, because the mechanism has novelty 4 and no user, while the question survives either way. No candidate is a large contribution, and the records say so.
+
+Nothing past this point starts without the PI: M1B04 is a decision, and Gate 1 needs ControlPC's GO and the PI's word for `--exclusive`.

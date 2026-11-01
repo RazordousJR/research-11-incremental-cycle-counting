@@ -50,6 +50,6 @@ the §1 decision table with a recommendation.
 
 ## Machine sharing
 
-Not yet registered in `C:/Develop/tower`. That registry is shared with other projects, so registering waits
-for the PI (`STATUS.md`). Until then, nothing heavy runs here. Heavy means worker processes, more than ten
-minutes, anything under Task Scheduler, or any chain, sweep or overnight queue.
+Registered in `C:/Develop/tower` as `research11` (`log.md` 0007). Heavy work runs only under a tower claim, and
+the claim is released between tests. Heavy means worker processes, more than ten minutes, anything under Task
+Scheduler, or any chain, sweep or overnight queue.

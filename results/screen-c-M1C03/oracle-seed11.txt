@@ -1,0 +1,28 @@
+trials 200000, batches 1498390, updates 7420347 (ins 5491743, del 1928604), no-ops 7940024, repeated pairs 1103001
+stars 1755480, spokes 5475527, pair checks 7374481, table checks 1498390, closed-walk checks 93649, RC bound checks 1498390, largest count 12582, most saturated pairs 78
+RC after stopped recounts: done
+table cap: stopped at 5732 entries, 98304 bytes
+WT cap: stopped at 5992 pairs, 185628 bytes
+large stream: 600 batches, final count 2489526, edges 738
+large stream, WT: 1128 pairs, 1128 saturated in the forced form
+WT stress: 40 runs, 3851 joins checked against the definition
+control, naive per-edge sum: wrong on 774905 of 1498390 batches
+mutant  1: wrong on 3741 of 4000 trials
+mutant  2: wrong on 3825 of 4000 trials
+mutant  3: wrong on 3823 of 4000 trials
+mutant  4: wrong on 3680 of 4000 trials
+mutant  5: wrong on 3781 of 4000 trials
+mutant  6: wrong on 3506 of 4000 trials
+mutant  7: wrong on 2852 of 4000 trials
+mutant  8: wrong on 3298 of 4000 trials
+mutant  9: wrong on 3369 of 4000 trials
+mutant 10: wrong on 3587 of 4000 trials
+mutant 11: wrong on 3570 of 4000 trials
+mutant 12: wrong on 3823 of 4000 trials
+mutant 13: wrong on 3770 of 4000 trials, stress runs failed 12 of 12
+mutant 14: wrong on 61 of 4000 trials, stress runs failed 12 of 12
+mutant 15: wrong on 3645 of 4000 trials, stress runs failed 12 of 12
+mutant 16: wrong on 259 of 4000 trials, stress runs failed 12 of 12
+mutant 17: wrong on 2205 of 4000 trials, stress runs failed 12 of 12
+mutant 18: wrong on 3593 of 4000 trials, stress runs failed 12 of 12
+PASS

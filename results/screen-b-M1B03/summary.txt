@@ -1,0 +1,81 @@
+graph                         tgt    acc     H    split     scan    eager  sc/sp  sp/eg    mem
+rmat-s16-f16                 0.15  0.152  1024   170.97  1699.66   128.83   9.94   1.33  0.166
+rmat-s16-f16                 0.15  0.152    64   120.87  1697.65   128.83  14.05   0.94  0.544
+rmat-s16-f16                 0.15  0.152   256   120.40  1697.65   128.83  14.10   0.93  0.325
+rmat-s16-f16                 0.05  0.044  1024   138.05  1820.01    78.50  13.18   1.76  0.094
+rmat-s16-f16                 0.05  0.044    64    74.29  1815.97    78.50  24.44   0.95  0.521
+rmat-s16-f16                 0.05  0.044   256    78.89  1815.97    78.50  23.02   1.01  0.276
+rmat-s16-f16                 0.01  0.009  1024   109.59   420.11    28.76   3.83   3.81  0.009
+rmat-s16-f16                 0.01  0.009  4096   391.67   376.89    28.76   0.96  13.62  0.031
+rmat-s16-f16                 0.01  0.009    64    24.22   373.65    28.76  15.43   0.84  0.106
+rmat-s16-f16                 0.01  0.009   256    39.47   420.11    28.76  10.64   1.37  0.011
+sx-superuser-ins-end         0.15  0.142    64    10.18    43.21     9.20   4.24   1.11  0.169
+sx-superuser-ins-end         0.15  0.142   256    15.55    43.21     9.20   2.78   1.69  0.074
+sx-superuser-ins-end         0.15  0.142  1024    39.07    43.21     9.20   1.11   4.25  0.037
+sx-superuser-ins-end         0.15  0.142  4096   135.83    43.21     9.20   0.32  14.77  0.044
+sx-superuser-ins-end         0.05  0.047    64     6.92    42.22     5.69   6.10   1.22  0.166
+sx-superuser-ins-end         0.05  0.047   256    12.51    42.22     5.69   3.37   2.20  0.071
+sx-superuser-ins-end         0.05  0.047  1024    36.42    42.22     5.69   1.16   6.40  0.035
+sx-superuser-ins-end         0.05  0.047  4096   133.83    42.22     5.69   0.32  23.52  0.042
+sx-superuser-ins-end         0.01  0.011    64     6.64    47.01     5.60   7.08   1.19  0.150
+sx-superuser-ins-end         0.01  0.011   256    12.27    47.01     5.60   3.83   2.19  0.059
+sx-superuser-ins-end         0.01  0.011  1024    36.90    47.01     5.60   1.27   6.59  0.028
+sx-superuser-ins-end         0.01  0.011  4096   137.54    47.01     5.60   0.34  24.55  0.039
+sx-superuser-peak            0.15  0.162    64     5.89    10.17     4.39   1.73   1.34  0.269
+sx-superuser-peak            0.15  0.162   256    11.78    10.17     4.39   0.86   2.69  0.363
+sx-superuser-peak            0.15  0.162  1024    36.81     9.61     4.39   0.26   8.39  1.062
+sx-superuser-peak            0.15  0.162  4096   137.81     9.42     4.39   0.07  31.42  4.095
+sx-superuser-peak            0.05  0.055    64     4.91     9.21     3.14   1.88   1.57  0.278
+sx-superuser-peak            0.05  0.055   256    11.06     9.21     3.14   0.83   3.53  0.352
+sx-superuser-peak            0.05  0.055  1024    36.43     8.02     3.14   0.22  11.62  1.089
+sx-superuser-peak            0.05  0.055  4096   138.29     7.64     3.14   0.06  44.10  4.299
+sx-superuser-peak            0.01  0.010    64     4.75     8.31     2.74   1.75   1.73  0.265
+sx-superuser-peak            0.01  0.010   256    11.29     8.31     2.74   0.74   4.12  0.362
+sx-superuser-peak            0.01  0.010  1024    37.87     6.74     2.74   0.18  13.82  1.158
+sx-superuser-peak            0.01  0.010  4096   144.32     6.21     2.74   0.04  52.65  4.595
+wiki-talk-temporal-ins-end   0.15  0.142  1024    37.24    64.53     6.59   1.73   5.65  0.012
+wiki-talk-temporal-ins-end   0.15  0.142  4096   133.71    64.53     6.59   0.48  20.28  0.011
+wiki-talk-temporal-ins-end   0.15  0.142    64     7.78    64.53     6.59   8.29   1.18  0.050
+wiki-talk-temporal-ins-end   0.15  0.142   256    13.52    64.53     6.59   4.77   2.05  0.028
+wiki-talk-temporal-ins-end   0.05  0.049  1024    35.56    62.62     4.49   1.76   7.92  0.012
+wiki-talk-temporal-ins-end   0.05  0.049  4096   132.44    62.62     4.49   0.47  29.51  0.011
+wiki-talk-temporal-ins-end   0.05  0.049    64     5.75    62.34     4.49  10.84   1.28  0.051
+wiki-talk-temporal-ins-end   0.05  0.049   256    11.60    62.34     4.49   5.37   2.59  0.028
+wiki-talk-temporal-ins-end   0.01  0.010  1024    34.95    59.35     3.58   1.70   9.77  0.012
+wiki-talk-temporal-ins-end   0.01  0.010  4096   131.98    59.35     3.58   0.45  36.90  0.011
+wiki-talk-temporal-ins-end   0.01  0.010    64     4.99    58.61     3.58  11.74   1.40  0.051
+wiki-talk-temporal-ins-end   0.01  0.010   256    10.89    58.61     3.58   5.38   3.04  0.028
+wiki-talk-temporal-peak      0.15  0.140    64     5.53     6.37     3.64   1.15   1.52  0.011
+wiki-talk-temporal-peak      0.15  0.140   256    11.67     6.37     3.64   0.55   3.21  0.018
+wiki-talk-temporal-peak      0.15  0.140  1024    36.38     6.05     3.64   0.17  10.00  0.053
+wiki-talk-temporal-peak      0.15  0.140  4096   135.37     5.97     3.64   0.04  37.23  0.197
+wiki-talk-temporal-peak      0.05  0.046    64     4.94     5.67     2.93   1.15   1.68  0.009
+wiki-talk-temporal-peak      0.05  0.046   256    11.54     5.67     2.93   0.49   3.94  0.017
+wiki-talk-temporal-peak      0.05  0.046  1024    38.02     4.99     2.93   0.13  12.96  0.054
+wiki-talk-temporal-peak      0.05  0.046  4096   144.03     4.78     2.93   0.03  49.10  0.207
+wiki-talk-temporal-peak      0.01  0.010    64     4.45     5.46     2.38   1.23   1.87  0.012
+wiki-talk-temporal-peak      0.01  0.010   256    10.73     4.33     2.38   0.40   4.50  0.019
+wiki-talk-temporal-peak      0.01  0.010  1024    35.89     4.33     2.38   0.12  15.07  0.055
+wiki-talk-temporal-peak      0.01  0.010  4096   136.60     3.96     2.38   0.03  57.35  0.207
+
+rule lines, per graph, per |H|
+rmat-s16-f16                 H= 1024 scan/split@5%=13.184 stop1=False  split/eager@1%=3.810 stop2=True  mem<=0.5=True real=False
+rmat-s16-f16                 H=  256 scan/split@5%=23.019 stop1=False  split/eager@1%=1.372 stop2=False  mem<=0.5=True real=False
+rmat-s16-f16 4096 missing a target
+rmat-s16-f16                 H=   64 scan/split@5%=24.444 stop1=False  split/eager@1%=0.842 stop2=False  mem<=0.5=True real=False
+sx-superuser-ins-end         H= 1024 scan/split@5%=1.159 stop1=True  split/eager@1%=6.587 stop2=True  mem<=0.5=True real=True
+sx-superuser-ins-end         H=  256 scan/split@5%=3.375 stop1=False  split/eager@1%=2.190 stop2=True  mem<=0.5=True real=True
+sx-superuser-ins-end         H= 4096 scan/split@5%=0.315 stop1=True  split/eager@1%=24.550 stop2=True  mem<=0.5=True real=True
+sx-superuser-ins-end         H=   64 scan/split@5%=6.100 stop1=False  split/eager@1%=1.185 stop2=False  mem<=0.5=True real=True
+sx-superuser-peak            H= 1024 scan/split@5%=0.220 stop1=True  split/eager@1%=13.815 stop2=True  mem<=0.5=False real=True
+sx-superuser-peak            H=  256 scan/split@5%=0.833 stop1=True  split/eager@1%=4.120 stop2=True  mem<=0.5=True real=True
+sx-superuser-peak            H= 4096 scan/split@5%=0.055 stop1=True  split/eager@1%=52.654 stop2=True  mem<=0.5=False real=True
+sx-superuser-peak            H=   64 scan/split@5%=1.875 stop1=False  split/eager@1%=1.734 stop2=False  mem<=0.5=True real=True
+wiki-talk-temporal-ins-end   H= 1024 scan/split@5%=1.761 stop1=False  split/eager@1%=9.773 stop2=True  mem<=0.5=True real=True
+wiki-talk-temporal-ins-end   H=  256 scan/split@5%=5.372 stop1=False  split/eager@1%=3.044 stop2=True  mem<=0.5=True real=True
+wiki-talk-temporal-ins-end   H= 4096 scan/split@5%=0.473 stop1=True  split/eager@1%=36.900 stop2=True  mem<=0.5=True real=True
+wiki-talk-temporal-ins-end   H=   64 scan/split@5%=10.836 stop1=False  split/eager@1%=1.396 stop2=False  mem<=0.5=True real=True
+wiki-talk-temporal-peak      H= 1024 scan/split@5%=0.131 stop1=True  split/eager@1%=15.070 stop2=True  mem<=0.5=True real=True
+wiki-talk-temporal-peak      H=  256 scan/split@5%=0.491 stop1=True  split/eager@1%=4.505 stop2=True  mem<=0.5=True real=True
+wiki-talk-temporal-peak      H= 4096 scan/split@5%=0.033 stop1=True  split/eager@1%=57.351 stop2=True  mem<=0.5=True real=True
+wiki-talk-temporal-peak      H=   64 scan/split@5%=1.148 stop1=True  split/eager@1%=1.868 stop2=False  mem<=0.5=True real=True

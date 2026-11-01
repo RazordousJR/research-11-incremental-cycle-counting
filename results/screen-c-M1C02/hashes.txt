@@ -1,0 +1,20 @@
+M1C02 source fixed 2026-11-01T04:36:29Z, before the first stream run
+base commit 3b6f414, this round uncommitted
+g++.exe (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r1) 16.2.0
+flags: -std=c++20 -O2 -Wall -Wextra -static, plus -lpsapi for the peak resident size call
+--- sha256 of source
+f7bff0195d28d6ef5548d8955a4170ed466cb9ef196a649d684c9d38e20e23a3 *benchmarks/fivecycle.cpp
+01e0e7a426f4a8f3c7739cb0434cc4256186c536aa2071dc678b8ac98c53180e *tests/test_fivecycle.cpp
+d3db4c7dec77167c5b322693fbfd32deefbe21055862768b64d1ba4255c2f2cb *src/r11/tc.hpp
+9e2403e61ec96524b25654c091aef8cfc842c698dd83700ab070078615ee711b *scripts/run_fivecycle.sh
+e169fbc2f6f8604acb4d27cf1cc8d256f19ec44c0c2391c2f978b0f65300a1b2 *scripts/summarise_fivecycle.py
+--- sha256 of binaries
+f05063987fa22d18b3d29a1ac5539b629d55e1e47e3d66785d0e9ea1e8d1530f *build/r11_fivecycle.exe
+4f7205f04baac83135e45ea7cbc77f208f6484fa5472f43e2d198650f85a6eb6 *build/r11_test_fivecycle.exe
+--- sha256 of streams
+d8e6adfd3ebf5d2160486c216b0a0d0180b442a4892086e1994e0a320f5e7473 *data/derived/CollegeMsg.bin
+b0d4f9fb868ec40abe3a36d155b5554f0ff4e936a58de47cf464e99639bb9c12 *data/derived/CollegeMsg.ins.bin
+d5f52b50be716fcdefcb647fce63de1a1afcf90196ff48cff73b5c84db45629c *data/derived/email-Eu-core-temporal.bin
+3781ff2d2da8f4614cd3c331875e3f60266103f87a8d0ec50bfe4f3bf98e50e1 *data/derived/email-Eu-core-temporal.ins.bin
+14806f4da0f448076c99dc41708c43334be978ee9ddc479a659037ffc4495193 *data/derived/sx-mathoverflow.bin
+06d914883a3f70241354933b63e5b5600f808588feee760e86d7ca9a12036743 *data/derived/sx-mathoverflow.ins.bin

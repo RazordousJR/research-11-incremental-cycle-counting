@@ -1,0 +1,17 @@
+brute_messages rounds=300 mismatches=0
+honest               runs=5000 accepted=5000 rejected_at_last_check=0
+wrong_claim          runs=5000 accepted=0 rejected_at_last_check=0
+liar_random          runs=5000 accepted=0 rejected_at_last_check=5000
+liar_roots           runs=5000 accepted=0 rejected_at_last_check=5000
+fabricator           runs=5000 accepted=0 rejected_at_last_check=5000
+flipped_edge         runs=5000 accepted=0 rejected_at_last_check=5000
+dropped_update       runs=5000 accepted=0 rejected_at_last_check=5000
+CONTROL_leaky_flip   runs=5000 accepted=5000 rejected_at_last_check=0
+CONTROL_leaky_drop   runs=5000 accepted=5000 rejected_at_last_check=0
+same_count_flips=1637 count_mismatch_vs_brute=0 theorem1_violations=0
+small_field p=8191 L=5 trials=500000 honest_accepted=500000
+  bound_6L_over_p=0.003663  predicted_roots_liar=0.003656
+  liar_roots   accepted=1832 rate=0.003664
+  liar_random  accepted=892 rate=0.001784
+  flipped_edge accepted=61 rate=0.000122 (same-count flips 359577, accepted 42)
+selftest_failures=0

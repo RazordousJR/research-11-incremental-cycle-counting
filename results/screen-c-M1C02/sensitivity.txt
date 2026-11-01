@@ -1,0 +1,106 @@
+1. table size, WJ arm, per cell
+cell                                              entries        at 12 B      allocated        at 16 B    rehash peak  peak resident         wedges
+CollegeMsg expiry 100                              86,598      1,039,176      1,572,864      2,097,152      2,359,296     10,194,944        137,522
+CollegeMsg expiry 1000                             86,434      1,037,208      1,572,864      2,097,152      2,359,296     10,219,520        136,348
+CollegeMsg insert 100                             367,064      4,404,768     12,582,912     16,777,216     18,874,368     26,165,248        755,882
+CollegeMsg insert 1000                            367,064      4,404,768     12,582,912     16,777,216     18,874,368     26,255,360        755,882
+email-Eu-core-temporal expiry 100                  31,844        382,128        786,432      1,048,576      1,179,648     19,722,240         51,866
+email-Eu-core-temporal expiry 1000                 31,779        381,348        786,432      1,048,576      1,179,648     19,787,776         51,697
+email-Eu-core-temporal insert 100                 223,377      2,680,524      6,291,456      8,388,608      9,437,184     22,069,248      1,183,216
+email-Eu-core-temporal insert 1000                223,377      2,680,524      6,291,456      8,388,608      9,437,184     22,110,208      1,183,216
+sx-mathoverflow expiry 100                         35,654        427,848        786,432      1,048,576      1,179,648     26,628,096         64,290
+sx-mathoverflow expiry 1000                        35,234        422,808        786,432      1,048,576      1,179,648     26,714,112         61,041
+sx-mathoverflow insert 100                     25,674,972    308,099,664    805,306,368  1,073,741,824  1,207,959,552  1,233,891,328     54,999,653
+sx-mathoverflow insert 1000                    25,674,972    308,099,664    805,306,368  1,073,741,824  1,207,959,552  1,233,915,904     54,999,653
+
+2. hash weight: WJ total with table operations at w each. Best other = cheapest of R2, PR, RC
+   break-even w is where WJ stops being cheapest. wins(w) counts cells WJ still wins
+CollegeMsg expiry 100                        table share of WJ 0.523  best other PR       32,209,918  break-even w   2.28
+CollegeMsg expiry 1000                       table share of WJ 0.523  best other PR       24,861,811  break-even w   1.62
+CollegeMsg insert 100                        table share of WJ 0.544  best other PR       43,101,334  break-even w   2.84
+CollegeMsg insert 1000                       table share of WJ 0.544  best other PR       34,594,704  break-even w   2.11
+email-Eu-core-temporal expiry 100            table share of WJ 0.518  best other PR       98,826,681  break-even w   1.78
+email-Eu-core-temporal expiry 1000           table share of WJ 0.517  best other PR       68,289,445  break-even w   1.44
+email-Eu-core-temporal insert 100            table share of WJ 0.505  best other PR      120,197,562  break-even w   3.18
+email-Eu-core-temporal insert 1000           table share of WJ 0.505  best other PR      108,229,110  break-even w   2.76
+sx-mathoverflow expiry 100                   table share of WJ 0.530  best other PR      174,745,786  break-even w   1.93
+sx-mathoverflow expiry 1000                  table share of WJ 0.531  best other PR      105,637,222  break-even w   1.08
+sx-mathoverflow insert 100                   table share of WJ 0.516  best other PR   14,132,006,471  break-even w   6.05
+sx-mathoverflow insert 1000                  table share of WJ 0.516  best other PR   10,557,516,968  break-even w   4.28
+   w=1: 12  w=1.25: 11  w=1.5: 10  w=2: 7  w=3: 3  w=4: 2  w=8: 0  w=16: 0  w=33: 0
+   RC totals with censored batches are lower bounds, so break-even values against RC can only be higher
+
+3. per-batch cheapest kernel, share of batches with any net update, and of operations under HS
+CollegeMsg expiry 100                        batches   1197  R2 0.003  WJ 0.881  PR 0.115  RC 0.001
+CollegeMsg expiry 1000                       batches    120  R2 0.000  WJ 0.717  PR 0.275  RC 0.008
+CollegeMsg insert 100                        batches    599  R2 0.000  WJ 0.945  PR 0.055  RC 0.000
+CollegeMsg insert 1000                       batches     60  R2 0.000  WJ 0.867  PR 0.133  RC 0.000
+email-Eu-core-temporal expiry 100            batches   6646  R2 0.000  WJ 0.916  PR 0.084  RC 0.000
+email-Eu-core-temporal expiry 1000           batches    665  R2 0.000  WJ 0.938  PR 0.059  RC 0.003
+email-Eu-core-temporal insert 100            batches   3057  R2 0.001  WJ 0.979  PR 0.020  RC 0.000
+email-Eu-core-temporal insert 1000           batches    333  R2 0.000  WJ 0.970  PR 0.030  RC 0.000
+sx-mathoverflow expiry 100                   batches   7809  R2 0.000  WJ 0.974  PR 0.026  RC 0.000
+sx-mathoverflow expiry 1000                  batches    781  R2 0.000  WJ 0.640  PR 0.265  RC 0.095
+sx-mathoverflow insert 100                   batches   3905  R2 0.000  WJ 0.997  PR 0.003  RC 0.000
+sx-mathoverflow insert 1000                  batches    391  R2 0.000  WJ 0.987  PR 0.005  RC 0.008
+
+4. wall clock per million operations, indicative only, shared machine
+sx-mathoverflow insert 100: R2 5.3 s, 0.0003 s/Mop; R2B 17.9 s, 0.0007 s/Mop; PR 4.6 s, 0.0003 s/Mop; WJ 42.1 s, 0.0107 s/Mop; PW 41.8 s, 0.0108 s/Mop; RC 25.0 s, 0.0004 s/Mop
+sx-mathoverflow insert 1000: R2 5.5 s, 0.0003 s/Mop; R2B 18.1 s, 0.0007 s/Mop; PR 3.3 s, 0.0003 s/Mop; WJ 42.7 s, 0.0109 s/Mop; PW 39.9 s, 0.0111 s/Mop; RC 26.6 s, 0.0004 s/Mop
+
+4b. hindsight at table weight w, approximate: HS(w) / best(w), and the kernel that is best at w
+CollegeMsg expiry 100                        w=1 WJ 0.934  w=2 WJ 0.861  w=3 PR 0.927  w=4 PR 0.980  w=8 PR 1.000
+CollegeMsg expiry 1000                       w=1 WJ 0.969  w=2 PR 0.959  w=3 PR 1.000  w=4 PR 1.000  w=8 PR 1.000
+CollegeMsg insert 100                        w=1 WJ 0.910  w=2 WJ 0.848  w=3 PR 0.808  w=4 PR 0.904  w=8 PR 0.997
+CollegeMsg insert 1000                       w=1 WJ 0.966  w=2 WJ 0.878  w=3 PR 0.969  w=4 PR 0.998  w=8 PR 1.000
+email-Eu-core-temporal expiry 100            w=1 WJ 0.975  w=2 PR 0.928  w=3 PR 0.993  w=4 PR 1.000  w=8 PR 1.000
+email-Eu-core-temporal expiry 1000           w=1 WJ 0.993  w=2 PR 0.997  w=3 PR 1.000  w=4 PR 1.000  w=8 PR 1.000
+email-Eu-core-temporal insert 100            w=1 WJ 0.969  w=2 WJ 0.921  w=3 WJ 0.843  w=4 PR 0.894  w=8 PR 0.984
+email-Eu-core-temporal insert 1000           w=1 WJ 0.995  w=2 WJ 0.960  w=3 PR 0.925  w=4 PR 0.987  w=8 PR 1.000
+sx-mathoverflow expiry 100                   w=1 WJ 0.995  w=2 PR 0.927  w=3 PR 0.994  w=4 PR 1.000  w=8 PR 1.000
+sx-mathoverflow expiry 1000                  w=1 WJ 0.937  w=2 PR 0.959  w=3 PR 0.959  w=4 PR 0.959  w=8 PR 0.959
+sx-mathoverflow insert 100                   w=1 WJ 0.980  w=2 WJ 0.974  w=3 WJ 0.963  w=4 WJ 0.937  w=8 PR 0.921
+sx-mathoverflow insert 1000                  w=1 WJ 0.996  w=2 WJ 0.984  w=3 WJ 0.974  w=4 WJ 0.939  w=8 PR 1.000
+   w=1: best-kernel wins {'WJ': 12}, cells with HS(w) / best(w) at most 0.67: 0
+   w=2: best-kernel wins {'WJ': 7, 'PR': 5}, cells with HS(w) / best(w) at most 0.67: 0
+   w=3: best-kernel wins {'PR': 9, 'WJ': 3}, cells with HS(w) / best(w) at most 0.67: 0
+   w=4: best-kernel wins {'PR': 10, 'WJ': 2}, cells with HS(w) / best(w) at most 0.67: 0
+   w=8: best-kernel wins {'PR': 12}, cells with HS(w) / best(w) at most 0.67: 0
+
+4c. indicative clock, seconds, R2, PR, WJ, and the fastest of them. RC is left out, because its budget stops recounts early
+CollegeMsg expiry 100                        R2   0.034 PR   0.036 WJ   0.107  fastest R2
+CollegeMsg expiry 1000                       R2   0.031 PR   0.027 WJ   0.102  fastest PR
+CollegeMsg insert 100                        R2   0.031 PR   0.029 WJ   0.121  fastest PR
+CollegeMsg insert 1000                       R2   0.031 PR   0.021 WJ   0.119  fastest PR
+email-Eu-core-temporal expiry 100            R2   0.157 PR   0.168 WJ   0.355  fastest R2
+email-Eu-core-temporal expiry 1000           R2   0.125 PR   0.119 WJ   0.277  fastest PR
+email-Eu-core-temporal insert 100            R2   0.074 PR   0.070 WJ   0.236  fastest PR
+email-Eu-core-temporal insert 1000           R2   0.069 PR   0.061 WJ   0.238  fastest PR
+sx-mathoverflow expiry 100                   R2   0.264 PR   0.314 WJ   0.465  fastest R2
+sx-mathoverflow expiry 1000                  R2   0.229 PR   0.218 WJ   0.376  fastest PR
+sx-mathoverflow insert 100                   R2   5.315 PR   4.625 WJ  42.088  fastest PR
+sx-mathoverflow insert 1000                  R2   5.466 PR   3.328 WJ  42.706  fastest PR
+   fastest per cell: {'R2': 3, 'PR': 9}
+
+5. coverage of the real-stream checks
+CollegeMsg expiry 100                        batches   1197  RC recount known on     48, of which forced  20, last batch known 1, final t 0
+CollegeMsg expiry 1000                       batches    120  RC recount known on    120, of which forced   0, last batch known 1, final t 0
+CollegeMsg insert 100                        batches    599  RC recount known on     32, of which forced  21, last batch known 1, final t 18543001
+CollegeMsg insert 1000                       batches     60  RC recount known on     48, of which forced   7, last batch known 1, final t 18543001
+email-Eu-core-temporal expiry 100            batches   6647  RC recount known on     46, of which forced  20, last batch known 1, final t 0
+email-Eu-core-temporal expiry 1000           batches    665  RC recount known on    665, of which forced   0, last batch known 1, final t 0
+email-Eu-core-temporal insert 100            batches   3324  RC recount known on     27, of which forced  21, last batch known 1, final t 245585096
+email-Eu-core-temporal insert 1000           batches    333  RC recount known on     36, of which forced  21, last batch known 1, final t 245585096
+sx-mathoverflow expiry 100                   batches   7809  RC recount known on    659, of which forced  19, last batch known 1, final t 0
+sx-mathoverflow expiry 1000                  batches    781  RC recount known on    781, of which forced   0, last batch known 1, final t 0
+sx-mathoverflow insert 100                   batches   3905  RC recount known on     69, of which forced  21, last batch known 1, final t 27396207208
+sx-mathoverflow insert 1000                  batches    391  RC recount known on     97, of which forced  17, last batch known 1, final t 27396207208
+batches with a static recount in agreement: 2628
+
+6. against the Gate 0 record, same streams at the same cuts. Gate 0 is the expiry variant
+CollegeMsg cut 100: Gate 0 net 31870 peak_m 4571 batches 1197; here net 31870 peak_m 4571 batches 1197
+CollegeMsg cut 1000: Gate 0 net 31024 peak_m 4561 batches 120; here net 31024 peak_m 4561 batches 120
+email-Eu-core-temporal cut 100: Gate 0 net 222950 peak_m 2947 batches 6647; here net 222950 peak_m 2947 batches 6647
+email-Eu-core-temporal cut 1000: Gate 0 net 187712 peak_m 2941 batches 665; here net 187712 peak_m 2941 batches 665
+sx-mathoverflow cut 100: Gate 0 net 488660 peak_m 2620 batches 7809; here net 488660 peak_m 2620 batches 7809
+sx-mathoverflow cut 1000: Gate 0 net 485368 peak_m 2613 batches 781; here net 485368 peak_m 2613 batches 781

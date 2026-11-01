@@ -1,0 +1,75 @@
+exactness: failures 0 comparisons 131783
+
+per cell: operations, best, second / best, HS / best, HS-T / best
+CollegeMsg               expiry   100 R2       42,546,062 WJ       19,305,796 PR       32,209,918 RC        187,337,156+ best WJ  margin   1.668 HS 0.934 HS-T 0.970
+CollegeMsg               expiry  1000 R2       41,152,131 WJ       18,753,032 PR       24,861,811 RC         66,884,535  best WJ  margin   1.326 HS 0.969 HS-T 0.989
+CollegeMsg               insert   100 R2       56,920,853 WJ       21,562,177 PR       43,101,334 RC        253,723,183+ best WJ  margin   1.999 HS 0.910 HS-T 0.949
+CollegeMsg               insert  1000 R2       56,867,773 WJ       21,600,519 PR       34,594,704 RC        186,201,099+ best WJ  margin   1.602 HS 0.966 HS-T 0.976
+email-Eu-core-temporal   expiry   100 R2      132,956,253 WJ       70,329,075 PR       98,826,681 RC        606,754,604+ best WJ  margin   1.405 HS 0.975 HS-T 0.994
+email-Eu-core-temporal   expiry  1000 R2      105,096,884 WJ       55,603,699 PR       68,289,445 RC        144,385,647  best WJ  margin   1.228 HS 0.993 HS-T 0.999
+email-Eu-core-temporal   insert   100 R2      140,762,283 WJ       57,230,586 PR      120,197,562 RC        956,733,880+ best WJ  margin   2.100 HS 0.969 HS-T 0.984
+email-Eu-core-temporal   insert  1000 R2      140,735,647 WJ       57,259,533 PR      108,229,110 RC        561,472,535+ best WJ  margin   1.890 HS 0.995 HS-T 0.999
+sx-mathoverflow          expiry   100 R2      215,211,824 WJ      117,047,588 PR      174,745,786 RC        884,204,920+ best WJ  margin   1.493 HS 0.995 HS-T 0.999
+sx-mathoverflow          expiry  1000 R2      186,440,955 WJ      101,468,233 PR      105,637,222 RC        137,786,209  best WJ  margin   1.041 HS 0.937 HS-T 0.952
+sx-mathoverflow          insert   100 R2   16,223,520,812 WJ    3,916,258,142 PR   14,132,006,471 RC     65,266,203,673+ best WJ  margin   3.609 HS 0.980 HS-T 1.000
+sx-mathoverflow          insert  1000 R2   16,215,015,360 WJ    3,923,024,123 PR   10,557,516,968 RC     63,576,189,821+ best WJ  margin   2.691 HS 0.996 HS-T 1.000
+
+per update, operations per net update
+CollegeMsg               expiry   100 net    31870 R2      1,335.0 R2B      2,343.6 WJ        605.8 PR      1,010.7 PW        647.9 RC      5,878.2
+CollegeMsg               expiry  1000 net    31024 R2      1,326.5 R2B      2,329.9 WJ        604.5 PR        801.4 PW        646.2 RC      2,155.9
+CollegeMsg               insert   100 net    13838 R2      4,113.4 R2B      6,853.6 WJ      1,558.2 PR      3,114.7 PW      1,524.6 RC     18,335.2
+CollegeMsg               insert  1000 net    13838 R2      4,109.5 R2B      6,846.0 WJ      1,561.0 PR      2,500.0 PW      1,428.2 RC     13,455.8
+email-Eu-core-temporal   expiry   100 net   222950 R2        596.4 R2B      1,049.1 WJ        315.4 PR        443.3 PW        346.5 RC      2,721.5
+email-Eu-core-temporal   expiry  1000 net   187712 R2        559.9 R2B        986.4 WJ        296.2 PR        363.8 PW        336.1 RC        769.2
+email-Eu-core-temporal   insert   100 net    16064 R2      8,762.6 R2B     12,954.3 WJ      3,562.7 PR      7,482.4 PW      3,315.2 RC     59,557.6
+email-Eu-core-temporal   insert  1000 net    16064 R2      8,760.9 R2B     12,952.0 WJ      3,564.5 PR      6,737.4 PW      3,218.1 RC     34,952.2
+sx-mathoverflow          expiry   100 net   488660 R2        440.4 R2B        779.8 WJ        239.5 PR        357.6 PW        289.7 RC      1,809.4
+sx-mathoverflow          expiry  1000 net   485368 R2        384.1 R2B        681.2 WJ        209.1 PR        217.6 PW        253.0 RC        283.9
+sx-mathoverflow          insert   100 net   187986 R2     86,301.8 R2B    134,621.7 WJ     20,832.7 PR     75,175.8 PW     20,515.3 RC    347,186.5
+sx-mathoverflow          insert  1000 net   187986 R2     86,256.5 R2B    134,544.8 WJ     20,868.7 PR     56,161.2 PW     19,180.6 RC    338,196.4
+
+sharing: PR / R2, PW / WJ, spokes in stars of 2 or more / net
+CollegeMsg               expiry   100 PR/R2 0.757 PW/WJ 1.070 spokes/net 0.579
+CollegeMsg               expiry  1000 PR/R2 0.604 PW/WJ 1.069 spokes/net 0.790
+CollegeMsg               insert   100 PR/R2 0.757 PW/WJ 0.978 spokes/net 0.632
+CollegeMsg               insert  1000 PR/R2 0.608 PW/WJ 0.915 spokes/net 0.837
+email-Eu-core-temporal   expiry   100 PR/R2 0.743 PW/WJ 1.098 spokes/net 0.598
+email-Eu-core-temporal   expiry  1000 PR/R2 0.650 PW/WJ 1.135 spokes/net 0.757
+email-Eu-core-temporal   insert   100 PR/R2 0.854 PW/WJ 0.931 spokes/net 0.425
+email-Eu-core-temporal   insert  1000 PR/R2 0.769 PW/WJ 0.903 spokes/net 0.615
+sx-mathoverflow          expiry   100 PR/R2 0.812 PW/WJ 1.210 spokes/net 0.586
+sx-mathoverflow          expiry  1000 PR/R2 0.567 PW/WJ 1.210 spokes/net 0.805
+sx-mathoverflow          insert   100 PR/R2 0.871 PW/WJ 0.985 spokes/net 0.621
+sx-mathoverflow          insert  1000 PR/R2 0.651 PW/WJ 0.919 spokes/net 0.815
+
+wall clock, seconds, indicative only, and peak resident bytes
+CollegeMsg               expiry   100 R2     0.0 R2B     0.1 WJ     0.1 PR     0.0 PW     0.1 RC     0.1
+CollegeMsg               expiry  1000 R2     0.0 R2B     0.1 WJ     0.1 PR     0.0 PW     0.1 RC     0.1
+CollegeMsg               insert   100 R2     0.0 R2B     0.1 WJ     0.1 PR     0.0 PW     0.1 RC     0.1
+CollegeMsg               insert  1000 R2     0.0 R2B     0.1 WJ     0.1 PR     0.0 PW     0.1 RC     0.1
+email-Eu-core-temporal   expiry   100 R2     0.2 R2B     0.3 WJ     0.4 PR     0.2 PW     0.4 RC     0.3
+email-Eu-core-temporal   expiry  1000 R2     0.1 R2B     0.2 WJ     0.3 PR     0.1 PW     0.3 RC     0.1
+email-Eu-core-temporal   insert   100 R2     0.1 R2B     0.1 WJ     0.2 PR     0.1 PW     0.2 RC     0.4
+email-Eu-core-temporal   insert  1000 R2     0.1 R2B     0.1 WJ     0.2 PR     0.1 PW     0.2 RC     0.3
+sx-mathoverflow          expiry   100 R2     0.3 R2B     0.4 WJ     0.5 PR     0.3 PW     0.6 RC     0.5
+sx-mathoverflow          expiry  1000 R2     0.2 R2B     0.4 WJ     0.4 PR     0.2 PW     0.5 RC     0.1
+sx-mathoverflow          insert   100 R2     5.3 R2B    17.9 WJ    42.1 PR     4.6 PW    41.8 RC    25.0
+sx-mathoverflow          insert  1000 R2     5.5 R2B    18.1 WJ    42.7 PR     3.3 PW    39.9 RC    26.6
+
+RULE, as written
+cells scored 12 of 12, not scored 0: []
+wins {'WJ': 12}, most by one kernel 12, peak table bytes {'CollegeMsg': 12582912, 'email-Eu-core-temporal': 6291456, 'sx-mathoverflow': 805306368}
+hs_ratio at most 0.67 on 0 cells
+VERDICT Stop: WJ wins all 12 and its peak table is under 1 GB on every stream
+
+SENSITIVITY: HS-T in the place of HS
+cells scored 12 of 12, not scored 0: []
+wins {'WJ': 12}, most by one kernel 12, peak table bytes {'CollegeMsg': 12582912, 'email-Eu-core-temporal': 6291456, 'sx-mathoverflow': 805306368}
+hst_ratio at most 0.67 on 0 cells
+VERDICT Stop: WJ wins all 12 and its peak table is under 1 GB on every stream
+
+SENSITIVITY: R2B in the place of R2
+cells scored 12 of 12, not scored 0: []
+wins {'WJ': 12}, most by one kernel 12, peak table bytes {'CollegeMsg': 12582912, 'email-Eu-core-temporal': 6291456, 'sx-mathoverflow': 805306368}
+hs_ratio at most 0.67 on 0 cells
+VERDICT Stop: WJ wins all 12 and its peak table is under 1 GB on every stream

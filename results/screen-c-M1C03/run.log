@@ -1,0 +1,637 @@
+CollegeMsg-expiry-1000 R2 status=OK done=120/120 net=31024 ops=0 t=0 censored=0 table=3072 secs=0.024
+CollegeMsg-expiry-1000 PR status=OK done=120/120 net=31024 ops=0 t=0 censored=0 table=3072 secs=0.017
+CollegeMsg-expiry-1000 WJ status=OK done=120/120 net=31024 ops=0 t=0 censored=0 table=1572864 secs=0.093
+CollegeMsg-expiry-1000 WT status=OK done=120/120 net=31024 ops=0 t=0 censored=0 table=1880088 secs=0.033
+CollegeMsg-expiry-1000 PW status=OK done=120/120 net=31024 ops=0 t=0 censored=0 table=1572864 secs=0.091
+CollegeMsg-expiry-1000 R2 status=OK done=120/120 net=31024 ops=41152131 t=0 censored=0 table=3072 secs=0.028
+CollegeMsg-expiry-1000 PR status=OK done=120/120 net=31024 ops=24861811 t=0 censored=0 table=3072 secs=0.019
+CollegeMsg-expiry-1000 WJ status=OK done=120/120 net=31024 ops=18753032 t=0 censored=0 table=1572864 secs=0.094
+CollegeMsg-expiry-1000 WT status=OK done=120/120 net=31024 ops=28599040 t=0 censored=0 table=1880088 secs=0.033
+CollegeMsg-expiry-1000 PW status=OK done=120/120 net=31024 ops=20048192 t=0 censored=0 table=1572864 secs=0.093
+check CollegeMsg expiry 1000: files 10, comparisons 1200, batches 120, arms matched to M1C02 4, problems 0
+CollegeMsg-expiry-1000 PR status=OK done=120/120 net=31024 ops=0 t=0 censored=0 table=3072 secs=0.017
+CollegeMsg-expiry-1000 WJ status=OK done=120/120 net=31024 ops=0 t=0 censored=0 table=1572864 secs=0.093
+CollegeMsg-expiry-1000 WT status=OK done=120/120 net=31024 ops=0 t=0 censored=0 table=1880088 secs=0.032
+CollegeMsg-expiry-1000 PW status=OK done=120/120 net=31024 ops=0 t=0 censored=0 table=1572864 secs=0.091
+CollegeMsg-expiry-1000 R2 status=OK done=120/120 net=31024 ops=0 t=0 censored=0 table=3072 secs=0.024
+CollegeMsg-expiry-1000 WJ status=OK done=120/120 net=31024 ops=0 t=0 censored=0 table=1572864 secs=0.093
+CollegeMsg-expiry-1000 WT status=OK done=120/120 net=31024 ops=0 t=0 censored=0 table=1880088 secs=0.033
+CollegeMsg-expiry-1000 PW status=OK done=120/120 net=31024 ops=0 t=0 censored=0 table=1572864 secs=0.091
+CollegeMsg-expiry-1000 R2 status=OK done=120/120 net=31024 ops=0 t=0 censored=0 table=3072 secs=0.024
+CollegeMsg-expiry-1000 PR status=OK done=120/120 net=31024 ops=0 t=0 censored=0 table=3072 secs=0.017
+check CollegeMsg expiry 1000: files 20, comparisons 2400, batches 120, arms matched to M1C02 4, problems 0
+CELL-DONE CollegeMsg expiry 1000 06:02:03
+CollegeMsg-expiry-100 R2 status=OK done=1197/1197 net=31870 ops=0 t=0 censored=0 table=3072 secs=0.025
+CollegeMsg-expiry-100 PR status=OK done=1197/1197 net=31870 ops=0 t=0 censored=0 table=3072 secs=0.021
+CollegeMsg-expiry-100 WJ status=OK done=1197/1197 net=31870 ops=0 t=0 censored=0 table=1572864 secs=0.095
+CollegeMsg-expiry-100 WT status=OK done=1197/1197 net=31870 ops=0 t=0 censored=0 table=1899748 secs=0.034
+CollegeMsg-expiry-100 PW status=OK done=1197/1197 net=31870 ops=0 t=0 censored=0 table=1572864 secs=0.095
+CollegeMsg-expiry-100 R2 status=OK done=1197/1197 net=31870 ops=42546062 t=0 censored=0 table=3072 secs=0.028
+CollegeMsg-expiry-100 PR status=OK done=1197/1197 net=31870 ops=32209918 t=0 censored=0 table=3072 secs=0.023
+CollegeMsg-expiry-100 WJ status=OK done=1197/1197 net=31870 ops=19305796 t=0 censored=0 table=1572864 secs=0.097
+CollegeMsg-expiry-100 WT status=OK done=1197/1197 net=31870 ops=29359917 t=0 censored=0 table=1899748 secs=0.035
+CollegeMsg-expiry-100 PW status=OK done=1197/1197 net=31870 ops=20649428 t=0 censored=0 table=1572864 secs=0.098
+check CollegeMsg expiry 100: files 10, comparisons 11970, batches 1197, arms matched to M1C02 4, problems 0
+CollegeMsg-expiry-100 PR status=OK done=1197/1197 net=31870 ops=0 t=0 censored=0 table=3072 secs=0.021
+CollegeMsg-expiry-100 WJ status=OK done=1197/1197 net=31870 ops=0 t=0 censored=0 table=1572864 secs=0.096
+CollegeMsg-expiry-100 WT status=OK done=1197/1197 net=31870 ops=0 t=0 censored=0 table=1899748 secs=0.034
+CollegeMsg-expiry-100 PW status=OK done=1197/1197 net=31870 ops=0 t=0 censored=0 table=1572864 secs=0.095
+CollegeMsg-expiry-100 R2 status=OK done=1197/1197 net=31870 ops=0 t=0 censored=0 table=3072 secs=0.025
+CollegeMsg-expiry-100 WJ status=OK done=1197/1197 net=31870 ops=0 t=0 censored=0 table=1572864 secs=0.096
+CollegeMsg-expiry-100 WT status=OK done=1197/1197 net=31870 ops=0 t=0 censored=0 table=1899748 secs=0.034
+CollegeMsg-expiry-100 PW status=OK done=1197/1197 net=31870 ops=0 t=0 censored=0 table=1572864 secs=0.096
+CollegeMsg-expiry-100 R2 status=OK done=1197/1197 net=31870 ops=0 t=0 censored=0 table=3072 secs=0.025
+CollegeMsg-expiry-100 PR status=OK done=1197/1197 net=31870 ops=0 t=0 censored=0 table=3072 secs=0.021
+check CollegeMsg expiry 100: files 20, comparisons 23940, batches 1197, arms matched to M1C02 4, problems 0
+CELL-DONE CollegeMsg expiry 100 06:02:06
+CollegeMsg-insert-1000 R2 status=OK done=60/60 net=13838 ops=0 t=18543001 censored=0 table=3072 secs=0.023
+CollegeMsg-insert-1000 PR status=OK done=60/60 net=13838 ops=0 t=18543001 censored=0 table=3072 secs=0.016
+CollegeMsg-insert-1000 WJ status=OK done=60/60 net=13838 ops=0 t=18543001 censored=0 table=12582912 secs=0.111
+CollegeMsg-insert-1000 WT status=OK done=60/60 net=13838 ops=0 t=18543001 censored=0 table=6259428 secs=0.027
+CollegeMsg-insert-1000 PW status=OK done=60/60 net=13838 ops=0 t=18543001 censored=0 table=12582912 secs=0.097
+CollegeMsg-insert-1000 R2 status=OK done=60/60 net=13838 ops=56867773 t=18543001 censored=0 table=3072 secs=0.027
+CollegeMsg-insert-1000 PR status=OK done=60/60 net=13838 ops=34594704 t=18543001 censored=0 table=3072 secs=0.018
+CollegeMsg-insert-1000 WJ status=OK done=60/60 net=13838 ops=21600519 t=18543001 censored=0 table=12582912 secs=0.114
+CollegeMsg-insert-1000 WT status=OK done=60/60 net=13838 ops=28914460 t=18543001 censored=0 table=6259428 secs=0.028
+CollegeMsg-insert-1000 PW status=OK done=60/60 net=13838 ops=19763080 t=18543001 censored=0 table=12582912 secs=0.099
+check CollegeMsg insert 1000: files 10, comparisons 600, batches 60, arms matched to M1C02 4, problems 0
+CollegeMsg-insert-1000 PR status=OK done=60/60 net=13838 ops=0 t=18543001 censored=0 table=3072 secs=0.016
+CollegeMsg-insert-1000 WJ status=OK done=60/60 net=13838 ops=0 t=18543001 censored=0 table=12582912 secs=0.111
+CollegeMsg-insert-1000 WT status=OK done=60/60 net=13838 ops=0 t=18543001 censored=0 table=6259428 secs=0.027
+CollegeMsg-insert-1000 PW status=OK done=60/60 net=13838 ops=0 t=18543001 censored=0 table=12582912 secs=0.097
+CollegeMsg-insert-1000 R2 status=OK done=60/60 net=13838 ops=0 t=18543001 censored=0 table=3072 secs=0.024
+CollegeMsg-insert-1000 WJ status=OK done=60/60 net=13838 ops=0 t=18543001 censored=0 table=12582912 secs=0.111
+CollegeMsg-insert-1000 WT status=OK done=60/60 net=13838 ops=0 t=18543001 censored=0 table=6259428 secs=0.027
+CollegeMsg-insert-1000 PW status=OK done=60/60 net=13838 ops=0 t=18543001 censored=0 table=12582912 secs=0.096
+CollegeMsg-insert-1000 R2 status=OK done=60/60 net=13838 ops=0 t=18543001 censored=0 table=3072 secs=0.024
+CollegeMsg-insert-1000 PR status=OK done=60/60 net=13838 ops=0 t=18543001 censored=0 table=3072 secs=0.016
+check CollegeMsg insert 1000: files 20, comparisons 1200, batches 60, arms matched to M1C02 4, problems 0
+CELL-DONE CollegeMsg insert 1000 06:02:09
+CollegeMsg-insert-100 R2 status=OK done=599/599 net=13838 ops=0 t=18543001 censored=0 table=3072 secs=0.023
+CollegeMsg-insert-100 PR status=OK done=599/599 net=13838 ops=0 t=18543001 censored=0 table=3072 secs=0.019
+CollegeMsg-insert-100 WJ status=OK done=599/599 net=13838 ops=0 t=18543001 censored=0 table=12582912 secs=0.112
+CollegeMsg-insert-100 WT status=OK done=599/599 net=13838 ops=0 t=18543001 censored=0 table=6244580 secs=0.027
+CollegeMsg-insert-100 PW status=OK done=599/599 net=13838 ops=0 t=18543001 censored=0 table=12582912 secs=0.104
+CollegeMsg-insert-100 R2 status=OK done=599/599 net=13838 ops=56920853 t=18543001 censored=0 table=3072 secs=0.028
+CollegeMsg-insert-100 PR status=OK done=599/599 net=13838 ops=43101334 t=18543001 censored=0 table=3072 secs=0.021
+CollegeMsg-insert-100 WJ status=OK done=599/599 net=13838 ops=21562177 t=18543001 censored=0 table=12582912 secs=0.111
+CollegeMsg-insert-100 WT status=OK done=599/599 net=13838 ops=28872517 t=18543001 censored=0 table=6244580 secs=0.028
+CollegeMsg-insert-100 PW status=OK done=599/599 net=13838 ops=21097227 t=18543001 censored=0 table=12582912 secs=0.104
+check CollegeMsg insert 100: files 10, comparisons 5990, batches 599, arms matched to M1C02 4, problems 0
+CollegeMsg-insert-100 PR status=OK done=599/599 net=13838 ops=0 t=18543001 censored=0 table=3072 secs=0.019
+CollegeMsg-insert-100 WJ status=OK done=599/599 net=13838 ops=0 t=18543001 censored=0 table=12582912 secs=0.111
+CollegeMsg-insert-100 WT status=OK done=599/599 net=13838 ops=0 t=18543001 censored=0 table=6244580 secs=0.027
+CollegeMsg-insert-100 PW status=OK done=599/599 net=13838 ops=0 t=18543001 censored=0 table=12582912 secs=0.104
+CollegeMsg-insert-100 R2 status=OK done=599/599 net=13838 ops=0 t=18543001 censored=0 table=3072 secs=0.023
+CollegeMsg-insert-100 WJ status=OK done=599/599 net=13838 ops=0 t=18543001 censored=0 table=12582912 secs=0.110
+CollegeMsg-insert-100 WT status=OK done=599/599 net=13838 ops=0 t=18543001 censored=0 table=6244580 secs=0.027
+CollegeMsg-insert-100 PW status=OK done=599/599 net=13838 ops=0 t=18543001 censored=0 table=12582912 secs=0.103
+CollegeMsg-insert-100 R2 status=OK done=599/599 net=13838 ops=0 t=18543001 censored=0 table=3072 secs=0.023
+CollegeMsg-insert-100 PR status=OK done=599/599 net=13838 ops=0 t=18543001 censored=0 table=3072 secs=0.019
+check CollegeMsg insert 100: files 20, comparisons 11980, batches 599, arms matched to M1C02 4, problems 0
+CELL-DONE CollegeMsg insert 100 06:02:12
+email-Eu-core-temporal-expiry-1000 R2 status=OK done=665/665 net=187712 ops=0 t=0 censored=0 table=3072 secs=0.099
+email-Eu-core-temporal-expiry-1000 PR status=OK done=665/665 net=187712 ops=0 t=0 censored=0 table=3072 secs=0.074
+email-Eu-core-temporal-expiry-1000 WJ status=OK done=665/665 net=187712 ops=0 t=0 censored=0 table=786432 secs=0.249
+email-Eu-core-temporal-expiry-1000 WT status=OK done=665/665 net=187712 ops=0 t=0 censored=0 table=624784 secs=0.114
+email-Eu-core-temporal-expiry-1000 PW status=OK done=665/665 net=187712 ops=0 t=0 censored=0 table=786432 secs=0.258
+email-Eu-core-temporal-expiry-1000 R2 status=OK done=665/665 net=187712 ops=105096884 t=0 censored=0 table=3072 secs=0.109
+email-Eu-core-temporal-expiry-1000 PR status=OK done=665/665 net=187712 ops=68289445 t=0 censored=0 table=3072 secs=0.078
+email-Eu-core-temporal-expiry-1000 WJ status=OK done=665/665 net=187712 ops=55603699 t=0 censored=0 table=786432 secs=0.250
+email-Eu-core-temporal-expiry-1000 WT status=OK done=665/665 net=187712 ops=91929959 t=0 censored=0 table=624784 secs=0.117
+email-Eu-core-temporal-expiry-1000 PW status=OK done=665/665 net=187712 ops=63096006 t=0 censored=0 table=786432 secs=0.263
+check email-Eu-core-temporal expiry 1000: files 10, comparisons 6650, batches 665, arms matched to M1C02 4, problems 0
+email-Eu-core-temporal-expiry-1000 PR status=OK done=665/665 net=187712 ops=0 t=0 censored=0 table=3072 secs=0.074
+email-Eu-core-temporal-expiry-1000 WJ status=OK done=665/665 net=187712 ops=0 t=0 censored=0 table=786432 secs=0.248
+email-Eu-core-temporal-expiry-1000 WT status=OK done=665/665 net=187712 ops=0 t=0 censored=0 table=624784 secs=0.113
+email-Eu-core-temporal-expiry-1000 PW status=OK done=665/665 net=187712 ops=0 t=0 censored=0 table=786432 secs=0.259
+email-Eu-core-temporal-expiry-1000 R2 status=OK done=665/665 net=187712 ops=0 t=0 censored=0 table=3072 secs=0.099
+email-Eu-core-temporal-expiry-1000 WJ status=OK done=665/665 net=187712 ops=0 t=0 censored=0 table=786432 secs=0.250
+email-Eu-core-temporal-expiry-1000 WT status=OK done=665/665 net=187712 ops=0 t=0 censored=0 table=624784 secs=0.115
+email-Eu-core-temporal-expiry-1000 PW status=OK done=665/665 net=187712 ops=0 t=0 censored=0 table=786432 secs=0.260
+email-Eu-core-temporal-expiry-1000 R2 status=OK done=665/665 net=187712 ops=0 t=0 censored=0 table=3072 secs=0.099
+email-Eu-core-temporal-expiry-1000 PR status=OK done=665/665 net=187712 ops=0 t=0 censored=0 table=3072 secs=0.074
+check email-Eu-core-temporal expiry 1000: files 20, comparisons 13300, batches 665, arms matched to M1C02 4, problems 0
+CELL-DONE email-Eu-core-temporal expiry 1000 06:02:17
+email-Eu-core-temporal-expiry-100 R2 status=OK done=6647/6647 net=222950 ops=0 t=0 censored=0 table=3072 secs=0.123
+email-Eu-core-temporal-expiry-100 PR status=OK done=6647/6647 net=222950 ops=0 t=0 censored=0 table=3072 secs=0.102
+email-Eu-core-temporal-expiry-100 WJ status=OK done=6647/6647 net=222950 ops=0 t=0 censored=0 table=786432 secs=0.315
+email-Eu-core-temporal-expiry-100 WT status=OK done=6647/6647 net=222950 ops=0 t=0 censored=0 table=640900 secs=0.138
+email-Eu-core-temporal-expiry-100 PW status=OK done=6647/6647 net=222950 ops=0 t=0 censored=0 table=786432 secs=0.326
+email-Eu-core-temporal-expiry-100 R2 status=OK done=6647/6647 net=222950 ops=132956253 t=0 censored=0 table=3072 secs=0.133
+email-Eu-core-temporal-expiry-100 PR status=OK done=6647/6647 net=222950 ops=98826681 t=0 censored=0 table=3072 secs=0.108
+email-Eu-core-temporal-expiry-100 WJ status=OK done=6647/6647 net=222950 ops=70329075 t=0 censored=0 table=786432 secs=0.318
+email-Eu-core-temporal-expiry-100 WT status=OK done=6647/6647 net=222950 ops=114623610 t=0 censored=0 table=640900 secs=0.141
+email-Eu-core-temporal-expiry-100 PW status=OK done=6647/6647 net=222950 ops=77253015 t=0 censored=0 table=786432 secs=0.331
+check email-Eu-core-temporal expiry 100: files 10, comparisons 66470, batches 6647, arms matched to M1C02 4, problems 0
+email-Eu-core-temporal-expiry-100 PR status=OK done=6647/6647 net=222950 ops=0 t=0 censored=0 table=3072 secs=0.101
+email-Eu-core-temporal-expiry-100 WJ status=OK done=6647/6647 net=222950 ops=0 t=0 censored=0 table=786432 secs=0.313
+email-Eu-core-temporal-expiry-100 WT status=OK done=6647/6647 net=222950 ops=0 t=0 censored=0 table=640900 secs=0.137
+email-Eu-core-temporal-expiry-100 PW status=OK done=6647/6647 net=222950 ops=0 t=0 censored=0 table=786432 secs=0.324
+email-Eu-core-temporal-expiry-100 R2 status=OK done=6647/6647 net=222950 ops=0 t=0 censored=0 table=3072 secs=0.121
+email-Eu-core-temporal-expiry-100 WJ status=OK done=6647/6647 net=222950 ops=0 t=0 censored=0 table=786432 secs=0.314
+email-Eu-core-temporal-expiry-100 WT status=OK done=6647/6647 net=222950 ops=0 t=0 censored=0 table=640900 secs=0.137
+email-Eu-core-temporal-expiry-100 PW status=OK done=6647/6647 net=222950 ops=0 t=0 censored=0 table=786432 secs=0.324
+email-Eu-core-temporal-expiry-100 R2 status=OK done=6647/6647 net=222950 ops=0 t=0 censored=0 table=3072 secs=0.122
+email-Eu-core-temporal-expiry-100 PR status=OK done=6647/6647 net=222950 ops=0 t=0 censored=0 table=3072 secs=0.101
+check email-Eu-core-temporal expiry 100: files 20, comparisons 132940, batches 6647, arms matched to M1C02 4, problems 0
+CELL-DONE email-Eu-core-temporal expiry 100 06:02:23
+email-Eu-core-temporal-insert-1000 R2 status=OK done=333/333 net=16064 ops=0 t=245585096 censored=0 table=3072 secs=0.051
+email-Eu-core-temporal-insert-1000 PR status=OK done=333/333 net=16064 ops=0 t=245585096 censored=0 table=3072 secs=0.040
+email-Eu-core-temporal-insert-1000 WJ status=OK done=333/333 net=16064 ops=0 t=245585096 censored=0 table=6291456 secs=0.212
+email-Eu-core-temporal-insert-1000 WT status=OK done=333/333 net=16064 ops=0 t=245585096 censored=0 table=4475424 secs=0.044
+email-Eu-core-temporal-insert-1000 PW status=OK done=333/333 net=16064 ops=0 t=245585096 censored=0 table=6291456 secs=0.191
+email-Eu-core-temporal-insert-1000 R2 status=OK done=333/333 net=16064 ops=140735647 t=245585096 censored=0 table=3072 secs=0.057
+email-Eu-core-temporal-insert-1000 PR status=OK done=333/333 net=16064 ops=108229110 t=245585096 censored=0 table=3072 secs=0.045
+email-Eu-core-temporal-insert-1000 WJ status=OK done=333/333 net=16064 ops=57259533 t=245585096 censored=0 table=6291456 secs=0.213
+email-Eu-core-temporal-insert-1000 WT status=OK done=333/333 net=16064 ops=71984484 t=245585096 censored=0 table=4475424 secs=0.046
+email-Eu-core-temporal-insert-1000 PW status=OK done=333/333 net=16064 ops=51695592 t=245585096 censored=0 table=6291456 secs=0.197
+check email-Eu-core-temporal insert 1000: files 10, comparisons 3330, batches 333, arms matched to M1C02 4, problems 0
+email-Eu-core-temporal-insert-1000 PR status=OK done=333/333 net=16064 ops=0 t=245585096 censored=0 table=3072 secs=0.041
+email-Eu-core-temporal-insert-1000 WJ status=OK done=333/333 net=16064 ops=0 t=245585096 censored=0 table=6291456 secs=0.213
+email-Eu-core-temporal-insert-1000 WT status=OK done=333/333 net=16064 ops=0 t=245585096 censored=0 table=4475424 secs=0.045
+email-Eu-core-temporal-insert-1000 PW status=OK done=333/333 net=16064 ops=0 t=245585096 censored=0 table=6291456 secs=0.194
+email-Eu-core-temporal-insert-1000 R2 status=OK done=333/333 net=16064 ops=0 t=245585096 censored=0 table=3072 secs=0.051
+email-Eu-core-temporal-insert-1000 WJ status=OK done=333/333 net=16064 ops=0 t=245585096 censored=0 table=6291456 secs=0.215
+email-Eu-core-temporal-insert-1000 WT status=OK done=333/333 net=16064 ops=0 t=245585096 censored=0 table=4475424 secs=0.045
+email-Eu-core-temporal-insert-1000 PW status=OK done=333/333 net=16064 ops=0 t=245585096 censored=0 table=6291456 secs=0.195
+email-Eu-core-temporal-insert-1000 R2 status=OK done=333/333 net=16064 ops=0 t=245585096 censored=0 table=3072 secs=0.051
+email-Eu-core-temporal-insert-1000 PR status=OK done=333/333 net=16064 ops=0 t=245585096 censored=0 table=3072 secs=0.040
+check email-Eu-core-temporal insert 1000: files 20, comparisons 6660, batches 333, arms matched to M1C02 4, problems 0
+CELL-DONE email-Eu-core-temporal insert 1000 06:02:27
+email-Eu-core-temporal-insert-100 R2 status=OK done=3324/3324 net=16064 ops=0 t=245585096 censored=0 table=3072 secs=0.052
+email-Eu-core-temporal-insert-100 PR status=OK done=3324/3324 net=16064 ops=0 t=245585096 censored=0 table=3072 secs=0.045
+email-Eu-core-temporal-insert-100 WJ status=OK done=3324/3324 net=16064 ops=0 t=245585096 censored=0 table=6291456 secs=0.212
+email-Eu-core-temporal-insert-100 WT status=OK done=3324/3324 net=16064 ops=0 t=245585096 censored=0 table=4476448 secs=0.045
+email-Eu-core-temporal-insert-100 PW status=OK done=3324/3324 net=16064 ops=0 t=245585096 censored=0 table=6291456 secs=0.202
+email-Eu-core-temporal-insert-100 R2 status=OK done=3324/3324 net=16064 ops=140762283 t=245585096 censored=0 table=3072 secs=0.057
+email-Eu-core-temporal-insert-100 PR status=OK done=3324/3324 net=16064 ops=120197562 t=245585096 censored=0 table=3072 secs=0.051
+email-Eu-core-temporal-insert-100 WJ status=OK done=3324/3324 net=16064 ops=57230586 t=245585096 censored=0 table=6291456 secs=0.218
+email-Eu-core-temporal-insert-100 WT status=OK done=3324/3324 net=16064 ops=71958622 t=245585096 censored=0 table=4476448 secs=0.047
+email-Eu-core-temporal-insert-100 PW status=OK done=3324/3324 net=16064 ops=53254751 t=245585096 censored=0 table=6291456 secs=0.203
+check email-Eu-core-temporal insert 100: files 10, comparisons 33240, batches 3324, arms matched to M1C02 4, problems 0
+email-Eu-core-temporal-insert-100 PR status=OK done=3324/3324 net=16064 ops=0 t=245585096 censored=0 table=3072 secs=0.045
+email-Eu-core-temporal-insert-100 WJ status=OK done=3324/3324 net=16064 ops=0 t=245585096 censored=0 table=6291456 secs=0.211
+email-Eu-core-temporal-insert-100 WT status=OK done=3324/3324 net=16064 ops=0 t=245585096 censored=0 table=4476448 secs=0.044
+email-Eu-core-temporal-insert-100 PW status=OK done=3324/3324 net=16064 ops=0 t=245585096 censored=0 table=6291456 secs=0.200
+email-Eu-core-temporal-insert-100 R2 status=OK done=3324/3324 net=16064 ops=0 t=245585096 censored=0 table=3072 secs=0.051
+email-Eu-core-temporal-insert-100 WJ status=OK done=3324/3324 net=16064 ops=0 t=245585096 censored=0 table=6291456 secs=0.212
+email-Eu-core-temporal-insert-100 WT status=OK done=3324/3324 net=16064 ops=0 t=245585096 censored=0 table=4476448 secs=0.045
+email-Eu-core-temporal-insert-100 PW status=OK done=3324/3324 net=16064 ops=0 t=245585096 censored=0 table=6291456 secs=0.200
+email-Eu-core-temporal-insert-100 R2 status=OK done=3324/3324 net=16064 ops=0 t=245585096 censored=0 table=3072 secs=0.052
+email-Eu-core-temporal-insert-100 PR status=OK done=3324/3324 net=16064 ops=0 t=245585096 censored=0 table=3072 secs=0.045
+check email-Eu-core-temporal insert 100: files 20, comparisons 66480, batches 3324, arms matched to M1C02 4, problems 0
+CELL-DONE email-Eu-core-temporal insert 100 06:02:32
+sx-mathoverflow-expiry-1000 R2 status=OK done=781/781 net=485368 ops=0 t=0 censored=0 table=3072 secs=0.191
+sx-mathoverflow-expiry-1000 PR status=OK done=781/781 net=485368 ops=0 t=0 censored=0 table=3072 secs=0.132
+sx-mathoverflow-expiry-1000 WJ status=OK done=781/781 net=485368 ops=0 t=0 censored=0 table=786432 secs=0.340
+sx-mathoverflow-expiry-1000 WT status=OK done=781/781 net=485368 ops=0 t=0 censored=0 table=1555788 secs=0.261
+sx-mathoverflow-expiry-1000 PW status=OK done=781/781 net=485368 ops=0 t=0 censored=0 table=786432 secs=0.368
+sx-mathoverflow-expiry-1000 R2 status=OK done=781/781 net=485368 ops=186440955 t=0 censored=0 table=3072 secs=0.206
+sx-mathoverflow-expiry-1000 PR status=OK done=781/781 net=485368 ops=105637222 t=0 censored=0 table=3072 secs=0.139
+sx-mathoverflow-expiry-1000 WJ status=OK done=781/781 net=485368 ops=101468233 t=0 censored=0 table=786432 secs=0.346
+sx-mathoverflow-expiry-1000 WT status=OK done=781/781 net=485368 ops=177495063 t=0 censored=0 table=1555788 secs=0.268
+sx-mathoverflow-expiry-1000 PW status=OK done=781/781 net=485368 ops=122804137 t=0 censored=0 table=786432 secs=0.375
+check sx-mathoverflow expiry 1000: files 10, comparisons 7810, batches 781, arms matched to M1C02 4, problems 0
+sx-mathoverflow-expiry-1000 PR status=OK done=781/781 net=485368 ops=0 t=0 censored=0 table=3072 secs=0.132
+sx-mathoverflow-expiry-1000 WJ status=OK done=781/781 net=485368 ops=0 t=0 censored=0 table=786432 secs=0.339
+sx-mathoverflow-expiry-1000 WT status=OK done=781/781 net=485368 ops=0 t=0 censored=0 table=1555788 secs=0.262
+sx-mathoverflow-expiry-1000 PW status=OK done=781/781 net=485368 ops=0 t=0 censored=0 table=786432 secs=0.368
+sx-mathoverflow-expiry-1000 R2 status=OK done=781/781 net=485368 ops=0 t=0 censored=0 table=3072 secs=0.191
+sx-mathoverflow-expiry-1000 WJ status=OK done=781/781 net=485368 ops=0 t=0 censored=0 table=786432 secs=0.341
+sx-mathoverflow-expiry-1000 WT status=OK done=781/781 net=485368 ops=0 t=0 censored=0 table=1555788 secs=0.262
+sx-mathoverflow-expiry-1000 PW status=OK done=781/781 net=485368 ops=0 t=0 censored=0 table=786432 secs=0.367
+sx-mathoverflow-expiry-1000 R2 status=OK done=781/781 net=485368 ops=0 t=0 censored=0 table=3072 secs=0.191
+sx-mathoverflow-expiry-1000 PR status=OK done=781/781 net=485368 ops=0 t=0 censored=0 table=3072 secs=0.132
+check sx-mathoverflow expiry 1000: files 20, comparisons 15620, batches 781, arms matched to M1C02 4, problems 0
+CELL-DONE sx-mathoverflow expiry 1000 06:02:39
+sx-mathoverflow-expiry-100 R2 status=OK done=7809/7809 net=488660 ops=0 t=0 censored=0 table=3072 secs=0.212
+sx-mathoverflow-expiry-100 PR status=OK done=7809/7809 net=488660 ops=0 t=0 censored=0 table=3072 secs=0.189
+sx-mathoverflow-expiry-100 WJ status=OK done=7809/7809 net=488660 ops=0 t=0 censored=0 table=786432 secs=0.407
+sx-mathoverflow-expiry-100 WT status=OK done=7809/7809 net=488660 ops=0 t=0 censored=0 table=1571272 secs=0.288
+sx-mathoverflow-expiry-100 PW status=OK done=7809/7809 net=488660 ops=0 t=0 censored=0 table=786432 secs=0.448
+sx-mathoverflow-expiry-100 R2 status=OK done=7809/7809 net=488660 ops=215211824 t=0 censored=0 table=3072 secs=0.229
+sx-mathoverflow-expiry-100 PR status=OK done=7809/7809 net=488660 ops=174745786 t=0 censored=0 table=3072 secs=0.200
+sx-mathoverflow-expiry-100 WJ status=OK done=7809/7809 net=488660 ops=117047588 t=0 censored=0 table=786432 secs=0.413
+sx-mathoverflow-expiry-100 WT status=OK done=7809/7809 net=488660 ops=202349504 t=0 censored=0 table=1571272 secs=0.295
+sx-mathoverflow-expiry-100 PW status=OK done=7809/7809 net=488660 ops=141574176 t=0 censored=0 table=786432 secs=0.457
+check sx-mathoverflow expiry 100: files 10, comparisons 78090, batches 7809, arms matched to M1C02 4, problems 0
+sx-mathoverflow-expiry-100 PR status=OK done=7809/7809 net=488660 ops=0 t=0 censored=0 table=3072 secs=0.189
+sx-mathoverflow-expiry-100 WJ status=OK done=7809/7809 net=488660 ops=0 t=0 censored=0 table=786432 secs=0.406
+sx-mathoverflow-expiry-100 WT status=OK done=7809/7809 net=488660 ops=0 t=0 censored=0 table=1571272 secs=0.287
+sx-mathoverflow-expiry-100 PW status=OK done=7809/7809 net=488660 ops=0 t=0 censored=0 table=786432 secs=0.446
+sx-mathoverflow-expiry-100 R2 status=OK done=7809/7809 net=488660 ops=0 t=0 censored=0 table=3072 secs=0.209
+sx-mathoverflow-expiry-100 WJ status=OK done=7809/7809 net=488660 ops=0 t=0 censored=0 table=786432 secs=0.406
+sx-mathoverflow-expiry-100 WT status=OK done=7809/7809 net=488660 ops=0 t=0 censored=0 table=1571272 secs=0.286
+sx-mathoverflow-expiry-100 PW status=OK done=7809/7809 net=488660 ops=0 t=0 censored=0 table=786432 secs=0.448
+sx-mathoverflow-expiry-100 R2 status=OK done=7809/7809 net=488660 ops=0 t=0 censored=0 table=3072 secs=0.209
+sx-mathoverflow-expiry-100 PR status=OK done=7809/7809 net=488660 ops=0 t=0 censored=0 table=3072 secs=0.188
+check sx-mathoverflow expiry 100: files 20, comparisons 156180, batches 7809, arms matched to M1C02 4, problems 0
+CELL-DONE sx-mathoverflow expiry 100 06:02:47
+sx-askubuntu-expiry-1000 R2 status=OK done=1454/1454 net=961178 ops=0 t=0 censored=0 table=3072 secs=0.462
+sx-askubuntu-expiry-1000 PR status=OK done=1454/1454 net=961178 ops=0 t=0 censored=0 table=3072 secs=0.270
+sx-askubuntu-expiry-1000 WJ status=OK done=1454/1454 net=961178 ops=0 t=0 censored=0 table=3145728 secs=1.073
+sx-askubuntu-expiry-1000 WT status=OK done=1454/1454 net=961178 ops=0 t=0 censored=0 table=10385000 secs=0.856
+sx-askubuntu-expiry-1000 PW status=OK done=1454/1454 net=961178 ops=0 t=0 censored=0 table=3145728 secs=1.118
+sx-askubuntu-expiry-1000 R2 status=OK done=1454/1454 net=961178 ops=556183713 t=0 censored=0 table=3072 secs=0.517
+sx-askubuntu-expiry-1000 PR status=OK done=1454/1454 net=961178 ops=235735334 t=0 censored=0 table=3072 secs=0.284
+sx-askubuntu-expiry-1000 WJ status=OK done=1454/1454 net=961178 ops=349469107 t=0 censored=0 table=3145728 secs=1.090
+sx-askubuntu-expiry-1000 WT status=OK done=1454/1454 net=961178 ops=611208235 t=0 censored=0 table=10385000 secs=0.897
+sx-askubuntu-expiry-1000 PW status=OK done=1454/1454 net=961178 ops=375584163 t=0 censored=0 table=3145728 secs=1.139
+check sx-askubuntu expiry 1000: files 10, comparisons 14540, batches 1454, arms matched to M1C02 0, problems 0
+sx-askubuntu-expiry-1000 PR status=OK done=1454/1454 net=961178 ops=0 t=0 censored=0 table=3072 secs=0.269
+sx-askubuntu-expiry-1000 WJ status=OK done=1454/1454 net=961178 ops=0 t=0 censored=0 table=3145728 secs=1.079
+sx-askubuntu-expiry-1000 WT status=OK done=1454/1454 net=961178 ops=0 t=0 censored=0 table=10385000 secs=0.848
+sx-askubuntu-expiry-1000 PW status=OK done=1454/1454 net=961178 ops=0 t=0 censored=0 table=3145728 secs=1.103
+sx-askubuntu-expiry-1000 R2 status=OK done=1454/1454 net=961178 ops=0 t=0 censored=0 table=3072 secs=0.462
+sx-askubuntu-expiry-1000 WJ status=OK done=1454/1454 net=961178 ops=0 t=0 censored=0 table=3145728 secs=1.071
+sx-askubuntu-expiry-1000 WT status=OK done=1454/1454 net=961178 ops=0 t=0 censored=0 table=10385000 secs=0.856
+sx-askubuntu-expiry-1000 PW status=OK done=1454/1454 net=961178 ops=0 t=0 censored=0 table=3145728 secs=1.108
+sx-askubuntu-expiry-1000 R2 status=OK done=1454/1454 net=961178 ops=0 t=0 censored=0 table=3072 secs=0.460
+sx-askubuntu-expiry-1000 PR status=OK done=1454/1454 net=961178 ops=0 t=0 censored=0 table=3072 secs=0.274
+check sx-askubuntu expiry 1000: files 20, comparisons 29080, batches 1454, arms matched to M1C02 0, problems 0
+CELL-DONE sx-askubuntu expiry 1000 06:03:05
+sx-askubuntu-expiry-100 R2 status=OK done=14534/14534 net=963038 ops=0 t=0 censored=0 table=3072 secs=0.490
+sx-askubuntu-expiry-100 PR status=OK done=14534/14534 net=963038 ops=0 t=0 censored=0 table=3072 secs=0.430
+sx-askubuntu-expiry-100 WJ status=OK done=14534/14534 net=963038 ops=0 t=0 censored=0 table=3145728 secs=1.217
+sx-askubuntu-expiry-100 WT status=OK done=14534/14534 net=963038 ops=0 t=0 censored=0 table=10429416 secs=0.897
+sx-askubuntu-expiry-100 PW status=OK done=14534/14534 net=963038 ops=0 t=0 censored=0 table=3145728 secs=1.302
+sx-askubuntu-expiry-100 R2 status=OK done=14534/14534 net=963038 ops=596580156 t=0 censored=0 table=3072 secs=0.543
+sx-askubuntu-expiry-100 PR status=OK done=14534/14534 net=963038 ops=428191756 t=0 censored=0 table=3072 secs=0.454
+sx-askubuntu-expiry-100 WJ status=OK done=14534/14534 net=963038 ops=380497504 t=0 censored=0 table=3145728 secs=1.234
+sx-askubuntu-expiry-100 WT status=OK done=14534/14534 net=963038 ops=660843487 t=0 censored=0 table=10429416 secs=0.955
+sx-askubuntu-expiry-100 PW status=OK done=14534/14534 net=963038 ops=429505812 t=0 censored=0 table=3145728 secs=1.349
+check sx-askubuntu expiry 100: files 10, comparisons 145340, batches 14534, arms matched to M1C02 0, problems 0
+sx-askubuntu-expiry-100 PR status=OK done=14534/14534 net=963038 ops=0 t=0 censored=0 table=3072 secs=0.431
+sx-askubuntu-expiry-100 WJ status=OK done=14534/14534 net=963038 ops=0 t=0 censored=0 table=3145728 secs=1.226
+sx-askubuntu-expiry-100 WT status=OK done=14534/14534 net=963038 ops=0 t=0 censored=0 table=10429416 secs=0.901
+sx-askubuntu-expiry-100 PW status=OK done=14534/14534 net=963038 ops=0 t=0 censored=0 table=3145728 secs=1.325
+sx-askubuntu-expiry-100 R2 status=OK done=14534/14534 net=963038 ops=0 t=0 censored=0 table=3072 secs=0.483
+sx-askubuntu-expiry-100 WJ status=OK done=14534/14534 net=963038 ops=0 t=0 censored=0 table=3145728 secs=1.211
+sx-askubuntu-expiry-100 WT status=OK done=14534/14534 net=963038 ops=0 t=0 censored=0 table=10429416 secs=0.900
+sx-askubuntu-expiry-100 PW status=OK done=14534/14534 net=963038 ops=0 t=0 censored=0 table=3145728 secs=1.304
+sx-askubuntu-expiry-100 R2 status=OK done=14534/14534 net=963038 ops=0 t=0 censored=0 table=3072 secs=0.483
+sx-askubuntu-expiry-100 PR status=OK done=14534/14534 net=963038 ops=0 t=0 censored=0 table=3072 secs=0.431
+check sx-askubuntu expiry 100: files 20, comparisons 290680, batches 14534, arms matched to M1C02 0, problems 0
+CELL-DONE sx-askubuntu expiry 100 06:03:25
+sx-superuser-expiry-1000 R2 status=OK done=2218/2218 net=1521360 ops=0 t=0 censored=0 table=3072 secs=0.776
+sx-superuser-expiry-1000 PR status=OK done=2218/2218 net=1521360 ops=0 t=0 censored=0 table=3072 secs=0.473
+sx-superuser-expiry-1000 WJ status=OK done=2218/2218 net=1521360 ops=0 t=0 censored=0 table=3145728 secs=1.856
+sx-superuser-expiry-1000 WT status=OK done=2218/2218 net=1521360 ops=0 t=0 censored=0 table=12825360 secs=1.421
+sx-superuser-expiry-1000 PW status=OK done=2218/2218 net=1521360 ops=0 t=0 censored=0 table=3145728 secs=1.907
+sx-superuser-expiry-1000 R2 status=OK done=2218/2218 net=1521360 ops=990247059 t=0 censored=0 table=3072 secs=0.873
+sx-superuser-expiry-1000 PR status=OK done=2218/2218 net=1521360 ops=451442845 t=0 censored=0 table=3072 secs=0.497
+sx-superuser-expiry-1000 WJ status=OK done=2218/2218 net=1521360 ops=582107751 t=0 censored=0 table=3145728 secs=1.883
+sx-superuser-expiry-1000 WT status=OK done=2218/2218 net=1521360 ops=1013895838 t=0 censored=0 table=12825360 secs=1.511
+sx-superuser-expiry-1000 PW status=OK done=2218/2218 net=1521360 ops=633300274 t=0 censored=0 table=3145728 secs=1.966
+check sx-superuser expiry 1000: files 10, comparisons 22180, batches 2218, arms matched to M1C02 0, problems 0
+sx-superuser-expiry-1000 PR status=OK done=2218/2218 net=1521360 ops=0 t=0 censored=0 table=3072 secs=0.472
+sx-superuser-expiry-1000 WJ status=OK done=2218/2218 net=1521360 ops=0 t=0 censored=0 table=3145728 secs=1.851
+sx-superuser-expiry-1000 WT status=OK done=2218/2218 net=1521360 ops=0 t=0 censored=0 table=12825360 secs=1.413
+sx-superuser-expiry-1000 PW status=OK done=2218/2218 net=1521360 ops=0 t=0 censored=0 table=3145728 secs=1.912
+sx-superuser-expiry-1000 R2 status=OK done=2218/2218 net=1521360 ops=0 t=0 censored=0 table=3072 secs=0.774
+sx-superuser-expiry-1000 WJ status=OK done=2218/2218 net=1521360 ops=0 t=0 censored=0 table=3145728 secs=1.850
+sx-superuser-expiry-1000 WT status=OK done=2218/2218 net=1521360 ops=0 t=0 censored=0 table=12825360 secs=1.412
+sx-superuser-expiry-1000 PW status=OK done=2218/2218 net=1521360 ops=0 t=0 censored=0 table=3145728 secs=1.910
+sx-superuser-expiry-1000 R2 status=OK done=2218/2218 net=1521360 ops=0 t=0 censored=0 table=3072 secs=0.776
+sx-superuser-expiry-1000 PR status=OK done=2218/2218 net=1521360 ops=0 t=0 censored=0 table=3072 secs=0.474
+check sx-superuser expiry 1000: files 20, comparisons 44360, batches 2218, arms matched to M1C02 0, problems 0
+CELL-DONE sx-superuser expiry 1000 06:03:53
+sx-superuser-expiry-100 R2 status=OK done=22175/22175 net=1524198 ops=0 t=0 censored=0 table=3072 secs=0.806
+sx-superuser-expiry-100 PR status=OK done=22175/22175 net=1524198 ops=0 t=0 censored=0 table=3072 secs=0.726
+sx-superuser-expiry-100 WJ status=OK done=22175/22175 net=1524198 ops=0 t=0 censored=0 table=3145728 secs=2.023
+sx-superuser-expiry-100 WT status=OK done=22175/22175 net=1524198 ops=0 t=0 censored=0 table=12889252 secs=1.471
+sx-superuser-expiry-100 PW status=OK done=22175/22175 net=1524198 ops=0 t=0 censored=0 table=3145728 secs=2.194
+sx-superuser-expiry-100 R2 status=OK done=22175/22175 net=1524198 ops=1045989920 t=0 censored=0 table=3072 secs=0.905
+sx-superuser-expiry-100 PR status=OK done=22175/22175 net=1524198 ops=766116559 t=0 censored=0 table=3072 secs=0.772
+sx-superuser-expiry-100 WJ status=OK done=22175/22175 net=1524198 ops=616656087 t=0 censored=0 table=3145728 secs=2.060
+sx-superuser-expiry-100 WT status=OK done=22175/22175 net=1524198 ops=1069166191 t=0 censored=0 table=12889252 secs=1.549
+sx-superuser-expiry-100 PW status=OK done=22175/22175 net=1524198 ops=709066461 t=0 censored=0 table=3145728 secs=2.249
+check sx-superuser expiry 100: files 10, comparisons 221750, batches 22175, arms matched to M1C02 0, problems 0
+sx-superuser-expiry-100 PR status=OK done=22175/22175 net=1524198 ops=0 t=0 censored=0 table=3072 secs=0.725
+sx-superuser-expiry-100 WJ status=OK done=22175/22175 net=1524198 ops=0 t=0 censored=0 table=3145728 secs=2.028
+sx-superuser-expiry-100 WT status=OK done=22175/22175 net=1524198 ops=0 t=0 censored=0 table=12889252 secs=1.479
+sx-superuser-expiry-100 PW status=OK done=22175/22175 net=1524198 ops=0 t=0 censored=0 table=3145728 secs=2.194
+sx-superuser-expiry-100 R2 status=OK done=22175/22175 net=1524198 ops=0 t=0 censored=0 table=3072 secs=0.807
+sx-superuser-expiry-100 WJ status=OK done=22175/22175 net=1524198 ops=0 t=0 censored=0 table=3145728 secs=2.026
+sx-superuser-expiry-100 WT status=OK done=22175/22175 net=1524198 ops=0 t=0 censored=0 table=12889252 secs=1.476
+sx-superuser-expiry-100 PW status=OK done=22175/22175 net=1524198 ops=0 t=0 censored=0 table=3145728 secs=2.193
+sx-superuser-expiry-100 R2 status=OK done=22175/22175 net=1524198 ops=0 t=0 censored=0 table=3072 secs=0.806
+sx-superuser-expiry-100 PR status=OK done=22175/22175 net=1524198 ops=0 t=0 censored=0 table=3072 secs=0.726
+check sx-superuser expiry 100: files 20, comparisons 443500, batches 22175, arms matched to M1C02 0, problems 0
+CELL-DONE sx-superuser expiry 100 06:04:26
+sx-mathoverflow-insert-1000 R2 status=OK done=391/391 net=187986 ops=0 t=27396207208 censored=0 table=3072 secs=4.152
+sx-mathoverflow-insert-1000 PR status=OK done=391/391 net=187986 ops=0 t=27396207208 censored=0 table=3072 secs=2.593
+sx-mathoverflow-insert-1000 WJ status=OK done=391/391 net=187986 ops=0 t=27396207208 censored=0 table=805306368 secs=40.599
+sx-mathoverflow-insert-1000 WT status=OK done=391/391 net=187986 ops=0 t=27396207208 censored=0 table=429156776 secs=7.716
+sx-mathoverflow-insert-1000 PW status=OK done=391/391 net=187986 ops=0 t=27396207208 censored=0 table=805306368 secs=35.943
+sx-mathoverflow-insert-1000 R2 status=OK done=391/391 net=187986 ops=16215015360 t=27396207208 censored=0 table=3072 secs=4.793
+sx-mathoverflow-insert-1000 PR status=OK done=391/391 net=187986 ops=10557516968 t=27396207208 censored=0 table=3072 secs=3.015
+sx-mathoverflow-insert-1000 WJ status=OK done=391/391 net=187986 ops=3923024123 t=27396207208 censored=0 table=805306368 secs=41.250
+sx-mathoverflow-insert-1000 WT status=OK done=391/391 net=187986 ops=4650657604 t=27396207208 censored=0 table=429156776 secs=7.810
+sx-mathoverflow-insert-1000 PW status=OK done=391/391 net=187986 ops=3605684938 t=27396207208 censored=0 table=805306368 secs=38.056
+check sx-mathoverflow insert 1000: files 10, comparisons 3910, batches 391, arms matched to M1C02 4, problems 0
+sx-mathoverflow-insert-1000 PR status=OK done=391/391 net=187986 ops=0 t=27396207208 censored=0 table=3072 secs=2.595
+sx-mathoverflow-insert-1000 WJ status=OK done=391/391 net=187986 ops=0 t=27396207208 censored=0 table=805306368 secs=40.608
+sx-mathoverflow-insert-1000 WT status=OK done=391/391 net=187986 ops=0 t=27396207208 censored=0 table=429156776 secs=7.689
+sx-mathoverflow-insert-1000 PW status=OK done=391/391 net=187986 ops=0 t=27396207208 censored=0 table=805306368 secs=35.852
+sx-mathoverflow-insert-1000 R2 status=OK done=391/391 net=187986 ops=0 t=27396207208 censored=0 table=3072 secs=4.153
+sx-mathoverflow-insert-1000 WJ status=OK done=391/391 net=187986 ops=0 t=27396207208 censored=0 table=805306368 secs=40.631
+sx-mathoverflow-insert-1000 WT status=OK done=391/391 net=187986 ops=0 t=27396207208 censored=0 table=429156776 secs=7.666
+sx-mathoverflow-insert-1000 PW status=OK done=391/391 net=187986 ops=0 t=27396207208 censored=0 table=805306368 secs=35.928
+sx-mathoverflow-insert-1000 R2 status=OK done=391/391 net=187986 ops=0 t=27396207208 censored=0 table=3072 secs=4.167
+sx-mathoverflow-insert-1000 PR status=OK done=391/391 net=187986 ops=0 t=27396207208 censored=0 table=3072 secs=2.598
+check sx-mathoverflow insert 1000: files 20, comparisons 7820, batches 391, arms matched to M1C02 4, problems 0
+CELL-DONE sx-mathoverflow insert 1000 06:10:36
+sx-mathoverflow-insert-100 R2 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 censored=0 table=3072 secs=4.165
+sx-mathoverflow-insert-100 PR status=OK done=3905/3905 net=187986 ops=0 t=27396207208 censored=0 table=3072 secs=3.571
+sx-mathoverflow-insert-100 WJ status=OK done=3905/3905 net=187986 ops=0 t=27396207208 censored=0 table=805306368 secs=40.575
+sx-mathoverflow-insert-100 WT status=OK done=3905/3905 net=187986 ops=0 t=27396207208 censored=0 table=428847464 secs=7.665
+sx-mathoverflow-insert-100 PW status=OK done=3905/3905 net=187986 ops=0 t=27396207208 censored=0 table=805306368 secs=38.566
+sx-mathoverflow-insert-100 R2 status=OK done=3905/3905 net=187986 ops=16223520812 t=27396207208 censored=0 table=3072 secs=4.813
+sx-mathoverflow-insert-100 PR status=OK done=3905/3905 net=187986 ops=14132006471 t=27396207208 censored=0 table=3072 secs=4.102
+sx-mathoverflow-insert-100 WJ status=OK done=3905/3905 net=187986 ops=3916258142 t=27396207208 censored=0 table=805306368 secs=41.155
+sx-mathoverflow-insert-100 WT status=OK done=3905/3905 net=187986 ops=4642313535 t=27396207208 censored=0 table=428847464 secs=7.785
+sx-mathoverflow-insert-100 PW status=OK done=3905/3905 net=187986 ops=3856591420 t=27396207208 censored=0 table=805306368 secs=40.252
+check sx-mathoverflow insert 100: files 10, comparisons 39050, batches 3905, arms matched to M1C02 4, problems 0
+sx-mathoverflow-insert-100 PR status=OK done=3905/3905 net=187986 ops=0 t=27396207208 censored=0 table=3072 secs=3.572
+sx-mathoverflow-insert-100 WJ status=OK done=3905/3905 net=187986 ops=0 t=27396207208 censored=0 table=805306368 secs=40.646
+sx-mathoverflow-insert-100 WT status=OK done=3905/3905 net=187986 ops=0 t=27396207208 censored=0 table=428847464 secs=7.698
+sx-mathoverflow-insert-100 PW status=OK done=3905/3905 net=187986 ops=0 t=27396207208 censored=0 table=805306368 secs=38.561
+sx-mathoverflow-insert-100 R2 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 censored=0 table=3072 secs=4.160
+sx-mathoverflow-insert-100 WJ status=OK done=3905/3905 net=187986 ops=0 t=27396207208 censored=0 table=805306368 secs=40.652
+sx-mathoverflow-insert-100 WT status=OK done=3905/3905 net=187986 ops=0 t=27396207208 censored=0 table=428847464 secs=7.730
+sx-mathoverflow-insert-100 PW status=OK done=3905/3905 net=187986 ops=0 t=27396207208 censored=0 table=805306368 secs=38.824
+sx-mathoverflow-insert-100 R2 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 censored=0 table=3072 secs=4.188
+sx-mathoverflow-insert-100 PR status=OK done=3905/3905 net=187986 ops=0 t=27396207208 censored=0 table=3072 secs=3.573
+check sx-mathoverflow insert 100: files 20, comparisons 78100, batches 3905, arms matched to M1C02 4, problems 0
+CELL-DONE sx-mathoverflow insert 100 06:17:01
+wiki-talk-temporal-expiry-1000 R2 status=OK done=12202/12202 net=6598268 ops=0 t=0 censored=0 table=3072 secs=36.654
+wiki-talk-temporal-expiry-1000 PR status=OK done=12202/12202 net=6598268 ops=0 t=0 censored=0 table=3072 secs=10.669
+wiki-talk-temporal-expiry-1000 WJ status=CAP done=1887/12202 net=937126 ops=0 t=1598263 censored=0 table=3221225472 secs=22.490
+NOT-FINISHED timing wiki-talk-temporal-expiry-1000-WJ rep 1 exit=3
+wiki-talk-temporal-expiry-1000 WT status=MEM done=1917/12202 net=957003 ops=0 t=1499897 censored=0 table=3926422576 secs=11.407
+NOT-FINISHED timing wiki-talk-temporal-expiry-1000-WT rep 1 exit=3
+wiki-talk-temporal-expiry-1000 PW status=CAP done=1887/12202 net=937126 ops=0 t=1598257 censored=0 table=3221225472 secs=22.217
+NOT-FINISHED timing wiki-talk-temporal-expiry-1000-PW rep 1 exit=3
+wiki-talk-temporal-expiry-1000 R2 status=OK done=12202/12202 net=6598268 ops=50542385344 t=0 censored=0 table=3072 secs=39.041
+wiki-talk-temporal-expiry-1000 PR status=OK done=12202/12202 net=6598268 ops=18781830648 t=0 censored=0 table=3072 secs=11.333
+EXACTNESS mismatch wiki-talk-temporal-expiry-1000-PW.t1.csv batch 1886: 1598257 against 1598263 in wiki-talk-temporal-expiry-1000-PR.csv
+check wiki-talk-temporal expiry 1000: files 7, comparisons 54499, batches 12202, arms matched to M1C02 0, problems 1
+M1C03-STOP exactness or count check failed at wiki-talk-temporal expiry 1000
+--- resumed after the amendment in hashes.txt 06:23:07
+check CollegeMsg expiry 1000: files 20, comparisons 2400, batches 120, arms matched to M1C02 4, problems 0
+check CollegeMsg expiry 1000: files 20, comparisons 2400, batches 120, arms matched to M1C02 4, problems 0
+CELL-DONE CollegeMsg expiry 1000 06:23:08
+check CollegeMsg expiry 100: files 20, comparisons 23940, batches 1197, arms matched to M1C02 4, problems 0
+check CollegeMsg expiry 100: files 20, comparisons 23940, batches 1197, arms matched to M1C02 4, problems 0
+CELL-DONE CollegeMsg expiry 100 06:23:10
+check CollegeMsg insert 1000: files 20, comparisons 1200, batches 60, arms matched to M1C02 4, problems 0
+check CollegeMsg insert 1000: files 20, comparisons 1200, batches 60, arms matched to M1C02 4, problems 0
+CELL-DONE CollegeMsg insert 1000 06:23:11
+check CollegeMsg insert 100: files 20, comparisons 11980, batches 599, arms matched to M1C02 4, problems 0
+check CollegeMsg insert 100: files 20, comparisons 11980, batches 599, arms matched to M1C02 4, problems 0
+CELL-DONE CollegeMsg insert 100 06:23:12
+check email-Eu-core-temporal expiry 1000: files 20, comparisons 13300, batches 665, arms matched to M1C02 4, problems 0
+check email-Eu-core-temporal expiry 1000: files 20, comparisons 13300, batches 665, arms matched to M1C02 4, problems 0
+CELL-DONE email-Eu-core-temporal expiry 1000 06:23:13
+check email-Eu-core-temporal expiry 100: files 20, comparisons 132940, batches 6647, arms matched to M1C02 4, problems 0
+check email-Eu-core-temporal expiry 100: files 20, comparisons 132940, batches 6647, arms matched to M1C02 4, problems 0
+CELL-DONE email-Eu-core-temporal expiry 100 06:23:14
+check email-Eu-core-temporal insert 1000: files 20, comparisons 6660, batches 333, arms matched to M1C02 4, problems 0
+check email-Eu-core-temporal insert 1000: files 20, comparisons 6660, batches 333, arms matched to M1C02 4, problems 0
+CELL-DONE email-Eu-core-temporal insert 1000 06:23:15
+check email-Eu-core-temporal insert 100: files 20, comparisons 66480, batches 3324, arms matched to M1C02 4, problems 0
+check email-Eu-core-temporal insert 100: files 20, comparisons 66480, batches 3324, arms matched to M1C02 4, problems 0
+CELL-DONE email-Eu-core-temporal insert 100 06:23:17
+check sx-mathoverflow expiry 1000: files 20, comparisons 15620, batches 781, arms matched to M1C02 4, problems 0
+check sx-mathoverflow expiry 1000: files 20, comparisons 15620, batches 781, arms matched to M1C02 4, problems 0
+CELL-DONE sx-mathoverflow expiry 1000 06:23:18
+check sx-mathoverflow expiry 100: files 20, comparisons 156180, batches 7809, arms matched to M1C02 4, problems 0
+check sx-mathoverflow expiry 100: files 20, comparisons 156180, batches 7809, arms matched to M1C02 4, problems 0
+CELL-DONE sx-mathoverflow expiry 100 06:23:19
+check sx-askubuntu expiry 1000: files 20, comparisons 29080, batches 1454, arms matched to M1C02 0, problems 0
+check sx-askubuntu expiry 1000: files 20, comparisons 29080, batches 1454, arms matched to M1C02 0, problems 0
+CELL-DONE sx-askubuntu expiry 1000 06:23:20
+check sx-askubuntu expiry 100: files 20, comparisons 290680, batches 14534, arms matched to M1C02 0, problems 0
+check sx-askubuntu expiry 100: files 20, comparisons 290680, batches 14534, arms matched to M1C02 0, problems 0
+CELL-DONE sx-askubuntu expiry 100 06:23:22
+check sx-superuser expiry 1000: files 20, comparisons 44360, batches 2218, arms matched to M1C02 0, problems 0
+check sx-superuser expiry 1000: files 20, comparisons 44360, batches 2218, arms matched to M1C02 0, problems 0
+CELL-DONE sx-superuser expiry 1000 06:23:23
+check sx-superuser expiry 100: files 20, comparisons 443500, batches 22175, arms matched to M1C02 0, problems 0
+check sx-superuser expiry 100: files 20, comparisons 443500, batches 22175, arms matched to M1C02 0, problems 0
+CELL-DONE sx-superuser expiry 100 06:23:25
+check sx-mathoverflow insert 1000: files 20, comparisons 7820, batches 391, arms matched to M1C02 4, problems 0
+check sx-mathoverflow insert 1000: files 20, comparisons 7820, batches 391, arms matched to M1C02 4, problems 0
+CELL-DONE sx-mathoverflow insert 1000 06:23:26
+check sx-mathoverflow insert 100: files 20, comparisons 78100, batches 3905, arms matched to M1C02 4, problems 0
+check sx-mathoverflow insert 100: files 20, comparisons 78100, batches 3905, arms matched to M1C02 4, problems 0
+CELL-DONE sx-mathoverflow insert 100 06:23:28
+check wiki-talk-temporal expiry 1000: files 7, comparisons 54497, batches 12202, arms matched to M1C02 0, problems 0
+wiki-talk-temporal-expiry-1000 PR status=OK done=12202/12202 net=6598268 ops=0 t=0 censored=0 table=3072 secs=10.807
+wiki-talk-temporal-expiry-1000 R2 status=OK done=12202/12202 net=6598268 ops=0 t=0 censored=0 table=3072 secs=36.063
+wiki-talk-temporal-expiry-1000 R2 status=OK done=12202/12202 net=6598268 ops=0 t=0 censored=0 table=3072 secs=36.398
+wiki-talk-temporal-expiry-1000 PR status=OK done=12202/12202 net=6598268 ops=0 t=0 censored=0 table=3072 secs=10.798
+check wiki-talk-temporal expiry 1000: files 11, comparisons 103305, batches 12202, arms matched to M1C02 0, problems 0
+CELL-DONE wiki-talk-temporal expiry 1000 06:25:04
+wiki-talk-temporal-expiry-100 R2 status=OK done=122011/122011 net=6628786 ops=0 t=0 censored=0 table=3072 secs=36.842
+wiki-talk-temporal-expiry-100 PR status=OK done=122011/122011 net=6628786 ops=0 t=0 censored=0 table=3072 secs=17.577
+wiki-talk-temporal-expiry-100 WJ status=CAP done=18870/122011 net=945854 ops=0 t=1598263 censored=0 table=3221225472 secs=22.601
+NOT-FINISHED timing wiki-talk-temporal-expiry-100-WJ rep 1 exit=3
+wiki-talk-temporal-expiry-100 WT status=MEM done=19173/122011 net=965311 ops=0 t=1509831 censored=0 table=3923180980 secs=11.474
+NOT-FINISHED timing wiki-talk-temporal-expiry-100-WT rep 1 exit=3
+wiki-talk-temporal-expiry-100 PW status=CAP done=18870/122011 net=945854 ops=0 t=1598263 censored=0 table=3221225472 secs=22.298
+NOT-FINISHED timing wiki-talk-temporal-expiry-100-PW rep 1 exit=3
+wiki-talk-temporal-expiry-100 R2 status=OK done=122011/122011 net=6628786 ops=51026290374 t=0 censored=0 table=3072 secs=39.366
+wiki-talk-temporal-expiry-100 PR status=OK done=122011/122011 net=6628786 ops=27375686260 t=0 censored=0 table=3072 secs=18.422
+check wiki-talk-temporal expiry 100: files 7, comparisons 544955, batches 122011, arms matched to M1C02 0, problems 0
+wiki-talk-temporal-expiry-100 PR status=OK done=122011/122011 net=6628786 ops=0 t=0 censored=0 table=3072 secs=17.511
+wiki-talk-temporal-expiry-100 R2 status=OK done=122011/122011 net=6628786 ops=0 t=0 censored=0 table=3072 secs=36.565
+wiki-talk-temporal-expiry-100 R2 status=OK done=122011/122011 net=6628786 ops=0 t=0 censored=0 table=3072 secs=36.654
+wiki-talk-temporal-expiry-100 PR status=OK done=122011/122011 net=6628786 ops=0 t=0 censored=0 table=3072 secs=17.487
+check wiki-talk-temporal expiry 100: files 11, comparisons 1032999, batches 122011, arms matched to M1C02 0, problems 0
+CELL-DONE wiki-talk-temporal expiry 100 06:29:47
+sx-askubuntu-insert-1000 R2 status=OK done=727/727 net=455691 ops=0 t=7790384985 censored=0 table=3072 secs=11.892
+sx-askubuntu-insert-1000 PR status=OK done=727/727 net=455691 ops=0 t=7790384985 censored=0 table=3072 secs=4.866
+sx-askubuntu-insert-1000 WJ status=OK done=727/727 net=455691 ops=0 t=7790384985 censored=0 table=3221225472 secs=124.827
+sx-askubuntu-insert-1000 WT status=OK done=727/727 net=455691 ops=0 t=7790384985 censored=0 table=2680897812 secs=20.865
+sx-askubuntu-insert-1000 PW status=OK done=727/727 net=455691 ops=0 t=7790384985 censored=0 table=3221225472 secs=112.032
+sx-askubuntu-insert-1000 R2 status=OK done=727/727 net=455691 ops=33018959186 t=7790384985 censored=0 table=3072 secs=12.773
+sx-askubuntu-insert-1000 PR status=OK done=727/727 net=455691 ops=15031512263 t=7790384985 censored=0 table=3072 secs=5.296
+sx-askubuntu-insert-1000 WJ status=OK done=727/727 net=455691 ops=9433849324 t=7790384985 censored=0 table=3221225472 secs=125.324
+sx-askubuntu-insert-1000 WT status=OK done=727/727 net=455691 ops=12185385382 t=7790384985 censored=0 table=2680897812 secs=20.987
+sx-askubuntu-insert-1000 PW status=OK done=727/727 net=455691 ops=9093550464 t=7790384985 censored=0 table=3221225472 secs=115.066
+check sx-askubuntu insert 1000: files 10, comparisons 7270, batches 727, arms matched to M1C02 0, problems 0
+sx-askubuntu-insert-1000 PR status=OK done=727/727 net=455691 ops=0 t=7790384985 censored=0 table=3072 secs=4.774
+sx-askubuntu-insert-1000 WJ status=OK done=727/727 net=455691 ops=0 t=7790384985 censored=0 table=3221225472 secs=124.716
+sx-askubuntu-insert-1000 WT status=OK done=727/727 net=455691 ops=0 t=7790384985 censored=0 table=2680897812 secs=20.931
+sx-askubuntu-insert-1000 PW status=OK done=727/727 net=455691 ops=0 t=7790384985 censored=0 table=3221225472 secs=111.888
+sx-askubuntu-insert-1000 R2 status=OK done=727/727 net=455691 ops=0 t=7790384985 censored=0 table=3072 secs=11.978
+sx-askubuntu-insert-1000 WJ status=OK done=727/727 net=455691 ops=0 t=7790384985 censored=0 table=3221225472 secs=124.729
+sx-askubuntu-insert-1000 WT status=OK done=727/727 net=455691 ops=0 t=7790384985 censored=0 table=2680897812 secs=20.813
+sx-askubuntu-insert-1000 PW status=OK done=727/727 net=455691 ops=0 t=7790384985 censored=0 table=3221225472 secs=111.740
+sx-askubuntu-insert-1000 R2 status=OK done=727/727 net=455691 ops=0 t=7790384985 censored=0 table=3072 secs=11.945
+sx-askubuntu-insert-1000 PR status=OK done=727/727 net=455691 ops=0 t=7790384985 censored=0 table=3072 secs=4.948
+check sx-askubuntu insert 1000: files 20, comparisons 14540, batches 727, arms matched to M1C02 0, problems 0
+CELL-DONE sx-askubuntu insert 1000 06:48:13
+sx-askubuntu-insert-100 R2 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 censored=0 table=3072 secs=11.977
+sx-askubuntu-insert-100 PR status=OK done=7267/7267 net=455691 ops=0 t=7790384985 censored=0 table=3072 secs=8.140
+sx-askubuntu-insert-100 WJ status=OK done=7267/7267 net=455691 ops=0 t=7790384985 censored=0 table=3221225472 secs=124.920
+sx-askubuntu-insert-100 WT status=OK done=7267/7267 net=455691 ops=0 t=7790384985 censored=0 table=2680703572 secs=20.797
+sx-askubuntu-insert-100 PW status=OK done=7267/7267 net=455691 ops=0 t=7790384985 censored=0 table=3221225472 secs=118.216
+sx-askubuntu-insert-100 R2 status=OK done=7267/7267 net=455691 ops=33005727825 t=7790384985 censored=0 table=3072 secs=12.812
+sx-askubuntu-insert-100 PR status=OK done=7267/7267 net=455691 ops=24295964139 t=7790384985 censored=0 table=3072 secs=8.917
+sx-askubuntu-insert-100 WJ status=OK done=7267/7267 net=455691 ops=9444209121 t=7790384985 censored=0 table=3221225472 secs=126.700
+sx-askubuntu-insert-100 WT status=OK done=7267/7267 net=455691 ops=12206318449 t=7790384985 censored=0 table=2680703572 secs=21.213
+sx-askubuntu-insert-100 PW status=OK done=7267/7267 net=455691 ops=9515268908 t=7790384985 censored=0 table=3221225472 secs=122.207
+check sx-askubuntu insert 100: files 10, comparisons 72670, batches 7267, arms matched to M1C02 0, problems 0
+sx-askubuntu-insert-100 PR status=OK done=7267/7267 net=455691 ops=0 t=7790384985 censored=0 table=3072 secs=8.148
+sx-askubuntu-insert-100 WJ status=OK done=7267/7267 net=455691 ops=0 t=7790384985 censored=0 table=3221225472 secs=125.598
+sx-askubuntu-insert-100 WT status=OK done=7267/7267 net=455691 ops=0 t=7790384985 censored=0 table=2680703572 secs=21.260
+sx-askubuntu-insert-100 PW status=OK done=7267/7267 net=455691 ops=0 t=7790384985 censored=0 table=3221225472 secs=118.479
+sx-askubuntu-insert-100 R2 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 censored=0 table=3072 secs=11.990
+sx-askubuntu-insert-100 WJ status=OK done=7267/7267 net=455691 ops=0 t=7790384985 censored=0 table=3221225472 secs=124.672
+sx-askubuntu-insert-100 WT status=OK done=7267/7267 net=455691 ops=0 t=7790384985 censored=0 table=2680703572 secs=20.893
+sx-askubuntu-insert-100 PW status=OK done=7267/7267 net=455691 ops=0 t=7790384985 censored=0 table=3221225472 secs=118.550
+sx-askubuntu-insert-100 R2 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 censored=0 table=3072 secs=11.988
+sx-askubuntu-insert-100 PR status=OK done=7267/7267 net=455691 ops=0 t=7790384985 censored=0 table=3072 secs=8.153
+check sx-askubuntu insert 100: files 20, comparisons 145340, batches 7267, arms matched to M1C02 0, problems 0
+CELL-DONE sx-askubuntu insert 100 07:07:22
+sx-superuser-insert-1000 R2 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 censored=0 table=3072 secs=32.175
+sx-superuser-insert-1000 PR status=OK done=1109/1109 net=714570 ops=0 t=32917477697 censored=0 table=3072 secs=13.077
+sx-superuser-insert-1000 WJ status=CAP done=847/1109 net=542502 ops=0 t=23543570799 censored=0 table=3221225472 secs=184.787
+NOT-FINISHED timing sx-superuser-insert-1000-WJ rep 1 exit=3
+sx-superuser-insert-1000 WT status=MEM done=1105/1109 net=712777 ops=0 t=32779097348 censored=0 table=5831336692 secs=53.223
+NOT-FINISHED timing sx-superuser-insert-1000-WT rep 1 exit=3
+sx-superuser-insert-1000 PW status=CAP done=847/1109 net=542502 ops=0 t=23543571409 censored=0 table=3221225472 secs=160.919
+NOT-FINISHED timing sx-superuser-insert-1000-PW rep 1 exit=3
+sx-superuser-insert-1000 R2 status=OK done=1109/1109 net=714570 ops=88471472066 t=32917477697 censored=0 table=3072 secs=34.047
+sx-superuser-insert-1000 PR status=OK done=1109/1109 net=714570 ops=42085400718 t=32917477697 censored=0 table=3072 secs=14.374
+check sx-superuser insert 1000: files 7, comparisons 7233, batches 1109, arms matched to M1C02 0, problems 0
+sx-superuser-insert-1000 PR status=OK done=1109/1109 net=714570 ops=0 t=32917477697 censored=0 table=3072 secs=13.482
+sx-superuser-insert-1000 R2 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 censored=0 table=3072 secs=31.927
+sx-superuser-insert-1000 R2 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 censored=0 table=3072 secs=31.980
+sx-superuser-insert-1000 PR status=OK done=1109/1109 net=714570 ops=0 t=32917477697 censored=0 table=3072 secs=13.001
+check sx-superuser insert 1000: files 11, comparisons 11669, batches 1109, arms matched to M1C02 0, problems 0
+CELL-DONE sx-superuser insert 1000 07:17:07
+sx-superuser-insert-100 R2 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 censored=0 table=3072 secs=31.925
+sx-superuser-insert-100 PR status=OK done=11088/11088 net=714570 ops=0 t=32917477697 censored=0 table=3072 secs=21.127
+sx-superuser-insert-100 WJ status=CAP done=8468/11088 net=542371 ops=0 t=23540343847 censored=0 table=3221225472 secs=183.193
+NOT-FINISHED timing sx-superuser-insert-100-WJ rep 1 exit=3
+sx-superuser-insert-100 WT status=MEM done=11048/11088 net=712041 ops=0 t=32766925677 censored=0 table=5828455680 secs=52.734
+NOT-FINISHED timing sx-superuser-insert-100-WT rep 1 exit=3
+sx-superuser-insert-100 PW status=CAP done=8468/11088 net=542371 ops=0 t=23540343847 censored=0 table=3221225472 secs=171.757
+NOT-FINISHED timing sx-superuser-insert-100-PW rep 1 exit=3
+sx-superuser-insert-100 R2 status=OK done=11088/11088 net=714570 ops=88485279431 t=32917477697 censored=0 table=3072 secs=35.000
+sx-superuser-insert-100 PR status=OK done=11088/11088 net=714570 ops=64997576214 t=32917477697 censored=0 table=3072 secs=24.124
+check sx-superuser insert 100: files 7, comparisons 72334, batches 11088, arms matched to M1C02 0, problems 0
+sx-superuser-insert-100 PR status=OK done=11088/11088 net=714570 ops=0 t=32917477697 censored=0 table=3072 secs=21.869
+sx-superuser-insert-100 R2 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 censored=0 table=3072 secs=33.515
+sx-superuser-insert-100 R2 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 censored=0 table=3072 secs=33.779
+sx-superuser-insert-100 PR status=OK done=11088/11088 net=714570 ops=0 t=32917477697 censored=0 table=3072 secs=22.225
+check sx-superuser insert 100: files 11, comparisons 116686, batches 11088, arms matched to M1C02 0, problems 0
+CELL-DONE sx-superuser insert 100 07:27:41
+wiki-talk-temporal-insert-1000 R2 status=TIME done=4964/6101 net=2262837 ops=0 t=321753589663 censored=0 table=3072 secs=599.931
+NOT-FINISHED timing wiki-talk-temporal-insert-1000-R2 rep 1 exit=3
+wiki-talk-temporal-insert-1000 PR status=OK done=6101/6101 net=2787967 ops=0 t=494592303423 censored=0 table=3072 secs=274.893
+wiki-talk-temporal-insert-1000 WJ status=CAP done=970/6101 net=411067 ops=0 t=19143741930 censored=0 table=3221225472 secs=123.327
+NOT-FINISHED timing wiki-talk-temporal-insert-1000-WJ rep 1 exit=3
+wiki-talk-temporal-insert-1000 WT status=MEM done=984/6101 net=423889 ops=0 t=19348578545 censored=0 table=4870518052 secs=29.792
+NOT-FINISHED timing wiki-talk-temporal-insert-1000-WT rep 1 exit=3
+wiki-talk-temporal-insert-1000 PW status=CAP done=970/6101 net=411067 ops=0 t=19143756656 censored=0 table=3221225472 secs=110.844
+NOT-FINISHED timing wiki-talk-temporal-insert-1000-PW rep 1 exit=3
+wiki-talk-temporal-insert-1000 PR status=OK done=6101/6101 net=2787967 ops=552709368762 t=494592303423 censored=0 table=3072 secs=292.341
+check wiki-talk-temporal insert 1000: files 6, comparisons 20088, batches 6101, arms matched to M1C02 0, problems 0
+wiki-talk-temporal-insert-1000 PR status=OK done=6101/6101 net=2787967 ops=0 t=494592303423 censored=0 table=3072 secs=271.399
+wiki-talk-temporal-insert-1000 PR status=OK done=6101/6101 net=2787967 ops=0 t=494592303423 censored=0 table=3072 secs=272.917
+check wiki-talk-temporal insert 1000: files 8, comparisons 32290, batches 6101, arms matched to M1C02 0, problems 0
+CELL-DONE wiki-talk-temporal insert 1000 08:00:40
+wiki-talk-temporal-insert-100 R2 status=TIME done=49653/61006 net=2263032 ops=0 t=321906330414 censored=0 table=3072 secs=600.001
+NOT-FINISHED timing wiki-talk-temporal-insert-100-R2 rep 1 exit=3
+wiki-talk-temporal-insert-100 PR status=OK done=61006/61006 net=2787967 ops=0 t=494592303423 censored=0 table=3072 secs=408.895
+wiki-talk-temporal-insert-100 WJ status=CAP done=9694/61006 net=410574 ops=0 t=19137593759 censored=0 table=3221225472 secs=123.012
+NOT-FINISHED timing wiki-talk-temporal-insert-100-WJ rep 1 exit=3
+wiki-talk-temporal-insert-100 WT status=MEM done=9848/61006 net=423800 ops=0 t=19363691954 censored=0 table=4864787252 secs=29.693
+NOT-FINISHED timing wiki-talk-temporal-insert-100-WT rep 1 exit=3
+wiki-talk-temporal-insert-100 PW status=CAP done=9694/61006 net=410574 ops=0 t=19137593815 censored=0 table=3221225472 secs=115.794
+NOT-FINISHED timing wiki-talk-temporal-insert-100-PW rep 1 exit=3
+wiki-talk-temporal-insert-100 PR status=OK done=61006/61006 net=2787967 ops=764785705356 t=494592303423 censored=0 table=3072 secs=433.142
+check wiki-talk-temporal insert 100: files 6, comparisons 200899, batches 61006, arms matched to M1C02 0, problems 0
+Terminated                 bash scripts/run_m1c03.sh results/screen-c-M1C03 8
+wiki-talk-temporal-insert-100 PR status=OK done=61006/61006 net=2787967 ops=0 t=494592303423 censored=0 table=3072 secs=410.284
+--- resumed after the 16:30 cut-off 09:14:13
+check CollegeMsg expiry 1000: files 20, comparisons 2400, batches 120, arms matched to M1C02 4, problems 0
+check CollegeMsg expiry 1000: files 20, comparisons 2400, batches 120, arms matched to M1C02 4, problems 0
+CELL-DONE CollegeMsg expiry 1000 09:14:14
+check CollegeMsg expiry 100: files 20, comparisons 23940, batches 1197, arms matched to M1C02 4, problems 0
+check CollegeMsg expiry 100: files 20, comparisons 23940, batches 1197, arms matched to M1C02 4, problems 0
+CELL-DONE CollegeMsg expiry 100 09:14:15
+check CollegeMsg insert 1000: files 20, comparisons 1200, batches 60, arms matched to M1C02 4, problems 0
+check CollegeMsg insert 1000: files 20, comparisons 1200, batches 60, arms matched to M1C02 4, problems 0
+CELL-DONE CollegeMsg insert 1000 09:14:16
+check CollegeMsg insert 100: files 20, comparisons 11980, batches 599, arms matched to M1C02 4, problems 0
+check CollegeMsg insert 100: files 20, comparisons 11980, batches 599, arms matched to M1C02 4, problems 0
+CELL-DONE CollegeMsg insert 100 09:14:17
+check email-Eu-core-temporal expiry 1000: files 20, comparisons 13300, batches 665, arms matched to M1C02 4, problems 0
+check email-Eu-core-temporal expiry 1000: files 20, comparisons 13300, batches 665, arms matched to M1C02 4, problems 0
+CELL-DONE email-Eu-core-temporal expiry 1000 09:14:18
+check email-Eu-core-temporal expiry 100: files 20, comparisons 132940, batches 6647, arms matched to M1C02 4, problems 0
+check email-Eu-core-temporal expiry 100: files 20, comparisons 132940, batches 6647, arms matched to M1C02 4, problems 0
+CELL-DONE email-Eu-core-temporal expiry 100 09:14:20
+check email-Eu-core-temporal insert 1000: files 20, comparisons 6660, batches 333, arms matched to M1C02 4, problems 0
+check email-Eu-core-temporal insert 1000: files 20, comparisons 6660, batches 333, arms matched to M1C02 4, problems 0
+CELL-DONE email-Eu-core-temporal insert 1000 09:14:21
+check email-Eu-core-temporal insert 100: files 20, comparisons 66480, batches 3324, arms matched to M1C02 4, problems 0
+check email-Eu-core-temporal insert 100: files 20, comparisons 66480, batches 3324, arms matched to M1C02 4, problems 0
+CELL-DONE email-Eu-core-temporal insert 100 09:14:22
+check sx-mathoverflow expiry 1000: files 20, comparisons 15620, batches 781, arms matched to M1C02 4, problems 0
+check sx-mathoverflow expiry 1000: files 20, comparisons 15620, batches 781, arms matched to M1C02 4, problems 0
+CELL-DONE sx-mathoverflow expiry 1000 09:14:24
+check sx-mathoverflow expiry 100: files 20, comparisons 156180, batches 7809, arms matched to M1C02 4, problems 0
+check sx-mathoverflow expiry 100: files 20, comparisons 156180, batches 7809, arms matched to M1C02 4, problems 0
+CELL-DONE sx-mathoverflow expiry 100 09:14:25
+check sx-askubuntu expiry 1000: files 20, comparisons 29080, batches 1454, arms matched to M1C02 0, problems 0
+check sx-askubuntu expiry 1000: files 20, comparisons 29080, batches 1454, arms matched to M1C02 0, problems 0
+CELL-DONE sx-askubuntu expiry 1000 09:14:26
+check sx-askubuntu expiry 100: files 20, comparisons 290680, batches 14534, arms matched to M1C02 0, problems 0
+check sx-askubuntu expiry 100: files 20, comparisons 290680, batches 14534, arms matched to M1C02 0, problems 0
+CELL-DONE sx-askubuntu expiry 100 09:14:28
+check sx-superuser expiry 1000: files 20, comparisons 44360, batches 2218, arms matched to M1C02 0, problems 0
+check sx-superuser expiry 1000: files 20, comparisons 44360, batches 2218, arms matched to M1C02 0, problems 0
+CELL-DONE sx-superuser expiry 1000 09:14:29
+check sx-superuser expiry 100: files 20, comparisons 443500, batches 22175, arms matched to M1C02 0, problems 0
+check sx-superuser expiry 100: files 20, comparisons 443500, batches 22175, arms matched to M1C02 0, problems 0
+CELL-DONE sx-superuser expiry 100 09:14:31
+check sx-mathoverflow insert 1000: files 20, comparisons 7820, batches 391, arms matched to M1C02 4, problems 0
+check sx-mathoverflow insert 1000: files 20, comparisons 7820, batches 391, arms matched to M1C02 4, problems 0
+CELL-DONE sx-mathoverflow insert 1000 09:14:32
+check sx-mathoverflow insert 100: files 20, comparisons 78100, batches 3905, arms matched to M1C02 4, problems 0
+check sx-mathoverflow insert 100: files 20, comparisons 78100, batches 3905, arms matched to M1C02 4, problems 0
+CELL-DONE sx-mathoverflow insert 100 09:14:33
+check wiki-talk-temporal expiry 1000: files 11, comparisons 103305, batches 12202, arms matched to M1C02 0, problems 0
+check wiki-talk-temporal expiry 1000: files 11, comparisons 103305, batches 12202, arms matched to M1C02 0, problems 0
+CELL-DONE wiki-talk-temporal expiry 1000 09:14:35
+check wiki-talk-temporal expiry 100: files 11, comparisons 1032999, batches 122011, arms matched to M1C02 0, problems 0
+check wiki-talk-temporal expiry 100: files 11, comparisons 1032999, batches 122011, arms matched to M1C02 0, problems 0
+CELL-DONE wiki-talk-temporal expiry 100 09:14:38
+check sx-askubuntu insert 1000: files 20, comparisons 14540, batches 727, arms matched to M1C02 0, problems 0
+check sx-askubuntu insert 1000: files 20, comparisons 14540, batches 727, arms matched to M1C02 0, problems 0
+CELL-DONE sx-askubuntu insert 1000 09:14:39
+check sx-askubuntu insert 100: files 20, comparisons 145340, batches 7267, arms matched to M1C02 0, problems 0
+check sx-askubuntu insert 100: files 20, comparisons 145340, batches 7267, arms matched to M1C02 0, problems 0
+CELL-DONE sx-askubuntu insert 100 09:14:40
+check sx-superuser insert 1000: files 11, comparisons 11669, batches 1109, arms matched to M1C02 0, problems 0
+check sx-superuser insert 1000: files 11, comparisons 11669, batches 1109, arms matched to M1C02 0, problems 0
+CELL-DONE sx-superuser insert 1000 09:14:41
+check sx-superuser insert 100: files 11, comparisons 116686, batches 11088, arms matched to M1C02 0, problems 0
+check sx-superuser insert 100: files 11, comparisons 116686, batches 11088, arms matched to M1C02 0, problems 0
+CELL-DONE sx-superuser insert 100 09:14:43
+check wiki-talk-temporal insert 1000: files 8, comparisons 32290, batches 6101, arms matched to M1C02 0, problems 0
+check wiki-talk-temporal insert 1000: files 8, comparisons 32290, batches 6101, arms matched to M1C02 0, problems 0
+CELL-DONE wiki-talk-temporal insert 1000 09:14:44
+check wiki-talk-temporal insert 100: files 7, comparisons 261905, batches 61006, arms matched to M1C02 0, problems 0
+wiki-talk-temporal-insert-100 PR status=OK done=61006/61006 net=2787967 ops=0 t=494592303423 censored=0 table=3072 secs=410.770
+check wiki-talk-temporal insert 100: files 8, comparisons 322911, batches 61006, arms matched to M1C02 0, problems 0
+CELL-DONE wiki-talk-temporal insert 100 09:21:36
+M1C03-DONE results/screen-c-M1C03

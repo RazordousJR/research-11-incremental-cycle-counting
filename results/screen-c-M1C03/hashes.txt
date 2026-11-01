@@ -1,0 +1,40 @@
+M1C03 source fixed 2026-11-01T06:01:52Z, before the first stream run of the real sweep
+base commit 3b6f414, this round uncommitted
+g++.exe (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r1) 16.2.0
+flags: -std=c++20 -O2 -Wall -Wextra -static -lpsapi. timing.exe adds -DFC_TIMING and nothing else. test.exe is tests/test_fivecycle.cpp under the same flags
+pinned to logical CPU 8, a P-core (efficiency class 1) of the Core Ultra 7 265
+
+INCIDENT, recorded here before the sweep. See README.md, Process notes. fivecycle.cpp and test_fivecycle.cpp below are byte for byte the files in place during the mistaken run.
+
+--- sha256 of source
+ec3c9fb237b42deeea0d99cf9628d098bae37a4ce979ff73ff151a9065997f28 *benchmarks/fivecycle.cpp
+5f1a97ae65cf29926bf4146f5b4041875a3dab52574f0955c132a527cf815d57 *tests/test_fivecycle.cpp
+d3db4c7dec77167c5b322693fbfd32deefbe21055862768b64d1ba4255c2f2cb *src/r11/tc.hpp
+ee0198e16ac739721ba6dd67b893a6fe9dfb63e50b89b3254607c2e028a98276 *scripts/run_m1c03.sh
+23f2f5888f16011d4f71ca731c00e4d0d339f4ea131a4717c8e12e933f9189f8 *scripts/check_m1c03.py
+c5ead635e7aae9908002e1e57c1852e82a1f204c12e8bd484e588b18e28d48a3 *scripts/summarise_m1c03.py
+--- sha256 of the kept M1C02 source
+f7bff0195d28d6ef5548d8955a4170ed466cb9ef196a649d684c9d38e20e23a3 *results/screen-c-M1C03/source-M1C02/fivecycle.cpp
+01e0e7a426f4a8f3c7739cb0434cc4256186c536aa2071dc678b8ac98c53180e *results/screen-c-M1C03/source-M1C02/test_fivecycle.cpp
+--- sha256 of binaries
+fe65d90dd194148f91c8a128a6c7e5d3351336704ad9395138ec4dddc687a818 *build/m1c03/count.exe
+79193915c7d785c437eaeb2c98a585acef03bd53c17c4c720bc38d74056d85b5 *build/m1c03/timing.exe
+afbacdaa83ca7a4ab538f2f8ab0c861f073fcf752b4ce897daf845bd6acd2186 *build/m1c03/test.exe
+--- sha256 of streams
+d8e6adfd3ebf5d2160486c216b0a0d0180b442a4892086e1994e0a320f5e7473 *data/derived/CollegeMsg.bin
+b0d4f9fb868ec40abe3a36d155b5554f0ff4e936a58de47cf464e99639bb9c12 *data/derived/CollegeMsg.ins.bin
+d5f52b50be716fcdefcb647fce63de1a1afcf90196ff48cff73b5c84db45629c *data/derived/email-Eu-core-temporal.bin
+3781ff2d2da8f4614cd3c331875e3f60266103f87a8d0ec50bfe4f3bf98e50e1 *data/derived/email-Eu-core-temporal.ins.bin
+14806f4da0f448076c99dc41708c43334be978ee9ddc479a659037ffc4495193 *data/derived/sx-mathoverflow.bin
+06d914883a3f70241354933b63e5b5600f808588feee760e86d7ca9a12036743 *data/derived/sx-mathoverflow.ins.bin
+0cef9fc0514afb9acce51dbba8fc6f1938720969e4fb243363513cb941ff4431 *data/derived/sx-askubuntu.bin
+4486c0e25908d82018fca7e126180ce82f6ba36eafa50f327d74e008b437196e *data/derived/sx-askubuntu.ins.bin
+2248ec2a1ff648a8d4b6cdd4eb922582d77a01545250aa91198f467fd695db9f *data/derived/sx-superuser.bin
+89c9967706038d2d6bfda573fdd9931cac3cf9398e2ab3676bd03cbc3c058e94 *data/derived/sx-superuser.ins.bin
+95daf0d80734efb7cb6ecfc2686bd3ca99080010486dd47467850c2cf0fe542f *data/derived/wiki-talk-temporal.bin
+a91c6b4ee6ad947834ba948e580934e67b8e5a6d0b090638718bdaab6724c86f *data/derived/wiki-talk-temporal.ins.bin
+
+AMENDMENT 2026-11-01T06:23:01Z, after the sweep stopped at wiki-talk-temporal expiry 1000 on a mismatch traced to the harness. See README.md, Process notes.
+fivecycle.cpp, test_fivecycle.cpp, tc.hpp, run_m1c03.sh and all binaries are unchanged. Only these two scripts changed, to leave out the last row of a CAP record:
+0d3db2eb5e31782f0408d62387dbadc9813ae02c79b6597eb0e6417a98d0dd11 *scripts/check_m1c03.py
+7637dfbb8f5f0997fc89dc2190b130e1053a8f8c4aaad789a52d1277eeb696c1 *scripts/summarise_m1c03.py

@@ -1,5 +1,6 @@
 build/
 results/**/raw/
+__pycache__/
 data/
 *.xlsx
 *.docx

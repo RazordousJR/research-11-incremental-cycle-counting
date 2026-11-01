@@ -1,0 +1,21 @@
+state=wiki-talk-temporal-window-half file=data/derived/wiki-talk-temporal.bin frac=0.500 seed_base=1000
+n=1094018 L=21 raw=6100538 applied=3245141 noop_share=0.4681 m=71217 T=6702 source_pairs=71217
+running_count_equals_static_count=1 static_ops=1700855
+D=373206 R=196593 sum_dplus2=176613 D_over_R=1.898 iters=5474682 iters_over_LD=0.6985 iters_over_R=27.85 mults=44766687
+theorem_check iters_le_refined=1 refined=6641885 iters_over_refined=0.8243 mults_le_bound=1 mult_bound=51501284 mults_over_bound=0.869
+static_s=0.07837 prover_s_median=0.1509 min=0.1376 max=0.2769 ratio_median=1.9 ratio_max=3.5
+edit_ns=53.7 scan_plus_edit_ns=103.2 scan_ns=49.4 list_elements_per_update=4.62
+sketch_split_ns=13.9 sketch_pure_ns=223.1 ratio_split_vs_scan=0.281 ratio_pure_vs_scan=4.513 forms_agree=1
+source_filter_ns_per_raw_event=16.1 source_filter_ns_per_applied=30.2
+verifier_words pure=131 split=9284 source_words_at_least=142434
+honest                 runs=300 accepted=300 rejected_at_last_check=0
+wrong_claim            runs=300 accepted=0 rejected_at_last_check=0
+liar_random            runs=300 accepted=0 rejected_at_last_check=300
+fabricator             runs=500 accepted=0 rejected_at_last_check=500
+flipped_edge           runs=300 accepted=0 rejected_at_last_check=300
+dropped_update         runs=300 accepted=0 rejected_at_last_check=300
+CONTROL_leaky_flip     runs=300 accepted=300 rejected_at_last_check=0
+CONTROL_leaky_drop     runs=300 accepted=300 rejected_at_last_check=0
+raw_feed_no_filter     runs=1 accepted=0 rejected_at_last_check=1
+prover_labels_noops    runs=1 accepted=1 rejected_at_last_check=0
+flips_with_same_count=250 sketch_vs_graph_mismatches=0

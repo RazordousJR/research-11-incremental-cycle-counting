@@ -2,26 +2,33 @@
 
 ## Position, 2026-11-01
 
-- **Gate 0 stopped the proposal.** On six real streams the method cost 1.317 to 2.438 times sequential scanning,
-  against a go line of 0.67 (`results/gate0-20261101-d2efe26/README.md`, `log.md` 0008).
-- The stop is not an implementation artifact. With free selection and no overhead, the gain is at most 13%
-  (`results/diag-oracle-20261101-e267b9f/README.md`, `log.md` 0009).
-- The exactly-once proof stands and is tested. It is not a contribution.
-- Not covered: Wikipedia link streams and sx-stackoverflow.
-- Nothing is running. No claim is held. `research11` is registered in the tower.
-- M1A09 to M1A18 wait on the PI. Do not start them.
+- **The original proposal is refuted.** Batch sharing for triangles failed Gate 0, 1.317 to 2.438 times sequential scanning, with a hindsight cap of 13%
+  (`log.md` 0008, 0009).
+- **The PI kept the project open** (`log.md` 0010). Screens B and C are done, all non-citable. The ranking is `docs/novelty/candidates-2026-11-01.md`.
+- **Nothing is running. No claim is held.** Tower claim released 17:21:49.
+- M1B04, the choice of candidate, waits on the PI. Do not start a gate before it.
+
+| Test | Verdict | Read with |
+|---|---|---|
+| M1B01-B, D-k | Go | "Any L" dropped in through-tree form |
+| M1C01, D-k against database baselines | Go at both widths | Thin at 1 s: exactly 4 of 6, 11% cheaper V charges give Pivot |
+| M1B02, receipts | Weak Go on one reading | Stop if an honest run means a graph-blind verifier. Novelty 4, no user |
+| M1B03, ERGM index | Stop on the plain reading | Rule named no graph count. Theta tuned, not fitted |
+| M1C02, 5-cycles on operations | Stop at clause 4 | Clock reverses the winner |
+| M1C03, 5-cycles on the clock | Go by one cell | Shared clock. Worst-of-3 gives Pivot. Operations still favour tables on 16 of 22 |
 
 ## Open, waiting on the PI
 
-1. Close the project, or run one last hindsight check on a Wikipedia stream.
-2. Whether a short negative note is worth writing. Recommended: no.
+The live list is the final table of the last report. In short: M1B04, Chrome reading of Cheetah, Gopher and TODS, whether ControlPC is the coordinator, the readings of M1B02, M1B03 and
+M1C01, §16 figures, library checks for D-k, and two dataset downloads.
 
 ## Handover notes
 
-- `data/` is not in git. `data/snap/SHA256SUMS` lists the six inputs. Rebuild `data/derived/` with
-  `scripts/prepare_stream.py`.
-- `build/r11_probe.exe` is currently the hindsight diagnostic, built from `benchmarks/diag_oracle.cpp`. P0 and P0B
-  came from `benchmarks/probe_ops.cpp` at earlier source hashes.
+- `data/` is not in git. `data/snap/SHA256SUMS` lists the six inputs. Rebuild `data/derived/` with `scripts/prepare_stream.py` and `scripts/prepare_window_stream.py`.
+- Raw per-batch files are ignored by git, under `results/**/raw/`.
+- Heavy work needs a tower claim, released between tests. ControlPC asked on 2026-11-01 for a GO or WAIT before heavy work and first sight of any `--exclusive` timing (`log.md` 0015). R11 follows that
+  until the PI says otherwise.
+- After release, a process with the project folder name on its command line reads as R11 load. A watcher reads only lines written after it starts.
 - DBLP sits behind a bot check and is not screened.
 - Commits are under the PI's name, with the assistant as co-author.
 
@@ -35,6 +42,7 @@ numpy. WSL2 Ubuntu 24.04, stopped. The idea documents name a Ryzen 5 7500F, whic
 ```bash
 export PATH="/c/Develop/tools/winlibs/gcc-16.2.0-ucrt-r1/mingw64/bin:$PATH"
 g++ -std=c++20 -O2 -Wall -Wextra -static -o build/r11_tests.exe tests/test_exact.cpp
-g++ -std=c++20 -O2 -Wall -Wextra -static -o build/r11_gate.exe benchmarks/gate0.cpp
 ./build/r11_tests.exe 200000 7
 ```
+
+Screen binaries are built as each results README states.

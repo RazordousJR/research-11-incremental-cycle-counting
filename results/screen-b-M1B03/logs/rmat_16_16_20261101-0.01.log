@@ -1,0 +1,37 @@
+rmat-s16-f16 n=46733 m0=910197 te=-27.676227 (a=-20.5864) tt=10.000000 burn=9100000 N=10000000 load=2.5s
+  burn 910000 acc=0.3292 m=640444 T=8010557 155.7s
+  burn 1820000 acc=0.2627 m=424278 T=4336886 216.3s
+  burn 2730000 acc=0.1762 m=281381 T=2523389 243.3s
+  burn 3640000 acc=0.1015 m=202741 T=1590482 256.6s
+  burn 4550000 acc=0.0537 m=164928 T=1145083 263.9s
+  burn 5460000 acc=0.0302 m=146943 T=935026 268.4s
+  burn 6370000 acc=0.0198 m=137384 T=823628 271.6s
+  burn 7280000 acc=0.0157 m=131253 T=752166 274.1s
+  burn 8190000 acc=0.0135 m=126788 T=702661 276.3s
+  burn 9100000 acc=0.0120 m=123151 T=664816 278.2s
+  start of count: m=123151 T=664816 wedges=93662573 dyads=66773907 278.6s
+  split h=1024 entries=70620 278.6s
+  split h=4096 entries=44100 278.6s
+  split-formula h=64 entries=7051961 278.7s
+  split-formula h=256 entries=602129 278.7s
+  step 1000000 acc=0.0110 m=120023 T=633690 add=3960 del=7088 291.0s
+  step 2000000 acc=0.0103 m=117306 T=607903 add=7764 del=13609 302.5s
+  step 3000000 acc=0.0097 m=114919 T=584549 add=11415 del=19647 313.4s
+  step 4000000 acc=0.0095 m=112776 T=564133 add=15073 del=25448 324.1s
+  step 5000000 acc=0.0090 m=110863 T=545839 add=18607 del=30895 333.9s
+  step 6000000 acc=0.0085 m=109110 T=530257 add=21986 del=36027 343.2s
+  step 7000000 acc=0.0084 m=107541 T=515125 add=25395 del=41005 352.3s
+  step 8000000 acc=0.0080 m=105976 T=501796 add=28620 del=45795 361.1s
+  step 9000000 acc=0.0076 m=104438 T=489033 add=31669 del=50382 369.6s
+  step 10000000 acc=0.0076 m=103050 T=476530 add=34755 del=54856 377.8s
+  scan           h=0     memo=0         md=0   ops=   14199280015 per=   1419.93 entries=0 bytes=0.000e+00
+  scan           h=0     memo=131072    md=3   ops=    4201115643 per=    420.11 entries=0 bytes=3.333e+06
+  scan           h=0     memo=524288    md=3   ops=    3866548836 per=    386.65 entries=0 bytes=1.277e+07
+  scan           h=0     memo=2097152   md=3   ops=    3736519767 per=    373.65 entries=0 bytes=5.052e+07
+  scan           h=0     memo=524288    md=16  ops=    3768859258 per=    376.89 entries=0 bytes=1.277e+07
+  split          h=1024  memo=0         md=0   ops=    1095927505 per=    109.59 entries=70633 bytes=6.876e+06
+  split          h=4096  memo=0         md=0   ops=    3916696587 per=    391.67 entries=44969 bytes=2.451e+07
+  split-formula  h=64    memo=0         md=0   ops=     242223273 per=     24.22 entries=7051961 bytes=8.504e+07
+  split-formula  h=256   memo=0         md=0   ops=     394743908 per=     39.47 entries=602129 bytes=8.768e+06
+  eager-formula  h=0     memo=0         md=0   ops=     287639207 per=     28.76 entries=66773907 bytes=8.013e+08
+  acc=0.00896 tail=0.00802 m_end=103050 T_end=476530 checks=12 hash=40d6597258628226 total=377.9s

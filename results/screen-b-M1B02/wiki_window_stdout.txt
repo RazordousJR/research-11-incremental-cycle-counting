@@ -1,0 +1,623 @@
+[wiki-talk-temporal-window-half] n=1094018 L=21 raw=6100538 applied=3245141 noop_share=0.4681
+[wiki-talk-temporal-window-half] m=71217 T=6702 D=373206 R=196593 edit_s=0.174 scan+edit_s=0.335 static_s=0.0784
+  seed 1000 honest accepted=1 0.142s
+  seed 1000 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1001 honest accepted=1 0.164s
+  seed 1001 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1002 honest accepted=1 0.216s
+  seed 1002 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1003 honest accepted=1 0.189s
+  seed 1003 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1004 honest accepted=1 0.155s
+  seed 1004 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1005 honest accepted=1 0.217s
+  seed 1005 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1006 honest accepted=1 0.150s
+  seed 1006 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1007 honest accepted=1 0.186s
+  seed 1007 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1008 honest accepted=1 0.148s
+  seed 1008 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1009 honest accepted=1 0.176s
+  seed 1009 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1010 honest accepted=1 0.147s
+  seed 1010 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1011 honest accepted=1 0.177s
+  seed 1011 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1012 honest accepted=1 0.146s
+  seed 1012 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1013 honest accepted=1 0.161s
+  seed 1013 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1014 honest accepted=1 0.187s
+  seed 1014 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1015 honest accepted=1 0.145s
+  seed 1015 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1016 honest accepted=1 0.157s
+  seed 1016 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1017 honest accepted=1 0.148s
+  seed 1017 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1018 honest accepted=1 0.177s
+  seed 1018 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1019 honest accepted=1 0.158s
+  seed 1019 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1020 honest accepted=1 0.148s
+  seed 1020 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1021 honest accepted=1 0.186s
+  seed 1021 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1022 honest accepted=1 0.150s
+  seed 1022 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1023 honest accepted=1 0.146s
+  seed 1023 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1024 honest accepted=1 0.155s
+  seed 1024 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1025 honest accepted=1 0.151s
+  seed 1025 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1026 honest accepted=1 0.151s
+  seed 1026 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1027 honest accepted=1 0.149s
+  seed 1027 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1028 honest accepted=1 0.148s
+  seed 1028 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1029 honest accepted=1 0.147s
+  seed 1029 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1030 honest accepted=1 0.181s
+  seed 1030 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1031 honest accepted=1 0.148s
+  seed 1031 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1032 honest accepted=1 0.146s
+  seed 1032 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1033 honest accepted=1 0.149s
+  seed 1033 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1034 honest accepted=1 0.153s
+  seed 1034 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1035 honest accepted=1 0.149s
+  seed 1035 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1036 honest accepted=1 0.222s
+  seed 1036 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1037 honest accepted=1 0.189s
+  seed 1037 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1038 honest accepted=1 0.146s
+  seed 1038 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1039 honest accepted=1 0.145s
+  seed 1039 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1040 honest accepted=1 0.146s
+  seed 1040 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1041 honest accepted=1 0.147s
+  seed 1041 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1042 honest accepted=1 0.148s
+  seed 1042 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1043 honest accepted=1 0.157s
+  seed 1043 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1044 honest accepted=1 0.147s
+  seed 1044 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1045 honest accepted=1 0.146s
+  seed 1045 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1046 honest accepted=1 0.176s
+  seed 1046 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1047 honest accepted=1 0.176s
+  seed 1047 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1048 honest accepted=1 0.148s
+  seed 1048 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1049 honest accepted=1 0.171s
+  seed 1049 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1050 honest accepted=1 0.148s
+  seed 1050 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1051 honest accepted=1 0.145s
+  seed 1051 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1052 honest accepted=1 0.145s
+  seed 1052 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1053 honest accepted=1 0.164s
+  seed 1053 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1054 honest accepted=1 0.146s
+  seed 1054 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1055 honest accepted=1 0.161s
+  seed 1055 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1056 honest accepted=1 0.164s
+  seed 1056 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1057 honest accepted=1 0.168s
+  seed 1057 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1058 honest accepted=1 0.148s
+  seed 1058 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1059 honest accepted=1 0.160s
+  seed 1059 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1060 honest accepted=1 0.161s
+  seed 1060 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1061 honest accepted=1 0.149s
+  seed 1061 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1062 honest accepted=1 0.177s
+  seed 1062 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1063 honest accepted=1 0.152s
+  seed 1063 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1064 honest accepted=1 0.173s
+  seed 1064 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1065 honest accepted=1 0.146s
+  seed 1065 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1066 honest accepted=1 0.146s
+  seed 1066 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1067 honest accepted=1 0.159s
+  seed 1067 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1068 honest accepted=1 0.146s
+  seed 1068 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1069 honest accepted=1 0.162s
+  seed 1069 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1070 honest accepted=1 0.144s
+  seed 1070 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1071 honest accepted=1 0.200s
+  seed 1071 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1072 honest accepted=1 0.144s
+  seed 1072 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1073 honest accepted=1 0.145s
+  seed 1073 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1074 honest accepted=1 0.146s
+  seed 1074 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1075 honest accepted=1 0.200s
+  seed 1075 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1076 honest accepted=1 0.215s
+  seed 1076 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1077 honest accepted=1 0.177s
+  seed 1077 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1078 honest accepted=1 0.174s
+  seed 1078 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1079 honest accepted=1 0.233s
+  seed 1079 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1080 honest accepted=1 0.150s
+  seed 1080 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1081 honest accepted=1 0.144s
+  seed 1081 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1082 honest accepted=1 0.181s
+  seed 1082 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1083 honest accepted=1 0.176s
+  seed 1083 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1084 honest accepted=1 0.227s
+  seed 1084 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1085 honest accepted=1 0.147s
+  seed 1085 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1086 honest accepted=1 0.233s
+  seed 1086 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1087 honest accepted=1 0.247s
+  seed 1087 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1088 honest accepted=1 0.146s
+  seed 1088 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1089 honest accepted=1 0.152s
+  seed 1089 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1090 honest accepted=1 0.147s
+  seed 1090 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1091 honest accepted=1 0.146s
+  seed 1091 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1092 honest accepted=1 0.164s
+  seed 1092 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1093 honest accepted=1 0.177s
+  seed 1093 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1094 honest accepted=1 0.150s
+  seed 1094 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1095 honest accepted=1 0.162s
+  seed 1095 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1096 honest accepted=1 0.145s
+  seed 1096 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1097 honest accepted=1 0.171s
+  seed 1097 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1098 honest accepted=1 0.167s
+  seed 1098 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1099 honest accepted=1 0.171s
+  seed 1099 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1100 honest accepted=1 0.148s
+  seed 1100 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1101 honest accepted=1 0.150s
+  seed 1101 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1102 honest accepted=1 0.144s
+  seed 1102 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1103 honest accepted=1 0.160s
+  seed 1103 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1104 honest accepted=1 0.265s
+  seed 1104 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1105 honest accepted=1 0.233s
+  seed 1105 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1106 honest accepted=1 0.148s
+  seed 1106 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1107 honest accepted=1 0.179s
+  seed 1107 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1108 honest accepted=1 0.148s
+  seed 1108 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1109 honest accepted=1 0.242s
+  seed 1109 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1110 honest accepted=1 0.150s
+  seed 1110 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1111 honest accepted=1 0.230s
+  seed 1111 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1112 honest accepted=1 0.143s
+  seed 1112 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1113 honest accepted=1 0.151s
+  seed 1113 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1114 honest accepted=1 0.149s
+  seed 1114 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1115 honest accepted=1 0.146s
+  seed 1115 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1116 honest accepted=1 0.170s
+  seed 1116 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1117 honest accepted=1 0.149s
+  seed 1117 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1118 honest accepted=1 0.164s
+  seed 1118 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1119 honest accepted=1 0.176s
+  seed 1119 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1120 honest accepted=1 0.145s
+  seed 1120 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1121 honest accepted=1 0.157s
+  seed 1121 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1122 honest accepted=1 0.147s
+  seed 1122 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1123 honest accepted=1 0.150s
+  seed 1123 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1124 honest accepted=1 0.152s
+  seed 1124 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1125 honest accepted=1 0.146s
+  seed 1125 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1126 honest accepted=1 0.165s
+  seed 1126 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1127 honest accepted=1 0.160s
+  seed 1127 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1128 honest accepted=1 0.148s
+  seed 1128 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1129 honest accepted=1 0.156s
+  seed 1129 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1130 honest accepted=1 0.156s
+  seed 1130 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1131 honest accepted=1 0.163s
+  seed 1131 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1132 honest accepted=1 0.147s
+  seed 1132 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1133 honest accepted=1 0.171s
+  seed 1133 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1134 honest accepted=1 0.170s
+  seed 1134 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1135 honest accepted=1 0.207s
+  seed 1135 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1136 honest accepted=1 0.146s
+  seed 1136 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1137 honest accepted=1 0.146s
+  seed 1137 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1138 honest accepted=1 0.164s
+  seed 1138 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1139 honest accepted=1 0.147s
+  seed 1139 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1140 honest accepted=1 0.165s
+  seed 1140 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1141 honest accepted=1 0.147s
+  seed 1141 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1142 honest accepted=1 0.169s
+  seed 1142 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1143 honest accepted=1 0.159s
+  seed 1143 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1144 honest accepted=1 0.149s
+  seed 1144 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1145 honest accepted=1 0.150s
+  seed 1145 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1146 honest accepted=1 0.162s
+  seed 1146 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1147 honest accepted=1 0.145s
+  seed 1147 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1148 honest accepted=1 0.157s
+  seed 1148 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1149 honest accepted=1 0.166s
+  seed 1149 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1150 honest accepted=1 0.151s
+  seed 1150 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1151 honest accepted=1 0.158s
+  seed 1151 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1152 honest accepted=1 0.145s
+  seed 1152 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1153 honest accepted=1 0.159s
+  seed 1153 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1154 honest accepted=1 0.277s
+  seed 1154 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1155 honest accepted=1 0.253s
+  seed 1155 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1156 honest accepted=1 0.262s
+  seed 1156 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1157 honest accepted=1 0.196s
+  seed 1157 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1158 honest accepted=1 0.171s
+  seed 1158 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1159 honest accepted=1 0.184s
+  seed 1159 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1160 honest accepted=1 0.167s
+  seed 1160 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1161 honest accepted=1 0.148s
+  seed 1161 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1162 honest accepted=1 0.148s
+  seed 1162 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1163 honest accepted=1 0.182s
+  seed 1163 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1164 honest accepted=1 0.159s
+  seed 1164 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1165 honest accepted=1 0.170s
+  seed 1165 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1166 honest accepted=1 0.152s
+  seed 1166 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1167 honest accepted=1 0.148s
+  seed 1167 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1168 honest accepted=1 0.149s
+  seed 1168 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1169 honest accepted=1 0.150s
+  seed 1169 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1170 honest accepted=1 0.179s
+  seed 1170 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1171 honest accepted=1 0.218s
+  seed 1171 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1172 honest accepted=1 0.160s
+  seed 1172 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1173 honest accepted=1 0.158s
+  seed 1173 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1174 honest accepted=1 0.149s
+  seed 1174 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1175 honest accepted=1 0.146s
+  seed 1175 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1176 honest accepted=1 0.150s
+  seed 1176 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1177 honest accepted=1 0.168s
+  seed 1177 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1178 honest accepted=1 0.152s
+  seed 1178 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1179 honest accepted=1 0.275s
+  seed 1179 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1180 honest accepted=1 0.194s
+  seed 1180 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1181 honest accepted=1 0.174s
+  seed 1181 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1182 honest accepted=1 0.163s
+  seed 1182 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1183 honest accepted=1 0.196s
+  seed 1183 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1184 honest accepted=1 0.191s
+  seed 1184 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1185 honest accepted=1 0.168s
+  seed 1185 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1186 honest accepted=1 0.151s
+  seed 1186 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1187 honest accepted=1 0.147s
+  seed 1187 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1188 honest accepted=1 0.147s
+  seed 1188 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1189 honest accepted=1 0.150s
+  seed 1189 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1190 honest accepted=1 0.155s
+  seed 1190 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1191 honest accepted=1 0.160s
+  seed 1191 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1192 honest accepted=1 0.152s
+  seed 1192 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1193 honest accepted=1 0.165s
+  seed 1193 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1194 honest accepted=1 0.146s
+  seed 1194 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1195 honest accepted=1 0.143s
+  seed 1195 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1196 honest accepted=1 0.148s
+  seed 1196 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1197 honest accepted=1 0.164s
+  seed 1197 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1198 honest accepted=1 0.163s
+  seed 1198 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1199 honest accepted=1 0.149s
+  seed 1199 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1200 honest accepted=1 0.145s
+  seed 1200 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1201 honest accepted=1 0.146s
+  seed 1201 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1202 honest accepted=1 0.148s
+  seed 1202 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1203 honest accepted=1 0.147s
+  seed 1203 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1204 honest accepted=1 0.144s
+  seed 1204 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1205 honest accepted=1 0.147s
+  seed 1205 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1206 honest accepted=1 0.146s
+  seed 1206 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1207 honest accepted=1 0.149s
+  seed 1207 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1208 honest accepted=1 0.148s
+  seed 1208 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1209 honest accepted=1 0.148s
+  seed 1209 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1210 honest accepted=1 0.151s
+  seed 1210 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1211 honest accepted=1 0.149s
+  seed 1211 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1212 honest accepted=1 0.147s
+  seed 1212 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1213 honest accepted=1 0.153s
+  seed 1213 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1214 honest accepted=1 0.147s
+  seed 1214 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1215 honest accepted=1 0.151s
+  seed 1215 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1216 honest accepted=1 0.146s
+  seed 1216 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1217 honest accepted=1 0.155s
+  seed 1217 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1218 honest accepted=1 0.148s
+  seed 1218 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1219 honest accepted=1 0.158s
+  seed 1219 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1220 honest accepted=1 0.146s
+  seed 1220 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1221 honest accepted=1 0.146s
+  seed 1221 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1222 honest accepted=1 0.149s
+  seed 1222 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1223 honest accepted=1 0.146s
+  seed 1223 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1224 honest accepted=1 0.146s
+  seed 1224 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1225 honest accepted=1 0.150s
+  seed 1225 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1226 honest accepted=1 0.151s
+  seed 1226 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1227 honest accepted=1 0.174s
+  seed 1227 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1228 honest accepted=1 0.151s
+  seed 1228 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1229 honest accepted=1 0.152s
+  seed 1229 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1230 honest accepted=1 0.148s
+  seed 1230 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1231 honest accepted=1 0.156s
+  seed 1231 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1232 honest accepted=1 0.169s
+  seed 1232 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1233 honest accepted=1 0.154s
+  seed 1233 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1234 honest accepted=1 0.177s
+  seed 1234 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1235 honest accepted=1 0.161s
+  seed 1235 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1236 honest accepted=1 0.158s
+  seed 1236 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1237 honest accepted=1 0.222s
+  seed 1237 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1238 honest accepted=1 0.150s
+  seed 1238 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1239 honest accepted=1 0.152s
+  seed 1239 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1240 honest accepted=1 0.188s
+  seed 1240 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1241 honest accepted=1 0.150s
+  seed 1241 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1242 honest accepted=1 0.152s
+  seed 1242 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1243 honest accepted=1 0.150s
+  seed 1243 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1244 honest accepted=1 0.152s
+  seed 1244 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1245 honest accepted=1 0.223s
+  seed 1245 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1246 honest accepted=1 0.159s
+  seed 1246 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1247 honest accepted=1 0.151s
+  seed 1247 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1248 honest accepted=1 0.174s
+  seed 1248 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1249 honest accepted=1 0.158s
+  seed 1249 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1250 honest accepted=1 0.170s
+  seed 1250 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1251 honest accepted=1 0.156s
+  seed 1251 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1252 honest accepted=1 0.151s
+  seed 1252 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1253 honest accepted=1 0.150s
+  seed 1253 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1254 honest accepted=1 0.149s
+  seed 1254 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1255 honest accepted=1 0.151s
+  seed 1255 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1256 honest accepted=1 0.148s
+  seed 1256 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1257 honest accepted=1 0.158s
+  seed 1257 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1258 honest accepted=1 0.161s
+  seed 1258 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1259 honest accepted=1 0.148s
+  seed 1259 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1260 honest accepted=1 0.149s
+  seed 1260 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1261 honest accepted=1 0.173s
+  seed 1261 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1262 honest accepted=1 0.151s
+  seed 1262 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1263 honest accepted=1 0.152s
+  seed 1263 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1264 honest accepted=1 0.147s
+  seed 1264 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1265 honest accepted=1 0.177s
+  seed 1265 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1266 honest accepted=1 0.146s
+  seed 1266 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1267 honest accepted=1 0.145s
+  seed 1267 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1268 honest accepted=1 0.145s
+  seed 1268 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1269 honest accepted=1 0.144s
+  seed 1269 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1270 honest accepted=1 0.145s
+  seed 1270 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1271 honest accepted=1 0.182s
+  seed 1271 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1272 honest accepted=1 0.147s
+  seed 1272 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1273 honest accepted=1 0.167s
+  seed 1273 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1274 honest accepted=1 0.178s
+  seed 1274 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1275 honest accepted=1 0.142s
+  seed 1275 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1276 honest accepted=1 0.141s
+  seed 1276 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1277 honest accepted=1 0.138s
+  seed 1277 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1278 honest accepted=1 0.142s
+  seed 1278 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1279 honest accepted=1 0.152s
+  seed 1279 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1280 honest accepted=1 0.141s
+  seed 1280 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1281 honest accepted=1 0.147s
+  seed 1281 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1282 honest accepted=1 0.140s
+  seed 1282 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1283 honest accepted=1 0.150s
+  seed 1283 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1284 honest accepted=1 0.148s
+  seed 1284 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1285 honest accepted=1 0.142s
+  seed 1285 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1286 honest accepted=1 0.145s
+  seed 1286 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1287 honest accepted=1 0.143s
+  seed 1287 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1288 honest accepted=1 0.141s
+  seed 1288 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1289 honest accepted=1 0.140s
+  seed 1289 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1290 honest accepted=1 0.140s
+  seed 1290 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1291 honest accepted=1 0.142s
+  seed 1291 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1292 honest accepted=1 0.141s
+  seed 1292 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1293 honest accepted=1 0.140s
+  seed 1293 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1294 honest accepted=1 0.141s
+  seed 1294 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1295 honest accepted=1 0.148s
+  seed 1295 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1296 honest accepted=1 0.139s
+  seed 1296 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1297 honest accepted=1 0.140s
+  seed 1297 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1298 honest accepted=1 0.142s
+  seed 1298 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 1299 honest accepted=1 0.145s
+  seed 1299 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+state=wiki-talk-temporal-window-half file=data/derived/wiki-talk-temporal.bin frac=0.500 seed_base=1000
+n=1094018 L=21 raw=6100538 applied=3245141 noop_share=0.4681 m=71217 T=6702 source_pairs=71217
+running_count_equals_static_count=1 static_ops=1700855
+D=373206 R=196593 sum_dplus2=176613 D_over_R=1.898 iters=5474682 iters_over_LD=0.6985 iters_over_R=27.85 mults=44766687
+theorem_check iters_le_refined=1 refined=6641885 iters_over_refined=0.8243 mults_le_bound=1 mult_bound=51501284 mults_over_bound=0.869
+static_s=0.07837 prover_s_median=0.1509 min=0.1376 max=0.2769 ratio_median=1.9 ratio_max=3.5
+edit_ns=53.7 scan_plus_edit_ns=103.2 scan_ns=49.4 list_elements_per_update=4.62
+sketch_split_ns=13.9 sketch_pure_ns=223.1 ratio_split_vs_scan=0.281 ratio_pure_vs_scan=4.513 forms_agree=1
+source_filter_ns_per_raw_event=16.1 source_filter_ns_per_applied=30.2
+verifier_words pure=131 split=9284 source_words_at_least=142434
+honest                 runs=300 accepted=300 rejected_at_last_check=0
+wrong_claim            runs=300 accepted=0 rejected_at_last_check=0
+liar_random            runs=300 accepted=0 rejected_at_last_check=300
+fabricator             runs=500 accepted=0 rejected_at_last_check=500
+flipped_edge           runs=300 accepted=0 rejected_at_last_check=300
+dropped_update         runs=300 accepted=0 rejected_at_last_check=300
+CONTROL_leaky_flip     runs=300 accepted=300 rejected_at_last_check=0
+CONTROL_leaky_drop     runs=300 accepted=300 rejected_at_last_check=0
+raw_feed_no_filter     runs=1 accepted=0 rejected_at_last_check=1
+prover_labels_noops    runs=1 accepted=1 rejected_at_last_check=0
+flips_with_same_count=250 sketch_vs_graph_mismatches=0

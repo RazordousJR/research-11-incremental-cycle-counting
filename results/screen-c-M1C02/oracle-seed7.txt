@@ -1,0 +1,23 @@
+trials 200000, batches 1501792, updates 7422344 (ins 5490206, del 1932138), no-ops 7957988, repeated pairs 1104005
+stars 1756679, spokes 5471073, pair checks 7384463, table checks 1501792, closed-walk checks 93862, RC bound checks 1501792, largest count 13554
+RC after stopped recounts: done
+table cap: stopped at 5732 entries, 98304 bytes
+large stream: 600 batches, final count 2207256, edges 722
+control, naive per-edge sum: wrong on 777448 of 1501792 batches
+mutant  1: wrong on 3715 of 4000 trials
+mutant  2: wrong on 3811 of 4000 trials
+mutant  3: wrong on 3809 of 4000 trials
+mutant  4: wrong on 3715 of 4000 trials
+mutant  5: wrong on 3782 of 4000 trials
+mutant  6: wrong on 3497 of 4000 trials
+mutant  7: wrong on 2910 of 4000 trials
+mutant  8: wrong on 3323 of 4000 trials
+mutant  9: wrong on 3343 of 4000 trials
+mutant 10: wrong on 3573 of 4000 trials
+mutant 11: wrong on 3568 of 4000 trials
+mutant 12: wrong on 3805 of 4000 trials
+PASS
+
+real	0m56.798s
+user	0m0.000s
+sys	0m0.030s

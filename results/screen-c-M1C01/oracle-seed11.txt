@@ -1,0 +1,13 @@
+trials=200000 seed=11 events=14911506 window_checks=37280721
+coverage: equal-slot events=6734296 repeats=11284784 re-entries after horizon=3527451 time jumps past horizon=367869 same-slot no-ops=1314331
+coverage: W moved=1390525 added=2809916 log fallbacks W=164192 B2r=400609 death re-homed=1047208
+failures: W=0 W0=0 B2_plain=0 B2_recency=0 B1=0 P=0 D=0 B_histogram=0
+control, plain add for the move rule: wrong on 157114 of 200000 trials
+control, W against the >= tie rule: differs on 171482 of 200000 trials
+M1B01-B failures: W-F=0 W-F any length=0 (of 186542142) tree nodes=0 D-k=0 D-k invariants and identity=0
+M1B01-B coverage: D-k re-homed=1893301 immediate re-home scans=626516
+mutants wrong, of 200000 trials: W-F plain add=157114 no clear=172076 move keeps old unit=157114; D-k lazy only=80013 true before stale=27067 no id tie-break=98678
+M1C01 failures: V=0 V structure=0 V count ring=0 K=0 K state=0 DI=0 DI state=0 D-k scan split=0
+M1C01 coverage: V records=2809916 moved=1390525 K re-entry scans=2596932 K re-homed=2928323 DI exit scans=6443002
+M1C01 mutants wrong, of 200000 trials: V no sigma write=87919 V one other pair=111456 V no unlink=180930; K no re-entry scan=71013 K no reset=62681 K no id tie-break=111079; DI no exit scan=180189 DI no id tie-break=79215 DI exit at new time=149761
+PASS

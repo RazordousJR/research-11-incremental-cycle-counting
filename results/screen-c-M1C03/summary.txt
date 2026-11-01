@@ -1,0 +1,255 @@
+exactness: mismatches 0 comparisons 3103980
+
+per cell, median seconds of 3, n/f = not finished. Score = PR / best of R2, WJ, WT
+CollegeMsg               expiry   100 R2     0.025 PR     0.021 WJ     0.096 WT     0.034 PW     0.095 | win PR  best R2  score   0.840 PW/best   3.800
+CollegeMsg               expiry  1000 R2     0.024 PR     0.017 WJ     0.093 WT     0.033 PW     0.091 | win PR  best R2  score   0.708 PW/best   3.792
+CollegeMsg               insert   100 R2     0.023 PR     0.019 WJ     0.111 WT     0.027 PW     0.104 | win PR  best R2  score   0.826 PW/best   4.522
+CollegeMsg               insert  1000 R2     0.024 PR     0.016 WJ     0.111 WT     0.027 PW     0.097 | win PR  best R2  score   0.667 PW/best   4.042
+email-Eu-core-temporal   expiry   100 R2     0.122 PR     0.101 WJ     0.314 WT     0.137 PW     0.324 | win PR  best R2  score   0.828 PW/best   2.656
+email-Eu-core-temporal   expiry  1000 R2     0.099 PR     0.074 WJ     0.249 WT     0.114 PW     0.259 | win PR  best R2  score   0.747 PW/best   2.616
+email-Eu-core-temporal   insert   100 R2     0.052 PR     0.045 WJ     0.212 WT     0.045 PW     0.200 | win PR  best WT  score   1.000 PW/best   4.444
+email-Eu-core-temporal   insert  1000 R2     0.051 PR     0.040 WJ     0.213 WT     0.045 PW     0.194 | win PR  best WT  score   0.889 PW/best   4.311
+sx-mathoverflow          expiry   100 R2     0.209 PR     0.189 WJ     0.406 WT     0.287 PW     0.448 | win PR  best R2  score   0.904 PW/best   2.144
+sx-mathoverflow          expiry  1000 R2     0.191 PR     0.132 WJ     0.340 WT     0.262 PW     0.368 | win PR  best R2  score   0.691 PW/best   1.927
+sx-mathoverflow          insert   100 R2     4.165 PR     3.572 WJ    40.646 WT     7.698 PW    38.566 | win PR  best R2  score   0.858 PW/best   9.260
+sx-mathoverflow          insert  1000 R2     4.153 PR     2.595 WJ    40.608 WT     7.689 PW    35.928 | win PR  best R2  score   0.625 PW/best   8.651
+sx-askubuntu             expiry   100 R2     0.483 PR     0.431 WJ     1.217 WT     0.900 PW     1.304 | win PR  best R2  score   0.892 PW/best   2.700
+sx-askubuntu             expiry  1000 R2     0.462 PR     0.270 WJ     1.073 WT     0.856 PW     1.108 | win PR  best R2  score   0.584 PW/best   2.398
+sx-askubuntu             insert   100 R2    11.988 PR     8.148 WJ   124.920 WT    20.893 PW   118.479 | win PR  best R2  score   0.680 PW/best   9.883
+sx-askubuntu             insert  1000 R2    11.945 PR     4.866 WJ   124.729 WT    20.865 PW   111.888 | win PR  best R2  score   0.407 PW/best   9.367
+sx-superuser             expiry   100 R2     0.806 PR     0.726 WJ     2.026 WT     1.476 PW     2.194 | win PR  best R2  score   0.901 PW/best   2.722
+sx-superuser             expiry  1000 R2     0.776 PR     0.473 WJ     1.851 WT     1.413 PW     1.910 | win PR  best R2  score   0.610 PW/best   2.461
+sx-superuser             insert   100 R2    33.515 PR    21.869 WJ       n/f WT       n/f PW       n/f | win PR  best R2  score   0.653 PW/best     n/f
+sx-superuser             insert  1000 R2    31.980 PR    13.077 WJ       n/f WT       n/f PW       n/f | win PR  best R2  score   0.409 PW/best     n/f
+wiki-talk-temporal       expiry   100 R2    36.654 PR    17.511 WJ       n/f WT       n/f PW       n/f | win PR  best R2  score   0.478 PW/best     n/f
+wiki-talk-temporal       expiry  1000 R2    36.398 PR    10.798 WJ       n/f WT       n/f PW       n/f | win PR  best R2  score   0.297 PW/best     n/f
+wiki-talk-temporal       insert   100 R2       n/f PR   410.284 WJ       n/f WT       n/f PW       n/f | NOT SCORED
+wiki-talk-temporal       insert  1000 R2       n/f PR   272.917 WJ       n/f WT       n/f PW       n/f | NOT SCORED
+
+not finished, by reason
+sx-superuser             insert   100 WJ  CAP   8468/11088 batches
+sx-superuser             insert   100 WT  MEM   11048/11088 batches
+sx-superuser             insert   100 PW  CAP   8468/11088 batches
+sx-superuser             insert  1000 WJ  CAP   847/1109 batches
+sx-superuser             insert  1000 WT  MEM   1105/1109 batches
+sx-superuser             insert  1000 PW  CAP   847/1109 batches
+wiki-talk-temporal       expiry   100 WJ  CAP   18870/122011 batches
+wiki-talk-temporal       expiry   100 WT  MEM   19173/122011 batches
+wiki-talk-temporal       expiry   100 PW  CAP   18870/122011 batches
+wiki-talk-temporal       expiry  1000 WJ  CAP   1887/12202 batches
+wiki-talk-temporal       expiry  1000 WT  MEM   1917/12202 batches
+wiki-talk-temporal       expiry  1000 PW  CAP   1887/12202 batches
+wiki-talk-temporal       insert   100 R2  TIME  49653/61006 batches
+wiki-talk-temporal       insert   100 WJ  CAP   9694/61006 batches
+wiki-talk-temporal       insert   100 WT  MEM   9848/61006 batches
+wiki-talk-temporal       insert   100 PW  CAP   9694/61006 batches
+wiki-talk-temporal       insert  1000 R2  TIME  4964/6101 batches
+wiki-talk-temporal       insert  1000 WJ  CAP   970/6101 batches
+wiki-talk-temporal       insert  1000 WT  MEM   984/6101 batches
+wiki-talk-temporal       insert  1000 PW  CAP   970/6101 batches
+
+noise, (max - min) / median of the 3 runs, per arm
+R2  median   0.55%  max   5.53%  over 5% on 1 of 22
+PR  median   0.33%  max   5.02%  over 5% on 1 of 24
+WJ  median   0.53%  max   1.80%  over 5% on 0 of 18
+WT  median   0.67%  max   3.03%  over 5% on 0 of 18
+PW  median   0.65%  max   2.06%  over 5% on 0 of 18
+
+noise against margins: winner, runner-up, second / first, and whether their ranges of 3 runs overlap
+CollegeMsg               expiry   100 PR  R2    1.190 
+CollegeMsg               expiry  1000 PR  R2    1.412 
+CollegeMsg               insert   100 PR  R2    1.211 
+CollegeMsg               insert  1000 PR  R2    1.500 
+email-Eu-core-temporal   expiry   100 PR  R2    1.208 
+email-Eu-core-temporal   expiry  1000 PR  R2    1.338 
+email-Eu-core-temporal   insert   100 PR  WT    1.000 OVERLAP
+email-Eu-core-temporal   insert  1000 PR  WT    1.125 
+sx-mathoverflow          expiry   100 PR  R2    1.106 
+sx-mathoverflow          expiry  1000 PR  R2    1.447 
+sx-mathoverflow          insert   100 PR  R2    1.166 
+sx-mathoverflow          insert  1000 PR  R2    1.600 
+sx-askubuntu             expiry   100 PR  R2    1.121 
+sx-askubuntu             expiry  1000 PR  R2    1.711 
+sx-askubuntu             insert   100 PR  R2    1.471 
+sx-askubuntu             insert  1000 PR  R2    2.455 
+sx-superuser             expiry   100 PR  R2    1.110 
+sx-superuser             expiry  1000 PR  R2    1.641 
+sx-superuser             insert   100 PR  R2    1.533 
+sx-superuser             insert  1000 PR  R2    2.446 
+wiki-talk-temporal       expiry   100 PR  R2    2.093 
+wiki-talk-temporal       expiry  1000 PR  R2    3.371 
+winner rests inside the noise on 1 cells: [('email-Eu-core-temporal', 'insert', 100)]
+
+peak table bytes, MB. WJ and PW flat, 12 byte slots, settled allocation. WT allocation, directory included. Peak resident of the first run
+CollegeMsg               expiry   100 WJ        1.6 WT        1.9 PW        1.6 | rss R2       7.8 PR       7.8 WJ      10.1 WT      10.0
+CollegeMsg               expiry  1000 WJ        1.6 WT        1.9 PW        1.6 | rss R2       7.8 PR       7.8 WJ      10.0 WT       9.9
+CollegeMsg               insert   100 WJ       12.6 WT        6.2 PW       12.6 | rss R2       7.5 PR       7.4 WJ      26.1 WT      13.5
+CollegeMsg               insert  1000 WJ       12.6 WT        6.3 PW       12.6 | rss R2       7.5 PR       7.5 WJ      26.0 WT      13.6
+email-Eu-core-temporal   expiry   100 WJ        0.8 WT        0.6 PW        0.8 | rss R2      19.0 PR      19.0 WJ      20.0 WT      19.9
+email-Eu-core-temporal   expiry  1000 WJ        0.8 WT        0.6 PW        0.8 | rss R2      18.7 PR      18.7 WJ      19.7 WT      19.4
+email-Eu-core-temporal   insert   100 WJ        6.3 WT        4.5 PW        6.3 | rss R2      13.0 PR      13.0 WJ      22.2 WT      18.1
+email-Eu-core-temporal   insert  1000 WJ        6.3 WT        4.5 PW        6.3 | rss R2      12.8 PR      12.9 WJ      22.0 WT      18.0
+sx-mathoverflow          expiry   100 WJ        0.8 WT        1.6 PW        0.8 | rss R2      23.8 PR      24.2 WJ      24.4 WT      26.1
+sx-mathoverflow          expiry  1000 WJ        0.8 WT        1.6 PW        0.8 | rss R2      23.4 PR      23.9 WJ      24.0 WT      25.6
+sx-mathoverflow          insert   100 WJ      805.3 WT      428.8 PW      805.3 | rss R2      34.2 PR      34.6 WJ   1,231.3 WT     458.9
+sx-mathoverflow          insert  1000 WJ      805.3 WT      429.2 PW      805.3 | rss R2      34.1 PR      34.5 WJ   1,231.3 WT     459.1
+sx-askubuntu             expiry   100 WJ        3.1 WT       10.4 PW        3.1 | rss R2      50.6 PR      53.2 WJ      52.6 WT      61.1
+sx-askubuntu             expiry  1000 WJ        3.1 WT       10.4 PW        3.1 | rss R2      49.7 PR      52.3 WJ      51.6 WT      60.1
+sx-askubuntu             insert   100 WJ    3,221.2 WT    2,680.7 PW    3,221.2 | rss R2      70.3 PR      72.9 WJ   4,879.4 WT   2,773.5
+sx-askubuntu             insert  1000 WJ    3,221.2 WT    2,680.9 PW    3,221.2 | rss R2      69.9 PR      72.4 WJ   4,879.1 WT   2,772.8
+sx-superuser             expiry   100 WJ        3.1 WT       12.9 PW        3.1 | rss R2      70.3 PR      73.4 WJ      71.9 WT      83.5
+sx-superuser             expiry  1000 WJ        3.1 WT       12.8 PW        3.1 | rss R2      69.0 PR      72.1 WJ      70.6 WT      81.8
+sx-superuser             insert   100 WJ   3,221.2* WT   5,828.5* PW   3,221.2* | rss R2      79.9 PR      83.0 WJ   4,900.3 WT   5,941.7
+sx-superuser             insert  1000 WJ   3,221.2* WT   5,831.3* PW   3,221.2* | rss R2      79.3 PR      82.4 WJ   4,899.7 WT   5,944.1
+wiki-talk-temporal       expiry   100 WJ   3,221.2* WT   3,923.2* PW   3,221.2* | rss R2     363.5 PR     381.1 WJ   5,157.8 WT   5,888.9
+wiki-talk-temporal       expiry  1000 WJ   3,221.2* WT   3,926.4* PW   3,221.2* | rss R2     356.6 PR     374.1 WJ   5,150.8 WT   5,887.4
+wiki-talk-temporal       insert   100 WJ   3,221.2* WT   4,864.8* PW   3,221.2* | rss R2     360.0 PR     377.5 WJ   5,042.0 WT   5,910.9
+wiki-talk-temporal       insert  1000 WJ   3,221.2* WT   4,870.5* PW   3,221.2* | rss R2     356.6 PR     374.0 WJ   5,038.8 WT   5,914.6
+
+counts beside the clock: table reads, row reads and writes, operations, from the count build
+CollegeMsg               expiry   100 R2  OK    ops         42,546,062 tab_read                  0 tab_write                0 row         22,068,802 scan         19,840,309
+CollegeMsg               expiry   100 PR  OK    ops         32,209,918 tab_read                  0 tab_write                0 row         16,960,622 scan         14,553,683
+CollegeMsg               expiry   100 WJ  OK    ops         19,305,796 tab_read          8,369,902 tab_write        1,722,657 row                  0 scan          8,910,157
+CollegeMsg               expiry   100 WT  OK    ops         29,359,917 tab_read         12,388,577 tab_write        3,726,480 row          4,102,527 scan          8,775,513
+CollegeMsg               expiry   100 PW  OK    ops         20,649,428 tab_read          8,362,850 tab_write        1,722,657 row          1,343,062 scan          8,822,169
+CollegeMsg               expiry  1000 R2  OK    ops         41,152,131 tab_read                  0 tab_write                0 row         21,327,625 scan         19,198,774
+CollegeMsg               expiry  1000 PR  OK    ops         24,861,811 tab_read                  0 tab_write                0 row         12,908,546 scan         11,283,727
+CollegeMsg               expiry  1000 WJ  OK    ops         18,753,032 tab_read          8,124,073 tab_write        1,680,337 row                  0 scan          8,647,234
+CollegeMsg               expiry  1000 WT  OK    ops         28,599,040 tab_read         12,061,596 tab_write        3,637,886 row          4,030,166 scan          8,505,956
+CollegeMsg               expiry  1000 PW  OK    ops         20,048,192 tab_read          7,995,207 tab_write        1,680,337 row          1,615,659 scan          8,362,529
+CollegeMsg               insert   100 R2  OK    ops         56,920,853 tab_read                  0 tab_write                0 row         30,280,463 scan         26,288,252
+CollegeMsg               insert   100 PR  OK    ops         43,101,334 tab_read                  0 tab_write                0 row         23,246,902 scan         19,478,318
+CollegeMsg               insert   100 WJ  OK    ops         21,562,177 tab_read          9,867,466 tab_write        1,856,764 row                  0 scan          9,690,601
+CollegeMsg               insert   100 WT  OK    ops         28,872,517 tab_read         12,813,019 tab_write        3,088,383 row          3,358,071 scan          9,438,022
+CollegeMsg               insert   100 PW  OK    ops         21,097,227 tab_read          9,089,069 tab_write        1,856,764 row          1,160,405 scan          8,802,129
+CollegeMsg               insert  1000 R2  OK    ops         56,867,773 tab_read                  0 tab_write                0 row         30,246,573 scan         26,268,625
+CollegeMsg               insert  1000 PR  OK    ops         34,594,704 tab_read                  0 tab_write                0 row         18,377,935 scan         15,846,473
+CollegeMsg               insert  1000 WJ  OK    ops         21,600,519 tab_read          9,887,530 tab_write        1,856,764 row                  0 scan          9,708,879
+CollegeMsg               insert  1000 WT  OK    ops         28,914,460 tab_read         12,832,458 tab_write        3,088,503 row          3,364,334 scan          9,454,143
+CollegeMsg               insert  1000 PW  OK    ops         19,763,080 tab_read          8,322,276 tab_write        1,856,764 row          1,433,656 scan          7,961,524
+email-Eu-core-temporal   expiry   100 R2  OK    ops        132,956,253 tab_read                  0 tab_write                0 row         66,082,527 scan         62,665,356
+email-Eu-core-temporal   expiry   100 PR  OK    ops         98,826,681 tab_read                  0 tab_write                0 row         48,891,466 scan         45,324,560
+email-Eu-core-temporal   expiry   100 WJ  OK    ops         70,329,075 tab_read         29,176,181 tab_write        7,276,880 row                  0 scan         32,100,778
+email-Eu-core-temporal   expiry   100 WT  OK    ops        114,623,610 tab_read         46,765,470 tab_write       15,153,641 row         17,060,144 scan         33,423,219
+email-Eu-core-temporal   expiry   100 PW  OK    ops         77,253,015 tab_read         29,060,404 tab_write        7,276,880 row          6,669,976 scan         31,801,669
+email-Eu-core-temporal   expiry  1000 R2  OK    ops        105,096,884 tab_read                  0 tab_write                0 row         51,901,443 scan         49,532,014
+email-Eu-core-temporal   expiry  1000 PR  OK    ops         68,289,445 tab_read                  0 tab_write                0 row         33,308,682 scan         31,038,961
+email-Eu-core-temporal   expiry  1000 WJ  OK    ops         55,603,699 tab_read         22,779,159 tab_write        5,989,200 row                  0 scan         25,130,580
+email-Eu-core-temporal   expiry  1000 WT  OK    ops         91,929,959 tab_read         37,211,323 tab_write       12,562,991 row         14,000,217 scan         26,075,244
+email-Eu-core-temporal   expiry  1000 PW  OK    ops         63,096,006 tab_read         23,002,931 tab_write        5,989,200 row          6,737,456 scan         25,098,523
+email-Eu-core-temporal   insert   100 R2  OK    ops        140,762,283 tab_read                  0 tab_write                0 row         76,855,870 scan         62,716,070
+email-Eu-core-temporal   insert   100 PR  OK    ops        120,197,562 tab_read                  0 tab_write                0 row         65,548,590 scan         53,424,117
+email-Eu-core-temporal   insert   100 WJ  OK    ops         57,230,586 tab_read         27,145,450 tab_write        1,773,410 row                  0 scan         27,614,930
+email-Eu-core-temporal   insert   100 WT  OK    ops         71,958,622 tab_read         33,561,515 tab_write        3,442,943 row          7,296,472 scan         26,928,768
+email-Eu-core-temporal   insert   100 PW  OK    ops         53,254,751 tab_read         24,597,924 tab_write        1,773,410 row          1,113,703 scan         25,024,726
+email-Eu-core-temporal   insert  1000 R2  OK    ops        140,735,647 tab_read                  0 tab_write                0 row         76,843,397 scan         62,701,691
+email-Eu-core-temporal   insert  1000 PR  OK    ops        108,229,110 tab_read                  0 tab_write                0 row         59,242,276 scan         47,767,965
+email-Eu-core-temporal   insert  1000 WJ  OK    ops         57,259,533 tab_read         27,160,045 tab_write        1,773,410 row                  0 scan         27,629,282
+email-Eu-core-temporal   insert  1000 WT  OK    ops         71,984,484 tab_read         33,574,764 tab_write        3,442,683 row          7,295,790 scan         26,942,323
+email-Eu-core-temporal   insert  1000 PW  OK    ops         51,695,592 tab_read         23,543,514 tab_write        1,773,410 row          1,692,442 scan         23,941,238
+sx-mathoverflow          expiry   100 R2  OK    ops        215,211,824 tab_read                  0 tab_write                0 row        104,232,150 scan        104,697,804
+sx-mathoverflow          expiry   100 PR  OK    ops        174,745,786 tab_read                  0 tab_write                0 row         86,068,550 scan         81,502,645
+sx-mathoverflow          expiry   100 WJ  OK    ops        117,047,588 tab_read         47,488,206 tab_write       14,491,056 row                  0 scan         52,529,242
+sx-mathoverflow          expiry   100 WT  OK    ops        202,349,504 tab_read         82,231,781 tab_write       31,783,199 row         36,068,638 scan         48,749,482
+sx-mathoverflow          expiry   100 PW  OK    ops        141,574,176 tab_read         50,573,449 tab_write       14,491,056 row         16,519,564 scan         55,985,043
+sx-mathoverflow          expiry  1000 R2  OK    ops        186,440,955 tab_read                  0 tab_write                0 row         89,441,960 scan         90,897,814
+sx-mathoverflow          expiry  1000 PR  OK    ops        105,637,222 tab_read                  0 tab_write                0 row         50,543,322 scan         48,321,830
+sx-mathoverflow          expiry  1000 WJ  OK    ops        101,468,233 tab_read         40,520,595 tab_write       13,326,302 row                  0 scan         45,088,836
+sx-mathoverflow          expiry  1000 WT  OK    ops        177,495,063 tab_read         71,305,090 tab_write       29,502,229 row         30,818,785 scan         42,365,723
+sx-mathoverflow          expiry  1000 PW  OK    ops        122,804,137 tab_read         43,798,417 tab_write       13,326,302 row         14,178,033 scan         47,512,781
+sx-mathoverflow          insert   100 R2  OK    ops     16,223,520,812 tab_read                  0 tab_write                0 row      8,567,788,279 scan      7,647,276,715
+sx-mathoverflow          insert   100 PR  OK    ops     14,132,006,471 tab_read                  0 tab_write                0 row      7,590,343,818 scan      6,532,875,738
+sx-mathoverflow          insert   100 WJ  OK    ops      3,916,258,142 tab_read      1,893,613,289 tab_write      127,650,642 row                  0 scan      1,893,837,357
+sx-mathoverflow          insert   100 WT  OK    ops      4,642,313,535 tab_read      2,204,982,122 tab_write      214,762,922 row        470,547,541 scan      1,750,488,124
+sx-mathoverflow          insert   100 PW  OK    ops      3,856,591,420 tab_read      1,799,270,329 tab_write      127,650,642 row        132,966,511 scan      1,794,983,126
+sx-mathoverflow          insert  1000 R2  OK    ops     16,215,015,360 tab_read                  0 tab_write                0 row      8,562,658,777 scan      7,643,895,976
+sx-mathoverflow          insert  1000 PR  OK    ops     10,557,516,968 tab_read                  0 tab_write                0 row      5,795,815,273 scan      4,752,989,495
+sx-mathoverflow          insert  1000 WJ  OK    ops      3,923,024,123 tab_read      1,896,998,817 tab_write      127,650,642 row                  0 scan      1,897,217,810
+sx-mathoverflow          insert  1000 WT  OK    ops      4,650,657,604 tab_read      2,208,698,462 tab_write      214,811,709 row        472,559,586 scan      1,753,055,021
+sx-mathoverflow          insert  1000 PW  OK    ops      3,605,684,938 tab_read      1,691,388,499 tab_write      127,650,642 row        110,210,389 scan      1,674,714,596
+sx-askubuntu             expiry   100 R2  OK    ops        596,580,156 tab_read                  0 tab_write                0 row        277,547,239 scan        308,183,904
+sx-askubuntu             expiry   100 PR  OK    ops        428,191,756 tab_read                  0 tab_write                0 row        216,339,686 scan        199,169,694
+sx-askubuntu             expiry   100 WJ  OK    ops        380,497,504 tab_read        148,324,489 tab_write       57,676,143 row                  0 scan        169,664,152
+sx-askubuntu             expiry   100 WT  OK    ops        660,843,487 tab_read        266,231,961 tab_write      127,842,598 row        151,088,877 scan        108,921,255
+sx-askubuntu             expiry   100 PW  OK    ops        429,505,812 tab_read        156,325,908 tab_write       57,676,143 row         36,372,474 scan        171,409,453
+sx-askubuntu             expiry  1000 R2  OK    ops        556,183,713 tab_read                  0 tab_write                0 row        257,569,407 scan        287,892,489
+sx-askubuntu             expiry  1000 PR  OK    ops        235,735,334 tab_read                  0 tab_write                0 row        118,541,323 scan        104,934,016
+sx-askubuntu             expiry  1000 WJ  OK    ops        349,469,107 tab_read        134,378,232 tab_write       55,412,185 row                  0 scan        154,849,690
+sx-askubuntu             expiry  1000 WT  OK    ops        611,208,235 tab_read        243,992,392 tab_write      123,386,470 row        135,308,045 scan        101,769,972
+sx-askubuntu             expiry  1000 PW  OK    ops        375,584,163 tab_read        141,309,262 tab_write       55,412,185 row         22,415,337 scan        148,734,845
+sx-askubuntu             insert   100 R2  OK    ops     33,005,727,825 tab_read                  0 tab_write                0 row     16,897,760,950 scan     16,097,540,855
+sx-askubuntu             insert   100 PR  OK    ops     24,295,964,139 tab_read                  0 tab_write                0 row     13,379,077,628 scan     10,905,629,746
+sx-askubuntu             insert   100 WJ  OK    ops      9,444,209,121 tab_read      4,464,132,345 tab_write      537,187,177 row                  0 scan      4,440,524,895
+sx-askubuntu             insert   100 WT  OK    ops     12,206,318,449 tab_read      5,669,494,659 tab_write    1,014,304,036 row      2,678,183,455 scan      2,841,060,213
+sx-askubuntu             insert   100 PW  OK    ops      9,515,268,908 tab_read      4,413,373,458 tab_write      537,187,177 row        232,095,629 scan      4,328,880,867
+sx-askubuntu             insert  1000 R2  OK    ops     33,018,959,186 tab_read                  0 tab_write                0 row     16,905,811,368 scan     16,102,720,207
+sx-askubuntu             insert  1000 PR  OK    ops     15,031,512,263 tab_read                  0 tab_write                0 row      8,459,309,692 scan      6,561,093,096
+sx-askubuntu             insert  1000 WJ  OK    ops      9,433,849,324 tab_read      4,458,954,584 tab_write      537,187,177 row                  0 scan      4,435,342,859
+sx-askubuntu             insert  1000 WT  OK    ops     12,185,385,382 tab_read      5,661,695,398 tab_write    1,014,289,614 row      2,670,928,722 scan      2,835,195,562
+sx-askubuntu             insert  1000 PW  OK    ops      9,093,550,464 tab_read      4,271,832,620 tab_write      537,187,177 row        143,508,963 scan      4,137,289,927
+sx-superuser             expiry   100 R2  OK    ops      1,045,989,920 tab_read                  0 tab_write                0 row        495,530,591 scan        533,131,464
+sx-superuser             expiry   100 PR  OK    ops        766,116,559 tab_read                  0 tab_write                0 row        389,414,218 scan        356,491,953
+sx-superuser             expiry   100 WJ  OK    ops        616,656,087 tab_read        242,808,147 tab_write       90,916,279 row                  0 scan        275,448,309
+sx-superuser             expiry   100 WT  OK    ops      1,069,166,191 tab_read        428,705,431 tab_write      201,369,240 row        234,401,895 scan        194,157,877
+sx-superuser             expiry   100 PW  OK    ops        709,066,461 tab_read        257,682,484 tab_write       90,916,279 row         65,740,074 scan        282,671,678
+sx-superuser             expiry  1000 R2  OK    ops        990,247,059 tab_read                  0 tab_write                0 row        467,699,574 scan        505,358,741
+sx-superuser             expiry  1000 PR  OK    ops        451,442,845 tab_read                  0 tab_write                0 row        229,071,447 scan        202,754,153
+sx-superuser             expiry  1000 WJ  OK    ops        582,107,751 tab_read        227,498,752 tab_write       88,076,227 row                  0 scan        259,055,096
+sx-superuser             expiry  1000 WT  OK    ops      1,013,895,838 tab_read        404,315,047 tab_write      195,684,595 row        218,557,150 scan        184,818,650
+sx-superuser             expiry  1000 PW  OK    ops        633,300,274 tab_read        238,554,986 tab_write       88,076,227 row         42,681,339 scan        251,945,966
+sx-superuser             insert   100 R2  OK    ops     88,485,279,431 tab_read                  0 tab_write                0 row     45,513,743,117 scan     42,951,926,016
+sx-superuser             insert   100 PR  OK    ops     64,997,576,214 tab_read                  0 tab_write                0 row     35,831,115,323 scan     29,145,556,140
+sx-superuser             insert  1000 R2  OK    ops     88,471,472,066 tab_read                  0 tab_write                0 row     45,503,863,913 scan     42,947,997,820
+sx-superuser             insert  1000 PR  OK    ops     42,085,400,718 tab_read                  0 tab_write                0 row     23,524,131,717 scan     18,540,578,817
+wiki-talk-temporal       expiry   100 R2  OK    ops     51,026,290,374 tab_read                  0 tab_write                0 row     21,636,967,028 scan     29,293,313,211
+wiki-talk-temporal       expiry   100 PR  OK    ops     27,375,686,260 tab_read                  0 tab_write                0 row     14,507,218,460 scan     12,759,487,745
+wiki-talk-temporal       expiry  1000 R2  OK    ops     50,542,385,344 tab_read                  0 tab_write                0 row     21,387,016,389 scan     29,060,378,955
+wiki-talk-temporal       expiry  1000 PR  OK    ops     18,781,830,648 tab_read                  0 tab_write                0 row     10,280,316,907 scan      8,396,088,249
+wiki-talk-temporal       insert   100 PR  OK    ops    764,785,705,356 tab_read                  0 tab_write                0 row    429,136,032,330 scan    335,520,448,564
+wiki-talk-temporal       insert  1000 PR  OK    ops    552,709,368,762 tab_read                  0 tab_write                0 row    310,674,580,567 scan    241,906,505,078
+
+hub structure, measured from the streams, at the moment of most wedges
+CollegeMsg               expiry wedges          137,575 edges       4,396 wedges/edge       31.3 max degree 212
+CollegeMsg               insert wedges          755,882 edges      13,838 wedges/edge       54.6 max degree 255
+email-Eu-core-temporal   expiry wedges           51,905 edges       2,948 wedges/edge       17.6 max degree 99
+email-Eu-core-temporal   insert wedges        1,183,216 edges      16,064 wedges/edge       73.7 max degree 345
+sx-mathoverflow          expiry wedges           64,403 edges       2,034 wedges/edge       31.7 max degree 139
+sx-mathoverflow          insert wedges       54,999,653 edges     187,986 wedges/edge      292.6 max degree 2172
+sx-askubuntu             expiry wedges          138,233 edges       4,991 wedges/edge       27.7 max degree 338
+sx-askubuntu             insert wedges      188,156,256 edges     455,691 wedges/edge      412.9 max degree 5401
+sx-superuser             expiry wedges          214,272 edges       6,920 wedges/edge       31.0 max degree 360
+sx-superuser             insert wedges      436,408,980 edges     714,570 wedges/edge      610.7 max degree 14294
+wiki-talk-temporal       expiry wedges      475,689,186 edges      94,028 wedges/edge     5059.0 max degree 29540
+wiki-talk-temporal       insert wedges   16,576,638,535 edges   2,787,967 wedges/edge     5945.8 max degree 141951
+rank correlation, wedges per edge against WT / min(R2, PR), on 18 cells: 0.153
+rank correlation, wedges per edge against the score, on 18 cells: -0.129
+winner by stream and variant:
+  CollegeMsg               expiry cut 100 PR       cut 1000 PR      
+  CollegeMsg               insert cut 100 PR       cut 1000 PR      
+  email-Eu-core-temporal   expiry cut 100 PR       cut 1000 PR      
+  email-Eu-core-temporal   insert cut 100 PR       cut 1000 PR      
+  sx-mathoverflow          expiry cut 100 PR       cut 1000 PR      
+  sx-mathoverflow          insert cut 100 PR       cut 1000 PR      
+  sx-askubuntu             expiry cut 100 PR       cut 1000 PR      
+  sx-askubuntu             insert cut 100 PR       cut 1000 PR      
+  sx-superuser             expiry cut 100 PR       cut 1000 PR      
+  sx-superuser             insert cut 100 PR       cut 1000 PR      
+  wiki-talk-temporal       expiry cut 100 PR       cut 1000 PR      
+  wiki-talk-temporal       insert cut 100 unscored cut 1000 unscored
+
+RULE, as written, medians of 3
+Go: scored 22, wins {'PR': 22}, table wins 0, score <= 0.67 on 9 cells, 5 streams, 4 expiry
+not scored: [('wiki-talk-temporal', 'insert', 100), ('wiki-talk-temporal', 'insert', 1000)]
+cells with score at most 0.67: [('CollegeMsg', 'insert', 1000), ('sx-mathoverflow', 'insert', 1000), ('sx-askubuntu', 'expiry', 1000), ('sx-askubuntu', 'insert', 1000), ('sx-superuser', 'expiry', 1000), ('sx-superuser', 'insert', 100), ('sx-superuser', 'insert', 1000), ('wiki-talk-temporal', 'expiry', 100), ('wiki-talk-temporal', 'expiry', 1000)]
+
+READINGS
+PW left out of fastest overall: Go: scored 22, wins {'PR': 22}, table wins 0, score <= 0.67 on 9 cells, 5 streams, 4 expiry
+each table arm taken alone: Go: scored 22, wins {'PR': 22}, table wins 0, score <= 0.67 on 9 cells, 5 streams, 4 expiry
+PW left out and each alone: Go: scored 22, wins {'PR': 22}, table wins 0, score <= 0.67 on 9 cells, 5 streams, 4 expiry
+
+NOISE ON THE VERDICT
+run 1 alone: Go: scored 22, wins {'PR': 22}, table wins 0, score <= 0.67 on 8 cells, 4 streams, 4 expiry
+run 2 alone: Go: scored 22, wins {'PR': 21, 'WT': 1}, table wins 1, score <= 0.67 on 9 cells, 5 streams, 4 expiry
+run 3 alone: Go: scored 22, wins {'PR': 22}, table wins 0, score <= 0.67 on 9 cells, 5 streams, 4 expiry
+every cell at the worst of its 3 runs for sharing: Pivot: scored 22, wins {'PR': 21, 'WT': 1}, table wins 1, score <= 0.67 on 7 cells, 4 streams, 4 expiry
+every cell at the best of its 3 runs for sharing: Go: scored 22, wins {'PR': 22}, table wins 0, score <= 0.67 on 9 cells, 5 streams, 4 expiry

@@ -1,0 +1,13 @@
+stream,variant,peak_wedges,edges_at_peak,peak_m,wedges_per_edge,max_degree
+CollegeMsg,expiry,137575,4396,4575,31.3,212
+CollegeMsg,insert,755882,13838,13838,54.6,255
+email-Eu-core-temporal,expiry,51905,2948,2948,17.6,99
+email-Eu-core-temporal,insert,1183216,16064,16064,73.7,345
+sx-mathoverflow,expiry,64403,2034,2623,31.7,139
+sx-mathoverflow,insert,54999653,187986,187986,292.6,2172
+sx-askubuntu,expiry,138233,4991,6022,27.7,338
+sx-askubuntu,insert,188156256,455691,455691,412.9,5401
+sx-superuser,expiry,214272,6920,7172,31.0,360
+sx-superuser,insert,436408980,714570,714570,610.7,14294
+wiki-talk-temporal,expiry,475689186,94028,99914,5059.0,29540
+wiki-talk-temporal,insert,16576638535,2787967,2787967,5945.8,141951

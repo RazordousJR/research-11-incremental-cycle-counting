@@ -1,0 +1,2 @@
+label=fully_synthetic K(1000,5000) shuffled ids n=6000 m=5000000 L=13 T=0
+D=5000000000 R=0 refined=20115000000 iters=14845000000 accepted=1 static_s=0.0189 prover_s=7.39 ratio=392

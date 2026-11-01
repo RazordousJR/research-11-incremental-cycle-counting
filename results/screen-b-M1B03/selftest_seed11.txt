@@ -1,0 +1,5 @@
+delta vs brute: trials=552655 bad=0 worst=1.26e-12
+control without the delete correction: wrong on 49772 of 54974 delete dyads (must be > 0)
+live lockstep chains: brute triangle and statistic checks=6000
+exact target on 5 vertices: total variation=0.00750 over 6000000 steps, acceptance=0.723
+SELFTEST OK

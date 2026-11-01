@@ -1,0 +1,25 @@
+sx-superuser-peak n=4348 m0=7172 te=-11.183625 (a=-4.0000) tt=4.150000 burn=2000000 N=10000000 load=0.1s
+  burn 200000 acc=0.0727 m=2719 T=3632 0.1s
+  burn 400000 acc=0.0549 m=2629 T=3531 0.1s
+  burn 600000 acc=0.0540 m=2646 T=3684 0.1s
+  burn 800000 acc=0.0550 m=2620 T=3658 0.1s
+  burn 1000000 acc=0.0546 m=2620 T=3690 0.1s
+  burn 1200000 acc=0.0546 m=2606 T=3721 0.1s
+  burn 1400000 acc=0.0550 m=2579 T=3774 0.1s
+  burn 1600000 acc=0.0544 m=2569 T=3759 0.2s
+  burn 1800000 acc=0.0549 m=2586 T=3854 0.2s
+  burn 2000000 acc=0.0557 m=2589 T=3914 0.2s
+  start of count: m=2589 T=3914 wedges=77173 dyads=41747 0.2s
+  split h=64 entries=5631 0.2s
+  step 1000000 acc=0.0549 m=2580 T=3974 add=27464 del=27473 0.2s
+  step 2000000 acc=0.0545 m=2607 T=4257 add=54752 del=54734 0.3s
+  step 3000000 acc=0.0536 m=2622 T=4338 add=81578 del=81545 0.3s
+  step 4000000 acc=0.0537 m=2592 T=4266 add=108397 del=108394 0.4s
+  step 5000000 acc=0.0555 m=2491 T=4124 add=136076 del=136174 0.4s
+  step 6000000 acc=0.0562 m=2503 T=4334 add=164183 del=164269 0.4s
+  step 7000000 acc=0.0556 m=2565 T=4532 add=192037 del=192061 0.5s
+  step 8000000 acc=0.0541 m=2614 T=4669 add=219122 del=219097 0.5s
+  step 9000000 acc=0.0546 m=2613 T=4789 add=246413 del=246389 0.6s
+  step 10000000 acc=0.0540 m=2644 T=5002 add=273443 del=273388 0.6s
+  split          h=64    memo=0         md=0   ops=      49111759 per=      4.91 entries=8759 bytes=1.442e+05
+  acc=0.05468 tail=0.05492 m_end=2644 T_end=5002 checks=22 hash=ed3950f90796d7ed total=0.6s

@@ -1,0 +1,223 @@
+[sx-askubuntu-insert-only-end] n=157222 L=18 raw=726661 applied=455691 noop_share=0.3729
+[sx-askubuntu-insert-only-end] m=455691 T=680407 D=14541515 R=10168082 edit_s=0.065 scan+edit_s=0.145 static_s=0.0426
+  seed 2000 honest accepted=1 0.391s
+  seed 2000 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2001 honest accepted=1 0.400s
+  seed 2001 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2002 honest accepted=1 0.393s
+  seed 2002 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2003 honest accepted=1 0.380s
+  seed 2003 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2004 honest accepted=1 0.431s
+  seed 2004 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2005 honest accepted=1 0.402s
+  seed 2005 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2006 honest accepted=1 0.389s
+  seed 2006 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2007 honest accepted=1 0.386s
+  seed 2007 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2008 honest accepted=1 0.384s
+  seed 2008 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2009 honest accepted=1 0.389s
+  seed 2009 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2010 honest accepted=1 0.459s
+  seed 2010 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2011 honest accepted=1 0.400s
+  seed 2011 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2012 honest accepted=1 0.426s
+  seed 2012 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2013 honest accepted=1 0.392s
+  seed 2013 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2014 honest accepted=1 0.441s
+  seed 2014 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2015 honest accepted=1 0.459s
+  seed 2015 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2016 honest accepted=1 0.402s
+  seed 2016 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2017 honest accepted=1 0.394s
+  seed 2017 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2018 honest accepted=1 0.406s
+  seed 2018 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2019 honest accepted=1 0.380s
+  seed 2019 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2020 honest accepted=1 0.377s
+  seed 2020 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2021 honest accepted=1 0.379s
+  seed 2021 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2022 honest accepted=1 0.384s
+  seed 2022 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2023 honest accepted=1 0.379s
+  seed 2023 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2024 honest accepted=1 0.398s
+  seed 2024 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2025 honest accepted=1 0.387s
+  seed 2025 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2026 honest accepted=1 0.426s
+  seed 2026 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2027 honest accepted=1 0.404s
+  seed 2027 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2028 honest accepted=1 0.416s
+  seed 2028 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2029 honest accepted=1 0.416s
+  seed 2029 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2030 honest accepted=1 0.467s
+  seed 2030 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2031 honest accepted=1 0.454s
+  seed 2031 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2032 honest accepted=1 0.497s
+  seed 2032 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2033 honest accepted=1 0.392s
+  seed 2033 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2034 honest accepted=1 0.422s
+  seed 2034 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2035 honest accepted=1 0.465s
+  seed 2035 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2036 honest accepted=1 0.408s
+  seed 2036 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2037 honest accepted=1 0.411s
+  seed 2037 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2038 honest accepted=1 0.412s
+  seed 2038 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2039 honest accepted=1 0.391s
+  seed 2039 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2040 honest accepted=1 0.425s
+  seed 2040 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2041 honest accepted=1 0.419s
+  seed 2041 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2042 honest accepted=1 0.423s
+  seed 2042 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2043 honest accepted=1 0.495s
+  seed 2043 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2044 honest accepted=1 0.378s
+  seed 2044 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2045 honest accepted=1 0.378s
+  seed 2045 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2046 honest accepted=1 0.383s
+  seed 2046 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2047 honest accepted=1 0.383s
+  seed 2047 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2048 honest accepted=1 0.428s
+  seed 2048 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2049 honest accepted=1 0.472s
+  seed 2049 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2050 honest accepted=1 0.415s
+  seed 2050 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2051 honest accepted=1 0.392s
+  seed 2051 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2052 honest accepted=1 0.399s
+  seed 2052 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2053 honest accepted=1 0.403s
+  seed 2053 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2054 honest accepted=1 0.386s
+  seed 2054 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2055 honest accepted=1 0.389s
+  seed 2055 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2056 honest accepted=1 0.396s
+  seed 2056 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2057 honest accepted=1 0.386s
+  seed 2057 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2058 honest accepted=1 0.389s
+  seed 2058 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2059 honest accepted=1 0.415s
+  seed 2059 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2060 honest accepted=1 0.396s
+  seed 2060 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2061 honest accepted=1 0.381s
+  seed 2061 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2062 honest accepted=1 0.389s
+  seed 2062 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2063 honest accepted=1 0.397s
+  seed 2063 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2064 honest accepted=1 0.374s
+  seed 2064 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2065 honest accepted=1 0.389s
+  seed 2065 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2066 honest accepted=1 0.386s
+  seed 2066 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2067 honest accepted=1 0.411s
+  seed 2067 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2068 honest accepted=1 0.492s
+  seed 2068 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2069 honest accepted=1 0.426s
+  seed 2069 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2070 honest accepted=1 0.431s
+  seed 2070 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2071 honest accepted=1 0.441s
+  seed 2071 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2072 honest accepted=1 0.495s
+  seed 2072 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2073 honest accepted=1 0.764s
+  seed 2073 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2074 honest accepted=1 0.504s
+  seed 2074 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2075 honest accepted=1 0.433s
+  seed 2075 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2076 honest accepted=1 0.428s
+  seed 2076 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2077 honest accepted=1 0.507s
+  seed 2077 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2078 honest accepted=1 0.495s
+  seed 2078 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2079 honest accepted=1 0.497s
+  seed 2079 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2080 honest accepted=1 0.438s
+  seed 2080 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2081 honest accepted=1 0.496s
+  seed 2081 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2082 honest accepted=1 0.456s
+  seed 2082 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2083 honest accepted=1 0.992s
+  seed 2083 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2084 honest accepted=1 0.486s
+  seed 2084 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2085 honest accepted=1 0.435s
+  seed 2085 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2086 honest accepted=1 0.430s
+  seed 2086 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2087 honest accepted=1 0.467s
+  seed 2087 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2088 honest accepted=1 0.426s
+  seed 2088 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2089 honest accepted=1 0.439s
+  seed 2089 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2090 honest accepted=1 0.452s
+  seed 2090 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2091 honest accepted=1 0.407s
+  seed 2091 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2092 honest accepted=1 0.421s
+  seed 2092 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2093 honest accepted=1 0.403s
+  seed 2093 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2094 honest accepted=1 0.437s
+  seed 2094 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2095 honest accepted=1 0.400s
+  seed 2095 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2096 honest accepted=1 0.409s
+  seed 2096 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2097 honest accepted=1 0.498s
+  seed 2097 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2098 honest accepted=1 0.406s
+  seed 2098 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+  seed 2099 honest accepted=1 0.408s
+  seed 2099 done: wrong_acc=0 liar_acc=0 flip_acc=0 drop_acc=0
+state=sx-askubuntu-insert-only-end file=data/derived/sx-askubuntu.ins.bin frac=1.000 seed_base=2000
+n=157222 L=18 raw=726661 applied=455691 noop_share=0.3729 m=455691 T=680407 source_pairs=455691
+running_count_equals_static_count=1 static_ops=21860459
+D=14541515 R=10168082 sum_dplus2=4373433 D_over_R=1.430 iters=126118442 iters_over_LD=0.4818 iters_over_R=12.40 mults=64810931
+theorem_check iters_le_refined=1 refined=168797505 iters_over_refined=0.7472 mults_le_bound=1 mult_bound=102623704 mults_over_bound=0.632
+static_s=0.04261 prover_s_median=0.4107 min=0.3737 max=0.9922 ratio_median=9.6 ratio_max=23.3
+edit_ns=143.1 scan_plus_edit_ns=317.5 scan_ns=174.5 list_elements_per_update=12.22
+sketch_split_ns=10.5 sketch_pure_ns=175.9 ratio_split_vs_scan=0.060 ratio_pure_vs_scan=1.008 forms_agree=1
+source_filter_ns_per_raw_event=28.2 source_filter_ns_per_applied=44.9
+verifier_words pure=113 split=3131 source_words_at_least=911382
+honest                 runs=100 accepted=100 rejected_at_last_check=0
+wrong_claim            runs=100 accepted=0 rejected_at_last_check=0
+liar_random            runs=100 accepted=0 rejected_at_last_check=100
+fabricator             runs=500 accepted=0 rejected_at_last_check=500
+flipped_edge           runs=100 accepted=0 rejected_at_last_check=100
+dropped_update         runs=100 accepted=0 rejected_at_last_check=100
+CONTROL_leaky_flip     runs=100 accepted=100 rejected_at_last_check=0
+CONTROL_leaky_drop     runs=100 accepted=100 rejected_at_last_check=0
+raw_feed_no_filter     runs=1 accepted=0 rejected_at_last_check=1
+prover_labels_noops    runs=1 accepted=1 rejected_at_last_check=0
+flips_with_same_count=72 sketch_vs_graph_mismatches=0

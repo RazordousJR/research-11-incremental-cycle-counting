@@ -1,0 +1,38 @@
+wiki-talk-temporal-peak n=73932 m0=99914 te=-16.716576 (a=-6.5000) tt=8.000000 burn=2000000 N=10000000 load=0.4s
+  burn 200000 acc=0.3579 m=37649 T=11575 0.5s
+  burn 400000 acc=0.0807 m=24070 T=12274 0.5s
+  burn 600000 acc=0.0113 m=24235 T=12811 0.5s
+  burn 800000 acc=0.0094 m=24734 T=13294 0.6s
+  burn 1000000 acc=0.0091 m=25222 T=13802 0.6s
+  burn 1200000 acc=0.0096 m=25746 T=14333 0.6s
+  burn 1400000 acc=0.0091 m=26254 T=14845 0.6s
+  burn 1600000 acc=0.0086 m=26708 T=15291 0.6s
+  burn 1800000 acc=0.0085 m=27116 T=15725 0.6s
+  burn 2000000 acc=0.0089 m=27603 T=16194 0.7s
+  start of count: m=27603 T=16194 wedges=15558810 dyads=15425251 0.7s
+  split h=64 entries=91897 0.7s
+  split h=256 entries=54296 0.7s
+  split h=1024 entries=30981 0.7s
+  split h=4096 entries=12080 0.7s
+  eager entries=15425251 1.7s
+  step 1000000 acc=0.0089 m=29425 T=18034 add=5381 del=3559 5.7s
+  step 2000000 acc=0.0094 m=30744 T=19381 add=10765 del=7624 9.9s
+  step 3000000 acc=0.0099 m=31594 T=20219 add=16136 del=12145 14.1s
+  step 4000000 acc=0.0099 m=32019 T=20680 add=21293 del=16877 18.3s
+  step 5000000 acc=0.0100 m=32400 T=21069 add=26468 del=21671 22.7s
+  step 6000000 acc=0.0101 m=32658 T=21353 add=31670 del=26615 27.0s
+  step 7000000 acc=0.0102 m=32680 T=21426 add=36790 del=31713 31.3s
+  step 8000000 acc=0.0099 m=32854 T=21633 add=41812 del=36561 35.7s
+  step 9000000 acc=0.0102 m=32994 T=21762 add=46968 del=41577 40.3s
+  step 10000000 acc=0.0102 m=32954 T=21752 add=52025 del=46674 45.2s
+  scan           h=0     memo=0         md=0   ops=     382388886 per=     38.24 entries=0 bytes=0.000e+00
+  scan           h=0     memo=32768     md=3   ops=     212413463 per=     21.24 entries=0 bytes=1.082e+06
+  scan           h=0     memo=131072    md=3   ops=     153626746 per=     15.36 entries=0 bytes=3.441e+06
+  scan           h=0     memo=524288    md=3   ops=     135155716 per=     13.52 entries=0 bytes=1.288e+07
+  scan           h=0     memo=131072    md=16  ops=     259150341 per=     25.92 entries=0 bytes=3.441e+06
+  split          h=64    memo=0         md=0   ops=     134395315 per=     13.44 entries=124583 bytes=2.160e+06
+  split          h=256   memo=0         md=0   ops=     310373085 per=     31.04 entries=88974 bytes=3.507e+06
+  split          h=1024  memo=0         md=0   ops=    1014660380 per=    101.47 entries=62409 bytes=1.029e+07
+  split          h=4096  memo=0         md=0   ops=    3832295934 per=    383.23 entries=38080 bytes=3.838e+07
+  eager          h=0     memo=0         md=0   ops=      76009634 per=      7.60 entries=15445272 bytes=1.853e+08
+  acc=0.00987 tail=0.01011 m_end=32954 T_end=21752 checks=22 hash=009c843508cf4e05 total=46.4s
