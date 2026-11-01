@@ -56,7 +56,7 @@ exclusive claim, because a theta picked on a noisy clock would hurt M, and M is 
 |---|---|---|
 | M1D01 | This protocol, the arms and the oracle, before any run on a protocol stream | No claim |
 | M1D02 | Regression: R2, PR, WT and WJ match M1C03 per batch on 4 engineering cells. New arms agree per batch with each other on all 12 engineering cells, count build | Single processes, each under a minute |
-| M1D02B | The guarded P3 and P4 against all other arms on the 12 engineering cells | Inside the M1D03 claim |
+| M1D02B | The guarded P3 and P4 against all other arms on the 12 engineering cells | Short ordinary claim, ControlPC's GO |
 | M1D03 | Operation sweep on the evaluation cells, count build, all arms but M, whose theta is not chosen yet. Operations are the first reading (hard rule 3) | Ordinary claim, ControlPC's GO |
 | M1D04 | Theta selection, then the timing sweep, pinned to one P-core, then the count build of M at the chosen theta | `--exclusive` claim, ControlPC's GO and the PI's word |
 | M1D05 | Verdict by the rule below, read together with M1D03 | No claim |

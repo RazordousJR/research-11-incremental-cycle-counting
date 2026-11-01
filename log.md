@@ -274,3 +274,11 @@ Three changes followed, all before any evaluation run, and engineering streams e
 3. **The tables' own 6 GB limit is raised with the job limit.** `Wedge` and `WTable` carried their own limit, which would have kept the old bound in place under a 16 GB job. Five arm-cells rerun gave byte-identical raw files.
 
 The P3 and P4 operation figures in M1D02's `run.log` are the unguarded forms. The dry run of the sweep scripts used a synthetic stream under a borrowed name in the scratchpad, and its numbers are not evidence of anything.
+
+## 0021, 2026-11-01: M1D03 held for the PI; M1D02B clean
+
+ControlPC cleared the machine for M1D03 and held the first evaluation read until the PI answers on the guard and the 300 s limit. Its reason is sound: both are protocol changes made after seeing engineering operations, the guard changes a sharing arm, and operations on the evaluation cells cannot be unread. I should have
+put them to the PI before asking for the GO, since the PI's "Proceed" covered protocol and baselines as they stood. Nothing was read in between. No evaluation stream has been read by a new arm. ControlPC's terms once the PI's word is logged: 16 GB kept, 8 hours of claim as a hard line, reports at 2 and 4 hours, and any arm past 12 GB peak
+or capped while paging reported, since such a stop is partly this machine's RAM.
+
+M1D02B ran on ControlPC's GO, under a short claim, because it reads engineering streams only: `results/gate1-M1D02B/README.md`. 0 mismatches. P4 / S4 is 0.667 to 0.994 on operations, and P3 / S3 is 1.145 to 1.685.

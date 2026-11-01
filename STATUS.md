@@ -23,7 +23,7 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 
 ## Open, waiting on the PI
 
-The live list is the final table of the last report. In short: the word for an `--exclusive` Gate 1, and the sx-stackoverflow download.
+The live list is the final table of the last report. In short: the P3 and P4 guard and the 300 s recount limit, which hold M1D03 (`log.md` 0021), then the word for an `--exclusive` Gate 1 and the sx-stackoverflow download.
 
 ## Handover notes
 
