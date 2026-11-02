@@ -1,0 +1,59 @@
+sx-stackoverflow-expiry-1000 p5 PR status=OK done=95807/95807 net=60072694 ops=0 t=0 table=3072 secs=133.423
+sx-stackoverflow-expiry-1000 p5 WT status=OK done=95807/95807 net=60072694 ops=0 t=0 table=292359544 secs=268.242
+sx-stackoverflow-expiry-1000 p5 WJ status=OK done=95807/95807 net=60072694 ops=0 t=0 table=201326592 secs=745.163
+sx-stackoverflow-expiry-1000 p5 M5 status=OK done=95807/95807 net=60072694 ops=0 t=0 table=257987928 secs=287.890
+sx-stackoverflow-expiry-1000 p5 A5 status=TIME done=11367/95807 net=7664877 ops=0 t=6082365 table=0 secs=299.052
+sx-stackoverflow-expiry-1000 p5 R2 status=OK done=95807/95807 net=60072694 ops=0 t=0 table=3072 secs=154.827
+sx-stackoverflow-expiry-1000 p5 M5 status=OK done=95807/95807 net=60072694 ops=0 t=0 table=257987928 secs=289.574
+sx-stackoverflow-expiry-1000 p5 WT status=OK done=95807/95807 net=60072694 ops=0 t=0 table=292359544 secs=268.120
+sx-stackoverflow-expiry-1000 p5 R2 status=OK done=95807/95807 net=60072694 ops=0 t=0 table=3072 secs=154.692
+sx-stackoverflow-expiry-1000 p5 PR status=OK done=95807/95807 net=60072694 ops=0 t=0 table=3072 secs=130.624
+sx-stackoverflow-expiry-1000 p5 M5 status=OK done=95807/95807 net=60072694 ops=0 t=0 table=257987928 secs=287.591
+sx-stackoverflow-expiry-1000 p5 WT status=OK done=95807/95807 net=60072694 ops=0 t=0 table=292359544 secs=267.854
+sx-stackoverflow-expiry-1000 p5 R2 status=OK done=95807/95807 net=60072694 ops=0 t=0 table=3072 secs=156.456
+sx-stackoverflow-expiry-1000 p5 PR status=OK done=95807/95807 net=60072694 ops=0 t=0 table=3072 secs=130.920
+sx-stackoverflow-expiry-1000 p5 final 0 ops A5.t1:0(11367/95807) M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 R2.t1:0 R2.t2:0 R2.t3:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0
+CELL-DONE p5 sx-stackoverflow expiry 1000 09:42:47
+sx-stackoverflow-expiry-100 p5 PR status=OK done=958066/958066 net=60081770 ops=0 t=0 table=3072 secs=153.693
+sx-stackoverflow-expiry-100 p5 WT status=OK done=958066/958066 net=60081770 ops=0 t=0 table=292493172 secs=268.616
+sx-stackoverflow-expiry-100 p5 WJ status=OK done=958066/958066 net=60081770 ops=0 t=0 table=201326592 secs=750.267
+sx-stackoverflow-expiry-100 p5 M5 status=OK done=958066/958066 net=60081770 ops=0 t=0 table=257802072 secs=289.064
+sx-stackoverflow-expiry-100 p5 A5 status=TIME done=22599/958066 net=1652596 ops=0 t=3275653 table=0 secs=299.036
+sx-stackoverflow-expiry-100 p5 R2 status=OK done=958066/958066 net=60081770 ops=0 t=0 table=3072 secs=156.719
+sx-stackoverflow-expiry-100 p5 WJ status=OK done=958066/958066 net=60081770 ops=0 t=0 table=201326592 secs=751.085
+sx-stackoverflow-expiry-100 p5 M5 status=OK done=958066/958066 net=60081770 ops=0 t=0 table=257802072 secs=288.862
+sx-stackoverflow-expiry-100 p5 WT status=OK done=958066/958066 net=60081770 ops=0 t=0 table=292493172 secs=268.195
+sx-stackoverflow-expiry-100 p5 R2 status=OK done=958066/958066 net=60081770 ops=0 t=0 table=3072 secs=156.348
+sx-stackoverflow-expiry-100 p5 PR status=OK done=958066/958066 net=60081770 ops=0 t=0 table=3072 secs=152.973
+sx-stackoverflow-expiry-100 p5 WJ status=OK done=958066/958066 net=60081770 ops=0 t=0 table=201326592 secs=750.791
+sx-stackoverflow-expiry-100 p5 M5 status=OK done=958066/958066 net=60081770 ops=0 t=0 table=257802072 secs=287.285
+sx-stackoverflow-expiry-100 p5 WT status=OK done=958066/958066 net=60081770 ops=0 t=0 table=292493172 secs=268.708
+sx-stackoverflow-expiry-100 p5 R2 status=OK done=958066/958066 net=60081770 ops=0 t=0 table=3072 secs=156.560
+sx-stackoverflow-expiry-100 p5 PR status=OK done=958066/958066 net=60081770 ops=0 t=0 table=3072 secs=153.099
+sx-stackoverflow-expiry-100 p5 final 0 ops A5.t1:0(22599/958066) M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 R2.t1:0 R2.t2:0 R2.t3:0 WJ.t1:0 WJ.t2:0 WJ.t3:0 WT.t1:0 WT.t2:0 WT.t3:0
+CELL-DONE p5 sx-stackoverflow expiry 100 11:09:18
+sx-stackoverflow-insert-1000 p5 PR status=TIME done=11243/47904 net=6781482 ops=0 t=4404921159154 table=3072 secs=1199.314
+sx-stackoverflow-insert-1000 p5 WT status=MEM done=5158/47904 net=3229777 ops=0 t=1593528604731 table=14404811864 secs=1112.544
+sx-stackoverflow-insert-1000 p5 WJ status=TIME done=2357/47904 net=1552186 ops=0 t=388042358439 table=6442450944 secs=1199.567
+sx-stackoverflow-insert-1000 p5 M5 status=TIME done=5564/47904 net=3470050 ops=0 t=1780933967693 table=2169616412 secs=1199.344
+sx-stackoverflow-insert-1000 p5 A5 status=TIME done=534/47904 net=389943 ops=0 t=17097093244 table=0 secs=299.506
+sx-stackoverflow-insert-1000 p5 R2 status=TIME done=9510/47904 net=5770316 ops=0 t=3529943852234 table=3072 secs=1199.554
+sx-stackoverflow-insert-1000 p5 final 4404921159154 ops A5.t1:0(534/11243) M5:0(5564/11243) PR.t1:0 R2.t1:0(9510/11243) WJ.t1:0(2357/11243) WT.t1:0(5158/11243)
+CELL-DONE p5 sx-stackoverflow insert 1000 12:52:54
+sx-stackoverflow-insert-100 p5 PR status=TIME done=101120/479033 net=6121078 ops=0 t=3837318507918 table=3072 secs=1199.493
+sx-stackoverflow-insert-100 p5 WT status=MEM done=51550/479033 net=3227441 ops=0 t=1591826141095 table=14387624296 secs=1097.285
+sx-stackoverflow-insert-100 p5 WJ status=TIME done=23596/479033 net=1553171 ops=0 t=388848456616 table=6442450944 secs=1199.326
+sx-stackoverflow-insert-100 p5 M5 status=TIME done=55446/479033 net=3457922 ops=0 t=1772082756348 table=2163033348 secs=1199.360
+sx-stackoverflow-insert-100 p5 A5 status=TIME done=2159/479033 net=169742 ops=0 t=1452322744 table=0 secs=299.498
+sx-stackoverflow-insert-100 p5 R2 status=TIME done=95066/479033 net=5767996 ops=0 t=3528094738323 table=3072 secs=1199.532
+sx-stackoverflow-insert-100 p5 final 3837318507918 ops A5.t1:0(2159/101120) M5:0(55446/101120) PR.t1:0 R2.t1:0(95066/101120) WJ.t1:0(23596/101120) WT.t1:0(51550/101120)
+CELL-DONE p5 sx-stackoverflow insert 100 14:36:16
+sx-stackoverflow-expiry-1000 p5 M5 status=OK done=95807/95807 net=60072694 ops=131676354426 t=0 table=257987928 secs=300.239
+mcheck sx-stackoverflow-expiry-1000-p5-M5-th128: 95807 batches compared, 0 differ
+sx-stackoverflow-expiry-100 p5 M5 status=OK done=958066/958066 net=60081770 ops=132134336864 t=0 table=257802072 secs=301.253
+mcheck sx-stackoverflow-expiry-100-p5-M5-th128: 958066 batches compared, 0 differ
+sx-stackoverflow-insert-1000 p5 M5 status=TIME done=5494/47904 net=3428511 ops=1251229254380 t=1748436065994 table=2144589524 secs=1199.512
+mcheck sx-stackoverflow-insert-1000-p5-M5-th128: 5494 batches compared, 0 differ
+sx-stackoverflow-insert-100 p5 M5 status=TIME done=54717/479033 net=3414944 ops=1243272491208 t=1738324826940 table=2137960116 secs=1199.478
+mcheck sx-stackoverflow-insert-100-p5-M5-th128: 54717 batches compared, 0 differ
+M1D04-DONE results/gate1-M1D04 held

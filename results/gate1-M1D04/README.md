@@ -1,27 +1,30 @@
-# M1D04: timing sweep, phases main and wiki
+# M1D04: timing sweep, all three phases
 
-Protocol: `docs/experiments/gate1-protocol.md`, thresholds unchanged, reading M1D04-R1 fixed before this clock (`log.md` 0025). Phases `main` and `wiki` of three. Phase `held` has not run, so there is **no verdict here**. M1D05 gives it.
+Protocol: `docs/experiments/gate1-protocol.md`, thresholds unchanged, reading M1D04-R1 fixed before this clock (`log.md` 0025). The verdict is in `results/gate1-M1D05/README.md`.
 Timing build, one process at a time, pinned to logical CPU 8, `--exclusive` tower claims on the PI's word and ControlPC's GO, on 2026-11-02:
 
-| Phase | Claim | Length | Line | Record |
-|---|---|---|---|---|
-| `main` | 00:19:17 to 02:48:58 | 2 h 29 min 41 s | 8 h | `run.log` |
-| `wiki` | 02:56:10 to 08:17:13 | 5 h 21 min 03 s | 9 h | `run-wiki.log` |
+| Phase | Cells | Claim | Length | Line | Record |
+|---|---|---|---|---|---|
+| `main` | 10 evaluation cells at p = 3, 4, 5, and theta | 00:19:17 to 02:48:58 | 2 h 29 min 41 s | 8 h | `run.log` |
+| `wiki` | wiki-talk insert at p = 3, 4, 5 | 02:56:10 to 08:17:13 | 5 h 21 min 03 s | 9 h | `run-wiki.log` |
+| `held` | sx-stackoverflow, 4 cells, p = 5 only | 16:40:52 to 23:26:23 | 6 h 45 min 31 s | 8 h | `run-held.log` |
 
-No restart in either. Every stream here is labelled **real timestamps, synthetic expiry** or **real timestamps, insert-only**. None is fully synthetic. sx-stackoverflow has not been read by any arm.
+14 h 36 min 15 s in all. No restart in any. Every stream here is labelled **real timestamps, synthetic expiry** or **real timestamps, insert-only**. None is fully synthetic.
 
 ## Result
 
-- **Complete.** `M1D04-DONE` on both phases. All 36 cell records of the 12 evaluation cells at 3 patterns, 192 arm-cells, 684 timing processes, 0 away from the repeats the protocol asks. 504 theta runs and 36 count runs of M.
-- **Exact.** 0 differences. The sweep's own check stopped nothing. A separate check after each phase took every repeat of every arm, the M count build and every M1D03 arm on the same cells: 36 groups, 876 files, 16,141,789 batch comparisons, 0 files differ. `mcheck` compared M's two builds on every batch, 0 differ.
-- **The binary did not change.** All nine hashes in `hashes.txt` still match after both phases, at commit e23c597's values.
+- **Complete.** `M1D04-DONE` on all three phases. 40 cell records, 216 arm-cells, 726 timing processes, 0 away from the repeats the protocol asks. 504 theta runs and 40 count runs of M.
+- **Exact.** 0 differences. The sweep's own check stopped nothing. A separate check after each phase took every repeat of every arm, the M count build and every M1D03 arm on the same cells: 40 groups, 922 files, 32,103,387 batch comparisons, 0 files differ. `mcheck` compared M's two builds on every batch, 0 differ. On sx-stackoverflow there is no M1D03 file, so its arms are checked against each other on every batch each reached.
+- **The binary did not change.** All nine hashes in `hashes.txt` still match after each phase, at commit e23c597's values.
 - **Theta,** by the geometric mean over the engineering cells: 16 at p = 3, 16 at p = 4, 128 at p = 5. See `theta.txt` and the first lines of `run.log`.
-- **The clock was steady.** Median slowest over fastest of one arm on one cell: 1.021, 1.009, 1.008 at p = 3, 4, 5. The worst is 1.144, M3 on sx-superuser insert 1,000, a sub-second cell. PR on wiki-talk insert 1,000 is the largest long-run spread that bears on a score, 273.6, 276.6 and 286.6 s. That cell does not pass on any of them, and its slowest repeat is one of the two that overlap R9's work, below.
-- **Cost.** `main`: p = 3 about 8 minutes, p = 4 about 26, p = 5 about 1 h 47, 8,375 s of timing, 137 s of theta, 217 s of the M count build. `wiki`: p = 3 about 3 minutes, p = 4 about 45, p = 5 about 4 h, 17,187 s of timing, 1,913 s of the M count build. Timing ended at 07:45, and the last 32 minutes were count runs.
-- **Memory.** 12 arm-cells past 12 GB, all T3, T4 or WT on wiki-talk. On expiry they finish at 13.97 GB. On insert they stop by memory at 15.76 GB, as in M1D03.
-- **Stopped arms,** 17 of 192: A5 by time on 6 cells, A4 on 3, T3, T4 and WT by memory on 2 each, WJ by memory on 4, all 4 on wiki-talk.
+- **The clock was steady.** Median slowest over fastest of one arm on one cell: 1.021, 1.009, 1.008 at p = 3, 4, 5. The worst is 1.144, M3 on sx-superuser insert 1,000, a sub-second cell. PR on wiki-talk insert 1,000 is the largest long-run spread that bears on a score, 273.6, 276.6 and 286.6 s. That cell does not pass on any of them, and its slowest repeat is one of the two that overlap R9's work, below. On sx-stackoverflow expiry PR's repeats are 130.6 to 133.4 s and 153.0 to 153.7 s.
+- **Cost.** `main`: p = 3 about 8 minutes, p = 4 about 26, p = 5 about 1 h 47, 8,375 s of timing, 137 s of theta, 217 s of the M count build. `wiki`: p = 3 about 3 minutes, p = 4 about 45, p = 5 about 4 h, 17,187 s of timing, 1,913 s of the M count build. `held`: expiry 1,000 to 17:42, expiry 100 to 19:09, insert 1,000 to 20:53, insert 100 to 22:36, then the M count build to 23:26.
+- **Memory.** 14 arm-cells past 12 GB, all T3, T4 or WT on wiki-talk and sx-stackoverflow insert. On wiki-talk expiry they finish at 13.97 GB. On insert they stop by memory at 15.71 to 15.85 GB.
+- **Stopped arms,** 31 of 216: A5 by time on 10 cells, A4 on 3, PR, R2, M5 and WJ by time on the 2 sx-stackoverflow insert cells, T3 and T4 by memory on 2 each, WT on 4, WJ by memory on 4.
 
 **"Exclusive" here means no heavy work, not a silent machine.** ControlPC reports that other Claude sessions, Chrome, OneDrive and its 2-hourly status mail stay on the machine during a claim. From 02:55 that mail, format v4, reads the process list, `nvidia-smi` and the Windows logs once per run and takes a few seconds. R9 reported through ControlPC that one R9 LaTeX build hung from 00:21 to 02:56, across all of `main`, using 0.5 s of CPU and about 130 MB, and that two R9 rebuilds at 02:57 took 7 s and 4 s, inside the 120 s pause before `wiki`'s first process. Those R9 figures are not checked here. The spread above is the measured effect, and it is small.
+
+**Before `held`,** on the PI's word (`log.md` 0031), I closed Edge in the background, BingWallpaper, Phone Link and NVIDIA Overlay, about 1 GB, and available memory read 16.82 GiB at the claim. ControlPC's mail fell at 18:00, 20:00 and 22:00 inside `held`, over WJ repeat 1 on expiry 100 (750.3 s, the others 751.1 and 750.8), WJ on insert 1,000, which stopped at its limit, and M5 on insert 100, which stopped at its limit. None of them is in a score, and the WJ repeat sits with its peers. R9 reported that nothing of its own ran during `held`.
 
 **R9 ran inside the `wiki` claim, and two PR repeats were not exclusive.** R9 reported through ControlPC, whose figures these are not, and neither of us has checked them, that it ran one process at a time from 05:39:59 to about 05:47, unpinned, so any could have landed on CPU 8: `tower_check.py`, about six short Python reads, a listing script, `pdftotext`, `pytest` on 22 tests in 0.82 s, paper scripts under 1 s each, `figures.py` twice at about 3 s, two `latexmk` builds at about 6 s, git commits, `pdfinfo` and `pdffonts`, and one `nvidia-smi`. Most of those times are R9's estimates. Start times below are each summary file's write time less its seconds.
 
@@ -30,31 +33,23 @@ No restart in either. Every stream here is labelled **real timestamps, synthetic
 | wiki-talk-temporal | real timestamps, insert-only | 1,000 | 5 | PR, 3 | 05:37:28 to 05:42:15 | 05:39:59 to 05:42:15 | 286.62 | 273.56, 276.63 |
 | wiki-talk-temporal | real timestamps, insert-only | 100 | 5 | PR, 1 | 05:42:16 to 05:49:10 | 05:42:16 to about 05:47 | 414.00 | 408.52, 408.89 |
 
-No other timed process overlaps. Both are the slowest of their three, 3.6% and 1.3% above the median, so they sit apart, though a raw file has no per-batch clock to place the excess. The first overlap holds only R9's short reads, so its 10 s excess is not obviously explained by what R9 reports. Neither changes a result: both cells fail by a wide margin with or without the repeat, 0.955 or 0.922 and 1.380 or 1.363 of best's fastest. A repeat lower than its peers would move the median score by at most 0.010 and 0.001, and the p = 5 median of 0.642 rests on other cells. Nothing else in this file uses those two repeats. The PI kept them, marked, with no rerun (`log.md` 0030).
+No other timed process overlaps. Both are the slowest of their three, 3.6% and 1.3% above the median, so they sit apart, though a raw file has no per-batch clock to place the excess. The first overlap holds only R9's short reads, so its 10 s excess is not obviously explained by what R9 reports. Neither changes a result: both cells fail by a wide margin with or without the repeat, 0.955 or 0.922 and 1.380 or 1.363 of best's fastest. A repeat lower than its peers would move the median score by at most 0.010 and 0.001, and the p = 5 median rests on other cells. Nothing else in this file uses those two repeats. The PI kept them, marked, with no rerun (`log.md` 0030).
 
-## Reading against the rule, over the 12 evaluation cells
+## The held-out stream
 
-| p | Scored | Median score | Median against scan | Pass |
-|---:|---:|---:|---:|---:|
-| 3 | 12 of 12 | 1.098 | 1.098 | 0 |
-| 4 | 12 of 12 | 1.299 | 0.974 | 0 |
-| 5 | 12 of 12 | 0.642 | 0.535 | 6, on all 3 streams, 4 of them expiry |
-
-Share at p = 4 is P4 on every cell.
-
-**What the rest can change.** Phase `held` is p = 5 only, so p = 3 stands at 1.098. If all 4 held-out cells are scored and none passes, p = 5 stands at 6 of 16, which is above a third, on 3 streams, with 4 expiry cells, and its median at worst 0.796. So this is Go with the trend on every outcome of `held` but one: an exactness failure not traced to a test bug, which is Stop. This is arithmetic on the rule, not the verdict.
+sx-stackoverflow is the only stream no arm had read before this clock. Its two expiry cells are scored and neither passes: PR's slowest over R2's fastest is 0.863 at cut 1,000 and 0.983 at cut 100. No arm finished either insert cell inside its limit, so both go unscored under the rule. In the same 1,200 s PR got furthest, 23.5% and 21.1% of the batches against R2's 19.9% and 19.8% and M5's 11.6%. That is a note, not a score.
 
 ## What this reading does not say
 
-1. **M1D04-R1 cost two passes, and it stands.** On wiki-talk insert the best arm is A5, stopped at 300 s with 14.3% and 5.6% of the batches done. It enters at its limit, so PR scores 0.922 and 1.363 and neither cell passes. Against the arms that finished, PR's slowest over M5's fastest is 0.322 and 0.463. The reading was fixed before this clock to be harder on the sharing arm, and that is what it did. It does not reopen, and 6 is the count.
-2. **M did not decide it, and the reading before this run was wrong.** `log.md` 0024 expected Pivot or a thin Go, resting on M. Of 12 p = 5 cells R2, the scan, is best on 8, M5 on 2, stopped A5 on 2. What moved was the clock's price per operation: PR 0.56 ns, R2 0.69, M5 0.90, WT 1.69, WJ 8.26. M1D03's count seconds pointed this way and could not be cited.
-3. **On most sx cells PR wins by cache cost, not by work.** WJ does fewer charged operations than PR on 6 of the 8 sx cells at p = 5, listed below, and still takes about 3 to 26 times as long. The unit-cost model does not price a random probe into a table of several GB. So the result is tied to this memory hierarchy, on one machine and one core. PR leads on operations as well only on the two sx expiry 1,000 cells and on wiki-talk expiry, among the arms that finished.
-4. **WJ's margin is not uniform.** To undo the two sx insert passes it would have to run about 17 times faster. To undo the two sx expiry passes, about 2.6 times faster, where a better flat table is not out of the question. With those two gone, and no held-out cell passing, 4 of 16 would be Pivot.
-5. **The gain needs a large batch.** Cut 1,000 passes on 5 of 6 cells and cut 100 on 1 of 6. Cut 1,000 batches are about ten times the size of cut 100. sx-superuser insert 100 missed at 0.678 against 0.67.
+1. **M1D04-R1 cost two passes, and it stands.** On wiki-talk insert the best arm is A5, stopped at 300 s with 14.3% and 5.6% of the batches done. It enters at its limit, so PR scores 0.922 and 1.363 and neither cell passes. Against the arms that finished, PR's slowest over M5's fastest is 0.322 and 0.463. The reading was fixed before this clock to be harder on the sharing arm, and that is what it did. It does not reopen.
+2. **M did not decide it, and the reading before this run was wrong.** `log.md` 0024 expected Pivot or a thin Go, resting on M. Of 14 scored p = 5 cells R2, the scan, is best on 10, M5 on 2, stopped A5 on 2. What moved was the clock's price per operation: PR 0.56 ns, R2 0.69, M5 0.90, WT 1.69, WJ 8.26. M1D03's count seconds pointed this way and could not be cited.
+3. **On most sx cells PR wins by cache cost, not by work.** WJ does fewer charged operations than PR on 6 of the 8 sx cells at p = 5 of the evaluation streams, listed below, and still takes about 3 to 26 times as long. The unit-cost model does not price a random probe into a table of several GB. So the result is tied to this memory hierarchy, on one machine and one core. PR leads on operations as well only on the two sx expiry 1,000 cells and on wiki-talk expiry, among the arms that finished.
+4. **WJ's margin is not uniform.** To undo the two sx insert passes it would have to run about 17 times faster. To undo the two sx expiry passes, about 2.6 times faster, where a better flat table is not out of the question. With those two gone, 4 of 14 would be under a third.
+5. **The gain needs a large batch.** Cut 1,000 passes on 5 of 7 scored cells and cut 100 on 1 of 7. Cut 1,000 batches are about ten times the size of cut 100. sx-superuser insert 100 missed at 0.678 against 0.67.
 6. **Most of the passes are against a scan.** R2 is PR's own kernel without sharing. That is the honest baseline on this clock, since the tuned tables are slower, but it reads as "sharing pays against its unshared self, and the tables lost on memory".
 7. **p = 4 is not on a smooth way from p = 3 to p = 5.** On wiki-talk insert M4 takes 15.7 s against P4's 58 and 79 s and S4's 81 s, a score of 3.699 and 5.016, the worst in this sweep, while M5 at 890 s loses to PR at 277 and 409 s. The median trend holds, and this cell does not fit a single line through it.
 8. **M was tuned on small streams.** The engineering cells run in fractions of a second. p = 3 and p = 4 chose 16, the end of the grid, with the curve rising from there, so M might do better lower still. That cannot change a pass at p = 3 or 4, where none exists. p = 5 chose 128 inside the grid, and the curve is flat, 0.147 to 0.185. Running M5 over the grid on evaluation cells would favour the baseline, and it belongs in M1D06.
-9. **The three streams are not unseen,** as the protocol says. Only sx-stackoverflow is.
+9. **The three evaluation streams are not unseen,** as the protocol says. The one that is, sx-stackoverflow, gives no pass.
 10. **Novelty does not move.** The trend itself is published by Cheetah (`log.md` 0019). A clean result here is a gain against the strongest baseline, closed-form kernels, sequential, all costs inside, and no more.
 
 ## Scores, cell by cell
@@ -77,6 +72,10 @@ The slowest and fastest columns are the pass test. A cell passes at 0.67 or less
 | wiki-talk-temporal | real timestamps, synthetic expiry | 100 | PR | 17.519 | 17.674 | R2 | 36.386 | 36.293 | 0.481 | 0.487 | yes | 0.481 |
 | wiki-talk-temporal | real timestamps, insert-only | 1,000 | PR | 276.627 | 286.620 | A5 (stopped) | 300.000 | 300.000 | 0.922 | 0.955 | no | 0.284 |
 | wiki-talk-temporal | real timestamps, insert-only | 100 | PR | 408.891 | 414.004 | A5 (stopped) | 300.000 | 300.000 | 1.363 | 1.380 | no | 0.420 |
+| sx-stackoverflow | real timestamps, synthetic expiry | 1,000 | PR | 130.920 | 133.423 | R2 | 154.827 | 154.692 | 0.846 | 0.863 | no | 0.846 |
+| sx-stackoverflow | real timestamps, synthetic expiry | 100 | PR | 153.099 | 153.693 | R2 | 156.560 | 156.348 | 0.978 | 0.983 | no | 0.978 |
+| sx-stackoverflow | real timestamps, insert-only | 1,000 | not scored: A5 TIME, M5 TIME, PR TIME, R2 TIME, WJ TIME, WT MEM | | | | | | | | | | |
+| sx-stackoverflow | real timestamps, insert-only | 100 | not scored: A5 TIME, M5 TIME, PR TIME, R2 TIME, WJ TIME, WT MEM | | | | | | | | | | |
 
 ### p = 4
 
@@ -130,6 +129,10 @@ Median seconds, with the repeats in brackets. TIME is the 300 s stop of A5. CAP 
 | wiki-talk-temporal | real timestamps, synthetic expiry | 100 | 17.52 (5) | 36.39 (5) | 45.75 (5) | 196.21 (1) | CAP | TIME |
 | wiki-talk-temporal | real timestamps, insert-only | 1,000 | 276.63 (3) | 975.37 (3) | 891.53 (3) | MEM | CAP | TIME |
 | wiki-talk-temporal | real timestamps, insert-only | 100 | 408.89 (3) | 972.42 (3) | 895.01 (3) | MEM | CAP | TIME |
+| sx-stackoverflow | real timestamps, synthetic expiry | 1,000 | 130.92 (3) | 154.83 (3) | 287.89 (3) | 268.12 (3) | 745.16 (1) | TIME |
+| sx-stackoverflow | real timestamps, synthetic expiry | 100 | 153.10 (3) | 156.56 (3) | 288.86 (3) | 268.62 (3) | 750.79 (3) | TIME |
+| sx-stackoverflow | real timestamps, insert-only | 1,000 | TIME | TIME | TIME | MEM | TIME | TIME |
+| sx-stackoverflow | real timestamps, insert-only | 100 | TIME | TIME | TIME | MEM | TIME | TIME |
 
 ## Row kernel against BFCB-IG at p = 4
 
@@ -152,7 +155,7 @@ Median seconds of P4 over B4. Read beside the verdict.
 
 ## Operations against the clock
 
-13 of 36 cells name a different winner. M's operations come from `count/` at the chosen theta, the other arms' from M1D03.
+13 of 40 cells name a different winner. M's operations come from `count/` at the chosen theta, the other arms' from M1D03.
 
 | Stream | Label | Cut | p | Fewest operations | Fastest on the clock |
 |---|---|---:|---:|---|---|
@@ -170,7 +173,7 @@ Median seconds of P4 over B4. Read beside the verdict.
 | sx-superuser | real timestamps, insert-only | 1,000 | 5 | WJ | PR |
 | sx-superuser | real timestamps, insert-only | 100 | 5 | WJ | PR |
 
-Nanoseconds per charged operation, median over the cells where the arm finished in both builds. Streams: the twelve evaluation cells, both labels.
+Nanoseconds per charged operation, median over the cells where the arm finished in both builds. Streams: every cell where the arm finished in both builds, both labels. Only M has a count build on sx-stackoverflow.
 
 | Arm | Cells | Median | Lowest | Highest |
 |---|---:|---:|---:|---:|
@@ -188,5 +191,5 @@ Nanoseconds per charged operation, median over the cells where the arm finished 
 | PR | 12 | 0.56 | 0.31 | 1.14 |
 | WT | 10 | 1.69 | 1.33 | 2.65 |
 | WJ | 8 | 8.26 | 3.06 | 15.35 |
-| M5 | 12 | 0.90 | 0.73 | 1.28 |
+| M5 | 14 | 0.97 | 0.73 | 2.19 |
 | A5 | 6 | 0.66 | 0.57 | 0.81 |

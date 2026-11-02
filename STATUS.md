@@ -9,7 +9,7 @@
 - **Reading weakened that pick.** Cheetah publishes star grouping with reuse, and the trend itself (`log.md` 0019). What is left is the gain against the strongest baseline.
 - **Gate 1 is written and its arms are exact on the oracle.** `docs/experiments/gate1-protocol.md`. Series M1D in `docs/tasks/M1.md`.
 - **M1D03 is done and exact.** 156 of 156 arm-cells, 0 mismatches, 19 stopped at a limit, claim released (`log.md` 0024). On operations the median against best other is 1.447, 0.916, 0.950 at p = 3, 4, 5, without M. Gate 1 is not dead, and M decides it.
-- **M1D04 `main` and `wiki` are done and exact.** 192 arm-cells, 684 timing processes, 0 mismatches, claims released (`log.md` 0027, 0028). At p = 5, 6 of 12 cells pass, median 0.642, against a median of 1.098 at p = 3. No verdict until M1D05. Only an exactness failure can now move it off Go with the trend. Most of the sx gain is a cache result, not fewer operations.
+- **M1D04 is done and exact, and M1D05 gives Go with the trend.** 216 arm-cells, 0 mismatches, all claims released (`log.md` 0032). At p = 5, 6 of 14 scored cells pass, median 0.686, against 1.098 at p = 3. The held-out stream gives no pass, two passes decide Go, and the win over the tables is a cache win on one machine.
 
 | Test | Verdict | Read with |
 |---|---|---|
@@ -20,13 +20,13 @@
 | M1C02, 5-cycles on operations | Stop at clause 4 | Clock reverses the winner |
 | M1C03, 5-cycles on the clock | Go by one cell | Shared clock. Worst-of-3 gives Pivot. Operations still favour tables on 16 of 22 |
 | M1D03, Gate 1 operations | Clean, no verdict | M absent. At p = 5 only wiki-talk reaches 0.67, against a scan. WJ beats PR on 6 of 8 sx cells |
-| M1D04 main and wiki, Gate 1 clock | Clean, no verdict yet | 12 of 16 possible p = 5 cells. Best is the scan on 8. Reading R1 cost 2 passes on wiki-talk insert and stands. Two passes fall to a WJ 2.6 times faster. One machine, one core |
+| M1D05, Gate 1 on the clock | Go, with the trend | 6 of 14 at p = 5. Held-out stream 0 of 2. Two sx expiry passes decide it, and fall to a WJ 2.6 times faster. Best is the scan on 10 of 14. One machine, one core |
 
 The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 Stop and parked, M1C02 Stop stands, M1C01 Go read with the V margin and the ring note.
 
 ## Open, waiting on the PI
 
-Nothing is waiting on the PI. The PI approved `held` at up to 8 hours, moved to now on 2026-11-02 afternoon (`log.md` 0031), with all 4 cells, and kept the two PR repeats that overlap R9 (`log.md` 0030). `held` now waits on ControlPC's GO. Run `scripts/run_m1d04.sh results/gate1-M1D04 8 held` under its own claim with the release chained, check `hashes.txt` first, and send the log to a new file so the tree stays clean. Then M1D05 with `scripts/gate1_score.py`, confirming that all 6 arms of all 4 cells left a summary.
+**The PI's reading of M1D05 and the scope of M1D06.** The rule gives Go with the trend (`results/gate1-M1D05/README.md`). The open choices are how much the paper claims, whether M1D06 first attacks the two sx expiry passes with a stronger flat table and runs M5 over the theta grid, and whether a second machine exists. No heavy work is planned until then.
 
 ## Handover notes
 

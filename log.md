@@ -428,3 +428,15 @@ The PI, in this session at about 16:05: "okeh mesin dah kosong. aku nak ko tutup
 ControlPC answered GO for now, with a claim between now and 17:30 and `LINE_HOURS=8`, no one else in the queue. Its e-mails at 18:00, 20:00, 22:00 and 00:00 fall inside the claim and are its overlaps.
 
 **Apps closed** at 16:3x on the PI's word, each gracefully first and then stopped: Edge in the background (7 processes, 494 MB), BingWallpaper (182 MB), Phone Link (151 MB), NVIDIA Overlay (5 processes, 151 MB, one came back by itself). ChatGPT was already closed. Left alone: Claude Desktop, which hosts every session, TightVNC, Tailscale, Codex, and the shells of other sessions. Available memory went from 16.39 to 16.87 GiB. Startup items were not touched, since they are a lasting system setting and do nothing tonight without a reboot.
+
+## 0032, 2026-11-02: M1D04 held finished clean; M1D05 gives Go with the trend
+
+Phase `held` ran under the exclusive claim from 16:40:52 to 23:26:23, 6 h 45 min 31 s against an estimate of 4 to 6.5 hours and a line of 8. `M1D04-DONE`, no restart, all nine hashes the same. M1D04 took 14 h 36 min 15 s of exclusive claims in all. Records: `results/gate1-M1D04/README.md` and `results/gate1-M1D05/README.md`.
+
+**Exactness holds.** Over all three phases: 32,103,387 batch comparisons, 0 differ. Hard rule 1 is not touched.
+
+**Held-out.** sx-stackoverflow expiry, real timestamps with synthetic expiry, scores 0.846 and 0.978, PR's slowest over R2's fastest 0.863 and 0.983, so neither passes. Its insert cells, real timestamps insert-only, finished no arm inside the limit and are not scored. PR got furthest in the same 1,200 s.
+
+**Verdict by the rule.** p = 5: 14 of 16 scored, 6 pass on 3 streams with 4 expiry cells, which is above a third. No exactness failure. Go. Median score 1.098 at p = 3 and 0.686 at p = 5, so the trend clause holds too. The protocol's outcome is one experimental paper.
+
+**My reading of its weight, for the PI.** The rule's word stands and does not reopen. But the only unseen stream gives no pass. Two of the six passes, the sx expiry 1,000 cells, decide Go, and a flat table about 2.6 times faster than WJ would remove them. Most passes beat PR's own unshared kernel. And the win over the tables is a cache win on one machine. A paper from this is a careful experimental paper with those limits up front, not a large contribution. The PI decides what to do next, and M1D06 waits on that.
