@@ -16,12 +16,21 @@ No restart in either. Every stream here is labelled **real timestamps, synthetic
 - **Exact.** 0 differences. The sweep's own check stopped nothing. A separate check after each phase took every repeat of every arm, the M count build and every M1D03 arm on the same cells: 36 groups, 876 files, 16,141,789 batch comparisons, 0 files differ. `mcheck` compared M's two builds on every batch, 0 differ.
 - **The binary did not change.** All nine hashes in `hashes.txt` still match after both phases, at commit e23c597's values.
 - **Theta,** by the geometric mean over the engineering cells: 16 at p = 3, 16 at p = 4, 128 at p = 5. See `theta.txt` and the first lines of `run.log`.
-- **The clock was steady.** Median slowest over fastest of one arm on one cell: 1.021, 1.009, 1.008 at p = 3, 4, 5. The worst is 1.144, M3 on sx-superuser insert 1,000, a sub-second cell. PR on wiki-talk insert 1,000 is the largest long-run spread that bears on a score, 273.6, 276.6 and 286.6 s. That cell does not pass on any of them.
+- **The clock was steady.** Median slowest over fastest of one arm on one cell: 1.021, 1.009, 1.008 at p = 3, 4, 5. The worst is 1.144, M3 on sx-superuser insert 1,000, a sub-second cell. PR on wiki-talk insert 1,000 is the largest long-run spread that bears on a score, 273.6, 276.6 and 286.6 s. That cell does not pass on any of them, and its slowest repeat is one of the two that overlap R9's work, below.
 - **Cost.** `main`: p = 3 about 8 minutes, p = 4 about 26, p = 5 about 1 h 47, 8,375 s of timing, 137 s of theta, 217 s of the M count build. `wiki`: p = 3 about 3 minutes, p = 4 about 45, p = 5 about 4 h, 17,187 s of timing, 1,913 s of the M count build. Timing ended at 07:45, and the last 32 minutes were count runs.
 - **Memory.** 12 arm-cells past 12 GB, all T3, T4 or WT on wiki-talk. On expiry they finish at 13.97 GB. On insert they stop by memory at 15.76 GB, as in M1D03.
 - **Stopped arms,** 17 of 192: A5 by time on 6 cells, A4 on 3, T3, T4 and WT by memory on 2 each, WJ by memory on 4, all 4 on wiki-talk.
 
 **"Exclusive" here means no heavy work, not a silent machine.** ControlPC reports that other Claude sessions, Chrome, OneDrive and its 2-hourly status mail stay on the machine during a claim. From 02:55 that mail, format v4, reads the process list, `nvidia-smi` and the Windows logs once per run and takes a few seconds. R9 reported through ControlPC that one R9 LaTeX build hung from 00:21 to 02:56, across all of `main`, using 0.5 s of CPU and about 130 MB, and that two R9 rebuilds at 02:57 took 7 s and 4 s, inside the 120 s pause before `wiki`'s first process. Those R9 figures are not checked here. The spread above is the measured effect, and it is small.
+
+**R9 ran inside the `wiki` claim, and two PR repeats were not exclusive.** R9 reported through ControlPC, whose figures these are not, and neither of us has checked them, that it ran one process at a time from 05:39:59 to about 05:47, unpinned, so any could have landed on CPU 8: `tower_check.py`, about six short Python reads, a listing script, `pdftotext`, `pytest` on 22 tests in 0.82 s, paper scripts under 1 s each, `figures.py` twice at about 3 s, two `latexmk` builds at about 6 s, git commits, `pdfinfo` and `pdffonts`, and one `nvidia-smi`. Most of those times are R9's estimates. Start times below are each summary file's write time less its seconds.
+
+| Stream | Label | Cut | p | Arm, repeat | Ran | Overlap | Seconds | The other repeats |
+|---|---|---:|---:|---|---|---|---:|---|
+| wiki-talk-temporal | real timestamps, insert-only | 1,000 | 5 | PR, 3 | 05:37:28 to 05:42:15 | 05:39:59 to 05:42:15 | 286.62 | 273.56, 276.63 |
+| wiki-talk-temporal | real timestamps, insert-only | 100 | 5 | PR, 1 | 05:42:16 to 05:49:10 | 05:42:16 to about 05:47 | 414.00 | 408.52, 408.89 |
+
+No other timed process overlaps. Both are the slowest of their three, 3.6% and 1.3% above the median, so they sit apart, though a raw file has no per-batch clock to place the excess. The first overlap holds only R9's short reads, so its 10 s excess is not obviously explained by what R9 reports. Neither changes a result: both cells fail by a wide margin with or without the repeat, 0.955 or 0.922 and 1.380 or 1.363 of best's fastest. A repeat lower than its peers would move the median score by at most 0.005 and 0.001, and the p = 5 median of 0.642 rests on other cells. Nothing else in this file uses those two repeats.
 
 ## Reading against the rule, over the 12 evaluation cells
 

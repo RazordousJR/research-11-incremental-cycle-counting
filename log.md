@@ -401,3 +401,9 @@ Streams: real timestamps with synthetic expiry, and real timestamps insert-only.
 **The outcome is still held by the arithmetic of 0027.** `held` is p = 5 only, so p = 3 is final at 1.098. If its 4 cells are all scored and none passes, p = 5 is 6 of 16 with its median at worst 0.796.
 
 **Held needs the PI's word.** 0025 committed the stream and a separate claim, and its hours cover the two claims now done, as ControlPC read them in 0026. So no GO is asked for `held` until the PI gives hours. Estimate from the real costs: 4 to 6.5 hours. Both insert cells will almost surely finish no arm: wiki-talk insert took PR 277 to 409 s, and this stream has 7.9 times its events, so PR would need less than 4.4 times the time to finish inside 1,200 s, and on past streams time grew faster than events. Such cells cost about 1.4 hours each and are not scored. The expiry cells are the live part. The M count build adds about 0.8 hours.
+
+## 0029, 2026-11-02: R9 ran inside the wiki claim
+
+ControlPC passed on R9's report, unchecked by either: one R9 process at a time from 05:39:59 to about 05:47, unpinned, during the exclusive `wiki` claim. Two of this project's timed processes overlap it, PR repeat 3 on wiki-talk insert 1,000 (286.62 s, the others 273.56 and 276.63) and PR repeat 1 on wiki-talk insert 100 (414.00 s, the others 408.52 and 408.89). Labels: real timestamps, insert-only. Both are the slowest of their three. No other timed process overlaps. So hard rule 3's "pinned, exclusive" does not strictly hold for those two repeats.
+
+Neither moves a result. Both cells fail with or without the repeat, the median scores could move by at most 0.005 and 0.001, and the p = 5 median rests on other cells. The README records the table. Rerunning them is the PI's call. My recommendation is to keep them, marked, since a rerun can change nothing that the rule reads and would add a repeat chosen after the clock was seen.
