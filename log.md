@@ -483,3 +483,7 @@ After M1D06A, ControlPC read the event logs and Task Scheduler and reported that
 **No pass can be its artefact.** Load only adds time. A pass needs PR's slowest repeat under 0.67 times the best arm's fastest, so a false pass would need the best arm's fastest repeat slowed. For all 6 passes that repeat overlaps nothing known, and at most 1 of the best arm's 5 repeats overlaps on any. M1D05 and M1D06A stand.
 
 **Corrections made.** The `held` mail overlaps in the M1D04 record now use 18:06, 20:06 and 22:06. My guess of Windows maintenance in the M1D06A record is withdrawn. "Exclusive" in this project's records means no heavy work by a tower project, and not a machine without scheduled work. Whether Research 1's tasks are paused during claims is for the PI and ControlPC, since they belong to another project, and Task Scheduler is not mine to change.
+
+## 0037, 2026-11-03: Research 12 inside the M1D06A claim
+
+Research 12 reported, through ControlPC and unchecked by either, three concurrent ripgrep searches over the whole of C:\, 20 s each, somewhere from 04:50:07 to 04:53:50, and a 25 s probe at about 02:00:27 to 02:00:52, before the claim. M1D06A's last timed process ended at 04:28:44, from its summary's write time, and its count build ran from 04:28:50 to 04:55:33. So the searches fell in the count build, which carries no time, and every count there matched. No figure moves. Recorded in `results/gate1-M1D06A/README.md`.
