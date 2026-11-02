@@ -26,7 +26,7 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 
 ## Open, waiting on the PI
 
-Nothing is waiting on the PI. The PI approved `held` at up to 8 hours, tonight, with all 4 cells, and kept the two PR repeats that overlap R9 (`log.md` 0030). `held` now waits on ControlPC's GO. Run `scripts/run_m1d04.sh results/gate1-M1D04 8 held` under its own claim with the release chained, check `hashes.txt` first, and send the log to a new file so the tree stays clean. Then M1D05 with `scripts/gate1_score.py`, confirming that all 6 arms of all 4 cells left a summary.
+Nothing is waiting on the PI. The PI approved `held` at up to 8 hours, moved to now on 2026-11-02 afternoon (`log.md` 0031), with all 4 cells, and kept the two PR repeats that overlap R9 (`log.md` 0030). `held` now waits on ControlPC's GO. Run `scripts/run_m1d04.sh results/gate1-M1D04 8 held` under its own claim with the release chained, check `hashes.txt` first, and send the log to a new file so the tree stays clean. Then M1D05 with `scripts/gate1_score.py`, confirming that all 6 arms of all 4 cells left a summary.
 
 ## Handover notes
 

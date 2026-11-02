@@ -420,3 +420,11 @@ The PI answered the four items of the last report in this session, at about 11:2
 | 4 | The two PR repeats that overlap R9 | Not rerun. They stay, marked in the README, as 0029 states |
 
 ControlPC had reported an approval recorded in R9's log, to a table it could not see. That record is not this project's, and it was not used. The word above is the PI's own, here. No threshold changes, and reading M1D04-R1 stands.
+
+## 0031, 2026-11-02: PI moves held to now
+
+The PI, in this session at about 16:05: "okeh mesin dah kosong. aku nak ko tutup mane2 yg tak diperlukan and mulakan sekarang berbanding malam nanti. start now". This replaces item 2 of 0030, tonight. Items 1, 3 and 4 stand: up to 8 hours, all 4 cells, the two PR repeats kept.
+
+ControlPC answered GO for now, with a claim between now and 17:30 and `LINE_HOURS=8`, no one else in the queue. Its e-mails at 18:00, 20:00, 22:00 and 00:00 fall inside the claim and are its overlaps.
+
+**Apps closed** at 16:3x on the PI's word, each gracefully first and then stopped: Edge in the background (7 processes, 494 MB), BingWallpaper (182 MB), Phone Link (151 MB), NVIDIA Overlay (5 processes, 151 MB, one came back by itself). ChatGPT was already closed. Left alone: Claude Desktop, which hosts every session, TightVNC, Tailscale, Codex, and the shells of other sessions. Available memory went from 16.39 to 16.87 GiB. Startup items were not touched, since they are a lasting system setting and do nothing tonight without a reboot.
