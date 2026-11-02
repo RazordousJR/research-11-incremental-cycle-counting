@@ -28,7 +28,7 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 
 ## Open, waiting on the PI
 
-**The PI's three decisions in `docs/paper/outline.md`** (`log.md` 0039): the contribution type, more streams before writing (test 5 likely fails), and the venue task M1A17. The two §16 figures are done in `docs/figures/`. No heavy work is planned until then.
+**More streams before writing** (`log.md` 0040): a protocol extension, then downloads and runs, each on the PI's word. Still open in `docs/paper/outline.md`: the contribution type and the venue task M1A17. The two §16 figures are done in `docs/figures/`. No heavy work is planned until then.
 
 ## Handover notes
 
