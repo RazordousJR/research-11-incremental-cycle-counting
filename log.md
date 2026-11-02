@@ -487,3 +487,14 @@ After M1D06A, ControlPC read the event logs and Task Scheduler and reported that
 ## 0037, 2026-11-03: Research 12 inside the M1D06A claim
 
 Research 12 reported, through ControlPC and unchecked by either, three concurrent ripgrep searches over the whole of C:\, 20 s each, somewhere from 04:50:07 to 04:53:50, and a 25 s probe at about 02:00:27 to 02:00:52, before the claim. M1D06A's last timed process ended at 04:28:44, from its summary's write time, and its count build ran from 04:28:50 to 04:55:33. So the searches fell in the count build, which carries no time, and every count there matched. No figure moves. Recorded in `results/gate1-M1D06A/README.md`.
+
+## 0038, 2026-11-03: PI approves the next step after M1D06A
+
+The PI answered the four items of the last report in this session: "Okeh approved beb". Each stands as I recommended it.
+
+| # | Item | Decision |
+|---|---|---|
+| 1 | Next step | The two §16 figures and the paper outline start now |
+| 2 | Second machine | Used for the scan margin and the cache claim if one exists. The paper does not wait for it, and whether one exists is still open |
+| 3 | Research 1's tasks during timing claims | Paused for future timing claims. They belong to another project, so ControlPC and the PI carry it out. Not this project's to change |
+| 4 | A stronger flat table | Not built |

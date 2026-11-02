@@ -28,7 +28,7 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 
 ## Open, waiting on the PI
 
-**The PI's next step after M1D06A.** Open: a second machine for the scan margin and the cache claim, the two §16 figures, and the paper outline. No heavy work is planned until the PI decides.
+**Next: the two §16 figures and the paper outline** (`log.md` 0038). A worked batch from a logged run and a stream timeline. A second machine is used if one exists, and the paper does not wait for it. No heavy work is planned.
 
 ## Handover notes
 
