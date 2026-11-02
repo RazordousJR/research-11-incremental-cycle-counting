@@ -32,6 +32,8 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 
 ## Handover notes
 
+- Research 1's scheduled tasks fire at every quarter hour, and ControlPC's mail at about :06, through every claim. They are not paused for a claim. `scripts/overlap_check.py` tests timed runs against them (`log.md` 0036).
+
 - Closing a desktop session's window does not end its `claude.exe`. A shell it owns keeps running, and the session wakes when that shell ends, so check it before assuming either.
 
 - `data/` is not in git. `data/snap/SHA256SUMS` lists the six inputs, and `data/snap/held-out/SHA256SUMS` the held-out stream. Rebuild `data/derived/` with `scripts/prepare_stream.py` and `scripts/prepare_window_stream.py`.
