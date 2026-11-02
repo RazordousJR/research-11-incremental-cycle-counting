@@ -30,7 +30,7 @@ No restart in either. Every stream here is labelled **real timestamps, synthetic
 | wiki-talk-temporal | real timestamps, insert-only | 1,000 | 5 | PR, 3 | 05:37:28 to 05:42:15 | 05:39:59 to 05:42:15 | 286.62 | 273.56, 276.63 |
 | wiki-talk-temporal | real timestamps, insert-only | 100 | 5 | PR, 1 | 05:42:16 to 05:49:10 | 05:42:16 to about 05:47 | 414.00 | 408.52, 408.89 |
 
-No other timed process overlaps. Both are the slowest of their three, 3.6% and 1.3% above the median, so they sit apart, though a raw file has no per-batch clock to place the excess. The first overlap holds only R9's short reads, so its 10 s excess is not obviously explained by what R9 reports. Neither changes a result: both cells fail by a wide margin with or without the repeat, 0.955 or 0.922 and 1.380 or 1.363 of best's fastest. A repeat lower than its peers would move the median score by at most 0.005 and 0.001, and the p = 5 median of 0.642 rests on other cells. Nothing else in this file uses those two repeats.
+No other timed process overlaps. Both are the slowest of their three, 3.6% and 1.3% above the median, so they sit apart, though a raw file has no per-batch clock to place the excess. The first overlap holds only R9's short reads, so its 10 s excess is not obviously explained by what R9 reports. Neither changes a result: both cells fail by a wide margin with or without the repeat, 0.955 or 0.922 and 1.380 or 1.363 of best's fastest. A repeat lower than its peers would move the median score by at most 0.010 and 0.001, and the p = 5 median of 0.642 rests on other cells. Nothing else in this file uses those two repeats.
 
 ## Reading against the rule, over the 12 evaluation cells
 
