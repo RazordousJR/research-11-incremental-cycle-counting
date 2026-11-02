@@ -508,3 +508,11 @@ The PI answered the four items of the last report in this session: "Okeh approve
 ## 0040, 2026-11-03: PI chooses more streams before writing
 
 The PI, in this session: "Yes, add streams", to "Add more streams before writing the paper?". So the evaluation grows before any manuscript, as the outline's decision B recommended: more streams at p = 5 and p = 3, with real deletions from KONECT as the hard case, under a protocol extension fixed before any new stream is read. Decisions A, the contribution type, and C, the venue task M1A17, were not answered and stay open.
+
+## 0041, 2026-11-03: handover, where the stream search stands
+
+The PI closed this session to start a new one. No claim is held, the tree is clean, and nothing is running.
+
+**Stream search, begun and not finished.** Hanauer et al.'s experiment guide (`exp/README.md` of AlgorithmsInAction/DynamicSubgraphCounter, read by WebFetch) names four sources for its 56 instances: DyReach Kronecker streams of constant and growing size, KONECT dynamic Wikipedia streams, and timestamped interaction streams from SNAP and Network Repository, the latter given a 14-day lifetime to produce deletions. It cleans every stream as this project does, and builds 2,000,000-update and 150,000-update prefixes. The per-instance list is in `exp/scripts/get_data.sh` there, which was not read. The arXiv PDF of the paper could not be read as text by the fetch tool. Not yet done: read that script, choose streams by a rule written first, check KONECT's format and the loader it needs, and write the M1D07 protocol extension. Every download needs the PI's word with file, source and size first, and every timing run the PI's hours and ControlPC's GO.
+
+**Open with the PI.** Decision A, the contribution type, and decision C, the venue task M1A17, in `docs/paper/outline.md`.
