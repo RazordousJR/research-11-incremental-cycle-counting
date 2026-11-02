@@ -1,0 +1,115 @@
+wiki-talk-temporal-insert-1000 p3 P3 status=OK done=6101/6101 net=2787967 ops=0 t=8113676 table=0 secs=2.172
+wiki-talk-temporal-insert-1000 p3 T3 status=MEM done=1473/6101 net=657938 ops=0 t=1777606 table=14595935592 secs=33.910
+wiki-talk-temporal-insert-1000 p3 M3 status=OK done=6101/6101 net=2787967 ops=0 t=8113676 table=83765016 secs=2.662
+wiki-talk-temporal-insert-1000 p3 S3 status=OK done=6101/6101 net=2787967 ops=0 t=8113676 table=0 secs=2.331
+wiki-talk-temporal-insert-1000 p3 M3 status=OK done=6101/6101 net=2787967 ops=0 t=8113676 table=83765016 secs=2.649
+wiki-talk-temporal-insert-1000 p3 S3 status=OK done=6101/6101 net=2787967 ops=0 t=8113676 table=0 secs=2.282
+wiki-talk-temporal-insert-1000 p3 P3 status=OK done=6101/6101 net=2787967 ops=0 t=8113676 table=0 secs=2.274
+wiki-talk-temporal-insert-1000 p3 S3 status=OK done=6101/6101 net=2787967 ops=0 t=8113676 table=0 secs=2.250
+wiki-talk-temporal-insert-1000 p3 P3 status=OK done=6101/6101 net=2787967 ops=0 t=8113676 table=0 secs=2.171
+wiki-talk-temporal-insert-1000 p3 M3 status=OK done=6101/6101 net=2787967 ops=0 t=8113676 table=83765016 secs=2.629
+wiki-talk-temporal-insert-1000 p3 S3 status=OK done=6101/6101 net=2787967 ops=0 t=8113676 table=0 secs=2.263
+wiki-talk-temporal-insert-1000 p3 P3 status=OK done=6101/6101 net=2787967 ops=0 t=8113676 table=0 secs=2.239
+wiki-talk-temporal-insert-1000 p3 M3 status=OK done=6101/6101 net=2787967 ops=0 t=8113676 table=83765016 secs=2.635
+wiki-talk-temporal-insert-1000 p3 S3 status=OK done=6101/6101 net=2787967 ops=0 t=8113676 table=0 secs=2.268
+wiki-talk-temporal-insert-1000 p3 P3 status=OK done=6101/6101 net=2787967 ops=0 t=8113676 table=0 secs=2.169
+wiki-talk-temporal-insert-1000 p3 M3 status=OK done=6101/6101 net=2787967 ops=0 t=8113676 table=83765016 secs=2.633
+wiki-talk-temporal-insert-1000 p3 final 8113676 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0(1473/6101)
+CELL-DONE p3 wiki-talk-temporal insert 1000 18:59:26
+wiki-talk-temporal-insert-100 p3 P3 status=OK done=61006/61006 net=2787967 ops=0 t=8113676 table=0 secs=2.271
+wiki-talk-temporal-insert-100 p3 T3 status=MEM done=14730/61006 net=657533 ops=0 t=1777606 table=14592513008 secs=33.970
+wiki-talk-temporal-insert-100 p3 M3 status=OK done=61006/61006 net=2787967 ops=0 t=8113676 table=83774680 secs=2.802
+wiki-talk-temporal-insert-100 p3 S3 status=OK done=61006/61006 net=2787967 ops=0 t=8113676 table=0 secs=2.348
+wiki-talk-temporal-insert-100 p3 M3 status=OK done=61006/61006 net=2787967 ops=0 t=8113676 table=83774680 secs=2.720
+wiki-talk-temporal-insert-100 p3 S3 status=OK done=61006/61006 net=2787967 ops=0 t=8113676 table=0 secs=2.359
+wiki-talk-temporal-insert-100 p3 P3 status=OK done=61006/61006 net=2787967 ops=0 t=8113676 table=0 secs=2.315
+wiki-talk-temporal-insert-100 p3 S3 status=OK done=61006/61006 net=2787967 ops=0 t=8113676 table=0 secs=2.278
+wiki-talk-temporal-insert-100 p3 P3 status=OK done=61006/61006 net=2787967 ops=0 t=8113676 table=0 secs=2.299
+wiki-talk-temporal-insert-100 p3 M3 status=OK done=61006/61006 net=2787967 ops=0 t=8113676 table=83774680 secs=2.653
+wiki-talk-temporal-insert-100 p3 S3 status=OK done=61006/61006 net=2787967 ops=0 t=8113676 table=0 secs=2.261
+wiki-talk-temporal-insert-100 p3 P3 status=OK done=61006/61006 net=2787967 ops=0 t=8113676 table=0 secs=2.278
+wiki-talk-temporal-insert-100 p3 M3 status=OK done=61006/61006 net=2787967 ops=0 t=8113676 table=83774680 secs=2.662
+wiki-talk-temporal-insert-100 p3 S3 status=OK done=61006/61006 net=2787967 ops=0 t=8113676 table=0 secs=2.291
+wiki-talk-temporal-insert-100 p3 P3 status=OK done=61006/61006 net=2787967 ops=0 t=8113676 table=0 secs=2.316
+wiki-talk-temporal-insert-100 p3 M3 status=OK done=61006/61006 net=2787967 ops=0 t=8113676 table=83774680 secs=2.729
+wiki-talk-temporal-insert-100 p3 final 8113676 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0(14730/61006)
+CELL-DONE p3 wiki-talk-temporal insert 100 19:00:44
+wiki-talk-temporal-insert-1000 p4 P4 status=OK done=6101/6101 net=2787967 ops=0 t=2411384219 table=0 secs=59.041
+wiki-talk-temporal-insert-1000 p4 T4 status=MEM done=1473/6101 net=657938 ops=0 t=244601104 table=14595935592 secs=33.493
+wiki-talk-temporal-insert-1000 p4 M4 status=OK done=6101/6101 net=2787967 ops=0 t=2411384219 table=83765016 secs=15.915
+wiki-talk-temporal-insert-1000 p4 B4 status=OK done=6101/6101 net=2787967 ops=0 t=2411384219 table=0 secs=412.821
+wiki-talk-temporal-insert-1000 p4 A4 status=TIME done=2199/6101 net=983523 ops=0 t=417539598 table=0 secs=300.005
+wiki-talk-temporal-insert-1000 p4 S4 status=OK done=6101/6101 net=2787967 ops=0 t=2411384219 table=0 secs=81.674
+wiki-talk-temporal-insert-1000 p4 P4 status=OK done=6101/6101 net=2787967 ops=0 t=2411384219 table=0 secs=58.003
+wiki-talk-temporal-insert-1000 p4 M4 status=OK done=6101/6101 net=2787967 ops=0 t=2411384219 table=83765016 secs=15.718
+wiki-talk-temporal-insert-1000 p4 P4 status=OK done=6101/6101 net=2787967 ops=0 t=2411384219 table=0 secs=58.113
+wiki-talk-temporal-insert-1000 p4 M4 status=OK done=6101/6101 net=2787967 ops=0 t=2411384219 table=83765016 secs=15.726
+wiki-talk-temporal-insert-1000 p4 P4 status=OK done=6101/6101 net=2787967 ops=0 t=2411384219 table=0 secs=58.154
+wiki-talk-temporal-insert-1000 p4 M4 status=OK done=6101/6101 net=2787967 ops=0 t=2411384219 table=83765016 secs=15.723
+wiki-talk-temporal-insert-1000 p4 P4 status=OK done=6101/6101 net=2787967 ops=0 t=2411384219 table=0 secs=58.180
+wiki-talk-temporal-insert-1000 p4 M4 status=OK done=6101/6101 net=2787967 ops=0 t=2411384219 table=83765016 secs=15.702
+wiki-talk-temporal-insert-1000 p3 final 8113676 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0(1473/6101)
+wiki-talk-temporal-insert-1000 p4 final 2411384219 ops A4.t1:0(2199/6101) B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 T4.t1:0(1473/6101)
+CELL-DONE p4 wiki-talk-temporal insert 1000 19:20:48
+wiki-talk-temporal-insert-100 p4 P4 status=OK done=61006/61006 net=2787967 ops=0 t=2411384219 table=0 secs=78.368
+wiki-talk-temporal-insert-100 p4 T4 status=MEM done=14730/61006 net=657533 ops=0 t=244601104 table=14592513008 secs=33.023
+wiki-talk-temporal-insert-100 p4 M4 status=OK done=61006/61006 net=2787967 ops=0 t=2411384219 table=83774680 secs=15.708
+wiki-talk-temporal-insert-100 p4 B4 status=OK done=61006/61006 net=2787967 ops=0 t=2411384219 table=0 secs=600.401
+wiki-talk-temporal-insert-100 p4 A4 status=TIME done=11313/61006 net=499525 ops=0 t=176400670 table=0 secs=300.003
+wiki-talk-temporal-insert-100 p4 S4 status=OK done=61006/61006 net=2787967 ops=0 t=2411384219 table=0 secs=81.183
+wiki-talk-temporal-insert-100 p4 P4 status=OK done=61006/61006 net=2787967 ops=0 t=2411384219 table=0 secs=78.871
+wiki-talk-temporal-insert-100 p4 M4 status=OK done=61006/61006 net=2787967 ops=0 t=2411384219 table=83774680 secs=15.682
+wiki-talk-temporal-insert-100 p4 P4 status=OK done=61006/61006 net=2787967 ops=0 t=2411384219 table=0 secs=78.488
+wiki-talk-temporal-insert-100 p4 M4 status=OK done=61006/61006 net=2787967 ops=0 t=2411384219 table=83774680 secs=15.724
+wiki-talk-temporal-insert-100 p4 P4 status=OK done=61006/61006 net=2787967 ops=0 t=2411384219 table=0 secs=78.726
+wiki-talk-temporal-insert-100 p4 M4 status=OK done=61006/61006 net=2787967 ops=0 t=2411384219 table=83774680 secs=15.693
+wiki-talk-temporal-insert-100 p4 P4 status=OK done=61006/61006 net=2787967 ops=0 t=2411384219 table=0 secs=78.841
+wiki-talk-temporal-insert-100 p4 M4 status=OK done=61006/61006 net=2787967 ops=0 t=2411384219 table=83774680 secs=15.696
+wiki-talk-temporal-insert-100 p3 final 8113676 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0(14730/61006)
+wiki-talk-temporal-insert-100 p4 final 2411384219 ops A4.t1:0(11313/61006) B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 T4.t1:0(14730/61006)
+CELL-DONE p4 wiki-talk-temporal insert 100 19:45:41
+wiki-talk-temporal-insert-1000 p5 PR status=OK done=6101/6101 net=2787967 ops=0 t=494592303423 table=3072 secs=273.565
+wiki-talk-temporal-insert-1000 p5 WT status=MEM done=1473/6101 net=657938 ops=0 t=35686589886 table=14595935592 secs=80.371
+wiki-talk-temporal-insert-1000 p5 WJ status=CAP done=988/6101 net=426480 ops=0 t=19408917050 table=6442450944 secs=159.432
+wiki-talk-temporal-insert-1000 p5 M5 status=OK done=6101/6101 net=2787967 ops=0 t=494592303423 table=856268096 secs=903.864
+wiki-talk-temporal-insert-1000 p5 A5 status=TIME done=871/6101 net=357760 ops=0 t=16391678995 table=0 secs=299.988
+wiki-talk-temporal-insert-1000 p5 R2 status=OK done=6101/6101 net=2787967 ops=0 t=494592303423 table=3072 secs=973.197
+wiki-talk-temporal-insert-1000 p5 M5 status=OK done=6101/6101 net=2787967 ops=0 t=494592303423 table=856268096 secs=891.529
+wiki-talk-temporal-insert-1000 p5 R2 status=OK done=6101/6101 net=2787967 ops=0 t=494592303423 table=3072 secs=975.365
+wiki-talk-temporal-insert-1000 p5 PR status=OK done=6101/6101 net=2787967 ops=0 t=494592303423 table=3072 secs=276.627
+wiki-talk-temporal-insert-1000 p5 M5 status=OK done=6101/6101 net=2787967 ops=0 t=494592303423 table=856268096 secs=889.383
+wiki-talk-temporal-insert-1000 p5 R2 status=OK done=6101/6101 net=2787967 ops=0 t=494592303423 table=3072 secs=978.502
+wiki-talk-temporal-insert-1000 p5 PR status=OK done=6101/6101 net=2787967 ops=0 t=494592303423 table=3072 secs=286.620
+wiki-talk-temporal-insert-1000 p3 final 8113676 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0(1473/6101)
+wiki-talk-temporal-insert-1000 p4 final 2411384219 ops A4.t1:0(2199/6101) B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 T4.t1:0(1473/6101)
+wiki-talk-temporal-insert-1000 p5 final 494592303423 ops A5.t1:0(871/6101) M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 R2.t1:0 R2.t2:0 R2.t3:0 WJ.t1:0(987/6101) WT.t1:0(1473/6101)
+CELL-DONE p5 wiki-talk-temporal insert 1000 21:42:16
+wiki-talk-temporal-insert-100 p5 PR status=OK done=61006/61006 net=2787967 ops=0 t=494592303423 table=3072 secs=414.004
+wiki-talk-temporal-insert-100 p5 WT status=MEM done=14730/61006 net=657533 ops=0 t=35686589886 table=14592742384 secs=80.631
+wiki-talk-temporal-insert-100 p5 WJ status=CAP done=9880/61006 net=426480 ops=0 t=19408916988 table=6442450944 secs=158.915
+wiki-talk-temporal-insert-100 p5 M5 status=OK done=61006/61006 net=2787967 ops=0 t=494592303423 table=856336524 secs=895.983
+wiki-talk-temporal-insert-100 p5 A5 status=TIME done=3435/61006 net=132248 ops=0 t=3704018878 table=0 secs=299.984
+wiki-talk-temporal-insert-100 p5 R2 status=OK done=61006/61006 net=2787967 ops=0 t=494592303423 table=3072 secs=972.213
+wiki-talk-temporal-insert-100 p5 M5 status=OK done=61006/61006 net=2787967 ops=0 t=494592303423 table=856336524 secs=894.823
+wiki-talk-temporal-insert-100 p5 R2 status=OK done=61006/61006 net=2787967 ops=0 t=494592303423 table=3072 secs=972.422
+wiki-talk-temporal-insert-100 p5 PR status=OK done=61006/61006 net=2787967 ops=0 t=494592303423 table=3072 secs=408.520
+wiki-talk-temporal-insert-100 p5 M5 status=OK done=61006/61006 net=2787967 ops=0 t=494592303423 table=856336524 secs=895.007
+wiki-talk-temporal-insert-100 p5 R2 status=OK done=61006/61006 net=2787967 ops=0 t=494592303423 table=3072 secs=972.726
+wiki-talk-temporal-insert-100 p5 PR status=OK done=61006/61006 net=2787967 ops=0 t=494592303423 table=3072 secs=408.891
+wiki-talk-temporal-insert-100 p3 final 8113676 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0(14730/61006)
+wiki-talk-temporal-insert-100 p4 final 2411384219 ops A4.t1:0(11313/61006) B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 T4.t1:0(14730/61006)
+wiki-talk-temporal-insert-100 p5 final 494592303423 ops A5.t1:0(3435/61006) M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 R2.t1:0 R2.t2:0 R2.t3:0 WJ.t1:0(9879/61006) WT.t1:0(14730/61006)
+CELL-DONE p5 wiki-talk-temporal insert 100 23:45:18
+wiki-talk-temporal-insert-1000 p3 M3 status=OK done=6101/6101 net=2787967 ops=2902083538 t=8113676 table=83765016 secs=2.814
+mcheck wiki-talk-temporal-insert-1000-p3-M3-th16: 6101 batches compared, 0 differ
+wiki-talk-temporal-insert-100 p3 M3 status=OK done=61006/61006 net=2787967 ops=2902279678 t=8113676 table=83774680 secs=2.835
+mcheck wiki-talk-temporal-insert-100-p3-M3-th16: 61006 batches compared, 0 differ
+wiki-talk-temporal-insert-1000 p4 M4 status=OK done=6101/6101 net=2787967 ops=31867666537 t=2411384219 table=83765016 secs=16.368
+mcheck wiki-talk-temporal-insert-1000-p4-M4-th16: 6101 batches compared, 0 differ
+wiki-talk-temporal-insert-100 p4 M4 status=OK done=61006/61006 net=2787967 ops=31810642962 t=2411384219 table=83774680 secs=16.343
+mcheck wiki-talk-temporal-insert-100-p4-M4-th16: 61006 batches compared, 0 differ
+wiki-talk-temporal-insert-1000 p5 M5 status=OK done=6101/6101 net=2787967 ops=919760298972 t=494592303423 table=856268096 secs=933.874
+mcheck wiki-talk-temporal-insert-1000-p5-M5-th128: 6101 batches compared, 0 differ
+wiki-talk-temporal-insert-100 p5 M5 status=OK done=61006/61006 net=2787967 ops=921690559861 t=494592303423 table=856336524 secs=940.801
+mcheck wiki-talk-temporal-insert-100-p5-M5-th128: 61006 batches compared, 0 differ
+M1D04-DONE results/gate1-M1D04 wiki

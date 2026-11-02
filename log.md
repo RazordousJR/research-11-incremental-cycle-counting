@@ -379,3 +379,25 @@ Streams: real timestamps with synthetic expiry, and real timestamps insert-only.
 **0024 expected wrongly.** It said Pivot or a thin Go, resting on M. M is best on 2 of 10 cells at p = 5, and the scan on 8. What moved was the price per operation: PR 0.61 ns, R2 0.72, M5 0.83, WT 1.69, WJ 8.26. WJ does fewer operations than PR on 6 of 8 sx cells at p = 5 and takes 3 to 26 times as long, so most of the sx result is a cache result on one machine. Two of the six passes would fall to a WJ about 2.6 times faster, and those are the ones to attack. Cut 1,000 passes on 5 of 5 cells, and cut 100 on 1 of 5.
 
 **An ablation for M1D06.** p = 3 and 4 chose the end of the grid, and theta came from streams that run in fractions of a second. M5 over the grid on evaluation cells would favour the baseline, and tells how much of the result rests on that.
+
+## 0028, 2026-11-02: M1D04 wiki finished clean; held needs the PI's hours
+
+Phase `wiki` ran under the exclusive claim from 02:56:10 to 08:17:13, 5 h 21 min 03 s against an estimate of 5 to 7.4 hours and a line of 9, on ControlPC's GO. `M1D04-DONE`, no restart, all nine hashes the same. `main` and `wiki` come to 7 h 50 min 44 s, inside the PI's 12 hours. The record is `results/gate1-M1D04/README.md`.
+
+**Exactness holds.** Over both phases: 16,141,789 batch comparisons, 0 differ.
+
+| p | Scored | Median score | Median against scan | Pass |
+|---:|---:|---:|---:|---:|
+| 3 | 12 of 12 | 1.098 | 1.098 | 0 |
+| 4 | 12 of 12 | 1.299 | 0.974 | 0 |
+| 5 | 12 of 12 | 0.642 | 0.535 | 6, on 3 streams, 4 expiry |
+
+Streams: real timestamps with synthetic expiry, and real timestamps insert-only. sx-stackoverflow is not in this reading, and there is no verdict until M1D05.
+
+**M1D04-R1 cost two passes.** On wiki-talk insert A5 stopped at 300 s with 14.3% and 5.6% of the batches done, and it enters "best" at its limit, so PR scores 0.922 and 1.363. Against the arms that finished, PR's slowest over M5's fastest is 0.322 and 0.463. The reading was fixed before this clock to be harder on the sharing arm. It does not reopen, and the count stays 6. Reopening it now, with the clock read, would be the free option 0024 warned of, in the sharing arm's favour.
+
+**A cell that does not fit.** On wiki-talk insert at p = 4, M4 takes 15.7 s against P4's 58 and 79 s, scores of 3.699 and 5.016, while at p = 5 PR beats M5 by more than two to one. The median trend holds, and this cell is why a single line through p = 3, 4, 5 would be a poor summary. M at p = 4 was also far from my planning guess of 65 to 106 s, so the wiki estimate was high for a reason I did not foresee.
+
+**The outcome is still held by the arithmetic of 0027.** `held` is p = 5 only, so p = 3 is final at 1.098. If its 4 cells are all scored and none passes, p = 5 is 6 of 16 with its median at worst 0.796.
+
+**Held needs the PI's word.** 0025 committed the stream and a separate claim, and its hours cover the two claims now done, as ControlPC read them in 0026. So no GO is asked for `held` until the PI gives hours. Estimate from the real costs: 4 to 6.5 hours. Both insert cells will almost surely finish no arm: wiki-talk insert took PR 277 to 409 s, and this stream has 7.9 times its events, so PR would need less than 4.4 times the time to finish inside 1,200 s, and on past streams time grew faster than events. Such cells cost about 1.4 hours each and are not scored. The expiry cells are the live part. The M count build adds about 0.8 hours.
