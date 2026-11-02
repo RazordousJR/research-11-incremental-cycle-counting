@@ -26,7 +26,7 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 
 ## Open, waiting on the PI
 
-**M1D06A, M5 over the theta grid, waits on the PI's hours and ControlPC's GO.** The PI chose to attack the fragile passes first. `log.md` 0033 corrects the aim: the scan, not a flat table, is closest to them. Protocol `docs/experiments/m1d06a-theta.md`, script `scripts/run_m1d06a.sh`. A second machine is the PI's question.
+**M1D06A, M5 over the theta grid, has the PI's 5 hours (`log.md` 0034) and waits on ControlPC's GO.** The PI chose to attack the fragile passes first. `log.md` 0033 corrects the aim: the scan, not a flat table, is closest to them. Protocol `docs/experiments/m1d06a-theta.md`, script `scripts/run_m1d06a.sh`. A second machine is the PI's question.
 
 ## Handover notes
 

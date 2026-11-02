@@ -457,3 +457,9 @@ Phase `held` ran under the exclusive claim from 16:40:52 to 23:26:23, 6 h 45 min
 So the two fragile passes are closest to the scan: R2 13% and 9% faster would remove them. R2 is PR's own kernel without sharing, so a faster kernel speeds both, and the margin is a property of this machine more than of a weak baseline. The tuned table would need about twice its speed, and M5 at theta 128 about twice too. A stronger flat table is the weakest attack, and M5 at another theta the cheapest real one.
 
 On the PI's "Yes, attack first", M1D06A runs M5 over the whole theta grid on the evaluation cells at p = 5, with PR and R2 in the same claim, and `docs/experiments/m1d06a-theta.md` fixes it before any run. No new arm is built. A second machine is the test for the scan margin and the cache claim, and that is the PI's question.
+
+## 0034, 2026-11-03: PI approves M1D06A's hours; dry run passed
+
+The PI, in this session: "Yes, 5 hours", to the question "Approve up to 5 exclusive hours for M1D06A?". So M1D06A runs `--exclusive` with `LINE_HOURS=5` when ControlPC gives a slot. The PI did not answer the other two items of that table, no stronger flat table and a second machine, so neither is decided. No table is being built.
+
+**Dry run.** On ControlPC's GO, an ordinary claim from 01:54:36 to 01:54:45, `scripts/run_m1d06a.sh` on CollegeMsg, an engineering stream, expiry and insert at both cuts, theta 16 and 128, output in the scratchpad: 80 summaries with full repeats, every cell's arms agree per batch, `mcheck` 0 differences on 8 runs, `M1D06A-DONE`. Its seconds were thrown away.
