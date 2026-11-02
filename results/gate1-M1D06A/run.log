@@ -1,0 +1,607 @@
+sx-askubuntu-expiry-1000 p5 R2 status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.457
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=7917960 secs=0.625
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=8565352 secs=0.682
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=9425824 secs=0.764
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10370876 secs=0.874
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.889
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.898
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.891
+sx-askubuntu-expiry-1000 p5 PR status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.270
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=9425824 secs=0.764
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.889
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.890
+sx-askubuntu-expiry-1000 p5 R2 status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.457
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=7917960 secs=0.627
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10370876 secs=0.908
+sx-askubuntu-expiry-1000 p5 PR status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.279
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=8565352 secs=0.682
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.890
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=8565352 secs=0.683
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.889
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=9425824 secs=0.764
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.892
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.889
+sx-askubuntu-expiry-1000 p5 R2 status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.457
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=7917960 secs=0.625
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10370876 secs=0.871
+sx-askubuntu-expiry-1000 p5 PR status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.268
+sx-askubuntu-expiry-1000 p5 R2 status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.456
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=7917960 secs=0.624
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10370876 secs=0.876
+sx-askubuntu-expiry-1000 p5 PR status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.268
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=8565352 secs=0.681
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.892
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=9425824 secs=0.776
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.891
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.896
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.890
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.900
+sx-askubuntu-expiry-1000 p5 R2 status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.458
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=7917960 secs=0.629
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10370876 secs=0.874
+sx-askubuntu-expiry-1000 p5 PR status=OK done=1454/1454 net=961178 ops=0 t=0 table=3072 secs=0.270
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=8565352 secs=0.680
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=10385000 secs=0.917
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=0 t=0 table=9425824 secs=0.780
+sx-askubuntu-expiry-1000 p5 final 0 ops M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0
+CELL-DONE sx-askubuntu expiry 1000 02:08:33
+sx-askubuntu-expiry-100 p5 R2 status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.481
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=7913404 secs=0.652
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=8574684 secs=0.709
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=9436676 secs=0.800
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10410848 secs=0.918
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.947
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.948
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.941
+sx-askubuntu-expiry-100 p5 PR status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.430
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=9436676 secs=0.796
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.940
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.937
+sx-askubuntu-expiry-100 p5 R2 status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.480
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=7913404 secs=0.652
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10410848 secs=0.932
+sx-askubuntu-expiry-100 p5 PR status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.433
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=8574684 secs=0.710
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.945
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=8574684 secs=0.722
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.955
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=9436676 secs=0.817
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.939
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.943
+sx-askubuntu-expiry-100 p5 R2 status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.481
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=7913404 secs=0.655
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10410848 secs=0.918
+sx-askubuntu-expiry-100 p5 PR status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.427
+sx-askubuntu-expiry-100 p5 R2 status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.481
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=7913404 secs=0.653
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10410848 secs=0.917
+sx-askubuntu-expiry-100 p5 PR status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.432
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=8574684 secs=0.713
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.942
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=9436676 secs=0.810
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.937
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.943
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.949
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.944
+sx-askubuntu-expiry-100 p5 R2 status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.479
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=7913404 secs=0.654
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10410848 secs=0.917
+sx-askubuntu-expiry-100 p5 PR status=OK done=14534/14534 net=963038 ops=0 t=0 table=3072 secs=0.430
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=8574684 secs=0.712
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=10429416 secs=0.939
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=0 t=0 table=9436676 secs=0.799
+sx-askubuntu-expiry-100 p5 final 0 ops M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0
+CELL-DONE sx-askubuntu expiry 100 02:09:11
+sx-askubuntu-insert-1000 p5 R2 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=11.849
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=30961052 secs=13.096
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=56318832 secs=11.396
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=106508808 secs=10.955
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=204038072 secs=11.784
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=389118084 secs=14.050
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=717748256 secs=17.344
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=1461485796 secs=20.565
+sx-askubuntu-insert-1000 p5 PR status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=5.028
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=106508808 secs=11.068
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=1461485796 secs=20.520
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=717748256 secs=17.410
+sx-askubuntu-insert-1000 p5 R2 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=12.967
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=30961052 secs=13.048
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=204038072 secs=11.897
+sx-askubuntu-insert-1000 p5 PR status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=4.876
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=56318832 secs=11.328
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=389118084 secs=14.049
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=56318832 secs=11.257
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=389118084 secs=14.133
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=106508808 secs=10.902
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=1461485796 secs=20.581
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=717748256 secs=17.407
+sx-askubuntu-insert-1000 p5 R2 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=11.859
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=30961052 secs=13.167
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=204038072 secs=12.011
+sx-askubuntu-insert-1000 p5 PR status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=5.761
+sx-askubuntu-insert-1000 p5 R2 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=11.890
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=30961052 secs=13.222
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=204038072 secs=11.990
+sx-askubuntu-insert-1000 p5 PR status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=4.944
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=56318832 secs=11.413
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=389118084 secs=14.066
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=106508808 secs=10.908
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=1461485796 secs=20.577
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=717748256 secs=17.450
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=1461485796 secs=20.481
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=717748256 secs=17.342
+sx-askubuntu-insert-1000 p5 R2 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=11.849
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=30961052 secs=13.187
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=204038072 secs=11.938
+sx-askubuntu-insert-1000 p5 PR status=OK done=727/727 net=455691 ops=0 t=7790384985 table=3072 secs=4.881
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=56318832 secs=11.334
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=389118084 secs=14.019
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=0 t=7790384985 table=106508808 secs=10.739
+sx-askubuntu-insert-1000 p5 final 7790384985 ops M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0
+CELL-DONE sx-askubuntu insert 1000 02:18:58
+sx-askubuntu-insert-100 p5 R2 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=11.858
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=30982128 secs=13.046
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=56345684 secs=11.208
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=106546532 secs=10.737
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=204015640 secs=11.926
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=389106340 secs=14.032
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=717536232 secs=17.397
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=1461758664 secs=20.686
+sx-askubuntu-insert-100 p5 PR status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=8.212
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=106546532 secs=10.846
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=1461758664 secs=20.504
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=717536232 secs=17.433
+sx-askubuntu-insert-100 p5 R2 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=12.278
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=30982128 secs=13.303
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=204015640 secs=11.815
+sx-askubuntu-insert-100 p5 PR status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=8.207
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=56345684 secs=11.397
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=389106340 secs=13.955
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=56345684 secs=11.264
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=389106340 secs=14.033
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=106546532 secs=10.852
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=1461758664 secs=20.507
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=717536232 secs=17.624
+sx-askubuntu-insert-100 p5 R2 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=11.937
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=30982128 secs=13.393
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=204015640 secs=11.833
+sx-askubuntu-insert-100 p5 PR status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=8.208
+sx-askubuntu-insert-100 p5 R2 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=11.875
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=30982128 secs=13.282
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=204015640 secs=11.776
+sx-askubuntu-insert-100 p5 PR status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=8.262
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=56345684 secs=11.211
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=389106340 secs=14.014
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=106546532 secs=10.944
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=1461758664 secs=20.478
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=717536232 secs=17.293
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=1461758664 secs=20.519
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=717536232 secs=17.335
+sx-askubuntu-insert-100 p5 R2 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=11.860
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=30982128 secs=13.053
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=204015640 secs=11.785
+sx-askubuntu-insert-100 p5 PR status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=3072 secs=9.224
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=56345684 secs=11.239
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=389106340 secs=13.940
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=0 t=7790384985 table=106546532 secs=10.745
+sx-askubuntu-insert-100 p5 final 7790384985 ops M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0
+CELL-DONE sx-askubuntu insert 100 02:29:00
+sx-superuser-expiry-1000 p5 R2 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.770
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=9694856 secs=1.090
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=10305672 secs=1.161
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=11014580 secs=1.285
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=11732596 secs=1.404
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.481
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.482
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.481
+sx-superuser-expiry-1000 p5 PR status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.470
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=11014580 secs=1.295
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.481
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.487
+sx-superuser-expiry-1000 p5 R2 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.772
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=9694856 secs=1.082
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=11732596 secs=1.396
+sx-superuser-expiry-1000 p5 PR status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.471
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=10305672 secs=1.162
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.483
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=10305672 secs=1.163
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.477
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=11014580 secs=1.285
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.480
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.487
+sx-superuser-expiry-1000 p5 R2 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.770
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=9694856 secs=1.093
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=11732596 secs=1.398
+sx-superuser-expiry-1000 p5 PR status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.472
+sx-superuser-expiry-1000 p5 R2 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.770
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=9694856 secs=1.083
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=11732596 secs=1.402
+sx-superuser-expiry-1000 p5 PR status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.474
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=10305672 secs=1.157
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.476
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=11014580 secs=1.279
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.481
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.497
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.487
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.480
+sx-superuser-expiry-1000 p5 R2 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.772
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=9694856 secs=1.079
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=11732596 secs=1.396
+sx-superuser-expiry-1000 p5 PR status=OK done=2218/2218 net=1521360 ops=0 t=0 table=3072 secs=0.472
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=10305672 secs=1.166
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=12825360 secs=1.478
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=0 t=0 table=11014580 secs=1.284
+sx-superuser-expiry-1000 p5 final 0 ops M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0
+CELL-DONE sx-superuser expiry 1000 02:29:57
+sx-superuser-expiry-100 p5 R2 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.803
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=9707112 secs=1.119
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=10320540 secs=1.196
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=11057672 secs=1.399
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=11761980 secs=1.463
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.587
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.549
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.560
+sx-superuser-expiry-100 p5 PR status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.719
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=11057672 secs=1.338
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.605
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.546
+sx-superuser-expiry-100 p5 R2 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.802
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=9707112 secs=1.120
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=11761980 secs=1.449
+sx-superuser-expiry-100 p5 PR status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.721
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=10320540 secs=1.200
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.554
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=10320540 secs=1.201
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.573
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=11057672 secs=1.327
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.543
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.548
+sx-superuser-expiry-100 p5 R2 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.819
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=9707112 secs=1.130
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=11761980 secs=1.441
+sx-superuser-expiry-100 p5 PR status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.722
+sx-superuser-expiry-100 p5 R2 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.801
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=9707112 secs=1.123
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=11761980 secs=1.457
+sx-superuser-expiry-100 p5 PR status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.723
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=10320540 secs=1.196
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.541
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=11057672 secs=1.333
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.544
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.542
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.576
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.547
+sx-superuser-expiry-100 p5 R2 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.799
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=9707112 secs=1.119
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=11761980 secs=1.469
+sx-superuser-expiry-100 p5 PR status=OK done=22175/22175 net=1524198 ops=0 t=0 table=3072 secs=0.721
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=10320540 secs=1.199
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=12889252 secs=1.544
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=0 t=0 table=11057672 secs=1.329
+sx-superuser-expiry-100 p5 final 0 ops M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0
+CELL-DONE sx-superuser expiry 100 02:30:59
+sx-superuser-insert-1000 p5 R2 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=31.807
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=50418856 secs=42.307
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=96639620 secs=35.294
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=183643144 secs=32.631
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=346412448 secs=33.793
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=628520016 secs=37.183
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=1095103524 secs=42.334
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=1920749424 secs=47.859
+sx-superuser-insert-1000 p5 PR status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=13.278
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=183643144 secs=32.670
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=1920749424 secs=47.864
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=1095103524 secs=42.377
+sx-superuser-insert-1000 p5 R2 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=31.769
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=50418856 secs=42.096
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=346412448 secs=33.628
+sx-superuser-insert-1000 p5 PR status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=13.415
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=96639620 secs=35.385
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=628520016 secs=37.297
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=96639620 secs=35.016
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=628520016 secs=37.841
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=183643144 secs=33.059
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=1920749424 secs=47.823
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=1095103524 secs=41.844
+sx-superuser-insert-1000 p5 R2 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=37.584
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=50418856 secs=42.003
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=346412448 secs=33.858
+sx-superuser-insert-1000 p5 PR status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=13.252
+sx-superuser-insert-1000 p5 R2 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=31.787
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=50418856 secs=42.024
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=346412448 secs=34.091
+sx-superuser-insert-1000 p5 PR status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=13.242
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=96639620 secs=35.194
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=628520016 secs=37.219
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=183643144 secs=32.683
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=1920749424 secs=47.823
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=1095103524 secs=41.898
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=1920749424 secs=48.142
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=1095103524 secs=42.308
+sx-superuser-insert-1000 p5 R2 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=31.787
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=50418856 secs=41.785
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=346412448 secs=34.139
+sx-superuser-insert-1000 p5 PR status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=3072 secs=13.236
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=96639620 secs=35.136
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=628520016 secs=37.020
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=0 t=32917477697 table=183643144 secs=32.518
+sx-superuser-insert-1000 p5 final 32917477697 ops M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0
+CELL-DONE sx-superuser insert 1000 02:57:31
+sx-superuser-insert-100 p5 R2 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=31.767
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=50408756 secs=41.664
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=96645308 secs=35.027
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=183660036 secs=32.947
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=346423896 secs=34.253
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=628433660 secs=36.981
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=1095088364 secs=41.803
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=1921023508 secs=47.778
+sx-superuser-insert-100 p5 PR status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=21.415
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=183660036 secs=32.809
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=1921023508 secs=47.706
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=1095088364 secs=42.278
+sx-superuser-insert-100 p5 R2 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=35.525
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=50408756 secs=42.490
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=346423896 secs=33.589
+sx-superuser-insert-100 p5 PR status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=23.292
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=96645308 secs=35.125
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=628433660 secs=37.020
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=96645308 secs=34.923
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=628433660 secs=37.021
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=183660036 secs=32.784
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=1921023508 secs=48.054
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=1095088364 secs=41.804
+sx-superuser-insert-100 p5 R2 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=31.778
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=50408756 secs=41.561
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=346423896 secs=33.903
+sx-superuser-insert-100 p5 PR status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=25.474
+sx-superuser-insert-100 p5 R2 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=35.273
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=50408756 secs=41.876
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=346423896 secs=33.698
+sx-superuser-insert-100 p5 PR status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=21.404
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=96645308 secs=35.249
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=628433660 secs=37.202
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=183660036 secs=32.504
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=1921023508 secs=47.850
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=1095088364 secs=41.914
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=1921023508 secs=47.786
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=1095088364 secs=42.150
+sx-superuser-insert-100 p5 R2 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=35.397
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=50408756 secs=41.769
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=346423896 secs=33.587
+sx-superuser-insert-100 p5 PR status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=3072 secs=21.382
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=96645308 secs=35.266
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=628433660 secs=37.005
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=0 t=32917477697 table=183660036 secs=32.587
+sx-superuser-insert-100 p5 final 32917477697 ops M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0
+CELL-DONE sx-superuser insert 100 03:24:51
+wiki-talk-temporal-expiry-1000 p5 R2 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=37.247
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=39856556 secs=51.044
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=50921816 secs=46.921
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=66420996 secs=44.981
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=87481000 secs=45.328
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=112467444 secs=48.354
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=150091072 secs=53.204
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=250067716 secs=63.542
+wiki-talk-temporal-expiry-1000 p5 PR status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=11.086
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=66420996 secs=44.842
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=150091072 secs=53.008
+wiki-talk-temporal-expiry-1000 p5 R2 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=36.275
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=39856556 secs=51.463
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=87481000 secs=45.370
+wiki-talk-temporal-expiry-1000 p5 PR status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=11.179
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=50921816 secs=46.728
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=112467444 secs=48.050
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=50921816 secs=46.867
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=112467444 secs=48.607
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=66420996 secs=45.296
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=150091072 secs=52.975
+wiki-talk-temporal-expiry-1000 p5 R2 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=35.983
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=39856556 secs=50.659
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=87481000 secs=45.445
+wiki-talk-temporal-expiry-1000 p5 PR status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=10.773
+wiki-talk-temporal-expiry-1000 p5 R2 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=35.927
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=39856556 secs=51.234
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=87481000 secs=45.628
+wiki-talk-temporal-expiry-1000 p5 PR status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=10.791
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=50921816 secs=47.117
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=112467444 secs=48.201
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=66420996 secs=45.148
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=150091072 secs=53.170
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=150091072 secs=52.856
+wiki-talk-temporal-expiry-1000 p5 R2 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=37.262
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=39856556 secs=51.050
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=87481000 secs=45.533
+wiki-talk-temporal-expiry-1000 p5 PR status=OK done=12202/12202 net=6598268 ops=0 t=0 table=3072 secs=11.214
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=50921816 secs=46.956
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=112467444 secs=48.291
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=0 t=0 table=66420996 secs=44.836
+wiki-talk-temporal-expiry-1000 p5 final 0 ops M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0
+CELL-DONE wiki-talk-temporal expiry 1000 03:54:13
+wiki-talk-temporal-expiry-100 p5 R2 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=36.440
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=39821688 secs=51.748
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=50900784 secs=47.923
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=66469132 secs=45.396
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=87568280 secs=45.705
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=112687884 secs=48.909
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=150236492 secs=54.056
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=227439368 secs=62.650
+wiki-talk-temporal-expiry-100 p5 PR status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=17.618
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=66469132 secs=45.533
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=227439368 secs=63.119
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=150236492 secs=53.715
+wiki-talk-temporal-expiry-100 p5 R2 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=37.382
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=39821688 secs=51.858
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=87568280 secs=45.878
+wiki-talk-temporal-expiry-100 p5 PR status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=19.123
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=50900784 secs=47.794
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=112687884 secs=48.618
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=50900784 secs=48.723
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=112687884 secs=48.827
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=66469132 secs=46.053
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=227439368 secs=62.038
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=150236492 secs=54.414
+wiki-talk-temporal-expiry-100 p5 R2 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=37.343
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=39821688 secs=51.421
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=87568280 secs=46.278
+wiki-talk-temporal-expiry-100 p5 PR status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=17.677
+wiki-talk-temporal-expiry-100 p5 R2 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=36.724
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=39821688 secs=51.541
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=87568280 secs=45.702
+wiki-talk-temporal-expiry-100 p5 PR status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=17.571
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=50900784 secs=47.861
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=112687884 secs=48.984
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=66469132 secs=45.804
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=227439368 secs=62.354
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=150236492 secs=53.982
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=227439368 secs=62.486
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=150236492 secs=54.061
+wiki-talk-temporal-expiry-100 p5 R2 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=36.428
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=39821688 secs=51.471
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=87568280 secs=46.060
+wiki-talk-temporal-expiry-100 p5 PR status=OK done=122011/122011 net=6628786 ops=0 t=0 table=3072 secs=17.596
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=50900784 secs=47.524
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=112687884 secs=49.209
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=0 t=0 table=66469132 secs=45.778
+wiki-talk-temporal-expiry-100 p5 final 0 ops M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0
+CELL-DONE wiki-talk-temporal expiry 100 04:28:49
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=618884889 t=0 table=7917960 secs=0.646
+mcheck sx-askubuntu-expiry-1000-p5-M5-th16: 1454 batches compared, 0 differ
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=659590220 t=0 table=7913404 secs=0.677
+mcheck sx-askubuntu-expiry-100-p5-M5-th16: 14534 batches compared, 0 differ
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=27335436924 t=7790384985 table=30961052 secs=13.798
+mcheck sx-askubuntu-insert-1000-p5-M5-th16: 727 batches compared, 0 differ
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=27343634905 t=7790384985 table=30982128 secs=13.779
+mcheck sx-askubuntu-insert-100-p5-M5-th16: 7267 batches compared, 0 differ
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=1121678313 t=0 table=9694856 secs=1.117
+mcheck sx-superuser-expiry-1000-p5-M5-th16: 2218 batches compared, 0 differ
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=1177397966 t=0 table=9707112 secs=1.160
+mcheck sx-superuser-expiry-100-p5-M5-th16: 22175 batches compared, 0 differ
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=90458029599 t=32917477697 table=50418856 secs=44.563
+mcheck sx-superuser-insert-1000-p5-M5-th16: 1109 batches compared, 0 differ
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=90441531093 t=32917477697 table=50408756 secs=44.377
+mcheck sx-superuser-insert-100-p5-M5-th16: 11088 batches compared, 0 differ
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=60728036696 t=0 table=39856556 secs=54.038
+mcheck wiki-talk-temporal-expiry-1000-p5-M5-th16: 12202 batches compared, 0 differ
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=61212333065 t=0 table=39821688 secs=55.259
+mcheck wiki-talk-temporal-expiry-100-p5-M5-th16: 122011 batches compared, 0 differ
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=617310394 t=0 table=8565352 secs=0.720
+mcheck sx-askubuntu-expiry-1000-p5-M5-th32: 1454 batches compared, 0 differ
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=657544360 t=0 table=8574684 secs=0.751
+mcheck sx-askubuntu-expiry-100-p5-M5-th32: 14534 batches compared, 0 differ
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=22338864230 t=7790384985 table=56318832 secs=11.789
+mcheck sx-askubuntu-insert-1000-p5-M5-th32: 727 batches compared, 0 differ
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=22350395992 t=7790384985 table=56345684 secs=11.905
+mcheck sx-askubuntu-insert-100-p5-M5-th32: 7267 batches compared, 0 differ
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=1083065532 t=0 table=10305672 secs=1.232
+mcheck sx-superuser-expiry-1000-p5-M5-th32: 2218 batches compared, 0 differ
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=1135238708 t=0 table=10320540 secs=1.260
+mcheck sx-superuser-expiry-100-p5-M5-th32: 22175 batches compared, 0 differ
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=72365642274 t=32917477697 table=96639620 secs=37.083
+mcheck sx-superuser-insert-1000-p5-M5-th32: 1109 batches compared, 0 differ
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=72341842581 t=32917477697 table=96645308 secs=37.140
+mcheck sx-superuser-insert-100-p5-M5-th32: 11088 batches compared, 0 differ
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=56885803068 t=0 table=50921816 secs=50.133
+mcheck wiki-talk-temporal-expiry-1000-p5-M5-th32: 12202 batches compared, 0 differ
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=57348943159 t=0 table=50900784 secs=50.537
+mcheck wiki-talk-temporal-expiry-100-p5-M5-th32: 122011 batches compared, 0 differ
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=647156999 t=0 table=9425824 secs=0.828
+mcheck sx-askubuntu-expiry-1000-p5-M5-th64: 1454 batches compared, 0 differ
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=690359382 t=0 table=9436676 secs=0.869
+mcheck sx-askubuntu-expiry-100-p5-M5-th64: 14534 batches compared, 0 differ
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=18533621416 t=7790384985 table=106508808 secs=11.289
+mcheck sx-askubuntu-insert-1000-p5-M5-th64: 727 batches compared, 0 differ
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=18546337002 t=7790384985 table=106546532 secs=11.365
+mcheck sx-askubuntu-insert-100-p5-M5-th64: 7267 batches compared, 0 differ
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=1088957240 t=0 table=11014580 secs=1.385
+mcheck sx-superuser-expiry-1000-p5-M5-th64: 2218 batches compared, 0 differ
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=1143274761 t=0 table=11057672 secs=1.432
+mcheck sx-superuser-expiry-100-p5-M5-th64: 22175 batches compared, 0 differ
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=57719816119 t=32917477697 table=183643144 secs=34.891
+mcheck sx-superuser-insert-1000-p5-M5-th64: 1109 batches compared, 0 differ
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=57691490936 t=32917477697 table=183660036 secs=34.276
+mcheck sx-superuser-insert-100-p5-M5-th64: 11088 batches compared, 0 differ
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=54868818355 t=0 table=66420996 secs=48.199
+mcheck wiki-talk-temporal-expiry-1000-p5-M5-th64: 12202 batches compared, 0 differ
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=55335334676 t=0 table=66469132 secs=49.021
+mcheck wiki-talk-temporal-expiry-100-p5-M5-th64: 122011 batches compared, 0 differ
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=678508772 t=0 table=10370876 secs=0.961
+mcheck sx-askubuntu-expiry-1000-p5-M5-th128: 1454 batches compared, 0 differ
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=729559703 t=0 table=10410848 secs=1.007
+mcheck sx-askubuntu-expiry-100-p5-M5-th128: 14534 batches compared, 0 differ
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=15927261017 t=7790384985 table=204038072 secs=12.164
+mcheck sx-askubuntu-insert-1000-p5-M5-th128: 727 batches compared, 0 differ
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=15943763161 t=7790384985 table=204015640 secs=12.279
+mcheck sx-askubuntu-insert-100-p5-M5-th128: 7267 batches compared, 0 differ
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=1110035367 t=0 table=11732596 secs=1.525
+mcheck sx-superuser-expiry-1000-p5-M5-th128: 2218 batches compared, 0 differ
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=1163719413 t=0 table=11761980 secs=1.577
+mcheck sx-superuser-expiry-100-p5-M5-th128: 22175 batches compared, 0 differ
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=46795667061 t=32917477697 table=346412448 secs=34.951
+mcheck sx-superuser-insert-1000-p5-M5-th128: 1109 batches compared, 0 differ
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=46772140738 t=32917477697 table=346423896 secs=35.174
+mcheck sx-superuser-insert-100-p5-M5-th128: 11088 batches compared, 0 differ
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=54884444287 t=0 table=87481000 secs=48.714
+mcheck wiki-talk-temporal-expiry-1000-p5-M5-th128: 12202 batches compared, 0 differ
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=55409132075 t=0 table=87568280 secs=49.422
+mcheck wiki-talk-temporal-expiry-100-p5-M5-th128: 122011 batches compared, 0 differ
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=682092252 t=0 table=10385000 secs=0.984
+mcheck sx-askubuntu-expiry-1000-p5-M5-th256: 1454 batches compared, 0 differ
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=734558831 t=0 table=10429416 secs=1.053
+mcheck sx-askubuntu-expiry-100-p5-M5-th256: 14534 batches compared, 0 differ
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=14669615870 t=7790384985 table=389118084 secs=14.257
+mcheck sx-askubuntu-insert-1000-p5-M5-th256: 727 batches compared, 0 differ
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=14690074828 t=7790384985 table=389106340 secs=14.276
+mcheck sx-askubuntu-insert-100-p5-M5-th256: 7267 batches compared, 0 differ
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=1128789165 t=0 table=12825360 secs=1.649
+mcheck sx-superuser-expiry-1000-p5-M5-th256: 2218 batches compared, 0 differ
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=1187597990 t=0 table=12889252 secs=1.709
+mcheck sx-superuser-expiry-100-p5-M5-th256: 22175 batches compared, 0 differ
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=39547879574 t=32917477697 table=628520016 secs=38.021
+mcheck sx-superuser-insert-1000-p5-M5-th256: 1109 batches compared, 0 differ
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=39534281114 t=32917477697 table=628433660 secs=38.264
+mcheck sx-superuser-insert-100-p5-M5-th256: 11088 batches compared, 0 differ
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=55909081146 t=0 table=112467444 secs=52.328
+mcheck wiki-talk-temporal-expiry-1000-p5-M5-th256: 12202 batches compared, 0 differ
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=56459418808 t=0 table=112687884 secs=53.165
+mcheck wiki-talk-temporal-expiry-100-p5-M5-th256: 122011 batches compared, 0 differ
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=682092252 t=0 table=10385000 secs=1.009
+mcheck sx-askubuntu-expiry-1000-p5-M5-th512: 1454 batches compared, 0 differ
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=734558831 t=0 table=10429416 secs=1.076
+mcheck sx-askubuntu-expiry-100-p5-M5-th512: 14534 batches compared, 0 differ
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=14134620271 t=7790384985 table=717748256 secs=20.095
+mcheck sx-askubuntu-insert-1000-p5-M5-th512: 727 batches compared, 0 differ
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=14155336157 t=7790384985 table=717536232 secs=18.752
+mcheck sx-askubuntu-insert-100-p5-M5-th512: 7267 batches compared, 0 differ
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=1128789165 t=0 table=12825360 secs=1.676
+mcheck sx-superuser-expiry-1000-p5-M5-th512: 2218 batches compared, 0 differ
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=1187597990 t=0 table=12889252 secs=1.764
+mcheck sx-superuser-expiry-100-p5-M5-th512: 22175 batches compared, 0 differ
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=34390460890 t=32917477697 table=1095103524 secs=46.542
+mcheck sx-superuser-insert-1000-p5-M5-th512: 1109 batches compared, 0 differ
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=34374597623 t=32917477697 table=1095088364 secs=48.973
+mcheck sx-superuser-insert-100-p5-M5-th512: 11088 batches compared, 0 differ
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=57483055935 t=0 table=150091072 secs=61.881
+mcheck wiki-talk-temporal-expiry-1000-p5-M5-th512: 12202 batches compared, 0 differ
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=58049801063 t=0 table=150236492 secs=60.314
+mcheck wiki-talk-temporal-expiry-100-p5-M5-th512: 122011 batches compared, 0 differ
+sx-askubuntu-expiry-1000 p5 M5 status=OK done=1454/1454 net=961178 ops=682092252 t=0 table=10385000 secs=0.990
+mcheck sx-askubuntu-expiry-1000-p5-M5-th1024: 1454 batches compared, 0 differ
+sx-askubuntu-expiry-100 p5 M5 status=OK done=14534/14534 net=963038 ops=734558831 t=0 table=10429416 secs=1.041
+mcheck sx-askubuntu-expiry-100-p5-M5-th1024: 14534 batches compared, 0 differ
+sx-askubuntu-insert-1000 p5 M5 status=OK done=727/727 net=455691 ops=13393526623 t=7790384985 table=1461485796 secs=21.121
+mcheck sx-askubuntu-insert-1000-p5-M5-th1024: 727 batches compared, 0 differ
+sx-askubuntu-insert-100 p5 M5 status=OK done=7267/7267 net=455691 ops=13412885814 t=7790384985 table=1461758664 secs=21.197
+mcheck sx-askubuntu-insert-100-p5-M5-th1024: 7267 batches compared, 0 differ
+sx-superuser-expiry-1000 p5 M5 status=OK done=2218/2218 net=1521360 ops=1128789165 t=0 table=12825360 secs=1.636
+mcheck sx-superuser-expiry-1000-p5-M5-th1024: 2218 batches compared, 0 differ
+sx-superuser-expiry-100 p5 M5 status=OK done=22175/22175 net=1524198 ops=1187597990 t=0 table=12889252 secs=1.715
+mcheck sx-superuser-expiry-100-p5-M5-th1024: 22175 batches compared, 0 differ
+sx-superuser-insert-1000 p5 M5 status=OK done=1109/1109 net=714570 ops=31321811574 t=32917477697 table=1920749424 secs=50.884
+mcheck sx-superuser-insert-1000-p5-M5-th1024: 1109 batches compared, 0 differ
+sx-superuser-insert-100 p5 M5 status=OK done=11088/11088 net=714570 ops=31321186444 t=32917477697 table=1921023508 secs=49.774
+mcheck sx-superuser-insert-100-p5-M5-th1024: 11088 batches compared, 0 differ
+wiki-talk-temporal-expiry-1000 p5 M5 status=OK done=12202/12202 net=6598268 ops=60611742402 t=0 table=250067716 secs=70.002
+mcheck wiki-talk-temporal-expiry-1000-p5-M5-th1024: 12202 batches compared, 0 differ
+wiki-talk-temporal-expiry-100 p5 M5 status=OK done=122011/122011 net=6628786 ops=60545923774 t=0 table=227439368 secs=68.810
+mcheck wiki-talk-temporal-expiry-100-p5-M5-th1024: 122011 batches compared, 0 differ
+M1D06A-DONE results/gate1-M1D06A

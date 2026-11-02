@@ -463,3 +463,13 @@ On the PI's "Yes, attack first", M1D06A runs M5 over the whole theta grid on the
 The PI, in this session: "Yes, 5 hours", to the question "Approve up to 5 exclusive hours for M1D06A?". So M1D06A runs `--exclusive` with `LINE_HOURS=5` when ControlPC gives a slot. The PI did not answer the other two items of that table, no stronger flat table and a second machine, so neither is decided. No table is being built.
 
 **Dry run.** On ControlPC's GO, an ordinary claim from 01:54:36 to 01:54:45, `scripts/run_m1d06a.sh` on CollegeMsg, an engineering stream, expiry and insert at both cuts, theta 16 and 128, output in the scratchpad: 80 summaries with full repeats, every cell's arms agree per batch, `mcheck` 0 differences on 8 runs, `M1D06A-DONE`. Its seconds were thrown away.
+
+## 0035, 2026-11-03: M1D06A, all six passes hold against M5 at its best theta
+
+M1D06A ran under the exclusive claim from 02:05:57 to 04:55:33, 2 h 49 min 36 s against a line of 5. `M1D06A-DONE`, no restart, the M1D04 binary. Record: `results/gate1-M1D06A/README.md`.
+
+**Exact.** 70 `mcheck` runs and 14,830,901 batch comparisons against M1D04 and M1D03, 0 differ.
+
+**Result.** At p = 5, on real timestamps with synthetic expiry and insert-only, all 6 passes of M1D05 hold when M5 gets the theta that suits each cell best, chosen on that cell. So the attack the PI chose did not move the verdict: Go stands at 6 of 14 under the harder reading too. The best theta is 16 on sx expiry and 64 elsewhere, against engineering's 128. M5 gains up to 29%, beats R2 only on sx-askubuntu insert, and never comes near breaking a pass.
+
+**What is left.** The two sx expiry passes hold against R2 at 0.612 and 0.616. That margin is the scan's and this machine's, and only a second machine tests it. The claim was noisier than M1D04: 12 repeats up to 19% slow from 02:08 to 04:06, not explained by ControlPC's 04:00 mail. That noise works against PR in this test, and it is recorded with the near-miss margins kept apart from M1D04's.

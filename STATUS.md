@@ -10,6 +10,7 @@
 - **Gate 1 is written and its arms are exact on the oracle.** `docs/experiments/gate1-protocol.md`. Series M1D in `docs/tasks/M1.md`.
 - **M1D03 is done and exact.** 156 of 156 arm-cells, 0 mismatches, 19 stopped at a limit, claim released (`log.md` 0024). On operations the median against best other is 1.447, 0.916, 0.950 at p = 3, 4, 5, without M. Gate 1 is not dead, and M decides it.
 - **M1D04 is done and exact, and M1D05 gives Go with the trend.** 216 arm-cells, 0 mismatches, all claims released (`log.md` 0032). At p = 5, 6 of 14 scored cells pass, median 0.686, against 1.098 at p = 3. The held-out stream gives no pass, two passes decide Go, and the win over the tables is a cache win on one machine.
+- **M1D06A: all six passes hold against M5 at its best theta per cell** (`log.md` 0035). The attack the PI chose did not move Go. The two sx expiry passes still rest on a 9% to 13% margin over the scan, which only a second machine tests.
 
 | Test | Verdict | Read with |
 |---|---|---|
@@ -21,12 +22,13 @@
 | M1C03, 5-cycles on the clock | Go by one cell | Shared clock. Worst-of-3 gives Pivot. Operations still favour tables on 16 of 22 |
 | M1D03, Gate 1 operations | Clean, no verdict | M absent. At p = 5 only wiki-talk reaches 0.67, against a scan. WJ beats PR on 6 of 8 sx cells |
 | M1D05, Gate 1 on the clock | Go, with the trend | 6 of 14 at p = 5. Held-out stream 0 of 2. Two sx expiry passes decide it, and fall to a scan 9% to 13% faster or a table twice as fast (`log.md` 0033). Best is the scan on 10 of 14. One machine, one core |
+| M1D06A, M5 at its best theta | 6 of 6 passes hold | Best theta 16 or 64, not 128. M5 beats R2 on one stream. A noisier claim, against PR |
 
 The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 Stop and parked, M1C02 Stop stands, M1C01 Go read with the V margin and the ring note.
 
 ## Open, waiting on the PI
 
-**M1D06A, M5 over the theta grid, has the PI's 5 hours (`log.md` 0034) and waits on ControlPC's GO.** The PI chose to attack the fragile passes first. `log.md` 0033 corrects the aim: the scan, not a flat table, is closest to them. Protocol `docs/experiments/m1d06a-theta.md`, script `scripts/run_m1d06a.sh`. A second machine is the PI's question.
+**The PI's next step after M1D06A.** Open: a second machine for the scan margin and the cache claim, the two §16 figures, and the paper outline. No heavy work is planned until the PI decides.
 
 ## Handover notes
 
