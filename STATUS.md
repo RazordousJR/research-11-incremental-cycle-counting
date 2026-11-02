@@ -20,13 +20,13 @@
 | M1C02, 5-cycles on operations | Stop at clause 4 | Clock reverses the winner |
 | M1C03, 5-cycles on the clock | Go by one cell | Shared clock. Worst-of-3 gives Pivot. Operations still favour tables on 16 of 22 |
 | M1D03, Gate 1 operations | Clean, no verdict | M absent. At p = 5 only wiki-talk reaches 0.67, against a scan. WJ beats PR on 6 of 8 sx cells |
-| M1D05, Gate 1 on the clock | Go, with the trend | 6 of 14 at p = 5. Held-out stream 0 of 2. Two sx expiry passes decide it, and fall to a WJ 2.6 times faster. Best is the scan on 10 of 14. One machine, one core |
+| M1D05, Gate 1 on the clock | Go, with the trend | 6 of 14 at p = 5. Held-out stream 0 of 2. Two sx expiry passes decide it, and fall to a scan 9% to 13% faster or a table twice as fast (`log.md` 0033). Best is the scan on 10 of 14. One machine, one core |
 
 The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 Stop and parked, M1C02 Stop stands, M1C01 Go read with the V margin and the ring note.
 
 ## Open, waiting on the PI
 
-**The PI's reading of M1D05 and the scope of M1D06.** The rule gives Go with the trend (`results/gate1-M1D05/README.md`). The open choices are how much the paper claims, whether M1D06 first attacks the two sx expiry passes with a stronger flat table and runs M5 over the theta grid, and whether a second machine exists. No heavy work is planned until then.
+**M1D06A, M5 over the theta grid, waits on the PI's hours and ControlPC's GO.** The PI chose to attack the fragile passes first. `log.md` 0033 corrects the aim: the scan, not a flat table, is closest to them. Protocol `docs/experiments/m1d06a-theta.md`, script `scripts/run_m1d06a.sh`. A second machine is the PI's question.
 
 ## Handover notes
 

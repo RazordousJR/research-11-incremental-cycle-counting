@@ -440,3 +440,20 @@ Phase `held` ran under the exclusive claim from 16:40:52 to 23:26:23, 6 h 45 min
 **Verdict by the rule.** p = 5: 14 of 16 scored, 6 pass on 3 streams with 4 expiry cells, which is above a third. No exactness failure. Go. Median score 1.098 at p = 3 and 0.686 at p = 5, so the trend clause holds too. The protocol's outcome is one experimental paper.
 
 **My reading of its weight, for the PI.** The rule's word stands and does not reopen. But the only unseen stream gives no pass. Two of the six passes, the sx expiry 1,000 cells, decide Go, and a flat table about 2.6 times faster than WJ would remove them. Most passes beat PR's own unshared kernel. And the win over the tables is a cache win on one machine. A paper from this is a careful experimental paper with those limits up front, not a large contribution. The PI decides what to do next, and M1D06 waits on that.
+
+## 0033, 2026-11-03: a correction to 0032 on what breaks the two sx expiry passes
+
+0032, the M1D04 and M1D05 records and STATUS said the two sx expiry 1,000 passes "fall to a WJ about 2.6 times faster". The arithmetic is right and the aim is wrong. WJ is the plain flat table. WT, the tuned table, already exists and is in the sweep. The speed each other arm's fastest repeat would need, at p = 5, to break each pass:
+
+| Stream | Label | Cut | R2 | WT | WJ | M5 | A5 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| sx-askubuntu | real timestamps, synthetic expiry | 1,000 | 1.13 | 2.06 | 2.65 | 2.16 | 1.88 |
+| sx-superuser | real timestamps, synthetic expiry | 1,000 | 1.09 | 1.95 | 2.61 | 1.98 | 2.07 |
+| sx-askubuntu | real timestamps, insert-only | 1,000 | 1.63 | 2.83 | 17.17 | 1.61 | 24.6 |
+| sx-superuser | real timestamps, insert-only | 1,000 | 1.59 | 2.66 | 16.79 | 1.69 | 15.05 |
+| wiki-talk-temporal | real timestamps, synthetic expiry | 100 | 1.38 | 7.44 | | 1.73 | 11.37 |
+| wiki-talk-temporal | real timestamps, synthetic expiry | 1,000 | 2.20 | 11.85 | | 2.76 | 5.90 |
+
+So the two fragile passes are closest to the scan: R2 13% and 9% faster would remove them. R2 is PR's own kernel without sharing, so a faster kernel speeds both, and the margin is a property of this machine more than of a weak baseline. The tuned table would need about twice its speed, and M5 at theta 128 about twice too. A stronger flat table is the weakest attack, and M5 at another theta the cheapest real one.
+
+On the PI's "Yes, attack first", M1D06A runs M5 over the whole theta grid on the evaluation cells at p = 5, with PR and R2 in the same claim, and `docs/experiments/m1d06a-theta.md` fixes it before any run. No new arm is built. A second machine is the test for the scan margin and the cache claim, and that is the PI's question.

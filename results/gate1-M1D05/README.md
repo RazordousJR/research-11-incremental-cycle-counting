@@ -50,7 +50,7 @@ The 8 scored cells that fail, from 0.678 to 1.380: the four sx-askubuntu and sx-
 The rule gives Go, and that does not reopen. The weight is less than the word suggests.
 
 1. **The held-out stream gives no pass.** sx-stackoverflow, the one stream no arm had seen, scores 0.846 and 0.978 on expiry, and its insert cells go unscored because no arm finished.
-2. **Two passes decide Go.** Without the two sx expiry 1,000 passes, 4 of 14 is under a third. A flat table about 2.6 times faster than WJ would remove them. The other four need far more: 17 times on sx insert, and nothing in this sweep comes near the wiki-talk expiry margin.
+2. **Two passes decide Go.** Without the two sx expiry 1,000 passes, 4 of 14 is under a third. They sit closest to the scan: R2 about 13% and 9% faster would remove them. The tuned table WT would need about twice its speed, and M5 at theta 128 about twice too. The other four need at least 1.6 times from any arm. This item first named a WJ 2.6 times faster, and `log.md` 0033 corrects it.
 3. **The win is a cache win on one machine.** Where PR beats the tables, it mostly does more charged work in less time. Another memory hierarchy could move it either way.
 4. **The baseline that loses most often is PR's own unshared kernel.** That is a fair baseline here, and a narrower claim than "beats tuned tables".
 5. **The trend is not new.** Cheetah publishes it (`log.md` 0019).
