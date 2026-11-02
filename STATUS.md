@@ -28,7 +28,7 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 
 ## Open, waiting on the PI
 
-**Next: the two §16 figures and the paper outline** (`log.md` 0038). A worked batch from a logged run and a stream timeline. A second machine is used if one exists, and the paper does not wait for it. No heavy work is planned.
+**The PI's three decisions in `docs/paper/outline.md`** (`log.md` 0039): the contribution type, more streams before writing (test 5 likely fails), and the venue task M1A17. The two §16 figures are done in `docs/figures/`. No heavy work is planned until then.
 
 ## Handover notes
 

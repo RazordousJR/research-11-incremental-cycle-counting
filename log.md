@@ -498,3 +498,9 @@ The PI answered the four items of the last report in this session: "Okeh approve
 | 2 | Second machine | Used for the scan margin and the cache claim if one exists. The paper does not wait for it, and whether one exists is still open |
 | 3 | Research 1's tasks during timing claims | Paused for future timing claims. They belong to another project, so ControlPC and the PI carry it out. Not this project's to change |
 | 4 | A stronger flat table | Not built |
+
+## 0039, 2026-11-03: the two §16 figures and the outline
+
+**Figures.** `docs/figures/`, from logged runs only, as plain SVG, since no plotting library is installed and none was fetched. Figure 1 opens batch 465 of sx-askubuntu expiry, cut 1,000, at p = 5, chosen by a rule fixed before any batch was read: the median of PR over R2 among batches where PR is cheaper. The new `benchmarks/worked_batch.cpp` replays the stream with Gate 1's PR engine and reproduces the logged row exactly, 177,236 operations and a count of 9,394. Figure 2 is the same cell's count and each arm's operations over all 1,454 batches. Both are operations, not time, and say so. Rendered for checking with headless Edge, outside the app.
+
+**Outline.** `docs/paper/outline.md`. The check against bootstrap §5 finds test 5, the scope of the evaluation, likely failing: 3 evaluation streams and 1 held-out, against 56 instances in the closest prior study, and no stream with real deletions. Three decisions go to the PI: the contribution type, more streams before writing, and the venue task M1A17.
