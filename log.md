@@ -407,3 +407,16 @@ Streams: real timestamps with synthetic expiry, and real timestamps insert-only.
 ControlPC passed on R9's report, unchecked by either: one R9 process at a time from 05:39:59 to about 05:47, unpinned, during the exclusive `wiki` claim. Two of this project's timed processes overlap it, PR repeat 3 on wiki-talk insert 1,000 (286.62 s, the others 273.56 and 276.63) and PR repeat 1 on wiki-talk insert 100 (414.00 s, the others 408.52 and 408.89). Labels: real timestamps, insert-only. Both are the slowest of their three. No other timed process overlaps. So hard rule 3's "pinned, exclusive" does not strictly hold for those two repeats.
 
 Neither moves a result. Both cells fail with or without the repeat, the median scores could move by at most 0.010 and 0.001, and the p = 5 median rests on other cells. The README records the table. Rerunning them is the PI's call. My recommendation is to keep them, marked, since a rerun can change nothing that the rule reads and would add a repeat chosen after the clock was seen.
+
+## 0030, 2026-11-02: PI approves held and keeps the two repeats
+
+The PI answered the four items of the last report in this session, at about 11:20: "Okeh approved all beb". Each stands as I recommended it.
+
+| # | Item | Decision |
+|---|---|---|
+| 1 | `--exclusive` hours for `held` | Approved, up to 8 hours, `LINE_HOURS=8`. Estimate 4 to 6.5 hours. ControlPC's GO is still needed |
+| 2 | When | Tonight, so that it does not meet the PI's use of the machine by day |
+| 3 | The 4 held-out cells | All 4 stay, though both insert cells will almost surely finish no arm and go unscored at about 1.4 hours each |
+| 4 | The two PR repeats that overlap R9 | Not rerun. They stay, marked in the README, as 0029 states |
+
+ControlPC had reported an approval recorded in R9's log, to a table it could not see. That record is not this project's, and it was not used. The word above is the PI's own, here. No threshold changes, and reading M1D04-R1 stands.

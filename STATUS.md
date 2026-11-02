@@ -26,7 +26,7 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 
 ## Open, waiting on the PI
 
-**The PI's word on `held`'s hours.** `log.md` 0025 committed the stream and a separate claim, and its 8 to 12 hours covered `main` and `wiki`. Estimate 4 to 6.5 hours, line 8, recommended overnight. After the PI's word, ask ControlPC, then run `scripts/run_m1d04.sh results/gate1-M1D04 8 held` under its own claim with the release chained, check `hashes.txt` first, and send the log to a new file so the tree stays clean. Then M1D05 with `scripts/gate1_score.py`.
+Nothing is waiting on the PI. The PI approved `held` at up to 8 hours, tonight, with all 4 cells, and kept the two PR repeats that overlap R9 (`log.md` 0030). `held` now waits on ControlPC's GO. Run `scripts/run_m1d04.sh results/gate1-M1D04 8 held` under its own claim with the release chained, check `hashes.txt` first, and send the log to a new file so the tree stays clean. Then M1D05 with `scripts/gate1_score.py`, confirming that all 6 arms of all 4 cells left a summary.
 
 ## Handover notes
 
