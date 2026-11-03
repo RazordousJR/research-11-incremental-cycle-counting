@@ -646,3 +646,15 @@ The PI, in this session: "Okeh aku approved cadangan ko. Follow the most best on
 | First | A short timing dry run on fixtures, in an ordinary claim on ControlPC's GO |
 
 Research 1's scheduled tasks are to be paused for timing claims by ControlPC and the PI (0038). That is theirs to carry out, and `scripts/overlap_check.py` reads any overlap after each claim as before.
+
+## 0053, 2026-11-03: the timing dry run found three faults, now fixed
+
+On ControlPC's GO for a dry run, four short ordinary claims from 15:35:24 to 15:40:18, each claimed and released, all on fixtures and CollegeMsg in the scratchpad, seconds thrown away.
+
+1. **A carriage return.** Windows Python ends its output lines with CR LF. The timing loop read the pattern from `scripts/m1d07_plan.py` as `3\r`, so the arm list came out empty and no arm ran on most cells. The first fix, `tr -d $'\r'`, did nothing: this bash, Cygwin's 5.3, expands `$'\r'` to an empty string, which a trace with `bash -x` showed. The CR now goes to `tr` in octal.
+2. **CR LF in two scripts.** My Python edits of `scripts/run_m1d07.sh` and `scripts/chain_m1d07c.sh` had written them in Windows text mode. Git keeps them as LF, and only the working copies carried CR LF. Both are LF again. M1D07C ran with those copies and is unaffected: all 388 arm-cells ran and the separate check of every raw file found 0 differences (0051).
+3. **A check that passed on nothing.** `scripts/m1d07_tcheck.py` passed a cell with no timing run. It now fails unless every arm of the count build has its first timing repeat. `check_m1d02.py` has the same weakness on an empty cell, and the new check covers it.
+
+**The fourth run is clean:** 28 cells, 140 first repeats and 130 at each of repeats 2 to 5 by Gate 1's rule, and all 660 runs equal M1D07C's count build per batch, 0 differ or missing. The scripts that will run tonight are the ones this run used.
+
+**Tonight.** ControlPC set claim 1 of M1D07D, D1 then D2, for 22:10 to 22:59 as its claim window, `--exclusive --timing`, `LINE_HOURS=7`, line about 05:12, and claim 2, D3 then D4, for 22:10 on 4 November on its own GO. The PI has not yet given ControlPC his word on pausing Research 1's tasks, so until he does they fire at every quarter hour, and `scripts/overlap_check.py` records them after the claim.

@@ -35,5 +35,13 @@ for path in sorted(glob.glob(os.path.join(tout, "raw", base + "*.t*.csv"))):
             print(f"MISMATCH {os.path.basename(path)} against the count build, batch {i}: {a[i]} and {b[i]}")
             bad += 1
             break
-print(f"tcheck {base[:-1]}: {runs} timing runs against the count build, {bad} differ")
+# Every arm of the count build must have its first timing repeat, or the cell did not run: a check of nothing is not a pass
+for ref in glob.glob(os.path.join(cout, "raw", base + "*.csv")):
+    if ref.endswith(".summary.csv"):
+        continue
+    arm = os.path.basename(ref)[len(base):-4]
+    if not os.path.exists(os.path.join(tout, "raw", base + arm + ".t1.summary.csv")):
+        print(f"MISSING timing repeat 1 of {base}{arm}")
+        bad += 1
+print(f"tcheck {base[:-1]}: {runs} timing runs against the count build, {bad} differ or missing")
 sys.exit(1 if bad else 0)

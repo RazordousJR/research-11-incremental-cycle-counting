@@ -134,11 +134,13 @@ timing_sweep() {
     (git rev-parse --short HEAD; sha256sum benchmarks/gate1.cpp src/r11/tc.hpp scripts/run_m1d07.sh scripts/gate1_plan.py scripts/check_m1d02.py scripts/m1d07_tcheck.py scripts/m1d07_plan.py "$timing") > "$tout/hashes.txt"
   fi
   grep -q "$(sha256sum "$timing" | cut -d' ' -f1)" results/gate1-M1D04/hashes.txt || { echo "M1D07-STOP timing.exe differs from M1D04"; exit 1; }
-  for cell in $(python -I scripts/m1d07_plan.py "$out" --cells $PHASES); do
+  # Windows Python ends its lines with CR LF, and a CR left in a field breaks every test on it below. This bash expands $'\r' to
+  # nothing, so the CR is given to tr in octal
+  for cell in $(python -I scripts/m1d07_plan.py "$out" --cells $PHASES | tr -d '\015'); do
     IFS=: read -r s v c p <<< "$cell"
     f="$data/$s.$v.bin"
     for a in $(arms_of "$p" 1); do run_timing "$s" "$v" "$c" "$p" "$a" 1 "$f"; done
-    for spec in $(python -I scripts/gate1_plan.py repeats "$tout" "$s" "$v" "$c" "$p"); do
+    for spec in $(python -I scripts/gate1_plan.py repeats "$tout" "$s" "$v" "$c" "$p" | tr -d '\015'); do
       run_timing "$s" "$v" "$c" "$p" "${spec%%:*}" "${spec##*:}" "$f"
     done
     python -I scripts/check_m1d02.py "$tout" "$s" "$v" "$c" || { echo "M1D07-STOP $s $v $c p$p"; exit 1; }
