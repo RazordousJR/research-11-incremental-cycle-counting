@@ -662,3 +662,9 @@ On ControlPC's GO for a dry run, four short ordinary claims from 15:35:24 to 15:
 ## 0054, 2026-11-03: Research 1's tasks keep firing through M1D07D
 
 ControlPC reports the PI's word to it, given in another session and quoted to me: "Research 1 tengah buat paper submission paper aje. biarkan dia and then dia akan tutup." So Research 1's scheduled tasks are not paused for either M1D07D claim, which replaces item 3 of 0038 for these two claims. By ControlPC's list they fire: FollowOnGate at :00, :15, :30 and :45; Status at :00 and :30; Backup at :00, a `git bundle` into OneDrive; BackupResults at 00:00 and 06:00. ControlPC's own mail runs at about :06. `scripts/overlap_check.py` reads every timed repeat against them after each claim, as in 0036. A pass needs PR's slowest repeat under 0.67 times the best arm's fastest, and load only adds time, so a false pass would need the best arm's fastest repeat to sit on one of them, which the check will report cell by cell.
+
+## 0055, 2026-11-04: M1D07D claim 1 finished clean
+
+Claim 1, phases D1 then D2, ran under the exclusive timing claim from 22:10:08 on 3 November to 02:30:10, 4 h 20 min against a line of 7, on ControlPC's GO and the PI's hours (0052). `M1D07-DONE`, exit 0, released by the chain, no restart. 62 cells. Every timing repeat agrees per batch with the other runs of its cell and with M1D07C's count build, and the hashes in `results/gate1-M1D07T/hashes.txt` hold. Research 1's scheduled tasks and ControlPC's mail ran through it, as the PI chose (0054), and `scripts/overlap_check.py` reads them after claim 2.
+
+**No score is read yet.** The pooled reading of the protocol needs every phase, claim 2 runs D3 and D4 whatever D1 and D2 show, and reading pass or fail now could only invite the free option that 0024 warned of. The scores are read once, after claim 2. Claim 2 waits on ControlPC's GO for 22:10 tonight.

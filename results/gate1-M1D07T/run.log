@@ -1,0 +1,1369 @@
+=== M1D07D claim 1, D1 then D2, start 22:10:03
+checks: RAM 15 GiB, commit free 77 GiB, checksums and count.exe hash good
+claimed the tower for research11: R11 M1D07D timing D1 D2, exclusive, 1 thread CPU 8, line 7 h, PI hours and ControlPC GO
+M1D07C-CLAIMED 22:10:08
+dewiki-real-1000 p3 P3 status=OK done=2000/2000 net=1828436 ops=0 t=2543198 table=0 secs=0.689
+dewiki-real-1000 p3 T3 status=OK done=2000/2000 net=1828436 ops=0 t=2543198 table=2461513528 secs=13.060
+dewiki-real-1000 p3 M3 status=OK done=2000/2000 net=1828436 ops=0 t=2543198 table=110058448 secs=1.689
+dewiki-real-1000 p3 S3 status=OK done=2000/2000 net=1828436 ops=0 t=2543198 table=0 secs=0.776
+dewiki-real-1000 p3 M3 status=OK done=2000/2000 net=1828436 ops=0 t=2543198 table=110058448 secs=1.748
+dewiki-real-1000 p3 S3 status=OK done=2000/2000 net=1828436 ops=0 t=2543198 table=0 secs=0.776
+dewiki-real-1000 p3 P3 status=OK done=2000/2000 net=1828436 ops=0 t=2543198 table=0 secs=0.671
+dewiki-real-1000 p3 S3 status=OK done=2000/2000 net=1828436 ops=0 t=2543198 table=0 secs=0.785
+dewiki-real-1000 p3 P3 status=OK done=2000/2000 net=1828436 ops=0 t=2543198 table=0 secs=0.675
+dewiki-real-1000 p3 M3 status=OK done=2000/2000 net=1828436 ops=0 t=2543198 table=110058448 secs=1.681
+dewiki-real-1000 p3 S3 status=OK done=2000/2000 net=1828436 ops=0 t=2543198 table=0 secs=0.770
+dewiki-real-1000 p3 P3 status=OK done=2000/2000 net=1828436 ops=0 t=2543198 table=0 secs=0.675
+dewiki-real-1000 p3 M3 status=OK done=2000/2000 net=1828436 ops=0 t=2543198 table=110058448 secs=1.715
+dewiki-real-1000 p3 S3 status=OK done=2000/2000 net=1828436 ops=0 t=2543198 table=0 secs=0.781
+dewiki-real-1000 p3 P3 status=OK done=2000/2000 net=1828436 ops=0 t=2543198 table=0 secs=0.673
+dewiki-real-1000 p3 M3 status=OK done=2000/2000 net=1828436 ops=0 t=2543198 table=110058448 secs=1.687
+dewiki-real-1000 p3 final 2543198 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck dewiki-real-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 dewiki real 1000 22:10:41
+dewiki-real-100 p3 P3 status=OK done=20000/20000 net=1937014 ops=0 t=2543198 table=0 secs=0.728
+dewiki-real-100 p3 T3 status=OK done=20000/20000 net=1937014 ops=0 t=2543198 table=2466339008 secs=13.743
+dewiki-real-100 p3 M3 status=OK done=20000/20000 net=1937014 ops=0 t=2543198 table=110255004 secs=1.732
+dewiki-real-100 p3 S3 status=OK done=20000/20000 net=1937014 ops=0 t=2543198 table=0 secs=0.843
+dewiki-real-100 p3 M3 status=OK done=20000/20000 net=1937014 ops=0 t=2543198 table=110255004 secs=1.733
+dewiki-real-100 p3 S3 status=OK done=20000/20000 net=1937014 ops=0 t=2543198 table=0 secs=0.842
+dewiki-real-100 p3 P3 status=OK done=20000/20000 net=1937014 ops=0 t=2543198 table=0 secs=0.724
+dewiki-real-100 p3 S3 status=OK done=20000/20000 net=1937014 ops=0 t=2543198 table=0 secs=0.846
+dewiki-real-100 p3 P3 status=OK done=20000/20000 net=1937014 ops=0 t=2543198 table=0 secs=0.719
+dewiki-real-100 p3 M3 status=OK done=20000/20000 net=1937014 ops=0 t=2543198 table=110255004 secs=1.732
+dewiki-real-100 p3 S3 status=OK done=20000/20000 net=1937014 ops=0 t=2543198 table=0 secs=0.851
+dewiki-real-100 p3 P3 status=OK done=20000/20000 net=1937014 ops=0 t=2543198 table=0 secs=0.730
+dewiki-real-100 p3 M3 status=OK done=20000/20000 net=1937014 ops=0 t=2543198 table=110255004 secs=1.736
+dewiki-real-100 p3 S3 status=OK done=20000/20000 net=1937014 ops=0 t=2543198 table=0 secs=0.840
+dewiki-real-100 p3 P3 status=OK done=20000/20000 net=1937014 ops=0 t=2543198 table=0 secs=0.726
+dewiki-real-100 p3 M3 status=OK done=20000/20000 net=1937014 ops=0 t=2543198 table=110255004 secs=1.731
+dewiki-real-100 p3 final 2543198 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck dewiki-real-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 dewiki real 100 22:11:14
+frwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1779796 ops=0 t=2054829 table=0 secs=0.647
+frwiki-real-1000 p3 T3 status=OK done=2000/2000 net=1779796 ops=0 t=2054829 table=4063616816 secs=19.195
+frwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1779796 ops=0 t=2054829 table=88230368 secs=1.436
+frwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1779796 ops=0 t=2054829 table=0 secs=0.751
+frwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1779796 ops=0 t=2054829 table=88230368 secs=1.412
+frwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1779796 ops=0 t=2054829 table=0 secs=0.750
+frwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1779796 ops=0 t=2054829 table=0 secs=0.645
+frwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1779796 ops=0 t=2054829 table=0 secs=0.751
+frwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1779796 ops=0 t=2054829 table=0 secs=0.650
+frwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1779796 ops=0 t=2054829 table=88230368 secs=1.410
+frwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1779796 ops=0 t=2054829 table=0 secs=0.754
+frwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1779796 ops=0 t=2054829 table=0 secs=0.649
+frwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1779796 ops=0 t=2054829 table=88230368 secs=1.419
+frwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1779796 ops=0 t=2054829 table=0 secs=0.747
+frwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1779796 ops=0 t=2054829 table=0 secs=0.652
+frwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1779796 ops=0 t=2054829 table=88230368 secs=1.417
+frwiki-real-1000 p3 final 2054829 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck frwiki-real-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 frwiki real 1000 22:11:50
+frwiki-real-100 p3 P3 status=OK done=20000/20000 net=1926228 ops=0 t=2054829 table=0 secs=0.702
+frwiki-real-100 p3 T3 status=OK done=20000/20000 net=1926228 ops=0 t=2054829 table=4071875712 secs=20.495
+frwiki-real-100 p3 M3 status=OK done=20000/20000 net=1926228 ops=0 t=2054829 table=88418904 secs=1.465
+frwiki-real-100 p3 S3 status=OK done=20000/20000 net=1926228 ops=0 t=2054829 table=0 secs=0.811
+frwiki-real-100 p3 M3 status=OK done=20000/20000 net=1926228 ops=0 t=2054829 table=88418904 secs=1.489
+frwiki-real-100 p3 S3 status=OK done=20000/20000 net=1926228 ops=0 t=2054829 table=0 secs=0.820
+frwiki-real-100 p3 P3 status=OK done=20000/20000 net=1926228 ops=0 t=2054829 table=0 secs=0.699
+frwiki-real-100 p3 S3 status=OK done=20000/20000 net=1926228 ops=0 t=2054829 table=0 secs=0.833
+frwiki-real-100 p3 P3 status=OK done=20000/20000 net=1926228 ops=0 t=2054829 table=0 secs=0.708
+frwiki-real-100 p3 M3 status=OK done=20000/20000 net=1926228 ops=0 t=2054829 table=88418904 secs=1.498
+frwiki-real-100 p3 S3 status=OK done=20000/20000 net=1926228 ops=0 t=2054829 table=0 secs=0.816
+frwiki-real-100 p3 P3 status=OK done=20000/20000 net=1926228 ops=0 t=2054829 table=0 secs=0.720
+frwiki-real-100 p3 M3 status=OK done=20000/20000 net=1926228 ops=0 t=2054829 table=88418904 secs=1.476
+frwiki-real-100 p3 S3 status=OK done=20000/20000 net=1926228 ops=0 t=2054829 table=0 secs=0.883
+frwiki-real-100 p3 P3 status=OK done=20000/20000 net=1926228 ops=0 t=2054829 table=0 secs=0.709
+frwiki-real-100 p3 M3 status=OK done=20000/20000 net=1926228 ops=0 t=2054829 table=88418904 secs=1.465
+frwiki-real-100 p3 final 2054829 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck frwiki-real-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 frwiki real 100 22:12:28
+ia-enron-email-dynamic-expiry-1000 p3 P3 status=OK done=2000/2000 net=1059225 ops=0 t=5600 table=0 secs=0.093
+ia-enron-email-dynamic-expiry-1000 p3 T3 status=OK done=2000/2000 net=1059225 ops=0 t=5600 table=31379856 secs=1.207
+ia-enron-email-dynamic-expiry-1000 p3 M3 status=OK done=2000/2000 net=1059225 ops=0 t=5600 table=5300408 secs=0.317
+ia-enron-email-dynamic-expiry-1000 p3 S3 status=OK done=2000/2000 net=1059225 ops=0 t=5600 table=0 secs=0.121
+ia-enron-email-dynamic-expiry-1000 p3 M3 status=OK done=2000/2000 net=1059225 ops=0 t=5600 table=5300408 secs=0.362
+ia-enron-email-dynamic-expiry-1000 p3 S3 status=OK done=2000/2000 net=1059225 ops=0 t=5600 table=0 secs=0.109
+ia-enron-email-dynamic-expiry-1000 p3 P3 status=OK done=2000/2000 net=1059225 ops=0 t=5600 table=0 secs=0.096
+ia-enron-email-dynamic-expiry-1000 p3 S3 status=OK done=2000/2000 net=1059225 ops=0 t=5600 table=0 secs=0.108
+ia-enron-email-dynamic-expiry-1000 p3 P3 status=OK done=2000/2000 net=1059225 ops=0 t=5600 table=0 secs=0.093
+ia-enron-email-dynamic-expiry-1000 p3 M3 status=OK done=2000/2000 net=1059225 ops=0 t=5600 table=5300408 secs=0.321
+ia-enron-email-dynamic-expiry-1000 p3 S3 status=OK done=2000/2000 net=1059225 ops=0 t=5600 table=0 secs=0.107
+ia-enron-email-dynamic-expiry-1000 p3 P3 status=OK done=2000/2000 net=1059225 ops=0 t=5600 table=0 secs=0.093
+ia-enron-email-dynamic-expiry-1000 p3 M3 status=OK done=2000/2000 net=1059225 ops=0 t=5600 table=5300408 secs=0.319
+ia-enron-email-dynamic-expiry-1000 p3 S3 status=OK done=2000/2000 net=1059225 ops=0 t=5600 table=0 secs=0.107
+ia-enron-email-dynamic-expiry-1000 p3 P3 status=OK done=2000/2000 net=1059225 ops=0 t=5600 table=0 secs=0.093
+ia-enron-email-dynamic-expiry-1000 p3 M3 status=OK done=2000/2000 net=1059225 ops=0 t=5600 table=5300408 secs=0.321
+ia-enron-email-dynamic-expiry-1000 p3 final 5600 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck ia-enron-email-dynamic-expiry-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 ia-enron-email-dynamic expiry 1000 22:12:34
+ia-enron-email-dynamic-expiry-100 p3 P3 status=OK done=20000/20000 net=1109789 ops=0 t=5600 table=0 secs=0.100
+ia-enron-email-dynamic-expiry-100 p3 T3 status=OK done=20000/20000 net=1109789 ops=0 t=5600 table=31382500 secs=1.280
+ia-enron-email-dynamic-expiry-100 p3 M3 status=OK done=20000/20000 net=1109789 ops=0 t=5600 table=5297440 secs=0.333
+ia-enron-email-dynamic-expiry-100 p3 S3 status=OK done=20000/20000 net=1109789 ops=0 t=5600 table=0 secs=0.114
+ia-enron-email-dynamic-expiry-100 p3 M3 status=OK done=20000/20000 net=1109789 ops=0 t=5600 table=5297440 secs=0.337
+ia-enron-email-dynamic-expiry-100 p3 S3 status=OK done=20000/20000 net=1109789 ops=0 t=5600 table=0 secs=0.115
+ia-enron-email-dynamic-expiry-100 p3 P3 status=OK done=20000/20000 net=1109789 ops=0 t=5600 table=0 secs=0.102
+ia-enron-email-dynamic-expiry-100 p3 S3 status=OK done=20000/20000 net=1109789 ops=0 t=5600 table=0 secs=0.115
+ia-enron-email-dynamic-expiry-100 p3 P3 status=OK done=20000/20000 net=1109789 ops=0 t=5600 table=0 secs=0.102
+ia-enron-email-dynamic-expiry-100 p3 M3 status=OK done=20000/20000 net=1109789 ops=0 t=5600 table=5297440 secs=0.338
+ia-enron-email-dynamic-expiry-100 p3 S3 status=OK done=20000/20000 net=1109789 ops=0 t=5600 table=0 secs=0.114
+ia-enron-email-dynamic-expiry-100 p3 P3 status=OK done=20000/20000 net=1109789 ops=0 t=5600 table=0 secs=0.101
+ia-enron-email-dynamic-expiry-100 p3 M3 status=OK done=20000/20000 net=1109789 ops=0 t=5600 table=5297440 secs=0.335
+ia-enron-email-dynamic-expiry-100 p3 S3 status=OK done=20000/20000 net=1109789 ops=0 t=5600 table=0 secs=0.114
+ia-enron-email-dynamic-expiry-100 p3 P3 status=OK done=20000/20000 net=1109789 ops=0 t=5600 table=0 secs=0.101
+ia-enron-email-dynamic-expiry-100 p3 M3 status=OK done=20000/20000 net=1109789 ops=0 t=5600 table=5297440 secs=0.334
+ia-enron-email-dynamic-expiry-100 p3 final 5600 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck ia-enron-email-dynamic-expiry-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 ia-enron-email-dynamic expiry 100 22:12:40
+ia-enron-email-dynamic-insert-1000 p3 P3 status=OK done=1135/1135 net=297456 ops=0 t=1180387 table=0 secs=0.076
+ia-enron-email-dynamic-insert-1000 p3 T3 status=OK done=1135/1135 net=297456 ops=0 t=1180387 table=476937332 secs=1.489
+ia-enron-email-dynamic-insert-1000 p3 M3 status=OK done=1135/1135 net=297456 ops=0 t=1180387 table=12622252 secs=0.166
+ia-enron-email-dynamic-insert-1000 p3 S3 status=OK done=1135/1135 net=297456 ops=0 t=1180387 table=0 secs=0.099
+ia-enron-email-dynamic-insert-1000 p3 M3 status=OK done=1135/1135 net=297456 ops=0 t=1180387 table=12622252 secs=0.166
+ia-enron-email-dynamic-insert-1000 p3 S3 status=OK done=1135/1135 net=297456 ops=0 t=1180387 table=0 secs=0.097
+ia-enron-email-dynamic-insert-1000 p3 P3 status=OK done=1135/1135 net=297456 ops=0 t=1180387 table=0 secs=0.076
+ia-enron-email-dynamic-insert-1000 p3 S3 status=OK done=1135/1135 net=297456 ops=0 t=1180387 table=0 secs=0.098
+ia-enron-email-dynamic-insert-1000 p3 P3 status=OK done=1135/1135 net=297456 ops=0 t=1180387 table=0 secs=0.075
+ia-enron-email-dynamic-insert-1000 p3 M3 status=OK done=1135/1135 net=297456 ops=0 t=1180387 table=12622252 secs=0.165
+ia-enron-email-dynamic-insert-1000 p3 S3 status=OK done=1135/1135 net=297456 ops=0 t=1180387 table=0 secs=0.098
+ia-enron-email-dynamic-insert-1000 p3 P3 status=OK done=1135/1135 net=297456 ops=0 t=1180387 table=0 secs=0.076
+ia-enron-email-dynamic-insert-1000 p3 M3 status=OK done=1135/1135 net=297456 ops=0 t=1180387 table=12622252 secs=0.167
+ia-enron-email-dynamic-insert-1000 p3 S3 status=OK done=1135/1135 net=297456 ops=0 t=1180387 table=0 secs=0.098
+ia-enron-email-dynamic-insert-1000 p3 P3 status=OK done=1135/1135 net=297456 ops=0 t=1180387 table=0 secs=0.075
+ia-enron-email-dynamic-insert-1000 p3 M3 status=OK done=1135/1135 net=297456 ops=0 t=1180387 table=12622252 secs=0.167
+ia-enron-email-dynamic-insert-1000 p3 final 1180387 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck ia-enron-email-dynamic-insert-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 ia-enron-email-dynamic insert 1000 22:12:45
+ia-enron-email-dynamic-insert-100 p3 P3 status=OK done=11350/11350 net=297456 ops=0 t=1180387 table=0 secs=0.078
+ia-enron-email-dynamic-insert-100 p3 T3 status=OK done=11350/11350 net=297456 ops=0 t=1180387 table=476873716 secs=1.465
+ia-enron-email-dynamic-insert-100 p3 M3 status=OK done=11350/11350 net=297456 ops=0 t=1180387 table=12669144 secs=0.167
+ia-enron-email-dynamic-insert-100 p3 S3 status=OK done=11350/11350 net=297456 ops=0 t=1180387 table=0 secs=0.097
+ia-enron-email-dynamic-insert-100 p3 M3 status=OK done=11350/11350 net=297456 ops=0 t=1180387 table=12669144 secs=0.168
+ia-enron-email-dynamic-insert-100 p3 S3 status=OK done=11350/11350 net=297456 ops=0 t=1180387 table=0 secs=0.099
+ia-enron-email-dynamic-insert-100 p3 P3 status=OK done=11350/11350 net=297456 ops=0 t=1180387 table=0 secs=0.078
+ia-enron-email-dynamic-insert-100 p3 S3 status=OK done=11350/11350 net=297456 ops=0 t=1180387 table=0 secs=0.097
+ia-enron-email-dynamic-insert-100 p3 P3 status=OK done=11350/11350 net=297456 ops=0 t=1180387 table=0 secs=0.079
+ia-enron-email-dynamic-insert-100 p3 M3 status=OK done=11350/11350 net=297456 ops=0 t=1180387 table=12669144 secs=0.169
+ia-enron-email-dynamic-insert-100 p3 S3 status=OK done=11350/11350 net=297456 ops=0 t=1180387 table=0 secs=0.097
+ia-enron-email-dynamic-insert-100 p3 P3 status=OK done=11350/11350 net=297456 ops=0 t=1180387 table=0 secs=0.077
+ia-enron-email-dynamic-insert-100 p3 M3 status=OK done=11350/11350 net=297456 ops=0 t=1180387 table=12669144 secs=0.167
+ia-enron-email-dynamic-insert-100 p3 S3 status=OK done=11350/11350 net=297456 ops=0 t=1180387 table=0 secs=0.097
+ia-enron-email-dynamic-insert-100 p3 P3 status=OK done=11350/11350 net=297456 ops=0 t=1180387 table=0 secs=0.077
+ia-enron-email-dynamic-insert-100 p3 M3 status=OK done=11350/11350 net=297456 ops=0 t=1180387 table=12669144 secs=0.167
+ia-enron-email-dynamic-insert-100 p3 final 1180387 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck ia-enron-email-dynamic-insert-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 ia-enron-email-dynamic insert 100 22:12:50
+ia-reality-call-expiry-1000 p3 P3 status=OK done=103/103 net=26922 ops=0 t=0 table=0 secs=0.002
+ia-reality-call-expiry-1000 p3 T3 status=OK done=103/103 net=26922 ops=0 t=0 table=905988 secs=0.016
+ia-reality-call-expiry-1000 p3 M3 status=OK done=103/103 net=26922 ops=0 t=0 table=383728 secs=0.008
+ia-reality-call-expiry-1000 p3 S3 status=OK done=103/103 net=26922 ops=0 t=0 table=0 secs=0.002
+ia-reality-call-expiry-1000 p3 M3 status=OK done=103/103 net=26922 ops=0 t=0 table=383728 secs=0.008
+ia-reality-call-expiry-1000 p3 S3 status=OK done=103/103 net=26922 ops=0 t=0 table=0 secs=0.002
+ia-reality-call-expiry-1000 p3 P3 status=OK done=103/103 net=26922 ops=0 t=0 table=0 secs=0.002
+ia-reality-call-expiry-1000 p3 S3 status=OK done=103/103 net=26922 ops=0 t=0 table=0 secs=0.002
+ia-reality-call-expiry-1000 p3 P3 status=OK done=103/103 net=26922 ops=0 t=0 table=0 secs=0.002
+ia-reality-call-expiry-1000 p3 M3 status=OK done=103/103 net=26922 ops=0 t=0 table=383728 secs=0.008
+ia-reality-call-expiry-1000 p3 S3 status=OK done=103/103 net=26922 ops=0 t=0 table=0 secs=0.002
+ia-reality-call-expiry-1000 p3 P3 status=OK done=103/103 net=26922 ops=0 t=0 table=0 secs=0.002
+ia-reality-call-expiry-1000 p3 M3 status=OK done=103/103 net=26922 ops=0 t=0 table=383728 secs=0.008
+ia-reality-call-expiry-1000 p3 S3 status=OK done=103/103 net=26922 ops=0 t=0 table=0 secs=0.002
+ia-reality-call-expiry-1000 p3 P3 status=OK done=103/103 net=26922 ops=0 t=0 table=0 secs=0.002
+ia-reality-call-expiry-1000 p3 M3 status=OK done=103/103 net=26922 ops=0 t=0 table=383728 secs=0.008
+ia-reality-call-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck ia-reality-call-expiry-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 ia-reality-call expiry 1000 22:12:51
+ia-reality-call-expiry-100 p3 P3 status=OK done=1025/1025 net=33712 ops=0 t=0 table=0 secs=0.003
+ia-reality-call-expiry-100 p3 T3 status=OK done=1025/1025 net=33712 ops=0 t=0 table=924404 secs=0.020
+ia-reality-call-expiry-100 p3 M3 status=OK done=1025/1025 net=33712 ops=0 t=0 table=373980 secs=0.009
+ia-reality-call-expiry-100 p3 S3 status=OK done=1025/1025 net=33712 ops=0 t=0 table=0 secs=0.003
+ia-reality-call-expiry-100 p3 M3 status=OK done=1025/1025 net=33712 ops=0 t=0 table=373980 secs=0.009
+ia-reality-call-expiry-100 p3 S3 status=OK done=1025/1025 net=33712 ops=0 t=0 table=0 secs=0.003
+ia-reality-call-expiry-100 p3 P3 status=OK done=1025/1025 net=33712 ops=0 t=0 table=0 secs=0.003
+ia-reality-call-expiry-100 p3 S3 status=OK done=1025/1025 net=33712 ops=0 t=0 table=0 secs=0.003
+ia-reality-call-expiry-100 p3 P3 status=OK done=1025/1025 net=33712 ops=0 t=0 table=0 secs=0.003
+ia-reality-call-expiry-100 p3 M3 status=OK done=1025/1025 net=33712 ops=0 t=0 table=373980 secs=0.009
+ia-reality-call-expiry-100 p3 S3 status=OK done=1025/1025 net=33712 ops=0 t=0 table=0 secs=0.003
+ia-reality-call-expiry-100 p3 P3 status=OK done=1025/1025 net=33712 ops=0 t=0 table=0 secs=0.003
+ia-reality-call-expiry-100 p3 M3 status=OK done=1025/1025 net=33712 ops=0 t=0 table=373980 secs=0.009
+ia-reality-call-expiry-100 p3 S3 status=OK done=1025/1025 net=33712 ops=0 t=0 table=0 secs=0.003
+ia-reality-call-expiry-100 p3 P3 status=OK done=1025/1025 net=33712 ops=0 t=0 table=0 secs=0.003
+ia-reality-call-expiry-100 p3 M3 status=OK done=1025/1025 net=33712 ops=0 t=0 table=373980 secs=0.009
+ia-reality-call-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck ia-reality-call-expiry-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 ia-reality-call expiry 100 22:12:52
+ia-reality-call-insert-1000 p3 P3 status=OK done=52/52 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-1000 p3 T3 status=OK done=52/52 net=7680 ops=0 t=400 table=9041020 secs=0.009
+ia-reality-call-insert-1000 p3 M3 status=OK done=52/52 net=7680 ops=0 t=400 table=318088 secs=0.003
+ia-reality-call-insert-1000 p3 S3 status=OK done=52/52 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-1000 p3 M3 status=OK done=52/52 net=7680 ops=0 t=400 table=318088 secs=0.003
+ia-reality-call-insert-1000 p3 S3 status=OK done=52/52 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-1000 p3 P3 status=OK done=52/52 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-1000 p3 S3 status=OK done=52/52 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-1000 p3 P3 status=OK done=52/52 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-1000 p3 M3 status=OK done=52/52 net=7680 ops=0 t=400 table=318088 secs=0.003
+ia-reality-call-insert-1000 p3 S3 status=OK done=52/52 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-1000 p3 P3 status=OK done=52/52 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-1000 p3 M3 status=OK done=52/52 net=7680 ops=0 t=400 table=318088 secs=0.003
+ia-reality-call-insert-1000 p3 S3 status=OK done=52/52 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-1000 p3 P3 status=OK done=52/52 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-1000 p3 M3 status=OK done=52/52 net=7680 ops=0 t=400 table=318088 secs=0.003
+ia-reality-call-insert-1000 p3 final 400 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck ia-reality-call-insert-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 ia-reality-call insert 1000 22:12:53
+ia-reality-call-insert-100 p3 P3 status=OK done=513/513 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-100 p3 T3 status=OK done=513/513 net=7680 ops=0 t=400 table=9041020 secs=0.009
+ia-reality-call-insert-100 p3 M3 status=OK done=513/513 net=7680 ops=0 t=400 table=318736 secs=0.003
+ia-reality-call-insert-100 p3 S3 status=OK done=513/513 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-100 p3 M3 status=OK done=513/513 net=7680 ops=0 t=400 table=318736 secs=0.003
+ia-reality-call-insert-100 p3 S3 status=OK done=513/513 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-100 p3 P3 status=OK done=513/513 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-100 p3 S3 status=OK done=513/513 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-100 p3 P3 status=OK done=513/513 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-100 p3 M3 status=OK done=513/513 net=7680 ops=0 t=400 table=318736 secs=0.003
+ia-reality-call-insert-100 p3 S3 status=OK done=513/513 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-100 p3 P3 status=OK done=513/513 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-100 p3 M3 status=OK done=513/513 net=7680 ops=0 t=400 table=318736 secs=0.003
+ia-reality-call-insert-100 p3 S3 status=OK done=513/513 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-100 p3 P3 status=OK done=513/513 net=7680 ops=0 t=400 table=0 secs=0.001
+ia-reality-call-insert-100 p3 M3 status=OK done=513/513 net=7680 ops=0 t=400 table=318736 secs=0.003
+ia-reality-call-insert-100 p3 final 400 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck ia-reality-call-insert-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 ia-reality-call insert 100 22:12:54
+itwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1855928 ops=0 t=1871855 table=0 secs=0.637
+itwiki-real-1000 p3 T3 status=MEM done=1453/2000 net=1357532 ops=0 t=1686798 table=13585373816 secs=50.317
+itwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1855928 ops=0 t=1871855 table=90076496 secs=1.533
+itwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1855928 ops=0 t=1871855 table=0 secs=0.721
+itwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1855928 ops=0 t=1871855 table=90076496 secs=1.480
+itwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1855928 ops=0 t=1871855 table=0 secs=0.721
+itwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1855928 ops=0 t=1871855 table=0 secs=0.635
+itwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1855928 ops=0 t=1871855 table=0 secs=0.712
+itwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1855928 ops=0 t=1871855 table=0 secs=0.635
+itwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1855928 ops=0 t=1871855 table=90076496 secs=1.483
+itwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1855928 ops=0 t=1871855 table=0 secs=0.718
+itwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1855928 ops=0 t=1871855 table=0 secs=0.638
+itwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1855928 ops=0 t=1871855 table=90076496 secs=1.482
+itwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1855928 ops=0 t=1871855 table=0 secs=0.728
+itwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1855928 ops=0 t=1871855 table=0 secs=0.638
+itwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1855928 ops=0 t=1871855 table=90076496 secs=1.485
+itwiki-real-1000 p3 final 1871855 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0(1453/2000)
+tcheck itwiki-real-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 itwiki real 1000 22:14:03
+itwiki-real-100 p3 P3 status=OK done=20000/20000 net=1938448 ops=0 t=1871855 table=0 secs=0.684
+itwiki-real-100 p3 T3 status=MEM done=14535/20000 net=1411074 ops=0 t=1687189 table=13591934200 secs=50.885
+itwiki-real-100 p3 M3 status=OK done=20000/20000 net=1938448 ops=0 t=1871855 table=90183644 secs=1.518
+itwiki-real-100 p3 S3 status=OK done=20000/20000 net=1938448 ops=0 t=1871855 table=0 secs=0.769
+itwiki-real-100 p3 M3 status=OK done=20000/20000 net=1938448 ops=0 t=1871855 table=90183644 secs=1.522
+itwiki-real-100 p3 S3 status=OK done=20000/20000 net=1938448 ops=0 t=1871855 table=0 secs=0.776
+itwiki-real-100 p3 P3 status=OK done=20000/20000 net=1938448 ops=0 t=1871855 table=0 secs=0.754
+itwiki-real-100 p3 S3 status=OK done=20000/20000 net=1938448 ops=0 t=1871855 table=0 secs=0.769
+itwiki-real-100 p3 P3 status=OK done=20000/20000 net=1938448 ops=0 t=1871855 table=0 secs=0.685
+itwiki-real-100 p3 M3 status=OK done=20000/20000 net=1938448 ops=0 t=1871855 table=90183644 secs=1.520
+itwiki-real-100 p3 S3 status=OK done=20000/20000 net=1938448 ops=0 t=1871855 table=0 secs=0.765
+itwiki-real-100 p3 P3 status=OK done=20000/20000 net=1938448 ops=0 t=1871855 table=0 secs=0.688
+itwiki-real-100 p3 M3 status=OK done=20000/20000 net=1938448 ops=0 t=1871855 table=90183644 secs=1.519
+itwiki-real-100 p3 S3 status=OK done=20000/20000 net=1938448 ops=0 t=1871855 table=0 secs=0.768
+itwiki-real-100 p3 P3 status=OK done=20000/20000 net=1938448 ops=0 t=1871855 table=0 secs=0.685
+itwiki-real-100 p3 M3 status=OK done=20000/20000 net=1938448 ops=0 t=1871855 table=90183644 secs=1.523
+itwiki-real-100 p3 final 1871855 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0(14535/20000)
+tcheck itwiki-real-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 itwiki real 100 22:15:13
+nlwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1749936 ops=0 t=1616426 table=0 secs=0.596
+nlwiki-real-1000 p3 T3 status=OK done=2000/2000 net=1749936 ops=0 t=1616426 table=4181807388 secs=20.021
+nlwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1749936 ops=0 t=1616426 table=100191200 secs=1.548
+nlwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1749936 ops=0 t=1616426 table=0 secs=0.681
+nlwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1749936 ops=0 t=1616426 table=100191200 secs=1.492
+nlwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1749936 ops=0 t=1616426 table=0 secs=0.677
+nlwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1749936 ops=0 t=1616426 table=0 secs=0.592
+nlwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1749936 ops=0 t=1616426 table=0 secs=0.679
+nlwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1749936 ops=0 t=1616426 table=0 secs=0.586
+nlwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1749936 ops=0 t=1616426 table=100191200 secs=1.491
+nlwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1749936 ops=0 t=1616426 table=0 secs=0.683
+nlwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1749936 ops=0 t=1616426 table=0 secs=0.591
+nlwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1749936 ops=0 t=1616426 table=100191200 secs=1.491
+nlwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1749936 ops=0 t=1616426 table=0 secs=0.679
+nlwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1749936 ops=0 t=1616426 table=0 secs=0.590
+nlwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1749936 ops=0 t=1616426 table=100191200 secs=1.492
+nlwiki-real-1000 p3 final 1616426 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck nlwiki-real-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 nlwiki real 1000 22:15:49
+nlwiki-real-100 p3 P3 status=OK done=20000/20000 net=1886774 ops=0 t=1616426 table=0 secs=0.667
+nlwiki-real-100 p3 T3 status=OK done=20000/20000 net=1886774 ops=0 t=1616426 table=4194360880 secs=21.859
+nlwiki-real-100 p3 M3 status=OK done=20000/20000 net=1886774 ops=0 t=1616426 table=100302620 secs=1.624
+nlwiki-real-100 p3 S3 status=OK done=20000/20000 net=1886774 ops=0 t=1616426 table=0 secs=0.769
+nlwiki-real-100 p3 M3 status=OK done=20000/20000 net=1886774 ops=0 t=1616426 table=100302620 secs=1.565
+nlwiki-real-100 p3 S3 status=OK done=20000/20000 net=1886774 ops=0 t=1616426 table=0 secs=0.762
+nlwiki-real-100 p3 P3 status=OK done=20000/20000 net=1886774 ops=0 t=1616426 table=0 secs=0.663
+nlwiki-real-100 p3 S3 status=OK done=20000/20000 net=1886774 ops=0 t=1616426 table=0 secs=0.761
+nlwiki-real-100 p3 P3 status=OK done=20000/20000 net=1886774 ops=0 t=1616426 table=0 secs=0.659
+nlwiki-real-100 p3 M3 status=OK done=20000/20000 net=1886774 ops=0 t=1616426 table=100302620 secs=1.556
+nlwiki-real-100 p3 S3 status=OK done=20000/20000 net=1886774 ops=0 t=1616426 table=0 secs=0.759
+nlwiki-real-100 p3 P3 status=OK done=20000/20000 net=1886774 ops=0 t=1616426 table=0 secs=0.661
+nlwiki-real-100 p3 M3 status=OK done=20000/20000 net=1886774 ops=0 t=1616426 table=100302620 secs=1.558
+nlwiki-real-100 p3 S3 status=OK done=20000/20000 net=1886774 ops=0 t=1616426 table=0 secs=0.763
+nlwiki-real-100 p3 P3 status=OK done=20000/20000 net=1886774 ops=0 t=1616426 table=0 secs=0.662
+nlwiki-real-100 p3 M3 status=OK done=20000/20000 net=1886774 ops=0 t=1616426 table=100302620 secs=1.558
+nlwiki-real-100 p3 final 1616426 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck nlwiki-real-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 nlwiki real 100 22:16:28
+plwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1821576 ops=0 t=3460789 table=0 secs=0.638
+plwiki-real-1000 p3 T3 status=OK done=2000/2000 net=1821576 ops=0 t=3460789 table=7359671568 secs=27.737
+plwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1821576 ops=0 t=3460789 table=78986380 secs=1.545
+plwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1821576 ops=0 t=3460789 table=0 secs=0.808
+plwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1821576 ops=0 t=3460789 table=78986380 secs=1.445
+plwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1821576 ops=0 t=3460789 table=0 secs=0.801
+plwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1821576 ops=0 t=3460789 table=0 secs=0.639
+plwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1821576 ops=0 t=3460789 table=0 secs=0.803
+plwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1821576 ops=0 t=3460789 table=0 secs=0.637
+plwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1821576 ops=0 t=3460789 table=78986380 secs=1.435
+plwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1821576 ops=0 t=3460789 table=0 secs=0.803
+plwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1821576 ops=0 t=3460789 table=0 secs=0.635
+plwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1821576 ops=0 t=3460789 table=78986380 secs=1.441
+plwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1821576 ops=0 t=3460789 table=0 secs=0.800
+plwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1821576 ops=0 t=3460789 table=0 secs=0.633
+plwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1821576 ops=0 t=3460789 table=78986380 secs=1.442
+plwiki-real-1000 p3 final 3460789 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck plwiki-real-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 plwiki real 1000 22:17:13
+plwiki-real-100 p3 P3 status=OK done=20000/20000 net=1923044 ops=0 t=3460789 table=0 secs=0.713
+plwiki-real-100 p3 T3 status=OK done=20000/20000 net=1923044 ops=0 t=3460789 table=7364353320 secs=29.104
+plwiki-real-100 p3 M3 status=OK done=20000/20000 net=1923044 ops=0 t=3460789 table=79070016 secs=1.499
+plwiki-real-100 p3 S3 status=OK done=20000/20000 net=1923044 ops=0 t=3460789 table=0 secs=0.878
+plwiki-real-100 p3 M3 status=OK done=20000/20000 net=1923044 ops=0 t=3460789 table=79070016 secs=1.493
+plwiki-real-100 p3 S3 status=OK done=20000/20000 net=1923044 ops=0 t=3460789 table=0 secs=0.878
+plwiki-real-100 p3 P3 status=OK done=20000/20000 net=1923044 ops=0 t=3460789 table=0 secs=0.715
+plwiki-real-100 p3 S3 status=OK done=20000/20000 net=1923044 ops=0 t=3460789 table=0 secs=0.874
+plwiki-real-100 p3 P3 status=OK done=20000/20000 net=1923044 ops=0 t=3460789 table=0 secs=0.709
+plwiki-real-100 p3 M3 status=OK done=20000/20000 net=1923044 ops=0 t=3460789 table=79070016 secs=1.482
+plwiki-real-100 p3 S3 status=OK done=20000/20000 net=1923044 ops=0 t=3460789 table=0 secs=0.877
+plwiki-real-100 p3 P3 status=OK done=20000/20000 net=1923044 ops=0 t=3460789 table=0 secs=0.718
+plwiki-real-100 p3 M3 status=OK done=20000/20000 net=1923044 ops=0 t=3460789 table=79070016 secs=1.482
+plwiki-real-100 p3 S3 status=OK done=20000/20000 net=1923044 ops=0 t=3460789 table=0 secs=0.880
+plwiki-real-100 p3 P3 status=OK done=20000/20000 net=1923044 ops=0 t=3460789 table=0 secs=0.717
+plwiki-real-100 p3 M3 status=OK done=20000/20000 net=1923044 ops=0 t=3460789 table=79070016 secs=1.480
+plwiki-real-100 p3 final 3460789 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck plwiki-real-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 plwiki real 100 22:18:00
+simplewiki-real-1000 p3 P3 status=OK done=1559/1559 net=991548 ops=0 t=1144661 table=0 secs=0.320
+simplewiki-real-1000 p3 T3 status=OK done=1559/1559 net=991548 ops=0 t=1144661 table=2822867764 secs=11.171
+simplewiki-real-1000 p3 M3 status=OK done=1559/1559 net=991548 ops=0 t=1144661 table=56781420 secs=0.741
+simplewiki-real-1000 p3 S3 status=OK done=1559/1559 net=991548 ops=0 t=1144661 table=0 secs=0.407
+simplewiki-real-1000 p3 M3 status=OK done=1559/1559 net=991548 ops=0 t=1144661 table=56781420 secs=0.732
+simplewiki-real-1000 p3 S3 status=OK done=1559/1559 net=991548 ops=0 t=1144661 table=0 secs=0.401
+simplewiki-real-1000 p3 P3 status=OK done=1559/1559 net=991548 ops=0 t=1144661 table=0 secs=0.322
+simplewiki-real-1000 p3 S3 status=OK done=1559/1559 net=991548 ops=0 t=1144661 table=0 secs=0.405
+simplewiki-real-1000 p3 P3 status=OK done=1559/1559 net=991548 ops=0 t=1144661 table=0 secs=0.323
+simplewiki-real-1000 p3 M3 status=OK done=1559/1559 net=991548 ops=0 t=1144661 table=56781420 secs=0.722
+simplewiki-real-1000 p3 S3 status=OK done=1559/1559 net=991548 ops=0 t=1144661 table=0 secs=0.401
+simplewiki-real-1000 p3 P3 status=OK done=1559/1559 net=991548 ops=0 t=1144661 table=0 secs=0.323
+simplewiki-real-1000 p3 M3 status=OK done=1559/1559 net=991548 ops=0 t=1144661 table=56781420 secs=0.726
+simplewiki-real-1000 p3 S3 status=OK done=1559/1559 net=991548 ops=0 t=1144661 table=0 secs=0.401
+simplewiki-real-1000 p3 P3 status=OK done=1559/1559 net=991548 ops=0 t=1144661 table=0 secs=0.323
+simplewiki-real-1000 p3 M3 status=OK done=1559/1559 net=991548 ops=0 t=1144661 table=56781420 secs=0.722
+simplewiki-real-1000 p3 final 1144661 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck simplewiki-real-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 simplewiki real 1000 22:18:20
+simplewiki-real-100 p3 P3 status=OK done=15583/15583 net=1241036 ops=0 t=1144661 table=0 secs=0.421
+simplewiki-real-100 p3 T3 status=OK done=15583/15583 net=1241036 ops=0 t=1144661 table=2830634736 secs=15.706
+simplewiki-real-100 p3 M3 status=OK done=15583/15583 net=1241036 ops=0 t=1144661 table=56951020 secs=0.881
+simplewiki-real-100 p3 S3 status=OK done=15583/15583 net=1241036 ops=0 t=1144661 table=0 secs=0.583
+simplewiki-real-100 p3 M3 status=OK done=15583/15583 net=1241036 ops=0 t=1144661 table=56951020 secs=0.838
+simplewiki-real-100 p3 S3 status=OK done=15583/15583 net=1241036 ops=0 t=1144661 table=0 secs=0.582
+simplewiki-real-100 p3 P3 status=OK done=15583/15583 net=1241036 ops=0 t=1144661 table=0 secs=0.422
+simplewiki-real-100 p3 S3 status=OK done=15583/15583 net=1241036 ops=0 t=1144661 table=0 secs=0.581
+simplewiki-real-100 p3 P3 status=OK done=15583/15583 net=1241036 ops=0 t=1144661 table=0 secs=0.422
+simplewiki-real-100 p3 M3 status=OK done=15583/15583 net=1241036 ops=0 t=1144661 table=56951020 secs=0.838
+simplewiki-real-100 p3 S3 status=OK done=15583/15583 net=1241036 ops=0 t=1144661 table=0 secs=0.582
+simplewiki-real-100 p3 P3 status=OK done=15583/15583 net=1241036 ops=0 t=1144661 table=0 secs=0.421
+simplewiki-real-100 p3 M3 status=OK done=15583/15583 net=1241036 ops=0 t=1144661 table=56951020 secs=0.840
+simplewiki-real-100 p3 S3 status=OK done=15583/15583 net=1241036 ops=0 t=1144661 table=0 secs=0.583
+simplewiki-real-100 p3 P3 status=OK done=15583/15583 net=1241036 ops=0 t=1144661 table=0 secs=0.421
+simplewiki-real-100 p3 M3 status=OK done=15583/15583 net=1241036 ops=0 t=1144661 table=56951020 secs=0.838
+simplewiki-real-100 p3 final 1144661 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck simplewiki-real-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 simplewiki real 100 22:18:48
+soc-redditHyperlinks-body-expiry-1000 p3 P3 status=OK done=574/574 net=456500 ops=0 t=0 table=0 secs=0.036
+soc-redditHyperlinks-body-expiry-1000 p3 T3 status=OK done=574/574 net=456500 ops=0 t=0 table=3139172 secs=0.168
+soc-redditHyperlinks-body-expiry-1000 p3 M3 status=OK done=574/574 net=456500 ops=0 t=0 table=2101832 secs=0.115
+soc-redditHyperlinks-body-expiry-1000 p3 S3 status=OK done=574/574 net=456500 ops=0 t=0 table=0 secs=0.032
+soc-redditHyperlinks-body-expiry-1000 p3 M3 status=OK done=574/574 net=456500 ops=0 t=0 table=2101832 secs=0.115
+soc-redditHyperlinks-body-expiry-1000 p3 S3 status=OK done=574/574 net=456500 ops=0 t=0 table=0 secs=0.032
+soc-redditHyperlinks-body-expiry-1000 p3 P3 status=OK done=574/574 net=456500 ops=0 t=0 table=0 secs=0.035
+soc-redditHyperlinks-body-expiry-1000 p3 S3 status=OK done=574/574 net=456500 ops=0 t=0 table=0 secs=0.032
+soc-redditHyperlinks-body-expiry-1000 p3 P3 status=OK done=574/574 net=456500 ops=0 t=0 table=0 secs=0.036
+soc-redditHyperlinks-body-expiry-1000 p3 M3 status=OK done=574/574 net=456500 ops=0 t=0 table=2101832 secs=0.115
+soc-redditHyperlinks-body-expiry-1000 p3 S3 status=OK done=574/574 net=456500 ops=0 t=0 table=0 secs=0.032
+soc-redditHyperlinks-body-expiry-1000 p3 P3 status=OK done=574/574 net=456500 ops=0 t=0 table=0 secs=0.035
+soc-redditHyperlinks-body-expiry-1000 p3 M3 status=OK done=574/574 net=456500 ops=0 t=0 table=2101832 secs=0.115
+soc-redditHyperlinks-body-expiry-1000 p3 S3 status=OK done=574/574 net=456500 ops=0 t=0 table=0 secs=0.032
+soc-redditHyperlinks-body-expiry-1000 p3 P3 status=OK done=574/574 net=456500 ops=0 t=0 table=0 secs=0.036
+soc-redditHyperlinks-body-expiry-1000 p3 M3 status=OK done=574/574 net=456500 ops=0 t=0 table=2101832 secs=0.114
+soc-redditHyperlinks-body-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck soc-redditHyperlinks-body-expiry-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 soc-redditHyperlinks-body expiry 1000 22:18:50
+soc-redditHyperlinks-body-expiry-100 p3 P3 status=OK done=5732/5732 net=471776 ops=0 t=0 table=0 secs=0.039
+soc-redditHyperlinks-body-expiry-100 p3 T3 status=OK done=5732/5732 net=471776 ops=0 t=0 table=3176624 secs=0.182
+soc-redditHyperlinks-body-expiry-100 p3 M3 status=OK done=5732/5732 net=471776 ops=0 t=0 table=2103060 secs=0.121
+soc-redditHyperlinks-body-expiry-100 p3 S3 status=OK done=5732/5732 net=471776 ops=0 t=0 table=0 secs=0.034
+soc-redditHyperlinks-body-expiry-100 p3 M3 status=OK done=5732/5732 net=471776 ops=0 t=0 table=2103060 secs=0.121
+soc-redditHyperlinks-body-expiry-100 p3 S3 status=OK done=5732/5732 net=471776 ops=0 t=0 table=0 secs=0.034
+soc-redditHyperlinks-body-expiry-100 p3 P3 status=OK done=5732/5732 net=471776 ops=0 t=0 table=0 secs=0.039
+soc-redditHyperlinks-body-expiry-100 p3 S3 status=OK done=5732/5732 net=471776 ops=0 t=0 table=0 secs=0.034
+soc-redditHyperlinks-body-expiry-100 p3 P3 status=OK done=5732/5732 net=471776 ops=0 t=0 table=0 secs=0.038
+soc-redditHyperlinks-body-expiry-100 p3 M3 status=OK done=5732/5732 net=471776 ops=0 t=0 table=2103060 secs=0.121
+soc-redditHyperlinks-body-expiry-100 p3 S3 status=OK done=5732/5732 net=471776 ops=0 t=0 table=0 secs=0.034
+soc-redditHyperlinks-body-expiry-100 p3 P3 status=OK done=5732/5732 net=471776 ops=0 t=0 table=0 secs=0.038
+soc-redditHyperlinks-body-expiry-100 p3 M3 status=OK done=5732/5732 net=471776 ops=0 t=0 table=2103060 secs=0.121
+soc-redditHyperlinks-body-expiry-100 p3 S3 status=OK done=5732/5732 net=471776 ops=0 t=0 table=0 secs=0.034
+soc-redditHyperlinks-body-expiry-100 p3 P3 status=OK done=5732/5732 net=471776 ops=0 t=0 table=0 secs=0.040
+soc-redditHyperlinks-body-expiry-100 p3 M3 status=OK done=5732/5732 net=471776 ops=0 t=0 table=2103060 secs=0.121
+soc-redditHyperlinks-body-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck soc-redditHyperlinks-body-expiry-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 soc-redditHyperlinks-body expiry 100 22:18:53
+soc-redditHyperlinks-body-insert-1000 p3 P3 status=OK done=287/287 net=124330 ops=0 t=406391 table=0 secs=0.036
+soc-redditHyperlinks-body-insert-1000 p3 T3 status=OK done=287/287 net=124330 ops=0 t=406391 table=212510248 secs=0.686
+soc-redditHyperlinks-body-insert-1000 p3 M3 status=OK done=287/287 net=124330 ops=0 t=406391 table=8561616 secs=0.078
+soc-redditHyperlinks-body-insert-1000 p3 S3 status=OK done=287/287 net=124330 ops=0 t=406391 table=0 secs=0.037
+soc-redditHyperlinks-body-insert-1000 p3 M3 status=OK done=287/287 net=124330 ops=0 t=406391 table=8561616 secs=0.079
+soc-redditHyperlinks-body-insert-1000 p3 S3 status=OK done=287/287 net=124330 ops=0 t=406391 table=0 secs=0.037
+soc-redditHyperlinks-body-insert-1000 p3 P3 status=OK done=287/287 net=124330 ops=0 t=406391 table=0 secs=0.036
+soc-redditHyperlinks-body-insert-1000 p3 S3 status=OK done=287/287 net=124330 ops=0 t=406391 table=0 secs=0.037
+soc-redditHyperlinks-body-insert-1000 p3 P3 status=OK done=287/287 net=124330 ops=0 t=406391 table=0 secs=0.036
+soc-redditHyperlinks-body-insert-1000 p3 M3 status=OK done=287/287 net=124330 ops=0 t=406391 table=8561616 secs=0.078
+soc-redditHyperlinks-body-insert-1000 p3 S3 status=OK done=287/287 net=124330 ops=0 t=406391 table=0 secs=0.037
+soc-redditHyperlinks-body-insert-1000 p3 P3 status=OK done=287/287 net=124330 ops=0 t=406391 table=0 secs=0.036
+soc-redditHyperlinks-body-insert-1000 p3 M3 status=OK done=287/287 net=124330 ops=0 t=406391 table=8561616 secs=0.078
+soc-redditHyperlinks-body-insert-1000 p3 S3 status=OK done=287/287 net=124330 ops=0 t=406391 table=0 secs=0.037
+soc-redditHyperlinks-body-insert-1000 p3 P3 status=OK done=287/287 net=124330 ops=0 t=406391 table=0 secs=0.036
+soc-redditHyperlinks-body-insert-1000 p3 M3 status=OK done=287/287 net=124330 ops=0 t=406391 table=8561616 secs=0.078
+soc-redditHyperlinks-body-insert-1000 p3 final 406391 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck soc-redditHyperlinks-body-insert-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 soc-redditHyperlinks-body insert 1000 22:18:55
+soc-redditHyperlinks-body-insert-100 p3 P3 status=OK done=2866/2866 net=124330 ops=0 t=406391 table=0 secs=0.037
+soc-redditHyperlinks-body-insert-100 p3 T3 status=OK done=2866/2866 net=124330 ops=0 t=406391 table=212468904 secs=0.683
+soc-redditHyperlinks-body-insert-100 p3 M3 status=OK done=2866/2866 net=124330 ops=0 t=406391 table=8559652 secs=0.080
+soc-redditHyperlinks-body-insert-100 p3 S3 status=OK done=2866/2866 net=124330 ops=0 t=406391 table=0 secs=0.037
+soc-redditHyperlinks-body-insert-100 p3 M3 status=OK done=2866/2866 net=124330 ops=0 t=406391 table=8559652 secs=0.078
+soc-redditHyperlinks-body-insert-100 p3 S3 status=OK done=2866/2866 net=124330 ops=0 t=406391 table=0 secs=0.037
+soc-redditHyperlinks-body-insert-100 p3 P3 status=OK done=2866/2866 net=124330 ops=0 t=406391 table=0 secs=0.037
+soc-redditHyperlinks-body-insert-100 p3 S3 status=OK done=2866/2866 net=124330 ops=0 t=406391 table=0 secs=0.037
+soc-redditHyperlinks-body-insert-100 p3 P3 status=OK done=2866/2866 net=124330 ops=0 t=406391 table=0 secs=0.037
+soc-redditHyperlinks-body-insert-100 p3 M3 status=OK done=2866/2866 net=124330 ops=0 t=406391 table=8559652 secs=0.079
+soc-redditHyperlinks-body-insert-100 p3 S3 status=OK done=2866/2866 net=124330 ops=0 t=406391 table=0 secs=0.037
+soc-redditHyperlinks-body-insert-100 p3 P3 status=OK done=2866/2866 net=124330 ops=0 t=406391 table=0 secs=0.038
+soc-redditHyperlinks-body-insert-100 p3 M3 status=OK done=2866/2866 net=124330 ops=0 t=406391 table=8559652 secs=0.078
+soc-redditHyperlinks-body-insert-100 p3 S3 status=OK done=2866/2866 net=124330 ops=0 t=406391 table=0 secs=0.036
+soc-redditHyperlinks-body-insert-100 p3 P3 status=OK done=2866/2866 net=124330 ops=0 t=406391 table=0 secs=0.038
+soc-redditHyperlinks-body-insert-100 p3 M3 status=OK done=2866/2866 net=124330 ops=0 t=406391 table=8559652 secs=0.078
+soc-redditHyperlinks-body-insert-100 p3 final 406391 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck soc-redditHyperlinks-body-insert-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 soc-redditHyperlinks-body insert 100 22:18:58
+soc-redditHyperlinks-title-expiry-1000 p3 P3 status=OK done=1144/1144 net=907190 ops=0 t=0 table=0 secs=0.087
+soc-redditHyperlinks-title-expiry-1000 p3 T3 status=OK done=1144/1144 net=907190 ops=0 t=0 table=7439524 secs=0.824
+soc-redditHyperlinks-title-expiry-1000 p3 M3 status=OK done=1144/1144 net=907190 ops=0 t=0 table=3256876 secs=0.250
+soc-redditHyperlinks-title-expiry-1000 p3 S3 status=OK done=1144/1144 net=907190 ops=0 t=0 table=0 secs=0.090
+soc-redditHyperlinks-title-expiry-1000 p3 M3 status=OK done=1144/1144 net=907190 ops=0 t=0 table=3256876 secs=0.249
+soc-redditHyperlinks-title-expiry-1000 p3 S3 status=OK done=1144/1144 net=907190 ops=0 t=0 table=0 secs=0.090
+soc-redditHyperlinks-title-expiry-1000 p3 P3 status=OK done=1144/1144 net=907190 ops=0 t=0 table=0 secs=0.088
+soc-redditHyperlinks-title-expiry-1000 p3 S3 status=OK done=1144/1144 net=907190 ops=0 t=0 table=0 secs=0.090
+soc-redditHyperlinks-title-expiry-1000 p3 P3 status=OK done=1144/1144 net=907190 ops=0 t=0 table=0 secs=0.087
+soc-redditHyperlinks-title-expiry-1000 p3 M3 status=OK done=1144/1144 net=907190 ops=0 t=0 table=3256876 secs=0.249
+soc-redditHyperlinks-title-expiry-1000 p3 S3 status=OK done=1144/1144 net=907190 ops=0 t=0 table=0 secs=0.090
+soc-redditHyperlinks-title-expiry-1000 p3 P3 status=OK done=1144/1144 net=907190 ops=0 t=0 table=0 secs=0.087
+soc-redditHyperlinks-title-expiry-1000 p3 M3 status=OK done=1144/1144 net=907190 ops=0 t=0 table=3256876 secs=0.249
+soc-redditHyperlinks-title-expiry-1000 p3 S3 status=OK done=1144/1144 net=907190 ops=0 t=0 table=0 secs=0.090
+soc-redditHyperlinks-title-expiry-1000 p3 P3 status=OK done=1144/1144 net=907190 ops=0 t=0 table=0 secs=0.087
+soc-redditHyperlinks-title-expiry-1000 p3 M3 status=OK done=1144/1144 net=907190 ops=0 t=0 table=3256876 secs=0.249
+soc-redditHyperlinks-title-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck soc-redditHyperlinks-title-expiry-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 soc-redditHyperlinks-title expiry 1000 22:19:02
+soc-redditHyperlinks-title-expiry-100 p3 P3 status=OK done=11439/11439 net=927080 ops=0 t=0 table=0 secs=0.105
+soc-redditHyperlinks-title-expiry-100 p3 T3 status=OK done=11439/11439 net=927080 ops=0 t=0 table=7595616 secs=0.882
+soc-redditHyperlinks-title-expiry-100 p3 M3 status=OK done=11439/11439 net=927080 ops=0 t=0 table=3265156 secs=0.257
+soc-redditHyperlinks-title-expiry-100 p3 S3 status=OK done=11439/11439 net=927080 ops=0 t=0 table=0 secs=0.094
+soc-redditHyperlinks-title-expiry-100 p3 M3 status=OK done=11439/11439 net=927080 ops=0 t=0 table=3265156 secs=0.258
+soc-redditHyperlinks-title-expiry-100 p3 S3 status=OK done=11439/11439 net=927080 ops=0 t=0 table=0 secs=0.094
+soc-redditHyperlinks-title-expiry-100 p3 P3 status=OK done=11439/11439 net=927080 ops=0 t=0 table=0 secs=0.104
+soc-redditHyperlinks-title-expiry-100 p3 S3 status=OK done=11439/11439 net=927080 ops=0 t=0 table=0 secs=0.095
+soc-redditHyperlinks-title-expiry-100 p3 P3 status=OK done=11439/11439 net=927080 ops=0 t=0 table=0 secs=0.104
+soc-redditHyperlinks-title-expiry-100 p3 M3 status=OK done=11439/11439 net=927080 ops=0 t=0 table=3265156 secs=0.258
+soc-redditHyperlinks-title-expiry-100 p3 S3 status=OK done=11439/11439 net=927080 ops=0 t=0 table=0 secs=0.094
+soc-redditHyperlinks-title-expiry-100 p3 P3 status=OK done=11439/11439 net=927080 ops=0 t=0 table=0 secs=0.104
+soc-redditHyperlinks-title-expiry-100 p3 M3 status=OK done=11439/11439 net=927080 ops=0 t=0 table=3265156 secs=0.258
+soc-redditHyperlinks-title-expiry-100 p3 S3 status=OK done=11439/11439 net=927080 ops=0 t=0 table=0 secs=0.095
+soc-redditHyperlinks-title-expiry-100 p3 P3 status=OK done=11439/11439 net=927080 ops=0 t=0 table=0 secs=0.104
+soc-redditHyperlinks-title-expiry-100 p3 M3 status=OK done=11439/11439 net=927080 ops=0 t=0 table=3265156 secs=0.256
+soc-redditHyperlinks-title-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck soc-redditHyperlinks-title-expiry-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 soc-redditHyperlinks-title expiry 100 22:19:07
+soc-redditHyperlinks-title-insert-1000 p3 P3 status=OK done=572/572 net=220151 ops=0 t=1329278 table=0 secs=0.087
+soc-redditHyperlinks-title-insert-1000 p3 T3 status=OK done=572/572 net=220151 ops=0 t=1329278 table=751869048 secs=2.852
+soc-redditHyperlinks-title-insert-1000 p3 M3 status=OK done=572/572 net=220151 ops=0 t=1329278 table=11606128 secs=0.144
+soc-redditHyperlinks-title-insert-1000 p3 S3 status=OK done=572/572 net=220151 ops=0 t=1329278 table=0 secs=0.090
+soc-redditHyperlinks-title-insert-1000 p3 M3 status=OK done=572/572 net=220151 ops=0 t=1329278 table=11606128 secs=0.143
+soc-redditHyperlinks-title-insert-1000 p3 S3 status=OK done=572/572 net=220151 ops=0 t=1329278 table=0 secs=0.090
+soc-redditHyperlinks-title-insert-1000 p3 P3 status=OK done=572/572 net=220151 ops=0 t=1329278 table=0 secs=0.094
+soc-redditHyperlinks-title-insert-1000 p3 S3 status=OK done=572/572 net=220151 ops=0 t=1329278 table=0 secs=0.091
+soc-redditHyperlinks-title-insert-1000 p3 P3 status=OK done=572/572 net=220151 ops=0 t=1329278 table=0 secs=0.087
+soc-redditHyperlinks-title-insert-1000 p3 M3 status=OK done=572/572 net=220151 ops=0 t=1329278 table=11606128 secs=0.145
+soc-redditHyperlinks-title-insert-1000 p3 S3 status=OK done=572/572 net=220151 ops=0 t=1329278 table=0 secs=0.090
+soc-redditHyperlinks-title-insert-1000 p3 P3 status=OK done=572/572 net=220151 ops=0 t=1329278 table=0 secs=0.087
+soc-redditHyperlinks-title-insert-1000 p3 M3 status=OK done=572/572 net=220151 ops=0 t=1329278 table=11606128 secs=0.146
+soc-redditHyperlinks-title-insert-1000 p3 S3 status=OK done=572/572 net=220151 ops=0 t=1329278 table=0 secs=0.090
+soc-redditHyperlinks-title-insert-1000 p3 P3 status=OK done=572/572 net=220151 ops=0 t=1329278 table=0 secs=0.087
+soc-redditHyperlinks-title-insert-1000 p3 M3 status=OK done=572/572 net=220151 ops=0 t=1329278 table=11606128 secs=0.143
+soc-redditHyperlinks-title-insert-1000 p3 final 1329278 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck soc-redditHyperlinks-title-insert-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 soc-redditHyperlinks-title insert 1000 22:19:13
+soc-redditHyperlinks-title-insert-100 p3 P3 status=OK done=5720/5720 net=220151 ops=0 t=1329278 table=0 secs=0.090
+soc-redditHyperlinks-title-insert-100 p3 T3 status=OK done=5720/5720 net=220151 ops=0 t=1329278 table=751667736 secs=2.856
+soc-redditHyperlinks-title-insert-100 p3 M3 status=OK done=5720/5720 net=220151 ops=0 t=1329278 table=11611676 secs=0.151
+soc-redditHyperlinks-title-insert-100 p3 S3 status=OK done=5720/5720 net=220151 ops=0 t=1329278 table=0 secs=0.089
+soc-redditHyperlinks-title-insert-100 p3 M3 status=OK done=5720/5720 net=220151 ops=0 t=1329278 table=11611676 secs=0.144
+soc-redditHyperlinks-title-insert-100 p3 S3 status=OK done=5720/5720 net=220151 ops=0 t=1329278 table=0 secs=0.090
+soc-redditHyperlinks-title-insert-100 p3 P3 status=OK done=5720/5720 net=220151 ops=0 t=1329278 table=0 secs=0.091
+soc-redditHyperlinks-title-insert-100 p3 S3 status=OK done=5720/5720 net=220151 ops=0 t=1329278 table=0 secs=0.090
+soc-redditHyperlinks-title-insert-100 p3 P3 status=OK done=5720/5720 net=220151 ops=0 t=1329278 table=0 secs=0.090
+soc-redditHyperlinks-title-insert-100 p3 M3 status=OK done=5720/5720 net=220151 ops=0 t=1329278 table=11611676 secs=0.144
+soc-redditHyperlinks-title-insert-100 p3 S3 status=OK done=5720/5720 net=220151 ops=0 t=1329278 table=0 secs=0.090
+soc-redditHyperlinks-title-insert-100 p3 P3 status=OK done=5720/5720 net=220151 ops=0 t=1329278 table=0 secs=0.091
+soc-redditHyperlinks-title-insert-100 p3 M3 status=OK done=5720/5720 net=220151 ops=0 t=1329278 table=11611676 secs=0.142
+soc-redditHyperlinks-title-insert-100 p3 S3 status=OK done=5720/5720 net=220151 ops=0 t=1329278 table=0 secs=0.091
+soc-redditHyperlinks-title-insert-100 p3 P3 status=OK done=5720/5720 net=220151 ops=0 t=1329278 table=0 secs=0.090
+soc-redditHyperlinks-title-insert-100 p3 M3 status=OK done=5720/5720 net=220151 ops=0 t=1329278 table=11611676 secs=0.143
+soc-redditHyperlinks-title-insert-100 p3 final 1329278 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck soc-redditHyperlinks-title-insert-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 soc-redditHyperlinks-title insert 100 22:19:19
+soc-wiki-elec-expiry-1000 p3 P3 status=OK done=215/215 net=207198 ops=0 t=0 table=0 secs=0.014
+soc-wiki-elec-expiry-1000 p3 T3 status=OK done=215/215 net=207198 ops=0 t=0 table=2127668 secs=0.163
+soc-wiki-elec-expiry-1000 p3 M3 status=OK done=215/215 net=207198 ops=0 t=0 table=492348 secs=0.074
+soc-wiki-elec-expiry-1000 p3 S3 status=OK done=215/215 net=207198 ops=0 t=0 table=0 secs=0.020
+soc-wiki-elec-expiry-1000 p3 S3 status=OK done=215/215 net=207198 ops=0 t=0 table=0 secs=0.020
+soc-wiki-elec-expiry-1000 p3 P3 status=OK done=215/215 net=207198 ops=0 t=0 table=0 secs=0.014
+soc-wiki-elec-expiry-1000 p3 S3 status=OK done=215/215 net=207198 ops=0 t=0 table=0 secs=0.020
+soc-wiki-elec-expiry-1000 p3 P3 status=OK done=215/215 net=207198 ops=0 t=0 table=0 secs=0.014
+soc-wiki-elec-expiry-1000 p3 S3 status=OK done=215/215 net=207198 ops=0 t=0 table=0 secs=0.020
+soc-wiki-elec-expiry-1000 p3 P3 status=OK done=215/215 net=207198 ops=0 t=0 table=0 secs=0.014
+soc-wiki-elec-expiry-1000 p3 S3 status=OK done=215/215 net=207198 ops=0 t=0 table=0 secs=0.020
+soc-wiki-elec-expiry-1000 p3 P3 status=OK done=215/215 net=207198 ops=0 t=0 table=0 secs=0.014
+soc-wiki-elec-expiry-1000 p3 final 0 ops M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck soc-wiki-elec-expiry-1000-p3: 12 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 soc-wiki-elec expiry 1000 22:19:20
+soc-wiki-elec-expiry-100 p3 P3 status=OK done=2141/2141 net=212040 ops=0 t=0 table=0 secs=0.018
+soc-wiki-elec-expiry-100 p3 T3 status=OK done=2141/2141 net=212040 ops=0 t=0 table=2154636 secs=0.167
+soc-wiki-elec-expiry-100 p3 M3 status=OK done=2141/2141 net=212040 ops=0 t=0 table=496212 secs=0.077
+soc-wiki-elec-expiry-100 p3 S3 status=OK done=2141/2141 net=212040 ops=0 t=0 table=0 secs=0.022
+soc-wiki-elec-expiry-100 p3 M3 status=OK done=2141/2141 net=212040 ops=0 t=0 table=496212 secs=0.077
+soc-wiki-elec-expiry-100 p3 S3 status=OK done=2141/2141 net=212040 ops=0 t=0 table=0 secs=0.022
+soc-wiki-elec-expiry-100 p3 P3 status=OK done=2141/2141 net=212040 ops=0 t=0 table=0 secs=0.019
+soc-wiki-elec-expiry-100 p3 S3 status=OK done=2141/2141 net=212040 ops=0 t=0 table=0 secs=0.021
+soc-wiki-elec-expiry-100 p3 P3 status=OK done=2141/2141 net=212040 ops=0 t=0 table=0 secs=0.019
+soc-wiki-elec-expiry-100 p3 M3 status=OK done=2141/2141 net=212040 ops=0 t=0 table=496212 secs=0.077
+soc-wiki-elec-expiry-100 p3 S3 status=OK done=2141/2141 net=212040 ops=0 t=0 table=0 secs=0.022
+soc-wiki-elec-expiry-100 p3 P3 status=OK done=2141/2141 net=212040 ops=0 t=0 table=0 secs=0.019
+soc-wiki-elec-expiry-100 p3 M3 status=OK done=2141/2141 net=212040 ops=0 t=0 table=496212 secs=0.077
+soc-wiki-elec-expiry-100 p3 S3 status=OK done=2141/2141 net=212040 ops=0 t=0 table=0 secs=0.022
+soc-wiki-elec-expiry-100 p3 P3 status=OK done=2141/2141 net=212040 ops=0 t=0 table=0 secs=0.019
+soc-wiki-elec-expiry-100 p3 M3 status=OK done=2141/2141 net=212040 ops=0 t=0 table=496212 secs=0.077
+soc-wiki-elec-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck soc-wiki-elec-expiry-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 soc-wiki-elec expiry 100 22:19:22
+soc-wiki-elec-insert-1000 p3 P3 status=OK done=108/108 net=100753 ops=0 t=608350 table=0 secs=0.031
+soc-wiki-elec-insert-1000 p3 T3 status=OK done=108/108 net=100753 ops=0 t=608350 table=58136056 secs=0.227
+soc-wiki-elec-insert-1000 p3 M3 status=OK done=108/108 net=100753 ops=0 t=608350 table=4141280 secs=0.060
+soc-wiki-elec-insert-1000 p3 S3 status=OK done=108/108 net=100753 ops=0 t=608350 table=0 secs=0.041
+soc-wiki-elec-insert-1000 p3 M3 status=OK done=108/108 net=100753 ops=0 t=608350 table=4141280 secs=0.060
+soc-wiki-elec-insert-1000 p3 S3 status=OK done=108/108 net=100753 ops=0 t=608350 table=0 secs=0.041
+soc-wiki-elec-insert-1000 p3 P3 status=OK done=108/108 net=100753 ops=0 t=608350 table=0 secs=0.031
+soc-wiki-elec-insert-1000 p3 S3 status=OK done=108/108 net=100753 ops=0 t=608350 table=0 secs=0.041
+soc-wiki-elec-insert-1000 p3 P3 status=OK done=108/108 net=100753 ops=0 t=608350 table=0 secs=0.031
+soc-wiki-elec-insert-1000 p3 M3 status=OK done=108/108 net=100753 ops=0 t=608350 table=4141280 secs=0.061
+soc-wiki-elec-insert-1000 p3 S3 status=OK done=108/108 net=100753 ops=0 t=608350 table=0 secs=0.041
+soc-wiki-elec-insert-1000 p3 P3 status=OK done=108/108 net=100753 ops=0 t=608350 table=0 secs=0.031
+soc-wiki-elec-insert-1000 p3 M3 status=OK done=108/108 net=100753 ops=0 t=608350 table=4141280 secs=0.060
+soc-wiki-elec-insert-1000 p3 S3 status=OK done=108/108 net=100753 ops=0 t=608350 table=0 secs=0.041
+soc-wiki-elec-insert-1000 p3 P3 status=OK done=108/108 net=100753 ops=0 t=608350 table=0 secs=0.031
+soc-wiki-elec-insert-1000 p3 M3 status=OK done=108/108 net=100753 ops=0 t=608350 table=4141280 secs=0.060
+soc-wiki-elec-insert-1000 p3 final 608350 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck soc-wiki-elec-insert-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 soc-wiki-elec insert 1000 22:19:24
+soc-wiki-elec-insert-100 p3 P3 status=OK done=1071/1071 net=100753 ops=0 t=608350 table=0 secs=0.031
+soc-wiki-elec-insert-100 p3 T3 status=OK done=1071/1071 net=100753 ops=0 t=608350 table=57946744 secs=0.225
+soc-wiki-elec-insert-100 p3 M3 status=OK done=1071/1071 net=100753 ops=0 t=608350 table=4055644 secs=0.060
+soc-wiki-elec-insert-100 p3 S3 status=OK done=1071/1071 net=100753 ops=0 t=608350 table=0 secs=0.040
+soc-wiki-elec-insert-100 p3 M3 status=OK done=1071/1071 net=100753 ops=0 t=608350 table=4055644 secs=0.060
+soc-wiki-elec-insert-100 p3 S3 status=OK done=1071/1071 net=100753 ops=0 t=608350 table=0 secs=0.040
+soc-wiki-elec-insert-100 p3 P3 status=OK done=1071/1071 net=100753 ops=0 t=608350 table=0 secs=0.031
+soc-wiki-elec-insert-100 p3 S3 status=OK done=1071/1071 net=100753 ops=0 t=608350 table=0 secs=0.040
+soc-wiki-elec-insert-100 p3 P3 status=OK done=1071/1071 net=100753 ops=0 t=608350 table=0 secs=0.031
+soc-wiki-elec-insert-100 p3 M3 status=OK done=1071/1071 net=100753 ops=0 t=608350 table=4055644 secs=0.059
+soc-wiki-elec-insert-100 p3 S3 status=OK done=1071/1071 net=100753 ops=0 t=608350 table=0 secs=0.040
+soc-wiki-elec-insert-100 p3 P3 status=OK done=1071/1071 net=100753 ops=0 t=608350 table=0 secs=0.031
+soc-wiki-elec-insert-100 p3 M3 status=OK done=1071/1071 net=100753 ops=0 t=608350 table=4055644 secs=0.060
+soc-wiki-elec-insert-100 p3 S3 status=OK done=1071/1071 net=100753 ops=0 t=608350 table=0 secs=0.040
+soc-wiki-elec-insert-100 p3 P3 status=OK done=1071/1071 net=100753 ops=0 t=608350 table=0 secs=0.031
+soc-wiki-elec-insert-100 p3 M3 status=OK done=1071/1071 net=100753 ops=0 t=608350 table=4055644 secs=0.060
+soc-wiki-elec-insert-100 p3 final 608350 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck soc-wiki-elec-insert-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 soc-wiki-elec insert 100 22:19:26
+soc-youtube-growth-insert-1000 p3 P3 status=OK done=2000/2000 net=2000000 ops=0 t=2489872 table=0 secs=0.407
+soc-youtube-growth-insert-1000 p3 T3 status=MEM done=654/2000 net=655000 ops=0 t=898056 table=13884725616 secs=28.729
+soc-youtube-growth-insert-1000 p3 M3 status=OK done=2000/2000 net=2000000 ops=0 t=2489872 table=128815936 secs=1.518
+soc-youtube-growth-insert-1000 p3 S3 status=OK done=2000/2000 net=2000000 ops=0 t=2489872 table=0 secs=0.601
+soc-youtube-growth-insert-1000 p3 M3 status=OK done=2000/2000 net=2000000 ops=0 t=2489872 table=128815936 secs=1.387
+soc-youtube-growth-insert-1000 p3 S3 status=OK done=2000/2000 net=2000000 ops=0 t=2489872 table=0 secs=0.596
+soc-youtube-growth-insert-1000 p3 P3 status=OK done=2000/2000 net=2000000 ops=0 t=2489872 table=0 secs=0.413
+soc-youtube-growth-insert-1000 p3 S3 status=OK done=2000/2000 net=2000000 ops=0 t=2489872 table=0 secs=0.590
+soc-youtube-growth-insert-1000 p3 P3 status=OK done=2000/2000 net=2000000 ops=0 t=2489872 table=0 secs=0.414
+soc-youtube-growth-insert-1000 p3 M3 status=OK done=2000/2000 net=2000000 ops=0 t=2489872 table=128815936 secs=1.385
+soc-youtube-growth-insert-1000 p3 S3 status=OK done=2000/2000 net=2000000 ops=0 t=2489872 table=0 secs=0.601
+soc-youtube-growth-insert-1000 p3 P3 status=OK done=2000/2000 net=2000000 ops=0 t=2489872 table=0 secs=0.412
+soc-youtube-growth-insert-1000 p3 M3 status=OK done=2000/2000 net=2000000 ops=0 t=2489872 table=128815936 secs=1.389
+soc-youtube-growth-insert-1000 p3 S3 status=OK done=2000/2000 net=2000000 ops=0 t=2489872 table=0 secs=0.597
+soc-youtube-growth-insert-1000 p3 P3 status=OK done=2000/2000 net=2000000 ops=0 t=2489872 table=0 secs=0.404
+soc-youtube-growth-insert-1000 p3 M3 status=OK done=2000/2000 net=2000000 ops=0 t=2489872 table=128815936 secs=1.392
+soc-youtube-growth-insert-1000 p3 final 2489872 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0(654/2000)
+tcheck soc-youtube-growth-insert-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 soc-youtube-growth insert 1000 22:20:11
+soc-youtube-growth-insert-100 p3 P3 status=OK done=20000/20000 net=2000000 ops=0 t=2489872 table=0 secs=0.428
+soc-youtube-growth-insert-100 p3 T3 status=MEM done=6691/20000 net=669200 ops=0 t=914091 table=13896161032 secs=28.359
+soc-youtube-growth-insert-100 p3 M3 status=OK done=20000/20000 net=2000000 ops=0 t=2489872 table=128115748 secs=1.384
+soc-youtube-growth-insert-100 p3 S3 status=OK done=20000/20000 net=2000000 ops=0 t=2489872 table=0 secs=0.595
+soc-youtube-growth-insert-100 p3 M3 status=OK done=20000/20000 net=2000000 ops=0 t=2489872 table=128115748 secs=1.390
+soc-youtube-growth-insert-100 p3 S3 status=OK done=20000/20000 net=2000000 ops=0 t=2489872 table=0 secs=0.589
+soc-youtube-growth-insert-100 p3 P3 status=OK done=20000/20000 net=2000000 ops=0 t=2489872 table=0 secs=0.426
+soc-youtube-growth-insert-100 p3 S3 status=OK done=20000/20000 net=2000000 ops=0 t=2489872 table=0 secs=0.582
+soc-youtube-growth-insert-100 p3 P3 status=OK done=20000/20000 net=2000000 ops=0 t=2489872 table=0 secs=0.431
+soc-youtube-growth-insert-100 p3 M3 status=OK done=20000/20000 net=2000000 ops=0 t=2489872 table=128115748 secs=1.392
+soc-youtube-growth-insert-100 p3 S3 status=OK done=20000/20000 net=2000000 ops=0 t=2489872 table=0 secs=0.589
+soc-youtube-growth-insert-100 p3 P3 status=OK done=20000/20000 net=2000000 ops=0 t=2489872 table=0 secs=0.425
+soc-youtube-growth-insert-100 p3 M3 status=OK done=20000/20000 net=2000000 ops=0 t=2489872 table=128115748 secs=1.385
+soc-youtube-growth-insert-100 p3 S3 status=OK done=20000/20000 net=2000000 ops=0 t=2489872 table=0 secs=0.590
+soc-youtube-growth-insert-100 p3 P3 status=OK done=20000/20000 net=2000000 ops=0 t=2489872 table=0 secs=0.418
+soc-youtube-growth-insert-100 p3 M3 status=OK done=20000/20000 net=2000000 ops=0 t=2489872 table=128115748 secs=1.389
+soc-youtube-growth-insert-100 p3 final 2489872 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0(6691/20000)
+tcheck soc-youtube-growth-insert-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 soc-youtube-growth insert 100 22:20:55
+tech-as-topology-expiry-1000 p3 P3 status=OK done=343/343 net=219686 ops=0 t=0 table=0 secs=0.040
+tech-as-topology-expiry-1000 p3 T3 status=OK done=343/343 net=219686 ops=0 t=0 table=366334720 secs=2.160
+tech-as-topology-expiry-1000 p3 M3 status=OK done=343/343 net=219686 ops=0 t=0 table=4598888 secs=0.078
+tech-as-topology-expiry-1000 p3 S3 status=OK done=343/343 net=219686 ops=0 t=0 table=0 secs=0.046
+tech-as-topology-expiry-1000 p3 M3 status=OK done=343/343 net=219686 ops=0 t=0 table=4598888 secs=0.081
+tech-as-topology-expiry-1000 p3 S3 status=OK done=343/343 net=219686 ops=0 t=0 table=0 secs=0.046
+tech-as-topology-expiry-1000 p3 P3 status=OK done=343/343 net=219686 ops=0 t=0 table=0 secs=0.039
+tech-as-topology-expiry-1000 p3 S3 status=OK done=343/343 net=219686 ops=0 t=0 table=0 secs=0.046
+tech-as-topology-expiry-1000 p3 P3 status=OK done=343/343 net=219686 ops=0 t=0 table=0 secs=0.039
+tech-as-topology-expiry-1000 p3 M3 status=OK done=343/343 net=219686 ops=0 t=0 table=4598888 secs=0.078
+tech-as-topology-expiry-1000 p3 S3 status=OK done=343/343 net=219686 ops=0 t=0 table=0 secs=0.046
+tech-as-topology-expiry-1000 p3 P3 status=OK done=343/343 net=219686 ops=0 t=0 table=0 secs=0.039
+tech-as-topology-expiry-1000 p3 M3 status=OK done=343/343 net=219686 ops=0 t=0 table=4598888 secs=0.078
+tech-as-topology-expiry-1000 p3 S3 status=OK done=343/343 net=219686 ops=0 t=0 table=0 secs=0.048
+tech-as-topology-expiry-1000 p3 P3 status=OK done=343/343 net=219686 ops=0 t=0 table=0 secs=0.039
+tech-as-topology-expiry-1000 p3 M3 status=OK done=343/343 net=219686 ops=0 t=0 table=4598888 secs=0.079
+tech-as-topology-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck tech-as-topology-expiry-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 tech-as-topology expiry 1000 22:21:00
+tech-as-topology-expiry-100 p3 P3 status=OK done=3429/3429 net=219726 ops=0 t=0 table=0 secs=0.045
+tech-as-topology-expiry-100 p3 T3 status=OK done=3429/3429 net=219726 ops=0 t=0 table=366573244 secs=2.140
+tech-as-topology-expiry-100 p3 M3 status=OK done=3429/3429 net=219726 ops=0 t=0 table=4613840 secs=0.078
+tech-as-topology-expiry-100 p3 S3 status=OK done=3429/3429 net=219726 ops=0 t=0 table=0 secs=0.046
+tech-as-topology-expiry-100 p3 M3 status=OK done=3429/3429 net=219726 ops=0 t=0 table=4613840 secs=0.079
+tech-as-topology-expiry-100 p3 S3 status=OK done=3429/3429 net=219726 ops=0 t=0 table=0 secs=0.046
+tech-as-topology-expiry-100 p3 P3 status=OK done=3429/3429 net=219726 ops=0 t=0 table=0 secs=0.045
+tech-as-topology-expiry-100 p3 S3 status=OK done=3429/3429 net=219726 ops=0 t=0 table=0 secs=0.046
+tech-as-topology-expiry-100 p3 P3 status=OK done=3429/3429 net=219726 ops=0 t=0 table=0 secs=0.045
+tech-as-topology-expiry-100 p3 M3 status=OK done=3429/3429 net=219726 ops=0 t=0 table=4613840 secs=0.078
+tech-as-topology-expiry-100 p3 S3 status=OK done=3429/3429 net=219726 ops=0 t=0 table=0 secs=0.046
+tech-as-topology-expiry-100 p3 P3 status=OK done=3429/3429 net=219726 ops=0 t=0 table=0 secs=0.045
+tech-as-topology-expiry-100 p3 M3 status=OK done=3429/3429 net=219726 ops=0 t=0 table=4613840 secs=0.078
+tech-as-topology-expiry-100 p3 S3 status=OK done=3429/3429 net=219726 ops=0 t=0 table=0 secs=0.046
+tech-as-topology-expiry-100 p3 P3 status=OK done=3429/3429 net=219726 ops=0 t=0 table=0 secs=0.045
+tech-as-topology-expiry-100 p3 M3 status=OK done=3429/3429 net=219726 ops=0 t=0 table=4613840 secs=0.078
+tech-as-topology-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck tech-as-topology-expiry-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 tech-as-topology expiry 100 22:21:04
+tech-as-topology-insert-1000 p3 P3 status=OK done=172/172 net=107720 ops=0 t=554749 table=0 secs=0.024
+tech-as-topology-insert-1000 p3 T3 status=OK done=172/172 net=107720 ops=0 t=554749 table=376279780 secs=1.036
+tech-as-topology-insert-1000 p3 M3 status=OK done=172/172 net=107720 ops=0 t=554749 table=4698804 secs=0.050
+tech-as-topology-insert-1000 p3 S3 status=OK done=172/172 net=107720 ops=0 t=554749 table=0 secs=0.029
+tech-as-topology-insert-1000 p3 M3 status=OK done=172/172 net=107720 ops=0 t=554749 table=4698804 secs=0.050
+tech-as-topology-insert-1000 p3 S3 status=OK done=172/172 net=107720 ops=0 t=554749 table=0 secs=0.028
+tech-as-topology-insert-1000 p3 P3 status=OK done=172/172 net=107720 ops=0 t=554749 table=0 secs=0.024
+tech-as-topology-insert-1000 p3 S3 status=OK done=172/172 net=107720 ops=0 t=554749 table=0 secs=0.028
+tech-as-topology-insert-1000 p3 P3 status=OK done=172/172 net=107720 ops=0 t=554749 table=0 secs=0.024
+tech-as-topology-insert-1000 p3 M3 status=OK done=172/172 net=107720 ops=0 t=554749 table=4698804 secs=0.050
+tech-as-topology-insert-1000 p3 S3 status=OK done=172/172 net=107720 ops=0 t=554749 table=0 secs=0.029
+tech-as-topology-insert-1000 p3 P3 status=OK done=172/172 net=107720 ops=0 t=554749 table=0 secs=0.024
+tech-as-topology-insert-1000 p3 M3 status=OK done=172/172 net=107720 ops=0 t=554749 table=4698804 secs=0.050
+tech-as-topology-insert-1000 p3 S3 status=OK done=172/172 net=107720 ops=0 t=554749 table=0 secs=0.029
+tech-as-topology-insert-1000 p3 P3 status=OK done=172/172 net=107720 ops=0 t=554749 table=0 secs=0.024
+tech-as-topology-insert-1000 p3 M3 status=OK done=172/172 net=107720 ops=0 t=554749 table=4698804 secs=0.050
+tech-as-topology-insert-1000 p3 final 554749 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck tech-as-topology-insert-1000-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 tech-as-topology insert 1000 22:21:07
+tech-as-topology-insert-100 p3 P3 status=OK done=1715/1715 net=107720 ops=0 t=554749 table=0 secs=0.027
+tech-as-topology-insert-100 p3 T3 status=OK done=1715/1715 net=107720 ops=0 t=554749 table=376268932 secs=1.030
+tech-as-topology-insert-100 p3 M3 status=OK done=1715/1715 net=107720 ops=0 t=554749 table=4703108 secs=0.050
+tech-as-topology-insert-100 p3 S3 status=OK done=1715/1715 net=107720 ops=0 t=554749 table=0 secs=0.028
+tech-as-topology-insert-100 p3 M3 status=OK done=1715/1715 net=107720 ops=0 t=554749 table=4703108 secs=0.050
+tech-as-topology-insert-100 p3 S3 status=OK done=1715/1715 net=107720 ops=0 t=554749 table=0 secs=0.028
+tech-as-topology-insert-100 p3 P3 status=OK done=1715/1715 net=107720 ops=0 t=554749 table=0 secs=0.027
+tech-as-topology-insert-100 p3 S3 status=OK done=1715/1715 net=107720 ops=0 t=554749 table=0 secs=0.028
+tech-as-topology-insert-100 p3 P3 status=OK done=1715/1715 net=107720 ops=0 t=554749 table=0 secs=0.027
+tech-as-topology-insert-100 p3 M3 status=OK done=1715/1715 net=107720 ops=0 t=554749 table=4703108 secs=0.050
+tech-as-topology-insert-100 p3 S3 status=OK done=1715/1715 net=107720 ops=0 t=554749 table=0 secs=0.028
+tech-as-topology-insert-100 p3 P3 status=OK done=1715/1715 net=107720 ops=0 t=554749 table=0 secs=0.027
+tech-as-topology-insert-100 p3 M3 status=OK done=1715/1715 net=107720 ops=0 t=554749 table=4703108 secs=0.050
+tech-as-topology-insert-100 p3 S3 status=OK done=1715/1715 net=107720 ops=0 t=554749 table=0 secs=0.028
+tech-as-topology-insert-100 p3 P3 status=OK done=1715/1715 net=107720 ops=0 t=554749 table=0 secs=0.027
+tech-as-topology-insert-100 p3 M3 status=OK done=1715/1715 net=107720 ops=0 t=554749 table=4703108 secs=0.050
+tech-as-topology-insert-100 p3 final 554749 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tcheck tech-as-topology-insert-100-p3: 16 timing runs against the count build, 0 differ or missing
+CELL-DONE p3 tech-as-topology insert 100 22:21:10
+ia-reality-call-expiry-1000 p5 PR status=OK done=103/103 net=26922 ops=0 t=0 table=3072 secs=0.004
+ia-reality-call-expiry-1000 p5 WT status=OK done=103/103 net=26922 ops=0 t=0 table=905988 secs=0.017
+ia-reality-call-expiry-1000 p5 WJ status=OK done=103/103 net=26922 ops=0 t=0 table=786432 secs=0.015
+ia-reality-call-expiry-1000 p5 M5 status=OK done=103/103 net=26922 ops=0 t=0 table=905988 secs=0.018
+ia-reality-call-expiry-1000 p5 A5 status=OK done=103/103 net=26922 ops=0 t=0 table=0 secs=0.013
+ia-reality-call-expiry-1000 p5 R2 status=OK done=103/103 net=26922 ops=0 t=0 table=3072 secs=0.005
+ia-reality-call-expiry-1000 p5 WJ status=OK done=103/103 net=26922 ops=0 t=0 table=786432 secs=0.015
+ia-reality-call-expiry-1000 p5 M5 status=OK done=103/103 net=26922 ops=0 t=0 table=905988 secs=0.018
+ia-reality-call-expiry-1000 p5 WT status=OK done=103/103 net=26922 ops=0 t=0 table=905988 secs=0.016
+ia-reality-call-expiry-1000 p5 R2 status=OK done=103/103 net=26922 ops=0 t=0 table=3072 secs=0.005
+ia-reality-call-expiry-1000 p5 A5 status=OK done=103/103 net=26922 ops=0 t=0 table=0 secs=0.013
+ia-reality-call-expiry-1000 p5 PR status=OK done=103/103 net=26922 ops=0 t=0 table=3072 secs=0.004
+ia-reality-call-expiry-1000 p5 WJ status=OK done=103/103 net=26922 ops=0 t=0 table=786432 secs=0.015
+ia-reality-call-expiry-1000 p5 M5 status=OK done=103/103 net=26922 ops=0 t=0 table=905988 secs=0.017
+ia-reality-call-expiry-1000 p5 WT status=OK done=103/103 net=26922 ops=0 t=0 table=905988 secs=0.016
+ia-reality-call-expiry-1000 p5 R2 status=OK done=103/103 net=26922 ops=0 t=0 table=3072 secs=0.005
+ia-reality-call-expiry-1000 p5 A5 status=OK done=103/103 net=26922 ops=0 t=0 table=0 secs=0.013
+ia-reality-call-expiry-1000 p5 PR status=OK done=103/103 net=26922 ops=0 t=0 table=3072 secs=0.004
+ia-reality-call-expiry-1000 p5 R2 status=OK done=103/103 net=26922 ops=0 t=0 table=3072 secs=0.005
+ia-reality-call-expiry-1000 p5 A5 status=OK done=103/103 net=26922 ops=0 t=0 table=0 secs=0.013
+ia-reality-call-expiry-1000 p5 PR status=OK done=103/103 net=26922 ops=0 t=0 table=3072 secs=0.004
+ia-reality-call-expiry-1000 p5 WJ status=OK done=103/103 net=26922 ops=0 t=0 table=786432 secs=0.015
+ia-reality-call-expiry-1000 p5 M5 status=OK done=103/103 net=26922 ops=0 t=0 table=905988 secs=0.017
+ia-reality-call-expiry-1000 p5 WT status=OK done=103/103 net=26922 ops=0 t=0 table=905988 secs=0.017
+ia-reality-call-expiry-1000 p5 M5 status=OK done=103/103 net=26922 ops=0 t=0 table=905988 secs=0.018
+ia-reality-call-expiry-1000 p5 WT status=OK done=103/103 net=26922 ops=0 t=0 table=905988 secs=0.017
+ia-reality-call-expiry-1000 p5 R2 status=OK done=103/103 net=26922 ops=0 t=0 table=3072 secs=0.005
+ia-reality-call-expiry-1000 p5 A5 status=OK done=103/103 net=26922 ops=0 t=0 table=0 secs=0.013
+ia-reality-call-expiry-1000 p5 PR status=OK done=103/103 net=26922 ops=0 t=0 table=3072 secs=0.004
+ia-reality-call-expiry-1000 p5 WJ status=OK done=103/103 net=26922 ops=0 t=0 table=786432 secs=0.015
+ia-reality-call-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+ia-reality-call-expiry-1000 p5 final 0 ops A5.t1:0 A5.t2:0 A5.t3:0 A5.t4:0 A5.t5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WJ.t2:0 WJ.t3:0 WJ.t4:0 WJ.t5:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck ia-reality-call-expiry-1000-p5: 30 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 ia-reality-call expiry 1000 22:21:12
+ia-reality-call-expiry-100 p5 PR status=OK done=1025/1025 net=33712 ops=0 t=0 table=3072 secs=0.007
+ia-reality-call-expiry-100 p5 WT status=OK done=1025/1025 net=33712 ops=0 t=0 table=924404 secs=0.022
+ia-reality-call-expiry-100 p5 WJ status=OK done=1025/1025 net=33712 ops=0 t=0 table=786432 secs=0.022
+ia-reality-call-expiry-100 p5 M5 status=OK done=1025/1025 net=33712 ops=0 t=0 table=924404 secs=0.023
+ia-reality-call-expiry-100 p5 A5 status=OK done=1025/1025 net=33712 ops=0 t=0 table=0 secs=0.063
+ia-reality-call-expiry-100 p5 R2 status=OK done=1025/1025 net=33712 ops=0 t=0 table=3072 secs=0.007
+ia-reality-call-expiry-100 p5 WJ status=OK done=1025/1025 net=33712 ops=0 t=0 table=786432 secs=0.022
+ia-reality-call-expiry-100 p5 M5 status=OK done=1025/1025 net=33712 ops=0 t=0 table=924404 secs=0.023
+ia-reality-call-expiry-100 p5 WT status=OK done=1025/1025 net=33712 ops=0 t=0 table=924404 secs=0.021
+ia-reality-call-expiry-100 p5 R2 status=OK done=1025/1025 net=33712 ops=0 t=0 table=3072 secs=0.007
+ia-reality-call-expiry-100 p5 PR status=OK done=1025/1025 net=33712 ops=0 t=0 table=3072 secs=0.007
+ia-reality-call-expiry-100 p5 WJ status=OK done=1025/1025 net=33712 ops=0 t=0 table=786432 secs=0.022
+ia-reality-call-expiry-100 p5 M5 status=OK done=1025/1025 net=33712 ops=0 t=0 table=924404 secs=0.023
+ia-reality-call-expiry-100 p5 WT status=OK done=1025/1025 net=33712 ops=0 t=0 table=924404 secs=0.021
+ia-reality-call-expiry-100 p5 R2 status=OK done=1025/1025 net=33712 ops=0 t=0 table=3072 secs=0.007
+ia-reality-call-expiry-100 p5 PR status=OK done=1025/1025 net=33712 ops=0 t=0 table=3072 secs=0.007
+ia-reality-call-expiry-100 p5 R2 status=OK done=1025/1025 net=33712 ops=0 t=0 table=3072 secs=0.007
+ia-reality-call-expiry-100 p5 PR status=OK done=1025/1025 net=33712 ops=0 t=0 table=3072 secs=0.007
+ia-reality-call-expiry-100 p5 WJ status=OK done=1025/1025 net=33712 ops=0 t=0 table=786432 secs=0.022
+ia-reality-call-expiry-100 p5 M5 status=OK done=1025/1025 net=33712 ops=0 t=0 table=924404 secs=0.023
+ia-reality-call-expiry-100 p5 WT status=OK done=1025/1025 net=33712 ops=0 t=0 table=924404 secs=0.022
+ia-reality-call-expiry-100 p5 M5 status=OK done=1025/1025 net=33712 ops=0 t=0 table=924404 secs=0.023
+ia-reality-call-expiry-100 p5 WT status=OK done=1025/1025 net=33712 ops=0 t=0 table=924404 secs=0.021
+ia-reality-call-expiry-100 p5 R2 status=OK done=1025/1025 net=33712 ops=0 t=0 table=3072 secs=0.007
+ia-reality-call-expiry-100 p5 PR status=OK done=1025/1025 net=33712 ops=0 t=0 table=3072 secs=0.007
+ia-reality-call-expiry-100 p5 WJ status=OK done=1025/1025 net=33712 ops=0 t=0 table=786432 secs=0.022
+ia-reality-call-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+ia-reality-call-expiry-100 p5 final 0 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WJ.t2:0 WJ.t3:0 WJ.t4:0 WJ.t5:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck ia-reality-call-expiry-100-p5: 26 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 ia-reality-call expiry 100 22:21:14
+ia-reality-call-insert-1000 p5 PR status=OK done=52/52 net=7680 ops=0 t=18102 table=3072 secs=0.002
+ia-reality-call-insert-1000 p5 WT status=OK done=52/52 net=7680 ops=0 t=18102 table=9041020 secs=0.010
+ia-reality-call-insert-1000 p5 WJ status=OK done=52/52 net=7680 ops=0 t=18102 table=12582912 secs=0.025
+ia-reality-call-insert-1000 p5 M5 status=OK done=52/52 net=7680 ops=0 t=18102 table=8664288 secs=0.011
+ia-reality-call-insert-1000 p5 A5 status=OK done=52/52 net=7680 ops=0 t=18102 table=0 secs=0.016
+ia-reality-call-insert-1000 p5 R2 status=OK done=52/52 net=7680 ops=0 t=18102 table=3072 secs=0.003
+ia-reality-call-insert-1000 p5 WT status=OK done=52/52 net=7680 ops=0 t=18102 table=9041020 secs=0.010
+ia-reality-call-insert-1000 p5 R2 status=OK done=52/52 net=7680 ops=0 t=18102 table=3072 secs=0.003
+ia-reality-call-insert-1000 p5 PR status=OK done=52/52 net=7680 ops=0 t=18102 table=3072 secs=0.002
+ia-reality-call-insert-1000 p5 WT status=OK done=52/52 net=7680 ops=0 t=18102 table=9041020 secs=0.010
+ia-reality-call-insert-1000 p5 R2 status=OK done=52/52 net=7680 ops=0 t=18102 table=3072 secs=0.003
+ia-reality-call-insert-1000 p5 PR status=OK done=52/52 net=7680 ops=0 t=18102 table=3072 secs=0.002
+ia-reality-call-insert-1000 p5 R2 status=OK done=52/52 net=7680 ops=0 t=18102 table=3072 secs=0.003
+ia-reality-call-insert-1000 p5 PR status=OK done=52/52 net=7680 ops=0 t=18102 table=3072 secs=0.002
+ia-reality-call-insert-1000 p5 WT status=OK done=52/52 net=7680 ops=0 t=18102 table=9041020 secs=0.010
+ia-reality-call-insert-1000 p5 WT status=OK done=52/52 net=7680 ops=0 t=18102 table=9041020 secs=0.010
+ia-reality-call-insert-1000 p5 R2 status=OK done=52/52 net=7680 ops=0 t=18102 table=3072 secs=0.003
+ia-reality-call-insert-1000 p5 PR status=OK done=52/52 net=7680 ops=0 t=18102 table=3072 secs=0.002
+ia-reality-call-insert-1000 p3 final 400 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+ia-reality-call-insert-1000 p5 final 18102 ops A5.t1:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck ia-reality-call-insert-1000-p5: 18 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 ia-reality-call insert 1000 22:21:15
+ia-reality-call-insert-100 p5 PR status=OK done=513/513 net=7680 ops=0 t=18102 table=3072 secs=0.003
+ia-reality-call-insert-100 p5 WT status=OK done=513/513 net=7680 ops=0 t=18102 table=9041020 secs=0.010
+ia-reality-call-insert-100 p5 WJ status=OK done=513/513 net=7680 ops=0 t=18102 table=12582912 secs=0.024
+ia-reality-call-insert-100 p5 M5 status=OK done=513/513 net=7680 ops=0 t=18102 table=8802412 secs=0.011
+ia-reality-call-insert-100 p5 A5 status=OK done=513/513 net=7680 ops=0 t=18102 table=0 secs=0.074
+ia-reality-call-insert-100 p5 R2 status=OK done=513/513 net=7680 ops=0 t=18102 table=3072 secs=0.003
+ia-reality-call-insert-100 p5 M5 status=OK done=513/513 net=7680 ops=0 t=18102 table=8802412 secs=0.011
+ia-reality-call-insert-100 p5 WT status=OK done=513/513 net=7680 ops=0 t=18102 table=9041020 secs=0.010
+ia-reality-call-insert-100 p5 R2 status=OK done=513/513 net=7680 ops=0 t=18102 table=3072 secs=0.003
+ia-reality-call-insert-100 p5 PR status=OK done=513/513 net=7680 ops=0 t=18102 table=3072 secs=0.003
+ia-reality-call-insert-100 p5 M5 status=OK done=513/513 net=7680 ops=0 t=18102 table=8802412 secs=0.011
+ia-reality-call-insert-100 p5 WT status=OK done=513/513 net=7680 ops=0 t=18102 table=9041020 secs=0.010
+ia-reality-call-insert-100 p5 R2 status=OK done=513/513 net=7680 ops=0 t=18102 table=3072 secs=0.003
+ia-reality-call-insert-100 p5 PR status=OK done=513/513 net=7680 ops=0 t=18102 table=3072 secs=0.003
+ia-reality-call-insert-100 p5 R2 status=OK done=513/513 net=7680 ops=0 t=18102 table=3072 secs=0.003
+ia-reality-call-insert-100 p5 PR status=OK done=513/513 net=7680 ops=0 t=18102 table=3072 secs=0.003
+ia-reality-call-insert-100 p5 M5 status=OK done=513/513 net=7680 ops=0 t=18102 table=8802412 secs=0.011
+ia-reality-call-insert-100 p5 WT status=OK done=513/513 net=7680 ops=0 t=18102 table=9041020 secs=0.010
+ia-reality-call-insert-100 p5 M5 status=OK done=513/513 net=7680 ops=0 t=18102 table=8802412 secs=0.011
+ia-reality-call-insert-100 p5 WT status=OK done=513/513 net=7680 ops=0 t=18102 table=9041020 secs=0.010
+ia-reality-call-insert-100 p5 R2 status=OK done=513/513 net=7680 ops=0 t=18102 table=3072 secs=0.003
+ia-reality-call-insert-100 p5 PR status=OK done=513/513 net=7680 ops=0 t=18102 table=3072 secs=0.003
+ia-reality-call-insert-100 p3 final 400 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+ia-reality-call-insert-100 p5 final 18102 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck ia-reality-call-insert-100-p5: 22 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 ia-reality-call insert 100 22:21:17
+soc-redditHyperlinks-body-expiry-1000 p5 PR status=OK done=574/574 net=456500 ops=0 t=0 table=3072 secs=0.094
+soc-redditHyperlinks-body-expiry-1000 p5 WT status=OK done=574/574 net=456500 ops=0 t=0 table=3139172 secs=0.200
+soc-redditHyperlinks-body-expiry-1000 p5 WJ status=OK done=574/574 net=456500 ops=0 t=0 table=3145728 secs=0.200
+soc-redditHyperlinks-body-expiry-1000 p5 M5 status=OK done=574/574 net=456500 ops=0 t=0 table=2582092 secs=0.211
+soc-redditHyperlinks-body-expiry-1000 p5 A5 status=OK done=574/574 net=456500 ops=0 t=0 table=0 secs=0.235
+soc-redditHyperlinks-body-expiry-1000 p5 R2 status=OK done=574/574 net=456500 ops=0 t=0 table=3072 secs=0.137
+soc-redditHyperlinks-body-expiry-1000 p5 WJ status=OK done=574/574 net=456500 ops=0 t=0 table=3145728 secs=0.201
+soc-redditHyperlinks-body-expiry-1000 p5 M5 status=OK done=574/574 net=456500 ops=0 t=0 table=2582092 secs=0.210
+soc-redditHyperlinks-body-expiry-1000 p5 WT status=OK done=574/574 net=456500 ops=0 t=0 table=3139172 secs=0.199
+soc-redditHyperlinks-body-expiry-1000 p5 R2 status=OK done=574/574 net=456500 ops=0 t=0 table=3072 secs=0.137
+soc-redditHyperlinks-body-expiry-1000 p5 A5 status=OK done=574/574 net=456500 ops=0 t=0 table=0 secs=0.235
+soc-redditHyperlinks-body-expiry-1000 p5 PR status=OK done=574/574 net=456500 ops=0 t=0 table=3072 secs=0.094
+soc-redditHyperlinks-body-expiry-1000 p5 WJ status=OK done=574/574 net=456500 ops=0 t=0 table=3145728 secs=0.200
+soc-redditHyperlinks-body-expiry-1000 p5 M5 status=OK done=574/574 net=456500 ops=0 t=0 table=2582092 secs=0.212
+soc-redditHyperlinks-body-expiry-1000 p5 WT status=OK done=574/574 net=456500 ops=0 t=0 table=3139172 secs=0.198
+soc-redditHyperlinks-body-expiry-1000 p5 R2 status=OK done=574/574 net=456500 ops=0 t=0 table=3072 secs=0.137
+soc-redditHyperlinks-body-expiry-1000 p5 A5 status=OK done=574/574 net=456500 ops=0 t=0 table=0 secs=0.235
+soc-redditHyperlinks-body-expiry-1000 p5 PR status=OK done=574/574 net=456500 ops=0 t=0 table=3072 secs=0.094
+soc-redditHyperlinks-body-expiry-1000 p5 R2 status=OK done=574/574 net=456500 ops=0 t=0 table=3072 secs=0.136
+soc-redditHyperlinks-body-expiry-1000 p5 A5 status=OK done=574/574 net=456500 ops=0 t=0 table=0 secs=0.237
+soc-redditHyperlinks-body-expiry-1000 p5 PR status=OK done=574/574 net=456500 ops=0 t=0 table=3072 secs=0.094
+soc-redditHyperlinks-body-expiry-1000 p5 WJ status=OK done=574/574 net=456500 ops=0 t=0 table=3145728 secs=0.200
+soc-redditHyperlinks-body-expiry-1000 p5 M5 status=OK done=574/574 net=456500 ops=0 t=0 table=2582092 secs=0.211
+soc-redditHyperlinks-body-expiry-1000 p5 WT status=OK done=574/574 net=456500 ops=0 t=0 table=3139172 secs=0.199
+soc-redditHyperlinks-body-expiry-1000 p5 M5 status=OK done=574/574 net=456500 ops=0 t=0 table=2582092 secs=0.212
+soc-redditHyperlinks-body-expiry-1000 p5 WT status=OK done=574/574 net=456500 ops=0 t=0 table=3139172 secs=0.200
+soc-redditHyperlinks-body-expiry-1000 p5 R2 status=OK done=574/574 net=456500 ops=0 t=0 table=3072 secs=0.136
+soc-redditHyperlinks-body-expiry-1000 p5 A5 status=OK done=574/574 net=456500 ops=0 t=0 table=0 secs=0.234
+soc-redditHyperlinks-body-expiry-1000 p5 PR status=OK done=574/574 net=456500 ops=0 t=0 table=3072 secs=0.094
+soc-redditHyperlinks-body-expiry-1000 p5 WJ status=OK done=574/574 net=456500 ops=0 t=0 table=3145728 secs=0.201
+soc-redditHyperlinks-body-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+soc-redditHyperlinks-body-expiry-1000 p5 final 0 ops A5.t1:0 A5.t2:0 A5.t3:0 A5.t4:0 A5.t5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WJ.t2:0 WJ.t3:0 WJ.t4:0 WJ.t5:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck soc-redditHyperlinks-body-expiry-1000-p5: 30 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 soc-redditHyperlinks-body expiry 1000 22:21:25
+soc-redditHyperlinks-body-expiry-100 p5 PR status=OK done=5732/5732 net=471776 ops=0 t=0 table=3072 secs=0.140
+soc-redditHyperlinks-body-expiry-100 p5 WT status=OK done=5732/5732 net=471776 ops=0 t=0 table=3176624 secs=0.222
+soc-redditHyperlinks-body-expiry-100 p5 WJ status=OK done=5732/5732 net=471776 ops=0 t=0 table=3145728 secs=0.252
+soc-redditHyperlinks-body-expiry-100 p5 M5 status=OK done=5732/5732 net=471776 ops=0 t=0 table=2619540 secs=0.235
+soc-redditHyperlinks-body-expiry-100 p5 A5 status=OK done=5732/5732 net=471776 ops=0 t=0 table=0 secs=1.223
+soc-redditHyperlinks-body-expiry-100 p5 R2 status=OK done=5732/5732 net=471776 ops=0 t=0 table=3072 secs=0.152
+soc-redditHyperlinks-body-expiry-100 p5 WJ status=OK done=5732/5732 net=471776 ops=0 t=0 table=3145728 secs=0.252
+soc-redditHyperlinks-body-expiry-100 p5 M5 status=OK done=5732/5732 net=471776 ops=0 t=0 table=2619540 secs=0.234
+soc-redditHyperlinks-body-expiry-100 p5 WT status=OK done=5732/5732 net=471776 ops=0 t=0 table=3176624 secs=0.223
+soc-redditHyperlinks-body-expiry-100 p5 R2 status=OK done=5732/5732 net=471776 ops=0 t=0 table=3072 secs=0.151
+soc-redditHyperlinks-body-expiry-100 p5 PR status=OK done=5732/5732 net=471776 ops=0 t=0 table=3072 secs=0.141
+soc-redditHyperlinks-body-expiry-100 p5 WJ status=OK done=5732/5732 net=471776 ops=0 t=0 table=3145728 secs=0.251
+soc-redditHyperlinks-body-expiry-100 p5 M5 status=OK done=5732/5732 net=471776 ops=0 t=0 table=2619540 secs=0.235
+soc-redditHyperlinks-body-expiry-100 p5 WT status=OK done=5732/5732 net=471776 ops=0 t=0 table=3176624 secs=0.222
+soc-redditHyperlinks-body-expiry-100 p5 R2 status=OK done=5732/5732 net=471776 ops=0 t=0 table=3072 secs=0.151
+soc-redditHyperlinks-body-expiry-100 p5 PR status=OK done=5732/5732 net=471776 ops=0 t=0 table=3072 secs=0.141
+soc-redditHyperlinks-body-expiry-100 p5 R2 status=OK done=5732/5732 net=471776 ops=0 t=0 table=3072 secs=0.152
+soc-redditHyperlinks-body-expiry-100 p5 PR status=OK done=5732/5732 net=471776 ops=0 t=0 table=3072 secs=0.141
+soc-redditHyperlinks-body-expiry-100 p5 WJ status=OK done=5732/5732 net=471776 ops=0 t=0 table=3145728 secs=0.251
+soc-redditHyperlinks-body-expiry-100 p5 M5 status=OK done=5732/5732 net=471776 ops=0 t=0 table=2619540 secs=0.234
+soc-redditHyperlinks-body-expiry-100 p5 WT status=OK done=5732/5732 net=471776 ops=0 t=0 table=3176624 secs=0.222
+soc-redditHyperlinks-body-expiry-100 p5 M5 status=OK done=5732/5732 net=471776 ops=0 t=0 table=2619540 secs=0.234
+soc-redditHyperlinks-body-expiry-100 p5 WT status=OK done=5732/5732 net=471776 ops=0 t=0 table=3176624 secs=0.222
+soc-redditHyperlinks-body-expiry-100 p5 R2 status=OK done=5732/5732 net=471776 ops=0 t=0 table=3072 secs=0.151
+soc-redditHyperlinks-body-expiry-100 p5 PR status=OK done=5732/5732 net=471776 ops=0 t=0 table=3072 secs=0.142
+soc-redditHyperlinks-body-expiry-100 p5 WJ status=OK done=5732/5732 net=471776 ops=0 t=0 table=3145728 secs=0.251
+soc-redditHyperlinks-body-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+soc-redditHyperlinks-body-expiry-100 p5 final 0 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WJ.t2:0 WJ.t3:0 WJ.t4:0 WJ.t5:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck soc-redditHyperlinks-body-expiry-100-p5: 26 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 soc-redditHyperlinks-body expiry 100 22:21:33
+soc-redditHyperlinks-body-insert-1000 p5 PR status=OK done=287/287 net=124330 ops=0 t=3159998117 table=3072 secs=0.679
+soc-redditHyperlinks-body-insert-1000 p5 WT status=OK done=287/287 net=124330 ops=0 t=3159998117 table=212510248 secs=2.015
+soc-redditHyperlinks-body-insert-1000 p5 WJ status=OK done=287/287 net=124330 ops=0 t=3159998117 table=402653184 secs=11.051
+soc-redditHyperlinks-body-insert-1000 p5 M5 status=OK done=287/287 net=124330 ops=0 t=3159998117 table=63037808 secs=1.622
+soc-redditHyperlinks-body-insert-1000 p5 A5 status=OK done=287/287 net=124330 ops=0 t=3159998117 table=0 secs=18.826
+soc-redditHyperlinks-body-insert-1000 p5 R2 status=OK done=287/287 net=124330 ops=0 t=3159998117 table=3072 secs=1.101
+soc-redditHyperlinks-body-insert-1000 p5 M5 status=OK done=287/287 net=124330 ops=0 t=3159998117 table=63037808 secs=1.623
+soc-redditHyperlinks-body-insert-1000 p5 WT status=OK done=287/287 net=124330 ops=0 t=3159998117 table=212510248 secs=2.018
+soc-redditHyperlinks-body-insert-1000 p5 R2 status=OK done=287/287 net=124330 ops=0 t=3159998117 table=3072 secs=1.100
+soc-redditHyperlinks-body-insert-1000 p5 PR status=OK done=287/287 net=124330 ops=0 t=3159998117 table=3072 secs=0.688
+soc-redditHyperlinks-body-insert-1000 p5 M5 status=OK done=287/287 net=124330 ops=0 t=3159998117 table=63037808 secs=1.629
+soc-redditHyperlinks-body-insert-1000 p5 WT status=OK done=287/287 net=124330 ops=0 t=3159998117 table=212510248 secs=2.022
+soc-redditHyperlinks-body-insert-1000 p5 R2 status=OK done=287/287 net=124330 ops=0 t=3159998117 table=3072 secs=1.102
+soc-redditHyperlinks-body-insert-1000 p5 PR status=OK done=287/287 net=124330 ops=0 t=3159998117 table=3072 secs=0.679
+soc-redditHyperlinks-body-insert-1000 p5 R2 status=OK done=287/287 net=124330 ops=0 t=3159998117 table=3072 secs=1.100
+soc-redditHyperlinks-body-insert-1000 p5 PR status=OK done=287/287 net=124330 ops=0 t=3159998117 table=3072 secs=0.680
+soc-redditHyperlinks-body-insert-1000 p5 M5 status=OK done=287/287 net=124330 ops=0 t=3159998117 table=63037808 secs=1.614
+soc-redditHyperlinks-body-insert-1000 p5 WT status=OK done=287/287 net=124330 ops=0 t=3159998117 table=212510248 secs=2.016
+soc-redditHyperlinks-body-insert-1000 p5 M5 status=OK done=287/287 net=124330 ops=0 t=3159998117 table=63037808 secs=1.620
+soc-redditHyperlinks-body-insert-1000 p5 WT status=OK done=287/287 net=124330 ops=0 t=3159998117 table=212510248 secs=2.016
+soc-redditHyperlinks-body-insert-1000 p5 R2 status=OK done=287/287 net=124330 ops=0 t=3159998117 table=3072 secs=1.100
+soc-redditHyperlinks-body-insert-1000 p5 PR status=OK done=287/287 net=124330 ops=0 t=3159998117 table=3072 secs=0.681
+soc-redditHyperlinks-body-insert-1000 p3 final 406391 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+soc-redditHyperlinks-body-insert-1000 p5 final 3159998117 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck soc-redditHyperlinks-body-insert-1000-p5: 22 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 soc-redditHyperlinks-body insert 1000 22:22:32
+soc-redditHyperlinks-body-insert-100 p5 PR status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=3072 secs=0.979
+soc-redditHyperlinks-body-insert-100 p5 WT status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=212468904 secs=2.035
+soc-redditHyperlinks-body-insert-100 p5 WJ status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=402653184 secs=11.060
+soc-redditHyperlinks-body-insert-100 p5 M5 status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=63046472 secs=1.622
+soc-redditHyperlinks-body-insert-100 p5 A5 status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=0 secs=184.735
+soc-redditHyperlinks-body-insert-100 p5 R2 status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=3072 secs=1.101
+soc-redditHyperlinks-body-insert-100 p5 M5 status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=63046472 secs=1.620
+soc-redditHyperlinks-body-insert-100 p5 WT status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=212468904 secs=2.067
+soc-redditHyperlinks-body-insert-100 p5 R2 status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=3072 secs=1.101
+soc-redditHyperlinks-body-insert-100 p5 PR status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=3072 secs=0.978
+soc-redditHyperlinks-body-insert-100 p5 M5 status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=63046472 secs=1.616
+soc-redditHyperlinks-body-insert-100 p5 WT status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=212468904 secs=2.017
+soc-redditHyperlinks-body-insert-100 p5 R2 status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=3072 secs=1.102
+soc-redditHyperlinks-body-insert-100 p5 PR status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=3072 secs=0.978
+soc-redditHyperlinks-body-insert-100 p5 R2 status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=3072 secs=1.101
+soc-redditHyperlinks-body-insert-100 p5 PR status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=3072 secs=0.978
+soc-redditHyperlinks-body-insert-100 p5 M5 status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=63046472 secs=1.612
+soc-redditHyperlinks-body-insert-100 p5 WT status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=212468904 secs=2.029
+soc-redditHyperlinks-body-insert-100 p5 M5 status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=63046472 secs=1.620
+soc-redditHyperlinks-body-insert-100 p5 WT status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=212468904 secs=2.029
+soc-redditHyperlinks-body-insert-100 p5 R2 status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=3072 secs=1.102
+soc-redditHyperlinks-body-insert-100 p5 PR status=OK done=2866/2866 net=124330 ops=0 t=3159998117 table=3072 secs=0.978
+soc-redditHyperlinks-body-insert-100 p3 final 406391 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+soc-redditHyperlinks-body-insert-100 p5 final 3159998117 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck soc-redditHyperlinks-body-insert-100-p5: 22 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 soc-redditHyperlinks-body insert 100 22:26:18
+soc-redditHyperlinks-title-insert-1000 p5 PR status=OK done=572/572 net=220151 ops=0 t=30987019244 table=3072 secs=3.588
+soc-redditHyperlinks-title-insert-1000 p5 WT status=OK done=572/572 net=220151 ops=0 t=30987019244 table=751869048 secs=10.968
+soc-redditHyperlinks-title-insert-1000 p5 WJ status=OK done=572/572 net=220151 ops=0 t=30987019244 table=805306368 secs=53.076
+soc-redditHyperlinks-title-insert-1000 p5 M5 status=OK done=572/572 net=220151 ops=0 t=30987019244 table=98339696 secs=7.356
+soc-redditHyperlinks-title-insert-1000 p5 A5 status=OK done=572/572 net=220151 ops=0 t=30987019244 table=0 secs=118.690
+soc-redditHyperlinks-title-insert-1000 p5 R2 status=OK done=572/572 net=220151 ops=0 t=30987019244 table=3072 secs=5.772
+soc-redditHyperlinks-title-insert-1000 p5 M5 status=OK done=572/572 net=220151 ops=0 t=30987019244 table=98339696 secs=7.402
+soc-redditHyperlinks-title-insert-1000 p5 WT status=OK done=572/572 net=220151 ops=0 t=30987019244 table=751869048 secs=10.985
+soc-redditHyperlinks-title-insert-1000 p5 R2 status=OK done=572/572 net=220151 ops=0 t=30987019244 table=3072 secs=5.834
+soc-redditHyperlinks-title-insert-1000 p5 PR status=OK done=572/572 net=220151 ops=0 t=30987019244 table=3072 secs=3.649
+soc-redditHyperlinks-title-insert-1000 p5 M5 status=OK done=572/572 net=220151 ops=0 t=30987019244 table=98339696 secs=7.414
+soc-redditHyperlinks-title-insert-1000 p5 WT status=OK done=572/572 net=220151 ops=0 t=30987019244 table=751869048 secs=10.985
+soc-redditHyperlinks-title-insert-1000 p5 R2 status=OK done=572/572 net=220151 ops=0 t=30987019244 table=3072 secs=5.772
+soc-redditHyperlinks-title-insert-1000 p5 PR status=OK done=572/572 net=220151 ops=0 t=30987019244 table=3072 secs=3.592
+soc-redditHyperlinks-title-insert-1000 p5 R2 status=OK done=572/572 net=220151 ops=0 t=30987019244 table=3072 secs=5.767
+soc-redditHyperlinks-title-insert-1000 p5 PR status=OK done=572/572 net=220151 ops=0 t=30987019244 table=3072 secs=3.592
+soc-redditHyperlinks-title-insert-1000 p5 M5 status=OK done=572/572 net=220151 ops=0 t=30987019244 table=98339696 secs=7.337
+soc-redditHyperlinks-title-insert-1000 p5 WT status=OK done=572/572 net=220151 ops=0 t=30987019244 table=751869048 secs=11.057
+soc-redditHyperlinks-title-insert-1000 p5 M5 status=OK done=572/572 net=220151 ops=0 t=30987019244 table=98339696 secs=7.344
+soc-redditHyperlinks-title-insert-1000 p5 WT status=OK done=572/572 net=220151 ops=0 t=30987019244 table=751869048 secs=10.992
+soc-redditHyperlinks-title-insert-1000 p5 R2 status=OK done=572/572 net=220151 ops=0 t=30987019244 table=3072 secs=5.767
+soc-redditHyperlinks-title-insert-1000 p5 PR status=OK done=572/572 net=220151 ops=0 t=30987019244 table=3072 secs=3.590
+soc-redditHyperlinks-title-insert-1000 p3 final 1329278 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+soc-redditHyperlinks-title-insert-1000 p5 final 30987019244 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck soc-redditHyperlinks-title-insert-1000-p5: 22 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 soc-redditHyperlinks-title insert 1000 22:31:30
+soc-redditHyperlinks-title-insert-100 p5 PR status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=3072 secs=5.223
+soc-redditHyperlinks-title-insert-100 p5 WT status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=751667736 secs=10.980
+soc-redditHyperlinks-title-insert-100 p5 WJ status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=805306368 secs=53.132
+soc-redditHyperlinks-title-insert-100 p5 M5 status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=98300864 secs=7.350
+soc-redditHyperlinks-title-insert-100 p5 A5 status=TIME done=3375/5720 net=137345 ops=0 t=8911543313 table=0 secs=300.079
+soc-redditHyperlinks-title-insert-100 p5 R2 status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=3072 secs=5.773
+soc-redditHyperlinks-title-insert-100 p5 M5 status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=98300864 secs=7.344
+soc-redditHyperlinks-title-insert-100 p5 WT status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=751667736 secs=10.963
+soc-redditHyperlinks-title-insert-100 p5 R2 status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=3072 secs=5.790
+soc-redditHyperlinks-title-insert-100 p5 PR status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=3072 secs=5.218
+soc-redditHyperlinks-title-insert-100 p5 M5 status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=98300864 secs=7.334
+soc-redditHyperlinks-title-insert-100 p5 WT status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=751667736 secs=10.947
+soc-redditHyperlinks-title-insert-100 p5 R2 status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=3072 secs=5.773
+soc-redditHyperlinks-title-insert-100 p5 PR status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=3072 secs=5.219
+soc-redditHyperlinks-title-insert-100 p5 R2 status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=3072 secs=5.769
+soc-redditHyperlinks-title-insert-100 p5 PR status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=3072 secs=5.221
+soc-redditHyperlinks-title-insert-100 p5 M5 status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=98300864 secs=7.381
+soc-redditHyperlinks-title-insert-100 p5 WT status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=751667736 secs=10.974
+soc-redditHyperlinks-title-insert-100 p5 M5 status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=98300864 secs=7.301
+soc-redditHyperlinks-title-insert-100 p5 WT status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=751667736 secs=10.970
+soc-redditHyperlinks-title-insert-100 p5 R2 status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=3072 secs=5.772
+soc-redditHyperlinks-title-insert-100 p5 PR status=OK done=5720/5720 net=220151 ops=0 t=30987019244 table=3072 secs=5.218
+soc-redditHyperlinks-title-insert-100 p3 final 1329278 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+soc-redditHyperlinks-title-insert-100 p5 final 30987019244 ops A5.t1:0(3375/5720) M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck soc-redditHyperlinks-title-insert-100-p5: 22 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 soc-redditHyperlinks-title insert 100 22:39:52
+soc-wiki-elec-expiry-1000 p5 PR status=OK done=215/215 net=207198 ops=0 t=0 table=3072 secs=0.081
+soc-wiki-elec-expiry-1000 p5 WT status=OK done=215/215 net=207198 ops=0 t=0 table=2127668 secs=0.239
+soc-wiki-elec-expiry-1000 p5 WJ status=OK done=215/215 net=207198 ops=0 t=0 table=1572864 secs=0.471
+soc-wiki-elec-expiry-1000 p5 M5 status=OK done=215/215 net=207198 ops=0 t=0 table=1682008 secs=0.250
+soc-wiki-elec-expiry-1000 p5 A5 status=OK done=215/215 net=207198 ops=0 t=0 table=0 secs=0.098
+soc-wiki-elec-expiry-1000 p5 R2 status=OK done=215/215 net=207198 ops=0 t=0 table=3072 secs=0.170
+soc-wiki-elec-expiry-1000 p5 M5 status=OK done=215/215 net=207198 ops=0 t=0 table=1682008 secs=0.251
+soc-wiki-elec-expiry-1000 p5 WT status=OK done=215/215 net=207198 ops=0 t=0 table=2127668 secs=0.238
+soc-wiki-elec-expiry-1000 p5 R2 status=OK done=215/215 net=207198 ops=0 t=0 table=3072 secs=0.170
+soc-wiki-elec-expiry-1000 p5 A5 status=OK done=215/215 net=207198 ops=0 t=0 table=0 secs=0.098
+soc-wiki-elec-expiry-1000 p5 PR status=OK done=215/215 net=207198 ops=0 t=0 table=3072 secs=0.081
+soc-wiki-elec-expiry-1000 p5 M5 status=OK done=215/215 net=207198 ops=0 t=0 table=1682008 secs=0.251
+soc-wiki-elec-expiry-1000 p5 WT status=OK done=215/215 net=207198 ops=0 t=0 table=2127668 secs=0.238
+soc-wiki-elec-expiry-1000 p5 R2 status=OK done=215/215 net=207198 ops=0 t=0 table=3072 secs=0.170
+soc-wiki-elec-expiry-1000 p5 A5 status=OK done=215/215 net=207198 ops=0 t=0 table=0 secs=0.097
+soc-wiki-elec-expiry-1000 p5 PR status=OK done=215/215 net=207198 ops=0 t=0 table=3072 secs=0.082
+soc-wiki-elec-expiry-1000 p5 R2 status=OK done=215/215 net=207198 ops=0 t=0 table=3072 secs=0.170
+soc-wiki-elec-expiry-1000 p5 A5 status=OK done=215/215 net=207198 ops=0 t=0 table=0 secs=0.098
+soc-wiki-elec-expiry-1000 p5 PR status=OK done=215/215 net=207198 ops=0 t=0 table=3072 secs=0.081
+soc-wiki-elec-expiry-1000 p5 M5 status=OK done=215/215 net=207198 ops=0 t=0 table=1682008 secs=0.251
+soc-wiki-elec-expiry-1000 p5 WT status=OK done=215/215 net=207198 ops=0 t=0 table=2127668 secs=0.239
+soc-wiki-elec-expiry-1000 p5 M5 status=OK done=215/215 net=207198 ops=0 t=0 table=1682008 secs=0.250
+soc-wiki-elec-expiry-1000 p5 WT status=OK done=215/215 net=207198 ops=0 t=0 table=2127668 secs=0.238
+soc-wiki-elec-expiry-1000 p5 R2 status=OK done=215/215 net=207198 ops=0 t=0 table=3072 secs=0.169
+soc-wiki-elec-expiry-1000 p5 A5 status=OK done=215/215 net=207198 ops=0 t=0 table=0 secs=0.098
+soc-wiki-elec-expiry-1000 p5 PR status=OK done=215/215 net=207198 ops=0 t=0 table=3072 secs=0.081
+soc-wiki-elec-expiry-1000 p3 final 0 ops M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+soc-wiki-elec-expiry-1000 p5 final 0 ops A5.t1:0 A5.t2:0 A5.t3:0 A5.t4:0 A5.t5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck soc-wiki-elec-expiry-1000-p5: 26 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 soc-wiki-elec expiry 1000 22:39:59
+soc-wiki-elec-expiry-100 p5 PR status=OK done=2141/2141 net=212040 ops=0 t=0 table=3072 secs=0.123
+soc-wiki-elec-expiry-100 p5 WT status=OK done=2141/2141 net=212040 ops=0 t=0 table=2154636 secs=0.249
+soc-wiki-elec-expiry-100 p5 WJ status=OK done=2141/2141 net=212040 ops=0 t=0 table=1572864 secs=0.538
+soc-wiki-elec-expiry-100 p5 M5 status=OK done=2141/2141 net=212040 ops=0 t=0 table=1742672 secs=0.262
+soc-wiki-elec-expiry-100 p5 A5 status=OK done=2141/2141 net=212040 ops=0 t=0 table=0 secs=0.711
+soc-wiki-elec-expiry-100 p5 R2 status=OK done=2141/2141 net=212040 ops=0 t=0 table=3072 secs=0.197
+soc-wiki-elec-expiry-100 p5 WJ status=OK done=2141/2141 net=212040 ops=0 t=0 table=1572864 secs=0.539
+soc-wiki-elec-expiry-100 p5 M5 status=OK done=2141/2141 net=212040 ops=0 t=0 table=1742672 secs=0.263
+soc-wiki-elec-expiry-100 p5 WT status=OK done=2141/2141 net=212040 ops=0 t=0 table=2154636 secs=0.249
+soc-wiki-elec-expiry-100 p5 R2 status=OK done=2141/2141 net=212040 ops=0 t=0 table=3072 secs=0.198
+soc-wiki-elec-expiry-100 p5 PR status=OK done=2141/2141 net=212040 ops=0 t=0 table=3072 secs=0.123
+soc-wiki-elec-expiry-100 p5 WJ status=OK done=2141/2141 net=212040 ops=0 t=0 table=1572864 secs=0.537
+soc-wiki-elec-expiry-100 p5 M5 status=OK done=2141/2141 net=212040 ops=0 t=0 table=1742672 secs=0.263
+soc-wiki-elec-expiry-100 p5 WT status=OK done=2141/2141 net=212040 ops=0 t=0 table=2154636 secs=0.250
+soc-wiki-elec-expiry-100 p5 R2 status=OK done=2141/2141 net=212040 ops=0 t=0 table=3072 secs=0.196
+soc-wiki-elec-expiry-100 p5 PR status=OK done=2141/2141 net=212040 ops=0 t=0 table=3072 secs=0.123
+soc-wiki-elec-expiry-100 p5 R2 status=OK done=2141/2141 net=212040 ops=0 t=0 table=3072 secs=0.197
+soc-wiki-elec-expiry-100 p5 PR status=OK done=2141/2141 net=212040 ops=0 t=0 table=3072 secs=0.123
+soc-wiki-elec-expiry-100 p5 WJ status=OK done=2141/2141 net=212040 ops=0 t=0 table=1572864 secs=0.538
+soc-wiki-elec-expiry-100 p5 M5 status=OK done=2141/2141 net=212040 ops=0 t=0 table=1742672 secs=0.262
+soc-wiki-elec-expiry-100 p5 WT status=OK done=2141/2141 net=212040 ops=0 t=0 table=2154636 secs=0.249
+soc-wiki-elec-expiry-100 p5 M5 status=OK done=2141/2141 net=212040 ops=0 t=0 table=1742672 secs=0.263
+soc-wiki-elec-expiry-100 p5 WT status=OK done=2141/2141 net=212040 ops=0 t=0 table=2154636 secs=0.250
+soc-wiki-elec-expiry-100 p5 R2 status=OK done=2141/2141 net=212040 ops=0 t=0 table=3072 secs=0.197
+soc-wiki-elec-expiry-100 p5 PR status=OK done=2141/2141 net=212040 ops=0 t=0 table=3072 secs=0.123
+soc-wiki-elec-expiry-100 p5 WJ status=OK done=2141/2141 net=212040 ops=0 t=0 table=1572864 secs=0.537
+soc-wiki-elec-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+soc-wiki-elec-expiry-100 p5 final 0 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WJ.t2:0 WJ.t3:0 WJ.t4:0 WJ.t5:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck soc-wiki-elec-expiry-100-p5: 26 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 soc-wiki-elec expiry 100 22:40:08
+soc-wiki-elec-insert-1000 p5 PR status=OK done=108/108 net=100753 ops=0 t=5259386933 table=3072 secs=0.505
+soc-wiki-elec-insert-1000 p5 WT status=OK done=108/108 net=100753 ops=0 t=5259386933 table=58136056 secs=0.981
+soc-wiki-elec-insert-1000 p5 WJ status=OK done=108/108 net=100753 ops=0 t=5259386933 table=100663296 secs=8.240
+soc-wiki-elec-insert-1000 p5 M5 status=OK done=108/108 net=100753 ops=0 t=5259386933 table=41486832 secs=1.160
+soc-wiki-elec-insert-1000 p5 A5 status=OK done=108/108 net=100753 ops=0 t=5259386933 table=0 secs=13.338
+soc-wiki-elec-insert-1000 p5 R2 status=OK done=108/108 net=100753 ops=0 t=5259386933 table=3072 secs=0.826
+soc-wiki-elec-insert-1000 p5 M5 status=OK done=108/108 net=100753 ops=0 t=5259386933 table=41486832 secs=1.158
+soc-wiki-elec-insert-1000 p5 WT status=OK done=108/108 net=100753 ops=0 t=5259386933 table=58136056 secs=0.977
+soc-wiki-elec-insert-1000 p5 R2 status=OK done=108/108 net=100753 ops=0 t=5259386933 table=3072 secs=0.827
+soc-wiki-elec-insert-1000 p5 PR status=OK done=108/108 net=100753 ops=0 t=5259386933 table=3072 secs=0.507
+soc-wiki-elec-insert-1000 p5 M5 status=OK done=108/108 net=100753 ops=0 t=5259386933 table=41486832 secs=1.155
+soc-wiki-elec-insert-1000 p5 WT status=OK done=108/108 net=100753 ops=0 t=5259386933 table=58136056 secs=0.978
+soc-wiki-elec-insert-1000 p5 R2 status=OK done=108/108 net=100753 ops=0 t=5259386933 table=3072 secs=0.826
+soc-wiki-elec-insert-1000 p5 PR status=OK done=108/108 net=100753 ops=0 t=5259386933 table=3072 secs=0.505
+soc-wiki-elec-insert-1000 p5 R2 status=OK done=108/108 net=100753 ops=0 t=5259386933 table=3072 secs=0.826
+soc-wiki-elec-insert-1000 p5 PR status=OK done=108/108 net=100753 ops=0 t=5259386933 table=3072 secs=0.504
+soc-wiki-elec-insert-1000 p5 M5 status=OK done=108/108 net=100753 ops=0 t=5259386933 table=41486832 secs=1.157
+soc-wiki-elec-insert-1000 p5 WT status=OK done=108/108 net=100753 ops=0 t=5259386933 table=58136056 secs=0.978
+soc-wiki-elec-insert-1000 p5 M5 status=OK done=108/108 net=100753 ops=0 t=5259386933 table=41486832 secs=1.165
+soc-wiki-elec-insert-1000 p5 WT status=OK done=108/108 net=100753 ops=0 t=5259386933 table=58136056 secs=0.978
+soc-wiki-elec-insert-1000 p5 R2 status=OK done=108/108 net=100753 ops=0 t=5259386933 table=3072 secs=0.828
+soc-wiki-elec-insert-1000 p5 PR status=OK done=108/108 net=100753 ops=0 t=5259386933 table=3072 secs=0.504
+soc-wiki-elec-insert-1000 p3 final 608350 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+soc-wiki-elec-insert-1000 p5 final 5259386933 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck soc-wiki-elec-insert-1000-p5: 22 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 soc-wiki-elec insert 1000 22:40:49
+soc-wiki-elec-insert-100 p5 PR status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=3072 secs=0.550
+soc-wiki-elec-insert-100 p5 WT status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=57946744 secs=0.942
+soc-wiki-elec-insert-100 p5 WJ status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=100663296 secs=7.919
+soc-wiki-elec-insert-100 p5 M5 status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=41550384 secs=1.125
+soc-wiki-elec-insert-100 p5 A5 status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=0 secs=130.589
+soc-wiki-elec-insert-100 p5 R2 status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=3072 secs=0.837
+soc-wiki-elec-insert-100 p5 M5 status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=41550384 secs=1.127
+soc-wiki-elec-insert-100 p5 WT status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=57946744 secs=0.945
+soc-wiki-elec-insert-100 p5 R2 status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=3072 secs=0.837
+soc-wiki-elec-insert-100 p5 PR status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=3072 secs=0.549
+soc-wiki-elec-insert-100 p5 M5 status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=41550384 secs=1.132
+soc-wiki-elec-insert-100 p5 WT status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=57946744 secs=0.938
+soc-wiki-elec-insert-100 p5 R2 status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=3072 secs=0.837
+soc-wiki-elec-insert-100 p5 PR status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=3072 secs=0.550
+soc-wiki-elec-insert-100 p5 R2 status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=3072 secs=0.838
+soc-wiki-elec-insert-100 p5 PR status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=3072 secs=0.550
+soc-wiki-elec-insert-100 p5 M5 status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=41550384 secs=1.124
+soc-wiki-elec-insert-100 p5 WT status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=57946744 secs=0.945
+soc-wiki-elec-insert-100 p5 M5 status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=41550384 secs=1.127
+soc-wiki-elec-insert-100 p5 WT status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=57946744 secs=0.941
+soc-wiki-elec-insert-100 p5 R2 status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=3072 secs=0.838
+soc-wiki-elec-insert-100 p5 PR status=OK done=1071/1071 net=100753 ops=0 t=5259386933 table=3072 secs=0.548
+soc-wiki-elec-insert-100 p3 final 608350 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+soc-wiki-elec-insert-100 p5 final 5259386933 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck soc-wiki-elec-insert-100-p5: 22 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 soc-wiki-elec insert 100 22:43:26
+tech-as-topology-expiry-1000 p5 PR status=OK done=343/343 net=219686 ops=0 t=0 table=3072 secs=0.895
+tech-as-topology-expiry-1000 p5 WT status=OK done=343/343 net=219686 ops=0 t=0 table=366334720 secs=5.686
+tech-as-topology-expiry-1000 p5 WJ status=OK done=343/343 net=219686 ops=0 t=0 table=402653184 secs=30.114
+tech-as-topology-expiry-1000 p5 M5 status=OK done=343/343 net=219686 ops=0 t=0 table=37830196 secs=2.942
+tech-as-topology-expiry-1000 p5 A5 status=OK done=343/343 net=219686 ops=0 t=0 table=0 secs=12.291
+tech-as-topology-expiry-1000 p5 R2 status=OK done=343/343 net=219686 ops=0 t=0 table=3072 secs=2.373
+tech-as-topology-expiry-1000 p5 M5 status=OK done=343/343 net=219686 ops=0 t=0 table=37830196 secs=2.930
+tech-as-topology-expiry-1000 p5 R2 status=OK done=343/343 net=219686 ops=0 t=0 table=3072 secs=2.330
+tech-as-topology-expiry-1000 p5 PR status=OK done=343/343 net=219686 ops=0 t=0 table=3072 secs=0.896
+tech-as-topology-expiry-1000 p5 M5 status=OK done=343/343 net=219686 ops=0 t=0 table=37830196 secs=2.930
+tech-as-topology-expiry-1000 p5 R2 status=OK done=343/343 net=219686 ops=0 t=0 table=3072 secs=2.375
+tech-as-topology-expiry-1000 p5 PR status=OK done=343/343 net=219686 ops=0 t=0 table=3072 secs=0.897
+tech-as-topology-expiry-1000 p5 R2 status=OK done=343/343 net=219686 ops=0 t=0 table=3072 secs=2.329
+tech-as-topology-expiry-1000 p5 PR status=OK done=343/343 net=219686 ops=0 t=0 table=3072 secs=0.896
+tech-as-topology-expiry-1000 p5 M5 status=OK done=343/343 net=219686 ops=0 t=0 table=37830196 secs=2.934
+tech-as-topology-expiry-1000 p5 M5 status=OK done=343/343 net=219686 ops=0 t=0 table=37830196 secs=2.927
+tech-as-topology-expiry-1000 p5 R2 status=OK done=343/343 net=219686 ops=0 t=0 table=3072 secs=2.334
+tech-as-topology-expiry-1000 p5 PR status=OK done=343/343 net=219686 ops=0 t=0 table=3072 secs=0.894
+tech-as-topology-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tech-as-topology-expiry-1000 p5 final 0 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0
+tcheck tech-as-topology-expiry-1000-p5: 18 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 tech-as-topology expiry 1000 22:44:46
+tech-as-topology-expiry-100 p5 PR status=OK done=3429/3429 net=219726 ops=0 t=0 table=3072 secs=1.506
+tech-as-topology-expiry-100 p5 WT status=OK done=3429/3429 net=219726 ops=0 t=0 table=366573244 secs=5.645
+tech-as-topology-expiry-100 p5 WJ status=OK done=3429/3429 net=219726 ops=0 t=0 table=402653184 secs=30.174
+tech-as-topology-expiry-100 p5 M5 status=OK done=3429/3429 net=219726 ops=0 t=0 table=37881744 secs=2.937
+tech-as-topology-expiry-100 p5 A5 status=OK done=3429/3429 net=219726 ops=0 t=0 table=0 secs=119.765
+tech-as-topology-expiry-100 p5 R2 status=OK done=3429/3429 net=219726 ops=0 t=0 table=3072 secs=2.328
+tech-as-topology-expiry-100 p5 M5 status=OK done=3429/3429 net=219726 ops=0 t=0 table=37881744 secs=2.942
+tech-as-topology-expiry-100 p5 WT status=OK done=3429/3429 net=219726 ops=0 t=0 table=366573244 secs=5.675
+tech-as-topology-expiry-100 p5 R2 status=OK done=3429/3429 net=219726 ops=0 t=0 table=3072 secs=2.326
+tech-as-topology-expiry-100 p5 PR status=OK done=3429/3429 net=219726 ops=0 t=0 table=3072 secs=1.505
+tech-as-topology-expiry-100 p5 M5 status=OK done=3429/3429 net=219726 ops=0 t=0 table=37881744 secs=2.942
+tech-as-topology-expiry-100 p5 WT status=OK done=3429/3429 net=219726 ops=0 t=0 table=366573244 secs=5.662
+tech-as-topology-expiry-100 p5 R2 status=OK done=3429/3429 net=219726 ops=0 t=0 table=3072 secs=2.335
+tech-as-topology-expiry-100 p5 PR status=OK done=3429/3429 net=219726 ops=0 t=0 table=3072 secs=1.509
+tech-as-topology-expiry-100 p5 R2 status=OK done=3429/3429 net=219726 ops=0 t=0 table=3072 secs=2.333
+tech-as-topology-expiry-100 p5 PR status=OK done=3429/3429 net=219726 ops=0 t=0 table=3072 secs=1.506
+tech-as-topology-expiry-100 p5 M5 status=OK done=3429/3429 net=219726 ops=0 t=0 table=37881744 secs=2.927
+tech-as-topology-expiry-100 p5 WT status=OK done=3429/3429 net=219726 ops=0 t=0 table=366573244 secs=5.682
+tech-as-topology-expiry-100 p5 M5 status=OK done=3429/3429 net=219726 ops=0 t=0 table=37881744 secs=2.934
+tech-as-topology-expiry-100 p5 WT status=OK done=3429/3429 net=219726 ops=0 t=0 table=366573244 secs=5.678
+tech-as-topology-expiry-100 p5 R2 status=OK done=3429/3429 net=219726 ops=0 t=0 table=3072 secs=2.325
+tech-as-topology-expiry-100 p5 PR status=OK done=3429/3429 net=219726 ops=0 t=0 table=3072 secs=1.505
+tech-as-topology-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tech-as-topology-expiry-100 p5 final 0 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck tech-as-topology-expiry-100-p5: 22 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 tech-as-topology expiry 100 22:48:20
+tech-as-topology-insert-1000 p5 PR status=OK done=172/172 net=107720 ops=0 t=7540417666 table=3072 secs=0.526
+tech-as-topology-insert-1000 p5 WT status=OK done=172/172 net=107720 ops=0 t=7540417666 table=376279780 secs=2.021
+tech-as-topology-insert-1000 p5 WJ status=OK done=172/172 net=107720 ops=0 t=7540417666 table=402653184 secs=11.329
+tech-as-topology-insert-1000 p5 M5 status=OK done=172/172 net=107720 ops=0 t=7540417666 table=38946732 secs=1.329
+tech-as-topology-insert-1000 p5 A5 status=OK done=172/172 net=107720 ops=0 t=7540417666 table=0 secs=6.958
+tech-as-topology-insert-1000 p5 R2 status=OK done=172/172 net=107720 ops=0 t=7540417666 table=3072 secs=1.376
+tech-as-topology-insert-1000 p5 M5 status=OK done=172/172 net=107720 ops=0 t=7540417666 table=38946732 secs=1.324
+tech-as-topology-insert-1000 p5 WT status=OK done=172/172 net=107720 ops=0 t=7540417666 table=376279780 secs=2.026
+tech-as-topology-insert-1000 p5 R2 status=OK done=172/172 net=107720 ops=0 t=7540417666 table=3072 secs=1.377
+tech-as-topology-insert-1000 p5 PR status=OK done=172/172 net=107720 ops=0 t=7540417666 table=3072 secs=0.527
+tech-as-topology-insert-1000 p5 M5 status=OK done=172/172 net=107720 ops=0 t=7540417666 table=38946732 secs=1.326
+tech-as-topology-insert-1000 p5 WT status=OK done=172/172 net=107720 ops=0 t=7540417666 table=376279780 secs=2.025
+tech-as-topology-insert-1000 p5 R2 status=OK done=172/172 net=107720 ops=0 t=7540417666 table=3072 secs=1.376
+tech-as-topology-insert-1000 p5 PR status=OK done=172/172 net=107720 ops=0 t=7540417666 table=3072 secs=0.526
+tech-as-topology-insert-1000 p5 R2 status=OK done=172/172 net=107720 ops=0 t=7540417666 table=3072 secs=1.375
+tech-as-topology-insert-1000 p5 PR status=OK done=172/172 net=107720 ops=0 t=7540417666 table=3072 secs=0.529
+tech-as-topology-insert-1000 p5 M5 status=OK done=172/172 net=107720 ops=0 t=7540417666 table=38946732 secs=1.323
+tech-as-topology-insert-1000 p5 WT status=OK done=172/172 net=107720 ops=0 t=7540417666 table=376279780 secs=2.028
+tech-as-topology-insert-1000 p5 M5 status=OK done=172/172 net=107720 ops=0 t=7540417666 table=38946732 secs=1.327
+tech-as-topology-insert-1000 p5 WT status=OK done=172/172 net=107720 ops=0 t=7540417666 table=376279780 secs=2.027
+tech-as-topology-insert-1000 p5 R2 status=OK done=172/172 net=107720 ops=0 t=7540417666 table=3072 secs=1.377
+tech-as-topology-insert-1000 p5 PR status=OK done=172/172 net=107720 ops=0 t=7540417666 table=3072 secs=0.528
+tech-as-topology-insert-1000 p3 final 554749 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tech-as-topology-insert-1000 p5 final 7540417666 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck tech-as-topology-insert-1000-p5: 22 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 tech-as-topology insert 1000 22:49:06
+tech-as-topology-insert-100 p5 PR status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=3072 secs=0.859
+tech-as-topology-insert-100 p5 WT status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=376268932 secs=2.015
+tech-as-topology-insert-100 p5 WJ status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=402653184 secs=11.243
+tech-as-topology-insert-100 p5 M5 status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=38916428 secs=1.322
+tech-as-topology-insert-100 p5 A5 status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=0 secs=66.929
+tech-as-topology-insert-100 p5 R2 status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=3072 secs=1.378
+tech-as-topology-insert-100 p5 M5 status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=38916428 secs=1.319
+tech-as-topology-insert-100 p5 WT status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=376268932 secs=2.015
+tech-as-topology-insert-100 p5 R2 status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=3072 secs=1.377
+tech-as-topology-insert-100 p5 PR status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=3072 secs=0.863
+tech-as-topology-insert-100 p5 M5 status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=38916428 secs=1.325
+tech-as-topology-insert-100 p5 WT status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=376268932 secs=2.019
+tech-as-topology-insert-100 p5 R2 status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=3072 secs=1.376
+tech-as-topology-insert-100 p5 PR status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=3072 secs=0.861
+tech-as-topology-insert-100 p5 R2 status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=3072 secs=1.375
+tech-as-topology-insert-100 p5 PR status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=3072 secs=0.866
+tech-as-topology-insert-100 p5 M5 status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=38916428 secs=1.328
+tech-as-topology-insert-100 p5 WT status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=376268932 secs=2.016
+tech-as-topology-insert-100 p5 M5 status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=38916428 secs=1.323
+tech-as-topology-insert-100 p5 WT status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=376268932 secs=2.018
+tech-as-topology-insert-100 p5 R2 status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=3072 secs=1.380
+tech-as-topology-insert-100 p5 PR status=OK done=1715/1715 net=107720 ops=0 t=7540417666 table=3072 secs=0.858
+tech-as-topology-insert-100 p3 final 554749 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+tech-as-topology-insert-100 p5 final 7540417666 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck tech-as-topology-insert-100-p5: 22 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 tech-as-topology insert 100 22:50:54
+nlwiki-real-1000 p5 PR status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=3072 secs=25.387
+nlwiki-real-1000 p5 WT status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=4181807388 secs=93.602
+nlwiki-real-1000 p5 WJ status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=6442450944 secs=685.199
+nlwiki-real-1000 p5 M5 status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=586249836 secs=64.494
+nlwiki-real-1000 p5 A5 status=TIME done=937/2000 net=816170 ops=0 t=4922180287 table=0 secs=300.038
+nlwiki-real-1000 p5 R2 status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=3072 secs=39.561
+nlwiki-real-1000 p5 M5 status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=586249836 secs=64.358
+nlwiki-real-1000 p5 WT status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=4181807388 secs=93.585
+nlwiki-real-1000 p5 R2 status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=3072 secs=39.609
+nlwiki-real-1000 p5 PR status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=3072 secs=25.415
+nlwiki-real-1000 p5 M5 status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=586249836 secs=64.402
+nlwiki-real-1000 p5 WT status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=4181807388 secs=93.535
+nlwiki-real-1000 p5 R2 status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=3072 secs=39.574
+nlwiki-real-1000 p5 PR status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=3072 secs=25.366
+nlwiki-real-1000 p5 R2 status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=3072 secs=39.568
+nlwiki-real-1000 p5 PR status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=3072 secs=25.358
+nlwiki-real-1000 p5 M5 status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=586249836 secs=64.408
+nlwiki-real-1000 p5 WT status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=4181807388 secs=93.608
+nlwiki-real-1000 p5 M5 status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=586249836 secs=64.553
+nlwiki-real-1000 p5 WT status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=4181807388 secs=93.510
+nlwiki-real-1000 p5 R2 status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=3072 secs=39.529
+nlwiki-real-1000 p5 PR status=OK done=2000/2000 net=1749936 ops=0 t=19339681540 table=3072 secs=25.311
+nlwiki-real-1000 p3 final 1616426 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+nlwiki-real-1000 p5 final 19339681540 ops A5.t1:0(937/2000) M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck nlwiki-real-1000-p5: 22 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 nlwiki real 1000 23:25:58
+nlwiki-real-100 p5 PR status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=3072 secs=30.578
+nlwiki-real-100 p5 WT status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=4194360880 secs=117.169
+nlwiki-real-100 p5 WJ status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=6442450944 secs=913.108
+nlwiki-real-100 p5 M5 status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=587530788 secs=75.684
+nlwiki-real-100 p5 A5 status=TIME done=3853/20000 net=363432 ops=0 t=1011377386 table=0 secs=300.052
+nlwiki-real-100 p5 R2 status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=3072 secs=44.362
+nlwiki-real-100 p5 M5 status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=587530788 secs=75.808
+nlwiki-real-100 p5 WT status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=4194360880 secs=117.236
+nlwiki-real-100 p5 R2 status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=3072 secs=44.238
+nlwiki-real-100 p5 PR status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=3072 secs=30.465
+nlwiki-real-100 p5 M5 status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=587530788 secs=75.849
+nlwiki-real-100 p5 WT status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=4194360880 secs=117.177
+nlwiki-real-100 p5 R2 status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=3072 secs=44.168
+nlwiki-real-100 p5 PR status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=3072 secs=30.490
+nlwiki-real-100 p5 R2 status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=3072 secs=44.829
+nlwiki-real-100 p5 PR status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=3072 secs=30.461
+nlwiki-real-100 p5 M5 status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=587530788 secs=75.684
+nlwiki-real-100 p5 WT status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=4194360880 secs=117.374
+nlwiki-real-100 p5 M5 status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=587530788 secs=76.510
+nlwiki-real-100 p5 WT status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=4194360880 secs=117.884
+nlwiki-real-100 p5 R2 status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=3072 secs=44.368
+nlwiki-real-100 p5 PR status=OK done=20000/20000 net=1886774 ops=0 t=19339681540 table=3072 secs=30.537
+nlwiki-real-100 p3 final 1616426 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+nlwiki-real-100 p5 final 19339681540 ops A5.t1:0(3853/20000) M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck nlwiki-real-100-p5: 22 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 nlwiki real 100 00:08:36
+plwiki-real-1000 p5 PR status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=3072 secs=35.195
+plwiki-real-1000 p5 WT status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=7359671568 secs=112.112
+plwiki-real-1000 p5 WJ status=CAP done=1960/2000 net=1783998 ops=0 t=52706428740 table=6442450944 secs=774.097
+plwiki-real-1000 p5 M5 status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=588387524 secs=86.718
+plwiki-real-1000 p5 A5 status=TIME done=806/2000 net=756062 ops=0 t=10938718761 table=0 secs=300.061
+plwiki-real-1000 p5 R2 status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=3072 secs=59.304
+plwiki-real-1000 p5 M5 status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=588387524 secs=86.678
+plwiki-real-1000 p5 WT status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=7359671568 secs=112.030
+plwiki-real-1000 p5 R2 status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=3072 secs=59.144
+plwiki-real-1000 p5 PR status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=3072 secs=35.177
+plwiki-real-1000 p5 M5 status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=588387524 secs=86.681
+plwiki-real-1000 p5 WT status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=7359671568 secs=111.932
+plwiki-real-1000 p5 R2 status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=3072 secs=59.157
+plwiki-real-1000 p5 PR status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=3072 secs=35.215
+plwiki-real-1000 p5 R2 status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=3072 secs=59.126
+plwiki-real-1000 p5 PR status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=3072 secs=35.249
+plwiki-real-1000 p5 M5 status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=588387524 secs=86.549
+plwiki-real-1000 p5 WT status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=7359671568 secs=112.066
+plwiki-real-1000 p5 M5 status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=588387524 secs=86.636
+plwiki-real-1000 p5 WT status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=7359671568 secs=112.025
+plwiki-real-1000 p5 R2 status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=3072 secs=59.252
+plwiki-real-1000 p5 PR status=OK done=2000/2000 net=1821576 ops=0 t=53980701384 table=3072 secs=35.207
+plwiki-real-1000 p3 final 3460789 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+plwiki-real-1000 p5 final 53980701384 ops A5.t1:0(806/2000) M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0(1959/2000) WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck plwiki-real-1000-p5: 22 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 plwiki real 1000 00:51:00
+plwiki-real-100 p5 PR status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=3072 secs=41.034
+plwiki-real-100 p5 WT status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=7364353320 secs=134.144
+plwiki-real-100 p5 WJ status=CAP done=19598/20000 net=1884084 ops=0 t=52700215114 table=6442450944 secs=960.290
+plwiki-real-100 p5 M5 status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=589452396 secs=98.086
+plwiki-real-100 p5 A5 status=TIME done=3476/20000 net=338638 ops=0 t=18694740280 table=0 secs=300.060
+plwiki-real-100 p5 R2 status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=3072 secs=63.223
+plwiki-real-100 p5 M5 status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=589452396 secs=98.169
+plwiki-real-100 p5 WT status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=7364353320 secs=134.313
+plwiki-real-100 p5 R2 status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=3072 secs=63.277
+plwiki-real-100 p5 PR status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=3072 secs=41.098
+plwiki-real-100 p5 M5 status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=589452396 secs=97.820
+plwiki-real-100 p5 WT status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=7364353320 secs=134.177
+plwiki-real-100 p5 R2 status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=3072 secs=63.226
+plwiki-real-100 p5 PR status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=3072 secs=41.022
+plwiki-real-100 p5 R2 status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=3072 secs=63.236
+plwiki-real-100 p5 PR status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=3072 secs=42.026
+plwiki-real-100 p5 M5 status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=589452396 secs=97.940
+plwiki-real-100 p5 WT status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=7364353320 secs=134.114
+plwiki-real-100 p5 M5 status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=589452396 secs=97.749
+plwiki-real-100 p5 WT status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=7364353320 secs=134.160
+plwiki-real-100 p5 R2 status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=3072 secs=63.157
+plwiki-real-100 p5 PR status=OK done=20000/20000 net=1923044 ops=0 t=53980701384 table=3072 secs=42.323
+plwiki-real-100 p3 final 3460789 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+plwiki-real-100 p5 final 53980701384 ops A5.t1:0(3476/20000) M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0(19597/20000) WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck plwiki-real-100-p5: 22 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 plwiki real 100 01:40:11
+simplewiki-real-1000 p5 PR status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=3072 secs=9.994
+simplewiki-real-1000 p5 WT status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=2822867764 secs=47.126
+simplewiki-real-1000 p5 WJ status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=3221225472 secs=363.779
+simplewiki-real-1000 p5 M5 status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=340906160 secs=30.570
+simplewiki-real-1000 p5 A5 status=TIME done=880/1559 net=595082 ops=0 t=3358602845 table=0 secs=300.064
+simplewiki-real-1000 p5 R2 status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=3072 secs=17.237
+simplewiki-real-1000 p5 M5 status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=340906160 secs=30.624
+simplewiki-real-1000 p5 WT status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=2822867764 secs=47.100
+simplewiki-real-1000 p5 R2 status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=3072 secs=17.213
+simplewiki-real-1000 p5 PR status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=3072 secs=10.572
+simplewiki-real-1000 p5 M5 status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=340906160 secs=30.551
+simplewiki-real-1000 p5 WT status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=2822867764 secs=47.084
+simplewiki-real-1000 p5 R2 status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=3072 secs=17.263
+simplewiki-real-1000 p5 PR status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=3072 secs=9.982
+simplewiki-real-1000 p5 R2 status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=3072 secs=18.124
+simplewiki-real-1000 p5 PR status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=3072 secs=9.987
+simplewiki-real-1000 p5 M5 status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=340906160 secs=30.681
+simplewiki-real-1000 p5 WT status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=2822867764 secs=47.192
+simplewiki-real-1000 p5 M5 status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=340906160 secs=30.682
+simplewiki-real-1000 p5 WT status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=2822867764 secs=47.130
+simplewiki-real-1000 p5 R2 status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=3072 secs=17.225
+simplewiki-real-1000 p5 PR status=OK done=1559/1559 net=991548 ops=0 t=12971659284 table=3072 secs=10.150
+simplewiki-real-1000 p3 final 1144661 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+simplewiki-real-1000 p5 final 12971659284 ops A5.t1:0(880/1559) M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+tcheck simplewiki-real-1000-p5: 22 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 simplewiki real 1000 02:00:04
+simplewiki-real-100 p5 PR status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=3072 secs=14.189
+simplewiki-real-100 p5 WT status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=2830634736 secs=97.731
+simplewiki-real-100 p5 WJ status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=3221225472 secs=955.220
+simplewiki-real-100 p5 M5 status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=341995120 secs=51.797
+simplewiki-real-100 p5 A5 status=TIME done=2482/15583 net=212600 ops=0 t=925583641 table=0 secs=300.054
+simplewiki-real-100 p5 R2 status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=3072 secs=24.331
+simplewiki-real-100 p5 M5 status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=341995120 secs=51.160
+simplewiki-real-100 p5 R2 status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=3072 secs=25.597
+simplewiki-real-100 p5 PR status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=3072 secs=14.121
+simplewiki-real-100 p5 M5 status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=341995120 secs=51.370
+simplewiki-real-100 p5 R2 status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=3072 secs=24.356
+simplewiki-real-100 p5 PR status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=3072 secs=14.131
+simplewiki-real-100 p5 R2 status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=3072 secs=24.358
+simplewiki-real-100 p5 PR status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=3072 secs=14.140
+simplewiki-real-100 p5 M5 status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=341995120 secs=51.230
+simplewiki-real-100 p5 M5 status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=341995120 secs=51.179
+simplewiki-real-100 p5 R2 status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=3072 secs=24.332
+simplewiki-real-100 p5 PR status=OK done=15583/15583 net=1241036 ops=0 t=12971659284 table=3072 secs=14.370
+simplewiki-real-100 p3 final 1144661 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+simplewiki-real-100 p5 final 12971659284 ops A5.t1:0(2482/15583) M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0
+tcheck simplewiki-real-100-p5: 18 timing runs against the count build, 0 differ or missing
+CELL-DONE p5 simplewiki real 100 02:30:10
+M1D07-DONE timing results/gate1-M1D07T D1 D2
+released the tower claim for research11
+M1D07C-RELEASED 02:30:10 exit 0
