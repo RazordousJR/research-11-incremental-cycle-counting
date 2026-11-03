@@ -1,0 +1,26 @@
+# 24 cells, 88 arm-cells, one core 2.33 h at the recorded P-core seconds; both cores with the E-core 1.0, 1.5 and 2.0 times slower: 4.66, 5.82, 6.99 h
+# stream variant cut data reference repeats margin arms
+soc-wiki-elec expiry 100 data/m1d07/derived/soc-wiki-elec.expiry.bin results/gate1-M1D07T 5 0.628 PR,R2,WT,M5
+soc-redditHyperlinks-body expiry 1000 data/m1d07/derived/soc-redditHyperlinks-body.expiry.bin results/gate1-M1D07T 5 0.691 PR,R2,WT,WJ,M5,A5
+sx-askubuntu expiry 1000 data/derived/sx-askubuntu.bin results/gate1-M1D04 5 0.592 PR,R2,WT,M5,A5
+soc-wiki-elec insert 100 data/m1d07/derived/soc-wiki-elec.insert.bin results/gate1-M1D07T 5 0.657 PR,R2,WT,M5
+soc-wiki-elec insert 1000 data/m1d07/derived/soc-wiki-elec.insert.bin results/gate1-M1D07T 5 0.614 PR,R2,WT,M5
+ia-enron-email-dynamic expiry 100 data/m1d07/derived/ia-enron-email-dynamic.expiry.bin results/gate1-M1D07T 5 0.577 PR,R2,WT,M5
+soc-redditHyperlinks-body insert 1000 data/m1d07/derived/soc-redditHyperlinks-body.insert.bin results/gate1-M1D07T 5 0.625 PR,R2,WT,M5
+sx-superuser expiry 1000 data/derived/sx-superuser.bin results/gate1-M1D04 5 0.616 PR,R2,WT,M5,A5
+tech-as-topology insert 100 data/m1d07/derived/tech-as-topology.insert.bin results/gate1-M1D07T 5 0.657 PR,R2,WT,M5
+tech-as-topology expiry 100 data/m1d07/derived/tech-as-topology.expiry.bin results/gate1-M1D07T 5 0.649 PR,R2,M5
+ia-enron-email-dynamic insert 100 data/m1d07/derived/ia-enron-email-dynamic.insert.bin results/gate1-M1D07T 5 0.571 PR,R2,M5
+soc-redditHyperlinks-title insert 1000 data/m1d07/derived/soc-redditHyperlinks-title.insert.bin results/gate1-M1D07T 5 0.633 PR,R2,WT,M5
+simplewiki real 100 data/m1d07/derived/simplewiki.real.bin results/gate1-M1D07T 5 0.591 PR,R2
+dewiki real 100 data/m1d07/derived/dewiki.real.bin results/gate1-M1D07T 5 0.710 PR,R2
+sx-askubuntu insert 100 data/derived/sx-askubuntu.ins.bin results/gate1-M1D04 5 0.708 PR,R2,WT,M5
+simplewiki real 1000 data/m1d07/derived/simplewiki.real.bin results/gate1-M1D07T 5 0.614 PR,R2,M5
+dewiki real 1000 data/m1d07/derived/dewiki.real.bin results/gate1-M1D07T 5 0.783 PR,R2,M5
+nlwiki real 1000 data/m1d07/derived/nlwiki.real.bin results/gate1-M1D07T 5 0.643 PR,R2,M5
+sx-superuser insert 100 data/derived/sx-superuser.ins.bin results/gate1-M1D04 5 0.678 PR,R2,WT,M5
+nlwiki real 100 data/m1d07/derived/nlwiki.real.bin results/gate1-M1D07T 5 0.692 PR,R2,M5
+frwiki real 100 data/m1d07/derived/frwiki.real.bin results/gate1-M1D07T 5 0.725 PR,R2,M5
+plwiki real 100 data/m1d07/derived/plwiki.real.bin results/gate1-M1D07T 5 0.670 PR,R2,M5
+frwiki real 1000 data/m1d07/derived/frwiki.real.bin results/gate1-M1D07T 5 0.665 PR,R2,WT,M5
+plwiki real 1000 data/m1d07/derived/plwiki.real.bin results/gate1-M1D07T 5 0.596 PR,R2,WT,M5
