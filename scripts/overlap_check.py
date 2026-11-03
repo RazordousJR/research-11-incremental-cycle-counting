@@ -87,7 +87,11 @@ def events_m1d07d(t0, t1):
         t += dt.timedelta(hours=1)
     # Research 12's one empty echo, a few minutes after 05:23:56 by ControlPC's reading of its plan file's write time; 05:23:56 to 05:34:00 is taken
     echo = dt.datetime(2026, 11, 4, 5, 23, 56)
-    return out + ([(echo, 604)] if t0 <= echo <= t1 else [])
+    # Research 1's short processes inside claim 2, as it reconstructed them for ControlPC, good to a few minutes, so each is widened: file reads, greps,
+    # a recursive grep over C:/Develop, schtasks, tower_check and two commits from 04:50 to 05:23:10; a commit at 05:46:14; tower_check at 05:59:57;
+    # a loop that grepped one claim file every 120 s from 06:00 to 06:33
+    r1 = [(dt.datetime(2026, 11, 4, 4, 50), 1990), (dt.datetime(2026, 11, 4, 5, 45, 14), 120), (dt.datetime(2026, 11, 4, 5, 59), 120), (dt.datetime(2026, 11, 4, 6, 0), 1980)]
+    return out + [(s, n) for s, n in [(echo, 604)] + r1 if t0 <= s <= t1]
 
 
 if sys.argv[1:] == ["M1D07D"]:

@@ -21,19 +21,20 @@ Labels: **real timestamps, real deletions** (KONECT), **real timestamps, synthet
 
 ## Background load
 
-Research 1's scheduled tasks and ControlPC's mail ran through both claims, as the PI chose (`log.md` 0054). Research 12 made one empty echo a few minutes after 05:23:56, inside claim 2, as ControlPC reported it. `scripts/overlap_check.py M1D07D` marks a repeat as overlapping when it touches any of these. The windows are guesses and are set wide: 90 s at :00, 300 s at 00:00 and 06:00, 30 s at :15, :30 and :45, 120 s from :05:30, and 05:23:56 to 05:34:00. Output: `overlap.txt`.
+Research 1's scheduled tasks and ControlPC's mail ran through both claims, as the PI chose (`log.md` 0054). Research 12 made one empty echo a few minutes after 05:23:56, inside claim 2, as ControlPC reported it. Research 1 ran short processes inside claim 2, as it reconstructed them for ControlPC: file reads, greps, a recursive grep over C:/Develop of perhaps a minute, schtasks, tower_check and git commits from about 04:50 to 05:23:10, commits at 05:46:14, tower_check at 05:59:57, and a loop grepping one claim file every 120 s from 06:00 to 06:33. `scripts/overlap_check.py M1D07D` marks a repeat as overlapping when it touches any of these. The windows are guesses and are set wide: 90 s at :00, 300 s at 00:00 and 06:00, 30 s at :15, :30 and :45, 120 s from :05:30, 05:23:56 to 05:34:00, and for Research 1 04:50:00 to 05:23:10, 05:45:14 and 05:59:00 for 120 s each, and 06:00 to 06:33. Output: `overlap.txt`.
 
 | Claim | Overlapping repeats, median against their arm's median | Clean repeats |
 |---|---|---|
 | 1 | 33, +0.13%, 1 over 3% | 1,037, +0.00%, 20 over 3% |
-| 2 | 87, +0.00%, 1 over 3% | 178, +0.00%, 9 over 3% |
+| 2 | 120, +0.00%, 4 over 3% | 145, +0.00%, 6 over 3% |
 
-Two passes have the best arm's fastest repeat inside a window. Every repeat of each falls between 06:00 and 06:06:
+Three passes have every repeat of the best arm inside a window:
 
-- ia-enron-email-dynamic insert 100, margin 0.571;
-- soc-redditHyperlinks-title expiry 1,000, margin 0.544.
+- ia-enron-email-dynamic insert 100, margin 0.571, between 06:00 and 06:06;
+- soc-redditHyperlinks-title expiry 1,000, margin 0.544, between 06:00 and 06:06;
+- itwiki real 1,000, margin 0.426, inside Research 1's 04:50 to 05:23 window.
 
-Load only adds time. So for either pass to be false, the background load would have had to slow R2 by 15% to 19% in every one of its five repeats, and overlapping repeats elsewhere run +0.00% to +0.13%. Both are kept as the rule scores them. Dropping them is shown below.
+Load only adds time. So for one of these passes to be false, the background load would have had to slow R2 in every one of its repeats: by 15% to 19% on the first two, and by 57% on itwiki. Overlapping repeats elsewhere run +0.00% to +0.13%. All three are kept as the rule scores them. Dropping the first two is shown below. The snapshot's two cells overlap too, and they are in no count.
 
 ## The reading, as fixed
 
