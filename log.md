@@ -609,3 +609,13 @@ ControlPC then reported the window as 10:31:05 to 10:57:01, released, with one R
 
 **A second window.** ControlPC reports Research 12's rebuild, tests and probe P5 beside this sweep from about 11:51 for up to 1.5 hours, four unpinned single-thread processes and 6 GB of commit, with RAM available at 13.4 GiB at 11:50. Marked as a neighbour window in the same way. The watch on the sweep's log now reports any arm stopped by memory at once, since an arm stopped by the system's memory rather than its own 16 GB cap would leave a cell for the wrong reason.
 ControlPC reported the second window as 11:51:17 to 13:04:03, released, with no RAM pause. Cells overlapping it are marked from their files' times; roughly, the p = 5 cells from nlwiki cut 1,000 to plwiki cut 100. Every memory stop in the sweep so far is an arm's own 16 GB cap or WJ's 6.44 GB table cap, at a peak resident of about 15.75 GB for the former, and none came from the machine.
+
+## 0050, 2026-11-03: M1D07C's first claim finished clean
+
+The chain ran 10:02:26 to 15:03:26, 5 h 01 min of the 8-hour line, `M1D07-DONE`, exit 0, claim released by the chain. No restart, no STOP, no RAM stop.
+
+**Exact.** The sweep's own check passed on every cell. A separate check after the run took every arm-cell's raw file: 62 cells, 308 arm-cells, 2,053,393 batch comparisons, 0 differ. The two p = 3 youtube expiry cells are among them and are not used (0048). The hashes in `results/gate1-M1D07/hashes.txt` still hold. Hard rule 1 is not touched.
+
+**Arms short of the stream,** all at their own limits: A5 on 16 arm-cells by its 300 s limit, T3 on 6 and WT on 4 by the 16 GB cap at a peak resident near 15.75 GB, and WJ on 6 by its 6.44 GB table cap. None came from the machine's memory, including those inside Research 12's two neighbour windows (0049).
+
+Operations and the timing plan come next, from this sweep alone, before any exclusive hour is asked for. The second claim, the two Network Repository files of 0048, waits on ControlPC's GO.
