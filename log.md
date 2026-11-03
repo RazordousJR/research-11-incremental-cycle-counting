@@ -572,3 +572,20 @@ The venue is the PI's decision. My recommendation: JGAA, unless this paper needs
 **Held out.** The PI has not yet answered reading M1D07-R1 (0044). `ia-reality-call` and `soc-wiki-elec` are the two files it changes, so `SKIP` holds both out of this claim: no stream of theirs is derived and no arm reads them until the PI decides, so the decision cannot follow their numbers. Both are small and fit in the second claim. The other three Network Repository files read the same under R1 as under step 6's intent, with the weight ignored.
 
 **Claim.** Taken 10:02:26, after every check: tower clear, RAM available 15 GiB, commit free 79 GiB, the 13 checksums, `count.exe` equal to M1D04's. The line is 18:02:26, plus at most one process. Release chained in the same background command. Output `results/gate1-M1D07/`.
+
+## 0047, 2026-11-03: the derived streams; soc-youtube-growth's prefix is one snapshot
+
+Derivation finished inside the claim with no drop and no RAM stop. From each stream's summary, structure only, no arm result:
+
+| Stream | Label | Events | Deletions | Note |
+|---|---|---:|---:|---|
+| simplewiki | real timestamps, real deletions | 1,558,278, whole | 27.8% | |
+| nlwiki, plwiki, itwiki, frwiki, dewiki | real timestamps, real deletions | 2,000,000 each, cut from 20 to 86 million lines | 15.8% to 20.7% | |
+| soc-redditHyperlinks-body, -title | real timestamps, synthetic expiry; insert-only | 573,122 and 1,143,854 expiry, whole | | |
+| tech-as-topology | real timestamps, synthetic expiry; insert-only | 342,806 expiry, whole | | |
+| ia-enron-email-dynamic | real timestamps, synthetic expiry; insert-only | 2,000,000 expiry of 2,269,980; 1,134,990 insert | | Dates from 1980, as 0044 noted |
+| soc-youtube-growth | see below | 2,000,000 of 24,447,548 and of 12,223,774 | none | **One time** |
+
+So the KONECT prefixes hold 16% to 28% real deletions, and 0042's worry that an early prefix would hold few was wrong: the hard case is there.
+
+**soc-youtube-growth.** Every one of its first 2,000,000 events carries the same time, 1165705200, 2006-12-10: the file opens with a snapshot of more than 2,000,000 edges, dated at once. So the prefix holds no expiry, and its expiry and insert streams are the same file byte for byte (`cmp`). Its cells are then a static graph inserted in file order, two copies of each, and the label "real timestamps" does not describe them. Hanauer et al.'s `2m` instance of it has the same property, since their lifetime also starts at that one time. Nothing has read its p = 5 cells yet. The sweep reaches them after the p = 5 cells of the four streams before it. **The PI's to decide**: keep one copy, labelled a static snapshot in file order, reported and never in a verdict; or drop the stream under step 6. Running both copies costs hours and adds nothing.
