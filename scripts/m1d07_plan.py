@@ -19,9 +19,11 @@ KONECT_A = {"simplewiki", "nlwiki", "plwiki"}
 KONECT_B = {"itwiki", "frwiki", "dewiki"}
 
 
+DATA = os.environ.get("DATA", "data/m1d07/derived")   # set only to dry-run on fixtures
+
+
 def events(s, v):
-    with open(f"data/m1d07/derived/{s}.{v}.bin.txt") as f:
-        return int(re.search(r" events=(\d+)", f.read()).group(1))
+    return os.path.getsize(f"{DATA}/{s}.{v}.bin") // 20
 
 
 def phase(s, v, p):

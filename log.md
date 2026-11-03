@@ -633,3 +633,16 @@ The second claim ran 15:04:28 to 15:08:02 on ControlPC's GO, `SKIP` holding yout
 **For the PI.** Exclusive hours for M1D07D. The protocol says the PI fixes how many phases run before D1, and none is dropped once a timing result is read.
 
 **A correction to this entry and to the README's first draft.** The second claim swept 16 cells, 8 at each pattern, not 8 as I first told ControlPC, and M1D07C holds 78 cells, 40 at p = 3 and 38 at p = 5, not 70. A check of every raw file after both claims: 388 arm-cells, 2,105,673 batch comparisons, 0 differ.
+
+## 0052, 2026-11-03: PI approves M1D07D's exclusive hours
+
+The PI, in this session: "Okeh aku approved cadangan ko. Follow the most best one", to "Approve up to 14 exclusive hours for M1D07D, in two claims of 7?".
+
+| Item | Decision |
+|---|---|
+| `--exclusive` hours for M1D07D | Up to 14, in two claims, `LINE_HOURS=7` each. Plan 8.55 to 9.40 hours |
+| Phases | All four, fixed now before D1: claim 1 runs D1 then D2, claim 2 runs D3 then D4. None is dropped once a timing result is read |
+| When | At night, in windows ControlPC chooses. ControlPC's GO is still needed for each |
+| First | A short timing dry run on fixtures, in an ordinary claim on ControlPC's GO |
+
+Research 1's scheduled tasks are to be paused for timing claims by ControlPC and the PI (0038). That is theirs to carry out, and `scripts/overlap_check.py` reads any overlap after each claim as before.
