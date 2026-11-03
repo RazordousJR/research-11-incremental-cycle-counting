@@ -604,3 +604,5 @@ With the expiry copy gone, the sweep's two p = 5 youtube expiry cells find no fi
 ## 0049, 2026-11-03: Research 12 beside M1D07C from about 10:31
 
 ControlPC reports, unchecked here, that Research 12 runs probe P4 beside this sweep from about 10:31 for up to an hour: four unpinned single-thread `r12_bench.exe` processes, 6 GB of commit, an ordinary claim. M1D07C is a count build, so its operations and counts do not move. Its seconds feed the estimate of exclusive hours, so every cell from 10:31 until ControlPC reports the release is marked in the M1D07C record as run beside a 4-worker neighbour, and the timing plan reads those seconds as high.
+
+ControlPC then reported the window as 10:31:05 to 10:57:01, released, with one R12 download process and a 3 s preparation step inside it from 10:43:41 to 10:45:24. Neighbour window: 10:31:05 to 10:57:01. In it ran the p = 5 cells from Enron's insert cut 100 to youtube insert cut 1,000.
