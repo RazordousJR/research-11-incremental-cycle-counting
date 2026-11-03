@@ -600,3 +600,7 @@ The PI, in this session: "Aku follow cadangan ko la senang. Proceed beb. Approve
 | 2 | soc-youtube-growth | One copy, the insert stream, labelled static snapshot, file order, reported and never in a verdict. The expiry copy moved to `data/m1d07/held/` at 10:28, while the sweep was on Enron's p = 5 cells and before any p = 5 youtube cell. Its two p = 3 cells had run and are kept, unused |
 
 With the expiry copy gone, the sweep's two p = 5 youtube expiry cells find no file, run no arm, and are recorded as not run. No result has been read in deciding either item: the p = 5 cells of the two NR files and of youtube had not run.
+
+## 0049, 2026-11-03: Research 12 beside M1D07C from about 10:31
+
+ControlPC reports, unchecked here, that Research 12 runs probe P4 beside this sweep from about 10:31 for up to an hour: four unpinned single-thread `r12_bench.exe` processes, 6 GB of commit, an ordinary claim. M1D07C is a count build, so its operations and counts do not move. Its seconds feed the estimate of exclusive hours, so every cell from 10:31 until ControlPC reports the release is marked in the M1D07C record as run beside a 4-worker neighbour, and the timing plan reads those seconds as high.
