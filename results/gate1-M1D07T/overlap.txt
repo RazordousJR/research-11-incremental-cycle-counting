@@ -1,0 +1,29 @@
+M1D07D claim 1: overlapping 33 repeats, median +0.13%, over 3% 1; clean 1037 repeats, median +0.00%, over 3% 20
+M1D07D claim 2: overlapping 87 repeats, median +0.00%, over 3% 1; clean 178 repeats, median +0.00%, over 3% 9
+M1D07D: 1448 timed processes, 0 outside both claims
+
+M1D07D p = 5 passes: does the best arm's fastest repeat overlap a known event?
+frwiki real 1000: best R2, fastest repeat 5 at 03:58:32 for 43.74 s, overlaps no; its repeats overlapping 0 of 5
+ia-enron-email-dynamic expiry 100: best R2, fastest repeat 1 at 05:51:48 for 0.95 s, overlaps no; its repeats overlapping 0 of 5
+ia-enron-email-dynamic expiry 1000: best R2, fastest repeat 4 at 05:51:06 for 0.88 s, overlaps no; its repeats overlapping 0 of 5
+ia-enron-email-dynamic insert 100: best R2, fastest repeat 3 at 06:03:20 for 2.23 s, overlaps yes; its repeats overlapping 5 of 5
+ia-enron-email-dynamic insert 1000: best R2, fastest repeat 1 at 05:56:16 for 2.21 s, overlaps no; its repeats overlapping 0 of 5
+ia-reality-call insert 1000: best R2, fastest repeat 1 at 22:21:14 for 0.00 s, overlaps no; its repeats overlapping 0 of 5
+itwiki real 100: best R2, fastest repeat 5 at 05:48:11 for 102.74 s, overlaps no; its repeats overlapping 1 of 5
+itwiki real 1000: best R2, fastest repeat 1 at 04:54:54 for 96.63 s, overlaps no; its repeats overlapping 1 of 5
+nlwiki real 1000: best R2, fastest repeat 5 at 23:24:52 for 39.53 s, overlaps no; its repeats overlapping 0 of 5
+plwiki real 1000: best R2, fastest repeat 4 at 00:41:13 for 59.13 s, overlaps no; its repeats overlapping 1 of 5
+simplewiki real 100: best R2, fastest repeat 1 at 02:23:43 for 24.33 s, overlaps no; its repeats overlapping 0 of 5
+simplewiki real 1000: best R2, fastest repeat 2 at 01:54:18 for 17.21 s, overlaps no; its repeats overlapping 0 of 5
+soc-redditHyperlinks-body insert 1000: best R2, fastest repeat 2 at 22:22:13 for 1.10 s, overlaps no; its repeats overlapping 0 of 5
+soc-redditHyperlinks-title expiry 1000: best R2, fastest repeat 2 at 06:04:03 for 0.76 s, overlaps yes; its repeats overlapping 5 of 5
+soc-redditHyperlinks-title insert 1000: best R2, fastest repeat 4 at 22:30:34 for 5.77 s, overlaps no; its repeats overlapping 2 of 5
+soc-wiki-elec expiry 100: best R2, fastest repeat 3 at 22:40:04 for 0.20 s, overlaps no; its repeats overlapping 0 of 5
+soc-wiki-elec insert 100: best R2, fastest repeat 1 at 22:43:10 for 0.84 s, overlaps no; its repeats overlapping 0 of 5
+soc-wiki-elec insert 1000: best R2, fastest repeat 1 at 22:40:33 for 0.83 s, overlaps no; its repeats overlapping 0 of 5
+soc-youtube-growth insert 100: best M5, fastest repeat 3 at 06:27:45 for 26.07 s, overlaps no; its repeats overlapping 1 of 5
+soc-youtube-growth insert 1000: best M5, fastest repeat 4 at 06:16:40 for 27.88 s, overlaps no; its repeats overlapping 1 of 5
+tech-as-topology expiry 100: best R2, fastest repeat 5 at 22:48:16 for 2.33 s, overlaps no; its repeats overlapping 0 of 5
+tech-as-topology expiry 1000: best R2, fastest repeat 4 at 22:44:33 for 2.33 s, overlaps no; its repeats overlapping 0 of 5
+tech-as-topology insert 100: best M5, fastest repeat 2 at 22:50:31 for 1.32 s, overlaps no; its repeats overlapping 0 of 5
+tech-as-topology insert 1000: best M5, fastest repeat 4 at 22:48:57 for 1.32 s, overlaps no; its repeats overlapping 0 of 5

@@ -668,3 +668,53 @@ ControlPC reports the PI's word to it, given in another session and quoted to me
 Claim 1, phases D1 then D2, ran under the exclusive timing claim from 22:10:08 on 3 November to 02:30:10, 4 h 20 min against a line of 7, on ControlPC's GO and the PI's hours (0052). `M1D07-DONE`, exit 0, released by the chain, no restart. 62 cells. Every timing repeat agrees per batch with the other runs of its cell and with M1D07C's count build, and the hashes in `results/gate1-M1D07T/hashes.txt` hold. Research 1's scheduled tasks and ControlPC's mail ran through it, as the PI chose (0054), and `scripts/overlap_check.py` reads them after claim 2.
 
 **No score is read yet.** The pooled reading of the protocol needs every phase, claim 2 runs D3 and D4 whatever D1 and D2 show, and reading pass or fail now could only invite the free option that 0024 warned of. The scores are read once, after claim 2. Claim 2 waits on ControlPC's GO for 22:10 tonight.
+
+## 0056, 2026-11-04: PI decisions while claim 2 ran; a standing order for M1D08
+
+The PI, in this session, answering the decision tables of my reports, each quoted as written:
+
+| # | The PI's words | To | Decision |
+|---|---|---|---|
+| 1 | "okeh approved. aku follow cadangan optimum ko" | Merge the 4-hour report with the release report if the two fall within 15 minutes of each other; venue; second machine deferred until M1D07 is read | Report merged, sent at about 06:33. **Venue: JGAA, with KAIS if the paper needs WoS** (M1A17, 0045). Whether it needs WoS has not been said |
+| 2 | "okeh. tp mesin kedua aku takde. kita ade PC ni aje. so guna aje pc ni and queue up" | Second machine | There is none. The paper states one machine as a limit, and the item closes as open-and-stated, not as a task |
+| 3 | "okeh approved that." | Instead, a partial check on this PC: P-core against E-core. The Core Ultra 7 265 has 8 P-cores and 12 E-cores, with different L1 and L2 and a shared L3 and DRAM. The protocol is written after M1D07 is read and before any run, and it never stands in for a second machine | Approved. ID M1D08 |
+| 4 | "aku tinggalkan PC few days. so always on. ko susun aje experiments2", then "Yes, approve it" to the standing order below | Work while the PI is away | Standing order below |
+| 5 | "aku still kawal gune remote control dekat phone. so approved all" | Scope | Everything proposed up to that point. Any new decision outside the standing order is put to the PI through this session, as a question with buttons |
+
+**Standing order for M1D08.** Up to 10 `--exclusive` hours in all, in claims of at most 7 hours, each on ControlPC's GO. The protocol is committed before any run. Cells are chosen by a rule written in it. Gate 1's thresholds do not change. If the plan exceeds 10 hours, nothing runs. If M1D07 reads Does not carry, M1D08 does not run and the paper's direction goes to the PI. On STOP or a mismatch: release, no restart, tell ControlPC and wait for the PI. New downloads, new streams, threshold changes, the venue and manuscript prose are all outside the order.
+
+ControlPC's terms for M1D08, from its message at about 06:34: the earliest exclusive window is after Research 12's W2b part 2 releases, about 12:40. Each claim is at most 7 h, the start is clear of hh:06, and the total is 10 h. No GO until M1D07 reads Holds or Narrows. It will check this entry before any GO. Monitoring and GO requests for Research 11 now come from this session alone. The session "Sambung aliran M1D07" handed over at about 06:33 and is quiet. ControlPC dropped tonight's 22:10 slot.
+
+## 0057, 2026-11-04: M1D07D claim 2 finished clean
+
+Claim 2, phases D3 then D4, ran under the exclusive timing claim from 02:35:01 to 06:32:19, 3 h 57 min against a line of 7, on ControlPC's GO and the PI's hours (0052). `M1D07-DONE`, exit 0, released by the chain, no restart, no STOP, no LINE. 14 cells. `tower_check.py --for research11` read quiet and clear at 06:32.
+
+**After release:**
+
+- Every line of `results/gate1-M1D07T/hashes.txt` holds.
+- `scripts/m1d07_tcheck.py` was run again over all 76 cells of both claims: 1,448 timing runs, 0 differ or missing.
+- The plan check finds every arm with the repeats Gate 1's rule asks of it.
+
+**Overlap.** `scripts/overlap_check.py` has a new `M1D07D` mode, with windows for Research 1's tasks, ControlPC's mail at about :06, BackupResults at 00:00 and 06:00, and Research 12's single empty echo a few minutes after 05:23:56, which ControlPC reported. All the windows are guesses and set wide. Overlapping repeats run +0.13% and +0.00% against their arm's median in the two claims, and clean repeats +0.00%. Two passes have every repeat of the best arm inside 06:00 to 06:06: ia-enron-email-dynamic insert 100 at margin 0.571, and soc-redditHyperlinks-title expiry 1,000 at 0.544. For load to have made either pass, it would have had to slow R2 by 15% to 19% in all five repeats. Both are kept, and the README shows the count without them.
+
+**Core.** `scripts/cpu_sets.py` reads Windows' CPU sets. Logical CPU 8, where every Gate 1 time of this project ran, is a P-core (efficiency class 1, with 0, 1, 6 to 9, 18, 19). The other 12 logical CPUs are E-cores.
+
+## 0058, 2026-11-04: M1D07E, the reading: Narrows
+
+`scripts/m1d07_score.py`, written during claim 2 before any score was read, applies the protocol's "Reading, fixed now" through `gate1_score.score` unchanged, with reading M1D04-R1. It stops unless M1D04 still reads M1D05's 14 scored cells and 6 passes, and it does. It was read once. Record: `results/gate1-M1D07T/README.md`. Full output: `score.txt`.
+
+| Reading | Result |
+|---|---|
+| 1. M1D07 alone, p = 5 | 36 scored, **22 pass**, on 11 of 12 streams (not dewiki). Real deletions 7 of 12, synthetic expiry 6 of 12, insert-only 9 of 12 |
+| 2. Pooled Go, literal | **Holds.** 28 of 50 pass against a third of 16.67, on 14 of 16 streams, 10 expiry passes |
+| 2. Pooled Go, second reading | Holds, with 17 expiry or real-deletion passes |
+| 3. Pooled trend | **Fails at p = 3.** Median 0.965 against at least 1.0. p = 5 median 0.650, which holds |
+| Outcome | **Narrows.** By the protocol's table, the claim is restricted to where cells pass, by name, and the outline's sentence is rewritten before any prose. No Stop |
+
+**Why the trend fails.** Sharing got faster at p = 3, not slower at p = 5. On the new streams P3 beats the scan by a median of 13%, and it passes on none of 36 cells. M1D05's "for triangles it does not" was 12 cells on 4 streams, where the median was 1.098. It no longer stands as a general statement.
+
+**The restriction by name.** At p = 5 the passes come at both batch sizes, more at 1,000 (19 of 25 pooled) than at 100 (9 of 25). They come under all three labels, real deletions included. They come on every stream except dewiki (margins 0.710 and 0.783) and the held-out sx-stackoverflow. At p = 3 there is no pass anywhere.
+
+**Read beside it, not a verdict.** R2, PR's own unshared kernel, is the best other arm on 43 of 50 pooled cells. If its fastest repeat were 10% faster, the pooled passes would fall to 16 of 50, under a third. The scan margin of M1D05 is now spread over many cells, and it is the margin the core-type test reads. The four ia-reality-call cells run in 2 to 7 ms, and one of them passes at exactly 0.667 on clock ticks, so it carries no weight. Without it and the two overlapped passes, 25 of 47 pass. Operations and the clock name different winners on 60 of 76 cells, with ns per charged operation as in M1D04: PR 0.35, R2 0.36, WT 1.42, WJ 9.55. The cost-model reading carries.
+
+**What follows by the standing order (0056).** Narrows is not Does not carry, so M1D08 goes ahead: protocol first, then hours to ControlPC.

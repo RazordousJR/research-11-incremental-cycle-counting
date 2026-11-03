@@ -1,6 +1,6 @@
 # STATUS: Research 11
 
-## Position, 2026-11-01
+## Position, 2026-11-04
 
 - **The original proposal is refuted.** Batch sharing for triangles failed Gate 0, 1.317 to 2.438 times sequential scanning, with a hindsight cap of 13%
   (`log.md` 0008, 0009).
@@ -11,6 +11,7 @@
 - **M1D03 is done and exact.** 156 of 156 arm-cells, 0 mismatches, 19 stopped at a limit, claim released (`log.md` 0024). On operations the median against best other is 1.447, 0.916, 0.950 at p = 3, 4, 5, without M. Gate 1 is not dead, and M decides it.
 - **M1D04 is done and exact, and M1D05 gives Go with the trend.** 216 arm-cells, 0 mismatches, all claims released (`log.md` 0032). At p = 5, 6 of 14 scored cells pass, median 0.686, against 1.098 at p = 3. The held-out stream gives no pass, two passes decide Go, and the win over the tables is a cache win on one machine.
 - **M1D06A: all six passes hold against M5 at its best theta per cell** (`log.md` 0035). The attack the PI chose did not move Go. The two sx expiry passes still rest on a 9% to 13% margin over the scan, which only a second machine tests.
+- **M1D07 reads Narrows** (`log.md` 0058). 12 new streams from Hanauer et al.'s set, 6 of them with real deletions, timed in two exclusive claims, exact. At p = 5, 22 of 36 new cells pass. Pooled with M1D05, 28 of 50 pass and Go holds, but the pooled p = 3 median of 0.965 breaks the trend: sharing now beats the scan at p = 3 on 27 of 36 new cells, without passing. The outline's claim sentence is rewritten. R2 is best on 43 of 50, and a scan 10% faster would take the pooled passes to 16 of 50.
 
 | Test | Verdict | Read with |
 |---|---|---|
@@ -23,12 +24,15 @@
 | M1D03, Gate 1 operations | Clean, no verdict | M absent. At p = 5 only wiki-talk reaches 0.67, against a scan. WJ beats PR on 6 of 8 sx cells |
 | M1D05, Gate 1 on the clock | Go, with the trend | 6 of 14 at p = 5. Held-out stream 0 of 2. Two sx expiry passes decide it, and fall to a scan 9% to 13% faster or a table twice as fast (`log.md` 0033). Best is the scan on 10 of 14. One machine, one core |
 | M1D06A, M5 at its best theta | 6 of 6 passes hold | Best theta 16 or 64, not 128. M5 beats R2 on one stream. A noisier claim, against PR |
+| M1D07E, 12 new streams, pooled | **Narrows** | Pooled Go 28 of 50 holds; pooled trend fails at p = 3, median 0.965. No pass on dewiki or sx-stackoverflow. 10% margin over the scan. One P-core, one machine |
 
 The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 Stop and parked, M1C02 Stop stands, M1C01 Go read with the V margin and the ring note.
 
-## Open, waiting on the PI
+## Open
 
-**More streams before writing** (`log.md` 0040 to 0051). M1D07C, the count sweep on 13 new streams, is done and exact: 78 cells, 0 differences, 5 h 05 min of the 16 ordinary hours. 6 KONECT prefixes carry 16% to 28% real deletions. soc-youtube-growth runs as a static snapshot, reported only. Operations, no verdict: share over the fewest other 1.31 at p = 5, over the scan 0.60. The timing plan, M1D07D, is 8.6 to 9.4 exclusive hours in two claims, waiting on the PI's hours. Venue reading M1A17 is done, `docs/submissions/paper-1/venue-fit.md`: JGAA first, KAIS second, the PI's choice.
+**M1D08, the core-type test, under the PI's standing order** (`log.md` 0056). The PI is away from the PC for a few days and reachable by phone. M1D08 times the cells near the pass line on an E-core against the P-core where every Gate 1 time ran (CPU 8, `results/gate1-M1D07T/cpu-sets.txt`). That is a partial check of the cache claim and never a second machine, which the PI does not have. It gets up to 10 exclusive hours in claims of at most 7, each on ControlPC's GO, and the protocol is committed first. ControlPC's earliest window is after Research 12 releases, about 12:40 on 2026-11-04. Anything outside the order goes to the PI by phone.
+
+**The PI's, not yet answered:** whether the paper needs WoS, which decides between JGAA and KAIS (`log.md` 0045, 0056).
 
 ## Handover notes
 
@@ -42,6 +46,7 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 - After release, a process with the project folder name on its command line reads as R11 load. A watcher reads only lines written after it starts.
 - DBLP sits behind a bot check and is not screened.
 - Commits are under the PI's name, with the assistant as co-author.
+- Research 11's monitoring and GO requests come from one session at a time. Since 2026-11-04 06:33 that is "Sambung Research 11: M1D07D claim 2 monitoring" (`log.md` 0056).
 
 ## Environment read on 2026-11-01
 

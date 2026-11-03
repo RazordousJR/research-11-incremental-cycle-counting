@@ -4,12 +4,14 @@ Written on 2026-11-03 after M1D06A, on the PI's word (`log.md` 0038). Nothing he
 
 ## The claim, in one sentence
 
-For exact counting of 5-cycles under batches of edge updates, sharing one row per star of the batch beats the best of a per-edge scan, a tuned wedge table and a mixed table on the clock, on large batches, while for triangles it does not, and the reason is the price of a table probe rather than a count of operations.
+For exact counting of 5-cycles under batches of edge updates, sharing one row per star of the batch runs its slowest repeat in at most 0.67 times the fastest of a per-edge scan, a tuned wedge table and a mixed table on 28 of 50 scored cells over 14 of 16 real-timestamp streams, real deletions included, 19 of 25 at batches of 1,000 and 9 of 25 at 100, and on no cell of dewiki or the held-out sx-stackoverflow; for triangles it passes on no cell, though it beats the scan by median on 27 of 36 new cells. The reason is the price of a table probe rather than a count of operations. The baseline it beats is mostly the unshared scan, on one P-core of one machine, by a margin that a scan 10% faster would bring under the Go clause.
+
+*Rewritten on 2026-11-04 after M1D07 read **Narrows** (`log.md` 0058), as the protocol requires before any prose. The earlier sentence said "while for triangles it does not". The pooled p = 3 median is now 0.965, under the trend's 1.0, so that half no longer stands as written.*
 
 ## What a reader gets
 
 1. **The star-row kernel at p = 5, engineered and measured.** PR: one row at the centre of each star, adjusted by each spoke, with all costs inside. The mechanism is not new (Cheetah, `log.md` 0019). What is new is its measured gain against the strongest baselines, sequential, exact, with the upkeep counted.
-2. **A rule for when sharing pays.** Pattern size 5 and large batches, from 14 scored cells: 6 pass at the strict worst-of-repeats test, 5 of 7 at cut 1,000 and 1 of 7 at cut 100, and none at p = 3 or p = 4.
+2. **A rule for when sharing pays.** Pattern size 5, from 50 scored cells on 16 streams (M1D05 and M1D07 pooled): 28 pass at the strict worst-of-repeats test, 19 of 25 at cut 1,000 and 9 of 25 at cut 100, under all three labels. None pass at p = 3 or p = 4. At p = 3 sharing is faster than the scan on the new streams, by a median of 13%, and never reaches the test.
 3. **Why operations mislead here.** WJ does fewer charged operations than PR on most sx cells and runs 3 to 26 times slower. A unit-cost model does not price a random probe into a table of several GB. This is the cost-model section the protocol asks for.
 
 ## What it is compared against
@@ -18,7 +20,7 @@ R2, the same kernel without sharing; WT, the tuned wedge table; WJ, the flat wed
 
 ## Did it win, and where it did not
 
-Go by the Gate 1 rule, with the trend: median 1.098 at p = 3 and 0.686 at p = 5. All six passes hold against M5 at its best theta. Stated up front, not in the conclusion: the held-out stream, sx-stackoverflow, gives no pass. Two of the six passes rest on a 9% to 13% margin over the scan, on one machine.
+Go by the Gate 1 rule, with the trend, on the first 4 streams: median 1.098 at p = 3 and 0.686 at p = 5. All six passes hold against M5 at its best theta. On 12 new streams M1D07 reads **Narrows**: 22 of 36 pass at p = 5, and the pooled Go holds at 28 of 50, but the pooled p = 3 median of 0.965 breaks the trend. Stated up front, not in the conclusion: the held-out stream, sx-stackoverflow, gives no pass, and neither does dewiki. R2 is the best other arm on 43 of 50 cells, and with it 10% faster the pooled passes fall to 16 of 50. All of this is one machine, on one P-core (`results/gate1-M1D07T/README.md`). M1D08 times the cells near the pass line on an E-core of the same machine, as a partial check only.
 
 ## Figures, at least five
 
@@ -50,7 +52,7 @@ Go by the Gate 1 rule, with the trend: median 1.098 at p = 3 and 0.686 at p = 5.
 | 2 Ablation per component | Partly | PR against R2 is the sharing ablation. No component beyond that is claimed |
 | 3 Baselines tuned on equal terms | Mostly | Tuned table and mixed table at its best theta. A second machine is still open |
 | 4 Novelty survived the literature | Narrowly | The gain is new, the mechanism is not |
-| 5 Evaluation scope reaches the venue's bar | **Likely fails** | 3 evaluation streams and 1 held-out, against 56 instances in Hanauer et al. The coverage matrix plans about 20 streams and a hard case. Real deletions, from KONECT, are not in at all. The venue's median is not counted |
+| 5 Evaluation scope reaches the venue's bar | **Improved, not yet checked against the venue** | 16 real-timestamp streams: 3 evaluation, 1 held-out and 12 new, chosen from Hanauer et al.'s 56 by a rule fixed first, 6 with 16% to 28% real deletions. Their 38 Kronecker streams are left out as fully synthetic. JGAA's median scope is not counted |
 | 6 Contribution type fits the venue | Open | See decision A |
 | 7 Venue-fit record | Not started | M1A17 |
 | 8 Outside reader | Not started | After a draft |
