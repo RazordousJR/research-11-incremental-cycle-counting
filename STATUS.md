@@ -28,7 +28,7 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 
 ## Open, waiting on the PI
 
-**More streams before writing** (`log.md` 0040): a protocol extension, then downloads and runs, each on the PI's word. Still open in `docs/paper/outline.md`: the contribution type and the venue task M1A17. The two §16 figures are done in `docs/figures/`. No heavy work is planned until then.
+**More streams before writing** (`log.md` 0040, 0042). The M1D07 protocol is written, `docs/experiments/m1d07-streams.md`: 13 real streams from Hanauer et al.'s 56 by a rule committed first, 6 of them KONECT with real deletions, at p = 3 and p = 5, 40 cells each. The loader is exact on the oracle. Downloads (1.90 GB) and the count sweep's ordinary claim wait on the PI's word. Still open in `docs/paper/outline.md`: the contribution type and the venue task M1A17. The two §16 figures are done in `docs/figures/`. No heavy work is planned until then.
 
 ## Handover notes
 
