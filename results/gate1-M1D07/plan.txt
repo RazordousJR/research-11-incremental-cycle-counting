@@ -1,0 +1,83 @@
+phase stream variant cut p hours repeats beside_R12
+D1 dewiki real 100 3 0.01 5 
+D1 dewiki real 1000 3 0.01 5 
+D1 frwiki real 100 3 0.01 5 
+D1 frwiki real 1000 3 0.01 5 
+D1 ia-enron-email-dynamic expiry 100 3 0.00 5 
+D1 ia-enron-email-dynamic expiry 1000 3 0.00 5 
+D1 ia-enron-email-dynamic insert 100 3 0.00 5 
+D1 ia-enron-email-dynamic insert 1000 3 0.00 5 
+D1 ia-reality-call expiry 100 3 0.00 5 
+D1 ia-reality-call expiry 100 5 0.00 5 
+D1 ia-reality-call expiry 1000 3 0.00 5 
+D1 ia-reality-call expiry 1000 5 0.00 5 
+D1 ia-reality-call insert 100 3 0.00 5 
+D1 ia-reality-call insert 100 5 0.00 5 
+D1 ia-reality-call insert 1000 3 0.00 5 
+D1 ia-reality-call insert 1000 5 0.00 5 
+D1 itwiki real 100 3 0.02 5 
+D1 itwiki real 1000 3 0.02 5 
+D1 nlwiki real 100 3 0.01 5 
+D1 nlwiki real 1000 3 0.01 5 
+D1 plwiki real 100 3 0.01 5 
+D1 plwiki real 1000 3 0.01 5 
+D1 simplewiki real 100 3 0.01 5 
+D1 simplewiki real 1000 3 0.01 5 
+D1 soc-redditHyperlinks-body expiry 100 3 0.00 5 
+D1 soc-redditHyperlinks-body expiry 100 5 0.00 5 yes
+D1 soc-redditHyperlinks-body expiry 1000 3 0.00 5 
+D1 soc-redditHyperlinks-body expiry 1000 5 0.00 5 yes
+D1 soc-redditHyperlinks-body insert 100 3 0.00 5 
+D1 soc-redditHyperlinks-body insert 100 5 0.07 5 yes
+D1 soc-redditHyperlinks-body insert 1000 3 0.00 5 
+D1 soc-redditHyperlinks-body insert 1000 5 0.02 5 yes
+D1 soc-redditHyperlinks-title expiry 100 3 0.00 5 
+D1 soc-redditHyperlinks-title expiry 1000 3 0.00 5 
+D1 soc-redditHyperlinks-title insert 100 3 0.00 5 
+D1 soc-redditHyperlinks-title insert 100 5 0.14 5 yes
+D1 soc-redditHyperlinks-title insert 1000 3 0.00 5 
+D1 soc-redditHyperlinks-title insert 1000 5 0.10 5 yes
+D1 soc-wiki-elec expiry 100 3 0.00 5 
+D1 soc-wiki-elec expiry 100 5 0.00 5 
+D1 soc-wiki-elec expiry 1000 3 0.00 5 
+D1 soc-wiki-elec expiry 1000 5 0.00 5 
+D1 soc-wiki-elec insert 100 3 0.00 5 
+D1 soc-wiki-elec insert 100 5 0.05 5 
+D1 soc-wiki-elec insert 1000 3 0.00 5 
+D1 soc-wiki-elec insert 1000 5 0.01 5 
+D1 soc-youtube-growth insert 100 3 0.01 5 
+D1 soc-youtube-growth insert 1000 3 0.01 5 
+D1 tech-as-topology expiry 100 3 0.00 5 
+D1 tech-as-topology expiry 100 5 0.06 5 
+D1 tech-as-topology expiry 1000 3 0.00 5 
+D1 tech-as-topology expiry 1000 5 0.02 5 
+D1 tech-as-topology insert 100 3 0.00 5 
+D1 tech-as-topology insert 100 5 0.03 5 
+D1 tech-as-topology insert 1000 3 0.00 5 
+D1 tech-as-topology insert 1000 5 0.01 5 
+D2 nlwiki real 100 5 0.73 5 yes
+D2 nlwiki real 1000 5 0.61 5 yes
+D2 plwiki real 100 5 0.85 5 yes
+D2 plwiki real 1000 5 0.74 5 yes
+D2 simplewiki real 100 5 0.51 5 
+D2 simplewiki real 1000 5 0.34 5 
+D3 dewiki real 100 5 0.45 5 
+D3 dewiki real 1000 5 0.39 5 
+D3 frwiki real 100 5 0.66 5 
+D3 frwiki real 1000 5 0.60 5 
+D3 itwiki real 100 5 0.64 5 
+D3 itwiki real 1000 5 0.60 5 
+D4 ia-enron-email-dynamic expiry 100 5 0.02 5 
+D4 ia-enron-email-dynamic expiry 1000 5 0.01 5 
+D4 ia-enron-email-dynamic insert 100 5 0.11 5 yes
+D4 ia-enron-email-dynamic insert 1000 5 0.09 5 
+D4 soc-redditHyperlinks-title expiry 100 5 0.01 5 yes
+D4 soc-redditHyperlinks-title expiry 1000 5 0.01 5 yes
+D4 soc-youtube-growth insert 100 5 0.24 5 yes
+D4 soc-youtube-growth insert 1000 5 0.25 5 yes
+
+D1 0.70 h, at 1.1 times 0.77 h
+D2 3.77 h, at 1.1 times 4.15 h
+D3 3.34 h, at 1.1 times 3.67 h
+D4 0.73 h, at 1.1 times 0.81 h
+all 8.55 h, at 1.1 times 9.40 h

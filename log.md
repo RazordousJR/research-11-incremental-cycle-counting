@@ -619,3 +619,15 @@ The chain ran 10:02:26 to 15:03:26, 5 h 01 min of the 8-hour line, `M1D07-DONE`,
 **Arms short of the stream,** all at their own limits: A5 on 16 arm-cells by its 300 s limit, T3 on 6 and WT on 4 by the 16 GB cap at a peak resident near 15.75 GB, and WJ on 6 by its 6.44 GB table cap. None came from the machine's memory, including those inside Research 12's two neighbour windows (0049).
 
 Operations and the timing plan come next, from this sweep alone, before any exclusive hour is asked for. The second claim, the two Network Repository files of 0048, waits on ControlPC's GO.
+
+## 0051, 2026-11-03: M1D07C done; operations and the timing plan
+
+The second claim ran 15:04:28 to 15:08:02 on ControlPC's GO, `SKIP` holding youtube out so that its held expiry copy was not rebuilt, and derived and swept the two Network Repository files the PI accepted in 0048. Both claims: 5 h 05 min of the 16 approved, exact throughout. Record: `results/gate1-M1D07/README.md`.
+
+**Operations, no verdict.** Median share over the fewest other finished arm: 1.320 at p = 3 and 1.310 at p = 5, over 36 cells each without the snapshot. Against the scan alone: 1.320 and 0.598. At p = 5 the fewest other is WJ on 26 of 30 cells. That is M1D03's pattern on the old streams, 1.447 and 0.950 then, before the clock in M1D04 turned it to Go. The clock decides, and this table cannot.
+
+**Timing plan,** `results/gate1-M1D07/plan.txt` from `scripts/m1d07_plan.py`, with Gate 1's repeat rule on these count seconds, which run at 1.0 to 1.1 times the timing build: D1 0.70 h, D2 3.77 h, D3 3.34 h, D4 0.73 h, **8.55 h in all, 9.40 h at 1.1 times**. That is under the low end of 0042's 10 to 35 hours. 15 cells ran beside Research 12, so the plan reads a little high. Two exclusive claims, keeping the protocol's order: D1 and D2, about 4.9 h; then D3 and D4, about 4.5 h.
+
+**Scripts for M1D07D.** `scripts/run_m1d07.sh timing` and `MODE=timing` in `scripts/chain_m1d07c.sh`, with an `--exclusive --timing` claim, the M1D04 `timing.exe` checked by hash, and every repeat checked per batch against the other runs of its cell and against M1D07C's count build by `scripts/m1d07_tcheck.py`. Not yet dry-run: that needs a short claim on ControlPC's GO first.
+
+**For the PI.** Exclusive hours for M1D07D. The protocol says the PI fixes how many phases run before D1, and none is dropped once a timing result is read.

@@ -1,0 +1,804 @@
+checks: RAM 15 GiB, commit free 79 GiB, checksums and count.exe hash good
+claimed the tower for research11: R11 M1D07C count sweep, ordinary, 1 thread CPU 8, line 8 h, ControlPC GO
+M1D07C-CLAIMED 10:02:26
+M1D07-SKIP ia-reality-call
+M1D07-SKIP soc-wiki-elec
+data/m1d07/raw/tech-as-topology.zip [tech-as-topology.edges] format=nr variant=expiry lines=171403 kept=171403 vertices_cleaned=34761 events_full=342806 events=342806 prefix=whole vertices_in_prefix=34761 deletions=171403 deletion_share=0.5000 t_min=1266192000 t_max=1269417604 distinct_times=65411
+data/m1d07/raw/tech-as-topology.zip [tech-as-topology.edges] format=nr variant=insert lines=171403 kept=171403 vertices_cleaned=34761 events_full=171403 events=171403 prefix=whole vertices_in_prefix=34761 deletions=0 deletion_share=0.0000 t_min=1266192000 t_max=1268208004 distinct_times=32824
+data/m1d07/raw/ia-enron-email-dynamic.zip [ia-enron-email-dynamic.edges] format=nr variant=expiry lines=1148072 kept=1134990 vertices_cleaned=86978 events_full=2269980 events=2000000 prefix=2000000 vertices_in_prefix=76604 deletions=986407 deletion_share=0.4932 t_min=315532800 t_max=1007586737 distinct_times=326650
+data/m1d07/raw/ia-enron-email-dynamic.zip [ia-enron-email-dynamic.edges] format=nr variant=insert lines=1148072 kept=1134990 vertices_cleaned=86978 events_full=1134990 events=1134990 prefix=whole vertices_in_prefix=86978 deletions=0 deletion_share=0.0000 t_min=315532800 t_max=1716720597 distinct_times=213218
+data/m1d07/raw/soc-redditHyperlinks-body.tsv [data/m1d07/raw/soc-redditHyperlinks-body.tsv] format=reddit variant=expiry lines=286561 kept=286561 vertices_cleaned=35776 events_full=573122 events=573122 prefix=whole vertices_in_prefix=35776 deletions=286561 deletion_share=0.5000 t_min=1388507998 t_max=1494781101 distinct_times=496234
+data/m1d07/raw/soc-redditHyperlinks-body.tsv [data/m1d07/raw/soc-redditHyperlinks-body.tsv] format=reddit variant=insert lines=286561 kept=286561 vertices_cleaned=35776 events_full=286561 events=286561 prefix=whole vertices_in_prefix=35776 deletions=0 deletion_share=0.0000 t_min=1388507998 t_max=1493571501 distinct_times=248453
+data/m1d07/raw/soc-redditHyperlinks-title.tsv [data/m1d07/raw/soc-redditHyperlinks-title.tsv] format=reddit variant=expiry lines=571927 kept=571927 vertices_cleaned=54075 events_full=1143854 events=1143854 prefix=whole vertices_in_prefix=54075 deletions=571927 deletion_share=0.5000 t_min=1388506820 t_max=1494780470 distinct_times=969598
+data/m1d07/raw/soc-redditHyperlinks-title.tsv [data/m1d07/raw/soc-redditHyperlinks-title.tsv] format=reddit variant=insert lines=571927 kept=571927 vertices_cleaned=54075 events_full=571927 events=571927 prefix=whole vertices_in_prefix=54075 deletions=0 deletion_share=0.0000 t_min=1388506820 t_max=1493570870 distinct_times=486050
+data/m1d07/raw/soc-youtube-growth.zip [soc-youtube-growth.edges] format=nr variant=expiry lines=12223774 kept=12223774 vertices_cleaned=3223589 events_full=24447548 events=2000000 prefix=2000000 vertices_in_prefix=657931 deletions=0 deletion_share=0.0000 t_min=1165705200 t_max=1165705200 distinct_times=1
+data/m1d07/raw/soc-youtube-growth.zip [soc-youtube-growth.edges] format=nr variant=insert lines=12223774 kept=12223774 vertices_cleaned=3223589 events_full=12223774 events=2000000 prefix=2000000 vertices_in_prefix=657931 deletions=0 deletion_share=0.0000 t_min=1165705200 t_max=1165705200 distinct_times=1
+data/m1d07/raw/download.tsv.link-dynamic-simplewiki.tar.bz2 [link-dynamic-simplewiki/out.link-dynamic-simplewiki] format=konect variant=real lines=1627472 kept=1623808 vertices_cleaned=100304 events_full=1558278 events=1558278 prefix=whole vertices_in_prefix=100304 deletions=433799 deletion_share=0.2784 t_min=1002340490 t_max=1315571860 distinct_times=270910
+data/m1d07/raw/download.tsv.link-dynamic-nlwiki.tar.bz2 [link-dynamic-nlwiki/out.link-dynamic-nlwiki] format=konect variant=real lines=20070561 kept=20029584 vertices_cleaned=263006 events_full=over_2000000 events=2000000 prefix=2000000 vertices_in_prefix=263006 deletions=413982 deletion_share=0.2070 t_min=999028376 t_max=1125648817 distinct_times=477885
+data/m1d07/raw/download.tsv.link-dynamic-plwiki.tar.bz2 [link-dynamic-plwiki/out.link-dynamic-plwiki] format=konect variant=real lines=25026208 kept=24963831 vertices_cleaned=223310 events_full=over_2000000 events=2000000 prefix=2000000 vertices_in_prefix=223310 deletions=393938 deletion_share=0.1970 t_min=1001937884 t_max=1127588541 distinct_times=420268
+data/m1d07/raw/download.tsv.link-dynamic-itwiki.tar.bz2 [link-dynamic-itwiki/out.link-dynamic-itwiki] format=konect variant=real lines=34826283 kept=34753179 vertices_cleaned=291164 events_full=over_2000000 events=2000000 prefix=2000000 vertices_in_prefix=291164 deletions=315151 deletion_share=0.1576 t_min=1012436407 t_max=1135084023 distinct_times=392126
+data/m1d07/raw/download.tsv.link-dynamic-frwiki.tar.bz2 [link-dynamic-frwiki/out.link-dynamic-frwiki] format=konect variant=real lines=59008831 kept=58835198 vertices_cleaned=282685 events_full=over_2000000 events=2000000 prefix=2000000 vertices_in_prefix=282685 deletions=395841 deletion_share=0.1979 t_min=996928604 t_max=1106869774 distinct_times=369601
+data/m1d07/raw/download.tsv.link-dynamic-dewiki.tar.bz2 [link-dynamic-dewiki/out.link-dynamic-dewiki] format=konect variant=real lines=86337879 kept=86205507 vertices_cleaned=257016 events_full=over_2000000 events=2000000 prefix=2000000 vertices_in_prefix=257016 deletions=358223 deletion_share=0.1791 t_min=986236723 t_max=1081380680 distinct_times=410044
+M1D07-DERIVED data/m1d07/derived
+tech-as-topology-expiry-1000 p3 S3 status=OK done=343/343 net=219686 ops=8079567 t=0 table=0 secs=0.047
+tech-as-topology-expiry-1000 p3 P3 status=OK done=343/343 net=219686 ops=11233190 t=0 table=0 secs=0.040
+tech-as-topology-expiry-1000 p3 T3 status=OK done=343/343 net=219686 ops=598622942 t=0 table=366334720 secs=2.334
+tech-as-topology-expiry-1000 p3 M3 status=OK done=343/343 net=219686 ops=54964043 t=0 table=4598888 secs=0.084
+tech-as-topology-expiry-1000 p3 final 0 ops M3:54964043 P3:11233190 S3:8079567 T3:598622942
+CELL-DONE p3 tech-as-topology expiry 1000 10:07:43
+tech-as-topology-expiry-100 p3 S3 status=OK done=3429/3429 net=219726 ops=8081047 t=0 table=0 secs=0.053
+tech-as-topology-expiry-100 p3 P3 status=OK done=3429/3429 net=219726 ops=10713361 t=0 table=0 secs=0.046
+tech-as-topology-expiry-100 p3 T3 status=OK done=3429/3429 net=219726 ops=598727682 t=0 table=366573244 secs=2.353
+tech-as-topology-expiry-100 p3 M3 status=OK done=3429/3429 net=219726 ops=54986120 t=0 table=4613840 secs=0.094
+tech-as-topology-expiry-100 p3 final 0 ops M3:54986120 P3:10713361 S3:8081047 T3:598727682
+CELL-DONE p3 tech-as-topology expiry 100 10:07:45
+tech-as-topology-insert-1000 p3 S3 status=OK done=172/172 net=107720 ops=3647962 t=554749 table=0 secs=0.030
+tech-as-topology-insert-1000 p3 P3 status=OK done=172/172 net=107720 ops=4954657 t=554749 table=0 secs=0.025
+tech-as-topology-insert-1000 p3 T3 status=OK done=172/172 net=107720 ops=339347312 t=554749 table=376279780 secs=1.159
+tech-as-topology-insert-1000 p3 M3 status=OK done=172/172 net=107720 ops=29076969 t=554749 table=4698804 secs=0.053
+tech-as-topology-insert-1000 p3 final 554749 ops M3:29076969 P3:4954657 S3:3647962 T3:339347312
+CELL-DONE p3 tech-as-topology insert 1000 10:07:47
+tech-as-topology-insert-100 p3 S3 status=OK done=1715/1715 net=107720 ops=3641606 t=554749 table=0 secs=0.028
+tech-as-topology-insert-100 p3 P3 status=OK done=1715/1715 net=107720 ops=4802497 t=554749 table=0 secs=0.027
+tech-as-topology-insert-100 p3 T3 status=OK done=1715/1715 net=107720 ops=339378952 t=554749 table=376268932 secs=1.081
+tech-as-topology-insert-100 p3 M3 status=OK done=1715/1715 net=107720 ops=29096041 t=554749 table=4703108 secs=0.053
+tech-as-topology-insert-100 p3 final 554749 ops M3:29096041 P3:4802497 S3:3641606 T3:339378952
+CELL-DONE p3 tech-as-topology insert 100 10:07:49
+ia-enron-email-dynamic-expiry-1000 p3 S3 status=OK done=2000/2000 net=1059225 ops=18337321 t=5600 table=0 secs=0.109
+ia-enron-email-dynamic-expiry-1000 p3 P3 status=OK done=2000/2000 net=1059225 ops=28061423 t=5600 table=0 secs=0.097
+ia-enron-email-dynamic-expiry-1000 p3 T3 status=OK done=2000/2000 net=1059225 ops=603573933 t=5600 table=31379856 secs=1.405
+ia-enron-email-dynamic-expiry-1000 p3 M3 status=OK done=2000/2000 net=1059225 ops=122523679 t=5600 table=5300408 secs=0.347
+ia-enron-email-dynamic-expiry-1000 p3 final 5600 ops M3:122523679 P3:28061423 S3:18337321 T3:603573933
+CELL-DONE p3 ia-enron-email-dynamic expiry 1000 10:07:51
+ia-enron-email-dynamic-expiry-100 p3 S3 status=OK done=20000/20000 net=1109789 ops=19546531 t=5600 table=0 secs=0.116
+ia-enron-email-dynamic-expiry-100 p3 P3 status=OK done=20000/20000 net=1109789 ops=29979927 t=5600 table=0 secs=0.103
+ia-enron-email-dynamic-expiry-100 p3 T3 status=OK done=20000/20000 net=1109789 ops=633684605 t=5600 table=31382500 secs=1.478
+ia-enron-email-dynamic-expiry-100 p3 M3 status=OK done=20000/20000 net=1109789 ops=128080712 t=5600 table=5297440 secs=0.363
+ia-enron-email-dynamic-expiry-100 p3 final 5600 ops M3:128080712 P3:29979927 S3:19546531 T3:633684605
+CELL-DONE p3 ia-enron-email-dynamic expiry 100 10:07:53
+ia-enron-email-dynamic-insert-1000 p3 S3 status=OK done=1135/1135 net=297456 ops=13239794 t=1180387 table=0 secs=0.099
+ia-enron-email-dynamic-insert-1000 p3 P3 status=OK done=1135/1135 net=297456 ops=16790253 t=1180387 table=0 secs=0.077
+ia-enron-email-dynamic-insert-1000 p3 T3 status=OK done=1135/1135 net=297456 ops=475656730 t=1180387 table=476937332 secs=1.548
+ia-enron-email-dynamic-insert-1000 p3 M3 status=OK done=1135/1135 net=297456 ops=86696376 t=1180387 table=12622252 secs=0.178
+ia-enron-email-dynamic-insert-1000 p3 final 1180387 ops M3:86696376 P3:16790253 S3:13239794 T3:475656730
+CELL-DONE p3 ia-enron-email-dynamic insert 1000 10:07:56
+ia-enron-email-dynamic-insert-100 p3 S3 status=OK done=11350/11350 net=297456 ops=13141198 t=1180387 table=0 secs=0.098
+ia-enron-email-dynamic-insert-100 p3 P3 status=OK done=11350/11350 net=297456 ops=17031401 t=1180387 table=0 secs=0.078
+ia-enron-email-dynamic-insert-100 p3 T3 status=OK done=11350/11350 net=297456 ops=474937784 t=1180387 table=476873716 secs=1.554
+ia-enron-email-dynamic-insert-100 p3 M3 status=OK done=11350/11350 net=297456 ops=87246468 t=1180387 table=12669144 secs=0.178
+ia-enron-email-dynamic-insert-100 p3 final 1180387 ops M3:87246468 P3:17031401 S3:13141198 T3:474937784
+CELL-DONE p3 ia-enron-email-dynamic insert 100 10:07:58
+soc-redditHyperlinks-body-expiry-1000 p3 S3 status=OK done=574/574 net=456500 ops=4828256 t=0 table=0 secs=0.033
+soc-redditHyperlinks-body-expiry-1000 p3 P3 status=OK done=574/574 net=456500 ops=7973337 t=0 table=0 secs=0.036
+soc-redditHyperlinks-body-expiry-1000 p3 T3 status=OK done=574/574 net=456500 ops=57342076 t=0 table=3139172 secs=0.184
+soc-redditHyperlinks-body-expiry-1000 p3 M3 status=OK done=574/574 net=456500 ops=35652630 t=0 table=2101832 secs=0.123
+soc-redditHyperlinks-body-expiry-1000 p3 final 0 ops M3:35652630 P3:7973337 S3:4828256 T3:57342076
+CELL-DONE p3 soc-redditHyperlinks-body expiry 1000 10:07:59
+soc-redditHyperlinks-body-expiry-100 p3 S3 status=OK done=5732/5732 net=471776 ops=5116280 t=0 table=0 secs=0.035
+soc-redditHyperlinks-body-expiry-100 p3 P3 status=OK done=5732/5732 net=471776 ops=7573255 t=0 table=0 secs=0.039
+soc-redditHyperlinks-body-expiry-100 p3 T3 status=OK done=5732/5732 net=471776 ops=62562528 t=0 table=3176624 secs=0.200
+soc-redditHyperlinks-body-expiry-100 p3 M3 status=OK done=5732/5732 net=471776 ops=37514989 t=0 table=2103060 secs=0.131
+soc-redditHyperlinks-body-expiry-100 p3 final 0 ops M3:37514989 P3:7573255 S3:5116280 T3:62562528
+CELL-DONE p3 soc-redditHyperlinks-body expiry 100 10:08:00
+soc-redditHyperlinks-body-insert-1000 p3 S3 status=OK done=287/287 net=124330 ops=4770630 t=406391 table=0 secs=0.038
+soc-redditHyperlinks-body-insert-1000 p3 P3 status=OK done=287/287 net=124330 ops=6498333 t=406391 table=0 secs=0.037
+soc-redditHyperlinks-body-insert-1000 p3 T3 status=OK done=287/287 net=124330 ops=202429952 t=406391 table=212510248 secs=0.706
+soc-redditHyperlinks-body-insert-1000 p3 M3 status=OK done=287/287 net=124330 ops=37666857 t=406391 table=8561616 secs=0.083
+soc-redditHyperlinks-body-insert-1000 p3 final 406391 ops M3:37666857 P3:6498333 S3:4770630 T3:202429952
+CELL-DONE p3 soc-redditHyperlinks-body insert 1000 10:08:01
+soc-redditHyperlinks-body-insert-100 p3 S3 status=OK done=2866/2866 net=124330 ops=4767184 t=406391 table=0 secs=0.037
+soc-redditHyperlinks-body-insert-100 p3 P3 status=OK done=2866/2866 net=124330 ops=5861994 t=406391 table=0 secs=0.038
+soc-redditHyperlinks-body-insert-100 p3 T3 status=OK done=2866/2866 net=124330 ops=202418610 t=406391 table=212468904 secs=0.708
+soc-redditHyperlinks-body-insert-100 p3 M3 status=OK done=2866/2866 net=124330 ops=37672184 t=406391 table=8559652 secs=0.083
+soc-redditHyperlinks-body-insert-100 p3 final 406391 ops M3:37672184 P3:5861994 S3:4767184 T3:202418610
+CELL-DONE p3 soc-redditHyperlinks-body insert 100 10:08:02
+soc-redditHyperlinks-title-expiry-1000 p3 S3 status=OK done=1144/1144 net=907190 ops=14974983 t=0 table=0 secs=0.091
+soc-redditHyperlinks-title-expiry-1000 p3 P3 status=OK done=1144/1144 net=907190 ops=24459456 t=0 table=0 secs=0.089
+soc-redditHyperlinks-title-expiry-1000 p3 T3 status=OK done=1144/1144 net=907190 ops=316425640 t=0 table=7439524 secs=0.920
+soc-redditHyperlinks-title-expiry-1000 p3 M3 status=OK done=1144/1144 net=907190 ops=83501789 t=0 table=3256876 secs=0.271
+soc-redditHyperlinks-title-expiry-1000 p3 final 0 ops M3:83501789 P3:24459456 S3:14974983 T3:316425640
+CELL-DONE p3 soc-redditHyperlinks-title expiry 1000 10:08:04
+soc-redditHyperlinks-title-expiry-100 p3 S3 status=OK done=11439/11439 net=927080 ops=15962576 t=0 table=0 secs=0.096
+soc-redditHyperlinks-title-expiry-100 p3 P3 status=OK done=11439/11439 net=927080 ops=22517416 t=0 table=0 secs=0.107
+soc-redditHyperlinks-title-expiry-100 p3 T3 status=OK done=11439/11439 net=927080 ops=337601636 t=0 table=7595616 secs=0.986
+soc-redditHyperlinks-title-expiry-100 p3 M3 status=OK done=11439/11439 net=927080 ops=86584445 t=0 table=3265156 secs=0.279
+soc-redditHyperlinks-title-expiry-100 p3 final 0 ops M3:86584445 P3:22517416 S3:15962576 T3:337601636
+CELL-DONE p3 soc-redditHyperlinks-title expiry 100 10:08:05
+soc-redditHyperlinks-title-insert-1000 p3 S3 status=OK done=572/572 net=220151 ops=12164994 t=1329278 table=0 secs=0.090
+soc-redditHyperlinks-title-insert-1000 p3 P3 status=OK done=572/572 net=220151 ops=16081154 t=1329278 table=0 secs=0.088
+soc-redditHyperlinks-title-insert-1000 p3 T3 status=OK done=572/572 net=220151 ops=754726617 t=1329278 table=751869048 secs=2.912
+soc-redditHyperlinks-title-insert-1000 p3 M3 status=OK done=572/572 net=220151 ops=106339035 t=1329278 table=11606128 secs=0.153
+soc-redditHyperlinks-title-insert-1000 p3 final 1329278 ops M3:106339035 P3:16081154 S3:12164994 T3:754726617
+CELL-DONE p3 soc-redditHyperlinks-title insert 1000 10:08:09
+soc-redditHyperlinks-title-insert-100 p3 S3 status=OK done=5720/5720 net=220151 ops=12163150 t=1329278 table=0 secs=0.090
+soc-redditHyperlinks-title-insert-100 p3 P3 status=OK done=5720/5720 net=220151 ops=14423638 t=1329278 table=0 secs=0.091
+soc-redditHyperlinks-title-insert-100 p3 T3 status=OK done=5720/5720 net=220151 ops=754602993 t=1329278 table=751667736 secs=2.931
+soc-redditHyperlinks-title-insert-100 p3 M3 status=OK done=5720/5720 net=220151 ops=106349994 t=1329278 table=11611676 secs=0.169
+soc-redditHyperlinks-title-insert-100 p3 final 1329278 ops M3:106349994 P3:14423638 S3:12163150 T3:754602993
+CELL-DONE p3 soc-redditHyperlinks-title insert 100 10:08:13
+soc-youtube-growth-expiry-1000 p3 S3 status=OK done=2000/2000 net=2000000 ops=41804654 t=2489872 table=0 secs=0.653
+soc-youtube-growth-expiry-1000 p3 P3 status=OK done=2000/2000 net=2000000 ops=56113440 t=2489872 table=0 secs=0.424
+soc-youtube-growth-expiry-1000 p3 T3 status=MEM done=655/2000 net=656000 ops=9861864642 t=900139 table=13885204520 secs=31.856
+soc-youtube-growth-expiry-1000 p3 M3 status=OK done=2000/2000 net=2000000 ops=474838487 t=2489872 table=128815936 secs=1.538
+soc-youtube-growth-expiry-1000 p3 final 2489872 ops M3:474838487 P3:56113440 S3:41804654 T3:9861632566(655/2000)
+CELL-DONE p3 soc-youtube-growth expiry 1000 10:08:49
+soc-youtube-growth-expiry-100 p3 S3 status=OK done=20000/20000 net=2000000 ops=40916350 t=2489872 table=0 secs=0.603
+soc-youtube-growth-expiry-100 p3 P3 status=OK done=20000/20000 net=2000000 ops=56667069 t=2489872 table=0 secs=0.426
+soc-youtube-growth-expiry-100 p3 T3 status=MEM done=6657/20000 net=665800 ops=9811288709 t=909919 table=13891488056 secs=31.028
+soc-youtube-growth-expiry-100 p3 M3 status=OK done=20000/20000 net=2000000 ops=492493855 t=2489872 table=128115748 secs=1.519
+soc-youtube-growth-expiry-100 p3 final 2489872 ops M3:492493855 P3:56667069 S3:40916350 T3:9810507912(6657/20000)
+CELL-DONE p3 soc-youtube-growth expiry 100 10:09:25
+soc-youtube-growth-insert-1000 p3 S3 status=OK done=2000/2000 net=2000000 ops=41804654 t=2489872 table=0 secs=0.599
+soc-youtube-growth-insert-1000 p3 P3 status=OK done=2000/2000 net=2000000 ops=56113440 t=2489872 table=0 secs=0.411
+soc-youtube-growth-insert-1000 p3 T3 status=MEM done=655/2000 net=656000 ops=9861864642 t=900139 table=13885204520 secs=30.977
+soc-youtube-growth-insert-1000 p3 M3 status=OK done=2000/2000 net=2000000 ops=474838487 t=2489872 table=128815936 secs=1.567
+soc-youtube-growth-insert-1000 p3 final 2489872 ops M3:474838487 P3:56113440 S3:41804654 T3:9861632566(655/2000)
+CELL-DONE p3 soc-youtube-growth insert 1000 10:10:00
+soc-youtube-growth-insert-100 p3 S3 status=OK done=20000/20000 net=2000000 ops=40916350 t=2489872 table=0 secs=0.596
+soc-youtube-growth-insert-100 p3 P3 status=OK done=20000/20000 net=2000000 ops=56667069 t=2489872 table=0 secs=0.425
+soc-youtube-growth-insert-100 p3 T3 status=MEM done=6691/20000 net=669200 ops=9815523044 t=914091 table=13896161032 secs=30.635
+soc-youtube-growth-insert-100 p3 M3 status=OK done=20000/20000 net=2000000 ops=492493855 t=2489872 table=128115748 secs=1.571
+soc-youtube-growth-insert-100 p3 final 2489872 ops M3:492493855 P3:56667069 S3:40916350 T3:9815361002(6691/20000)
+CELL-DONE p3 soc-youtube-growth insert 100 10:10:35
+simplewiki-real-1000 p3 S3 status=OK done=1559/1559 net=991548 ops=50408482 t=1144661 table=0 secs=0.412
+simplewiki-real-1000 p3 P3 status=OK done=1559/1559 net=991548 ops=62815492 t=1144661 table=0 secs=0.331
+simplewiki-real-1000 p3 T3 status=OK done=1559/1559 net=991548 ops=3316058676 t=1144661 table=2822867764 secs=11.773
+simplewiki-real-1000 p3 M3 status=OK done=1559/1559 net=991548 ops=383594424 t=1144661 table=56781420 secs=0.817
+simplewiki-real-1000 p3 final 1144661 ops M3:383594424 P3:62815492 S3:50408482 T3:3316058676
+CELL-DONE p3 simplewiki real 1000 10:10:49
+simplewiki-real-100 p3 S3 status=OK done=15583/15583 net=1241036 ops=78362172 t=1144661 table=0 secs=0.591
+simplewiki-real-100 p3 P3 status=OK done=15583/15583 net=1241036 ops=99895306 t=1144661 table=0 secs=0.431
+simplewiki-real-100 p3 T3 status=OK done=15583/15583 net=1241036 ops=4499247564 t=1144661 table=2830634736 secs=16.715
+simplewiki-real-100 p3 M3 status=OK done=15583/15583 net=1241036 ops=520821063 t=1144661 table=56951020 secs=0.951
+simplewiki-real-100 p3 final 1144661 ops M3:520821063 P3:99895306 S3:78362172 T3:4499247564
+CELL-DONE p3 simplewiki real 100 10:11:08
+nlwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1749936 ops=71551988 t=1616426 table=0 secs=0.690
+nlwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1749936 ops=94682204 t=1616426 table=0 secs=0.604
+nlwiki-real-1000 p3 T3 status=OK done=2000/2000 net=1749936 ops=5408522856 t=1616426 table=4181807388 secs=21.024
+nlwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1749936 ops=686659152 t=1616426 table=100191200 secs=1.661
+nlwiki-real-1000 p3 final 1616426 ops M3:686659152 P3:94682204 S3:71551988 T3:5408522856
+CELL-DONE p3 nlwiki real 1000 10:11:33
+nlwiki-real-100 p3 S3 status=OK done=20000/20000 net=1886774 ops=83541677 t=1616426 table=0 secs=0.773
+nlwiki-real-100 p3 P3 status=OK done=20000/20000 net=1886774 ops=112585144 t=1616426 table=0 secs=0.670
+nlwiki-real-100 p3 T3 status=OK done=20000/20000 net=1886774 ops=5868506122 t=1616426 table=4194360880 secs=23.007
+nlwiki-real-100 p3 M3 status=OK done=20000/20000 net=1886774 ops=758735826 t=1616426 table=100302620 secs=1.731
+nlwiki-real-100 p3 final 1616426 ops M3:758735826 P3:112585144 S3:83541677 T3:5868506122
+CELL-DONE p3 nlwiki real 100 10:12:00
+plwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1821576 ops=100833092 t=3460789 table=0 secs=0.814
+plwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1821576 ops=125443422 t=3460789 table=0 secs=0.643
+plwiki-real-1000 p3 T3 status=OK done=2000/2000 net=1821576 ops=8460890438 t=3460789 table=7359671568 secs=29.359
+plwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1821576 ops=1111799033 t=3460789 table=78986380 secs=1.668
+plwiki-real-1000 p3 final 3460789 ops M3:1111799033 P3:125443422 S3:100833092 T3:8460890438
+CELL-DONE p3 plwiki real 1000 10:12:33
+plwiki-real-100 p3 S3 status=OK done=20000/20000 net=1923044 ops=111848826 t=3460789 table=0 secs=0.889
+plwiki-real-100 p3 P3 status=OK done=20000/20000 net=1923044 ops=141993428 t=3460789 table=0 secs=0.726
+plwiki-real-100 p3 T3 status=OK done=20000/20000 net=1923044 ops=8835410458 t=3460789 table=7364353320 secs=30.910
+plwiki-real-100 p3 M3 status=OK done=20000/20000 net=1923044 ops=1175671990 t=3460789 table=79070016 secs=1.726
+plwiki-real-100 p3 final 3460789 ops M3:1175671990 P3:141993428 S3:111848826 T3:8835410458
+CELL-DONE p3 plwiki real 100 10:13:08
+itwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1855928 ops=73507287 t=1871855 table=0 secs=0.728
+itwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1855928 ops=94613655 t=1871855 table=0 secs=0.653
+itwiki-real-1000 p3 T3 status=MEM done=1453/2000 net=1357532 ops=16447553738 t=1686798 table=13585373816 secs=52.973
+itwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1855928 ops=1023162294 t=1871855 table=90076496 secs=1.685
+itwiki-real-1000 p3 final 1871855 ops M3:1023162294 P3:94613655 S3:73507287 T3:16392278974(1453/2000)
+CELL-DONE p3 itwiki real 1000 10:14:06
+itwiki-real-100 p3 S3 status=OK done=20000/20000 net=1938448 ops=78909191 t=1871855 table=0 secs=0.773
+itwiki-real-100 p3 P3 status=OK done=20000/20000 net=1938448 ops=103685612 t=1871855 table=0 secs=0.702
+itwiki-real-100 p3 T3 status=MEM done=14535/20000 net=1411074 ops=16592690931 t=1687189 table=13591934200 secs=53.356
+itwiki-real-100 p3 M3 status=OK done=20000/20000 net=1938448 ops=1069483833 t=1871855 table=90183644 secs=1.723
+itwiki-real-100 p3 final 1871855 ops M3:1069483833 P3:103685612 S3:78909191 T3:16584057338(14535/20000)
+CELL-DONE p3 itwiki real 100 10:15:05
+frwiki-real-1000 p3 S3 status=OK done=2000/2000 net=1779796 ops=83235375 t=2054829 table=0 secs=0.761
+frwiki-real-1000 p3 P3 status=OK done=2000/2000 net=1779796 ops=105983727 t=2054829 table=0 secs=0.663
+frwiki-real-1000 p3 T3 status=OK done=2000/2000 net=1779796 ops=5416099778 t=2054829 table=4063616816 secs=20.196
+frwiki-real-1000 p3 M3 status=OK done=2000/2000 net=1779796 ops=759821422 t=2054829 table=88230368 secs=1.567
+frwiki-real-1000 p3 final 2054829 ops M3:759821422 P3:105983727 S3:83235375 T3:5416099778
+CELL-DONE p3 frwiki real 1000 10:15:29
+frwiki-real-100 p3 S3 status=OK done=20000/20000 net=1926228 ops=91926739 t=2054829 table=0 secs=0.835
+frwiki-real-100 p3 P3 status=OK done=20000/20000 net=1926228 ops=120201144 t=2054829 table=0 secs=0.713
+frwiki-real-100 p3 T3 status=OK done=20000/20000 net=1926228 ops=5876115352 t=2054829 table=4071875712 secs=21.636
+frwiki-real-100 p3 M3 status=OK done=20000/20000 net=1926228 ops=817980569 t=2054829 table=88418904 secs=1.632
+frwiki-real-100 p3 final 2054829 ops M3:817980569 P3:120201144 S3:91926739 T3:5876115352
+CELL-DONE p3 frwiki real 100 10:15:54
+dewiki-real-1000 p3 S3 status=OK done=2000/2000 net=1828436 ops=82573855 t=2543198 table=0 secs=0.788
+dewiki-real-1000 p3 P3 status=OK done=2000/2000 net=1828436 ops=107399596 t=2543198 table=0 secs=0.688
+dewiki-real-1000 p3 T3 status=OK done=2000/2000 net=1828436 ops=3451485494 t=2543198 table=2461513528 secs=13.456
+dewiki-real-1000 p3 M3 status=OK done=2000/2000 net=1828436 ops=665830992 t=2543198 table=110058448 secs=1.797
+dewiki-real-1000 p3 final 2543198 ops M3:665830992 P3:107399596 S3:82573855 T3:3451485494
+CELL-DONE p3 dewiki real 1000 10:16:12
+dewiki-real-100 p3 S3 status=OK done=20000/20000 net=1937014 ops=91803946 t=2543198 table=0 secs=0.856
+dewiki-real-100 p3 P3 status=OK done=20000/20000 net=1937014 ops=121070116 t=2543198 table=0 secs=0.744
+dewiki-real-100 p3 T3 status=OK done=20000/20000 net=1937014 ops=3677896480 t=2543198 table=2466339008 secs=14.495
+dewiki-real-100 p3 M3 status=OK done=20000/20000 net=1937014 ops=715260784 t=2543198 table=110255004 secs=1.911
+dewiki-real-100 p3 final 2543198 ops M3:715260784 P3:121070116 S3:91803946 T3:3677896480
+CELL-DONE p3 dewiki real 100 10:16:30
+tech-as-topology-expiry-1000 p5 R2 status=OK done=343/343 net=219686 ops=7318987501 t=0 table=3072 secs=2.675
+tech-as-topology-expiry-1000 p5 PR status=OK done=343/343 net=219686 ops=3089575309 t=0 table=3072 secs=1.021
+tech-as-topology-expiry-1000 p5 WT status=OK done=343/343 net=219686 ops=4089276330 t=0 table=366334720 secs=5.821
+tech-as-topology-expiry-1000 p5 WJ status=OK done=343/343 net=219686 ops=3215500102 t=0 table=402653184 secs=30.432
+tech-as-topology-expiry-1000 p5 M5 status=OK done=343/343 net=219686 ops=5808556680 t=0 table=37830196 secs=3.073
+tech-as-topology-expiry-1000 p5 A5 status=OK done=343/343 net=219686 ops=31255290315 t=0 table=0 secs=13.433
+tech-as-topology-expiry-1000 p3 final 0 ops M3:54964043 P3:11233190 S3:8079567 T3:598622942
+tech-as-topology-expiry-1000 p5 final 0 ops A5:31255290315 M5:5808556680 PR:3089575309 R2:7318987501 WJ:3215500102 WT:4089276330
+CELL-DONE p5 tech-as-topology expiry 1000 10:17:27
+tech-as-topology-expiry-100 p5 R2 status=OK done=3429/3429 net=219726 ops=7321944525 t=0 table=3072 secs=2.663
+tech-as-topology-expiry-100 p5 PR status=OK done=3429/3429 net=219726 ops=4902746557 t=0 table=3072 secs=1.704
+tech-as-topology-expiry-100 p5 WT status=OK done=3429/3429 net=219726 ops=4090967788 t=0 table=366573244 secs=5.912
+tech-as-topology-expiry-100 p5 WJ status=OK done=3429/3429 net=219726 ops=3215055461 t=0 table=402653184 secs=30.472
+tech-as-topology-expiry-100 p5 M5 status=OK done=3429/3429 net=219726 ops=5813702048 t=0 table=37881744 secs=3.079
+tech-as-topology-expiry-100 p5 A5 status=OK done=3429/3429 net=219726 ops=309571023445 t=0 table=0 secs=131.331
+tech-as-topology-expiry-100 p3 final 0 ops M3:54986120 P3:10713361 S3:8081047 T3:598727682
+tech-as-topology-expiry-100 p5 final 0 ops A5:309571023445 M5:5813702048 PR:4902746557 R2:7321944525 WJ:3215055461 WT:4090967788
+CELL-DONE p5 tech-as-topology expiry 100 10:20:23
+tech-as-topology-insert-1000 p5 R2 status=OK done=172/172 net=107720 ops=4564762755 t=7540417666 table=3072 secs=1.566
+tech-as-topology-insert-1000 p5 PR status=OK done=172/172 net=107720 ops=1866075518 t=7540417666 table=3072 secs=0.599
+tech-as-topology-insert-1000 p5 WT status=OK done=172/172 net=107720 ops=1440240898 t=7540417666 table=376279780 secs=2.086
+tech-as-topology-insert-1000 p5 WJ status=OK done=172/172 net=107720 ops=1159834139 t=7540417666 table=402653184 secs=11.604
+tech-as-topology-insert-1000 p5 M5 status=OK done=172/172 net=107720 ops=2359605272 t=7540417666 table=38946732 secs=1.398
+tech-as-topology-insert-1000 p5 A5 status=OK done=172/172 net=107720 ops=17181385685 t=7540417666 table=0 secs=7.600
+tech-as-topology-insert-1000 p3 final 554749 ops M3:29076969 P3:4954657 S3:3647962 T3:339347312
+tech-as-topology-insert-1000 p5 final 7540417666 ops A5:17181385685 M5:2359605272 PR:1866075518 R2:4564762755 WJ:1159834139 WT:1440240898
+CELL-DONE p5 tech-as-topology insert 1000 10:20:48
+tech-as-topology-insert-100 p5 R2 status=OK done=1715/1715 net=107720 ops=4567974169 t=7540417666 table=3072 secs=1.574
+tech-as-topology-insert-100 p5 PR status=OK done=1715/1715 net=107720 ops=2887152681 t=7540417666 table=3072 secs=0.964
+tech-as-topology-insert-100 p5 WT status=OK done=1715/1715 net=107720 ops=1436047320 t=7540417666 table=376268932 secs=2.082
+tech-as-topology-insert-100 p5 WJ status=OK done=1715/1715 net=107720 ops=1156736756 t=7540417666 table=402653184 secs=11.503
+tech-as-topology-insert-100 p5 M5 status=OK done=1715/1715 net=107720 ops=2355117839 t=7540417666 table=38916428 secs=1.396
+tech-as-topology-insert-100 p5 A5 status=OK done=1715/1715 net=107720 ops=168019255128 t=7540417666 table=0 secs=73.247
+tech-as-topology-insert-100 p3 final 554749 ops M3:29096041 P3:4802497 S3:3641606 T3:339378952
+tech-as-topology-insert-100 p5 final 7540417666 ops A5:168019255128 M5:2355117839 PR:2887152681 R2:4567974169 WJ:1156736756 WT:1436047320
+CELL-DONE p5 tech-as-topology insert 100 10:22:19
+ia-enron-email-dynamic-expiry-1000 p5 R2 status=OK done=2000/2000 net=1059225 ops=1964317555 t=1109691 table=3072 secs=1.062
+ia-enron-email-dynamic-expiry-1000 p5 PR status=OK done=2000/2000 net=1059225 ops=817547831 t=1109691 table=3072 secs=0.514
+ia-enron-email-dynamic-expiry-1000 p5 WT status=OK done=2000/2000 net=1059225 ops=1670181483 t=1109691 table=31379856 secs=1.894
+ia-enron-email-dynamic-expiry-1000 p5 WJ status=OK done=2000/2000 net=1059225 ops=1005540278 t=1109691 table=50331648 secs=4.274
+ia-enron-email-dynamic-expiry-1000 p5 M5 status=OK done=2000/2000 net=1059225 ops=1844510191 t=1109691 table=19035188 secs=1.792
+ia-enron-email-dynamic-expiry-1000 p5 A5 status=OK done=2000/2000 net=1059225 ops=5731846335 t=1109691 table=0 secs=3.518
+ia-enron-email-dynamic-expiry-1000 p3 final 5600 ops M3:122523679 P3:28061423 S3:18337321 T3:603573933
+ia-enron-email-dynamic-expiry-1000 p5 final 1109691 ops A5:5731846335 M5:1844510191 PR:817547831 R2:1964317555 WJ:1005540278 WT:1670181483
+CELL-DONE p5 ia-enron-email-dynamic expiry 1000 10:22:33
+ia-enron-email-dynamic-expiry-100 p5 R2 status=OK done=20000/20000 net=1109789 ops=2116119371 t=1109691 table=3072 secs=1.138
+ia-enron-email-dynamic-expiry-100 p5 PR status=OK done=20000/20000 net=1109789 ops=949197343 t=1109691 table=3072 secs=0.676
+ia-enron-email-dynamic-expiry-100 p5 WT status=OK done=20000/20000 net=1109789 ops=1810267707 t=1109691 table=31382500 secs=2.045
+ia-enron-email-dynamic-expiry-100 p5 WJ status=OK done=20000/20000 net=1109789 ops=1101053801 t=1109691 table=50331648 secs=4.790
+ia-enron-email-dynamic-expiry-100 p5 M5 status=OK done=20000/20000 net=1109789 ops=1999360280 t=1109691 table=19041696 secs=1.987
+ia-enron-email-dynamic-expiry-100 p5 A5 status=OK done=20000/20000 net=1109789 ops=38587286489 t=1109691 table=0 secs=23.467
+ia-enron-email-dynamic-expiry-100 p3 final 5600 ops M3:128080712 P3:29979927 S3:19546531 T3:633684605
+ia-enron-email-dynamic-expiry-100 p5 final 1109691 ops A5:38587286489 M5:1999360280 PR:949197343 R2:2116119371 WJ:1101053801 WT:1810267707
+CELL-DONE p5 ia-enron-email-dynamic expiry 100 10:23:08
+ia-enron-email-dynamic-insert-1000 p5 R2 status=OK done=1135/1135 net=297456 ops=7779357347 t=6565632383 table=3072 secs=2.591
+ia-enron-email-dynamic-insert-1000 p5 PR status=OK done=1135/1135 net=297456 ops=3766211885 t=6565632383 table=3072 secs=1.296
+ia-enron-email-dynamic-insert-1000 p5 WT status=OK done=1135/1135 net=297456 ops=3389238219 t=6565632383 table=476937332 secs=5.572
+ia-enron-email-dynamic-insert-1000 p5 WJ status=OK done=1135/1135 net=297456 ops=2775224057 t=6565632383 table=805306368 secs=28.663
+ia-enron-email-dynamic-insert-1000 p5 M5 status=OK done=1135/1135 net=297456 ops=5303415867 t=6565632383 table=142928832 secs=4.436
+ia-enron-email-dynamic-insert-1000 p5 A5 status=OK done=1135/1135 net=297456 ops=485267346463 t=6565632383 table=0 secs=223.454
+ia-enron-email-dynamic-insert-1000 p3 final 1180387 ops M3:86696376 P3:16790253 S3:13239794 T3:475656730
+ia-enron-email-dynamic-insert-1000 p5 final 6565632383 ops A5:485267346463 M5:5303415867 PR:3766211885 R2:7779357347 WJ:2775224057 WT:3389238219
+CELL-DONE p5 ia-enron-email-dynamic insert 1000 10:27:35
+ia-enron-email-dynamic-insert-100 p5 R2 status=OK done=11350/11350 net=297456 ops=7834203944 t=6565632383 table=3072 secs=2.622
+ia-enron-email-dynamic-insert-100 p5 PR status=OK done=11350/11350 net=297456 ops=4067482054 t=6565632383 table=3072 secs=1.402
+ia-enron-email-dynamic-insert-100 p5 WT status=OK done=11350/11350 net=297456 ops=3318751535 t=6565632383 table=476873716 secs=5.573
+ia-enron-email-dynamic-insert-100 p5 WJ status=OK done=11350/11350 net=297456 ops=2715994982 t=6565632383 table=805306368 secs=28.180
+ia-enron-email-dynamic-insert-100 p5 M5 status=OK done=11350/11350 net=297456 ops=5239503984 t=6565632383 table=143119432 secs=4.463
+ia-enron-email-dynamic-insert-100 p5 A5 status=TIME done=5864/11350 net=152441 ops=628222457365 t=1628316642 table=0 secs=300.075
+ia-enron-email-dynamic-insert-100 p3 final 1180387 ops M3:87246468 P3:17031401 S3:13141198 T3:474937784
+ia-enron-email-dynamic-insert-100 p5 final 6565632383 ops A5:628221327941(5864/11350) M5:5239503984 PR:4067482054 R2:7834203944 WJ:2715994982 WT:3318751535
+CELL-DONE p5 ia-enron-email-dynamic insert 100 10:33:18
+soc-redditHyperlinks-body-expiry-1000 p5 R2 status=OK done=574/574 net=456500 ops=110019655 t=0 table=3072 secs=0.152
+soc-redditHyperlinks-body-expiry-1000 p5 PR status=OK done=574/574 net=456500 ops=60575537 t=0 table=3072 secs=0.102
+soc-redditHyperlinks-body-expiry-1000 p5 WT status=OK done=574/574 net=456500 ops=127480219 t=0 table=3139172 secs=0.226
+soc-redditHyperlinks-body-expiry-1000 p5 WJ status=OK done=574/574 net=456500 ops=73186200 t=0 table=3145728 secs=0.222
+soc-redditHyperlinks-body-expiry-1000 p5 M5 status=OK done=574/574 net=456500 ops=144141973 t=0 table=2582092 secs=0.242
+soc-redditHyperlinks-body-expiry-1000 p5 A5 status=OK done=574/574 net=456500 ops=276419097 t=0 table=0 secs=0.245
+soc-redditHyperlinks-body-expiry-1000 p3 final 0 ops M3:35652630 P3:7973337 S3:4828256 T3:57342076
+soc-redditHyperlinks-body-expiry-1000 p5 final 0 ops A5:276419097 M5:144141973 PR:60575537 R2:110019655 WJ:73186200 WT:127480219
+CELL-DONE p5 soc-redditHyperlinks-body expiry 1000 10:33:19
+soc-redditHyperlinks-body-expiry-100 p5 R2 status=OK done=5732/5732 net=471776 ops=128290960 t=0 table=3072 secs=0.169
+soc-redditHyperlinks-body-expiry-100 p5 PR status=OK done=5732/5732 net=471776 ops=104428064 t=0 table=3072 secs=0.154
+soc-redditHyperlinks-body-expiry-100 p5 WT status=OK done=5732/5732 net=471776 ops=147315002 t=0 table=3176624 secs=0.249
+soc-redditHyperlinks-body-expiry-100 p5 WJ status=OK done=5732/5732 net=471776 ops=85906342 t=0 table=3145728 secs=0.270
+soc-redditHyperlinks-body-expiry-100 p5 M5 status=OK done=5732/5732 net=471776 ops=165588136 t=0 table=2619540 secs=0.267
+soc-redditHyperlinks-body-expiry-100 p5 A5 status=OK done=5732/5732 net=471776 ops=1922966361 t=0 table=0 secs=1.260
+soc-redditHyperlinks-body-expiry-100 p3 final 0 ops M3:37514989 P3:7573255 S3:5116280 T3:62562528
+soc-redditHyperlinks-body-expiry-100 p5 final 0 ops A5:1922966361 M5:165588136 PR:104428064 R2:128290960 WJ:85906342 WT:147315002
+CELL-DONE p5 soc-redditHyperlinks-body expiry 100 10:33:22
+soc-redditHyperlinks-body-insert-1000 p5 R2 status=OK done=287/287 net=124330 ops=3734318548 t=3159998117 table=3072 secs=1.318
+soc-redditHyperlinks-body-insert-1000 p5 PR status=OK done=287/287 net=124330 ops=2468774458 t=3159998117 table=3072 secs=0.809
+soc-redditHyperlinks-body-insert-1000 p5 WT status=OK done=287/287 net=124330 ops=1282809320 t=3159998117 table=212510248 secs=2.570
+soc-redditHyperlinks-body-insert-1000 p5 WJ status=OK done=287/287 net=124330 ops=1067657212 t=3159998117 table=402653184 secs=12.415
+soc-redditHyperlinks-body-insert-1000 p5 M5 status=OK done=287/287 net=124330 ops=2105653553 t=3159998117 table=63037808 secs=2.158
+soc-redditHyperlinks-body-insert-1000 p5 A5 status=OK done=287/287 net=124330 ops=38832334146 t=3159998117 table=0 secs=20.991
+soc-redditHyperlinks-body-insert-1000 p3 final 406391 ops M3:37666857 P3:6498333 S3:4770630 T3:202429952
+soc-redditHyperlinks-body-insert-1000 p5 final 3159998117 ops A5:38832334146 M5:2105653553 PR:2468774458 R2:3734318548 WJ:1067657212 WT:1282809320
+CELL-DONE p5 soc-redditHyperlinks-body insert 1000 10:34:03
+soc-redditHyperlinks-body-insert-100 p5 R2 status=OK done=2866/2866 net=124330 ops=3734203660 t=3159998117 table=3072 secs=1.307
+soc-redditHyperlinks-body-insert-100 p5 PR status=OK done=2866/2866 net=124330 ops=3348873720 t=3159998117 table=3072 secs=1.158
+soc-redditHyperlinks-body-insert-100 p5 WT status=OK done=2866/2866 net=124330 ops=1282630377 t=3159998117 table=212468904 secs=2.168
+soc-redditHyperlinks-body-insert-100 p5 WJ status=OK done=2866/2866 net=124330 ops=1067658076 t=3159998117 table=402653184 secs=11.170
+soc-redditHyperlinks-body-insert-100 p5 M5 status=OK done=2866/2866 net=124330 ops=2105570739 t=3159998117 table=63046472 secs=1.782
+soc-redditHyperlinks-body-insert-100 p5 A5 status=OK done=2866/2866 net=124330 ops=383712612403 t=3159998117 table=0 secs=205.158
+soc-redditHyperlinks-body-insert-100 p3 final 406391 ops M3:37672184 P3:5861994 S3:4767184 T3:202418610
+soc-redditHyperlinks-body-insert-100 p5 final 3159998117 ops A5:383712612403 M5:2105570739 PR:3348873720 R2:3734203660 WJ:1067658076 WT:1282630377
+CELL-DONE p5 soc-redditHyperlinks-body insert 100 10:37:46
+soc-redditHyperlinks-title-expiry-1000 p5 R2 status=OK done=1144/1144 net=907190 ops=1201812719 t=0 table=3072 secs=0.886
+soc-redditHyperlinks-title-expiry-1000 p5 PR status=OK done=1144/1144 net=907190 ops=570758148 t=0 table=3072 secs=0.458
+soc-redditHyperlinks-title-expiry-1000 p5 WT status=OK done=1144/1144 net=907190 ops=1192884454 t=0 table=7439524 secs=1.328
+soc-redditHyperlinks-title-expiry-1000 p5 WJ status=OK done=1144/1144 net=907190 ops=799368980 t=0 table=6291456 secs=3.532
+soc-redditHyperlinks-title-expiry-1000 p5 M5 status=OK done=1144/1144 net=907190 ops=1282813884 t=0 table=6044036 secs=1.408
+soc-redditHyperlinks-title-expiry-1000 p5 A5 status=OK done=1144/1144 net=907190 ops=1355609117 t=0 table=0 secs=1.046
+soc-redditHyperlinks-title-expiry-1000 p3 final 0 ops M3:83501789 P3:24459456 S3:14974983 T3:316425640
+soc-redditHyperlinks-title-expiry-1000 p5 final 0 ops A5:1355609117 M5:1282813884 PR:570758148 R2:1201812719 WJ:799368980 WT:1192884454
+CELL-DONE p5 soc-redditHyperlinks-title expiry 1000 10:37:55
+soc-redditHyperlinks-title-expiry-100 p5 R2 status=OK done=11439/11439 net=927080 ops=1344295493 t=0 table=3072 secs=0.970
+soc-redditHyperlinks-title-expiry-100 p5 PR status=OK done=11439/11439 net=927080 ops=1082173969 t=0 table=3072 secs=0.818
+soc-redditHyperlinks-title-expiry-100 p5 WT status=OK done=11439/11439 net=927080 ops=1352331248 t=0 table=7595616 secs=1.455
+soc-redditHyperlinks-title-expiry-100 p5 WJ status=OK done=11439/11439 net=927080 ops=918411813 t=0 table=6291456 secs=4.228
+soc-redditHyperlinks-title-expiry-100 p5 M5 status=OK done=11439/11439 net=927080 ops=1448963067 t=0 table=6140320 secs=1.646
+soc-redditHyperlinks-title-expiry-100 p5 A5 status=OK done=11439/11439 net=927080 ops=12225017287 t=0 table=0 secs=8.153
+soc-redditHyperlinks-title-expiry-100 p3 final 0 ops M3:86584445 P3:22517416 S3:15962576 T3:337601636
+soc-redditHyperlinks-title-expiry-100 p5 final 0 ops A5:12225017287 M5:1448963067 PR:1082173969 R2:1344295493 WJ:918411813 WT:1352331248
+CELL-DONE p5 soc-redditHyperlinks-title expiry 100 10:38:13
+soc-redditHyperlinks-title-insert-1000 p5 R2 status=OK done=572/572 net=220151 ops=20696734734 t=30987019244 table=3072 secs=6.932
+soc-redditHyperlinks-title-insert-1000 p5 PR status=OK done=572/572 net=220151 ops=14018562585 t=30987019244 table=3072 secs=4.218
+soc-redditHyperlinks-title-insert-1000 p5 WT status=OK done=572/572 net=220151 ops=5528180434 t=30987019244 table=751869048 secs=11.721
+soc-redditHyperlinks-title-insert-1000 p5 WJ status=OK done=572/572 net=220151 ops=4797278043 t=30987019244 table=805306368 secs=53.188
+soc-redditHyperlinks-title-insert-1000 p5 M5 status=OK done=572/572 net=220151 ops=11822916570 t=30987019244 table=98339696 secs=8.188
+soc-redditHyperlinks-title-insert-1000 p5 A5 status=OK done=572/572 net=220151 ops=294430780891 t=30987019244 table=0 secs=135.262
+soc-redditHyperlinks-title-insert-1000 p3 final 1329278 ops M3:106339035 P3:16081154 S3:12164994 T3:754726617
+soc-redditHyperlinks-title-insert-1000 p5 final 30987019244 ops A5:294430780891 M5:11822916570 PR:14018562585 R2:20696734734 WJ:4797278043 WT:5528180434
+CELL-DONE p5 soc-redditHyperlinks-title insert 1000 10:41:53
+soc-redditHyperlinks-title-insert-100 p5 R2 status=OK done=5720/5720 net=220151 ops=20698155475 t=30987019244 table=3072 secs=6.837
+soc-redditHyperlinks-title-insert-100 p5 PR status=OK done=5720/5720 net=220151 ops=19003995760 t=30987019244 table=3072 secs=6.095
+soc-redditHyperlinks-title-insert-100 p5 WT status=OK done=5720/5720 net=220151 ops=5525737932 t=30987019244 table=751667736 secs=11.728
+soc-redditHyperlinks-title-insert-100 p5 WJ status=OK done=5720/5720 net=220151 ops=4796116982 t=30987019244 table=805306368 secs=53.875
+soc-redditHyperlinks-title-insert-100 p5 M5 status=OK done=5720/5720 net=220151 ops=11819994571 t=30987019244 table=98300864 secs=8.736
+soc-redditHyperlinks-title-insert-100 p5 A5 status=TIME done=3222/5720 net=131880 ops=605454209273 t=8047327511 table=0 secs=300.084
+soc-redditHyperlinks-title-insert-100 p3 final 1329278 ops M3:106349994 P3:14423638 S3:12163150 T3:754602993
+soc-redditHyperlinks-title-insert-100 p5 final 30987019244 ops A5:605452776597(3222/5720) M5:11819994571 PR:19003995760 R2:20698155475 WJ:4796116982 WT:5525737932
+CELL-DONE p5 soc-redditHyperlinks-title insert 100 10:48:21
+cannot open events
+cannot open events
+cannot open events
+cannot open events
+cannot open events
+cannot open events
+soc-youtube-growth-expiry-1000 p3 final 2489872 ops M3:474838487 P3:56113440 S3:41804654 T3:9861632566(655/2000)
+CELL-DONE p5 soc-youtube-growth expiry 1000 10:48:22
+cannot open events
+cannot open events
+cannot open events
+cannot open events
+cannot open events
+cannot open events
+soc-youtube-growth-expiry-100 p3 final 2489872 ops M3:492493855 P3:56667069 S3:40916350 T3:9810507912(6657/20000)
+CELL-DONE p5 soc-youtube-growth expiry 100 10:48:22
+soc-youtube-growth-insert-1000 p5 R2 status=OK done=2000/2000 net=2000000 ops=210504349807 t=27519993227 table=3072 secs=61.187
+soc-youtube-growth-insert-1000 p5 PR status=OK done=2000/2000 net=2000000 ops=44990566759 t=27519993227 table=3072 secs=13.817
+soc-youtube-growth-insert-1000 p5 WT status=MEM done=655/2000 net=656000 ops=13378880185 t=10149932623 table=13885204520 secs=35.780
+soc-youtube-growth-insert-1000 p5 WJ status=CAP done=174/2000 net=174000 ops=3371540085 t=1927168719 table=6442450944 secs=29.245
+soc-youtube-growth-insert-1000 p5 M5 status=OK done=2000/2000 net=2000000 ops=47363351215 t=27519993227 table=959926400 secs=30.428
+soc-youtube-growth-insert-1000 p5 A5 status=TIME done=837/2000 net=838000 ops=531424107468 t=12919106511 table=0 secs=300.050
+soc-youtube-growth-insert-1000 p3 final 2489872 ops M3:474838487 P3:56113440 S3:41804654 T3:9861632566(655/2000)
+soc-youtube-growth-insert-1000 p5 final 27519993227 ops A5:531416402500(837/2000) M5:47363351215 PR:44990566759 R2:210504349807 WJ:3313301285(173/2000) WT:13378173715(655/2000)
+CELL-DONE p5 soc-youtube-growth insert 1000 10:56:15
+soc-youtube-growth-insert-100 p5 R2 status=OK done=20000/20000 net=2000000 ops=212286279942 t=27519993227 table=3072 secs=61.149
+soc-youtube-growth-insert-100 p5 PR status=OK done=20000/20000 net=2000000 ops=47035672446 t=27519993227 table=3072 secs=13.630
+soc-youtube-growth-insert-100 p5 WT status=MEM done=6657/20000 net=665800 ops=12426659523 t=10286310183 table=13891488056 secs=33.835
+soc-youtube-growth-insert-100 p5 WJ status=CAP done=1735/20000 net=173500 ops=3192627823 t=1924683648 table=6442450944 secs=28.624
+soc-youtube-growth-insert-100 p5 M5 status=OK done=20000/20000 net=2000000 ops=46955641547 t=27519993227 table=960594916 secs=27.608
+soc-youtube-growth-insert-100 p5 A5 status=TIME done=3797/20000 net=379800 ops=606640292598 t=5352008109 table=0 secs=300.035
+soc-youtube-growth-insert-100 p3 final 2489872 ops M3:492493855 P3:56667069 S3:40916350 T3:9815361002(6691/20000)
+soc-youtube-growth-insert-100 p5 final 27519993227 ops A5:606637128832(3797/20000) M5:46955641547 PR:47035672446 R2:212286279942 WJ:3187721389(1734/20000) WT:12425820170(6657/20000)
+CELL-DONE p5 soc-youtube-growth insert 100 11:04:02
+simplewiki-real-1000 p5 R2 status=OK done=1559/1559 net=991548 ops=54128854666 t=12971659284 table=3072 secs=19.597
+simplewiki-real-1000 p5 PR status=OK done=1559/1559 net=991548 ops=29784070580 t=12971659284 table=3072 secs=11.075
+simplewiki-real-1000 p5 WT status=OK done=1559/1559 net=991548 ops=41067935022 t=12971659284 table=2822867764 secs=47.693
+simplewiki-real-1000 p5 WJ status=OK done=1559/1559 net=991548 ops=29509376223 t=12971659284 table=3221225472 secs=366.895
+simplewiki-real-1000 p5 M5 status=OK done=1559/1559 net=991548 ops=43367776447 t=12971659284 table=340906160 secs=31.411
+simplewiki-real-1000 p5 A5 status=TIME done=903/1559 net=614498 ops=575265641523 t=3705268552 table=0 secs=300.066
+simplewiki-real-1000 p3 final 1144661 ops M3:383594424 P3:62815492 S3:50408482 T3:3316058676
+simplewiki-real-1000 p5 final 12971659284 ops A5:575260629711(903/1559) M5:43367776447 PR:29784070580 R2:54128854666 WJ:29509376223 WT:41067935022
+CELL-DONE p5 simplewiki real 1000 11:17:00
+simplewiki-real-100 p5 R2 status=OK done=15583/15583 net=1241036 ops=75875955906 t=12971659284 table=3072 secs=27.732
+simplewiki-real-100 p5 PR status=OK done=15583/15583 net=1241036 ops=41111091335 t=12971659284 table=3072 secs=15.699
+simplewiki-real-100 p5 WT status=OK done=15583/15583 net=1241036 ops=115575299953 t=12971659284 table=2830634736 secs=98.809
+simplewiki-real-100 p5 WJ status=OK done=15583/15583 net=1241036 ops=79349486543 t=12971659284 table=3221225472 secs=965.197
+simplewiki-real-100 p5 M5 status=OK done=15583/15583 net=1241036 ops=82606320415 t=12971659284 table=341995120 secs=52.211
+simplewiki-real-100 p5 A5 status=TIME done=2320/15583 net=200746 ops=684602003203 t=896454737 table=0 secs=300.052
+simplewiki-real-100 p3 final 1144661 ops M3:520821063 P3:99895306 S3:78362172 T3:4499247564
+simplewiki-real-100 p5 final 12971659284 ops A5:684600757031(2320/15583) M5:82606320415 PR:41111091335 R2:75875955906 WJ:79349486543 WT:115575299953
+CELL-DONE p5 simplewiki real 100 11:41:21
+nlwiki-real-1000 p5 R2 status=OK done=2000/2000 net=1749936 ops=106548580315 t=19339681540 table=3072 secs=43.248
+nlwiki-real-1000 p5 PR status=OK done=2000/2000 net=1749936 ops=67285160780 t=19339681540 table=3072 secs=27.826
+nlwiki-real-1000 p5 WT status=OK done=2000/2000 net=1749936 ops=61973178769 t=19339681540 table=4181807388 secs=94.375
+nlwiki-real-1000 p5 WJ status=OK done=2000/2000 net=1749936 ops=47920760456 t=19339681540 table=6442450944 secs=712.776
+nlwiki-real-1000 p5 M5 status=OK done=2000/2000 net=1749936 ops=82975831201 t=19339681540 table=586249836 secs=70.679
+nlwiki-real-1000 p5 A5 status=TIME done=898/2000 net=781332 ops=485695977032 t=4578745990 table=0 secs=300.046
+nlwiki-real-1000 p3 final 1616426 ops M3:686659152 P3:94682204 S3:71551988 T3:5408522856
+nlwiki-real-1000 p5 final 19339681540 ops A5:485689741928(898/2000) M5:82975831201 PR:67285160780 R2:106548580315 WJ:47920760456 WT:61973178769
+CELL-DONE p5 nlwiki real 1000 12:02:11
+nlwiki-real-100 p5 R2 status=OK done=20000/20000 net=1886774 ops=118883261791 t=19339681540 table=3072 secs=50.429
+nlwiki-real-100 p5 PR status=OK done=20000/20000 net=1886774 ops=79403912172 t=19339681540 table=3072 secs=34.888
+nlwiki-real-100 p5 WT status=OK done=20000/20000 net=1886774 ops=84122254952 t=19339681540 table=4194360880 secs=124.465
+nlwiki-real-100 p5 WJ status=OK done=20000/20000 net=1886774 ops=63518427101 t=19339681540 table=6442450944 secs=860.098
+nlwiki-real-100 p5 M5 status=OK done=20000/20000 net=1886774 ops=100764375996 t=19339681540 table=587530788 secs=84.119
+nlwiki-real-100 p5 A5 status=TIME done=3736/20000 net=352482 ops=507752716325 t=969375930 table=0 secs=300.042
+nlwiki-real-100 p3 final 1616426 ops M3:758735826 P3:112585144 S3:83541677 T3:5868506122
+nlwiki-real-100 p5 final 19339681540 ops A5:507751024857(3736/20000) M5:100764375996 PR:79403912172 R2:118883261791 WJ:63518427101 WT:84122254952
+CELL-DONE p5 nlwiki real 100 12:26:26
+plwiki-real-1000 p5 R2 status=OK done=2000/2000 net=1821576 ops=177866510434 t=53980701384 table=3072 secs=67.686
+plwiki-real-1000 p5 PR status=OK done=2000/2000 net=1821576 ops=102465132564 t=53980701384 table=3072 secs=40.604
+plwiki-real-1000 p5 WT status=OK done=2000/2000 net=1821576 ops=76516681691 t=53980701384 table=7359671568 secs=119.411
+plwiki-real-1000 p5 WJ status=CAP done=1960/2000 net=1783998 ops=59854063349 t=52706428740 table=6442450944 secs=737.402
+plwiki-real-1000 p5 M5 status=OK done=2000/2000 net=1821576 ops=134865231644 t=53980701384 table=588387524 secs=94.923
+plwiki-real-1000 p5 A5 status=TIME done=771/2000 net=725332 ops=608287666144 t=10052266978 table=0 secs=300.052
+plwiki-real-1000 p3 final 3460789 ops M3:1111799033 P3:125443422 S3:100833092 T3:8460890438
+plwiki-real-1000 p5 final 53980701384 ops A5:608282306858(771/2000) M5:134865231644 PR:102465132564 R2:177866510434 WJ:59814114402(1959/2000) WT:76516681691
+CELL-DONE p5 plwiki real 1000 12:49:07
+plwiki-real-100 p5 R2 status=OK done=20000/20000 net=1923044 ops=189142903660 t=53980701384 table=3072 secs=72.370
+plwiki-real-100 p5 PR status=OK done=20000/20000 net=1923044 ops=120487747649 t=53980701384 table=3072 secs=47.492
+plwiki-real-100 p5 WT status=OK done=20000/20000 net=1923044 ops=94079162979 t=53980701384 table=7364353320 secs=142.838
+plwiki-real-100 p5 WJ status=CAP done=19598/20000 net=1884084 ops=73115091579 t=52700215114 table=6442450944 secs=939.092
+plwiki-real-100 p5 M5 status=OK done=20000/20000 net=1923044 ops=152697869597 t=53980701384 table=589452396 secs=101.078
+plwiki-real-100 p5 A5 status=TIME done=3388/20000 net=329842 ops=618806865219 t=14392700339 table=0 secs=300.065
+plwiki-real-100 p3 final 3460789 ops M3:1175671990 P3:141993428 S3:111848826 T3:8835410458
+plwiki-real-100 p5 final 53980701384 ops A5:618805124375(3388/20000) M5:152697869597 PR:120487747649 R2:189142903660 WJ:73112495703(19597/20000) WT:94079162979
+CELL-DONE p5 plwiki real 100 13:15:51
+itwiki-real-1000 p5 R2 status=OK done=2000/2000 net=1855928 ops=266417779334 t=44907568191 table=3072 secs=106.614
+itwiki-real-1000 p5 PR status=OK done=2000/2000 net=1855928 ops=112596341613 t=44907568191 table=3072 secs=41.745
+itwiki-real-1000 p5 WT status=MEM done=1453/2000 net=1357532 ops=71689280129 t=42497352830 table=13586422416 secs=93.761
+itwiki-real-1000 p5 WJ status=CAP done=1373/2000 net=1277100 ops=34476263294 t=38215003286 table=6442450944 secs=453.923
+itwiki-real-1000 p5 M5 status=OK done=2000/2000 net=1855928 ops=204241441502 t=44907568191 table=612043148 secs=113.172
+itwiki-real-1000 p5 A5 status=TIME done=745/2000 net=694864 ops=584471166357 t=8472711318 table=0 secs=300.057
+itwiki-real-1000 p3 final 1871855 ops M3:1023162294 P3:94613655 S3:73507287 T3:16392278974(1453/2000)
+itwiki-real-1000 p5 final 44907568191 ops A5:584465002065(745/2000) M5:204241441502 PR:112596341613 R2:266417779334 WJ:34411620658(1372/2000) WT:71512463752(1453/2000)
+CELL-DONE p5 itwiki real 1000 13:34:23
+itwiki-real-100 p5 R2 status=OK done=20000/20000 net=1938448 ops=278177882754 t=44907568191 table=3072 secs=112.459
+itwiki-real-100 p5 PR status=OK done=20000/20000 net=1938448 ops=135267641192 t=44907568191 table=3072 secs=51.436
+itwiki-real-100 p5 WT status=MEM done=14535/20000 net=1411074 ops=73461391257 t=42527706433 table=13591934200 secs=96.889
+itwiki-real-100 p5 WJ status=CAP done=13721/20000 net=1329818 ops=36020516096 t=38179692096 table=6442450944 secs=476.734
+itwiki-real-100 p5 M5 status=OK done=20000/20000 net=1938448 ops=212734738428 t=44907568191 table=612834396 secs=119.773
+itwiki-real-100 p5 A5 status=TIME done=2910/20000 net=283328 ops=588255739812 t=1358200622 table=0 secs=300.058
+itwiki-real-100 p3 final 1871855 ops M3:1069483833 P3:103685612 S3:78909191 T3:16584057338(14535/20000)
+itwiki-real-100 p5 final 44907568191 ops A5:588253583544(2910/20000) M5:212734738428 PR:135267641192 R2:278177882754 WJ:36013619282(13720/20000) WT:73434225640(14535/20000)
+CELL-DONE p5 itwiki real 100 13:53:43
+frwiki-real-1000 p5 R2 status=OK done=2000/2000 net=1779796 ops=121692709592 t=32191020208 table=3072 secs=47.872
+frwiki-real-1000 p5 PR status=OK done=2000/2000 net=1779796 ops=77584614258 t=32191020208 table=3072 secs=31.955
+frwiki-real-1000 p5 WT status=OK done=2000/2000 net=1779796 ops=55483773270 t=32191020208 table=4063616816 secs=88.354
+frwiki-real-1000 p5 WJ status=OK done=2000/2000 net=1779796 ops=45695783236 t=32191020208 table=6442450944 secs=659.557
+frwiki-real-1000 p5 M5 status=OK done=2000/2000 net=1779796 ops=89141269471 t=32191020208 table=623608448 secs=71.419
+frwiki-real-1000 p5 A5 status=TIME done=882/2000 net=791702 ops=580436653593 t=6290452100 table=0 secs=300.054
+frwiki-real-1000 p3 final 2054829 ops M3:759821422 P3:105983727 S3:83235375 T3:5416099778
+frwiki-real-1000 p5 final 32191020208 ops A5:580430437647(882/2000) M5:89141269471 PR:77584614258 R2:121692709592 WJ:45695783236 WT:55483773270
+CELL-DONE p5 frwiki real 1000 14:13:44
+frwiki-real-100 p5 R2 status=OK done=20000/20000 net=1926228 ops=132491390157 t=32191020208 table=3072 secs=52.472
+frwiki-real-100 p5 PR status=OK done=20000/20000 net=1926228 ops=89583779118 t=32191020208 table=3072 secs=37.555
+frwiki-real-100 p5 WT status=OK done=20000/20000 net=1926228 ops=63367769742 t=32191020208 table=4071875712 secs=98.816
+frwiki-real-100 p5 WJ status=OK done=20000/20000 net=1926228 ops=51906367404 t=32191020208 table=6442450944 secs=746.898
+frwiki-real-100 p5 M5 status=OK done=20000/20000 net=1926228 ops=98973082751 t=32191020208 table=625065852 secs=79.173
+frwiki-real-100 p5 A5 status=TIME done=3905/20000 net=378808 ops=567865445122 t=1469929673 table=0 secs=300.057
+frwiki-real-100 p3 final 2054829 ops M3:817980569 P3:120201144 S3:91926739 T3:5876115352
+frwiki-real-100 p5 final 32191020208 ops A5:567863348392(3905/20000) M5:98973082751 PR:89583779118 R2:132491390157 WJ:51906367404 WT:63367769742
+CELL-DONE p5 frwiki real 100 14:35:40
+dewiki-real-1000 p5 R2 status=OK done=2000/2000 net=1828436 ops=69099878486 t=19139725371 table=3072 secs=28.458
+dewiki-real-1000 p5 PR status=OK done=2000/2000 net=1828436 ops=45167743109 t=19139725371 table=3072 secs=19.931
+dewiki-real-1000 p5 WT status=OK done=2000/2000 net=1828436 ops=31421901661 t=19139725371 table=2461513528 secs=57.240
+dewiki-real-1000 p5 WJ status=OK done=2000/2000 net=1828436 ops=25411244095 t=19139725371 table=3221225472 secs=320.826
+dewiki-real-1000 p5 M5 status=OK done=2000/2000 net=1828436 ops=52150657545 t=19139725371 table=737623280 secs=54.159
+dewiki-real-1000 p5 A5 status=TIME done=920/2000 net=849736 ops=477230282379 t=2736518715 table=0 secs=300.059
+dewiki-real-1000 p3 final 2543198 ops M3:665830992 P3:107399596 S3:82573855 T3:3451485494
+dewiki-real-1000 p5 final 19139725371 ops A5:477224929023(920/2000) M5:52150657545 PR:45167743109 R2:69099878486 WJ:25411244095 WT:31421901661
+CELL-DONE p5 dewiki real 1000 14:48:42
+dewiki-real-100 p5 R2 status=OK done=20000/20000 net=1937014 ops=75583517209 t=19139725371 table=3072 secs=31.186
+dewiki-real-100 p5 PR status=OK done=20000/20000 net=1937014 ops=49769414106 t=19139725371 table=3072 secs=21.963
+dewiki-real-100 p5 WT status=OK done=20000/20000 net=1937014 ops=39286162726 t=19139725371 table=2466339008 secs=66.771
+dewiki-real-100 p5 WJ status=OK done=20000/20000 net=1937014 ops=31263783889 t=19139725371 table=3221225472 secs=400.849
+dewiki-real-100 p5 M5 status=OK done=20000/20000 net=1937014 ops=61873373238 t=19139725371 table=739021004 secs=61.818
+dewiki-real-100 p5 A5 status=TIME done=3806/20000 net=366544 ops=484579884596 t=372339829 table=0 secs=300.062
+dewiki-real-100 p3 final 2543198 ops M3:715260784 P3:121070116 S3:91803946 T3:3677896480
+dewiki-real-100 p5 final 19139725371 ops A5:484577999844(3806/20000) M5:61873373238 PR:49769414106 R2:75583517209 WJ:31263783889 WT:39286162726
+CELL-DONE p5 dewiki real 100 15:03:25
+M1D07-DONE count results/gate1-M1D07
+released the tower claim for research11
+M1D07C-RELEASED 15:03:26 exit 0
+=== second claim, SKIP soc-youtube-growth (its expiry copy is held out, log.md 0048; its insert cells finished in the first claim)
+checks: RAM 16 GiB, commit free 79 GiB, checksums and count.exe hash good
+claimed the tower for research11: R11 M1D07C count sweep, ordinary, 1 thread CPU 8, line 8 h, ControlPC GO
+M1D07C-CLAIMED 15:04:28
+data/m1d07/raw/ia-reality-call.zip [ia-reality-call.edges] format=nr variant=expiry lines=52050 kept=51247 vertices_cleaned=6809 events_full=102494 events=102494 prefix=whole vertices_in_prefix=6809 deletions=51247 deletion_share=0.5000 t_min=1095984059 t_max=1106351778 distinct_times=101031
+data/m1d07/raw/ia-reality-call.zip [ia-reality-call.edges] format=nr variant=insert lines=52050 kept=51247 vertices_cleaned=6809 events_full=51247 events=51247 prefix=whole vertices_in_prefix=6809 deletions=0 deletion_share=0.0000 t_min=1095984059 t_max=1105142178 distinct_times=50781
+data/m1d07/raw/soc-wiki-elec.zip [soc-wiki-elec.edges] format=nr variant=expiry lines=107071 kept=107013 vertices_cleaned=7115 events_full=214026 events=214026 prefix=whole vertices_in_prefix=7115 deletions=107013 deletion_share=0.5000 t_min=1080493920 t_max=1200791760 distinct_times=194844
+data/m1d07/raw/soc-wiki-elec.zip [soc-wiki-elec.edges] format=nr variant=insert lines=107071 kept=107013 vertices_cleaned=7115 events_full=107013 events=107013 prefix=whole vertices_in_prefix=7115 deletions=0 deletion_share=0.0000 t_min=1080493920 t_max=1199582160 distinct_times=101012
+M1D07-SKIP soc-youtube-growth
+M1D07-DERIVED data/m1d07/derived
+ia-reality-call-expiry-1000 p3 S3 status=OK done=103/103 net=26922 ops=369301 t=0 table=0 secs=0.002
+ia-reality-call-expiry-1000 p3 P3 status=OK done=103/103 net=26922 ops=510419 t=0 table=0 secs=0.002
+ia-reality-call-expiry-1000 p3 T3 status=OK done=103/103 net=26922 ops=6695320 t=0 table=905988 secs=0.018
+ia-reality-call-expiry-1000 p3 M3 status=OK done=103/103 net=26922 ops=2846182 t=0 table=383728 secs=0.009
+ia-reality-call-expiry-1000 p3 final 0 ops M3:2846182 P3:510419 S3:369301 T3:6695320
+CELL-DONE p3 ia-reality-call expiry 1000 15:04:34
+ia-reality-call-expiry-100 p3 S3 status=OK done=1025/1025 net=33712 ops=427288 t=0 table=0 secs=0.003
+ia-reality-call-expiry-100 p3 P3 status=OK done=1025/1025 net=33712 ops=582488 t=0 table=0 secs=0.003
+ia-reality-call-expiry-100 p3 T3 status=OK done=1025/1025 net=33712 ops=8587646 t=0 table=924404 secs=0.023
+ia-reality-call-expiry-100 p3 M3 status=OK done=1025/1025 net=33712 ops=3328631 t=0 table=373980 secs=0.010
+ia-reality-call-expiry-100 p3 final 0 ops M3:3328631 P3:582488 S3:427288 T3:8587646
+CELL-DONE p3 ia-reality-call expiry 100 15:04:34
+ia-reality-call-insert-1000 p3 S3 status=OK done=52/52 net=7680 ops=143644 t=400 table=0 secs=0.001
+ia-reality-call-insert-1000 p3 P3 status=OK done=52/52 net=7680 ops=180355 t=400 table=0 secs=0.001
+ia-reality-call-insert-1000 p3 T3 status=OK done=52/52 net=7680 ops=5899756 t=400 table=9041020 secs=0.011
+ia-reality-call-insert-1000 p3 M3 status=OK done=52/52 net=7680 ops=1016311 t=400 table=318088 secs=0.003
+ia-reality-call-insert-1000 p3 final 400 ops M3:1016311 P3:180355 S3:143644 T3:5899756
+CELL-DONE p3 ia-reality-call insert 1000 15:04:35
+ia-reality-call-insert-100 p3 S3 status=OK done=513/513 net=7680 ops=143684 t=400 table=0 secs=0.001
+ia-reality-call-insert-100 p3 P3 status=OK done=513/513 net=7680 ops=175570 t=400 table=0 secs=0.001
+ia-reality-call-insert-100 p3 T3 status=OK done=513/513 net=7680 ops=5901022 t=400 table=9041020 secs=0.011
+ia-reality-call-insert-100 p3 M3 status=OK done=513/513 net=7680 ops=1016241 t=400 table=318736 secs=0.003
+ia-reality-call-insert-100 p3 final 400 ops M3:1016241 P3:175570 S3:143684 T3:5901022
+CELL-DONE p3 ia-reality-call insert 100 15:04:35
+soc-wiki-elec-expiry-1000 p3 S3 status=OK done=215/215 net=207198 ops=3862027 t=0 table=0 secs=0.020
+soc-wiki-elec-expiry-1000 p3 P3 status=OK done=215/215 net=207198 ops=5827611 t=0 table=0 secs=0.015
+soc-wiki-elec-expiry-1000 p3 T3 status=OK done=215/215 net=207198 ops=72686658 t=0 table=2127668 secs=0.180
+soc-wiki-elec-expiry-1000 p3 M3 status=OK done=215/215 net=207198 ops=31608126 t=0 table=492348 secs=0.081
+soc-wiki-elec-expiry-1000 p3 final 0 ops M3:31608126 P3:5827611 S3:3862027 T3:72686658
+CELL-DONE p3 soc-wiki-elec expiry 1000 15:04:35
+soc-wiki-elec-expiry-100 p3 S3 status=OK done=2141/2141 net=212040 ops=4132736 t=0 table=0 secs=0.022
+soc-wiki-elec-expiry-100 p3 P3 status=OK done=2141/2141 net=212040 ops=6764486 t=0 table=0 secs=0.019
+soc-wiki-elec-expiry-100 p3 T3 status=OK done=2141/2141 net=212040 ops=74710736 t=0 table=2154636 secs=0.184
+soc-wiki-elec-expiry-100 p3 M3 status=OK done=2141/2141 net=212040 ops=33507793 t=0 table=496212 secs=0.084
+soc-wiki-elec-expiry-100 p3 final 0 ops M3:33507793 P3:6764486 S3:4132736 T3:74710736
+CELL-DONE p3 soc-wiki-elec expiry 100 15:04:36
+soc-wiki-elec-insert-1000 p3 S3 status=OK done=108/108 net=100753 ops=6553092 t=608350 table=0 secs=0.043
+soc-wiki-elec-insert-1000 p3 P3 status=OK done=108/108 net=100753 ops=7575664 t=608350 table=0 secs=0.032
+soc-wiki-elec-insert-1000 p3 T3 status=OK done=108/108 net=100753 ops=111027817 t=608350 table=58136056 secs=0.246
+soc-wiki-elec-insert-1000 p3 M3 status=OK done=108/108 net=100753 ops=43188717 t=608350 table=4141280 secs=0.066
+soc-wiki-elec-insert-1000 p3 final 608350 ops M3:43188717 P3:7575664 S3:6553092 T3:111027817
+CELL-DONE p3 soc-wiki-elec insert 1000 15:04:37
+soc-wiki-elec-insert-100 p3 S3 status=OK done=1071/1071 net=100753 ops=6345766 t=608350 table=0 secs=0.042
+soc-wiki-elec-insert-100 p3 P3 status=OK done=1071/1071 net=100753 ops=8585388 t=608350 table=0 secs=0.032
+soc-wiki-elec-insert-100 p3 T3 status=OK done=1071/1071 net=100753 ops=110776497 t=608350 table=57946744 secs=0.243
+soc-wiki-elec-insert-100 p3 M3 status=OK done=1071/1071 net=100753 ops=43303879 t=608350 table=4055644 secs=0.065
+soc-wiki-elec-insert-100 p3 final 608350 ops M3:43303879 P3:8585388 S3:6345766 T3:110776497
+CELL-DONE p3 soc-wiki-elec insert 100 15:04:37
+tech-as-topology-expiry-1000 p3 final 0 ops M3:54964043 P3:11233190 S3:8079567 T3:598622942
+tech-as-topology-expiry-1000 p5 final 0 ops A5:31255290315 M5:5808556680 PR:3089575309 R2:7318987501 WJ:3215500102 WT:4089276330
+CELL-DONE p3 tech-as-topology expiry 1000 15:04:38
+tech-as-topology-expiry-100 p3 final 0 ops M3:54986120 P3:10713361 S3:8081047 T3:598727682
+tech-as-topology-expiry-100 p5 final 0 ops A5:309571023445 M5:5813702048 PR:4902746557 R2:7321944525 WJ:3215055461 WT:4090967788
+CELL-DONE p3 tech-as-topology expiry 100 15:04:38
+tech-as-topology-insert-1000 p3 final 554749 ops M3:29076969 P3:4954657 S3:3647962 T3:339347312
+tech-as-topology-insert-1000 p5 final 7540417666 ops A5:17181385685 M5:2359605272 PR:1866075518 R2:4564762755 WJ:1159834139 WT:1440240898
+CELL-DONE p3 tech-as-topology insert 1000 15:04:38
+tech-as-topology-insert-100 p3 final 554749 ops M3:29096041 P3:4802497 S3:3641606 T3:339378952
+tech-as-topology-insert-100 p5 final 7540417666 ops A5:168019255128 M5:2355117839 PR:2887152681 R2:4567974169 WJ:1156736756 WT:1436047320
+CELL-DONE p3 tech-as-topology insert 100 15:04:38
+ia-enron-email-dynamic-expiry-1000 p3 final 5600 ops M3:122523679 P3:28061423 S3:18337321 T3:603573933
+ia-enron-email-dynamic-expiry-1000 p5 final 1109691 ops A5:5731846335 M5:1844510191 PR:817547831 R2:1964317555 WJ:1005540278 WT:1670181483
+CELL-DONE p3 ia-enron-email-dynamic expiry 1000 15:04:38
+ia-enron-email-dynamic-expiry-100 p3 final 5600 ops M3:128080712 P3:29979927 S3:19546531 T3:633684605
+ia-enron-email-dynamic-expiry-100 p5 final 1109691 ops A5:38587286489 M5:1999360280 PR:949197343 R2:2116119371 WJ:1101053801 WT:1810267707
+CELL-DONE p3 ia-enron-email-dynamic expiry 100 15:04:38
+ia-enron-email-dynamic-insert-1000 p3 final 1180387 ops M3:86696376 P3:16790253 S3:13239794 T3:475656730
+ia-enron-email-dynamic-insert-1000 p5 final 6565632383 ops A5:485267346463 M5:5303415867 PR:3766211885 R2:7779357347 WJ:2775224057 WT:3389238219
+CELL-DONE p3 ia-enron-email-dynamic insert 1000 15:04:38
+ia-enron-email-dynamic-insert-100 p3 final 1180387 ops M3:87246468 P3:17031401 S3:13141198 T3:474937784
+ia-enron-email-dynamic-insert-100 p5 final 6565632383 ops A5:628221327941(5864/11350) M5:5239503984 PR:4067482054 R2:7834203944 WJ:2715994982 WT:3318751535
+CELL-DONE p3 ia-enron-email-dynamic insert 100 15:04:38
+soc-redditHyperlinks-body-expiry-1000 p3 final 0 ops M3:35652630 P3:7973337 S3:4828256 T3:57342076
+soc-redditHyperlinks-body-expiry-1000 p5 final 0 ops A5:276419097 M5:144141973 PR:60575537 R2:110019655 WJ:73186200 WT:127480219
+CELL-DONE p3 soc-redditHyperlinks-body expiry 1000 15:04:39
+soc-redditHyperlinks-body-expiry-100 p3 final 0 ops M3:37514989 P3:7573255 S3:5116280 T3:62562528
+soc-redditHyperlinks-body-expiry-100 p5 final 0 ops A5:1922966361 M5:165588136 PR:104428064 R2:128290960 WJ:85906342 WT:147315002
+CELL-DONE p3 soc-redditHyperlinks-body expiry 100 15:04:39
+soc-redditHyperlinks-body-insert-1000 p3 final 406391 ops M3:37666857 P3:6498333 S3:4770630 T3:202429952
+soc-redditHyperlinks-body-insert-1000 p5 final 3159998117 ops A5:38832334146 M5:2105653553 PR:2468774458 R2:3734318548 WJ:1067657212 WT:1282809320
+CELL-DONE p3 soc-redditHyperlinks-body insert 1000 15:04:39
+soc-redditHyperlinks-body-insert-100 p3 final 406391 ops M3:37672184 P3:5861994 S3:4767184 T3:202418610
+soc-redditHyperlinks-body-insert-100 p5 final 3159998117 ops A5:383712612403 M5:2105570739 PR:3348873720 R2:3734203660 WJ:1067658076 WT:1282630377
+CELL-DONE p3 soc-redditHyperlinks-body insert 100 15:04:39
+soc-redditHyperlinks-title-expiry-1000 p3 final 0 ops M3:83501789 P3:24459456 S3:14974983 T3:316425640
+soc-redditHyperlinks-title-expiry-1000 p5 final 0 ops A5:1355609117 M5:1282813884 PR:570758148 R2:1201812719 WJ:799368980 WT:1192884454
+CELL-DONE p3 soc-redditHyperlinks-title expiry 1000 15:04:39
+soc-redditHyperlinks-title-expiry-100 p3 final 0 ops M3:86584445 P3:22517416 S3:15962576 T3:337601636
+soc-redditHyperlinks-title-expiry-100 p5 final 0 ops A5:12225017287 M5:1448963067 PR:1082173969 R2:1344295493 WJ:918411813 WT:1352331248
+CELL-DONE p3 soc-redditHyperlinks-title expiry 100 15:04:39
+soc-redditHyperlinks-title-insert-1000 p3 final 1329278 ops M3:106339035 P3:16081154 S3:12164994 T3:754726617
+soc-redditHyperlinks-title-insert-1000 p5 final 30987019244 ops A5:294430780891 M5:11822916570 PR:14018562585 R2:20696734734 WJ:4797278043 WT:5528180434
+CELL-DONE p3 soc-redditHyperlinks-title insert 1000 15:04:39
+soc-redditHyperlinks-title-insert-100 p3 final 1329278 ops M3:106349994 P3:14423638 S3:12163150 T3:754602993
+soc-redditHyperlinks-title-insert-100 p5 final 30987019244 ops A5:605452776597(3222/5720) M5:11819994571 PR:19003995760 R2:20698155475 WJ:4796116982 WT:5525737932
+CELL-DONE p3 soc-redditHyperlinks-title insert 100 15:04:39
+simplewiki-real-1000 p3 final 1144661 ops M3:383594424 P3:62815492 S3:50408482 T3:3316058676
+simplewiki-real-1000 p5 final 12971659284 ops A5:575260629711(903/1559) M5:43367776447 PR:29784070580 R2:54128854666 WJ:29509376223 WT:41067935022
+CELL-DONE p3 simplewiki real 1000 15:04:39
+simplewiki-real-100 p3 final 1144661 ops M3:520821063 P3:99895306 S3:78362172 T3:4499247564
+simplewiki-real-100 p5 final 12971659284 ops A5:684600757031(2320/15583) M5:82606320415 PR:41111091335 R2:75875955906 WJ:79349486543 WT:115575299953
+CELL-DONE p3 simplewiki real 100 15:04:40
+nlwiki-real-1000 p3 final 1616426 ops M3:686659152 P3:94682204 S3:71551988 T3:5408522856
+nlwiki-real-1000 p5 final 19339681540 ops A5:485689741928(898/2000) M5:82975831201 PR:67285160780 R2:106548580315 WJ:47920760456 WT:61973178769
+CELL-DONE p3 nlwiki real 1000 15:04:40
+nlwiki-real-100 p3 final 1616426 ops M3:758735826 P3:112585144 S3:83541677 T3:5868506122
+nlwiki-real-100 p5 final 19339681540 ops A5:507751024857(3736/20000) M5:100764375996 PR:79403912172 R2:118883261791 WJ:63518427101 WT:84122254952
+CELL-DONE p3 nlwiki real 100 15:04:40
+plwiki-real-1000 p3 final 3460789 ops M3:1111799033 P3:125443422 S3:100833092 T3:8460890438
+plwiki-real-1000 p5 final 53980701384 ops A5:608282306858(771/2000) M5:134865231644 PR:102465132564 R2:177866510434 WJ:59814114402(1959/2000) WT:76516681691
+CELL-DONE p3 plwiki real 1000 15:04:40
+plwiki-real-100 p3 final 3460789 ops M3:1175671990 P3:141993428 S3:111848826 T3:8835410458
+plwiki-real-100 p5 final 53980701384 ops A5:618805124375(3388/20000) M5:152697869597 PR:120487747649 R2:189142903660 WJ:73112495703(19597/20000) WT:94079162979
+CELL-DONE p3 plwiki real 100 15:04:40
+itwiki-real-1000 p3 final 1871855 ops M3:1023162294 P3:94613655 S3:73507287 T3:16392278974(1453/2000)
+itwiki-real-1000 p5 final 44907568191 ops A5:584465002065(745/2000) M5:204241441502 PR:112596341613 R2:266417779334 WJ:34411620658(1372/2000) WT:71512463752(1453/2000)
+CELL-DONE p3 itwiki real 1000 15:04:40
+itwiki-real-100 p3 final 1871855 ops M3:1069483833 P3:103685612 S3:78909191 T3:16584057338(14535/20000)
+itwiki-real-100 p5 final 44907568191 ops A5:588253583544(2910/20000) M5:212734738428 PR:135267641192 R2:278177882754 WJ:36013619282(13720/20000) WT:73434225640(14535/20000)
+CELL-DONE p3 itwiki real 100 15:04:41
+frwiki-real-1000 p3 final 2054829 ops M3:759821422 P3:105983727 S3:83235375 T3:5416099778
+frwiki-real-1000 p5 final 32191020208 ops A5:580430437647(882/2000) M5:89141269471 PR:77584614258 R2:121692709592 WJ:45695783236 WT:55483773270
+CELL-DONE p3 frwiki real 1000 15:04:41
+frwiki-real-100 p3 final 2054829 ops M3:817980569 P3:120201144 S3:91926739 T3:5876115352
+frwiki-real-100 p5 final 32191020208 ops A5:567863348392(3905/20000) M5:98973082751 PR:89583779118 R2:132491390157 WJ:51906367404 WT:63367769742
+CELL-DONE p3 frwiki real 100 15:04:41
+dewiki-real-1000 p3 final 2543198 ops M3:665830992 P3:107399596 S3:82573855 T3:3451485494
+dewiki-real-1000 p5 final 19139725371 ops A5:477224929023(920/2000) M5:52150657545 PR:45167743109 R2:69099878486 WJ:25411244095 WT:31421901661
+CELL-DONE p3 dewiki real 1000 15:04:41
+dewiki-real-100 p3 final 2543198 ops M3:715260784 P3:121070116 S3:91803946 T3:3677896480
+dewiki-real-100 p5 final 19139725371 ops A5:484577999844(3806/20000) M5:61873373238 PR:49769414106 R2:75583517209 WJ:31263783889 WT:39286162726
+CELL-DONE p3 dewiki real 100 15:04:41
+ia-reality-call-expiry-1000 p5 R2 status=OK done=103/103 net=26922 ops=4023151 t=0 table=3072 secs=0.006
+ia-reality-call-expiry-1000 p5 PR status=OK done=103/103 net=26922 ops=2114259 t=0 table=3072 secs=0.004
+ia-reality-call-expiry-1000 p5 WT status=OK done=103/103 net=26922 ops=9120394 t=0 table=905988 secs=0.019
+ia-reality-call-expiry-1000 p5 WJ status=OK done=103/103 net=26922 ops=5125130 t=0 table=786432 secs=0.016
+ia-reality-call-expiry-1000 p5 M5 status=OK done=103/103 net=26922 ops=10788952 t=0 table=905988 secs=0.021
+ia-reality-call-expiry-1000 p5 A5 status=OK done=103/103 net=26922 ops=24463476 t=0 table=0 secs=0.013
+ia-reality-call-expiry-1000 p3 final 0 ops M3:2846182 P3:510419 S3:369301 T3:6695320
+ia-reality-call-expiry-1000 p5 final 0 ops A5:24463476 M5:10788952 PR:2114259 R2:4023151 WJ:5125130 WT:9120394
+CELL-DONE p5 ia-reality-call expiry 1000 15:04:42
+ia-reality-call-expiry-100 p5 R2 status=OK done=1025/1025 net=33712 ops=5695457 t=0 table=3072 secs=0.008
+ia-reality-call-expiry-100 p5 PR status=OK done=1025/1025 net=33712 ops=4465287 t=0 table=3072 secs=0.007
+ia-reality-call-expiry-100 p5 WT status=OK done=1025/1025 net=33712 ops=12580448 t=0 table=924404 secs=0.025
+ia-reality-call-expiry-100 p5 WJ status=OK done=1025/1025 net=33712 ops=7066602 t=0 table=786432 secs=0.022
+ia-reality-call-expiry-100 p5 M5 status=OK done=1025/1025 net=33712 ops=14779236 t=0 table=924404 secs=0.026
+ia-reality-call-expiry-100 p5 A5 status=OK done=1025/1025 net=33712 ops=154778084 t=0 table=0 secs=0.064
+ia-reality-call-expiry-100 p3 final 0 ops M3:3328631 P3:582488 S3:427288 T3:8587646
+ia-reality-call-expiry-100 p5 final 0 ops A5:154778084 M5:14779236 PR:4465287 R2:5695457 WJ:7066602 WT:12580448
+CELL-DONE p5 ia-reality-call expiry 100 15:04:42
+ia-reality-call-insert-1000 p5 R2 status=OK done=52/52 net=7680 ops=4181472 t=18102 table=3072 secs=0.004
+ia-reality-call-insert-1000 p5 PR status=OK done=52/52 net=7680 ops=1946073 t=18102 table=3072 secs=0.002
+ia-reality-call-insert-1000 p5 WT status=OK done=52/52 net=7680 ops=7264183 t=18102 table=9041020 secs=0.012
+ia-reality-call-insert-1000 p5 WJ status=OK done=52/52 net=7680 ops=4844373 t=18102 table=12582912 secs=0.025
+ia-reality-call-insert-1000 p5 M5 status=OK done=52/52 net=7680 ops=8890800 t=18102 table=8664288 secs=0.014
+ia-reality-call-insert-1000 p5 A5 status=OK done=52/52 net=7680 ops=38125447 t=18102 table=0 secs=0.016
+ia-reality-call-insert-1000 p3 final 400 ops M3:1016311 P3:180355 S3:143644 T3:5899756
+ia-reality-call-insert-1000 p5 final 18102 ops A5:38125447 M5:8890800 PR:1946073 R2:4181472 WJ:4844373 WT:7264183
+CELL-DONE p5 ia-reality-call insert 1000 15:04:43
+ia-reality-call-insert-100 p5 R2 status=OK done=513/513 net=7680 ops=4175037 t=18102 table=3072 secs=0.004
+ia-reality-call-insert-100 p5 PR status=OK done=513/513 net=7680 ops=3190087 t=18102 table=3072 secs=0.003
+ia-reality-call-insert-100 p5 WT status=OK done=513/513 net=7680 ops=7296599 t=18102 table=9041020 secs=0.011
+ia-reality-call-insert-100 p5 WJ status=OK done=513/513 net=7680 ops=4849731 t=18102 table=12582912 secs=0.024
+ia-reality-call-insert-100 p5 M5 status=OK done=513/513 net=7680 ops=8924187 t=18102 table=8802412 secs=0.014
+ia-reality-call-insert-100 p5 A5 status=OK done=513/513 net=7680 ops=185130464 t=18102 table=0 secs=0.075
+ia-reality-call-insert-100 p3 final 400 ops M3:1016241 P3:175570 S3:143684 T3:5901022
+ia-reality-call-insert-100 p5 final 18102 ops A5:185130464 M5:8924187 PR:3190087 R2:4175037 WJ:4849731 WT:7296599
+CELL-DONE p5 ia-reality-call insert 100 15:04:43
+soc-wiki-elec-expiry-1000 p5 R2 status=OK done=215/215 net=207198 ops=352941216 t=0 table=3072 secs=0.207
+soc-wiki-elec-expiry-1000 p5 PR status=OK done=215/215 net=207198 ops=153726719 t=0 table=3072 secs=0.095
+soc-wiki-elec-expiry-1000 p5 WT status=OK done=215/215 net=207198 ops=249775612 t=0 table=2127668 secs=0.257
+soc-wiki-elec-expiry-1000 p5 WJ status=OK done=215/215 net=207198 ops=148554189 t=0 table=1572864 secs=0.492
+soc-wiki-elec-expiry-1000 p5 M5 status=OK done=215/215 net=207198 ops=275168502 t=0 table=1682008 secs=0.269
+soc-wiki-elec-expiry-1000 p5 A5 status=OK done=215/215 net=207198 ops=138973302 t=0 table=0 secs=0.101
+soc-wiki-elec-expiry-1000 p3 final 0 ops M3:31608126 P3:5827611 S3:3862027 T3:72686658
+soc-wiki-elec-expiry-1000 p5 final 0 ops A5:138973302 M5:275168502 PR:153726719 R2:352941216 WJ:148554189 WT:249775612
+CELL-DONE p5 soc-wiki-elec expiry 1000 15:04:45
+soc-wiki-elec-expiry-100 p5 R2 status=OK done=2141/2141 net=212040 ops=420641962 t=0 table=3072 secs=0.237
+soc-wiki-elec-expiry-100 p5 PR status=OK done=2141/2141 net=212040 ops=231964645 t=0 table=3072 secs=0.142
+soc-wiki-elec-expiry-100 p5 WT status=OK done=2141/2141 net=212040 ops=264799080 t=0 table=2154636 secs=0.265
+soc-wiki-elec-expiry-100 p5 WJ status=OK done=2141/2141 net=212040 ops=162188764 t=0 table=1572864 secs=0.545
+soc-wiki-elec-expiry-100 p5 M5 status=OK done=2141/2141 net=212040 ops=291675152 t=0 table=1742672 secs=0.280
+soc-wiki-elec-expiry-100 p5 A5 status=OK done=2141/2141 net=212040 ops=1351190690 t=0 table=0 secs=0.730
+soc-wiki-elec-expiry-100 p3 final 0 ops M3:33507793 P3:6764486 S3:4132736 T3:74710736
+soc-wiki-elec-expiry-100 p5 final 0 ops A5:1351190690 M5:291675152 PR:231964645 R2:420641962 WJ:162188764 WT:264799080
+CELL-DONE p5 soc-wiki-elec expiry 100 15:04:48
+soc-wiki-elec-insert-1000 p5 R2 status=OK done=108/108 net=100753 ops=3145554072 t=5259386933 table=3072 secs=0.955
+soc-wiki-elec-insert-1000 p5 PR status=OK done=108/108 net=100753 ops=1768696990 t=5259386933 table=3072 secs=0.578
+soc-wiki-elec-insert-1000 p5 WT status=OK done=108/108 net=100753 ops=1267161859 t=5259386933 table=58136056 secs=1.017
+soc-wiki-elec-insert-1000 p5 WJ status=OK done=108/108 net=100753 ops=1064987149 t=5259386933 table=100663296 secs=8.467
+soc-wiki-elec-insert-1000 p5 M5 status=OK done=108/108 net=100753 ops=1854177898 t=5259386933 table=41486832 secs=1.210
+soc-wiki-elec-insert-1000 p5 A5 status=OK done=108/108 net=100753 ops=36636115779 t=5259386933 table=0 secs=15.059
+soc-wiki-elec-insert-1000 p3 final 608350 ops M3:43188717 P3:7575664 S3:6553092 T3:111027817
+soc-wiki-elec-insert-1000 p5 final 5259386933 ops A5:36636115779 M5:1854177898 PR:1768696990 R2:3145554072 WJ:1064987149 WT:1267161859
+CELL-DONE p5 soc-wiki-elec insert 1000 15:05:16
+soc-wiki-elec-insert-100 p5 R2 status=OK done=1071/1071 net=100753 ops=3194131198 t=5259386933 table=3072 secs=0.971
+soc-wiki-elec-insert-100 p5 PR status=OK done=1071/1071 net=100753 ops=1978006126 t=5259386933 table=3072 secs=0.629
+soc-wiki-elec-insert-100 p5 WT status=OK done=1071/1071 net=100753 ops=1208018560 t=5259386933 table=57946744 secs=0.965
+soc-wiki-elec-insert-100 p5 WJ status=OK done=1071/1071 net=100753 ops=1017934540 t=5259386933 table=100663296 secs=8.199
+soc-wiki-elec-insert-100 p5 M5 status=OK done=1071/1071 net=100753 ops=1797539317 t=5259386933 table=41550384 secs=1.174
+soc-wiki-elec-insert-100 p5 A5 status=OK done=1071/1071 net=100753 ops=358735385674 t=5259386933 table=0 secs=149.400
+soc-wiki-elec-insert-100 p3 final 608350 ops M3:43303879 P3:8585388 S3:6345766 T3:110776497
+soc-wiki-elec-insert-100 p5 final 5259386933 ops A5:358735385674 M5:1797539317 PR:1978006126 R2:3194131198 WJ:1017934540 WT:1208018560
+CELL-DONE p5 soc-wiki-elec insert 100 15:07:57
+tech-as-topology-expiry-1000 p3 final 0 ops M3:54964043 P3:11233190 S3:8079567 T3:598622942
+tech-as-topology-expiry-1000 p5 final 0 ops A5:31255290315 M5:5808556680 PR:3089575309 R2:7318987501 WJ:3215500102 WT:4089276330
+CELL-DONE p5 tech-as-topology expiry 1000 15:07:58
+tech-as-topology-expiry-100 p3 final 0 ops M3:54986120 P3:10713361 S3:8081047 T3:598727682
+tech-as-topology-expiry-100 p5 final 0 ops A5:309571023445 M5:5813702048 PR:4902746557 R2:7321944525 WJ:3215055461 WT:4090967788
+CELL-DONE p5 tech-as-topology expiry 100 15:07:58
+tech-as-topology-insert-1000 p3 final 554749 ops M3:29076969 P3:4954657 S3:3647962 T3:339347312
+tech-as-topology-insert-1000 p5 final 7540417666 ops A5:17181385685 M5:2359605272 PR:1866075518 R2:4564762755 WJ:1159834139 WT:1440240898
+CELL-DONE p5 tech-as-topology insert 1000 15:07:58
+tech-as-topology-insert-100 p3 final 554749 ops M3:29096041 P3:4802497 S3:3641606 T3:339378952
+tech-as-topology-insert-100 p5 final 7540417666 ops A5:168019255128 M5:2355117839 PR:2887152681 R2:4567974169 WJ:1156736756 WT:1436047320
+CELL-DONE p5 tech-as-topology insert 100 15:07:58
+ia-enron-email-dynamic-expiry-1000 p3 final 5600 ops M3:122523679 P3:28061423 S3:18337321 T3:603573933
+ia-enron-email-dynamic-expiry-1000 p5 final 1109691 ops A5:5731846335 M5:1844510191 PR:817547831 R2:1964317555 WJ:1005540278 WT:1670181483
+CELL-DONE p5 ia-enron-email-dynamic expiry 1000 15:07:58
+ia-enron-email-dynamic-expiry-100 p3 final 5600 ops M3:128080712 P3:29979927 S3:19546531 T3:633684605
+ia-enron-email-dynamic-expiry-100 p5 final 1109691 ops A5:38587286489 M5:1999360280 PR:949197343 R2:2116119371 WJ:1101053801 WT:1810267707
+CELL-DONE p5 ia-enron-email-dynamic expiry 100 15:07:58
+ia-enron-email-dynamic-insert-1000 p3 final 1180387 ops M3:86696376 P3:16790253 S3:13239794 T3:475656730
+ia-enron-email-dynamic-insert-1000 p5 final 6565632383 ops A5:485267346463 M5:5303415867 PR:3766211885 R2:7779357347 WJ:2775224057 WT:3389238219
+CELL-DONE p5 ia-enron-email-dynamic insert 1000 15:07:58
+ia-enron-email-dynamic-insert-100 p3 final 1180387 ops M3:87246468 P3:17031401 S3:13141198 T3:474937784
+ia-enron-email-dynamic-insert-100 p5 final 6565632383 ops A5:628221327941(5864/11350) M5:5239503984 PR:4067482054 R2:7834203944 WJ:2715994982 WT:3318751535
+CELL-DONE p5 ia-enron-email-dynamic insert 100 15:07:59
+soc-redditHyperlinks-body-expiry-1000 p3 final 0 ops M3:35652630 P3:7973337 S3:4828256 T3:57342076
+soc-redditHyperlinks-body-expiry-1000 p5 final 0 ops A5:276419097 M5:144141973 PR:60575537 R2:110019655 WJ:73186200 WT:127480219
+CELL-DONE p5 soc-redditHyperlinks-body expiry 1000 15:07:59
+soc-redditHyperlinks-body-expiry-100 p3 final 0 ops M3:37514989 P3:7573255 S3:5116280 T3:62562528
+soc-redditHyperlinks-body-expiry-100 p5 final 0 ops A5:1922966361 M5:165588136 PR:104428064 R2:128290960 WJ:85906342 WT:147315002
+CELL-DONE p5 soc-redditHyperlinks-body expiry 100 15:07:59
+soc-redditHyperlinks-body-insert-1000 p3 final 406391 ops M3:37666857 P3:6498333 S3:4770630 T3:202429952
+soc-redditHyperlinks-body-insert-1000 p5 final 3159998117 ops A5:38832334146 M5:2105653553 PR:2468774458 R2:3734318548 WJ:1067657212 WT:1282809320
+CELL-DONE p5 soc-redditHyperlinks-body insert 1000 15:07:59
+soc-redditHyperlinks-body-insert-100 p3 final 406391 ops M3:37672184 P3:5861994 S3:4767184 T3:202418610
+soc-redditHyperlinks-body-insert-100 p5 final 3159998117 ops A5:383712612403 M5:2105570739 PR:3348873720 R2:3734203660 WJ:1067658076 WT:1282630377
+CELL-DONE p5 soc-redditHyperlinks-body insert 100 15:07:59
+soc-redditHyperlinks-title-expiry-1000 p3 final 0 ops M3:83501789 P3:24459456 S3:14974983 T3:316425640
+soc-redditHyperlinks-title-expiry-1000 p5 final 0 ops A5:1355609117 M5:1282813884 PR:570758148 R2:1201812719 WJ:799368980 WT:1192884454
+CELL-DONE p5 soc-redditHyperlinks-title expiry 1000 15:07:59
+soc-redditHyperlinks-title-expiry-100 p3 final 0 ops M3:86584445 P3:22517416 S3:15962576 T3:337601636
+soc-redditHyperlinks-title-expiry-100 p5 final 0 ops A5:12225017287 M5:1448963067 PR:1082173969 R2:1344295493 WJ:918411813 WT:1352331248
+CELL-DONE p5 soc-redditHyperlinks-title expiry 100 15:07:59
+soc-redditHyperlinks-title-insert-1000 p3 final 1329278 ops M3:106339035 P3:16081154 S3:12164994 T3:754726617
+soc-redditHyperlinks-title-insert-1000 p5 final 30987019244 ops A5:294430780891 M5:11822916570 PR:14018562585 R2:20696734734 WJ:4797278043 WT:5528180434
+CELL-DONE p5 soc-redditHyperlinks-title insert 1000 15:08:00
+soc-redditHyperlinks-title-insert-100 p3 final 1329278 ops M3:106349994 P3:14423638 S3:12163150 T3:754602993
+soc-redditHyperlinks-title-insert-100 p5 final 30987019244 ops A5:605452776597(3222/5720) M5:11819994571 PR:19003995760 R2:20698155475 WJ:4796116982 WT:5525737932
+CELL-DONE p5 soc-redditHyperlinks-title insert 100 15:08:00
+simplewiki-real-1000 p3 final 1144661 ops M3:383594424 P3:62815492 S3:50408482 T3:3316058676
+simplewiki-real-1000 p5 final 12971659284 ops A5:575260629711(903/1559) M5:43367776447 PR:29784070580 R2:54128854666 WJ:29509376223 WT:41067935022
+CELL-DONE p5 simplewiki real 1000 15:08:00
+simplewiki-real-100 p3 final 1144661 ops M3:520821063 P3:99895306 S3:78362172 T3:4499247564
+simplewiki-real-100 p5 final 12971659284 ops A5:684600757031(2320/15583) M5:82606320415 PR:41111091335 R2:75875955906 WJ:79349486543 WT:115575299953
+CELL-DONE p5 simplewiki real 100 15:08:00
+nlwiki-real-1000 p3 final 1616426 ops M3:686659152 P3:94682204 S3:71551988 T3:5408522856
+nlwiki-real-1000 p5 final 19339681540 ops A5:485689741928(898/2000) M5:82975831201 PR:67285160780 R2:106548580315 WJ:47920760456 WT:61973178769
+CELL-DONE p5 nlwiki real 1000 15:08:00
+nlwiki-real-100 p3 final 1616426 ops M3:758735826 P3:112585144 S3:83541677 T3:5868506122
+nlwiki-real-100 p5 final 19339681540 ops A5:507751024857(3736/20000) M5:100764375996 PR:79403912172 R2:118883261791 WJ:63518427101 WT:84122254952
+CELL-DONE p5 nlwiki real 100 15:08:00
+plwiki-real-1000 p3 final 3460789 ops M3:1111799033 P3:125443422 S3:100833092 T3:8460890438
+plwiki-real-1000 p5 final 53980701384 ops A5:608282306858(771/2000) M5:134865231644 PR:102465132564 R2:177866510434 WJ:59814114402(1959/2000) WT:76516681691
+CELL-DONE p5 plwiki real 1000 15:08:01
+plwiki-real-100 p3 final 3460789 ops M3:1175671990 P3:141993428 S3:111848826 T3:8835410458
+plwiki-real-100 p5 final 53980701384 ops A5:618805124375(3388/20000) M5:152697869597 PR:120487747649 R2:189142903660 WJ:73112495703(19597/20000) WT:94079162979
+CELL-DONE p5 plwiki real 100 15:08:01
+itwiki-real-1000 p3 final 1871855 ops M3:1023162294 P3:94613655 S3:73507287 T3:16392278974(1453/2000)
+itwiki-real-1000 p5 final 44907568191 ops A5:584465002065(745/2000) M5:204241441502 PR:112596341613 R2:266417779334 WJ:34411620658(1372/2000) WT:71512463752(1453/2000)
+CELL-DONE p5 itwiki real 1000 15:08:01
+itwiki-real-100 p3 final 1871855 ops M3:1069483833 P3:103685612 S3:78909191 T3:16584057338(14535/20000)
+itwiki-real-100 p5 final 44907568191 ops A5:588253583544(2910/20000) M5:212734738428 PR:135267641192 R2:278177882754 WJ:36013619282(13720/20000) WT:73434225640(14535/20000)
+CELL-DONE p5 itwiki real 100 15:08:01
+frwiki-real-1000 p3 final 2054829 ops M3:759821422 P3:105983727 S3:83235375 T3:5416099778
+frwiki-real-1000 p5 final 32191020208 ops A5:580430437647(882/2000) M5:89141269471 PR:77584614258 R2:121692709592 WJ:45695783236 WT:55483773270
+CELL-DONE p5 frwiki real 1000 15:08:01
+frwiki-real-100 p3 final 2054829 ops M3:817980569 P3:120201144 S3:91926739 T3:5876115352
+frwiki-real-100 p5 final 32191020208 ops A5:567863348392(3905/20000) M5:98973082751 PR:89583779118 R2:132491390157 WJ:51906367404 WT:63367769742
+CELL-DONE p5 frwiki real 100 15:08:02
+dewiki-real-1000 p3 final 2543198 ops M3:665830992 P3:107399596 S3:82573855 T3:3451485494
+dewiki-real-1000 p5 final 19139725371 ops A5:477224929023(920/2000) M5:52150657545 PR:45167743109 R2:69099878486 WJ:25411244095 WT:31421901661
+CELL-DONE p5 dewiki real 1000 15:08:02
+dewiki-real-100 p3 final 2543198 ops M3:715260784 P3:121070116 S3:91803946 T3:3677896480
+dewiki-real-100 p5 final 19139725371 ops A5:484577999844(3806/20000) M5:61873373238 PR:49769414106 R2:75583517209 WJ:31263783889 WT:39286162726
+CELL-DONE p5 dewiki real 100 15:08:02
+M1D07-DONE count results/gate1-M1D07
+released the tower claim for research11
+M1D07C-RELEASED 15:08:02 exit 0
