@@ -21,8 +21,11 @@ import bz2
 import calendar
 import gzip
 import io
+import itertools
 import sys
+import os
 import tarfile
+import threading
 import time
 import zipfile
 
@@ -34,6 +37,28 @@ DEFAULT_PREFIX = 2_000_000
 
 class FormatError(Exception):
     pass
+
+
+RAM_FLOOR_GIB = 6   # ControlPC's floor while a derivation runs (log.md 0046). Below it the loader stops itself, exit 5
+
+
+def ram_watchdog():
+    import ctypes
+
+    class MemoryStatus(ctypes.Structure):
+        _fields_ = [("dwLength", ctypes.c_ulong), ("dwMemoryLoad", ctypes.c_ulong), ("ullTotalPhys", ctypes.c_ulonglong),
+                    ("ullAvailPhys", ctypes.c_ulonglong), ("ullTotalPageFile", ctypes.c_ulonglong),
+                    ("ullAvailPageFile", ctypes.c_ulonglong), ("ullTotalVirtual", ctypes.c_ulonglong),
+                    ("ullAvailVirtual", ctypes.c_ulonglong), ("ullAvailExtendedVirtual", ctypes.c_ulonglong)]
+
+    m = MemoryStatus()
+    m.dwLength = ctypes.sizeof(m)
+    while True:
+        ctypes.windll.kernel32.GlobalMemoryStatusEx(ctypes.byref(m))
+        if m.ullAvailPhys < RAM_FLOOR_GIB * 2**30:
+            print(f"M1D07-RAM-LOW available {m.ullAvailPhys / 2**30:.2f} GiB, under {RAM_FLOOR_GIB}: the loader stops", flush=True)
+            os._exit(5)
+        time.sleep(2)
 
 
 def open_text(path):
@@ -67,15 +92,33 @@ def load_int_table(f, comments, delimiter=None):
     return a
 
 
-def read_konect(path):
+def read_konect(path, chunk=4_000_000):
+    """Read in chunks of lines into narrow arrays, so that a file of 10^8 lines peaks near 2 GB, not 10 GB."""
     f, member = open_text(path)
-    a = load_int_table(f, "%")
-    if a.shape[1] != 4:
-        raise FormatError(f"{member}: {a.shape[1]} columns, expected 4")
-    w = a[:, 2]
-    if not np.all((w == 1) | (w == -1)):
-        raise FormatError(f"{member}: a weight other than +1 or -1")
-    return a[:, 0], a[:, 1], a[:, 3], (w == 1).astype(np.uint32), member
+    us, vs, ts, ops = [], [], [], []
+    while True:
+        lines = list(itertools.islice(f, chunk))
+        if not lines:
+            break
+        lines = [ln for ln in lines if ln.strip() and not ln.lstrip().startswith("%")]
+        if not lines:
+            continue
+        a = load_int_table(lines, None)
+        if a.shape[1] != 4:
+            raise FormatError(f"{member}: {a.shape[1]} columns, expected 4")
+        w = a[:, 2]
+        if not np.all((w == 1) | (w == -1)):
+            raise FormatError(f"{member}: a weight other than +1 or -1")
+        if a[:, :2].max() >= 2**31 or a[:, :2].min() < 0:
+            raise FormatError(f"{member}: a vertex id outside 0 to 2^31")
+        us.append(a[:, 0].astype(np.int32))
+        vs.append(a[:, 1].astype(np.int32))
+        ts.append(a[:, 3].copy())
+        ops.append((w == 1).astype(np.uint32))
+        del a, w, lines
+    if not us:
+        raise FormatError(f"{member}: no data lines")
+    return np.concatenate(us), np.concatenate(vs), np.concatenate(ts), np.concatenate(ops), member
 
 
 def read_triples(path):
@@ -168,15 +211,9 @@ def synthetic(u, v, t, insert_only):
     return times[order], ends[order, 0], ends[order, 1], ops[order], n, nv
 
 
-def real(u, v, t, op):
-    """graph_cleaner: drop self-loops and direction, stable sort by time, keep only state changes."""
-    keep = u != v
-    u, v, t, op = u[keep], v[keep], t[keep], op[keep]
-    order = np.argsort(t, kind="stable")
-    u, v, t, op = u[order], v[order], t[order], op[order]
-    a, b = np.minimum(u, v), np.maximum(u, v)
-    # Within each pair, in stream order, an event changes the state when its op differs from the pair's previous op.
-    # The state before a pair's first event is absent, as if its previous op were a deletion.
+def changes(a, b, op):
+    """For events in stream order, whether each changes its pair's state. The state before a pair's first event is absent,
+    as if its previous op were a deletion. Depends only on earlier events, so a prefix gives the same answers as the whole."""
     pair_order = np.lexsort((np.arange(len(a)), b, a))
     pa, pb, pop = a[pair_order], b[pair_order], op[pair_order]
     first = np.ones(len(pa), dtype=bool)
@@ -187,10 +224,34 @@ def real(u, v, t, op):
     prev[first] = 0
     changed = np.empty(len(a), dtype=bool)
     changed[pair_order] = pop != prev
-    a, b, t, op = a[changed], b[changed], t[changed], op[changed]
+    return changed
+
+
+def real(u, v, t, op, prefix=0):
+    """graph_cleaner: drop self-loops and direction, stable sort by time, keep only state changes. With a prefix, only as
+    much of the time-sorted stream is cleaned as yields that many kept events, doubling from 2 * prefix."""
+    keep = u != v
+    u, v, t, op = u[keep], v[keep], t[keep], op[keep]
+    order = np.argsort(t, kind="stable")
+    del keep
+    n = len(order)
+    span = n if not prefix else min(n, 2 * prefix)
+    while True:
+        o = order[:span]
+        uu, vv = u[o], v[o]
+        a, b = np.minimum(uu, vv), np.maximum(uu, vv)
+        del uu, vv
+        oo = op[o]
+        changed = changes(a, b, oo)
+        if span == n or int(changed.sum()) >= prefix:
+            break
+        span = min(n, 2 * span)
+    a, b, tt, oo = a[changed], b[changed], t[o][changed], oo[changed]
+    if prefix:
+        a, b, tt, oo = a[:prefix], b[:prefix], tt[:prefix], oo[:prefix]
     ends, nv = compact(np.stack([a, b], axis=1).ravel())
     ends = ends.reshape(-1, 2)
-    return t, ends[:, 0], ends[:, 1], op, int(keep.sum()), nv
+    return tt, ends[:, 0], ends[:, 1], oo, n, nv, span == n
 
 
 def main(argv):
@@ -198,6 +259,8 @@ def main(argv):
         print(__doc__)
         return 2
     fmt, src, dst, variant = argv[1:5]
+    if os.name == "nt":
+        threading.Thread(target=ram_watchdog, daemon=True).start()
     prefix = DEFAULT_PREFIX
     if len(argv) == 7 and argv[5] == "--prefix":
         prefix = int(argv[6])
@@ -215,19 +278,22 @@ def main(argv):
         print(f"FORMAT-FAIL {src}: variant {variant} on a {'real-deletion' if has_real else 'timestamped interaction'} file")
         return 3
     if has_real:
-        times, uu, vv, ops, kept, nv = real(u, v, t, op)
+        times, uu, vv, ops, kept, nv, whole = real(u, v, t, op, prefix)
+        del u, v, t, op
+        total = len(times) if whole else f"over_{len(times)}"
     else:
         times, uu, vv, ops, kept, nv = synthetic(u, v, t, variant == "insert")
-    total = len(times)
-    if prefix and total > prefix:
+        total = len(times)
+    cut = prefix and len(times) >= prefix and (not isinstance(total, int) or total > prefix)
+    if prefix and len(times) > prefix:
         times, uu, vv, ops = times[:prefix], uu[:prefix], vv[:prefix], ops[:prefix]
     rec = np.zeros(len(times), dtype=[("t", "<i8"), ("u", "<u4"), ("v", "<u4"), ("op", "<u4")])
     rec["t"], rec["u"], rec["v"], rec["op"] = times, uu, vv, ops
     rec.tofile(dst)
     used_v = int(max(uu.max(), vv.max()) + 1) if len(uu) else 0
     dels = int((ops == 0).sum())
-    line = (f"{src} [{member}] format={fmt} variant={variant} lines={lines} kept={kept} vertices={nv} events_full={total} "
-            f"events={len(rec)} prefix={'whole' if not prefix or total <= prefix else prefix} vertices_in_prefix={used_v} "
+    line = (f"{src} [{member}] format={fmt} variant={variant} lines={lines} kept={kept} vertices_cleaned={nv} events_full={total} "
+            f"events={len(rec)} prefix={prefix if cut else 'whole'} vertices_in_prefix={used_v} "
             f"deletions={dels} deletion_share={dels / max(len(rec), 1):.4f} t_min={int(times.min())} t_max={int(times.max())} "
             f"distinct_times={len(np.unique(times))}")
     print(line)

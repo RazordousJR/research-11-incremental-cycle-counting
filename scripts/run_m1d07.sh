@@ -5,6 +5,7 @@
 # Phase count: M1D07C, the count sweep, every arm at p = 3 and then p = 5, cheap streams first. M at M1D04's thetas. Each cell's arms
 # must agree per batch, or the run stops. Hard rule 1. A finished file is never run again, so the script can be restarted under a new claim.
 # Usage: scripts/run_m1d07.sh derive|count [outdir] [cpu]
+# SKIP names streams held out of this run, by the PI's word or while the PI decides (log.md 0046).
 # RAW, DATA and CELLS may be set, only to dry-run this script on fixtures and an engineering stream. A real run sets none of them. LINE_HOURS is ControlPC's line.
 set -u
 export LC_ALL=C
@@ -43,19 +44,21 @@ derive() {
   (cd "$raw" && sha256sum -c --quiet SHA256SUMS) || { echo "M1D07-STOP checksums"; exit 1; }
   echo "$STREAMS" | while read -r s fmt arc; do
     [ -n "$s" ] || continue
+    [[ " ${SKIP:-} " == *" $s "* ]] && { echo "M1D07-SKIP $s"; continue; }
     if [ "$fmt" = konect ]; then variants=real; else variants="expiry insert"; fi
     for v in $variants; do
       [ -s "$data/$s.$v.bin" ] && continue
       msg=$(python -I scripts/prepare_m1d07_stream.py "$fmt" "$raw/$arc" "$data/$s.$v.bin" "$v")
       rc=$?
       echo "$msg"
+      [ $rc -eq 5 ] && { echo "M1D07-STOP RAM during $s"; exit 1; }
       if [ $rc -eq 3 ] && [ "$fmt" = nr ] && [[ $msg == *real-deletion* ]]; then
         python -I scripts/prepare_m1d07_stream.py nr "$raw/$arc" "$data/$s.real.bin" real || echo "M1D07-DROP $s real"
         break
       fi
       [ $rc -eq 0 ] || echo "M1D07-DROP $s $v exit $rc"
     done
-  done
+  done || return 1
   echo "M1D07-DERIVED $data"
 }
 
@@ -63,6 +66,7 @@ cells() {   # stream:variant, in sweep order, for every derived stream
   if [ -n "${CELLS:-}" ]; then echo "$CELLS"; return; fi
   echo "$STREAMS" | while read -r s fmt arc; do
     [ -n "$s" ] || continue
+    [[ " ${SKIP:-} " == *" $s "* ]] && continue
     for v in expiry insert real; do [ -s "$data/$s.$v.bin" ] && echo -n "$s:$v "; done
   done
 }
@@ -99,7 +103,7 @@ sweep() {
 }
 
 case $phase in
-  derive) derive ;;
+  derive) derive || exit 1 ;;
   count) sweep ;;
   *) echo "usage: scripts/run_m1d07.sh derive|count [outdir] [cpu]"; exit 2 ;;
 esac

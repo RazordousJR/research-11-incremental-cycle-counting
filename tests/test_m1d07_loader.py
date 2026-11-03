@@ -99,6 +99,16 @@ def derive(fmt, src, dst, variant, prefix="0"):
     return np.fromfile(dst, dtype=REC)
 
 
+def derive_chunked(arc, dst, chunk):
+    """The KONECT reader with chunks of a few lines, so that a fixture crosses many chunk boundaries."""
+    orig = L.READERS["konect"]
+    L.READERS["konect"] = lambda p: L.read_konect(p, chunk)
+    try:
+        return derive("konect", arc, dst, "real")
+    finally:
+        L.READERS["konect"] = orig
+
+
 def as_tuples(rec):
     return [(int(r["t"]), int(r["u"]), int(r["v"]), int(r["op"])) for r in rec]
 
@@ -182,6 +192,14 @@ def main():
         ref = cleaner(lines)
         if as_tuples(got) != ref:
             print(f"loader DIFFERS from graph_cleaner on trial {i}")
+            fails += 1
+        cut = rng.randrange(1, 40)                       # the prefix path cleans only part of the stream
+        if as_tuples(derive("konect", arc, os.path.join(work, "kp.bin"), "real", str(cut))) != ref[:cut]:
+            print(f"loader prefix {cut} DIFFERS from graph_cleaner on trial {i}")
+            fails += 1
+        small = derive_chunked(arc, os.path.join(work, "kc.bin"), rng.randrange(1, 9))
+        if as_tuples(small) != ref:
+            print(f"loader with small chunks DIFFERS from graph_cleaner on trial {i}")
             fails += 1
         # C1: deletions first at equal times
         ev = [ln.split() for ln in lines[2:]]
