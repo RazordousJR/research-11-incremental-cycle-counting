@@ -9,6 +9,8 @@ Controls, each of which must FAIL, or the test is broken:
    C1 a loader that puts deletions before insertions at equal times, as the synthetic rule does
    C2 a loader that keeps direction when it cleans
    C3 a brute force that never deletes, so that the streams are known to exercise deletions
+4. Network Repository, reading M1D07-R1: a zip as served, read in place, gives the triples stream for each layout of the five files,
+   is refused as real deletions without a dynamic header, fails with two time-like columns, and gives the graph_cleaner stream under one.
 Usage: python -I tests/test_m1d07_loader.py [trials] [seed] [workdir]
 """
 import io
@@ -19,6 +21,7 @@ import subprocess
 import sys
 import tarfile
 import tempfile
+import zipfile
 
 import numpy as np
 
@@ -29,6 +32,7 @@ import prepare_m1d07_stream as L  # noqa: E402
 COUNT = os.path.join(ROOT, "build", "gate1", "count.exe")
 ARMS = {3: ["S3", "P3", "T3", "M3"], 5: ["R2", "PR", "WT", "WJ", "M5", "A5"]}
 THETAS = {"M3": [16, 1], "M5": [128, 1]}
+EOL = chr(10)
 REC = np.dtype([("t", "<i8"), ("u", "<u4"), ("v", "<u4"), ("op", "<u4")])
 
 
@@ -203,6 +207,53 @@ def main():
     print(f"control C1 (deletions first at equal times) differs on {c1} of {trials}: {'FAILS as it must' if c1 else 'PASSED, test broken'}")
     print(f"control C2 (direction kept) differs on {c2} of {trials}: {'FAILS as it must' if c2 else 'PASSED, test broken'}")
     fails += (c1 == 0) + (c2 == 0)
+
+    # 4. Network Repository zips.
+    for i in range(10):
+        n, m = rng.randrange(4, 11), rng.randrange(20, 160)
+        tri_lines = [f"{rng.randrange(1, n + 1)} {rng.randrange(1, n + 1)} {1_100_000_000 + rng.randrange(0, 40) * 3600 * 24}" for _ in range(m)]
+        plain = os.path.join(work, f"nr{i}.txt")
+        with open(plain, "w") as f:
+            f.write(EOL.join(tri_lines) + EOL)
+        # The layouts seen in M1D07's five files: "u v t", "u v 1 t", "u,v,t,duration" and a signed "u v +-1 t", whose -1 is a sign
+        layouts = [(" ", "% sym unweighted", lambda a, b, t: [a, b, t]),
+                   (" ", "% asym positive", lambda a, b, t: [a, b, "1", t]),
+                   (",", None, lambda a, b, t: [a, b, t, str(rng.randrange(1, 3000))]),
+                   (chr(9), "% asym signed", lambda a, b, t: [a, b, rng.choice(["1", "-1"]), t])]
+        for k, (sep, head, row) in enumerate(layouts):
+            body = [sep.join(row(*x.split())) for x in tri_lines]
+            arc = os.path.join(work, f"nr{i}-{k}.zip")
+            with zipfile.ZipFile(arc, "w") as z:
+                z.writestr("readme.html", "x")
+                z.writestr(f"nr{i}/nr{i}.edges", (head + EOL if head else "") + EOL.join(body) + EOL)
+            if L.main(["x", "nr", arc, os.path.join(work, "nr.bin"), "real"]) != 3:
+                print(f"NR zip without a dynamic header was accepted as real deletions, trial {i}, layout {k}")
+                fails += 1
+            for variant in ("expiry", "insert"):
+                a = derive("nr", arc, os.path.join(work, "nr.bin"), variant)
+                b = derive("triples", plain, os.path.join(work, "tr.bin"), variant)
+                if a.tobytes() != b.tobytes():
+                    print(f"NR zip DIFFERS from triples, trial {i}, layout {k}, {variant}")
+                    fails += 1
+        # Both of columns 3 and 4 look like times: the file must fail the check
+        arc = os.path.join(work, f"nr{i}-both.zip")
+        with zipfile.ZipFile(arc, "w") as z:
+            z.writestr("x.edges", EOL.join(f"{x} {x.split()[2]}" for x in tri_lines) + EOL)
+        if L.main(["x", "nr", arc, os.path.join(work, "nr.bin"), "insert"]) != 3:
+            print(f"NR zip with two time columns was accepted, trial {i}")
+            fails += 1
+        lines = konect_text(rng, n, m)
+        lines[0] = "% sym dynamic"
+        arc = os.path.join(work, f"nrk{i}.zip")
+        with zipfile.ZipFile(arc, "w") as z:
+            z.writestr(f"nrk{i}.edges", EOL.join(lines) + EOL)
+        if as_tuples(derive("nr", arc, os.path.join(work, "nrk.bin"), "real")) != cleaner(lines):
+            print(f"NR zip with deletions DIFFERS from graph_cleaner, trial {i}")
+            fails += 1
+        if L.main(["x", "nr", arc, os.path.join(work, "nrk.bin"), "insert"]) != 3:
+            print(f"NR zip with deletions was accepted as insert-only, trial {i}")
+            fails += 1
+    print(f"Network Repository zips: 10 trials, {fails} failures so far")
 
     # 3. Every arm against the brute force, and control C3.
     checked = c3 = nz = cells = 0

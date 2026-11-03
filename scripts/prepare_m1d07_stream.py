@@ -5,9 +5,10 @@ Formats:
   konect   a KONECT dynamic file, plain or the .tar.bz2 as served: '%' comments, then "u v w t" with w = +1 or -1. Variant real only
   triples  a SNAP temporal file, plain or .gz: "u v t". The same stream as scripts/prepare_stream.py builds
   reddit   a SNAP Reddit hyperlink TSV: a header, then SOURCE, TARGET, POST_ID, TIMESTAMP as YYYY-MM-DD HH:MM:SS (UTC), ...
-  nr       a Network Repository file: '%' or '#' comments, then "u v t" or "u v w t", by spaces, tabs or commas.
-           With four columns, weights all +1 or -1 and at least one -1 make it a real-deletion stream (variant real); otherwise
-           the weight is ignored and t is the last column
+  nr       a Network Repository file, plain or the .zip as served (one edge file inside): '%' or '#' comments, then "u v t" or "u v w t", by spaces, tabs or commas.
+           With four columns, a first comment line '% <structure> dynamic' makes it a real-deletion stream (variant real) with the
+           weight +1 or -1 in column 3. Otherwise t is whichever of columns 3 and 4 has every value at least 10^8, the other is
+           ignored, and if neither or both qualify the file fails the check (reading M1D07-R1)
 Record: little-endian int64 time, uint32 u, uint32 v, uint32 op (0 delete, 1 insert), packed, 20 bytes.
 --prefix keeps the first N events of the derived stream, default 2,000,000. 0 keeps all.
 
@@ -23,6 +24,7 @@ import io
 import sys
 import tarfile
 import time
+import zipfile
 
 import numpy as np
 
@@ -41,6 +43,13 @@ def open_text(path):
         if len(members) != 1:
             raise FormatError(f"expected one out.* member in {path}, found {[m.name for m in members]}")
         return io.TextIOWrapper(tar.extractfile(members[0]), encoding="ascii"), members[0].name
+    if path.endswith(".zip"):
+        z = zipfile.ZipFile(path)
+        names = [n for n in z.namelist() if not n.endswith("/") and n.rsplit(".", 1)[-1].lower() in ("edges", "txt", "csv", "tsv", "mtx")
+                 and not n.rsplit("/", 1)[-1].lower().startswith("readme")]
+        if len(names) != 1:
+            raise FormatError(f"expected one edge file in {path}, found {names}")
+        return io.TextIOWrapper(z.open(names[0]), encoding="ascii"), names[0]
     if path.endswith(".gz"):
         return io.TextIOWrapper(gzip.open(path, "rb"), encoding="ascii"), path
     if path.endswith(".bz2"):
@@ -98,18 +107,36 @@ def read_reddit(path):
 
 
 def read_nr(path):
+    """Reading M1D07-R1 (log.md 0044): deletions only under a KONECT-style '% <structure> dynamic' header, and the time is the
+    one of columns 3 and 4 whose every value is at least 10^8, Unix seconds after March 1973."""
     f, member = open_text(path)
-    lines = [ln for ln in f if ln.strip() and ln.lstrip()[0] not in "%#"]
+    head, lines = None, []
+    for ln in f:
+        s = ln.strip()
+        if not s:
+            continue
+        if s[0] in "%#":
+            head = s if head is None else head
+            continue
+        lines.append(ln)
+    if not lines:
+        raise FormatError(f"{member}: no data lines")
     delimiter = "," if "," in lines[0] else None
     a = load_int_table(lines, None, delimiter)
     if a.shape[1] == 3:
         return a[:, 0], a[:, 1], a[:, 2], None, member
-    if a.shape[1] == 4:
+    if a.shape[1] != 4:
+        raise FormatError(f"{member}: {a.shape[1]} columns, expected 3 or 4")
+    words = head.split() if head else []
+    if len(words) >= 3 and words[2] == "dynamic":
         w = a[:, 2]
-        if np.all((w == 1) | (w == -1)) and np.any(w == -1):
-            return a[:, 0], a[:, 1], a[:, 3], (w == 1).astype(np.uint32), member
-        return a[:, 0], a[:, 1], a[:, 3], None, member
-    raise FormatError(f"{member}: {a.shape[1]} columns, expected 3 or 4")
+        if not np.all((w == 1) | (w == -1)):
+            raise FormatError(f"{member}: a dynamic header with a weight other than +1 or -1")
+        return a[:, 0], a[:, 1], a[:, 3], (w == 1).astype(np.uint32), member
+    times = [c for c in (2, 3) if np.all(a[:, c] >= 10**8)]
+    if len(times) != 1:
+        raise FormatError(f"{member}: the time column is not determined, columns {[c + 1 for c in times]} qualify")
+    return a[:, 0], a[:, 1], a[:, times[0]], None, member
 
 
 READERS = {"konect": read_konect, "triples": read_triples, "reddit": read_reddit, "nr": read_nr}

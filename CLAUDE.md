@@ -8,8 +8,9 @@ restated here. Where the two conflict, this file wins and the conflict goes in `
 - **Project:** Research 11. The source idea file is headed "Research 5", and the PI confirmed on 2026-11-01
   that the project is Research 11 (`log.md` 0006).
 - **Field:** graph algorithms. Exact, sequential, CPU only.
-- **Contribution type (bootstrap §3):** Method, with one small theory result. Not yet earned: see
-  `docs/proposal.md` §7 and `docs/novelty/paper-1.md`.
+- **Contribution type (bootstrap §3):** algorithm engineering: an engineered kernel, PR, a rule for when it pays, and
+  a cost model, for a venue that publishes experimental algorithmics (PI decision, 2026-11-03, `log.md` 0043). It was
+  Method with one small theory result, and the mechanism turned out published. See `docs/paper/outline.md`.
 - **Corresponding author:** Hamzah Asyrani Sulaiman (the PI). Six authors, listed in `AUTHORS.md`. Working
   mode is the PI plus automated roles. Decisions go to the PI alone, and co-authors are not a review step.
 

@@ -35,17 +35,26 @@ Applied after the rule above was committed (ea5f5d9), on the servers' size heade
 | 6 | dewiki | `download.tsv.link-dynamic-dewiki.tar.bz2` | `http://konect.cc/files/` | 437,616,884 | real timestamps, real deletions | 2 |
 | 7 | soc-redditHyperlinks-body | `soc-redditHyperlinks-body.tsv` | `https://snap.stanford.edu/data/` | 318,931,394 | real timestamps, synthetic expiry; insert-only | 4 |
 | 8 | soc-redditHyperlinks-title | `soc-redditHyperlinks-title.tsv` | `https://snap.stanford.edu/data/` | 368,581,209 | real timestamps, synthetic expiry; insert-only | 4 |
-| 9 | ia-enron-email-dynamic | `ia-enron-email-dynamic.zip` | `https://nrvis.com/download/data/dynamic/` | 4,415,186 | by the format check | 4 |
-| 10 | ia-reality-call | `ia-reality-call.zip` | `https://nrvis.com/download/data/dynamic/` | 389,600 | by the format check | 4 |
-| 11 | soc-wiki-elec | `soc-wiki-elec.zip` | `https://nrvis.com/download/data/dynamic/` | 633,985 | by the format check | 4 |
-| 12 | tech-as-topology | `tech-as-topology.zip` | `https://nrvis.com/download/data/dynamic/` | 1,093,293 | by the format check | 4 |
-| 13 | soc-youtube-growth | `soc-youtube-growth.zip` | `https://nrvis.com/download/data/dynamic/` | 59,019,201 | by the format check | 4 |
+| 9 | ia-enron-email-dynamic | `ia-enron-email-dynamic.zip` | `https://nrvis.com/download/data/dynamic/` | 4,415,186 | real timestamps, synthetic expiry; insert-only (M1D07-R1) | 4 |
+| 10 | ia-reality-call | `ia-reality-call.zip` | `https://nrvis.com/download/data/dynamic/` | 389,600 | real timestamps, synthetic expiry; insert-only (M1D07-R1) | 4 |
+| 11 | soc-wiki-elec | `soc-wiki-elec.zip` | `https://nrvis.com/download/data/dynamic/` | 633,985 | real timestamps, synthetic expiry; insert-only (M1D07-R1) | 4 |
+| 12 | tech-as-topology | `tech-as-topology.zip` | `https://nrvis.com/download/data/dynamic/` | 1,093,293 | real timestamps, synthetic expiry; insert-only (M1D07-R1) | 4 |
+| 13 | soc-youtube-growth | `soc-youtube-growth.zip` | `https://nrvis.com/download/data/dynamic/` | 59,019,201 | real timestamps, synthetic expiry; insert-only (M1D07-R1) | 4 |
 
 1,902,166,321 bytes in all, 1.90 GB. The archives are read in place by the loader, so nothing is unpacked to disk. If every Network Repository file takes the synthetic labels, there are 40 cells at each of p = 3 and p = 5: 12 real-deletion cells, 14 synthetic expiry and 14 insert-only. With M1D05's, p = 5 then has 56 evaluation cells on 17 streams.
 
 Dropped at step 2, fully synthetic: the 19 DyReach Kronecker graphs, constant and growing size, 38 instances. Dropped at step 3, already used: sx-askubuntu, sx-superuser, wiki-talk-temporal, sx-stackoverflow, sx-mathoverflow.
 
 KONECT's page gives simplewiki 1,627,472 events before cleaning and nlwiki 20,070,561, so simplewiki runs whole and the other five are cut at 2,000,000. Both are directed with a top degree of 33,633 and 108,306.
+
+### Reading M1D07-R1, fixed on 2026-11-03 after the format check and before any stream was derived or any arm ran (`log.md` 0044)
+
+Step 6 assumed every four-column Network Repository file reads "u v w t", and that weights of +1 and -1 mean deletions. The check found neither true. `ia-reality-call` reads "u,v,t,duration", so the rule would have taken the call's duration as its time. `soc-wiki-elec` is headed `% asym signed`: its -1 is an oppose vote, not a removal, so the rule would have deleted an edge for every oppose vote. The readme in each zip documents no columns. So, mechanically:
+
+- A Network Repository file is a real-deletion stream only if its first comment line is KONECT's `% <structure> dynamic`. None of the five is, so all five take the two synthetic labels, and their weight column is ignored, as Hanauer et al.'s `temporal_to_updates` ignores it.
+- With four columns, the time is whichever of columns 3 and 4 has every value at least 10^8, Unix seconds after March 1973. If neither or both qualify, the file fails step 6 and is dropped.
+
+This changes which column a file is read from, not any threshold, cell, arm or reading of a result. Checked on the four small files: time in column 3 for `ia-reality-call` and in column 4 for the other three. `soc-youtube-growth` is checked when it is derived. `ia-enron-email-dynamic` has times from 1980 to 2024, the known bad dates of the Enron mail. No filter was fixed before this check, so none is added, and the stream runs as served.
 
 ## Labels and variants
 

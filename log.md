@@ -528,3 +528,29 @@ The PI closed this session to start a new one. No claim is held, the tree is cle
 **Estimate.** Count sweep, ordinary claim: 6 to 30 hours, central 10. Timing, `--exclusive`: 10 to 35 hours, central 19, in phases of at most 8 hours whose order is fixed now. The range is the unknown 5-cycle cost of a Wikipedia link prefix, and the count sweep fixes it before any exclusive hours are asked for.
 
 **Waiting on the PI.** The 13 downloads, with file, source and size in the protocol. The ordinary claim hours for M1D07C. Nothing is downloaded, no claim is held, and nothing is running.
+
+## 0043, 2026-11-03: PI approves the seven items of 0042's table
+
+The PI, in this session: "Okeh approved beb", to the table of the last report. Each stands as I recommended it.
+
+| # | Item | Decision |
+|---|---|---|
+| 1 | The 13 downloads, 1,902,166,321 bytes, files and sources as in `docs/experiments/m1d07-streams.md` | Approved, all 13 |
+| 2 | Ordinary claim for the count sweep M1D07C | Approved, up to 16 hours in two claims, after Research 12 releases, on ControlPC's GO |
+| 3 | `--exclusive` hours for M1D07D | Deferred. A firm figure from M1D07C's seconds, and how many phases run, come to the PI before D1 |
+| 4 | The 38 Kronecker streams | Out of M1D07 |
+| 5 | This project's expiry rule against Hanauer et al.'s | Kept. The paper states the difference |
+| 6 | Decision A, contribution type | Algorithm engineering, with PR as the artifact. `CLAUDE.md` updated |
+| 7 | Decision C, M1A17 | Runs now as reading, during the count sweep, with no machine. The venue stays the PI's |
+
+## 0044, 2026-11-03: downloads done, a format check that changed how two files are read, a dry run, and an unclaimed 20 s
+
+**Downloads.** All 13, 08:20:21 to 08:25:50, each equal to the server's size header, into `data/m1d07/raw/` with `SHA256SUMS`. 1,902,166,321 bytes. None of the servers publishes a checksum, so the hashes fix what was received and do not verify it.
+
+**Reading M1D07-R1.** The format check, by listing each zip and reading its first lines, found that step 6 of the protocol would misread two files. `ia-reality-call` reads "u,v,t,duration", so the time would have been the call's duration. `soc-wiki-elec` is headed `% asym signed`, so its oppose votes would have become edge deletions. The rule now reads deletions only under a `% <structure> dynamic` header, which none of the five has, and takes the time from whichever of columns 3 and 4 has every value at least 10^8. Written into `docs/experiments/m1d07-streams.md` before any stream was derived or any arm ran. It changes which column is read, not any threshold, cell or arm. `tests/test_m1d07_loader.py` now covers the four layouts of the five files, a refusal of real deletions without a dynamic header, and a refusal when both columns look like times: it passes. The Enron file carries dates from 1980 to 2024. No filter was fixed before the check, so none is added. **This is the PI's to accept or turn back.** The alternative is to drop the two files under step 6.
+
+**Dry run.** On ControlPC's GO, `scripts/run_m1d07.sh` on fixtures and CollegeMsg, scratchpad output: every path ran, 140 arm runs OK, every cell's arms agree per batch, and CollegeMsg matches M1C03 on 4 arm-cells, 0 differences. Its seconds were thrown away.
+
+**A slip.** The dry run's claim command used `--shared` without `--for`, `tower_check.py` refused it, and the chain did not test its exit status, so the dry run ran unclaimed from 08:23:48 to 08:24:08, 20 s, one pinned process at a time, a few MB, beside Research 12's non-timing claim. Reported to ControlPC, which logged it as harmless. `scripts/chain_m1d07c.sh` now does every check first and starts nothing unless the tower reads clear, RAM available is at least 14 GiB, commit free at least 40 GB, the checksums and `count.exe`'s hash hold, and the claim file exists. It refused correctly at 08:3x while Research 12 held the tower.
+
+**Queue.** ControlPC: WAIT for M1D07C until Research 12 releases its W2 claim, expected about 09:40 to 10:40, then GO with a window. M1A17 runs as reading meanwhile.
