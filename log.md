@@ -554,3 +554,11 @@ The PI, in this session: "Okeh approved beb", to the table of the last report. E
 **A slip.** The dry run's claim command used `--shared` without `--for`, `tower_check.py` refused it, and the chain did not test its exit status, so the dry run ran unclaimed from 08:23:48 to 08:24:08, 20 s, one pinned process at a time, a few MB, beside Research 12's non-timing claim. Reported to ControlPC, which logged it as harmless. `scripts/chain_m1d07c.sh` now does every check first and starts nothing unless the tower reads clear, RAM available is at least 14 GiB, commit free at least 40 GB, the checksums and `count.exe`'s hash hold, and the claim file exists. It refused correctly at 08:3x while Research 12 held the tower.
 
 **Queue.** ControlPC: WAIT for M1D07C until Research 12 releases its W2 claim, expected about 09:40 to 10:40, then GO with a window. M1A17 runs as reading meanwhile.
+
+## 0045, 2026-11-03: M1A17 read; JGAA first, KAIS second
+
+`docs/submissions/paper-1/venue-fit.md`. A subagent read the venues' own pages. SCImago, ACM, Clarivate and DBLP refused the plain fetcher, so it read them in the PI's Chrome, by links and the Master Journal List's search box only, with no login, form or cookie banner. I checked JGAA's scope and fees again myself. ACM refused my own fetch, so JEA's closure is the subagent's reading only.
+
+**JGAA** passes on scope, which names dynamic graph algorithms, experimentation and implementations, and on type, with three engineering papers in 2025 and 2026, none on counting. It is free. SJR 2025 gives Q2 in one category and Q3 in four, so the PI's list's "Q2" is its best category only, and the Master Journal List finds it in no WoS index. **KAIS** is free by the subscription route, Q1 and SCIE, with dynamic and streaming graph papers, but its readers are data-mining readers and it would need an applications framing. **J.UCS** fails: no exemplar, and its about page does not name algorithm engineering. **ACM JEA** fails: by its home page it closed after 2023, and its successor, TALG's experimental track, charges $950 to $1,450 unless the institution is in ACM Open, which is not checked.
+
+The venue is the PI's decision. My recommendation: JGAA, unless this paper needs WoS, then KAIS.
