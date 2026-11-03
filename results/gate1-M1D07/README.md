@@ -6,14 +6,14 @@ Labels: **real timestamps, real deletions** (KONECT), **real timestamps, synthet
 
 ## Result
 
-- **Complete.** `M1D07-DONE` in both claims. 13 streams derived, none dropped. 70 cells: 38 at p = 3 and 32 at p = 5, the two p = 3 cells of youtube's held expiry copy among the p = 3 ones and not used.
-- **Exact.** The sweep's check passed on every cell. A separate check after the first claim took every raw file: 62 cells, 308 arm-cells, 2,053,393 batch comparisons, 0 differ, and the second claim's 8 cells passed the same check in the run. Hard rule 1 is not touched. The hashes in `hashes.txt` hold.
+- **Complete.** `M1D07-DONE` in both claims. 13 streams derived, none dropped. 78 cells: 40 at p = 3 and 38 at p = 5. The two p = 3 cells of youtube's held expiry copy are among the 40 and are not used.
+- **Exact.** The sweep's check passed on every cell. A separate check after both claims took every raw file: 78 cells, 388 arm-cells, 2,105,673 batch comparisons, 0 differ. Hard rule 1 is not touched. The hashes in `hashes.txt` hold.
 - **Arms short of the stream,** all at their own limits: A5 by its 300 s limit, T3 and WT by the 16 GB cap at a peak resident near 15.75 GB, WJ by its 6.44 GB table cap. None came from the machine's memory.
 - **Neighbours.** Research 12 ran beside the first claim from 10:31:05 to 10:57:01 and from 11:51:17 to 13:04:03, four unpinned single-thread processes each time. Counts and operations do not move. The seconds of those cells read high, and `plan.txt` marks them.
 
 ## Operations, share against the fewest other finished arm
 
-Share is P3 or PR. "Fewest other" is the finished arm of the other rows with the fewest charged operations. At p = 5 that arm is WJ on 26 of 30 cells, R2 on 5, M5 on 4, WT on 2, A5 on 1, counting the snapshot. M1D04 found WJ 3 to 26 times slower than PR on the clock on cells where it does fewer operations, so this table does not predict the clock, and Gate 1's rule reads the clock only.
+Share is P3 or PR. "Fewest other" is the finished arm of the other rows with the fewest charged operations. At p = 5 that arm is WJ on 26 of 38 cells, R2 on 5, M5 on 4, WT on 2, A5 on 1, counting the snapshot. M1D04 found WJ 3 to 26 times slower than PR on the clock on cells where it does fewer operations, so this table does not predict the clock, and Gate 1's rule reads the clock only.
 
 ### p = 3
 | Stream | Label | Cut | Share ops, millions | Fewest other | Its ops | Share over fewest other | Share over scan |

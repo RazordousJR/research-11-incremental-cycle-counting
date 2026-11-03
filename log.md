@@ -624,10 +624,12 @@ Operations and the timing plan come next, from this sweep alone, before any excl
 
 The second claim ran 15:04:28 to 15:08:02 on ControlPC's GO, `SKIP` holding youtube out so that its held expiry copy was not rebuilt, and derived and swept the two Network Repository files the PI accepted in 0048. Both claims: 5 h 05 min of the 16 approved, exact throughout. Record: `results/gate1-M1D07/README.md`.
 
-**Operations, no verdict.** Median share over the fewest other finished arm: 1.320 at p = 3 and 1.310 at p = 5, over 36 cells each without the snapshot. Against the scan alone: 1.320 and 0.598. At p = 5 the fewest other is WJ on 26 of 30 cells. That is M1D03's pattern on the old streams, 1.447 and 0.950 then, before the clock in M1D04 turned it to Go. The clock decides, and this table cannot.
+**Operations, no verdict.** Median share over the fewest other finished arm: 1.320 at p = 3 and 1.310 at p = 5, over 36 cells each without the snapshot. Against the scan alone: 1.320 and 0.598. At p = 5 the fewest other is WJ on 26 of 38 cells. That is M1D03's pattern on the old streams, 1.447 and 0.950 then, before the clock in M1D04 turned it to Go. The clock decides, and this table cannot.
 
 **Timing plan,** `results/gate1-M1D07/plan.txt` from `scripts/m1d07_plan.py`, with Gate 1's repeat rule on these count seconds, which run at 1.0 to 1.1 times the timing build: D1 0.70 h, D2 3.77 h, D3 3.34 h, D4 0.73 h, **8.55 h in all, 9.40 h at 1.1 times**. That is under the low end of 0042's 10 to 35 hours. 15 cells ran beside Research 12, so the plan reads a little high. Two exclusive claims, keeping the protocol's order: D1 and D2, about 4.9 h; then D3 and D4, about 4.5 h.
 
 **Scripts for M1D07D.** `scripts/run_m1d07.sh timing` and `MODE=timing` in `scripts/chain_m1d07c.sh`, with an `--exclusive --timing` claim, the M1D04 `timing.exe` checked by hash, and every repeat checked per batch against the other runs of its cell and against M1D07C's count build by `scripts/m1d07_tcheck.py`. Not yet dry-run: that needs a short claim on ControlPC's GO first.
 
 **For the PI.** Exclusive hours for M1D07D. The protocol says the PI fixes how many phases run before D1, and none is dropped once a timing result is read.
+
+**A correction to this entry and to the README's first draft.** The second claim swept 16 cells, 8 at each pattern, not 8 as I first told ControlPC, and M1D07C holds 78 cells, 40 at p = 3 and 38 at p = 5, not 70. A check of every raw file after both claims: 388 arm-cells, 2,105,673 batch comparisons, 0 differ.
