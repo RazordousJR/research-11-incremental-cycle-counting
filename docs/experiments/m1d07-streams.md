@@ -54,7 +54,11 @@ Step 6 assumed every four-column Network Repository file reads "u v w t", and th
 - A Network Repository file is a real-deletion stream only if its first comment line is KONECT's `% <structure> dynamic`. None of the five is, so all five take the two synthetic labels, and their weight column is ignored, as Hanauer et al.'s `temporal_to_updates` ignores it.
 - With four columns, the time is whichever of columns 3 and 4 has every value at least 10^8, Unix seconds after March 1973. If neither or both qualify, the file fails step 6 and is dropped.
 
-This changes which column a file is read from, not any threshold, cell, arm or reading of a result. Checked on the four small files: time in column 3 for `ia-reality-call` and in column 4 for the other three. `soc-youtube-growth` is checked when it is derived. `ia-enron-email-dynamic` has times from 1980 to 2024, the known bad dates of the Enron mail. No filter was fixed before this check, so none is added, and the stream runs as served.
+**Accepted by the PI on 2026-11-03 (`log.md` 0048).** This changes which column a file is read from, not any threshold, cell, arm or reading of a result. Checked on the four small files: time in column 3 for `ia-reality-call` and in column 4 for the other three. `soc-youtube-growth` is checked when it is derived. `ia-enron-email-dynamic` has times from 1980 to 2024, the known bad dates of the Enron mail. No filter was fixed before this check, so none is added, and the stream runs as served.
+
+### soc-youtube-growth, decided by the PI on 2026-11-03 (`log.md` 0047, 0048)
+
+Its first 2,000,000 events all carry one time, 2006-12-10: the file opens with a dated snapshot. Its expiry and insert streams are then the same file byte for byte. One copy runs, the insert stream, labelled **static snapshot, file order**. It is reported, and never in a verdict or a pooled reading. The expiry copy is held out in `data/m1d07/held/`. Its p = 3 cells had already run when this was found, and they are kept and not used.
 
 ## Labels and variants
 

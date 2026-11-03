@@ -589,3 +589,14 @@ Derivation finished inside the claim with no drop and no RAM stop. From each str
 So the KONECT prefixes hold 16% to 28% real deletions, and 0042's worry that an early prefix would hold few was wrong: the hard case is there.
 
 **soc-youtube-growth.** Every one of its first 2,000,000 events carries the same time, 1165705200, 2006-12-10: the file opens with a snapshot of more than 2,000,000 edges, dated at once. So the prefix holds no expiry, and its expiry and insert streams are the same file byte for byte (`cmp`). Its cells are then a static graph inserted in file order, two copies of each, and the label "real timestamps" does not describe them. Hanauer et al.'s `2m` instance of it has the same property, since their lifetime also starts at that one time. Nothing has read its p = 5 cells yet. The sweep reaches them after the p = 5 cells of the four streams before it. **The PI's to decide**: keep one copy, labelled a static snapshot in file order, reported and never in a verdict; or drop the stream under step 6. Running both copies costs hours and adds nothing.
+
+## 0048, 2026-11-03: PI accepts R1 and one youtube copy as a static snapshot
+
+The PI, in this session: "Aku follow cadangan ko la senang. Proceed beb. Approved mane yg optimum", to the two open items. Each stands as I recommended it.
+
+| # | Item | Decision |
+|---|---|---|
+| 1 | Reading M1D07-R1 for `ia-reality-call` and `soc-wiki-elec` | Accepted. Both are derived and swept in M1D07C's second claim, on ControlPC's GO |
+| 2 | soc-youtube-growth | One copy, the insert stream, labelled static snapshot, file order, reported and never in a verdict. The expiry copy moved to `data/m1d07/held/` at 10:28, while the sweep was on Enron's p = 5 cells and before any p = 5 youtube cell. Its two p = 3 cells had run and are kept, unused |
+
+With the expiry copy gone, the sweep's two p = 5 youtube expiry cells find no file, run no arm, and are recorded as not run. No result has been read in deciding either item: the p = 5 cells of the two NR files and of youtube had not run.
