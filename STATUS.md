@@ -28,7 +28,7 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 
 ## Open, waiting on the PI
 
-**More streams before writing** (`log.md` 0040, 0042). The M1D07 protocol is written, `docs/experiments/m1d07-streams.md`: 13 real streams from Hanauer et al.'s 56 by a rule committed first, 6 of them KONECT with real deletions, at p = 3 and p = 5, 40 cells each. The loader is exact on the oracle. Downloads (1.90 GB) and the count sweep's ordinary claim wait on the PI's word. Still open in `docs/paper/outline.md`: the contribution type and the venue task M1A17. The two §16 figures are done in `docs/figures/`. No heavy work is planned until then.
+**More streams before writing** (`log.md` 0040, 0042). The M1D07 protocol is written, `docs/experiments/m1d07-streams.md`: 13 real streams from Hanauer et al.'s 56 by a rule committed first, 6 of them KONECT with real deletions, at p = 3 and p = 5, 40 cells each. The loader is exact on the oracle. The PI approved the downloads and up to 16 ordinary hours for the count sweep (`log.md` 0043). All 13 files are in `data/m1d07/raw/`. Reading M1D07-R1 fixed how two Network Repository files are read, before any derive (`log.md` 0044). The sweep, `scripts/chain_m1d07c.sh`, waits for ControlPC's GO after Research 12 releases. Venue reading M1A17 is done, `docs/submissions/paper-1/venue-fit.md`: JGAA first, KAIS second, the PI's choice. The contribution type is algorithm engineering (`log.md` 0043). The venue is open. The two §16 figures are done in `docs/figures/`. No heavy work is planned until then.
 
 ## Handover notes
 
