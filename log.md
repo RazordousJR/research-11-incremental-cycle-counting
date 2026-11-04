@@ -778,3 +778,25 @@ The suggestion that goes with the report is chosen by these rules and named in t
 **Found while writing it.** The count build's `upkeep` column is not a separate counter: `benchmarks/gate1.cpp` adds to it the part of the other counters that M spends on hub upkeep. Every model leaves it out, so nothing is counted twice. The sums of the remaining 10 counters equal `ops` on every arm-cell, checked by the script.
 
 **Hard rule 5, read here, for the PI.** The rule says parameters are chosen on engineering streams. The engineering streams have no timing for most arms, and their tables fit in L3, so the cache price this model tests cannot be fitted there. The coefficients are fitted on streams already read and judged only on streams no coefficient saw. That keeps the rule's purpose and departs from its letter. The other way is to time all arms on the engineering streams, which needs a claim and would still leave the cache term unfitted.
+
+## 0063, 2026-11-04: M1D09B reads Carries; figures 3 to 6 drawn
+
+**M1D09B.** `scripts/m1d09_cost.py` was run once after a712ab3. Its output is in `results/cost-M1D09/` and the record is that folder's README.
+
+| Model | Evaluation median error | Winner agrees, 64 new cells | PR's side of 0.67, 32 cells |
+|---|---|---|---|
+| U, unit cost | 70.1% | 21 | 12 |
+| K, by kind | 23.4% | 63 | 29 |
+| KC, by kind and cache | 22.9% | 64 | 31 |
+
+**Outcome by the rule: Carries.** KC gains 67 points in winner agreement over U, where 25 are needed, and its median error of 22.9% is under the 25% limit.
+
+**What limits it, read beside it and labelled as unplanned.**
+- K, with no cache term, already does almost all of it. The fitted extra prices for tables over L3 are 0 for probes, 0.15 ns for writes and 1.71 ns for reads. So the data do not show that a table outgrowing L3 is what makes the table arms slow.
+- KC predicts WJ at a median 0.18 of its measured time, and overpredicts M5 at 1.41 and A5 at 1.74. Pricing by kind names the winner, but it does not explain the table arms' times.
+- The winners are not hard: PR is fastest on all 32 new p = 5 cells, and P3 or M3 on 31 of the 32 p = 3 cells.
+- A probe at about 18 ns against 0.2 to 0.6 ns for a row or scan step is the measured form of the outline's "price of a table probe". The outline's claim sentence and section 6 now say this, with the two limits.
+
+**Figures 3 to 6.** `scripts/figures_results.py` writes `fig-test-set.svg` (20 streams), `fig-score-by-p.svg` (medians 0.965, 1.299 and 0.650, as recorded), `fig-cost-model.svg` and `fig-theta.svg`. All are from logged runs. They were checked as PNGs from headless Edge, and three layout faults were fixed before the commit: a clipped axis label, an overlapping column and a cut caption. The outline now has its six figures.
+
+**For the PI.** Hard rule 5 is read in M1D09 as fit-on-read, judge-on-unseen (0062), and accepting that reading or not is the PI's decision. The venue question is still open.

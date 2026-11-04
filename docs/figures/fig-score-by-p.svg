@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 432" width="640" height="432" font-family="Helvetica, Arial, sans-serif">
+<rect width="640" height="432" fill="white"/>
+<text x="12.0" y="22.0" font-size="12" text-anchor="start" font-weight="bold" fill="black">Score against pattern size: sharing's median over the best other arm's, every scored cell</text>
+<line x1="70" y1="340.0" x2="590" y2="340.0" stroke="#ddd" stroke-width="0.6" stroke-dasharray=""/>
+<text x="64.0" y="344.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">0.25</text>
+<line x1="70" y1="280.0" x2="590" y2="280.0" stroke="#ddd" stroke-width="0.6" stroke-dasharray=""/>
+<text x="64.0" y="284.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">0.5</text>
+<line x1="70" y1="254.7" x2="590" y2="254.7" stroke="black" stroke-width="0.9" stroke-dasharray="4 3"/>
+<text x="64.0" y="258.7" font-size="10" text-anchor="end" font-weight="normal" fill="black">0.67</text>
+<line x1="70" y1="220.0" x2="590" y2="220.0" stroke="black" stroke-width="0.9" stroke-dasharray=""/>
+<text x="64.0" y="224.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">1</text>
+<line x1="70" y1="160.0" x2="590" y2="160.0" stroke="#ddd" stroke-width="0.6" stroke-dasharray=""/>
+<text x="64.0" y="164.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">2</text>
+<line x1="70" y1="100.0" x2="590" y2="100.0" stroke="#ddd" stroke-width="0.6" stroke-dasharray=""/>
+<text x="64.0" y="104.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">4</text>
+<line x1="70" y1="40.0" x2="590" y2="40.0" stroke="#ddd" stroke-width="0.6" stroke-dasharray=""/>
+<text x="64.0" y="44.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">8</text>
+<text x="594.0" y="258.7" font-size="9" text-anchor="start" font-weight="normal" fill="black">0.67</text>
+<text x="594.0" y="224.0" font-size="9" text-anchor="start" font-weight="normal" fill="black">1.0</text>
+<circle cx="174.0" cy="250.9" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="142.0" cy="248.0" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="182.0" cy="244.2" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="134.0" cy="242.1" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="190.0" cy="242.0" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="194.0" cy="240.0" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="122.0" cy="238.9" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="176.0" cy="238.7" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="140.0" cy="237.8" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="184.0" cy="236.4" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="188.0" cy="234.3" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="192.0" cy="232.9" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="124.0" cy="232.9" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="146.0" cy="232.7" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="142.0" cy="232.7" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="182.0" cy="232.6" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="134.0" cy="232.2" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="190.0" cy="232.1" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="194.0" cy="232.0" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="198.0" cy="230.7" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="144.0" cy="230.5" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="140.0" cy="230.0" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="181.0" y="220.7" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="132.0" cy="223.1" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="192.0" cy="222.9" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="196.0" cy="222.9" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="171.0" y="219.7" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="178.0" cy="222.4" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="138.0" cy="221.9" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="134.0" cy="220.0" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="190.0" cy="220.0" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="126.0" cy="220.0" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="198.0" cy="220.0" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="144.0" cy="220.0" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="140.0" cy="220.0" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="181.0" y="217.0" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="129.0" y="216.7" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="125.0" y="214.4" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="121.0" y="211.0" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="146.0" cy="211.2" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="178.0" cy="209.8" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="179.0" y="206.8" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="183.0" y="205.9" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="130.0" cy="208.1" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="191.0" y="204.2" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="119.0" y="202.6" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="141.0" y="201.4" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="137.0" y="198.8" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="116" y1="223.0" x2="204" y2="223.0" stroke="black" stroke-width="2.2"/>
+<text x="160.0" y="358.0" font-size="11" text-anchor="middle" font-weight="bold" fill="black">p = 3</text>
+<text x="160.0" y="372.0" font-size="9" text-anchor="middle" font-weight="normal" fill="black">median 0.965, 0 of 48 pass</text>
+<text x="130.0" y="384.0" font-size="8" text-anchor="middle" font-weight="normal" fill="#555">cut 100</text>
+<text x="190.0" y="384.0" font-size="8" text-anchor="middle" font-weight="normal" fill="#555">cut 1,000</text>
+<rect x="341.0" y="204.3" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="345.0" y="202.9" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="349.0" y="199.1" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="353.0" y="196.6" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="297.0" y="195.8" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="293.0" y="195.6" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="365.0" y="193.1" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="311.0" y="186.5" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="307.0" y="184.3" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="303.0" y="165.3" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="355.0" y="103.8" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="295.0" y="77.4" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="286" y1="197.4" x2="374" y2="197.4" stroke="black" stroke-width="2.2"/>
+<text x="330.0" y="358.0" font-size="11" text-anchor="middle" font-weight="bold" fill="black">p = 4</text>
+<text x="330.0" y="372.0" font-size="9" text-anchor="middle" font-weight="normal" fill="black">median 1.299, 0 of 12 pass</text>
+<text x="300.0" y="384.0" font-size="8" text-anchor="middle" font-weight="normal" fill="#555">cut 100</text>
+<text x="360.0" y="384.0" font-size="8" text-anchor="middle" font-weight="normal" fill="#555">cut 1,000</text>
+<rect x="511.0" y="320.9" width="6" height="6" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="518.0" cy="302.9" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="522.0" cy="300.6" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="526.0" cy="299.9" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<rect x="527.0" y="293.4" width="6" height="6" fill="black" stroke="black" stroke-width="0.8"/>
+<rect x="531.0" y="292.7" width="6" height="6" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="462.0" cy="286.8" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<rect x="481.0" y="280.3" width="6" height="6" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="520.0" cy="276.2" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="524.0" cy="275.4" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="528.0" cy="273.6" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="468.0" cy="269.2" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="464.0" cy="268.9" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="514.0" cy="267.2" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="482.0" cy="267.1" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<rect x="519.0" y="263.0" width="6" height="6" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="526.0" cy="264.9" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<rect x="527.0" y="259.7" width="6" height="6" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="534.0" cy="262.6" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="538.0" cy="261.6" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="516.0" cy="261.1" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="480.0" cy="260.8" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="524.0" cy="258.5" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="472.0" cy="257.7" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="468.0" cy="257.3" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="464.0" cy="257.2" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="486.0" cy="256.3" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="518.0" cy="255.6" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="522.0" cy="255.1" r="3.2" fill="black" stroke="black" stroke-width="0.8"/>
+<circle cx="474.0" cy="254.8" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="530.0" cy="254.6" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="463.0" y="251.3" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="538.0" cy="252.6" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="484.0" cy="252.5" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="477.0" y="248.1" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="476.0" cy="249.6" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="528.0" cy="239.3" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="532.0" cy="236.5" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="533.0" y="231.5" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="486.0" cy="230.6" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="482.0" cy="230.3" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="475.0" y="226.7" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="471.0" y="226.1" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="470.0" cy="228.7" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="531.0" y="224.0" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="462.0" cy="225.9" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="481.0" y="218.9" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="480.0" cy="220.0" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<circle cx="476.0" cy="220.0" r="3.2" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="469.0" y="190.2" width="6" height="6" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="456" y1="257.2" x2="544" y2="257.2" stroke="black" stroke-width="2.2"/>
+<text x="500.0" y="358.0" font-size="11" text-anchor="middle" font-weight="bold" fill="black">p = 5</text>
+<text x="500.0" y="372.0" font-size="9" text-anchor="middle" font-weight="normal" fill="black">median 0.650, 28 of 50 pass</text>
+<text x="470.0" y="384.0" font-size="8" text-anchor="middle" font-weight="normal" fill="#555">cut 100</text>
+<text x="530.0" y="384.0" font-size="8" text-anchor="middle" font-weight="normal" fill="#555">cut 1,000</text>
+<line x1="70" y1="40" x2="70" y2="340" stroke="black" stroke-width="0.8"/>
+<text x="22" y="190.0" font-size="10" text-anchor="middle" transform="rotate(-90 22 190.0)">score, log scale</text>
+<text x="12.0" y="406.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">Squares: M1D04's 4 streams (p = 4 only there). Circles: M1D07's 12 new streams. Filled: passes Gate 1's test, slowest repeat at most 0.67 x best's fastest.</text>
+<text x="12.0" y="420.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">Bar: median. Under 1.0 sharing is faster by median. Timing builds, CPU 8. Scored as gate1_score.score, reading M1D04-R1; the snapshot is left out.</text>
+</svg>

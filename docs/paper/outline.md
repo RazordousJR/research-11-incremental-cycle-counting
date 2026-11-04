@@ -4,7 +4,7 @@ Written on 2026-11-03 after M1D06A, on the PI's word (`log.md` 0038). Nothing he
 
 ## The claim, in one sentence
 
-For exact counting of 5-cycles under batches of edge updates, sharing one row per star of the batch runs its slowest repeat in at most 0.67 times the fastest of a per-edge scan, a tuned wedge table and a mixed table on 28 of 50 scored cells over 14 of 16 real-timestamp streams, real deletions included, 19 of 25 at batches of 1,000 and 9 of 25 at 100, and on no cell of dewiki or the held-out sx-stackoverflow; for triangles it passes on no cell, though it beats the scan by median on 27 of 36 new cells. The reason is the price of a table probe rather than a count of operations. The baseline it beats is mostly the unshared scan, on both core types of one machine, 28 of 50 on its P-core and 24 of 50 on its E-core, where frwiki and nlwiki drop out, by a margin that a scan 10% faster would bring under the Go clause on the P-core.
+For exact counting of 5-cycles under batches of edge updates, sharing one row per star of the batch runs its slowest repeat in at most 0.67 times the fastest of a per-edge scan, a tuned wedge table and a mixed table on 28 of 50 scored cells over 14 of 16 real-timestamp streams, real deletions included, 19 of 25 at batches of 1,000 and 9 of 25 at 100, and on no cell of dewiki or the held-out sx-stackoverflow; for triangles it passes on no cell, though it beats the scan by median on 27 of 36 new cells. The reason is the price of a table probe rather than a count of operations: pricing each kind of operation, fitted on the first three streams, names the clock winner on all 64 new cells, against 21 for unit cost, though it does not explain the flat wedge table's time and finds no cache-size effect. The baseline it beats is mostly the unshared scan, on both core types of one machine, 28 of 50 on its P-core and 24 of 50 on its E-core, where frwiki and nlwiki drop out, by a margin that a scan 10% faster would bring under the Go clause on the P-core.
 
 *M1D08 read **Core-stable** on 2026-11-04 (`log.md` 0061), and the protocol adds "on both core types of one machine" and the count per core. The E-core loses only wiki real-deletion cells.*
 
@@ -30,10 +30,10 @@ Go by the Gate 1 rule, with the trend, on the first 4 streams: median 1.098 at p
 |---|---|---|---|
 | 1 | The worked batch | `docs/figures/fig-worked-batch.svg` | Done |
 | 2 | The stream timeline | `docs/figures/fig-stream-timeline.svg` | Done |
-| 3 | The test set in one figure: every stream with its size, label and batch counts | `data/derived`, M1D04 | To draw. It will show how few streams there are, and that is the point of the readiness check below |
-| 4 | Score against pattern size, every cell, both cuts | `scripts/gate1_score.py` | To draw |
-| 5 | Nanoseconds per charged operation per arm, and the cells where operations and the clock disagree | M1D04 README | To draw |
-| 6 | M5 over theta against PR and R2 on the six passes | M1D06A README | To draw |
+| 3 | The test set in one figure: every stream with its role, label, size and p = 5 passes | `docs/figures/fig-test-set.svg` | Done. 20 streams, 16 of them in a verdict |
+| 4 | Score against pattern size, every cell, both cuts | `docs/figures/fig-score-by-p.svg` | Done |
+| 5 | The cost model: predicted against measured seconds, unit cost beside priced by kind and cache | `docs/figures/fig-cost-model.svg`, M1D09 | Done. Replaces ns per charged operation |
+| 6 | M5 over theta against PR and R2 on the six passes | `docs/figures/fig-theta.svg` | Done |
 
 ## Sections
 
@@ -42,7 +42,7 @@ Go by the Gate 1 rule, with the trend, on the first 4 streams: median 1.098 at p
 3. Kernels: R2 and PR at p = 3, 4, 5, and the baselines as built. Exactly-once is folklore and is cited, not claimed (hard rule 6).
 4. Method of measurement: pinned, exclusive claims and what "exclusive" did not exclude, operations then clock, the rule fixed before the clock, M1D04-R1.
 5. Results: the verdict, the six passes, the held-out stream, the near misses.
-6. The cost model: operations against the clock.
+6. The cost model: operations against the clock. M1D09 reads **Carries** (`results/cost-M1D09/README.md`): priced by kind, 64 of 64 new winners and 22.9% median error, against 21 and 70.1% for unit cost. A table probe costs about 18 ns against 0.2 to 0.6 ns for a row or scan step. Stated with it: the cache term adds nothing, and the model underprices WJ about fivefold.
 7. Sensitivity: M at its best theta; the scan margin; background load.
 8. Limits: one machine, four streams, the novelty boundary with Cheetah.
 

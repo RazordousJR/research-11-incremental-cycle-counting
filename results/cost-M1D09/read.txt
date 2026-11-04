@@ -1,0 +1,54 @@
+fitting set: 173 arm-cells on 36 cells; evaluation set: 276 arm-cells on 66 cells
+arm-cells with a table over the LLC: fitting 42, evaluation 102
+
+coefficients, ns per counted operation
+U: ops 0.498
+K: scan 0.524, probe 18.174, row 0.263, deg 1.835, tab_read 2.122, tab_write 4.296, graph 0.000, net_ops 20.078, group 5.778, rc 0.778
+KC: scan 0.562, probe 17.636, row 0.228, deg 2.035, tab_read 0.958, tab_write 4.873, graph 0.000, net_ops 21.276, group 4.682, rc 0.778, probe>LLC 0.000, tab_read>LLC 1.709, tab_write>LLC 0.147
+
+model | set | median error | winner agrees | cells | p = 5 median-score side agrees | p = 5 cells
+| U | fitting | 63.7% | 23 | 36 | 7 | 12 |
+| U | evaluation | 70.1% | 21 | 64 | 12 | 32 |
+| K | fitting | 19.6% | 34 | 36 | 12 | 12 |
+| K | evaluation | 23.4% | 63 | 64 | 29 | 32 |
+| KC | fitting | 18.2% | 33 | 36 | 12 | 12 |
+| KC | evaluation | 22.9% | 64 | 64 | 31 | 32 |
+
+KC against U on the evaluation set: winner agreement 64 against 21 of 64, a gain of 67.2% (needs 25 points: yes); KC median error 22.9% (needs at most 25%: yes)
+OUTCOME: Carries
+
+evaluation cells where KC names the wrong winner: cell | clock | KC
+
+p = 5 evaluation cells, PR's median score measured and by KC
+| dewiki real 100 | 0.669 | 0.681 | other side |
+| dewiki real 1000 | 0.671 | 0.676 | same side |
+| frwiki real 100 | 0.711 | 0.693 | same side |
+| frwiki real 1000 | 0.662 | 0.653 | same side |
+| ia-enron-email-dynamic expiry 100 | 0.568 | 0.562 | same side |
+| ia-enron-email-dynamic expiry 1000 | 0.527 | 0.537 | same side |
+| ia-enron-email-dynamic insert 100 | 0.567 | 0.546 | same side |
+| ia-enron-email-dynamic insert 1000 | 0.523 | 0.511 | same side |
+| itwiki real 100 | 0.462 | 0.488 | same side |
+| itwiki real 1000 | 0.394 | 0.427 | same side |
+| nlwiki real 100 | 0.687 | 0.683 | same side |
+| nlwiki real 1000 | 0.641 | 0.645 | same side |
+| plwiki real 100 | 0.650 | 0.654 | same side |
+| plwiki real 1000 | 0.595 | 0.593 | same side |
+| simplewiki real 100 | 0.581 | 0.563 | same side |
+| simplewiki real 1000 | 0.580 | 0.569 | same side |
+| soc-redditHyperlinks-body expiry 100 | 0.934 | 0.949 | same side |
+| soc-redditHyperlinks-body expiry 1000 | 0.686 | 0.814 | same side |
+| soc-redditHyperlinks-body insert 100 | 0.888 | 0.890 | same side |
+| soc-redditHyperlinks-body insert 1000 | 0.618 | 0.649 | same side |
+| soc-redditHyperlinks-title expiry 100 | 0.884 | 0.845 | same side |
+| soc-redditHyperlinks-title expiry 1000 | 0.539 | 0.590 | same side |
+| soc-redditHyperlinks-title insert 100 | 0.904 | 0.910 | same side |
+| soc-redditHyperlinks-title insert 1000 | 0.622 | 0.660 | same side |
+| soc-wiki-elec expiry 100 | 0.624 | 0.667 | same side |
+| soc-wiki-elec expiry 1000 | 0.827 | 0.833 | same side |
+| soc-wiki-elec insert 100 | 0.657 | 0.649 | same side |
+| soc-wiki-elec insert 1000 | 0.611 | 0.601 | same side |
+| tech-as-topology expiry 100 | 0.647 | 0.669 | same side |
+| tech-as-topology expiry 1000 | 0.384 | 0.433 | same side |
+| tech-as-topology insert 100 | 0.651 | 0.631 | same side |
+| tech-as-topology insert 1000 | 0.397 | 0.417 | same side |

@@ -15,3 +15,14 @@ The two §16 figures the PI fixed on 2026-11-01 (`log.md` 0018): one worked batc
 ## Figure 2, the stream timeline: `fig-stream-timeline.svg`
 
 Same cell, all 1,454 batches. (a) The 5-cycle count after each batch, which every arm agrees on. (b) The operations each arm has spent so far: R2, PR, WT and WJ from M1D03's count builds, M5 at theta 128 from M1D04's. PR ends at 236 M against WJ's 349 M and R2's 556 M. On this cell PR leads in operations too, as `results/gate1-M1D04/README.md` notes. On the sx insert cells WJ does fewer operations than PR and loses on the clock, so this timeline is not the general case, and the paper will say so beside it.
+
+## Figures 3 to 6: `scripts/figures_results.py`
+
+Plain SVG in the same style, from logged runs only, drawn on 2026-11-04 after M1D08 and M1D09 (`log.md` 0063). PNG copies were rendered with headless Edge for checking only.
+
+- **Figure 3, the test set: `fig-test-set.svg`.** All 20 streams: 3 engineering, 3 evaluation, the held-out sx-stackoverflow, M1D07's 12 new and the snapshot. Each row gives the role, the label (with the deletion share for the KONECT prefixes), vertices and events on log scales, and the pooled p = 5 passes on the P-core record (M1D07E), 28 of 50. Engineering sizes are taken from M1D02's summaries, evaluation sizes from M1D04's, and new sizes from the sidecar files `data/m1d07/derived/*.bin.txt`.
+- **Figure 4, score against pattern size: `fig-score-by-p.svg`.** Every scored cell of M1D04 and M1D07, the snapshot left out, by `gate1_score.score` with reading M1D04-R1. Medians 0.965, 1.299 and 0.650 at p = 3, 4 and 5, with 0, 0 and 28 passes, as recorded.
+- **Figure 5, the cost model: `fig-cost-model.svg`.** M1D09's 276 evaluation arm-cells, predicted against measured seconds, unit cost beside priced by kind and cache (`results/cost-M1D09/cells.csv`). The caption states that WJ is underpriced about fivefold, and that 33 unit-cost predictions under 0.03 s sit on the axis floor.
+- **Figure 6, M5 over theta: `fig-theta.svg`.** M1D06A's theta grid on M1D05's six passes, M5's median over R2's median, with PR's. One panel per pass.
+
+Figures 3 to 6 are plots, and plots carry the argument. The two figures of the system in operation are 1 and 2.

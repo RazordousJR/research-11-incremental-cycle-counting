@@ -13,6 +13,7 @@
 - **M1D06A: all six passes hold against M5 at its best theta per cell** (`log.md` 0035). The attack the PI chose did not move Go. The two sx expiry passes still rest on a 9% to 13% margin over the scan, which only a second machine tests.
 - **M1D07 reads Narrows** (`log.md` 0058). 12 new streams from Hanauer et al.'s set, 6 of them with real deletions, timed in two exclusive claims, exact. At p = 5, 22 of 36 new cells pass. Pooled with M1D05, 28 of 50 pass and Go holds, but the pooled p = 3 median of 0.965 breaks the trend: sharing now beats the scan at p = 3 on 27 of 36 new cells, without passing. The outline's claim sentence is rewritten. R2 is best on 43 of 50, and a scan 10% faster would take the pooled passes to 16 of 50.
 - **M1D08 reads Core-stable** (`log.md` 0061). The 24 cells near the pass line, timed on a P-core and an E-core in one exclusive claim, exact. The P-core reproduces the record: arm medians within 1%, 22 of 24 verdicts the same, and 28 of 50 pooled. The E-core passes 24 of 50 on 12 streams, and Go holds on both. The loss is on the wiki real-deletion cells, which are worse on every one there. Not a second machine.
+- **M1D09 reads Carries** (`log.md` 0063). A cost model priced by kind of operation, fitted on M1D05's streams, names the clock winner on all 64 new cells where unit cost names 21, at a median error of 22.9%. The cache-size term adds nothing, and WJ is underpriced about fivefold. Figures 3 to 6 are drawn, so the outline has its six.
 
 | Test | Verdict | Read with |
 |---|---|---|
@@ -27,12 +28,13 @@
 | M1D06A, M5 at its best theta | 6 of 6 passes hold | Best theta 16 or 64, not 128. M5 beats R2 on one stream. A noisier claim, against PR |
 | M1D07E, 12 new streams, pooled | **Narrows** | Pooled Go 28 of 50 holds; pooled trend fails at p = 3, median 0.965. No pass on dewiki or sx-stackoverflow. 10% margin over the scan. One P-core, one machine |
 | M1D08, P-core against E-core | **Core-stable** | Go holds on P 28 of 50 and E 24 of 50. 6 of 24 cells differ by core; frwiki and nlwiki pass on P only. Same L3 and DRAM, so not a second machine |
+| M1D09, the cost model | **Carries** | Priced by kind: 64 of 64 new winners, unit cost 21. No cache-size effect found; WJ underpriced about 5x. Fitted on read streams, a reading of hard rule 5 |
 
 The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 Stop and parked, M1C02 Stop stands, M1C01 Go read with the V margin and the ring note.
 
 ## Open
 
-**M1D08 is done, and the standing order's experiment with it** (`log.md` 0061). About 3.9 of the 10 exclusive hours are unused, and nothing more runs on that order. The claim sentence stands with the count per core. The next step proposed to the PI is the cost-model fit and the two §16 figures from logged runs, which need no claim.
+**M1D08 and M1D09 are done** (`log.md` 0061, 0063). About 3.9 of the 10 exclusive hours are unused, and nothing more runs on the standing order. The outline's six figures are drawn and its claim sentence carries the cost model. What stands between the evidence and a draft is the PI's: the venue (WoS or not), and whether hard rule 5's reading in M1D09 is accepted.
 
 **The PI's, not yet answered:** whether the paper needs WoS, which decides between JGAA and KAIS (`log.md` 0045, 0056).
 
