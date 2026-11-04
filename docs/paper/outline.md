@@ -58,7 +58,7 @@ Go by the Gate 1 rule, with the trend, on the first 4 streams: median 1.098 at p
 | 4 Novelty survived the literature | Narrowly | The gain is new, the mechanism is not |
 | 5 Evaluation scope reaches the venue's bar | **Improved, not yet checked against the venue** | 16 real-timestamp streams: 3 evaluation, 1 held-out and 12 new, chosen from Hanauer et al.'s 56 by a rule fixed first, 6 with 16% to 28% real deletions. Their 38 Kronecker streams are left out as fully synthetic. JGAA's median scope is not counted |
 | 6 Contribution type fits the venue | Open | See decision A |
-| 7 Venue-fit record | Not started | M1A17 |
+| 7 Venue-fit record | Venue decided: JGAA (`log.md` 0064) | `docs/submissions/paper-1/venue-fit.md` predates the decision and is not yet checked against JGAA's scope and length |
 | 8 Outside reader | Not started | After a draft |
 
 ## The PI's decisions
