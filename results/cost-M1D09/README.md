@@ -13,6 +13,8 @@ Protocol: `docs/experiments/m1d09-cost-model.md`, committed as a712ab3 before an
 
 An arm-cell under 0.05 s is left out, which removes the four ia-reality-call cells at p = 5 and some p = 3 arm-cells.
 
+**Correction, 2026-11-04 (`log.md` 0064).** The protocol says the engineering tables fit in L3. They do not on sx-mathoverflow insert-only, where T3, T4 and WT reach 409 MB and WJ 768 MB. M1D10 fits the same models on the engineering streams.
+
 ## The readings
 
 | Model | Set | Median error | Winner agrees | PR's side of 0.67, p = 5 |

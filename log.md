@@ -800,3 +800,13 @@ The suggestion that goes with the report is chosen by these rules and named in t
 **Figures 3 to 6.** `scripts/figures_results.py` writes `fig-test-set.svg` (20 streams), `fig-score-by-p.svg` (medians 0.965, 1.299 and 0.650, as recorded), `fig-cost-model.svg` and `fig-theta.svg`. All are from logged runs. They were checked as PNGs from headless Edge, and three layout faults were fixed before the commit: a clipped axis label, an overlapping column and a cut caption. The outline now has its six figures.
 
 **For the PI.** Hard rule 5 is read in M1D09 as fit-on-read, judge-on-unseen (0062), and accepting that reading or not is the PI's decision. The venue question is still open.
+
+## 0064, 2026-11-04: the PI accepts M1D09's reading; M1D10A, the fit on the engineering streams
+
+**The PI's word, by chat:** "Terima tapi if tambah semua arm atas stream tu pun bagus. Aku got all the time beb. Aku rase tambah aje. Amcam?" Read as two decisions. M1D09's fit-on-read, judge-on-unseen reading of hard rule 5 is accepted. And M1D10 is approved: every arm timed on the engineering streams, under one `--exclusive --timing` claim on ControlPC's GO, with the 2-hour line that its protocol states before the run. The standing order of 0056 is used up and is not what this runs on.
+
+**A correction to M1D09.** Its protocol and 0062 say the engineering tables fit in the 30 MB L3. M1D02B's count builds show that is wrong for sx-mathoverflow insert-only: 409 MB for T3, T4 and WT, 768 MB for WJ and 37.5 MB for M. The other five engineering streams' tables are under 13 MB. M1D09 stands as run, since its protocol was fixed before its fit. Its README carries the correction. The other half of the reason, that most arms have no timing there, was true.
+
+**M1D10A.** `docs/experiments/m1d10-cost-engineering.md`, `scripts/run_m1d10.sh`, `scripts/chain_m1d10.sh` and `scripts/m1d10_cost.py`, committed before any run. The run is M1D04's timing steps, unchanged, on the 12 engineering cells with M1D04's theta, then the count build of every arm, both binaries M1D04's by hash. The reading is M1D09's models and outcome rule, unchanged, fitted on the engineering cells and read on M1D07's streams, with M1D05's beside. Fixed before the run: section 6 gives M1D10's coefficients and claims the weaker of the two outcomes, and claims a cache price only if both fits show one, which M1D09 does not. From M1D02B's count builds, about 104 engineering arm-cells are over 0.05 s, 14 of them over L3, all on sx-mathoverflow insert-only. Estimated run: about 35 minutes of processes.
+
+**Next.** M1D10B, a dry run on CollegeMsg expiry in the scratchpad, under a short ordinary claim, and then M1D10C, both on ControlPC's GO.
