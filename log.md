@@ -745,3 +745,24 @@ Claim 2, phases D3 then D4, ran under the exclusive timing claim from 02:35:01 t
 6. **Widen the margin by engineering.** A faster PR kernel is a new build and a new Gate 1 under a new ID, over every cell. The most costly, and last.
 
 The suggestion that goes with the report is chosen by these rules and named in the report: 1 and 3 always. Then 2 if every turned cell is within 10% of the line on either reading, 4 if 3 finds a cause that a run could confirm, and 5 if PR and R2 drift by more than the median margin.
+
+## 0061, 2026-11-04: M1D08C run and M1D08D reading: Core-stable
+
+**The PI's word, 2026-11-04, by chat, after 0060:** "Okeh beb. Aku nak ko proceed with the best solution. Approved." Read as approval to choose and run, by 0060's rules, the remedy that a Not reproduced reading would call for, inside the 10 hours and on ControlPC's GO, with remedy 6 (a new kernel) still the PI's. The reading is not Not reproduced, so the approval is not used.
+
+**M1D08C.** ControlPC gave GO for a start between 12:10 and 12:30, after Research 12 released at 11:53:07. The chain checked the tower (clear), RAM 14 GiB, commit free 76 GiB, the M1D07 checksums and `timing.exe`'s hash, then claimed `--exclusive --timing` at 12:10:37 and released at 18:15:24, exit 0: 6 h 05 min, inside the 7-hour line, with no second claim. 24 cells, 880 runs, 440 on CPU 8 and 440 on CPU 16, all OK. Every run equals its recorded first repeat and its cell's longest run per batch, 0 differ or missing, checked after each cell and again after release. `hashes.txt` holds. The 4-hour report at 16:10 gave 20 of 24 cells done and an end at about 18:15, which held.
+
+**Overlap.** `scripts/overlap_check.py` has an `M1D08C` mode. The mail ran 14:06:30 to 14:07:37, 16:06:32 to 16:07:29 and 18:06:33 to 18:07:33, by ControlPC's run records. Research 1, 9 and 12 read and edited only. Research 1's tasks and BackupResults are taken from their schedules. 34 repeats per core overlap a window, at +0.01% and +0.00%. No pass on either core has its best arm's fastest repeat in a window.
+
+**M1D08D, read once** (`results/gate1-M1D08/README.md`, `score.txt`):
+
+| Reading | Result |
+|---|---|
+| 1. P-core reproduction | 22 of 24 verdicts equal the record. Arm medians against the record: PR 1.001, R2 1.000, WT 1.001, M5 0.999. soc-wiki-elec expiry 100 turns to fail (0.675), plwiki real 100 to pass (0.655), and they cancel |
+| 2. Differ by core | 6 of 24: frwiki real 1,000, nlwiki real 1,000, plwiki real 100, soc-wiki-elec insert 100 and tech-as-topology insert 100 pass on P only; soc-wiki-elec expiry 100 on E only |
+| 3. Pooled Go per core | P 28 of 50, 14 streams, 9 expiry: holds. E 24 of 50, 12 streams, 10 expiry: holds |
+| Outcome | **Core-stable** |
+
+**Read beside it.** The E-core is 1.55 to 1.60 times slower for PR and R2, 1.80 for WT. The margin is worse on the E-core on all ten wiki real-deletion cells, by 0.016 to 0.063, and better on four of the seven sx and reddit cells. Counting only cells that pass on both P-core measurements gives 27 of 50, and Go holds. The cores share L3 and DRAM, so this is not a second machine. The outline's claim sentence now carries "on both core types of one machine" and the count per core, as the protocol's table says.
+
+**Next.** M1D08 used the standing order's experiment, so nothing more runs on it. Proposed to the PI: the cost-model fit and the two §16 figures from logged runs, which need no claim. WoS, and so JGAA against KAIS, is still the PI's.

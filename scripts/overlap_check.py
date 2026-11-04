@@ -1,7 +1,7 @@
 """Timed processes against known background events. Read-only. Run from the project folder.
 Each timed process runs from its summary file's write time less its seconds. A process overlaps when it covers a quarter-hour mark (Research 1's tasks at :00, :15, :30,
 :45, as ControlPC read them), ControlPC's mail at :06:15 for about a minute, or one of the one-off tasks ControlPC listed for M1D06A.
-Usage: overlap_check.py [M1D07D]. With M1D07D, the two M1D07D claims and their passes only.
+Usage: overlap_check.py [M1D07D | M1D08C]. With M1D07D, the two M1D07D claims and their passes only. With M1D08C, that claim, per core.
 Prints, per claim, how slow overlapping and clean repeats run against their own arm's median on the cell, and, for every p = 5 pass, whether the best arm's
 fastest repeat overlaps, which is the only way background load could make a pass that should not be."""
 import csv
@@ -93,6 +93,38 @@ def events_m1d07d(t0, t1):
     r1 = [(dt.datetime(2026, 11, 4, 4, 50), 1990), (dt.datetime(2026, 11, 4, 5, 45, 14), 120), (dt.datetime(2026, 11, 4, 5, 59), 120), (dt.datetime(2026, 11, 4, 6, 0), 1980)]
     return out + [(s, n) for s, n in [(echo, 604)] + r1 if t0 <= s <= t1]
 
+
+def events_m1d08c(t0, t1):
+    """M1D08C: Research 1's scheduled tasks as in M1D07D, BackupResults at 18:00 as 300 s, and ControlPC's mail at the times its run records give."""
+    out = []
+    t = t0.replace(minute=0, second=0, microsecond=0)
+    while t <= t1:
+        out += [(t, 300 if t.hour == 18 else 90), (t + dt.timedelta(minutes=15), 30), (t + dt.timedelta(minutes=30), 30), (t + dt.timedelta(minutes=45), 30)]
+        t += dt.timedelta(hours=1)
+    mail = [(dt.datetime(2026, 11, 4, 14, 6, 30), 67), (dt.datetime(2026, 11, 4, 16, 6, 32), 57), (dt.datetime(2026, 11, 4, 18, 6, 33), 60)]
+    return [(s, n) for s, n in out + mail if t0 <= s + dt.timedelta(seconds=n) and s <= t1]
+
+
+if sys.argv[1:] == ["M1D08C"]:
+    import m1d07_score as m7
+    CLAIMS["M1D08C"] = (dt.datetime(2026, 11, 4, 12, 10, 37), dt.datetime(2026, 11, 4, 18, 15, 24))
+    for core in ("P", "E"):
+        rows8 = runs(f"results/gate1-M1D08/{core}/raw/*.summary.csv")
+        print(f"core {core}, {len(rows8)} timed processes")
+        ev = per_claim("M1D08C", rows8, events_m1d08c)
+        cells = m7.load(f"results/gate1-M1D08/{core}")
+        index = {(r["arm"], r["rep"]): r for r in rows8}
+        for c in sorted(cells):
+            sc = g.score(c, cells[c])
+            if not sc or not sc["passed"]:
+                continue
+            s, v, cut, p = c
+            tag = f"{s}-{v}-{cut}-p5-{sc['best']}" + ("-th128" if sc["best"] == "M5" else "")
+            reps = [index[(tag, k)] for k in cells[c][sc["best"]]]
+            fastest = min(reps, key=lambda x: x["sec"])
+            print(f"  {s} {v} {cut}: best {sc['best']}, fastest repeat {fastest['rep']} at {fastest['start']:%H:%M:%S} for {fastest['sec']:.2f} s, overlaps {'yes' if hit(fastest, ev) else 'no'}; "
+                  f"its repeats overlapping {sum(hit(x, ev) for x in reps)} of {len(reps)}")
+    sys.exit(0)
 
 if sys.argv[1:] == ["M1D07D"]:
     import m1d07_score as m7

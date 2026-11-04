@@ -1,0 +1,51 @@
+cell | recorded | P score | P pass | E score | E pass | turns
+| dewiki | real | 100 | 0.710 fail | 0.713 best R2, 0.742 | no | 0.767 best R2, 0.772 | no |  |
+| dewiki | real | 1,000 | 0.783 fail | 0.696 best R2, 0.707 | no | 0.760 best R2, 0.766 | no |  |
+| frwiki | real | 100 | 0.725 fail | 0.712 best R2, 0.713 | no | 0.773 best R2, 0.775 | no |  |
+| frwiki | real | 1,000 | 0.665 pass | 0.664 best R2, 0.666 | yes | 0.719 best R2, 0.729 | no | P and E differ |
+| ia-enron-email-dynamic | expiry | 100 | 0.577 pass | 0.569 best R2, 0.572 | yes | 0.556 best R2, 0.558 | yes |  |
+| ia-enron-email-dynamic | insert | 100 | 0.571 pass | 0.565 best R2, 0.567 | yes | 0.571 best R2, 0.573 | yes |  |
+| nlwiki | real | 100 | 0.692 fail | 0.689 best R2, 0.692 | no | 0.749 best R2, 0.751 | no |  |
+| nlwiki | real | 1,000 | 0.643 pass | 0.641 best R2, 0.648 | yes | 0.697 best R2, 0.701 | no | P and E differ |
+| plwiki | real | 100 | 0.670 fail | 0.650 best R2, 0.655 | yes | 0.702 best R2, 0.707 | no | P and E differ |
+| plwiki | real | 1,000 | 0.596 pass | 0.594 best R2, 0.598 | yes | 0.643 best R2, 0.648 | yes |  |
+| simplewiki | real | 100 | 0.591 pass | 0.582 best R2, 0.607 | yes | 0.617 best R2, 0.623 | yes |  |
+| simplewiki | real | 1,000 | 0.614 pass | 0.579 best R2, 0.581 | yes | 0.614 best R2, 0.618 | yes |  |
+| soc-redditHyperlinks-body | expiry | 1,000 | 0.691 fail | 0.686 best R2, 0.699 | no | 0.658 best R2, 0.705 | no |  |
+| soc-redditHyperlinks-body | insert | 1,000 | 0.625 pass | 0.619 best R2, 0.621 | yes | 0.601 best R2, 0.601 | yes |  |
+| soc-redditHyperlinks-title | insert | 1,000 | 0.633 pass | 0.622 best R2, 0.626 | yes | 0.606 best R2, 0.608 | yes |  |
+| soc-wiki-elec | expiry | 100 | 0.628 pass | 0.629 best R2, 0.675 | no | 0.614 best R2, 0.649 | yes | P and E differ |
+| soc-wiki-elec | insert | 100 | 0.657 pass | 0.654 best R2, 0.654 | yes | 0.673 best R2, 0.673 | no | P and E differ |
+| soc-wiki-elec | insert | 1,000 | 0.614 pass | 0.612 best R2, 0.615 | yes | 0.634 best R2, 0.634 | yes |  |
+| sx-askubuntu | expiry | 1,000 | 0.592 pass | 0.590 best R2, 0.592 | yes | 0.536 best R2, 0.541 | yes |  |
+| sx-askubuntu | insert | 100 | 0.708 fail | 0.695 best M5, 0.698 | no | 0.750 best M5, 0.762 | no |  |
+| sx-superuser | expiry | 1,000 | 0.616 pass | 0.611 best R2, 0.622 | yes | 0.557 best R2, 0.613 | yes |  |
+| sx-superuser | insert | 100 | 0.678 fail | 0.674 best R2, 0.687 | no | 0.700 best M5, 0.702 | no |  |
+| tech-as-topology | expiry | 100 | 0.649 pass | 0.651 best R2, 0.659 | yes | 0.644 best R2, 0.645 | yes |  |
+| tech-as-topology | insert | 100 | 0.657 pass | 0.652 best M5, 0.656 | yes | 0.726 best M5, 0.727 | no | P and E differ |
+
+24 listed, scored on P 24, on E 24; not scored on both: []
+
+1. P-core reproduction
+P-core verdict equals the recorded verdict on 22 of 24; drift of each arm is the last column of the table below
+
+2. Cells whose verdict differs between the cores: ['frwiki real 1000', 'nlwiki real 1000', 'plwiki real 100', 'soc-wiki-elec expiry 100', 'soc-wiki-elec insert 100', 'tech-as-topology insert 100']
+
+3. Pooled count per core
+P: 28 of 50 pass, a third 16.67, streams 14, expiry 9: Go holds (True, True, True)
+E: 24 of 50 pass, a third 16.67, streams 12, expiry 10: Go holds (True, True, True)
+
+OUTCOME, Stop aside (exactness is checked per cell by m1d08_check.py): Core-stable
+
+Beside it
+arm | cells | median E over P, by cell medians | median P over recorded
+| PR | 24 | 1.598 | 1.001 |
+| R2 | 24 | 1.554 | 1.000 |
+| WT | 14 | 1.799 | 1.001 |
+| WJ | 1 | 1.249 | 1.005 |
+| M5 | 22 | 1.412 | 0.999 |
+| A5 | 3 | 1.197 | 1.007 |
+
+untested, outside the window or under 0.05 s, 26 cells, kept at their recorded verdicts: ia-enron-email-dynamic expiry 1000 0.533; ia-enron-email-dynamic insert 1000 0.531; ia-reality-call expiry 100 1.000; ia-reality-call expiry 1000 0.800; ia-reality-call insert 100 1.000; ia-reality-call insert 1000 0.667; itwiki real 100 0.482; itwiki real 1000 0.426; soc-redditHyperlinks-body expiry 100 0.940; soc-redditHyperlinks-body insert 100 0.889; soc-redditHyperlinks-title expiry 100 0.889; soc-redditHyperlinks-title expiry 1000 0.544; soc-redditHyperlinks-title insert 100 0.905; soc-wiki-elec expiry 1000 0.845; sx-askubuntu expiry 100 0.900; sx-askubuntu insert 1000 0.417; sx-stackoverflow expiry 100 0.983; sx-stackoverflow expiry 1000 0.863; sx-superuser expiry 100 0.929; sx-superuser insert 1000 0.421; tech-as-topology expiry 1000 0.385; tech-as-topology insert 1000 0.400; wiki-talk-temporal expiry 100 0.487; wiki-talk-temporal expiry 1000 0.305; wiki-talk-temporal insert 100 1.380; wiki-talk-temporal insert 1000 0.955
+
+A verdict held on the E-core is not a second machine: L3 and DRAM are the same.

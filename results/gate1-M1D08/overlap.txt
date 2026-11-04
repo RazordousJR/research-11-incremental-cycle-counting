@@ -1,0 +1,32 @@
+core P, 440 timed processes
+M1D08C: overlapping 34 repeats, median +0.01%, over 3% 0; clean 406 repeats, median +0.00%, over 3% 10
+  frwiki real 1000: best R2, fastest repeat 4 at 16:49:44 for 43.65 s, overlaps no; its repeats overlapping 0 of 5
+  ia-enron-email-dynamic expiry 100: best R2, fastest repeat 2 at 12:13:46 for 0.95 s, overlaps no; its repeats overlapping 0 of 5
+  ia-enron-email-dynamic insert 100: best R2, fastest repeat 4 at 12:21:06 for 2.21 s, overlaps no; its repeats overlapping 0 of 5
+  nlwiki real 1000: best R2, fastest repeat 3 at 13:44:10 for 39.53 s, overlaps no; its repeats overlapping 0 of 5
+  plwiki real 100: best R2, fastest repeat 4 at 16:08:08 for 63.27 s, overlaps no; its repeats overlapping 2 of 5
+  plwiki real 1000: best R2, fastest repeat 2 at 17:32:00 for 59.27 s, overlaps no; its repeats overlapping 0 of 5
+  simplewiki real 100: best R2, fastest repeat 1 at 12:28:38 for 24.33 s, overlaps no; its repeats overlapping 1 of 5
+  simplewiki real 1000: best R2, fastest repeat 5 at 13:10:32 for 17.22 s, overlaps no; its repeats overlapping 0 of 5
+  soc-redditHyperlinks-body insert 1000: best R2, fastest repeat 1 at 12:14:45 for 1.10 s, overlaps no; its repeats overlapping 2 of 5
+  soc-redditHyperlinks-title insert 1000: best R2, fastest repeat 3 at 12:24:26 for 5.77 s, overlaps no; its repeats overlapping 0 of 5
+  soc-wiki-elec insert 100: best R2, fastest repeat 2 at 12:12:03 for 0.84 s, overlaps no; its repeats overlapping 0 of 5
+  soc-wiki-elec insert 1000: best R2, fastest repeat 2 at 12:12:50 for 0.82 s, overlaps no; its repeats overlapping 0 of 5
+  sx-askubuntu expiry 1000: best R2, fastest repeat 2 at 12:11:22 for 0.46 s, overlaps no; its repeats overlapping 0 of 5
+  sx-superuser expiry 1000: best R2, fastest repeat 1 at 12:16:02 for 0.77 s, overlaps no; its repeats overlapping 0 of 5
+  tech-as-topology expiry 100: best R2, fastest repeat 3 at 12:19:02 for 2.32 s, overlaps no; its repeats overlapping 0 of 5
+  tech-as-topology insert 100: best M5, fastest repeat 4 at 12:18:05 for 1.32 s, overlaps no; its repeats overlapping 0 of 5
+core E, 440 timed processes
+M1D08C: overlapping 34 repeats, median +0.00%, over 3% 0; clean 406 repeats, median +0.00%, over 3% 9
+  ia-enron-email-dynamic expiry 100: best R2, fastest repeat 1 at 12:13:34 for 1.41 s, overlaps no; its repeats overlapping 0 of 5
+  ia-enron-email-dynamic insert 100: best R2, fastest repeat 1 at 12:20:05 for 3.51 s, overlaps no; its repeats overlapping 0 of 5
+  plwiki real 1000: best R2, fastest repeat 2 at 17:32:59 for 92.53 s, overlaps no; its repeats overlapping 1 of 5
+  simplewiki real 100: best R2, fastest repeat 1 at 12:29:03 for 38.80 s, overlaps no; its repeats overlapping 1 of 5
+  simplewiki real 1000: best R2, fastest repeat 4 at 13:08:49 for 27.36 s, overlaps no; its repeats overlapping 1 of 5
+  soc-redditHyperlinks-body insert 1000: best R2, fastest repeat 5 at 12:15:47 for 1.78 s, overlaps no; its repeats overlapping 3 of 5
+  soc-redditHyperlinks-title insert 1000: best R2, fastest repeat 1 at 12:22:41 for 9.30 s, overlaps no; its repeats overlapping 0 of 5
+  soc-wiki-elec expiry 100: best R2, fastest repeat 5 at 12:10:49 for 0.28 s, overlaps no; its repeats overlapping 0 of 5
+  soc-wiki-elec insert 1000: best R2, fastest repeat 5 at 12:13:20 for 1.28 s, overlaps no; its repeats overlapping 0 of 5
+  sx-askubuntu expiry 1000: best R2, fastest repeat 1 at 12:11:13 for 0.67 s, overlaps no; its repeats overlapping 0 of 5
+  sx-superuser expiry 1000: best R2, fastest repeat 3 at 12:16:24 for 1.13 s, overlaps no; its repeats overlapping 0 of 5
+  tech-as-topology expiry 100: best R2, fastest repeat 1 at 12:18:35 for 3.66 s, overlaps no; its repeats overlapping 0 of 5

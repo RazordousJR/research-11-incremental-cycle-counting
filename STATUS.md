@@ -12,6 +12,7 @@
 - **M1D04 is done and exact, and M1D05 gives Go with the trend.** 216 arm-cells, 0 mismatches, all claims released (`log.md` 0032). At p = 5, 6 of 14 scored cells pass, median 0.686, against 1.098 at p = 3. The held-out stream gives no pass, two passes decide Go, and the win over the tables is a cache win on one machine.
 - **M1D06A: all six passes hold against M5 at its best theta per cell** (`log.md` 0035). The attack the PI chose did not move Go. The two sx expiry passes still rest on a 9% to 13% margin over the scan, which only a second machine tests.
 - **M1D07 reads Narrows** (`log.md` 0058). 12 new streams from Hanauer et al.'s set, 6 of them with real deletions, timed in two exclusive claims, exact. At p = 5, 22 of 36 new cells pass. Pooled with M1D05, 28 of 50 pass and Go holds, but the pooled p = 3 median of 0.965 breaks the trend: sharing now beats the scan at p = 3 on 27 of 36 new cells, without passing. The outline's claim sentence is rewritten. R2 is best on 43 of 50, and a scan 10% faster would take the pooled passes to 16 of 50.
+- **M1D08 reads Core-stable** (`log.md` 0061). The 24 cells near the pass line, timed on a P-core and an E-core in one exclusive claim, exact. The P-core reproduces the record: arm medians within 1%, 22 of 24 verdicts the same, and 28 of 50 pooled. The E-core passes 24 of 50 on 12 streams, and Go holds on both. The loss is on the wiki real-deletion cells, which are worse on every one there. Not a second machine.
 
 | Test | Verdict | Read with |
 |---|---|---|
@@ -25,12 +26,13 @@
 | M1D05, Gate 1 on the clock | Go, with the trend | 6 of 14 at p = 5. Held-out stream 0 of 2. Two sx expiry passes decide it, and fall to a scan 9% to 13% faster or a table twice as fast (`log.md` 0033). Best is the scan on 10 of 14. One machine, one core |
 | M1D06A, M5 at its best theta | 6 of 6 passes hold | Best theta 16 or 64, not 128. M5 beats R2 on one stream. A noisier claim, against PR |
 | M1D07E, 12 new streams, pooled | **Narrows** | Pooled Go 28 of 50 holds; pooled trend fails at p = 3, median 0.965. No pass on dewiki or sx-stackoverflow. 10% margin over the scan. One P-core, one machine |
+| M1D08, P-core against E-core | **Core-stable** | Go holds on P 28 of 50 and E 24 of 50. 6 of 24 cells differ by core; frwiki and nlwiki pass on P only. Same L3 and DRAM, so not a second machine |
 
 The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 Stop and parked, M1C02 Stop stands, M1C01 Go read with the V margin and the ring note.
 
 ## Open
 
-**M1D08, the core-type test, under the PI's standing order** (`log.md` 0056). The PI is away from the PC for a few days and reachable by phone. M1D08 times the cells near the pass line on an E-core against the P-core where every Gate 1 time ran (CPU 8, `results/gate1-M1D07T/cpu-sets.txt`). That is a partial check of the cache claim and never a second machine, which the PI does not have. It gets up to 10 exclusive hours in claims of at most 7, each on ControlPC's GO, and the protocol is committed first. ControlPC's earliest window is after Research 12 releases, about 12:40 on 2026-11-04. Anything outside the order goes to the PI by phone.
+**M1D08 is done, and the standing order's experiment with it** (`log.md` 0061). About 3.9 of the 10 exclusive hours are unused, and nothing more runs on that order. The claim sentence stands with the count per core. The next step proposed to the PI is the cost-model fit and the two §16 figures from logged runs, which need no claim.
 
 **The PI's, not yet answered:** whether the paper needs WoS, which decides between JGAA and KAIS (`log.md` 0045, 0056).
 
