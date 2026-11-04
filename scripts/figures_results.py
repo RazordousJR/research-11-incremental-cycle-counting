@@ -191,7 +191,7 @@ def cost_model():
     lx, y = L + S + gap + 8, T + S + rgap + S / 2 - 22  # the legend sits in the fourth cell
     b.append(f'<circle cx="{lx + 3}" cy="{y - 3.5}" r="2.2" fill="black"/>' + text(lx + 12, y, "sharing (PR, P3)", 10))
     b.append(f'<circle cx="{lx + 3}" cy="{y + 14.5}" r="2.2" fill="{GREY}"/>' + text(lx + 12, y + 18, "scan (R2, S3)", 10))
-    b.append(f'<rect x="{lx + 1}" y="{y + 30.5}" width="4.0" height="4.0" fill="white" stroke="black" stroke-width="0.7"/>' + text(lx + 12, y + 36, "tables (WT, M5, A5, T3, M3)", 10))
+    b.append(f'<rect x="{lx + 1}" y="{y + 30.5}" width="4.0" height="4.0" fill="white" stroke="black" stroke-width="0.7"/>' + text(lx + 12, y + 36, "tables, recount (WT, M5, A5, T3, M3)", 10))
     b.append(f'<path d="M{lx + 3},{y + 47.6} L{lx + 5.7},{y + 52.5} L{lx + 0.3},{y + 52.5} Z" fill="white" stroke="black" stroke-width="0.7"/>' + text(lx + 12, y + 54, "WJ", 10))
     open("docs/figures/fig-cost-model.svg", "w", encoding="utf-8", newline="\n").write(svg(WIDTH, T + 2 * S + rgap + 32, b))
     caption(5, "fig-cost-model.svg", [

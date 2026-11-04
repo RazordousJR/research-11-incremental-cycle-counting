@@ -43,12 +43,12 @@
 \begin{abstract}
 We study exact sequential counting of triangles, 4-cycles and 5-cycles in a graph that receives insertions and deletions in batches.
 We ask whether sharing work between the updates of one batch beats the strongest kernels that do not share.
-The sharing kernel groups a batch into stars and builds one adjacency row at the centre of each star, which every update of the star reuses.
-It is compared with a per-update scan, two wedge tables, a heavy-light mixed table, an affected-subgraph recount and, for 4-cycles, a published batch algorithm, with every count exact and every cost of upkeep inside the time.
-A cell passes when the slowest repeat of the sharing kernel takes at most 0.67 times the fastest repeat of the best other kernel.
-On 16 real-timestamp streams, six with recorded deletions, sharing passes on 28 of 50 cells for 5-cycles, and on none for triangles or 4-cycles.
-It fails on the one stream held out until the end, and most passes rest on a margin of about 10\% over the scan.
-Operation counts choose the wrong kernel on most cells.
+The sharing kernel groups a batch into stars and builds one row of path counts at the centre of each star, which every update of the star reuses.
+It is compared with a per-update scan, wedge tables, a heavy-light mixed table, an affected-subgraph recount and, for 4-cycles, a published batch algorithm. Every count is checked to be exact, and every cost of upkeep is included in the measured time.
+A cell is one stream, batch size and pattern, and it passes when the slowest repeat of the sharing kernel takes at most 0.67 times the fastest repeat of the best other kernel.
+On 16 real-timestamp streams, six with recorded deletions, sharing passes on 28 of 50 cells for 5-cycles, on none of 48 for triangles, and on none of 12 for 4-cycles, which were timed on three streams.
+It fails on the one stream held out until the end, and with a scan 10\% faster only 16 of the 50 cells would pass.
+On most cells, the kernel with the fewest operations is not the fastest.
 A linear model that prices each kind of operation, fitted on three small streams, names the fastest kernel on 63 of 64 cells of twelve unseen streams, against 21 for a single price per operation.
 All timing is from one machine.
 \end{abstract}
@@ -74,5 +74,9 @@ The authors thank Universiti Teknikal Malaysia Melaka (UTeM) for its support.
 
 \bibliographystyle{abbrvurl}
 \bibliography{refs}
+
+\clearpage
+\appendix
+\input{appendix}
 
 \end{document}

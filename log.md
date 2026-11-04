@@ -873,3 +873,29 @@ The suggestion that goes with the report is chosen by these rules and named in t
 **Draft.** `docs/paper/jgaa/main.tex` with `sec1.tex`, `sec-related.tex`, `sec2-4.tex`, `sec5-9.tex`, `figures.tex`, `ai-statement.tex`. Writing record, §22 steps 1 to 3, in `writing.md`; the PI's word is read as approving its sentence outline. `build.sh` compiles in a scratch folder: 22 pages, no LaTeX error, no overfull box, no undefined reference, BibTeX 0 warnings. Abstract 223 words. Every number has its record in a comment beside it. Project words were taken out of the prose: claim, screen, run IDs.
 
 **Still open before a submission.** §22 step 6, the red-team read from the paper alone; step 7, the outside human read, the PI's to arrange; step 8, the PI's read as main author; the AI statement's wording; the first-page comparison of §18; whether to release the repository, which the data statement currently leaves as "to be released on acceptance".
+
+## 0068, 2026-11-05: §22 step 6, the red-team read, and the corrections
+
+**Step 6.** A fresh subagent was given `main.pdf` (f65792f) and nothing else: no repository, no log, no outline. It answered the eight questions from the paper alone, restated every paragraph of the abstract, introduction and conclusion, and listed the sentences it had to read twice, undefined terms, inconsistencies, likely referee objections and format defects. Its answers to questions 1, 3, 4 and 6 matched step 1 of `writing.md`, each from one place. Questions 2, 5, 7 and 8 had to be assembled from several places, and 8 showed that the conclusion left out the batch-size result and the cost model's limits.
+
+**A record error it exposed.** The read questioned the "probe" price. In `benchmarks/fivecycle.cpp` and `benchmarks/gate1.cpp`, `probe` counts lookups of an edge in the graph's global hash map of edges (`g.has`), used by every kernel, not probes into a wedge table. M1D09's README, the outline and the draft called its 10 to 18 ns price "a table probe". The paper now names it as an edge lookup, gives the wedge-table read and write prices (about 1 to 2 ns and 1.5 to 4.9 ns) as what separates the table kernels, and states the cost model's explanation in those terms. M1D09's README and the outline's claim sentence still carry the old wording, and are corrected in the next commit.
+
+**Corrections made, each against its record.**
+- The "first three streams" verdict is the three evaluation streams with the held-out stream: 14 scored cells, two held-out cells unscored. Table 3 and the text say so.
+- WJ and WT count the same kinds of operation, not the same numbers of them.
+- dewiki is named as the German Wikipedia stream, not "the largest".
+- "Most passes rest on a 10% margin" becomes the measured statement: with a scan 10% faster, 16 of 50 pass.
+- The 76 cells are the twelve new streams and the snapshot. The 64 cells of the cost model are those left with at least two kernels after the 0.05 s floor.
+- At p = 3, the clock winner where the scan does fewest operations is "another kernel", not P3 in every case.
+- The best theta of 16 is on the expiry cells of the two sx streams only.
+- The abstract and introduction say that 4-cycles were timed on three streams.
+- The conclusion now gives the batch-size result and the cost model's three limits.
+- The efficiency-core count of 24 of 50 is explained as the pooled count with the efficiency-core verdicts on the 24 re-timed cells.
+- Terms defined at first use or removed: cell, scored, d(x), H, theta, the edge lookup. Kernel and arm are said to be one thing.
+- Figures moved beside their first mention, and every table is referenced. An appendix lists all 50 scored cells at p = 5, generated from the two result READMEs, with 28 passes, as recorded. The appendix follows the references.
+- Two limits added for referees: the spread of repeats (median slowest over fastest 1.005 at p = 5, largest 1.155), and that every baseline is our own, since Hanauer et al.'s counters take single updates and stop at four vertices.
+- Figure 5's legend says "tables, recount" for the square marks.
+
+The draft builds clean to 24 pages: no LaTeX error, no overfull box, no undefined reference, no "??", no em or en dash in the extracted text, BibTeX 0 warnings.
+
+**The read's three referee objections,** kept for the PI: the novelty is thin and the "rule" is a tally by pattern size, not a predictive criterion; the baselines are the authors' own and batch sizes stop at 1,000; and the statistics are a worst-against-best test on 3 to 5 repeats with a 10% margin. The paper now states each of these as a limit. None is answered by new evidence, and none is a writing fix.

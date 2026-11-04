@@ -29,8 +29,8 @@ The idea that this paper measures is therefore published, for triangles, butterf
 \paragraph{Continuous Subgraph Matching.}
 General systems for continuous subgraph matching are compared by Sun et al.~\cite{sun-csm-study}, who find that no algorithm wins everywhere and that index updates can dominate the time.
 RapidFlow~\cite{rapidflow} reduces each update to batch matching over the affected region, GAMMA~\cite{gamma} matches under batches on the GPU and removes duplicates by a total order on the updates, and Mhedhbi et al.~\cite{mhedhbi-tods} share operators between delta queries.
-Ammar et al.~\cite{ammar-delta} state the delta-query rule that reads new versions of earlier relations and old versions of later ones, whose union is exactly the change in the output.
-These systems list matches of general patterns, and dedicated counters are faster on triangles~\cite{hanauer-dyncount}.
+Ammar et al.~\cite{ammar-delta} state the delta-query rule: each delta query reads the new versions of the earlier relations and the old versions of the later ones, and together these queries give exactly the change in the output.
+These systems list matches of general patterns. Hanauer et al. report that dedicated counters are faster on triangles~\cite{hanauer-dyncount}. Table~\ref{tab:closest} sets out the closest work.
 
 \paragraph{Static Counting.}
 Chiba and Nishizeki~\cite{chiba-nishizeki} list triangles and 4-cycles in time proportional to the arboricity times the number of edges, Alon, Yuster and Zwick~\cite{alon-yuster-zwick} count cycles of a given length, ESCAPE~\cite{escape} counts all 5-vertex subgraphs with a per-vertex row, and Shi, Huang and Shun~\cite{shi-huang-shun} count 5-cycles in $O(m\alpha^2)$ work.
@@ -51,7 +51,7 @@ Engineering studies of published algorithms, with experiments on real instances,
     Dhulipala et al.~\cite{dhulipala-batch-kclique} & Parallel batch counting of cliques with heavy-light tables & Sequential counting of cycles with star rows, against tables, with all costs counted \\
     DPTL+~\cite{dptl} & One bitmap per pivot reused across a batch, for parallel triangle listing & Counting without listing, a degree guard, and up to 5-cycles \\
     BFCB-IG~\cite{bfcb} & One row of 2-path counts per start vertex, for butterflies in bipartite graphs & Odd cycles and general graphs, and a row adjusted for each spoke \\
-    Cheetah~\cite{cheetah} & Star grouping with reuse for general patterns, on a cluster, update time left out & A closed-form counting kernel, sequential, against the strongest baselines, with every cost inside \\
+    Cheetah~\cite{cheetah} & Star grouping with reuse for general patterns, on a cluster, update time left out & A kernel that counts by formula without listing, sequential, against the strongest baselines, with every cost inside \\
     \hline
   \end{tabular}
   \caption{The closest prior work.}

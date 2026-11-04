@@ -5,17 +5,24 @@
 \label{sec:results}
 
 \paragraph{First Verdict.}
-On the three evaluation streams, the verdict by the rule fixed before the clock is Go at $p = 5$: 6 of 14 scored cells pass, on all three streams, and 4 of the passes are expiry cells.
+On the three evaluation streams and the held-out stream, the verdict by the rule fixed before the first timing run is Go at $p = 5$: 6 of 14 scored cells pass, on all three evaluation streams, and 4 of the passes are expiry cells. Two cells of the held-out stream are not scored, because no kernel finished them.
 At $p = 3$ no cell of 12 passes, and the median score is 1.098, so sharing is slower than the best other kernel there.
-At $p = 4$ no cell of 12 passes either, with a median score of 1.299.
+At $p = 4$ no cell of 12 passes either, with a median score of 1.299, and the best other kernel is the scan S4 or the mixed table M4.
 The guarded star-row kernel P4 takes 0.094 to 0.323 of the time of the BFCB-IG port on every cell.
 % results/gate1-M1D05/README.md
 
 \paragraph{Twelve New Streams.}
 On twelve streams that no kernel, parameter or reading of this study had touched before, 22 of 36 scored cells pass at $p = 5$, on 11 of the 12 streams.
-Pooled with the first set, 28 of 50 cells pass, on 14 of 16 streams, so the verdict holds on the larger set.
+Pooled with the first set, 28 of 50 cells pass, on 14 of 16 streams, so the verdict holds on the larger set. Table~\ref{tab:p5} gives the counts by label, and Appendix~\ref{app:cells} lists every cell.
 The passes fall under all three labels: 9 of 12 insert-only cells, 6 of 12 expiry cells and 7 of 12 real-deletion cells pass on the new streams, so recorded deletions do not prevent a pass.
 Figure~\ref{fig:testset} shows every stream with its label, its size and its passes.
+
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[width=\textwidth]{fig-test-set}
+  \caption{The test set: every stream, grouped by its role and label, with its number of events and its passes at $p = 5$. Streams in black are in a verdict; streams in grey are the engineering streams and the one snapshot stream, which are never scored. The event count is that of the insert-only or real-deletion stream, and an expiry stream has about twice as many. The Wikipedia streams are 2,000,000-event prefixes, with the share of deletions in brackets. sx-stackoverflow is the held-out stream. Pooled, 28 of 50 scored cells pass.}
+  \label{fig:testset}
+\end{figure}
 % results/gate1-M1D07T/README.md, readings 1 and 2
 
 \paragraph{Batch Size.}
@@ -23,19 +30,26 @@ Passes depend on the batch size.
 At batches of 1,000 events, 19 of 25 pooled cells pass, and at batches of 100, 9 of 25 pass.
 A larger batch holds more updates at each centre, so the row built once at that centre is reused by more spokes.
 Figure~\ref{fig:scorebyp} shows the score of every scored cell against the pattern size, for both batch sizes.
+
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[width=\textwidth]{fig-score-by-p}
+  \caption{Score against pattern size for every scored cell: the median time of the sharing kernel over the median time of the best other kernel. Squares are cells of the first four streams, which alone have $p = 4$; circles are cells of the twelve new streams. Filled marks pass the test, the slowest repeat of the sharing kernel being at most 0.67 times the fastest repeat of the best other kernel. Bars are medians. Below 1.0 the sharing kernel is faster by median. The snapshot stream is left out.}
+  \label{fig:scorebyp}
+\end{figure}
 % docs/paper/outline.md claim sentence; pass lists of M1D05 and M1D07T
 
 \paragraph{Where It Fails.}
-Two streams give no pass: the held-out stream, sx-stackoverflow, and the Wikipedia stream dewiki.
-sx-stackoverflow scores 0.846 and 0.978 on its expiry cells, and on its insert-only cells no kernel finished within the limits, so they are not scored.
-dewiki, the largest Wikipedia stream, misses the test at 0.710 and 0.783, with medians of 0.669 and 0.671.
+Two streams give no pass: the held-out stream, sx-stackoverflow, and the German Wikipedia stream, dewiki.
+On the expiry cells of sx-stackoverflow the score is 0.846 and 0.978, and on its insert-only cells no kernel finished within the limits, so they are not scored.
+On dewiki the score is 0.669 and 0.671, but the slowest repeat of PR over the fastest of the best other kernel is 0.710 and 0.783, so both cells miss the test.
 % results/gate1-M1D05/README.md, How much weight; results/gate1-M1D07T/README.md, p = 5 table
 
 \paragraph{Triangles and 4-Cycles.}
 At $p = 3$, sharing beats the scan by a median of 13\% on the new streams and never reaches the test.
 Pooled over 48 scored cells, the median score at $p = 3$ is 0.965, and the best single cell is 0.700.
-So the trend that sharing fails for triangles and pays for larger patterns holds only in its second half: for triangles sharing helps a little, and never by the margin the test asks for.
-The new streams have no $p = 4$ cells, and on the first three streams no $p = 4$ cell passes.
+Cheetah reports that sharing gains least for triangles and more for larger patterns~\cite{cheetah}. Our results agree only in part: for triangles sharing helps a little and never by the margin of the test, for 4-cycles it does not help, and for 5-cycles it passes on 28 of 50 cells.
+The new streams have no $p = 4$ cells, so 4-cycles were timed only on the three evaluation streams.
 % results/gate1-M1D07T/README.md, reading 3
 
 \paragraph{What Sharing Beats.}
@@ -51,7 +65,7 @@ So the gain measured here is the gain of the shared row over the same kernel wit
     \hline
     Set & Label & Scored & Pass & Median score \\
     \hline
-    First three streams & insert-only and expiry & 14 & 6 & 0.686 \\
+    Evaluation and held-out & insert-only and expiry & 14 & 6 & 0.686 \\
     Twelve new streams & real deletions & 12 & 7 & 0.646 \\
                        & synthetic expiry & 12 & 6 & 0.667 \\
                        & insert-only & 12 & 9 & 0.637 \\
@@ -67,8 +81,8 @@ So the gain measured here is the gain of the shared row over the same kernel wit
 \label{sec:costmodel}
 
 \paragraph{Two Winners.}
-On 60 of the 76 cells of the newer streams, the kernel with the fewest operations is not the fastest kernel.
-On 35 of these cells, at $p = 3$, the scan does the fewest operations and the sharing kernel P3 is fastest.
+On 60 of the 76 cells of the twelve new streams and the snapshot stream, the kernel with the fewest operations is not the fastest kernel.
+On 35 of these cells, at $p = 3$, the scan does the fewest operations and another kernel is faster.
 On 25, at $p = 5$, a wedge table, the mixed table or the recount does the fewest operations and PR is fastest.
 The flat wedge table WJ runs at a median of 9.55\,ns per counted operation on these streams, against 0.35\,ns for PR.
 % results/gate1-M1D07T/README.md, Operations against the clock
@@ -76,37 +90,44 @@ The flat wedge table WJ runs at a median of 9.55\,ns per counted operation on th
 \paragraph{Three Models.}
 We fit three linear models of a kernel's median time on a cell to its operation counts on that cell, by nonnegative least squares.
 Model U charges one price for every operation.
-Model K charges one price for each of ten kinds of operation: a list element scanned, a probe, a row read or write, a degree read, a table read, a table write, a graph edit, a step of netting the batch, a step of grouping it, and a step of a static recount.
-Model KC adds an extra price for table probes, reads and writes when the kernel's table is larger than the 30\,MB last-level cache.
+Model K charges one price for each of ten kinds of operation: a list element scanned, a lookup of an edge in the graph's hash map of edges, a row read or write, a degree read, a wedge-table read, a wedge-table write, a graph edit, a step of reducing the batch, a step of grouping it, and a step of a static recount.
+Model KC adds an extra price for edge lookups and table reads and writes when the kernel's table is larger than the 30\,MB last-level cache.
 The models are fitted on one set of streams and judged on another set that no coefficient has seen, by their median relative error and by how often they name the fastest kernel on a cell.
-Kernel-cells under 0.05\,s are left out, since their time is dominated by process start and the clock's resolution.
+A kernel on a cell is left out when it runs under 0.05\,s, since its time is then dominated by process start and the clock's resolution. On the twelve new streams this leaves 64 cells with at least two kernels, on which the fastest kernel can be named.
 % docs/experiments/m1d09-cost-model.md; scripts/m1d09_cost.py
 
-\paragraph{Fitted Where Parameters Are Chosen.}
+\paragraph{Fitted on the Engineering Streams.}
 Fitted on the three engineering streams and read on the twelve new streams, model KC names the fastest kernel on 63 of 64 cells, at a median error of 23.0\%.
 Model U names 21 of 64, at a median error of 71.3\%.
 Fitted instead on the first three evaluation streams, model KC names all 64 at 22.9\%.
 Figure~\ref{fig:costmodel} shows predicted against measured time for both fits.
+
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[width=\textwidth]{fig-cost-model}
+  \caption{Predicted against measured time on the twelve new streams, whose cells no coefficient saw. Panels (a) and (b) are fitted on the three engineering streams, and panel (c) on the three evaluation streams. The fastest kernel is named on 21, 63 and 64 of 64 cells, at median errors of 71.3\%, 23.0\% and 22.9\%. The extra price for tables larger than the cache adds nothing in either fit, and both fits predict WJ at a median of 0.15 and 0.18 of its time. In (a), 38 predictions under 0.03\,s are drawn at the lower edge.}
+  \label{fig:costmodel}
+\end{figure}
 % results/cost-M1D10/README.md; results/cost-M1D09/README.md
 
-\paragraph{The Price of a Probe.}
-In both fits a table probe costs about 10 to 18\,ns, and a step along a row or an adjacency list about 0.05 to 0.6\,ns.
+\paragraph{The Prices.}
+In both fits, a step along a row or an adjacency list costs 0.05 to 0.6\,ns, a wedge-table read about 1 to 2\,ns, a wedge-table write 1.5 to 4.9\,ns, and a lookup of an edge in the graph's hash map 10 to 18\,ns.
 The operation counts of different kernels are correlated, so a single coefficient is not a measured price of one instruction.
-The ratio between the kinds is stable across the two fits, and it is the reason unit cost fails: the table kernels trade many cheap steps for fewer expensive probes.
+In both fits, though, a table read or write costs several times a step along a row or list. This is why unit cost fails: the table kernels replace many steps along lists with fewer table operations, and each of those costs more.
 % results/cost-M1D10/README.md, Coefficients
 
 \paragraph{No Cache-Size Effect.}
 The extra prices for tables larger than the cache add nothing in either fit.
 On the new streams, model KC names the same 63 winners as model K, and lowers the median error only from 23.5\% to 23.0\%.
-The fit on the first three streams gives the same picture.
+The fit on the three evaluation streams gives the same picture.
 So the data do not show that a table outgrowing the last-level cache is what makes the table kernels slow.
 % results/cost-M1D10/README.md, Cache; results/cost-M1D09/README.md
 
 \paragraph{What the Model Misses.}
 The model does not explain the flat table.
 It predicts WJ at a median of 0.15 of its measured time with the engineering fit, and 0.18 with the other.
-WJ and the tuned table WT have the same operation counts, and WT runs at 1.42\,ns per operation, so what separates them is not in any counter, table size included.
-The engineering fit also fails on the first three streams at $p = 3$ and $p = 4$: there it names the wrong winner on 14 of 24 cells, each time preferring the sharing kernel where the scan is fastest, by margins of 0.3\% to 28\%.
+WJ and the tuned table WT count the same kinds of operation and hold the same entries, and WT runs at a median of 1.42\,ns per counted operation against 9.55 for WJ. What separates them, the layout of the table in memory, is not in any counter.
+The engineering fit also fails on the three evaluation streams at $p = 3$ and $p = 4$: there it names the wrong winner on 14 of 24 cells, each time preferring the sharing kernel where the scan, or once the mixed table, is fastest, by margins of 0.3\% to 28\%.
 At $p = 5$ it names all 12 correctly.
 % results/cost-M1D10/README.md, Read beside it; results/cost-M1D09/README.md
 
@@ -116,12 +137,19 @@ At $p = 5$ it names all 12 correctly.
 \paragraph{The Mixed Table at Its Best Threshold.}
 The mixed table was run on the six first passes at every threshold from 16 to 1,024, and the best threshold on each cell was chosen after the fact.
 All six passes hold against it.
-The best threshold is 16 on the expiry cells and 64 on the rest, and it beats the scan on one stream only, by 9\%.
+The best threshold is 16 on the expiry cells of sx-askubuntu and sx-superuser and 64 on the other cells, and the mixed table beats the scan on one stream only, by 9\%.
 Figure~\ref{fig:theta} shows the mixed table's time over the threshold against PR and R2.
+
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[width=\textwidth]{fig-theta}
+  \caption{The mixed table M5 at every threshold $\theta$ from 16 to 1,024, against PR and R2, on the six cells that pass on the evaluation streams. Each value is a median of the timing repeats over R2's median. At every threshold, PR's slowest repeat stays at most 0.67 times M5's fastest, so all six passes hold against M5 at its best threshold.}
+  \label{fig:theta}
+\end{figure}
 % results/gate1-M1D06A/README.md
 
 \paragraph{The Scan Margin.}
-Most passes rest on a margin of about 10\% over the scan.
+The verdict rests on a margin of about 10\% over the scan.
 If the best other kernel's fastest repeat were 5\% faster on every cell, 22 of 50 pooled cells would pass, and at 10\% faster 16 of 50, below the third the verdict needs.
 A faster scan on another machine could therefore change the verdict, and this is the main reason the result is stated for one machine.
 % results/gate1-M1D07T/README.md, How much weight the passes carry
@@ -129,14 +157,19 @@ A faster scan on another machine could therefore change the verdict, and this is
 \paragraph{Background Load.}
 After each timing run, every timed repeat was checked against the recorded start times of the scheduled tasks on the machine.
 In the two timing runs of the new streams, overlapping repeats ran a median of 0.00\% and 0.13\% over their kernel's median on the cell, and clean repeats 0.00\%.
-Three passes have every repeat of the best other kernel inside a window, and load can only slow that kernel, so for these passes to be false the load would have had to slow it by 15\% to 57\% in every repeat.
-Without the two of these passes whose required slowdown is smallest, and one cell that runs in a few milliseconds, 25 of 47 cells pass.
+On three passing cells, every repeat of the best other kernel overlapped the run of a scheduled task. Load can only slow that kernel, so for these passes to be false, the load would have had to slow it by 15\% to 57\% in every repeat.
+If the two of these cells that need the smallest slowdown are removed, together with one cell that runs in a few milliseconds, 25 of the remaining 47 cells pass.
 % results/gate1-M1D07T/README.md, Background load and Robustness
+
+\paragraph{Spread of the Repeats.}
+On the new streams, the median ratio of the slowest to the fastest repeat of one kernel on one cell is 1.012 at $p = 3$ and 1.005 at $p = 5$, and the largest is 1.155, for R2 on a Wikipedia stream with real deletions.
+The pass test compares the slowest repeat of PR with the fastest of the best other kernel, so this spread counts against sharing.
+% results/gate1-M1D07T/README.md, Spread
 
 \paragraph{An Efficiency Core.}
 The 24 cells nearest the pass line were timed again on a performance core and on an efficiency core of the same processor.
 On the performance core, each kernel's median is within 1\% of the earlier run, and the pooled count stays at 28 of 50.
-On the efficiency core, 24 of 50 cells pass, and every cell lost is a Wikipedia stream with real deletions.
+With the efficiency-core verdicts in place of the recorded ones on these 24 cells, 24 of the 50 pooled cells pass, and every cell lost is a Wikipedia stream with real deletions.
 The efficiency core runs PR and R2 about 1.6 times slower, but not by the same factor on every stream.
 % results/gate1-M1D08/README.md
 
@@ -151,7 +184,9 @@ Given the scan margin of Section~\ref{sec:sensitivity}, a machine with a relativ
 
 \paragraph{Sixteen Streams.}
 Sixteen real-timestamp streams are few beside the hundreds of instances in static benchmark sets.
-Streams with real timestamps are scarce, and those with recorded deletions more so: they are the real instances of the set of Hanauer et al.~\cite{hanauer-dyncount}, chosen by a rule fixed before their sizes were read, and every one of them is used.
+Streams with real timestamps are scarce, and those with recorded deletions more so. Our streams are the real instances of the set of Hanauer et al.~\cite{hanauer-dyncount}, chosen by a rule fixed before their sizes were read. All 18 are used: 16 are scored, one is an engineering stream, and one is a single snapshot and is reported only.
+The study also stops at batches of 1,000 events and at five vertices, and it is sequential.
+Every baseline is our own implementation, written so that no kernel loses to a careless form. The published counters closest to ours, those of Hanauer et al., take single updates and stop at four vertices, so they do not run on the cells where sharing passes.
 We did not add synthetic streams, because a synthetic stream adds instances without adding evidence about real update patterns.
 % docs/experiments/m1d07-streams.md; CLAUDE.md hard rule 4
 
@@ -161,6 +196,6 @@ DPTL+ and BFCB-IG reuse a row per vertex across a batch~\cite{dptl,bfcb}, and Ch
 What this paper adds is the measured gain of that mechanism against the strongest sequential exact baselines, with every cost inside, on real streams with real deletions and a held-out stream, and a cost model that explains why operation counts choose the wrong kernel.
 
 \paragraph{Conclusion.}
-Sharing work inside a batch pays for exact counting of 5-cycles against the strongest sequential baselines we could build, on 28 of 50 cells over 14 of 16 real streams, and it does not pay for triangles or 4-cycles by the same test.
-It fails on the held-out stream and on the largest Wikipedia stream, and most passes rest on a margin of about 10\% over the scan.
-An engineer choosing among these kernels should price a table probe at about twenty or more times a scan step, rather than count operations, because the operation count chooses the wrong kernel on most cells and the priced model chooses the right one on 63 of 64 unseen cells.
+Sharing work inside a batch pays for exact counting of 5-cycles against the strongest sequential baselines we built, on 28 of 50 cells over 14 of 16 real streams, more often at batches of 1,000 events than of 100. It does not pay for triangles or 4-cycles by the same test.
+It fails on the held-out stream and on the German Wikipedia stream, and with a scan 10\% faster the verdict would not hold.
+An engineer choosing among these kernels should price each kind of operation rather than count operations. A model priced by kind, fitted on three small streams, names the fastest kernel on 63 of 64 cells of the twelve new streams. Its limits are that it does not explain the flat wedge table, finds no effect of table size, and, on the three evaluation streams, names the wrong kernel on 14 of 24 cells at three and four vertices.

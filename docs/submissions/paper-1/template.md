@@ -7,12 +7,12 @@
 | Archive | 311,119 bytes, SHA-256 `240d7964b5d8b79e75deb6ae3215a27f8a11e0a5e2d833c845ff80a45684f780` |
 | Class | `jgaa-art.cls` with its art files, copied unmodified into `docs/paper/jgaa/`. The instructions give the package's last revision as 2021-01-07 |
 | Bibliography style | `abbrvurl`, as the instructions require, with a `doi` field in every entry that has one |
-| Added packages | `lineno` for line numbers, which the submission checklist asks for. `amsmath`, `amssymb` and `graphicx` are in the template |
+| Added packages | `lineno` for line numbers, which the submission checklist asks for, and `array` for left-aligned table columns. `amsmath`, `amssymb` and `graphicx` are in the template |
 | Text block | 15 cm by 20 cm, from the class |
 
 ## First page against a published article
 
-To do after the first full compile: put page 1 of `main.pdf` beside page 1 of Großmann et al., JGAA 30(1) 2026, and compare the title block, header, fonts and the CC BY footer.
+Done on 2026-11-05: page 1 of `main.pdf` (commit f65792f) beside page 1 of Großmann et al., JGAA 30(1) 2026, both rendered at 55 dpi. They match in the journal header with the cube logo, the title and author block with ORCID marks, the submitted and accepted box, the abstract layout, the e-mail footnote and the CC BY footer, and in fonts (Computer Modern). One difference: the published paper puts its code and data links in the first-page footnote. Ours has a data and code section that says the repository is released on acceptance, which is the PI's decision. All fonts in `main.pdf` are embedded (`pdffonts`).
 
 ## Submission checklist, from the submissions page, read 2026-11-05
 
