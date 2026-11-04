@@ -838,3 +838,17 @@ The suggestion that goes with the report is chosen by these rules and named in t
 **Read beside it.** On M1D05's streams the engineering fit names 22 of 36 winners. Unplanned breakdown: all 12 p = 5 cells are right, and 14 of 24 at p = 3 and 4 are wrong. On every miss the clock picks the scan arm, or once M4, and KC picks P, with the runner-up 0.3% to 28% behind. The fit prices a row step at 0.05 ns against M1D09's 0.23 and a degree read at zero. WJ is at a median 0.15 of its clock on M1D07, against 0.18 in M1D09, with its 768 MB table inside the fit. A probe costs 10.5 to 18 ns in the two fits, against 0.05 to 0.6 ns for a row or scan step.
 
 **For the PI.** The outcome is settled by the rule fixed first. What section 6 says about the M1D05 misses, and whether p = 4 needs its own reading, is the PI's call.
+
+## 0066, 2026-11-05: figure 5 from both fits, JGAA checked, sections 2 to 4 drafted
+
+**The PI's word, by chat:** "Approved all beb. Proceed", in answer to the five items that closed 0065. Those were: redraw figure 5 from both fits; check the venue-fit record against JGAA; draft sections 2 to 4 first; put the M1D05 misses at p = 3 and 4 into section 6 as a limit, with no new run; and push after figure 5.
+
+**Figure 5.** `scripts/figures_results.py` draws three panels on M1D07's streams: unit cost and priced by kind and cache, both fitted on the engineering cells (M1D10), and priced by kind and cache fitted on M1D05's (M1D09). The other five figures regenerate byte for byte. Checked as a PNG from headless Edge, and nothing is clipped. Commit 732331e.
+
+**Push: not done.** The repository has no remote, so there is nothing to push to. Whether to create one is the PI's decision, and the JGAA exemplars make it relevant (below).
+
+**JGAA, checked by fetch.** Recorded in `docs/submissions/paper-1/venue-fit.md`, "Checked against JGAA, 2026-11-05". From the author guidelines: LaTeX with the unmodified JGAA package, no length limit for regular papers, figures as vector PDF or EPS with text at least 10 pt, DOIs in references, and generative AI use declared in the Comments for the Editor, or immediate rejection. Two exemplars read in their experimental sections: both time on one machine type with one core per run, use 488 and 1,643 or more instances, and release code on GitHub and data on Zenodo. What follows for this paper: one machine is the venue's norm; the instance count, 16 real-timestamp streams, is the weak point, and the introduction must say why; all six figures need redrawing at 10 pt for the class; the AI declaration is the PI's to write.
+
+**Sections 2 to 4, draft 1.** `docs/paper/jgaa/sec2-4.tex`, body text for the JGAA package, about 2,600 words: problem and model, the kernels, and the method of measurement. Every number has its record in a comment beside it. Seven citation keys are placeholders, in `docs/paper/jgaa/refs-todo.md`, and none is filled from memory. The JGAA package itself is not downloaded: that is a download, which needs the PI's word. The draft refers to sections 5 to 7 by label, and they are not written.
+
+**Section 6 limit.** Already in the outline since f0aaa82, as the PI confirms: the engineering fit prefers P to the scan on 14 of 24 M1D05 cells at p = 3 and 4, and no run is added.

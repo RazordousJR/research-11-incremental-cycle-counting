@@ -36,7 +36,7 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 
 ## Open
 
-**No run is open.** M1D10 is done and released (`log.md` 0065). Proposed next, toward a JGAA draft, each for the PI: redraw figure 5 from both fits; the venue-fit record against JGAA (M1A17, readiness tests 5 and 7); then draft sections 2 to 4, which no open test can change, before 5 to 8. The M1D05 misses at p = 3 and 4 go into section 6 as a limit, with no new run proposed. A second machine is still the open gap in readiness test 3. Nothing runs on the standing order of 0056.
+**No run is open.** M1D10 is done (`log.md` 0065). On the PI's word (`log.md` 0066): figure 5 redrawn from both fits; JGAA's guidelines and two exemplars checked (`docs/submissions/paper-1/venue-fit.md`); sections 2 to 4 drafted in `docs/paper/jgaa/sec2-4.tex`, with seven citations still to read (`refs-todo.md`). Open for the PI: a remote for code and data release, which JGAA's exemplars all have; downloading the JGAA LaTeX package; the AI-use declaration JGAA requires. A second machine is still the open gap in readiness test 3. Nothing runs on the standing order of 0056.
 
 **Venue decided:** JGAA, WoS not needed (PI, 2026-11-04, `log.md` 0064).
 

@@ -62,3 +62,33 @@ Whether UTeM is in ACM Open, and whether any ACM waiver applies to Malaysia. TAL
 ## Recommendation, for the PI
 
 JGAA first: free, the right readers, and engineering papers of this type in the last two years. Its weakness is indexing: Q2 in one SJR category and not in WoS. If the PI's institution needs WoS for this paper, KAIS second, with the applications framing written in from the start. The choice is the PI's.
+
+## Checked against JGAA, 2026-11-05
+
+After the PI chose JGAA (`log.md` 0064), with no need for WoS. Read by fetch on 2026-11-05: the submission page, and the experimental sections of two of the three exemplars from their PDFs.
+
+**Author guidelines,** https://jgaa.info/index.php/jgaa/about/submissions:
+
+| Requirement | What it means for this paper |
+|---|---|
+| PDF with page and line numbers for review. LaTeX and BibTeX with the unmodified JGAA package (revision of 2021-01-07) for the final version | Write the draft in the JGAA class from the start |
+| No length limit for regular papers. Concise papers run 5 to 10 pages | Regular paper. The exemplars run 24 to 33 pages |
+| Figures as EPS or PDF vector drawings, with **text at least 10 pt**, inside the margins | The six SVG figures use 8 to 12 pt text and figure 5 is 970 px wide. All six need redrawing at the column width with 10 pt text, then converting to PDF |
+| DOIs for references where they exist. Title case for the title and section headings | Bibliography work |
+| Generative AI: allowed for things such as programming help in experimental work, **must be declared in the Comments for the Editor**, and undeclared use "can result in immediate rejection" | The declaration is the PI's to write. This project's code, runs and records were made with an AI assistant, and the declaration has to say so |
+| No data or code policy | See the exemplars |
+
+**Exemplars' methods, from the PDFs:**
+
+| Paper | Instances | Machine | Repeats | Release |
+|---|---|---|---|---|
+| Großmann et al., hypergraph b-matching, JGAA 30(1) 2026 | 488 hypergraphs from four sources, and 10 graphs | One cluster machine type, Intel Xeon Gold 6230, runs in parallel, one core each | 10, arithmetic mean, performance profiles | GitHub and Zenodo |
+| Fink and Rutter, synchronized planarity, JGAA 29(1) 2025 | 1,643 instances from an existing set, plus 13,834 and 6,300 generated | One machine type, Intel Xeon E5-2690v2, single-threaded, runs in parallel, one core each | Not read | GitHub, dataset on Zenodo |
+
+**What follows for this paper.**
+- **One machine is the norm here.** Both exemplars time on one machine type. The readiness gap of a second machine (outline, test 3) is weaker for this venue than it was written for. It is still a limit to state.
+- **Instance count is the weak point.** The exemplars use hundreds to thousands of instances. This paper has 16 real-timestamp streams and 50 scored cells at p = 5. The answer is that real temporal streams with timestamps are scarce: they are Hanauer et al.'s real set, chosen by a rule fixed first. Synthetic streams would add count without adding evidence (hard rule 4). The introduction has to say this before a referee does.
+- **Code and data release is expected in practice.** Both exemplars give GitHub and Zenodo. The repository has no remote. Releasing it is the PI's decision.
+- **Exclusive pinned runs are stricter than the exemplars', not weaker.** Both run many experiments in parallel on one machine. Section 4 can say so without overclaiming.
+
+**Bootstrap §3 checks, updated.** Scope passes. Exemplars pass, on type and now on method. The bibliography check (five entries from the venue and its neighbours) is still not done and comes with the draft. Home field passes.

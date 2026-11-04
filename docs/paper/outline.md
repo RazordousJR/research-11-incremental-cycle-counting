@@ -41,7 +41,7 @@ Go by the Gate 1 rule, with the trend, on the first 4 streams: median 1.098 at p
 
 1. Introduction: the question, the answer, the held-out result in the same paragraph.
 2. Problem and model: exact counts, batches, the two stream labels, all costs inside.
-3. Kernels: R2 and PR at p = 3, 4, 5, and the baselines as built. Exactly-once is folklore and is cited, not claimed (hard rule 6).
+3. Kernels: R2 and PR at p = 3, 4, 5, and the baselines as built. Sections 2 to 4 are drafted in `docs/paper/jgaa/sec2-4.tex` (`log.md` 0066). Exactly-once is folklore and is cited, not claimed (hard rule 6).
 4. Method of measurement: pinned, exclusive claims and what "exclusive" did not exclude, operations then clock, the rule fixed before the clock, M1D04-R1.
 5. Results: the verdict, the six passes, the held-out stream, the near misses.
 6. The cost model: operations against the clock. Claimed: **Carries**, the weaker of two fits that both read Carries. M1D10, fitted on the 12 engineering cells as hard rule 5 says, gives the coefficients (`results/cost-M1D10/README.md`): priced by kind and cache, 63 of 64 new winners at 23.0% median error, against 21 and 71.3% for unit cost. M1D09, fitted on M1D05's streams, is given beside it: 64 of 64 at 22.9% (`results/cost-M1D09/README.md`). A table probe costs about 10 to 18 ns in the two fits, against 0.05 to 0.6 ns for a row or scan step. Stated with it: neither fit shows a cache price, so none is claimed; WJ is underpriced five- to sevenfold in both (0.18 and 0.15 of its clock); and the engineering fit does not carry back to M1D05's streams at p = 3 and 4, where it prefers P to the scan on 14 of 24 cells, while all 12 p = 5 cells are right.
@@ -54,7 +54,7 @@ Go by the Gate 1 rule, with the trend, on the first 4 streams: median 1.098 at p
 |---|---|---|
 | 1 Claims trace to records | Yes | None |
 | 2 Ablation per component | Partly | PR against R2 is the sharing ablation. No component beyond that is claimed |
-| 3 Baselines tuned on equal terms | Mostly | Tuned table and mixed table at its best theta. A second machine is still open |
+| 3 Baselines tuned on equal terms | Mostly | Tuned table and mixed table at its best theta. A second machine is still open, though JGAA's engineering exemplars time on one machine type (`venue-fit.md`, 2026-11-05) |
 | 4 Novelty survived the literature | Narrowly | The gain is new, the mechanism is not |
 | 5 Evaluation scope reaches the venue's bar | **Improved, not yet checked against the venue** | 16 real-timestamp streams: 3 evaluation, 1 held-out and 12 new, chosen from Hanauer et al.'s 56 by a rule fixed first, 6 with 16% to 28% real deletions. Their 38 Kronecker streams are left out as fully synthetic. JGAA's median scope is not counted |
 | 6 Contribution type fits the venue | Open | See decision A |
