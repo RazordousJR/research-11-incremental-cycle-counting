@@ -843,7 +843,7 @@ The suggestion that goes with the report is chosen by these rules and named in t
 
 **The PI's word, by chat:** "Approved all beb. Proceed", in answer to the five items that closed 0065. Those were: redraw figure 5 from both fits; check the venue-fit record against JGAA; draft sections 2 to 4 first; put the M1D05 misses at p = 3 and 4 into section 6 as a limit, with no new run; and push after figure 5.
 
-**Figure 5.** `scripts/figures_results.py` draws three panels on M1D07's streams: unit cost and priced by kind and cache, both fitted on the engineering cells (M1D10), and priced by kind and cache fitted on M1D05's (M1D09). The other five figures regenerate byte for byte. Checked as a PNG from headless Edge, and nothing is clipped. Commit 732331e.
+**Figure 5.** `scripts/figures_results.py` draws three panels on M1D07's streams: unit cost and priced by kind and cache, both fitted on the engineering cells (M1D10), and priced by kind and cache fitted on M1D05's (M1D09). Figures 3, 4 and 6, from the same script, regenerate byte for byte. Checked as a PNG from headless Edge, and nothing is clipped. Commit 732331e.
 
 **Push: not done.** The repository has no remote, so there is nothing to push to. Whether to create one is the PI's decision, and the JGAA exemplars make it relevant (below).
 
