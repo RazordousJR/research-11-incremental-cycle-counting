@@ -766,3 +766,15 @@ The suggestion that goes with the report is chosen by these rules and named in t
 **Read beside it.** The E-core is 1.55 to 1.60 times slower for PR and R2, 1.80 for WT. The margin is worse on the E-core on all ten wiki real-deletion cells, by 0.016 to 0.063, and better on four of the seven sx and reddit cells. Counting only cells that pass on both P-core measurements gives 27 of 50, and Go holds. The cores share L3 and DRAM, so this is not a second machine. The outline's claim sentence now carries "on both core types of one machine" and the count per core, as the protocol's table says.
 
 **Next.** M1D08 used the standing order's experiment, so nothing more runs on it. Proposed to the PI: the cost-model fit and the two §16 figures from logged runs, which need no claim. WoS, and so JGAA against KAIS, is still the PI's.
+
+## 0062, 2026-11-04: M1D09A, the cost model written before any fit
+
+**The PI's word, by chat:** "Okeh terus beb", in answer to the proposal to fit the cost model and draw the figures from logged runs, with no claim.
+
+**A correction to that proposal.** It named "the two §16 figures". Those were drawn on 2026-11-03 (`docs/figures/`, figures 1 and 2 of the outline). The work left is the cost model, which is the outline's section 6 and figure 5, and figures 3, 4 and 6.
+
+**M1D09A.** `docs/experiments/m1d09-cost-model.md` and `scripts/m1d09_cost.py`, committed before the script's fit was read. Three models: unit cost, priced by kind of operation, and priced by kind with a second price for table accesses when the table exceeds the 30 MB L3. They are fitted on M1D05's three evaluation streams (36 cells, 173 arm-cells) and read on M1D07's 12 new streams (66 cells, 276 arm-cells), for error, the clock winner and PR's side of 0.67. The outcomes Carries, Partly and Does not carry are fixed in the file. The script was tested before the commit on a known nonnegative least-squares problem, which it recovers, and on the arm-cell counts. No coefficient was printed.
+
+**Found while writing it.** The count build's `upkeep` column is not a separate counter: `benchmarks/gate1.cpp` adds to it the part of the other counters that M spends on hub upkeep. Every model leaves it out, so nothing is counted twice. The sums of the remaining 10 counters equal `ops` on every arm-cell, checked by the script.
+
+**Hard rule 5, read here, for the PI.** The rule says parameters are chosen on engineering streams. The engineering streams have no timing for most arms, and their tables fit in L3, so the cache price this model tests cannot be fitted there. The coefficients are fitted on streams already read and judged only on streams no coefficient saw. That keeps the rule's purpose and departs from its letter. The other way is to time all arms on the engineering streams, which needs a claim and would still leave the cache term unfitted.
