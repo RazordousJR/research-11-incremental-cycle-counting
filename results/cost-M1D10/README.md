@@ -4,6 +4,8 @@ Protocol: `docs/experiments/m1d10-cost-engineering.md`, committed as 493f478 bef
 
 **Outcome, by the rule: Carries.** Fitted on the 12 engineering cells, where hard rule 5 says parameters are chosen, pricing by kind of operation names the clock winner on 63 of the 64 cells of M1D07's 12 new streams, while unit cost names 21. The median error is 23.0%. M1D09 also read Carries, so the weaker of the two outcomes, which section 6 claims, is **Carries**. Neither fit shows a cache price, so the paper does not claim one. On M1D05's three streams, which M1D09 fitted on, this fit names only 22 of 36 winners. That is a limit, and it is read below.
 
+**Correction, 2026-11-05 (`log.md` 0068).** The `probe` counter is a lookup of an edge in the graph's global hash map of edges (`g.has` in `benchmarks/gate1.cpp` and `benchmarks/fivecycle.cpp`), which every kernel makes, not a probe into a wedge table. Where this README says "a table probe", read "an edge lookup". What separates the table kernels is the price of a wedge-table read, about 1 to 2 ns, and of a write, about 1.5 to 4.9 ns, against 0.05 to 0.6 ns for a row or scan step. The readings and the outcome are unchanged.
+
 ## The run, M1D10C
 
 | | |

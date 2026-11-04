@@ -4,6 +4,8 @@ Protocol: `docs/experiments/m1d09-cost-model.md`, committed as a712ab3 before an
 
 **Outcome, by the rule: Carries.** Pricing each kind of operation predicts the clock winner on new streams, where a unit cost does not. The reading beside it limits what that means. Pricing by kind does all the work, and the second price for tables over L3 adds nothing. The model does not price the table arms: it puts WJ at about a fifth of its measured time.
 
+**Correction, 2026-11-05 (`log.md` 0068).** The `probe` counter is a lookup of an edge in the graph's global hash map of edges (`g.has` in `benchmarks/gate1.cpp` and `benchmarks/fivecycle.cpp`), which every kernel makes, not a probe into a wedge table. Where this README says "a table probe", read "an edge lookup". What separates the table kernels is the price of a wedge-table read, about 1 to 2 ns, and of a write, about 1.5 to 4.9 ns, against 0.05 to 0.6 ns for a row or scan step. The readings and the outcome are unchanged.
+
 ## Sets
 
 | Set | Streams | Cells | Arm-cells | Tables over L3 |
