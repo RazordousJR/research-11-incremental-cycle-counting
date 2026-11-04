@@ -1,0 +1,78 @@
+% Manuscript for the Journal of Graph Algorithms and Applications, draft 1, 2026-11-05 (log.md 0067).
+% Class: jgaa-art.cls from https://jgaa.info/JGAA-LaTeX.zip, read 2026-11-05, unmodified (template.md).
+\documentclass{jgaa-art}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage[mathlines]{lineno}
+\graphicspath{{../../figures/pdf/}}
+
+\begin{document}
+% --------------------------------------------------------------------
+\doi{}
+\Issue{0}{0}{0}{0}{0}
+% --------------------------------------------------------------------
+\HeadingAuthor{Sulaiman et al.}
+\HeadingTitle{Sharing Work Within Batches for Exact Dynamic Cycle Counting}
+% --------------------------------------------------------------------
+\title{Sharing Work Within Update Batches for Exact Dynamic Counting of Triangles, 4-Cycles and 5-Cycles: An Experimental Study}
+\Ack{This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.}
+% --------------------------------------------------------------------
+\authorOrcid[utemim]{Hamzah Asyrani Sulaiman}{asyrani@utem.edu.my}{0000-0002-7714-5967}
+\authorOrcid[utemim]{Shafina binti Abd Karim Ishigaki}{shafina@utem.edu.my}{0000-0003-4551-0824}
+\authorBOrcid[utemse]{Asniyani Nur Haidar binti Abdullah}{asniyani@utem.edu.my}{0009-0008-5148-2341}
+\authorOrcid[utemim]{Nazreen Abdullasim}{nazreen.abdullasim@utem.edu.my}{0000-0001-9316-6277}
+\authorBOrcid[utemim]{Mohamad Lutfi Dolhalit}{lutfi@utem.edu.my}{0009-0006-0967-330X}
+\authorOrcid[ums]{Abdullah Bade}{abb@ums.edu.my}{0000-0002-4054-3064}
+
+\affiliation[utemim]{Department of Interactive Media, Faculty of Information and Communication Technology,\\ Universiti Teknikal Malaysia Melaka, Hang Tuah Jaya, 76100 Durian Tunggal, Melaka, Malaysia}
+\affiliation[utemse]{Department of Software Engineering, Faculty of Information and Communication Technology,\\ Universiti Teknikal Malaysia Melaka, Hang Tuah Jaya, 76100 Durian Tunggal, Melaka, Malaysia}
+\affiliation[ums]{School of Science and Technology, Universiti Malaysia Sabah,\\ Jalan UMS, 88400 Kota Kinabalu, Sabah, Malaysia}
+%% --------------------------------------------------------------------
+\submitted{}%
+\accepted{}%
+\published{}%
+\type{Regular Paper}%
+\editor{}%
+%% --------------------------------------------------------------------
+
+\maketitle
+
+\begin{abstract}
+We study exact sequential counting of triangles, 4-cycles and 5-cycles in a graph that receives insertions and deletions in batches.
+We ask whether sharing work between the updates of one batch beats the strongest kernels that do not share.
+The sharing kernel groups a batch into stars and builds one adjacency row at the centre of each star, which every update of the star reuses.
+It is compared with a per-update scan, two wedge tables, a heavy-light mixed table, an affected-subgraph recount and, for 4-cycles, a published batch algorithm, with every count exact and every cost of upkeep inside the time.
+A cell passes when the slowest repeat of the sharing kernel takes at most 0.67 times the fastest repeat of the best other kernel.
+On 16 real-timestamp streams, six with recorded deletions, sharing passes on 28 of 50 cells for 5-cycles, and on none for triangles or 4-cycles.
+It fails on the one stream held out until the end, and most passes rest on a margin of about 10\% over the scan.
+Operation counts choose the wrong kernel on most cells.
+A linear model that prices each kind of operation, fitted on three small streams, names the fastest kernel on 63 of 64 cells of twelve unseen streams, against 21 for a single price per operation.
+All timing is from one machine.
+\end{abstract}
+
+\linenumbers
+
+\input{sec1}
+\input{sec-related}
+\input{sec2-4}
+\input{sec5-9}
+
+\input{figures}
+
+\section*{Data and Code Availability}
+The source code of every kernel, the scripts that prepare the streams, run the measurements and compute every number in this paper, and the per-cell results are available at \texttt{[repository to be released on acceptance]}.
+The input streams are public: SNAP, KONECT and Network Repository, as listed by Hanauer et al.~\cite{hanauer-dyncount}.
+
+\section*{Use of Generative AI}
+\input{ai-statement}
+
+\section*{Acknowledgements}
+The authors thank Universiti Teknikal Malaysia Melaka (UTeM) for its support.
+
+\bibliographystyle{abbrvurl}
+\bibliography{refs}
+
+\end{document}

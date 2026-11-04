@@ -1,0 +1,59 @@
+% Draft 1, 2026-11-05 (log.md 0067), written from refs-verified.md. Every entry of refs.bib is cited somewhere in the paper.
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{Exact Counting Under Single Updates.}
+Eppstein and Spiro~\cite{eppstein-spiro} maintain the counts of all 3-vertex subgraphs in amortized time proportional to the h-index of the graph, and Eppstein et al.~\cite{eppstein-extended} extend this to 4-vertex subgraphs.
+Kara et al.~\cite{kara-tods} maintain a triangle count in $O(\sqrt{m})$ amortized time per update, which is optimal under the OMv conjecture, and Lu and Tao~\cite{lu-tao} give bounds that depend on the arboricity.
+Hanauer, Henzinger and Hua~\cite{hhh} count all connected 4-vertex subgraphs with tables that hold only the paths through low-degree vertices, and count through high-degree vertices from the adjacency lists; our mixed tables follow this rule.
+Hanauer et al.~\cite{hanauer-dyncount} engineer these approaches on 56 instances and find that, for triangles, scanning the lower-degree endpoint is the fastest choice, while heavy-light tables pay for 4-cycles.
+IncGraph~\cite{incgraph} computes the change in all graphlet counts up to five vertices for each edge by local enumeration.
+None of these works considers batches, and only IncGraph reaches five vertices.
+Hanauer, Henzinger and Schulz~\cite{hanauer-survey} survey the engineering of fully dynamic graph algorithms more broadly.
+
+\paragraph{Batches.}
+Dhulipala et al.~\cite{dhulipala-batch-kclique} count triangles and $k$-cliques under batches in parallel, with heavy-light tables, and make each triangle count once by dividing by its number of updated edges.
+Liu et al.~\cite{liu-batch-kcore} maintain a low out-degree orientation under batches and bound the work of $k$-clique counting through it.
+Makkar et al.~\cite{makkar-dynamic-tc} count triangles on the GPU under batches, by inclusion and exclusion over per-edge intersections, with no work shared between the edges of a batch, and EDTC~\cite{edtc} is a recent GPU counter for dynamic triangles.
+Ediger et al.~\cite{ediger-streaming} group a batch by source vertex, but for the update of the data structure rather than for the count.
+ParaDyMS~\cite{paradyms} recounts motifs in the modified part of the network after each batch, which is the idea of our recount kernels A4 and A5.
+
+\paragraph{Sharing Inside a Batch.}
+Three published methods reuse one row per vertex across the updates of a batch.
+DPTL+~\cite{dptl} lists the triangles that a batch adds or removes, in parallel, and builds one bitmap of the neighbourhood of each pivot vertex, which every batch edge at that vertex reuses.
+BFCB-IG~\cite{bfcb} counts butterflies, the 4-cycles of a bipartite graph, by building one row of 2-path counts per start vertex over the affected subgraph.
+Cheetah~\cite{cheetah} groups each batch into stars for general patterns, caches neighbour lists per star, and reports a mean gain of 1.12 times for triangles and 2.5 to 2.75 times for larger patterns on a cluster of 16 nodes, against Tesseract~\cite{tesseract}, with graph-update time left out.
+Gopher~\cite{gopher} shares the set operations within one update instead, and its authors report that this beats Cheetah's sharing across updates.
+The idea that this paper measures is therefore published, for triangles, butterflies and general patterns.
+
+\paragraph{Continuous Subgraph Matching.}
+General systems for continuous subgraph matching are compared by Sun et al.~\cite{sun-csm-study}, who find that no algorithm wins everywhere and that index updates can dominate the time.
+RapidFlow~\cite{rapidflow} reduces each update to batch matching over the affected region, GAMMA~\cite{gamma} matches under batches on the GPU and removes duplicates by a total order on the updates, and Mhedhbi et al.~\cite{mhedhbi-tods} share operators between delta queries.
+Ammar et al.~\cite{ammar-delta} state the delta-query rule that reads new versions of earlier relations and old versions of later ones, whose union is exactly the change in the output.
+These systems list matches of general patterns, and dedicated counters are faster on triangles~\cite{hanauer-dyncount}.
+
+\paragraph{Static Counting.}
+Chiba and Nishizeki~\cite{chiba-nishizeki} list triangles and 4-cycles in time proportional to the arboricity times the number of edges, Alon, Yuster and Zwick~\cite{alon-yuster-zwick} count cycles of a given length, ESCAPE~\cite{escape} counts all 5-vertex subgraphs with a per-vertex row, and Shi, Huang and Shun~\cite{shi-huang-shun} count 5-cycles in $O(m\alpha^2)$ work.
+Our recount kernels use the first and the last of these.
+
+\paragraph{Timestamped Streams and This Journal.}
+Chanchary and Maheshwari~\cite{chanchary-windowed} answer time-windowed queries on timestamped event graphs, including counts of 2-paths and quadrangles.
+Engineering studies of published algorithms, with experiments on real instances, appear in this journal for hypergraph matching~\cite{grossmann-bmatching}, 2-packing sets~\cite{borowitz-2packing} and synchronized planarity~\cite{fink-rutter}, and this paper follows their form.
+
+\begin{table}[t]
+  \centering
+  \small
+  \begin{tabular}{>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{4.9cm}>{\raggedright\arraybackslash}p{4.9cm}}
+    \hline
+    Work & What it does & What this paper adds \\
+    \hline
+    Hanauer et al.~\cite{hanauer-dyncount} & Exact counters for single updates, up to 4 vertices, on 56 instances & Batches, sharing within a batch, and 5-cycles \\
+    Dhulipala et al.~\cite{dhulipala-batch-kclique} & Parallel batch counting of cliques with heavy-light tables & Sequential counting of cycles with star rows, against tables, with all costs counted \\
+    DPTL+~\cite{dptl} & One bitmap per pivot reused across a batch, for parallel triangle listing & Counting without listing, a degree guard, and up to 5-cycles \\
+    BFCB-IG~\cite{bfcb} & One row of 2-path counts per start vertex, for butterflies in bipartite graphs & Odd cycles and general graphs, and a row adjusted for each spoke \\
+    Cheetah~\cite{cheetah} & Star grouping with reuse for general patterns, on a cluster, update time left out & A closed-form counting kernel, sequential, against the strongest baselines, with every cost inside \\
+    \hline
+  \end{tabular}
+  \caption{The closest prior work.}
+  \label{tab:closest}
+\end{table}

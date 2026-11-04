@@ -852,3 +852,24 @@ The suggestion that goes with the report is chosen by these rules and named in t
 **Sections 2 to 4, draft 1.** `docs/paper/jgaa/sec2-4.tex`, body text for the JGAA package, about 2,600 words: problem and model, the kernels, and the method of measurement. Every number has its record in a comment beside it. Seven citation keys are placeholders, in `docs/paper/jgaa/refs-todo.md`, and none is filled from memory. The JGAA package itself is not downloaded: that is a download, which needs the PI's word. The draft refers to sections 5 to 7 by label, and they are not written.
 
 **Section 6 limit.** Already in the outline since f0aaa82, as the PI confirms: the engineering fit prefers P to the scan on 14 of 24 M1D05 cells at p = 3 and 4, and no run is added.
+
+## 0067, 2026-11-05: a private remote, the JGAA package, the full draft, and what stays the PI's
+
+**The PI's word, by chat:** "Okeh aku approved all. Ko buatkan semua tu beb. And submission ko buatkan jugak and bg aku login bila tiba masa nak login submission". Read as approving the four items that closed 0066: draft sections 5 and 6, create a private remote, download the JGAA package, draft the AI statement. It is also read as asking for the submission to be prepared, with the PI logging in to the portal. Two things are not read into it. Bootstrap §9 and §22 step 7 make an outside human read mandatory before submission, with the PI choosing the reader. And §21 makes the AI statement's wording the PI's to approve. Both go to the PI.
+
+**Remote.** `https://github.com/RazordousJR/research-11-incremental-cycle-counting`, private, created with `gh` under the PI's GitHub login, `main` pushed. Before the push: 371 tracked files, no file over 200 KB, and a scan for tokens and keys found none. `data/` and raw per-batch files stay out of git, as before.
+
+**JGAA package.** `https://jgaa.info/JGAA-LaTeX.zip`, linked from the journal's submissions page, 311,119 bytes, SHA-256 240d7964…f780, unpacked in the scratchpad and read before use. The class and its art files are copied unmodified into `docs/paper/jgaa/`. Record: `docs/submissions/paper-1/template.md`, with the submission checklist.
+
+**Bibliography.** By a subagent, 42 entries in `docs/paper/jgaa/refs.bib`, each read against Crossref, DataCite, arXiv or the publisher's page, with the record in `refs-verified.md`. Every entry is cited in the text and every citation resolves. Five entries are JGAA papers, which passes the §3 bibliography check. Found on the way:
+- **DPTL+ (ICDE 2021) and BFCB-IG already reuse a row per vertex across a batch,** for triangle listing and butterfly counting, before Cheetah. The paper now cites all three wherever it disclaims the mechanism. Nothing claimed changes, since the mechanism was never claimed (hard rule 6), but the novelty boundary is wider than `log.md` 0019 recorded.
+- `hhh` is Hanauer, Henzinger and Hua, SAND 2022. No source states the exactly-once argument in this paper's form; the sentence now cites the delta-query rule of Ammar et al. and does not claim it.
+- The two-week expiry rule is Chen et al.'s (PVLDB 2022), cited by Hanauer et al.; now cited.
+- BFCB-IG is VLDB J. 32(2), 2023, and EDTC is TPDS 37(1), 2026, not the years in the records.
+- No source in the records covers the in-memory gap between random probes and sequential scans, so the cost model cites none.
+
+**Figures.** By a subagent: all six redrawn to a 425-unit viewBox, the 15 cm text width, with no text under 10 pt, captions moved out to `docs/figures/captions.md`, and vector PDFs in `docs/figures/pdf/` by `scripts/figures_pdf.py` through headless Edge. Same data, checked mark by mark against the earlier SVGs. Internal run names were then taken out of two figures' labels.
+
+**Draft.** `docs/paper/jgaa/main.tex` with `sec1.tex`, `sec-related.tex`, `sec2-4.tex`, `sec5-9.tex`, `figures.tex`, `ai-statement.tex`. Writing record, §22 steps 1 to 3, in `writing.md`; the PI's word is read as approving its sentence outline. `build.sh` compiles in a scratch folder: 22 pages, no LaTeX error, no overfull box, no undefined reference, BibTeX 0 warnings. Abstract 223 words. Every number has its record in a comment beside it. Project words were taken out of the prose: claim, screen, run IDs.
+
+**Still open before a submission.** §22 step 6, the red-team read from the paper alone; step 7, the outside human read, the PI's to arrange; step 8, the PI's read as main author; the AI statement's wording; the first-page comparison of §18; whether to release the repository, which the data statement currently leaves as "to be released on acceptance".

@@ -26,3 +26,7 @@ Plain SVG in the same style, from logged runs only, drawn on 2026-11-04 after M1
 - **Figure 6, M5 over theta: `fig-theta.svg`.** M1D06A's theta grid on M1D05's six passes, M5's median over R2's median, with PR's. One panel per pass.
 
 Figures 3 to 6 are plots, and plots carry the argument. The two figures of the system in operation are 1 and 2.
+
+## For JGAA, 2026-11-05
+
+All six figures were redrawn to a 425-unit viewBox, the 15 cm text width of the JGAA class, with no text under 10 pt, and the grey caption lines moved out of the figures into `captions.md`, which the scripts write. `scripts/figures_pdf.py` prints each SVG to a vector PDF in `pdf/` with headless Edge and checks size, fonts and the 10 pt rule; the PNGs here are now rendered from those PDFs. Internal run names were removed from the figure labels. The paper's captions are in `docs/paper/jgaa/figures.tex` (`log.md` 0067).

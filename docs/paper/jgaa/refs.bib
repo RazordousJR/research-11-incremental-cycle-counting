@@ -1,0 +1,476 @@
+% refs.bib for the JGAA manuscript, Research 11.
+% Built on 2026-11-05. Every field below was read from the source named in refs-verified.md
+% (Crossref, DataCite, arXiv, the publisher's page or the paper's own first page). Nothing is from memory.
+% Style: abbrvurl, plain BibTeX fields. Words that must keep their capitals are braced.
+% The key folklore-exactly-once is deliberately absent: no source was found that states the claim
+% (see refs-verified.md, "Keys left out").
+
+% ---------------------------------------------------------------------------
+% Keys already used in sec2-4.tex
+% ---------------------------------------------------------------------------
+
+@misc{hanauer-dyncount,
+  author        = {Kathrin Hanauer and Sophia Heck and Monika Henzinger and Leonhard Sidl},
+  title         = {Fully Dynamic Triangle and 4-Vertex Subgraph Counting: From Theory to Practice and Back Again},
+  howpublished  = {arXiv:2610.29776},
+  year          = {2026},
+  eprint        = {2610.29776},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.DS},
+  doi           = {10.48550/arXiv.2610.29776},
+  url           = {https://arxiv.org/abs/2610.29776},
+  note          = {Short version to appear at {ALENEX} 2027}
+}
+
+@article{cheetah,
+  author  = {Yi Zhang and Xiaomeng Yi and Yu Huang and Jingrui Yuan and Chuangyi Gui and Dan Chen and Long Zheng and Jianhui Yue and Xiaofei Liao and Hai Jin and Jingling Xue},
+  title   = {{Cheetah}: Accelerating Dynamic Graph Mining with Grouping Updates},
+  journal = {ACM Transactions on Architecture and Code Optimization},
+  volume  = {22},
+  number  = {2},
+  pages   = {1--26},
+  year    = {2025},
+  doi     = {10.1145/3736173}
+}
+
+@inproceedings{hhh,
+  author    = {Kathrin Hanauer and Monika Henzinger and Qi Cheng Hua},
+  title     = {Fully Dynamic Four-Vertex Subgraph Counting},
+  booktitle = {1st Symposium on Algorithmic Foundations of Dynamic Networks ({SAND} 2022)},
+  editor    = {James Aspnes and Othon Michail},
+  series    = {Leibniz International Proceedings in Informatics ({LIPIcs})},
+  volume    = {221},
+  pages     = {18:1--18:17},
+  publisher = {Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  year      = {2022},
+  doi       = {10.4230/LIPIcs.SAND.2022.18}
+}
+
+@article{bfcb,
+  author  = {Kai Wang and Xuemin Lin and Lu Qin and Wenjie Zhang and Ying Zhang},
+  title   = {Accelerated Butterfly Counting with Vertex Priority on Bipartite Graphs},
+  journal = {The {VLDB} Journal},
+  volume  = {32},
+  number  = {2},
+  pages   = {257--281},
+  year    = {2023},
+  doi     = {10.1007/s00778-022-00746-0},
+  note    = {Published online 2022}
+}
+
+@article{shi-huang-shun,
+  author  = {Jessica Shi and Louisa Ruixue Huang and Julian Shun},
+  title   = {Parallel Five-Cycle Counting Algorithms},
+  journal = {ACM Journal of Experimental Algorithmics},
+  volume  = {27},
+  pages   = {1--23},
+  year    = {2022},
+  doi     = {10.1145/3556541}
+}
+
+@article{chiba-nishizeki,
+  author  = {Norishige Chiba and Takao Nishizeki},
+  title   = {Arboricity and Subgraph Listing Algorithms},
+  journal = {{SIAM} Journal on Computing},
+  volume  = {14},
+  number  = {1},
+  pages   = {210--223},
+  year    = {1985},
+  doi     = {10.1137/0214017}
+}
+
+% ---------------------------------------------------------------------------
+% Exact dynamic and batch-dynamic subgraph counting
+% ---------------------------------------------------------------------------
+
+@inproceedings{dhulipala-batch-kclique,
+  author    = {Laxman Dhulipala and Quanquan C. Liu and Julian Shun and Shangdi Yu},
+  title     = {Parallel Batch-Dynamic $k$-Clique Counting},
+  booktitle = {Symposium on Algorithmic Principles of Computer Systems ({APOCS})},
+  pages     = {129--143},
+  publisher = {SIAM},
+  year      = {2021},
+  doi       = {10.1137/1.9781611976489.10}
+}
+
+@inproceedings{makkar-dynamic-tc,
+  author    = {Devavret Makkar and David A. Bader and Oded Green},
+  title     = {Exact and Parallel Triangle Counting in Dynamic Graphs},
+  booktitle = {2017 {IEEE} 24th International Conference on High Performance Computing ({HiPC})},
+  pages     = {2--12},
+  publisher = {IEEE},
+  year      = {2017},
+  doi       = {10.1109/HiPC.2017.00011}
+}
+
+@inproceedings{ediger-streaming,
+  author    = {David Ediger and Karl Jiang and Jason Riedy and David A. Bader},
+  title     = {Massive Streaming Data Analytics: A Case Study with Clustering Coefficients},
+  booktitle = {2010 {IEEE} International Symposium on Parallel and Distributed Processing, Workshops and {PhD} Forum ({IPDPSW})},
+  pages     = {1--8},
+  publisher = {IEEE},
+  year      = {2010},
+  doi       = {10.1109/IPDPSW.2010.5470687}
+}
+
+@inproceedings{dptl,
+  author    = {Michael Yu and Lu Qin and Ying Zhang and Wenjie Zhang and Xuemin Lin},
+  title     = {{DPTL+}: Efficient Parallel Triangle Listing on Batch-Dynamic Graphs},
+  booktitle = {2021 {IEEE} 37th International Conference on Data Engineering ({ICDE})},
+  pages     = {1332--1343},
+  publisher = {IEEE},
+  year      = {2021},
+  doi       = {10.1109/ICDE51399.2021.00119}
+}
+
+@inproceedings{liu-batch-kcore,
+  author    = {Quanquan C. Liu and Jessica Shi and Shangdi Yu and Laxman Dhulipala and Julian Shun},
+  title     = {Parallel Batch-Dynamic Algorithms for $k$-Core Decomposition and Related Graph Problems},
+  booktitle = {Proceedings of the 34th {ACM} Symposium on Parallelism in Algorithms and Architectures ({SPAA})},
+  pages     = {191--204},
+  publisher = {ACM},
+  year      = {2022},
+  doi       = {10.1145/3490148.3538569}
+}
+
+@article{eppstein-spiro,
+  author  = {David Eppstein and Emma S. Spiro},
+  title   = {The $h$-Index of a Graph and its Application to Dynamic Subgraph Statistics},
+  journal = {Journal of Graph Algorithms and Applications},
+  volume  = {16},
+  number  = {2},
+  pages   = {543--567},
+  year    = {2012},
+  doi     = {10.7155/jgaa.00273}
+}
+
+@article{eppstein-extended,
+  author  = {David Eppstein and Michael T. Goodrich and Darren Strash and Lowell Trott},
+  title   = {Extended Dynamic Subgraph Statistics Using $h$-Index Parameterized Data Structures},
+  journal = {Theoretical Computer Science},
+  volume  = {447},
+  pages   = {44--52},
+  year    = {2012},
+  doi     = {10.1016/j.tcs.2011.11.034}
+}
+
+@article{kara-tods,
+  author  = {Ahmet Kara and Hung Q. Ngo and Milos Nikolic and Dan Olteanu and Haozhe Zhang},
+  title   = {Maintaining Triangle Queries under Updates},
+  journal = {ACM Transactions on Database Systems},
+  volume  = {45},
+  number  = {3},
+  pages   = {1--46},
+  year    = {2020},
+  doi     = {10.1145/3396375}
+}
+
+@inproceedings{lu-tao,
+  author    = {Shangqi Lu and Yufei Tao},
+  title     = {Towards Optimal Dynamic Indexes for Approximate (and Exact) Triangle Counting},
+  booktitle = {24th International Conference on Database Theory ({ICDT} 2021)},
+  editor    = {Ke Yi and Zhewei Wei},
+  series    = {Leibniz International Proceedings in Informatics ({LIPIcs})},
+  volume    = {186},
+  pages     = {6:1--6:23},
+  publisher = {Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  year      = {2021},
+  doi       = {10.4230/LIPIcs.ICDT.2021.6}
+}
+
+@article{hanauer-survey,
+  author  = {Kathrin Hanauer and Monika Henzinger and Christian Schulz},
+  title   = {Recent Advances in Fully Dynamic Graph Algorithms -- A Quick Reference Guide},
+  journal = {ACM Journal of Experimental Algorithmics},
+  volume  = {27},
+  pages   = {1--45},
+  year    = {2022},
+  doi     = {10.1145/3555806}
+}
+
+@article{incgraph,
+  author  = {Robrecht Cannoodt and Joeri Ruyssinck and Jan Ramon and Katleen {De Preter} and Yvan Saeys},
+  title   = {{IncGraph}: Incremental Graphlet Counting for Topology Optimisation},
+  journal = {{PLOS ONE}},
+  volume  = {13},
+  number  = {4},
+  pages   = {e0195997},
+  year    = {2018},
+  doi     = {10.1371/journal.pone.0195997}
+}
+
+@article{edtc,
+  author  = {Zhuo Wang and Jiahao Tang and Zhixiong Li and Jinxing Tu and Wei Xue and Jianqiang Huang},
+  title   = {{EDTC}: Exact Triangle Counting for Dynamic Graphs on {GPU}},
+  journal = {{IEEE} Transactions on Parallel and Distributed Systems},
+  volume  = {37},
+  number  = {1},
+  pages   = {247--259},
+  year    = {2026},
+  doi     = {10.1109/TPDS.2025.3627974}
+}
+
+@inproceedings{paradyms,
+  author    = {Ali Khan and Nigel Tan and Jack Marquez and Michela Taufer and Sanjukta Bhowmick},
+  title     = {{ParaDyMS}: Parallel Dynamic Motif Counting at Scale},
+  booktitle = {2025 {IEEE} 25th International Symposium on Cluster, Cloud and Internet Computing ({CCGrid})},
+  pages     = {1--10},
+  publisher = {IEEE},
+  year      = {2025},
+  doi       = {10.1109/CCGRID64434.2025.00046}
+}
+
+% ---------------------------------------------------------------------------
+% Continuous subgraph matching, dynamic graph mining, delta queries
+% ---------------------------------------------------------------------------
+
+@inproceedings{gopher,
+  author    = {Yi Zhang and Yu Huang and Chaoqiang Liu and Haifeng Liu and Juntao Chen and Jingrui Yuan and Jianhui Yue and Xiaofei Liao and Hai Jin and Jingling Xue},
+  title     = {{Gopher}: Efficient Dynamic Graph Pattern Mining via {DAG}-Driven Execution},
+  booktitle = {Proceedings of the 21st European Conference on Computer Systems ({EuroSys} '26)},
+  pages     = {1722--1737},
+  publisher = {ACM},
+  year      = {2026},
+  doi       = {10.1145/3767295.3769365}
+}
+
+@inproceedings{tesseract,
+  author    = {Laurent Bindschaedler and Jasmina Malicevic and Baptiste Lepers and Ashvin Goel and Willy Zwaenepoel},
+  title     = {{Tesseract}: Distributed, General Graph Pattern Mining on Evolving Graphs},
+  booktitle = {Proceedings of the Sixteenth European Conference on Computer Systems ({EuroSys} '21)},
+  pages     = {458--473},
+  publisher = {ACM},
+  year      = {2021},
+  doi       = {10.1145/3447786.3456253}
+}
+
+@article{sun-csm-study,
+  author  = {Xibo Sun and Shixuan Sun and Qiong Luo and Bingsheng He},
+  title   = {An In-Depth Study of Continuous Subgraph Matching},
+  journal = {Proceedings of the {VLDB} Endowment},
+  volume  = {15},
+  number  = {7},
+  pages   = {1403--1416},
+  year    = {2022},
+  doi     = {10.14778/3523210.3523218}
+}
+
+@article{rapidflow,
+  author  = {Shixuan Sun and Xibo Sun and Bingsheng He and Qiong Luo},
+  title   = {{RapidFlow}: An Efficient Approach to Continuous Subgraph Matching},
+  journal = {Proceedings of the {VLDB} Endowment},
+  volume  = {15},
+  number  = {11},
+  pages   = {2415--2427},
+  year    = {2022},
+  doi     = {10.14778/3551793.3551803}
+}
+
+@inproceedings{gamma,
+  author    = {Linshan Qiu and Lu Chen and Hailiang Jie and Xiangyu Ke and Yunjun Gao and Yang Liu and Zetao Zhang},
+  title     = {{GPU}-Accelerated Batch-Dynamic Subgraph Matching},
+  booktitle = {2024 {IEEE} 40th International Conference on Data Engineering ({ICDE})},
+  pages     = {3204--3216},
+  publisher = {IEEE},
+  year      = {2024},
+  doi       = {10.1109/ICDE60146.2024.00248}
+}
+
+@article{mhedhbi-tods,
+  author  = {Amine Mhedhbi and Chathura Kankanamge and Semih Salihoglu},
+  title   = {Optimizing One-Time and Continuous Subgraph Queries Using Worst-Case Optimal Joins},
+  journal = {ACM Transactions on Database Systems},
+  volume  = {46},
+  number  = {2},
+  pages   = {1--45},
+  year    = {2021},
+  doi     = {10.1145/3446980}
+}
+
+@article{ammar-delta,
+  author  = {Khaled Ammar and Frank McSherry and Semih Salihoglu and Manas Joglekar},
+  title   = {Distributed Evaluation of Subgraph Queries Using Worst-Case Optimal Low-Memory Dataflows},
+  journal = {Proceedings of the {VLDB} Endowment},
+  volume  = {11},
+  number  = {6},
+  pages   = {691--704},
+  year    = {2018},
+  doi     = {10.14778/3184470.3184473}
+}
+
+% ---------------------------------------------------------------------------
+% Static cycle and subgraph counting
+% ---------------------------------------------------------------------------
+
+@article{alon-yuster-zwick,
+  author  = {Noga Alon and Raphael Yuster and Uri Zwick},
+  title   = {Finding and Counting Given Length Cycles},
+  journal = {Algorithmica},
+  volume  = {17},
+  number  = {3},
+  pages   = {209--223},
+  year    = {1997},
+  doi     = {10.1007/BF02523189}
+}
+
+@inproceedings{escape,
+  author    = {Ali Pinar and C. Seshadhri and Vaidyanathan Vishal},
+  title     = {{ESCAPE}: Efficiently Counting All 5-Vertex Subgraphs},
+  booktitle = {Proceedings of the 26th International Conference on World Wide Web ({WWW})},
+  pages     = {1431--1440},
+  publisher = {ACM},
+  year      = {2017},
+  doi       = {10.1145/3038912.3052597}
+}
+
+% ---------------------------------------------------------------------------
+% Streams and data sources
+% ---------------------------------------------------------------------------
+
+@misc{snap,
+  author       = {Jure Leskovec and Andrej Krevl},
+  title        = {{SNAP} Datasets: {Stanford} Large Network Dataset Collection},
+  howpublished = {\url{http://snap.stanford.edu/data}},
+  month        = jun,
+  year         = {2014}
+}
+
+@inproceedings{konect,
+  author    = {J{\'e}r{\^o}me Kunegis},
+  title     = {{KONECT}: The {Koblenz} Network Collection},
+  booktitle = {Proceedings of the 22nd International Conference on World Wide Web ({WWW} '13 Companion)},
+  pages     = {1343--1350},
+  publisher = {ACM},
+  year      = {2013},
+  doi       = {10.1145/2487788.2488173}
+}
+
+@inproceedings{network-repository,
+  author    = {Ryan A. Rossi and Nesreen K. Ahmed},
+  title     = {The Network Data Repository with Interactive Graph Analytics and Visualization},
+  booktitle = {Proceedings of the Twenty-Ninth {AAAI} Conference on Artificial Intelligence},
+  volume    = {29},
+  pages     = {4292--4293},
+  publisher = {AAAI Press},
+  year      = {2015},
+  doi       = {10.1609/aaai.v29i1.9277}
+}
+
+@inproceedings{paranjape-motifs,
+  author    = {Ashwin Paranjape and Austin R. Benson and Jure Leskovec},
+  title     = {Motifs in Temporal Networks},
+  booktitle = {Proceedings of the Tenth {ACM} International Conference on Web Search and Data Mining ({WSDM})},
+  pages     = {601--610},
+  publisher = {ACM},
+  year      = {2017},
+  doi       = {10.1145/3018661.3018731}
+}
+
+@article{panzarasa-collegemsg,
+  author  = {Pietro Panzarasa and Tore Opsahl and Kathleen M. Carley},
+  title   = {Patterns and Dynamics of Users' Behavior and Interaction: Network Analysis of an Online Community},
+  journal = {Journal of the American Society for Information Science and Technology},
+  volume  = {60},
+  number  = {5},
+  pages   = {911--932},
+  year    = {2009},
+  doi     = {10.1002/asi.21015}
+}
+
+@inproceedings{leskovec-wiki-governance,
+  author    = {Jure Leskovec and Daniel Huttenlocher and Jon Kleinberg},
+  title     = {Governance in Social Media: A Case Study of the {Wikipedia} Promotion Process},
+  booktitle = {Proceedings of the International {AAAI} Conference on Web and Social Media ({ICWSM})},
+  volume    = {4},
+  pages     = {98--105},
+  year      = {2010},
+  doi       = {10.1609/icwsm.v4i1.14013}
+}
+
+@inproceedings{kumar-reddit,
+  author    = {Srijan Kumar and William L. Hamilton and Jure Leskovec and Dan Jurafsky},
+  title     = {Community Interaction and Conflict on the Web},
+  booktitle = {Proceedings of the 2018 World Wide Web Conference ({WWW} '18)},
+  pages     = {933--943},
+  year      = {2018},
+  doi       = {10.1145/3178876.3186141}
+}
+
+@inproceedings{preusse-wiki,
+  author    = {Julia Preusse and J{\'e}r{\^o}me Kunegis and Matthias Thimm and Steffen Staab and Thomas Gottron},
+  title     = {Structural Dynamics of Knowledge Networks},
+  booktitle = {Proceedings of the International {AAAI} Conference on Web and Social Media ({ICWSM})},
+  volume    = {7},
+  pages     = {506--515},
+  year      = {2013},
+  doi       = {10.1609/icwsm.v7i1.14402}
+}
+
+@article{chen-expiry,
+  author  = {Qing Chen and Oded Lachish and Sven Helmer and Michael H. B{\"o}hlen},
+  title   = {Dynamic Spanning Trees for Connectivity Queries on Fully-Dynamic Undirected Graphs},
+  journal = {Proceedings of the {VLDB} Endowment},
+  volume  = {15},
+  number  = {11},
+  pages   = {3263--3276},
+  year    = {2022},
+  doi     = {10.14778/3551793.3551868}
+}
+
+@inproceedings{rmat,
+  author    = {Deepayan Chakrabarti and Yiping Zhan and Christos Faloutsos},
+  title     = {{R-MAT}: A Recursive Model for Graph Mining},
+  booktitle = {Proceedings of the 2004 {SIAM} International Conference on Data Mining ({SDM})},
+  pages     = {442--446},
+  publisher = {SIAM},
+  year      = {2004},
+  doi       = {10.1137/1.9781611972740.43}
+}
+
+% ---------------------------------------------------------------------------
+% JGAA: engineering exemplars and related JGAA work
+% ---------------------------------------------------------------------------
+
+@article{grossmann-bmatching,
+  author  = {Ernestine Gro{\ss}mann and Felix Joos and Henrik Reinst{\"a}dtler and Christian Schulz},
+  title   = {Engineering Hypergraph $b$-Matching Algorithms},
+  journal = {Journal of Graph Algorithms and Applications},
+  volume  = {30},
+  number  = {1},
+  pages   = {1--24},
+  year    = {2026},
+  doi     = {10.7155/jgaa.v30i1.3166}
+}
+
+@article{borowitz-2packing,
+  author  = {Jannick Borowitz and Ernestine Gro{\ss}mann and Christian Schulz and Dominik Schweisgut},
+  title   = {Scalable Algorithms for 2-Packing Sets on Arbitrary Graphs},
+  journal = {Journal of Graph Algorithms and Applications},
+  volume  = {29},
+  number  = {1},
+  pages   = {159--186},
+  year    = {2025},
+  doi     = {10.7155/jgaa.v29i1.3064}
+}
+
+@article{fink-rutter,
+  author  = {Simon Dominik Fink and Ignaz Rutter},
+  title   = {Constrained Planarity in Practice -- Engineering the Synchronized Planarity Algorithm},
+  journal = {Journal of Graph Algorithms and Applications},
+  volume  = {29},
+  number  = {1},
+  pages   = {91--123},
+  year    = {2025},
+  doi     = {10.7155/jgaa.v29i1.2923}
+}
+
+@article{chanchary-windowed,
+  author  = {Farah Chanchary and Anil Maheshwari},
+  title   = {Time Windowed Data Structures for Graphs},
+  journal = {Journal of Graph Algorithms and Applications},
+  volume  = {23},
+  number  = {2},
+  pages   = {191--226},
+  year    = {2019},
+  doi     = {10.7155/jgaa.00489}
+}

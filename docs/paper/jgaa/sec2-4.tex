@@ -15,8 +15,8 @@ Every stream starts from the empty graph.
 \paragraph{Three Labels.}
 Each stream carries one of three labels, and every table states it.
 \emph{Real timestamps, insert-only}: the events of a temporal file in time order, with no deletion.
-\emph{Real timestamps, synthetic expiry}: the same insertions, each followed by the deletion of its edge fourteen days later, with deletions before insertions at equal times.
-\emph{Real timestamps, real deletions}: the link streams of six Wikipedia editions, whose deletions are recorded events, in which 16\% to 28\% of the events are deletions.
+\emph{Real timestamps, synthetic expiry}: the same insertions, each followed by the deletion of its edge fourteen days later, with deletions before insertions at equal times, as in Hanauer et al.~\cite{hanauer-dyncount} after Chen et al.~\cite{chen-expiry}.
+\emph{Real timestamps, real deletions}: the link streams of six Wikipedia editions from KONECT~\cite{konect,preusse-wiki}, whose deletions are recorded events, in which 16\% to 28\% of the events are deletions.
 No fully synthetic stream enters any result.
 % CLAUDE.md hard rule 4; gate0-protocol.md; m1d07-streams.md; outline.md readiness test 5
 
@@ -36,11 +36,11 @@ Writing $N(x)$ for the neighbourhood of $x$ in that graph and $W[a, b] = |N(a) \
   \Delta_4(u, v) &= \sum_{a \in N(u)} W[a, v], \\
   \Delta_5(u, v) &= \sum_{b \notin \{u, v\}} A[b]\, C[b] \;-\; \sum_{t \in N(u) \cap N(v)} \bigl(d(t) - 2\bigr),
 \end{align*}
-where $A[b]$ counts the paths $u$--$a$--$b$ with $a \neq v$, and $C[b]$ the paths $v$--$c$--$b$ with $c \neq u$.
-The sum $\sum_b A[b] C[b]$ counts every triple $(a, b, c)$, and the only triples that do not form a path $u$--$a$--$b$--$c$--$v$ on five distinct vertices are those with $a = c$.
+where $A[b]$ counts the paths $(u, a, b)$ with $a \neq v$, and $C[b]$ the paths $(v, c, b)$ with $c \neq u$.
+The sum $\sum_b A[b] C[b]$ counts every triple $(a, b, c)$, and the only triples that do not form a path $(u, a, b, c, v)$ on five distinct vertices are those with $a = c$.
 Such a vertex $t = a = c$ lies in $N(u) \cap N(v)$, and each of its neighbours other than $u$ and $v$ gives one such triple, which is the second term.
-Applying the updates in sequence counts every cycle created or destroyed by the batch exactly once.
-This is folklore, and we do not claim it~\cite{folklore-exactly-once}.
+Applying the updates in sequence counts every cycle created or destroyed by the batch exactly once, because the deltas telescope.
+This is the delta-query rule of Ammar et al.~\cite{ammar-delta} with one update per step, and we do not claim it.
 % benchmarks/gate1.cpp header, COMMON TO ALL; benchmarks/fivecycle.cpp header, THE FORMULA; CLAUDE.md hard rule 6
 
 \paragraph{All Costs Count.}
@@ -86,11 +86,12 @@ Each update goes to the endpoint with the larger degree in the batch, its pivot,
 For a star at $x$, PR builds the row $A$ at $x$ once and adjusts it by each spoke in turn, so that each spoke sees the graph with the earlier spokes already applied.
 Each spoke then streams its own side through the shared row, as R2 does.
 A star of one spoke is R2, so PR can lose to R2 only by the cost of grouping.
+Figure~\ref{fig:workedbatch} shows one batch of a real stream: its largest star has 24 spokes, and the shared row costs 6,097 operations where one row per spoke costs 64,445.
 P3 and P4 apply the same idea to triangles and 4-cycles.
 They carry a guard that reads degrees only, is charged, and has no tuned parameter: a star keeps its row only if the row costs less than the scans it replaces, and otherwise its spokes run as S3 or S4.
 Without the guard, a star at a hub with a few small spokes cost P4 more than S4, which walks from the lower-degree side.
 PR has no guard, so an unguarded PR can only understate sharing.
-The mechanism of grouping a batch by stars and reusing work inside a group is published by Cheetah~\cite{cheetah}, for triangles and for larger patterns, together with the finding that triangles gain least. We do not claim either.
+Reusing one row per vertex across a batch is published for triangle listing by DPTL+~\cite{dptl} and for butterfly counting by BFCB-IG~\cite{bfcb}, and grouping a batch into stars for general patterns by Cheetah~\cite{cheetah}, together with the finding that triangles gain least. We do not claim either.
 % gate1.cpp, guards; fivecycle.cpp, FORMS, PR; gate1-protocol.md, Arms; log.md 0019
 
 \paragraph{Wedge Tables.}
@@ -104,7 +105,7 @@ with $W$ taken in the graph without the pair.
 WJ stores the table in one flat hash map.
 WT holds the same entries in one open-addressing table per vertex, with each pair stored in both of its tables, so that a join reads only the tables of the shorter list.
 Its slots are four bytes, they are searched four at a time with SSE2, and the join switches from probes to one pass over the table against a bitset when that is cheaper.
-The layout of WT was chosen by trial on synthetic R-MAT streams, so no stream of this paper shaped it.
+The layout of WT was chosen by trial on synthetic R-MAT streams~\cite{rmat}, so no stream of this paper shaped it.
 T3 and T4 use WT's table.
 % fivecycle.cpp, WT and FORMS, WJ; gate1.cpp, T
 
@@ -138,14 +139,16 @@ On the streams, every arm's count matches every other arm's after every batch, i
 \paragraph{Streams, and What Saw Them.}
 \label{sec:streams}
 Twenty streams enter the study, in four sets fixed before their clocks were read.
-The \emph{engineering} streams, CollegeMsg, email-Eu-core-temporal and sx-mathoverflow, were used to choose $\theta$ and to fit the cost model of Section~\ref{sec:costmodel}, and never enter a verdict.
-The \emph{evaluation} streams, sx-askubuntu, sx-superuser and wiki-talk-temporal, decide the first verdict.
+The \emph{engineering} streams, CollegeMsg~\cite{panzarasa-collegemsg}, email-Eu-core-temporal and sx-mathoverflow~\cite{paranjape-motifs}, were used to choose $\theta$ and to fit the cost model of Section~\ref{sec:costmodel}, and never enter a verdict.
+The \emph{evaluation} streams, sx-askubuntu, sx-superuser and wiki-talk-temporal~\cite{paranjape-motifs,leskovec-wiki-governance}, decide the first verdict.
+These six streams and the next come from SNAP~\cite{snap}.
 The \emph{held-out} stream, sx-stackoverflow, was fixed before any clock and read once, at $p = 5$ only.
-The \emph{new} streams are the thirteen real instances of Hanauer et al.'s set of 56~\cite{hanauer-dyncount} that the first three sets do not use, chosen by a rule written before their sizes were read: six Wikipedia link streams with real deletions from KONECT, two Reddit hyperlink streams from SNAP, and five temporal files from Network Repository.
+The \emph{new} streams are the thirteen real instances of Hanauer et al.'s set of 56~\cite{hanauer-dyncount} that the first three sets do not use, chosen by a rule written before their sizes were read: six Wikipedia link streams with real deletions from KONECT, two Reddit hyperlink streams from SNAP~\cite{kumar-reddit}, and five temporal files from Network Repository~\cite{network-repository}.
 Each is cut to its first 2,000,000 events, which is Hanauer et al.'s own prefix.
 One of them, soc-youtube-growth, has a single timestamp in that prefix and is reported but never scored.
 The 38 Kronecker streams of Hanauer et al.'s set are left out as fully synthetic.
 Expiry and insert-only variants run on every stream without real deletions, at both batch sizes.
+We call one combination of a stream, its variant, a batch size and a pattern size a \emph{cell}.
 % gate1-protocol.md, Streams; m1d07-streams.md; docs/figures/fig-test-set.svg; log.md 0025
 
 \paragraph{Operations First.}
@@ -154,6 +157,7 @@ The count build charges every unit operation: a list element scanned, a row read
 Operation counts are deterministic and do not depend on the machine, and they were read before any clock.
 The timing build has no counters, because a counter in a hot loop is a store the compiler cannot move, and on a synthetic stream the counters cost R2 and PR about 15\% and WJ about 1\%.
 All seconds in this paper come from the timing build, and all operation counts from the count build.
+Figure~\ref{fig:timeline} shows the count and the operations of five kernels over a whole stream.
 % fivecycle.cpp header; CLAUDE.md hard rule 3
 
 \paragraph{The Clock.}
@@ -169,23 +173,23 @@ An arm stopped by memory is out of that cell.
 \paragraph{The Rule, Fixed Before the Clock.}
 Let \emph{share} be P3, P4 or PR, or at $p = 4$ the faster of P4 and B4, and let \emph{best} be the fastest of the other arms, B4 aside, an arm stopped by time counting at its limit.
 A cell \emph{passes} when the slowest repeat of share is at most $0.67$ times the fastest repeat of best.
-The worst-against-best comparison is deliberate: an earlier screen of this project passed on one clock tick and failed on the worst of three repeats.
+The comparison of the worst repeat against the best is deliberate: in an earlier experiment of ours, a cell passed on a difference of one clock tick and failed when the slowest of three repeats was used.
 A cell's \emph{score} is the ratio of the medians.
 The verdict at $p = 5$ is Go if at least a third of the scored cells pass, on at least two streams, with at least two expiry cells among them.
 These thresholds, and the treatment of stopped arms, were fixed before the first timing run and were not changed after it.
 % gate1-protocol.md, Rule; log.md 0025, reading M1D04-R1
 
 \paragraph{What Exclusive Means.}
-Timing ran only under an exclusive claim on a machine shared with other projects: no other heavy process ran during a claim.
+The machine is shared with other projects, and timing ran only while it was reserved for this study: no other long or parallel process ran during a timing run.
 The machine was not silent.
 Scheduled tasks of another project ran every quarter hour, a status mail ran every two hours, and desktop sessions stayed open.
-After each claim, every timed process was checked against the recorded start times of these tasks, and repeats that overlapped one were compared with clean repeats of the same arm on the same cell.
-In the last claim, the cost-model run, one of 790 scored repeats overlapped a known task, and it ran 0.2\% over its arm's median.
-Section~\ref{sec:sensitivity} gives the same comparison for every claim.
+After each timing run, every timed process was checked against the recorded start times of these tasks, and repeats that overlapped one were compared with clean repeats of the same arm on the same cell.
+In the last timing run, for the cost model, one of 790 scored repeats overlapped a known task, and it ran 0.2\% over its arm's median.
+Section~\ref{sec:sensitivity} gives the same comparison for the runs on the new streams.
 % log.md 0025, 0036, 0065; scripts/overlap_check.py; results/cost-M1D10/README.md
 
 \paragraph{Cores.}
-To test whether a verdict depends on the core, the 24 cells nearest the pass line were timed again on a performance core and on an efficiency core of the same processor, in one claim.
+To test whether a verdict depends on the core, the 24 cells nearest the pass line were timed again on a performance core and on an efficiency core of the same processor, in one timing run.
 The two kinds of core differ in design and in their first two cache levels, and share the last-level cache and memory.
 So this is not a second machine, and the paper does not use it as one.
 % docs/experiments/m1d08-core-type.md; results/gate1-M1D08/README.md

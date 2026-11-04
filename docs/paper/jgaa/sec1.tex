@@ -1,0 +1,48 @@
+% Draft 1 of the introduction, 2026-11-05 (log.md 0067). Each paragraph opens with its sentence from writing.md, step 3.
+
+\section{Introduction}
+\label{sec:intro}
+
+Counting triangles and other short cycles in a graph that changes over time is a basic task in the analysis of temporal networks.
+A triangle count gives the clustering of a social or communication network. Counts of 4-cycles, called butterflies in bipartite graphs~\cite{bfcb}, and of 5-cycles describe structure that triangles cannot.
+When the graph changes one edge at a time, the count can be kept exact by adding, for each update, the number of cycles that the updated edge closes.
+Hanauer et al.~\cite{hanauer-dyncount} engineered such single-update counters on 56 instances and found that, for triangles, a plain scan of the lower-degree endpoint with no auxiliary structure is the fastest choice.
+
+Real streams do not arrive one edge at a time.
+They arrive in batches, and the updates of a batch often share an endpoint: a user who answers several questions within one batch adds several edges at the same vertex.
+The work done for one of these updates can then be reused for the next.
+DPTL+~\cite{dptl} reuses one neighbourhood bitmap per vertex across a batch for listing triangles, BFCB-IG~\cite{bfcb} reuses one row per vertex for counting butterflies, and Cheetah~\cite{cheetah} groups the updates of a batch into stars for general patterns and reports gains that grow with the size of the pattern.
+
+Those gains were measured against systems that do not share, and not against the strongest sequential exact counter for each pattern.
+Its authors note that a pattern-aware system without sharing stays close to Cheetah on triangles, 4-cycles and 5-cycles on some of their inputs~\cite{cheetah}.
+So it is still open whether sharing work inside a batch pays against a well-implemented scan or wedge table, once every cost of grouping and upkeep is counted.
+
+We ask that question for triangles, 4-cycles and 5-cycles, under batches of insertions and deletions, on real timestamped streams.
+The sharing kernel builds one adjacency row at the centre of each star and adjusts it for each update of the star.
+It is compared with a per-update scan, two wedge tables, a heavy-light mixed table, a recount of the affected subgraph, and at four vertices a port of a published batch algorithm.
+Every count is checked to be exact after every batch.
+The test for a win was fixed before any timing run: on a cell, the slowest repeat of the sharing kernel must take at most 0.67 times the fastest repeat of the best other kernel.
+
+The answer depends on the size of the pattern.
+For 5-cycles, the sharing kernel passes this test on 28 of 50 scored cells, over 14 of 16 streams, including streams with recorded deletions.
+For triangles it passes on none of 48 cells, and for 4-cycles on none of 12, although for triangles it is faster than the scan by a median of 13\% on the newer streams.
+The one stream held out until the end of the study gives no pass, and neither does the largest Wikipedia stream.
+The kernel that sharing beats at five vertices is the scan on 43 of the 50 cells.
+The wedge tables are never close.
+
+Counts of operations predict none of this.
+On 60 of the 76 cells of the newer streams, the kernel with the fewest operations is not the fastest. At five vertices a wedge table or the recount usually does the fewest operations while the sharing kernel is fastest, because a random probe into a large table costs far more than a step along an adjacency list.
+A linear model that prices each kind of operation separately, fitted on three small streams and read on twelve larger streams it never saw, names the fastest kernel on 63 of 64 cells, where a single price per operation names 21.
+In both fits that we report, a table probe costs about 10 to 18\,ns and a step along a row or list 0.05 to 0.6\,ns.
+
+This paper makes three contributions.
+\begin{enumerate}
+  \item An engineered and measured star-row kernel for exact batch-dynamic counting of 5-cycles, with all costs of netting, grouping and upkeep inside the time.
+  \item A rule for when sharing pays, tested on 16 real-timestamp streams: at five vertices on most cells, and at three or four vertices on none, with the failing cells named.
+  \item A cost model priced by kind of operation that explains why operation counts choose the wrong kernel, together with its limits.
+\end{enumerate}
+We do not claim the idea of reusing a row across the updates of a batch, which DPTL+, BFCB-IG and Cheetah publish, nor the argument that sequential updates count each cycle exactly once, nor heavy-light partitioning or wedge indexes, which are prior work.
+
+Section~\ref{sec:related} places the work beside the closest prior work.
+Sections~\ref{sec:model} to~\ref{sec:method} define the problem, the kernels and the measurement.
+Section~\ref{sec:results} gives the results, Section~\ref{sec:costmodel} the cost model, Section~\ref{sec:sensitivity} the sensitivity analysis, and Section~\ref{sec:conclusion} the limits and the conclusion.

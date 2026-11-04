@@ -1,0 +1,42 @@
+% Figures, placed after the text for the review version. Captions written from docs/figures/captions.md, in the paper's words (log.md 0067).
+\begin{figure}[p]
+  \centering
+  \includegraphics[width=\textwidth]{fig-worked-batch}
+  \caption{A worked batch: batch 465 of the 1,454 batches of sx-askubuntu with synthetic expiry, at 1,000 events per batch and $p = 5$. The 1,000 events net to 667 edits. Panel (a) shows the largest star of the batch, 24 insertions at one vertex, each edge labelled with the 5-cycles it adds: PR builds one row at the centre for 6,097 operations, where R2 builds one row per edge for 64,445. Panel (b) shows the whole batch: its 341 stars by number of edges, and the operations of PR and R2, 177,236 against 407,745. The batch was chosen by a rule fixed before any batch was read: the median of PR over R2 among the batches where PR does fewer operations. Operation counts from the count build, not time: on the clock, PR over R2 on this cell is 0.588, a smaller gain than the 0.435 in operations.}
+  \label{fig:workedbatch}
+\end{figure}
+
+\begin{figure}[p]
+  \centering
+  \includegraphics[width=\textwidth]{fig-stream-timeline}
+  \caption{The same stream over all 1,454 batches: (a) the 5-cycle count after each batch, and (b) the cumulative operations of PR, R2, WT, WJ and M5. Every kernel's count agrees on every batch. The expiry rule empties the graph by the end of the stream. Operation counts from the count build, not time. On this cell PR also does the fewest operations; on the insert-only cells of the sx streams WJ does fewer operations than PR and is slower, so this cell is not the general case.}
+  \label{fig:timeline}
+\end{figure}
+
+\begin{figure}[p]
+  \centering
+  \includegraphics[width=\textwidth]{fig-test-set}
+  \caption{The test set: every stream, grouped by its role and label, with its number of events and its passes at $p = 5$. Streams in black are in a verdict; streams in grey are the engineering streams and the one snapshot stream, which are never scored. The event count is that of the insert-only or real-deletion stream, and an expiry stream has about twice as many. The Wikipedia streams are 2,000,000-event prefixes, with the share of deletions in brackets. sx-stackoverflow is the held-out stream. Pooled, 28 of 50 scored cells pass.}
+  \label{fig:testset}
+\end{figure}
+
+\begin{figure}[p]
+  \centering
+  \includegraphics[width=\textwidth]{fig-score-by-p}
+  \caption{Score against pattern size for every scored cell: the median time of the sharing kernel over the median time of the best other kernel. Squares are cells of the first four streams, which alone have $p = 4$; circles are cells of the twelve new streams. Filled marks pass the test, the slowest repeat of the sharing kernel being at most 0.67 times the fastest repeat of the best other kernel. Bars are medians. Below 1.0 the sharing kernel is faster by median. The snapshot stream is left out.}
+  \label{fig:scorebyp}
+\end{figure}
+
+\begin{figure}[p]
+  \centering
+  \includegraphics[width=\textwidth]{fig-cost-model}
+  \caption{Predicted against measured time on the twelve new streams, whose cells no coefficient saw. Panels (a) and (b) are fitted on the three engineering streams, and panel (c) on the three evaluation streams. The fastest kernel is named on 21, 63 and 64 of 64 cells, at median errors of 71.3\%, 23.0\% and 22.9\%. The extra price for tables larger than the cache adds nothing in either fit, and both fits predict WJ at a fifth of its time or less. In (a), 38 predictions under 0.03\,s are drawn at the lower edge.}
+  \label{fig:costmodel}
+\end{figure}
+
+\begin{figure}[p]
+  \centering
+  \includegraphics[width=\textwidth]{fig-theta}
+  \caption{The mixed table M5 at every threshold $\theta$ from 16 to 1,024, against PR and R2, on the six cells that pass on the first three streams. Each value is a median of the timing repeats over R2's median. No threshold brings M5 far enough under R2 to remove a pass, so all six passes hold against M5 at its best threshold.}
+  \label{fig:theta}
+\end{figure}

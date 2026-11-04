@@ -1,202 +1,163 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 498" width="830" height="498" font-family="Helvetica, Arial, sans-serif">
-<rect width="830" height="498" fill="white"/>
-<text x="12.0" y="22.0" font-size="12" text-anchor="start" font-weight="bold" fill="black">The test set: every stream, its role, label and size, and its p = 5 passes</text>
-<text x="12.0" y="46.0" font-size="10" text-anchor="start" font-weight="bold" fill="black">Stream</text>
-<text x="178.0" y="46.0" font-size="10" text-anchor="start" font-weight="bold" fill="black">Role</text>
-<text x="250.0" y="46.0" font-size="10" text-anchor="start" font-weight="bold" fill="black">Label</text>
-<text x="330.0" y="46.0" font-size="10" text-anchor="start" font-weight="bold" fill="black">Vertices, log scale</text>
-<text x="520.0" y="46.0" font-size="10" text-anchor="start" font-weight="bold" fill="black">Events, log scale</text>
-<text x="720.0" y="46.0" font-size="10" text-anchor="start" font-weight="bold" fill="black">p = 5 passes</text>
-<text x="12.0" y="66.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">CollegeMsg</text>
-<text x="178.0" y="66.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">engineering</text>
-<text x="250.0" y="66.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">expiry, insert</text>
-<rect x="330" y="58" width="8.4" height="11" fill="#bbb"/>
-<text x="341.4" y="67.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">2 k</text>
-<rect x="520" y="58" width="53.3" height="11" fill="#bbb"/>
-<text x="576.3" y="67.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">60 k</text>
-<text x="720.0" y="66.0" font-size="9" text-anchor="start" font-weight="normal" fill="#555">never in a verdict</text>
-<text x="12.0" y="85.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">email-Eu-core-temporal</text>
-<text x="178.0" y="85.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">engineering</text>
-<text x="250.0" y="85.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">expiry, insert</text>
-<rect x="330" y="77" width="0.0" height="11" fill="#bbb"/>
-<text x="333.0" y="86.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">1 k</text>
-<rect x="520" y="77" width="75.6" height="11" fill="#bbb"/>
-<text x="598.6" y="86.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">332 k</text>
-<text x="720.0" y="85.0" font-size="9" text-anchor="start" font-weight="normal" fill="#555">never in a verdict</text>
-<text x="12.0" y="104.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">sx-mathoverflow</text>
-<text x="178.0" y="104.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">engineering</text>
-<text x="250.0" y="104.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">expiry, insert</text>
-<rect x="330" y="96" width="41.8" height="11" fill="#bbb"/>
-<text x="374.8" y="105.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">25 k</text>
-<rect x="520" y="96" width="77.7" height="11" fill="#bbb"/>
-<text x="600.7" y="105.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">390 k</text>
-<text x="720.0" y="104.0" font-size="9" text-anchor="start" font-weight="normal" fill="#555">never in a verdict</text>
-<line x1="12" y1="109" x2="820" y2="109" stroke="#bbb" stroke-width="0.6"/>
-<text x="12.0" y="123.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">sx-askubuntu</text>
-<text x="178.0" y="123.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">evaluation</text>
-<text x="250.0" y="123.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">expiry, insert</text>
-<rect x="330" y="115" width="65.9" height="11" fill="black"/>
-<text x="398.9" y="124.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">157 k</text>
-<rect x="520" y="115" width="85.8" height="11" fill="black"/>
-<text x="608.8" y="124.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">727 k</text>
-<text x="720.0" y="123.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">2 of 4</text>
-<text x="12.0" y="142.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">sx-superuser</text>
-<text x="178.0" y="142.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">evaluation</text>
-<text x="250.0" y="142.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">expiry, insert</text>
-<rect x="330" y="134" width="68.5" height="11" fill="black"/>
-<text x="401.5" y="143.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">192 k</text>
-<rect x="520" y="134" width="91.3" height="11" fill="black"/>
-<text x="614.3" y="143.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">1.11 M</text>
-<text x="720.0" y="142.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">2 of 4</text>
-<text x="12.0" y="161.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">wiki-talk-temporal</text>
-<text x="178.0" y="161.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">evaluation</text>
-<text x="250.0" y="161.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">expiry, insert</text>
-<rect x="330" y="153" width="91.2" height="11" fill="black"/>
-<text x="424.2" y="162.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">1.09 M</text>
-<rect x="520" y="153" width="113.6" height="11" fill="black"/>
-<text x="636.6" y="162.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">6.10 M</text>
-<text x="720.0" y="161.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">2 of 4</text>
-<line x1="12" y1="166" x2="820" y2="166" stroke="#bbb" stroke-width="0.6"/>
-<text x="12.0" y="180.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">sx-stackoverflow</text>
-<text x="178.0" y="180.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">held-out</text>
-<text x="250.0" y="180.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">expiry, insert</text>
-<rect x="330" y="172" width="102.4" height="11" fill="black"/>
-<text x="435.4" y="181.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">2.58 M</text>
-<rect x="520" y="172" width="140.4" height="11" fill="black"/>
-<text x="663.4" y="181.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">47.90 M</text>
-<text x="720.0" y="180.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">0 of 2</text>
-<line x1="12" y1="185" x2="820" y2="185" stroke="#bbb" stroke-width="0.6"/>
-<text x="12.0" y="199.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">simplewiki</text>
-<text x="178.0" y="199.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">new</text>
-<text x="250.0" y="199.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">real deletions, 28%</text>
-<rect x="330" y="191" width="60.0" height="11" fill="black"/>
-<text x="393.0" y="200.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">100 k</text>
-<rect x="520" y="191" width="95.8" height="11" fill="black"/>
-<text x="618.8" y="200.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">1.56 M</text>
-<text x="720.0" y="199.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">2 of 2</text>
-<text x="12.0" y="218.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">dewiki</text>
-<text x="178.0" y="218.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">new</text>
-<text x="250.0" y="218.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">real deletions, 18%</text>
-<rect x="330" y="210" width="72.3" height="11" fill="black"/>
-<text x="405.3" y="219.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">257 k</text>
-<rect x="520" y="210" width="99.0" height="11" fill="black"/>
-<text x="622.0" y="219.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">2.00 M</text>
-<text x="720.0" y="218.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">0 of 2</text>
-<text x="12.0" y="237.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">frwiki</text>
-<text x="178.0" y="237.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">new</text>
-<text x="250.0" y="237.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">real deletions, 20%</text>
-<rect x="330" y="229" width="73.5" height="11" fill="black"/>
-<text x="406.5" y="238.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">283 k</text>
-<rect x="520" y="229" width="99.0" height="11" fill="black"/>
-<text x="622.0" y="238.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">2.00 M</text>
-<text x="720.0" y="237.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">1 of 2</text>
-<text x="12.0" y="256.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">itwiki</text>
-<text x="178.0" y="256.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">new</text>
-<text x="250.0" y="256.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">real deletions, 16%</text>
-<rect x="330" y="248" width="73.9" height="11" fill="black"/>
-<text x="406.9" y="257.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">291 k</text>
-<rect x="520" y="248" width="99.0" height="11" fill="black"/>
-<text x="622.0" y="257.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">2.00 M</text>
-<text x="720.0" y="256.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">2 of 2</text>
-<text x="12.0" y="275.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">nlwiki</text>
-<text x="178.0" y="275.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">new</text>
-<text x="250.0" y="275.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">real deletions, 21%</text>
-<rect x="330" y="267" width="72.6" height="11" fill="black"/>
-<text x="405.6" y="276.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">263 k</text>
-<rect x="520" y="267" width="99.0" height="11" fill="black"/>
-<text x="622.0" y="276.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">2.00 M</text>
-<text x="720.0" y="275.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">1 of 2</text>
-<text x="12.0" y="294.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">plwiki</text>
-<text x="178.0" y="294.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">new</text>
-<text x="250.0" y="294.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">real deletions, 20%</text>
-<rect x="330" y="286" width="70.5" height="11" fill="black"/>
-<text x="403.5" y="295.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">223 k</text>
-<rect x="520" y="286" width="99.0" height="11" fill="black"/>
-<text x="622.0" y="295.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">2.00 M</text>
-<text x="720.0" y="294.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">1 of 2</text>
-<text x="12.0" y="313.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">ia-reality-call</text>
-<text x="178.0" y="313.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">new</text>
-<text x="250.0" y="313.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">expiry, insert</text>
-<rect x="330" y="305" width="25.0" height="11" fill="black"/>
-<text x="358.0" y="314.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">7 k</text>
-<rect x="520" y="305" width="51.3" height="11" fill="black"/>
-<text x="574.3" y="314.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">51 k</text>
-<text x="720.0" y="313.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">1 of 4</text>
-<text x="12.0" y="332.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">soc-wiki-elec</text>
-<text x="178.0" y="332.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">new</text>
-<text x="250.0" y="332.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">expiry, insert</text>
-<rect x="330" y="324" width="25.6" height="11" fill="black"/>
-<text x="358.6" y="333.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">7 k</text>
-<rect x="520" y="324" width="60.9" height="11" fill="black"/>
-<text x="583.9" y="333.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">107 k</text>
-<text x="720.0" y="332.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">3 of 4</text>
-<text x="12.0" y="351.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">tech-as-topology</text>
-<text x="178.0" y="351.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">new</text>
-<text x="250.0" y="351.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">expiry, insert</text>
-<rect x="330" y="343" width="46.2" height="11" fill="black"/>
-<text x="379.2" y="352.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">35 k</text>
-<rect x="520" y="343" width="67.0" height="11" fill="black"/>
-<text x="590.0" y="352.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">171 k</text>
-<text x="720.0" y="351.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">4 of 4</text>
-<text x="12.0" y="370.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">soc-redditHyperlinks-body</text>
-<text x="178.0" y="370.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">new</text>
-<text x="250.0" y="370.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">expiry, insert</text>
-<rect x="330" y="362" width="46.6" height="11" fill="black"/>
-<text x="379.6" y="371.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">36 k</text>
-<rect x="520" y="362" width="73.7" height="11" fill="black"/>
-<text x="596.7" y="371.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">287 k</text>
-<text x="720.0" y="370.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">1 of 4</text>
-<text x="12.0" y="389.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">soc-redditHyperlinks-title</text>
-<text x="178.0" y="389.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">new</text>
-<text x="250.0" y="389.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">expiry, insert</text>
-<rect x="330" y="381" width="52.0" height="11" fill="black"/>
-<text x="385.0" y="390.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">54 k</text>
-<rect x="520" y="381" width="82.7" height="11" fill="black"/>
-<text x="605.7" y="390.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">572 k</text>
-<text x="720.0" y="389.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">2 of 4</text>
-<text x="12.0" y="408.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">ia-enron-email-dynamic</text>
-<text x="178.0" y="408.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">new</text>
-<text x="250.0" y="408.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">expiry, insert</text>
-<rect x="330" y="400" width="58.2" height="11" fill="black"/>
-<text x="391.2" y="409.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">87 k</text>
-<rect x="520" y="400" width="91.6" height="11" fill="black"/>
-<text x="614.6" y="409.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">1.13 M</text>
-<text x="720.0" y="408.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">4 of 4</text>
-<line x1="12" y1="413" x2="820" y2="413" stroke="#bbb" stroke-width="0.6"/>
-<text x="12.0" y="427.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">soc-youtube-growth</text>
-<text x="178.0" y="427.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">snapshot</text>
-<text x="250.0" y="427.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">static, file order</text>
-<rect x="330" y="419" width="84.5" height="11" fill="#bbb"/>
-<text x="417.5" y="428.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">658 k</text>
-<rect x="520" y="419" width="99.0" height="11" fill="#bbb"/>
-<text x="622.0" y="428.0" font-size="8" text-anchor="start" font-weight="normal" fill="#333">2.00 M</text>
-<text x="720.0" y="427.0" font-size="9" text-anchor="start" font-weight="normal" fill="#555">never in a verdict</text>
-<line x1="330.0" y1="438" x2="330.0" y2="442" stroke="black"/>
-<text x="330.0" y="453.0" font-size="8" text-anchor="middle" font-weight="normal" fill="black">1e3</text>
-<line x1="360.0" y1="438" x2="360.0" y2="442" stroke="black"/>
-<text x="360.0" y="453.0" font-size="8" text-anchor="middle" font-weight="normal" fill="black">1e4</text>
-<line x1="390.0" y1="438" x2="390.0" y2="442" stroke="black"/>
-<text x="390.0" y="453.0" font-size="8" text-anchor="middle" font-weight="normal" fill="black">1e5</text>
-<line x1="420.0" y1="438" x2="420.0" y2="442" stroke="black"/>
-<text x="420.0" y="453.0" font-size="8" text-anchor="middle" font-weight="normal" fill="black">1e6</text>
-<line x1="450.0" y1="438" x2="450.0" y2="442" stroke="black"/>
-<text x="450.0" y="453.0" font-size="8" text-anchor="middle" font-weight="normal" fill="black">1e7</text>
-<line x1="480.0" y1="438" x2="480.0" y2="442" stroke="black"/>
-<text x="480.0" y="453.0" font-size="8" text-anchor="middle" font-weight="normal" fill="black">1e8</text>
-<line x1="330" y1="438" x2="480" y2="438" stroke="black" stroke-width="0.6"/>
-<line x1="520.0" y1="438" x2="520.0" y2="442" stroke="black"/>
-<text x="520.0" y="453.0" font-size="8" text-anchor="middle" font-weight="normal" fill="black">1e3</text>
-<line x1="550.0" y1="438" x2="550.0" y2="442" stroke="black"/>
-<text x="550.0" y="453.0" font-size="8" text-anchor="middle" font-weight="normal" fill="black">1e4</text>
-<line x1="580.0" y1="438" x2="580.0" y2="442" stroke="black"/>
-<text x="580.0" y="453.0" font-size="8" text-anchor="middle" font-weight="normal" fill="black">1e5</text>
-<line x1="610.0" y1="438" x2="610.0" y2="442" stroke="black"/>
-<text x="610.0" y="453.0" font-size="8" text-anchor="middle" font-weight="normal" fill="black">1e6</text>
-<line x1="640.0" y1="438" x2="640.0" y2="442" stroke="black"/>
-<text x="640.0" y="453.0" font-size="8" text-anchor="middle" font-weight="normal" fill="black">1e7</text>
-<line x1="670.0" y1="438" x2="670.0" y2="442" stroke="black"/>
-<text x="670.0" y="453.0" font-size="8" text-anchor="middle" font-weight="normal" fill="black">1e8</text>
-<line x1="520" y1="438" x2="670" y2="438" stroke="black" stroke-width="0.6"/>
-<text x="12.0" y="472.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">Black: streams in a verdict. Grey: engineering streams and the snapshot. Events of the insert-only or real-deletion stream; an expiry stream has about twice as many.</text>
-<text x="12.0" y="486.0" font-size="9" text-anchor="start" font-weight="normal" fill="#333">KONECT wiki streams: 2,000,000-event prefixes, real deletions at the share shown. Pooled p = 5, P-core: 28 of 50 scored cells pass (M1D07E). sx-stackoverflow is the held-out stream.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 471" width="425" height="471" font-family="Helvetica, Arial, sans-serif">
+<rect width="425" height="471" fill="white"/>
+<text x="2.0" y="12.0" font-size="10" text-anchor="start" font-weight="bold" fill="black">Stream</text>
+<text x="134.0" y="12.0" font-size="10" text-anchor="start" font-weight="bold" fill="black">Vertices,</text>
+<text x="134.0" y="24.0" font-size="10" text-anchor="start" font-weight="bold" fill="black">log scale</text>
+<text x="240.0" y="12.0" font-size="10" text-anchor="start" font-weight="bold" fill="black">Events,</text>
+<text x="240.0" y="24.0" font-size="10" text-anchor="start" font-weight="bold" fill="black">log scale</text>
+<text x="423.0" y="12.0" font-size="10" text-anchor="end" font-weight="bold" fill="black">p = 5</text>
+<text x="423.0" y="24.0" font-size="10" text-anchor="end" font-weight="bold" fill="black">passes</text>
+<text x="2.0" y="52.0" font-size="10" text-anchor="start" font-weight="bold" fill="#333">engineering: expiry, insert; never in a verdict</text>
+<text x="10.0" y="66.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">CollegeMsg</text>
+<rect x="134" y="58" width="4.5" height="9" fill="#bbb"/>
+<text x="141.5" y="66.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">2 k</text>
+<rect x="240" y="58" width="28.4" height="9" fill="#bbb"/>
+<text x="271.4" y="66.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">60 k</text>
+<text x="423.0" y="66.0" font-size="10" text-anchor="end" font-weight="normal" fill="#555">&#8211;</text>
+<text x="10.0" y="80.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">email-Eu-core-temporal</text>
+<rect x="134" y="72" width="0.0" height="9" fill="#bbb"/>
+<text x="137.0" y="80.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">1 k</text>
+<rect x="240" y="72" width="40.3" height="9" fill="#bbb"/>
+<text x="283.3" y="80.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">332 k</text>
+<text x="423.0" y="80.0" font-size="10" text-anchor="end" font-weight="normal" fill="#555">&#8211;</text>
+<text x="10.0" y="94.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">sx-mathoverflow</text>
+<rect x="134" y="86" width="22.3" height="9" fill="#bbb"/>
+<text x="159.3" y="94.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">25 k</text>
+<rect x="240" y="86" width="41.5" height="9" fill="#bbb"/>
+<text x="284.5" y="94.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">390 k</text>
+<text x="423.0" y="94.0" font-size="10" text-anchor="end" font-weight="normal" fill="#555">&#8211;</text>
+<line x1="2" y1="99" x2="423" y2="99" stroke="#bbb" stroke-width="0.6"/>
+<text x="2.0" y="112.0" font-size="10" text-anchor="start" font-weight="bold" fill="#333">evaluation: expiry, insert</text>
+<text x="10.0" y="126.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">sx-askubuntu</text>
+<rect x="134" y="118" width="35.1" height="9" fill="black"/>
+<text x="172.1" y="126.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">157 k</text>
+<rect x="240" y="118" width="45.8" height="9" fill="black"/>
+<text x="288.8" y="126.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">727 k</text>
+<text x="423.0" y="126.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">2 of 4</text>
+<text x="10.0" y="140.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">sx-superuser</text>
+<rect x="134" y="132" width="36.5" height="9" fill="black"/>
+<text x="173.5" y="140.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">192 k</text>
+<rect x="240" y="132" width="48.7" height="9" fill="black"/>
+<text x="291.7" y="140.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">1.11 M</text>
+<text x="423.0" y="140.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">2 of 4</text>
+<text x="10.0" y="154.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">wiki-talk-temporal</text>
+<rect x="134" y="146" width="48.6" height="9" fill="black"/>
+<text x="185.6" y="154.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">1.09 M</text>
+<rect x="240" y="146" width="60.6" height="9" fill="black"/>
+<text x="303.6" y="154.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">6.10 M</text>
+<text x="423.0" y="154.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">2 of 4</text>
+<line x1="2" y1="159" x2="423" y2="159" stroke="#bbb" stroke-width="0.6"/>
+<text x="2.0" y="172.0" font-size="10" text-anchor="start" font-weight="bold" fill="#333">held-out: expiry, insert</text>
+<text x="10.0" y="186.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">sx-stackoverflow</text>
+<rect x="134" y="178" width="54.6" height="9" fill="black"/>
+<text x="191.6" y="186.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">2.58 M</text>
+<rect x="240" y="178" width="74.9" height="9" fill="black"/>
+<text x="317.9" y="186.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">47.90 M</text>
+<text x="423.0" y="186.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">0 of 2</text>
+<line x1="2" y1="191" x2="423" y2="191" stroke="#bbb" stroke-width="0.6"/>
+<text x="2.0" y="204.0" font-size="10" text-anchor="start" font-weight="bold" fill="#333">new: real deletions, share deleted in brackets</text>
+<text x="10.0" y="218.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">simplewiki (28%)</text>
+<rect x="134" y="210" width="32.0" height="9" fill="black"/>
+<text x="169.0" y="218.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">100 k</text>
+<rect x="240" y="210" width="51.1" height="9" fill="black"/>
+<text x="294.1" y="218.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">1.56 M</text>
+<text x="423.0" y="218.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">2 of 2</text>
+<text x="10.0" y="232.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">dewiki (18%)</text>
+<rect x="134" y="224" width="38.6" height="9" fill="black"/>
+<text x="175.6" y="232.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">257 k</text>
+<rect x="240" y="224" width="52.8" height="9" fill="black"/>
+<text x="295.8" y="232.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">2.00 M</text>
+<text x="423.0" y="232.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">0 of 2</text>
+<text x="10.0" y="246.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">frwiki (20%)</text>
+<rect x="134" y="238" width="39.2" height="9" fill="black"/>
+<text x="176.2" y="246.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">283 k</text>
+<rect x="240" y="238" width="52.8" height="9" fill="black"/>
+<text x="295.8" y="246.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">2.00 M</text>
+<text x="423.0" y="246.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">1 of 2</text>
+<text x="10.0" y="260.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">itwiki (16%)</text>
+<rect x="134" y="252" width="39.4" height="9" fill="black"/>
+<text x="176.4" y="260.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">291 k</text>
+<rect x="240" y="252" width="52.8" height="9" fill="black"/>
+<text x="295.8" y="260.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">2.00 M</text>
+<text x="423.0" y="260.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">2 of 2</text>
+<text x="10.0" y="274.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">nlwiki (21%)</text>
+<rect x="134" y="266" width="38.7" height="9" fill="black"/>
+<text x="175.7" y="274.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">263 k</text>
+<rect x="240" y="266" width="52.8" height="9" fill="black"/>
+<text x="295.8" y="274.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">2.00 M</text>
+<text x="423.0" y="274.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">1 of 2</text>
+<text x="10.0" y="288.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">plwiki (20%)</text>
+<rect x="134" y="280" width="37.6" height="9" fill="black"/>
+<text x="174.6" y="288.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">223 k</text>
+<rect x="240" y="280" width="52.8" height="9" fill="black"/>
+<text x="295.8" y="288.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">2.00 M</text>
+<text x="423.0" y="288.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">1 of 2</text>
+<line x1="2" y1="293" x2="423" y2="293" stroke="#bbb" stroke-width="0.6"/>
+<text x="2.0" y="306.0" font-size="10" text-anchor="start" font-weight="bold" fill="#333">new: expiry, insert</text>
+<text x="10.0" y="320.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">ia-reality-call</text>
+<rect x="134" y="312" width="13.3" height="9" fill="black"/>
+<text x="150.3" y="320.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">7 k</text>
+<rect x="240" y="312" width="27.4" height="9" fill="black"/>
+<text x="270.4" y="320.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">51 k</text>
+<text x="423.0" y="320.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">1 of 4</text>
+<text x="10.0" y="334.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">soc-wiki-elec</text>
+<rect x="134" y="326" width="13.6" height="9" fill="black"/>
+<text x="150.6" y="334.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">7 k</text>
+<rect x="240" y="326" width="32.5" height="9" fill="black"/>
+<text x="275.5" y="334.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">107 k</text>
+<text x="423.0" y="334.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">3 of 4</text>
+<text x="10.0" y="348.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">tech-as-topology</text>
+<rect x="134" y="340" width="24.7" height="9" fill="black"/>
+<text x="161.7" y="348.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">35 k</text>
+<rect x="240" y="340" width="35.7" height="9" fill="black"/>
+<text x="278.7" y="348.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">171 k</text>
+<text x="423.0" y="348.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">4 of 4</text>
+<text x="10.0" y="362.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">soc-redditHyperlinks-body</text>
+<rect x="134" y="354" width="24.9" height="9" fill="black"/>
+<text x="161.9" y="362.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">36 k</text>
+<rect x="240" y="354" width="39.3" height="9" fill="black"/>
+<text x="282.3" y="362.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">287 k</text>
+<text x="423.0" y="362.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">1 of 4</text>
+<text x="10.0" y="376.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">soc-redditHyperlinks-title</text>
+<rect x="134" y="368" width="27.7" height="9" fill="black"/>
+<text x="164.7" y="376.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">54 k</text>
+<rect x="240" y="368" width="44.1" height="9" fill="black"/>
+<text x="287.1" y="376.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">572 k</text>
+<text x="423.0" y="376.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">2 of 4</text>
+<text x="10.0" y="390.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">ia-enron-email-dynamic</text>
+<rect x="134" y="382" width="31.0" height="9" fill="black"/>
+<text x="168.0" y="390.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">87 k</text>
+<rect x="240" y="382" width="48.9" height="9" fill="black"/>
+<text x="291.9" y="390.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">1.13 M</text>
+<text x="423.0" y="390.0" font-size="10" text-anchor="end" font-weight="normal" fill="black">4 of 4</text>
+<line x1="2" y1="395" x2="423" y2="395" stroke="#bbb" stroke-width="0.6"/>
+<text x="2.0" y="408.0" font-size="10" text-anchor="start" font-weight="bold" fill="#333">snapshot: static, file order; never in a verdict</text>
+<text x="10.0" y="422.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">soc-youtube-growth</text>
+<rect x="134" y="414" width="45.1" height="9" fill="#bbb"/>
+<text x="182.1" y="422.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">658 k</text>
+<rect x="240" y="414" width="52.8" height="9" fill="#bbb"/>
+<text x="295.8" y="422.0" font-size="10" text-anchor="start" font-weight="normal" fill="#333">2.00 M</text>
+<text x="423.0" y="422.0" font-size="10" text-anchor="end" font-weight="normal" fill="#555">&#8211;</text>
+<line x1="134.0" y1="429" x2="134.0" y2="433" stroke="black" stroke-width="0.7"/>
+<text x="134.0" y="444.0" font-size="10" text-anchor="middle" font-weight="normal" fill="black">1e3</text>
+<line x1="150.0" y1="429" x2="150.0" y2="433" stroke="black" stroke-width="0.7"/>
+<line x1="166.0" y1="429" x2="166.0" y2="433" stroke="black" stroke-width="0.7"/>
+<text x="166.0" y="444.0" font-size="10" text-anchor="middle" font-weight="normal" fill="black">1e5</text>
+<line x1="182.0" y1="429" x2="182.0" y2="433" stroke="black" stroke-width="0.7"/>
+<line x1="198.0" y1="429" x2="198.0" y2="433" stroke="black" stroke-width="0.7"/>
+<text x="198.0" y="444.0" font-size="10" text-anchor="middle" font-weight="normal" fill="black">1e7</text>
+<line x1="214.0" y1="429" x2="214.0" y2="433" stroke="black" stroke-width="0.7"/>
+<line x1="134" y1="429" x2="214" y2="429" stroke="black" stroke-width="0.6"/>
+<line x1="240.0" y1="429" x2="240.0" y2="433" stroke="black" stroke-width="0.7"/>
+<text x="240.0" y="444.0" font-size="10" text-anchor="middle" font-weight="normal" fill="black">1e3</text>
+<line x1="256.0" y1="429" x2="256.0" y2="433" stroke="black" stroke-width="0.7"/>
+<line x1="272.0" y1="429" x2="272.0" y2="433" stroke="black" stroke-width="0.7"/>
+<text x="272.0" y="444.0" font-size="10" text-anchor="middle" font-weight="normal" fill="black">1e5</text>
+<line x1="288.0" y1="429" x2="288.0" y2="433" stroke="black" stroke-width="0.7"/>
+<line x1="304.0" y1="429" x2="304.0" y2="433" stroke="black" stroke-width="0.7"/>
+<text x="304.0" y="444.0" font-size="10" text-anchor="middle" font-weight="normal" fill="black">1e7</text>
+<line x1="320.0" y1="429" x2="320.0" y2="433" stroke="black" stroke-width="0.7"/>
+<line x1="240" y1="429" x2="320" y2="429" stroke="black" stroke-width="0.6"/>
+<rect x="2" y="455" width="14" height="9" fill="black"/><text x="21.0" y="463.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">in a verdict</text>
+<rect x="92" y="455" width="14" height="9" fill="#bbb"/><text x="111.0" y="463.0" font-size="10" text-anchor="start" font-weight="normal" fill="black">never in a verdict</text>
 </svg>
