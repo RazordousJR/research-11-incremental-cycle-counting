@@ -36,7 +36,7 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 
 **M1D10 is next** (`log.md` 0064). The PI accepted M1D09's reading of hard rule 5 and asked for the fit on the engineering streams as well: every arm timed on the 12 engineering cells in one exclusive claim with a 2-hour line, then the same models read on M1D07's streams. Protocol committed. M1D09's statement that the engineering tables fit in L3 was wrong for sx-mathoverflow insert-only, and is corrected. Waiting on ControlPC's GO for the dry run and the run. Nothing more runs on the standing order of 0056.
 
-**The PI's, not yet answered:** whether the paper needs WoS, which decides between JGAA and KAIS (`log.md` 0045, 0056).
+**Venue decided:** JGAA, WoS not needed (PI, 2026-11-04, `log.md` 0064).
 
 ## Handover notes
 
