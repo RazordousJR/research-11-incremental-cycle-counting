@@ -899,3 +899,13 @@ The suggestion that goes with the report is chosen by these rules and named in t
 The draft builds clean to 24 pages: no LaTeX error, no overfull box, no undefined reference, no "??", no em or en dash in the extracted text, BibTeX 0 warnings.
 
 **The read's three referee objections,** kept for the PI: the novelty is thin and the "rule" is a tally by pattern size, not a predictive criterion; the baselines are the authors' own and batch sizes stop at 1,000; and the statistics are a worst-against-best test on 3 to 5 repeats with a 10% margin. The paper now states each of these as a limit. None is answered by new evidence, and none is a writing fix.
+
+## 0069, 2026-11-05: the submission package, and what JGAA's AI policy means here
+
+**Read on JGAA's pages, by the built-in browser, 2026-11-05.** The submissions page's checklist, Author Guidelines and AI Policy, and the Editorial Team page. Nothing was clicked beyond navigation, no login and no form.
+
+**The AI policy, for the PI.** JGAA allows generative AI "where it genuinely assists", giving as examples "proofreading and polishing text written by the authors" and "programming assistants in experimental work", requires disclosure in the Comments for the Editor, and states that "the unattributed use of any such tools in the creation of the paper's scientific content is forbidden and reason for rejection". In this project the assistant wrote the code, ran the measurements and drafted the text. The use is attributed, as the policy requires, but it is wider than the policy's examples. The page also says JGAA "is a highly selective journal". Both are risks the PI weighs before submitting. The declaration must say plainly what the assistant did.
+
+**Package.** `docs/submissions/paper-1/submission-package.md`: the gates still open (§22 steps 7 and 8, the AI statement's wording, the repository release), the form's metadata, a draft of the Comments for the Editor with the AI declaration and an optional editor request, and the portal steps. The PI logs in or registers at the portal; Claude enters no password and creates no account; every submitting or confirming step waits for the PI's word in chat.
+
+**Nothing is submitted.**

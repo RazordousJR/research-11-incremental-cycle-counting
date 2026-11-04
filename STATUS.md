@@ -36,7 +36,7 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 
 ## Open
 
-**No run is open.** M1D10 is done (`log.md` 0065). On the PI's word (`log.md` 0066): figure 5 redrawn from both fits; JGAA's guidelines and two exemplars checked (`docs/submissions/paper-1/venue-fit.md`); sections 2 to 4 drafted in `docs/paper/jgaa/sec2-4.tex`, with seven citations still to read (`refs-todo.md`). Open for the PI: a remote for code and data release, which JGAA's exemplars all have; downloading the JGAA LaTeX package; the AI-use declaration JGAA requires. A second machine is still the open gap in readiness test 3. Nothing runs on the standing order of 0056.
+**No run is open. The JGAA manuscript is drafted, red-teamed and ready for the PI's gates** (`log.md` 0067 to 0069). `docs/paper/jgaa/main.pdf`, 24 pages, builds clean with `docs/paper/jgaa/build.sh`; 42 verified references; six figures at 10 pt. Not submitted. Open, all the PI's: the outside human read (§22 step 7, mandatory), the PI's own read as main author (step 8), the AI statement's wording, the repository release, and the portal login. The package and portal steps are in `docs/submissions/paper-1/submission-package.md`. Private remote: https://github.com/RazordousJR/research-11-incremental-cycle-counting.
 
 **Venue decided:** JGAA, WoS not needed (PI, 2026-11-04, `log.md` 0064).
 
