@@ -34,7 +34,7 @@ Go by the Gate 1 rule, with the trend, on the first 4 streams: median 1.098 at p
 | 2 | The stream timeline | `docs/figures/fig-stream-timeline.svg` | Done |
 | 3 | The test set in one figure: every stream with its role, label, size and p = 5 passes | `docs/figures/fig-test-set.svg` | Done. 20 streams, 16 of them in a verdict |
 | 4 | Score against pattern size, every cell, both cuts | `docs/figures/fig-score-by-p.svg` | Done |
-| 5 | The cost model: predicted against measured seconds, unit cost beside priced by kind and cache | `docs/figures/fig-cost-model.svg`, M1D09 | Done from M1D09's fit. Section 6 gives M1D10's coefficients, so whether to redraw it from M1D10's is open |
+| 5 | The cost model: predicted against measured seconds, unit cost beside priced by kind and cache | `docs/figures/fig-cost-model.svg`, M1D10 and M1D09 | Done. Three panels on M1D07's streams: unit cost and by kind and cache from the engineering fit, and by kind and cache from M1D05's fit beside it. Checked as a PNG |
 | 6 | M5 over theta against PR and R2 on the six passes | `docs/figures/fig-theta.svg` | Done |
 
 ## Sections

@@ -1,7 +1,7 @@
 """Figures 3 to 6 of docs/paper/outline.md, as plain SVG in the style of scripts/figures.py, from logged runs only. Read-only on results.
 Usage: figures_results.py
 Figure 3, the test set: every stream with its role, label, size and p = 5 passes. Figure 4, PR's or P3's or the faster of P4 and B4's median score against
-pattern size, every scored cell. Figure 5, the cost model of M1D09 on the evaluation set, unit cost against priced by kind and cache. Figure 6, M5 over theta
+pattern size, every scored cell. Figure 5, the cost model on M1D07's streams, unit cost and priced by kind and cache fitted on the engineering cells (M1D10), and priced by kind and cache fitted on M1D05's (M1D09). Figure 6, M5 over theta
 against PR and R2 on M1D05's six passes (M1D06A). Seconds are the timing builds' on CPU 8; operations are never drawn as time."""
 import csv
 import glob
@@ -132,11 +132,15 @@ def score_by_p():
 
 
 def cost_model():
-    rows = list(csv.DictReader(open("results/cost-M1D09/cells.csv", newline="")))
+    """Three panels on M1D07's 12 new streams, which no coefficient saw: unit cost and priced by kind and cache, both fitted on the engineering cells (M1D10),
+    and priced by kind and cache fitted on M1D05's streams (M1D09), beside it."""
+    r10 = [r for r in csv.DictReader(open("results/cost-M1D10/cells.csv", newline="")) if r["set"] == "M1D07"]
+    r09 = list(csv.DictReader(open("results/cost-M1D09/cells.csv", newline="")))
     lo, hi = -1.5, 3.5  # log10 seconds
     S, gap, L, T = 250, 70, 60, 46
     b = [text(12, 22, "The cost model on the 12 new streams: predicted seconds against measured", 12, weight="bold")]
-    for k, (model, title) in enumerate((("U", "(a) unit cost, one price per operation"), ("KC", "(b) priced by kind, and by table size against L3"))):
+    panels = ((r10, "U", "(a) unit cost, engineering fit"), (r10, "KC", "(b) by kind and cache, engineering fit"), (r09, "KC", "(c) by kind and cache, M1D05 fit"))
+    for k, (rows, model, title) in enumerate(panels):
         x0 = L + k * (S + gap)
         P = lambda v: (x0 + S * (math.log10(max(v, 10 ** lo)) - lo) / (hi - lo))
         Q = lambda v: (T + S - S * (math.log10(max(v, 10 ** lo)) - lo) / (hi - lo))
@@ -158,15 +162,17 @@ def cost_model():
                 b.append(f'<rect x="{x - 2.4:.1f}" y="{y - 2.4:.1f}" width="4.8" height="4.8" fill="white" stroke="black" stroke-width="0.8"/>')
         b.append(text(x0 + S / 2, T + S + 30, "measured seconds, median, log", 10, "middle"))
     b.append(f'<text x="18" y="{T + S / 2:.1f}" font-size="10" text-anchor="middle" transform="rotate(-90 18 {T + S / 2:.1f})">predicted seconds, log</text>')
+    floor = sum(1 for r in r10 if float(r["U"]) < 10 ** lo)
     y = T + S + 52
     b.append(f'<circle cx="18" cy="{y - 3}" r="2.6" fill="black"/>' + text(26, y, "sharing (PR, P3)", 9))
     b.append(f'<circle cx="128" cy="{y - 3}" r="2.6" fill="{GREY}"/>' + text(136, y, "scan (R2, S3)", 9))
     b.append(f'<rect x="216" y="{y - 6}" width="4.8" height="4.8" fill="white" stroke="black" stroke-width="0.8"/>' + text(226, y, "tables (WT, M5, A5, T3, M3)", 9))
     b.append(f'<path d="M378,{y - 7} L381,{y - 1} L375,{y - 1} Z" fill="white" stroke="black" stroke-width="0.9"/>' + text(386, y, "WJ", 9))
-    b.append(text(12, y + 18, "Fitted on M1D05's 3 streams, drawn on M1D07's 12, which no coefficient saw (M1D09). Clock winner named: unit cost 21 of 64 cells, (b) 64 of 64.", 9, fill="#333"))
-    b.append(text(12, y + 32, "Median error 70.1% and 22.9%. The table-size term adds nothing over pricing by kind, and (b) puts WJ at about a fifth of its time. In (a), 33 predictions under 0.03 s sit on the floor.", 9, fill="#333"))
-    open("docs/figures/fig-cost-model.svg", "w", encoding="utf-8", newline="\n").write(svg(2 * S + gap + L + 20, int(y + 44), b))
-    return len(rows)
+    b.append(text(12, y + 18, "(a) and (b) fitted on the 3 engineering streams (M1D10), (c) on M1D05's 3 streams (M1D09); all drawn on M1D07's 12, which no coefficient saw.", 9, fill="#333"))
+    b.append(text(12, y + 32, "Clock winner named: (a) 21 of 64 cells, (b) 63, (c) 64. Median error 71.3%, 23.0% and 22.9%. The table-size term adds nothing over pricing by kind in either fit,", 9, fill="#333"))
+    b.append(text(12, y + 46, f"and both put WJ at a fifth of its time or less. In (a), {floor} predictions under 0.03 s sit on the floor.", 9, fill="#333"))
+    open("docs/figures/fig-cost-model.svg", "w", encoding="utf-8", newline="\n").write(svg(3 * S + 2 * gap + L + 20, int(y + 58), b))
+    return len(r10), len(r09)
 
 
 def theta():
