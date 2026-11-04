@@ -730,3 +730,18 @@ Claim 2, phases D3 then D4, ran under the exclusive timing claim from 02:35:01 t
 **Next.** M1D08C, exclusive, at the start ControlPC gives after Research 12 releases (about 12:35) and Research 1 is quiet.
 
 **Addendum, 06:5x.** ControlPC sent Research 1's reconstructed process times inside claim 2. They are now in `scripts/overlap_check.py`, widened: 04:50:00 to 05:23:10, 05:45:14 and 05:59:00 for 120 s each, and 06:00 to 06:33. One more pass now has every best-arm repeat inside a window: itwiki real 1,000, margin 0.426. For it to be false, R2 would have had to be slowed by 57% by greps and git commits. It is kept. Claim 2's overlapping repeats run at +0.00% against their arm's median. `results/gate1-M1D07T/overlap.txt` and README updated.
+
+## 0060, 2026-11-04: the PI's word on a Not reproduced reading, and the remedies fixed before the run
+
+**PI decision, 09:5x, by chat:** "Okeh follow cadangan. Cuma untuk M1D08 tu if not reproduced, come out with solution suggestions." The decision table stands: M1D08C starts only at ControlPC's time, with a 7-hour line inside the 10 hours. Not reproduced still goes to the PI, and it now goes with suggested remedies. The PI still decides. Nothing in the list below runs on the standing order (0056), because each item is a new experiment, a new build or a change of framing.
+
+**The remedies, written before any M1D08 time exists,** so that the choice is not fitted to the numbers. None of them changes a threshold.
+
+1. **Say which it is, drift or noise.** The score's beside table gives each arm's M1D08 P-core median over its recorded median. If PR and R2 moved together, the machine drifted and the margins should hold. If they moved apart, or the turned cells sit just at the line, it is spread. The report names which, cell by cell. Reading only, no claim.
+2. **State the count that holds on both P-core measurements.** A cell counts only if it passes in the record and in M1D08. This narrows the claim and needs no run. It is put to the literal Go clause as it stands. If it holds, the claim sentence uses it. If it fails, the claim has no count at p = 5.
+3. **Look for a cause on the machine.** Before any further timing: the Windows power plan and power mode, the CPU frequency during the run, Windows Update and Defender activity in the event log, and the temperature if it can be read. Reading only.
+4. **A short diagnostic run, if 3 finds nothing.** The turned cells only, on CPU 8, with the processor-performance counter logged beside each repeat, in the hours left of the 10. A new ID and protocol, the PI's word and ControlPC's GO.
+5. **Lean on operations, not the clock.** If the time margin is shown to be inside the machine's own spread, the paper says so, gives the time verdict as unstable on this machine, and puts its weight on the operation counts and the cost model (ns per charged operation), which are deterministic. A framing change for the PI.
+6. **Widen the margin by engineering.** A faster PR kernel is a new build and a new Gate 1 under a new ID, over every cell. The most costly, and last.
+
+The suggestion that goes with the report is chosen by these rules and named in the report: 1 and 3 always. Then 2 if every turned cell is within 10% of the line on either reading, 4 if 3 finds a cause that a run could confirm, and 5 if PR and R2 drift by more than the median margin.
