@@ -909,3 +909,18 @@ The draft builds clean to 24 pages: no LaTeX error, no overfull box, no undefine
 **Package.** `docs/submissions/paper-1/submission-package.md`: the gates still open (§22 steps 7 and 8, the AI statement's wording, the repository release), the form's metadata, a draft of the Comments for the Editor with the AI declaration and an optional editor request, and the portal steps. The PI logs in or registers at the portal; Claude enters no password and creates no account; every submitting or confirming step waits for the PI's word in chat.
 
 **Nothing is submitted.**
+
+## 0070, 2026-11-05: the PI's approval to proceed to the portal
+
+**The PI's word, in chat:** "kitorang dah tengok the manuscript and ok. Proceed", answering the decision table of 0069, and asking for the submission link.
+
+**What this settles, read against that table.**
+- §22 step 8: the PI reports that the authors read the manuscript and found it correct. No text was changed.
+- §22 step 7: no separate outside reader was used. The authors' read is what was done. Proceeding without the outside read as the bootstrap writes it is the PI's §9 decision, recorded here.
+- The AI statement and the Comments for the Editor are approved. One change was made so that they say only what happened: "read and revised" became "read and approved", and the sentence about changing every sentence the authors would not state became "read the full manuscript and approved it as a statement of their own work". Changing that wording is a fact correction, not a new claim.
+- The editor request names H. Meyerhenke, the recommendation in the table.
+- The repository stays private, and the data statement keeps "to be released on acceptance". Making the repository public publishes it, so it waits for a separate, explicit yes from the PI. If the PI says yes before upload, the statement gets the URL and the PDF is rebuilt.
+
+**Next.** Claude opens https://jgaa.info/index.php/jgaa/login in the built-in browser. The PI logs in or registers there. Claude enters no password and creates no account, and every submitting or confirming step waits for the PI's word in chat.
+
+**Nothing is submitted.**

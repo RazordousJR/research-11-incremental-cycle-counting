@@ -36,7 +36,7 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 
 ## Open
 
-**No run is open. The JGAA manuscript is drafted, red-teamed and ready for the PI's gates** (`log.md` 0067 to 0069). `docs/paper/jgaa/main.pdf`, 24 pages, builds clean with `docs/paper/jgaa/build.sh`; 42 verified references; six figures at 10 pt. Not submitted. Open, all the PI's: the outside human read (§22 step 7, mandatory), the PI's own read as main author (step 8), the AI statement's wording, the repository release, and the portal login. The package and portal steps are in `docs/submissions/paper-1/submission-package.md`. Private remote: https://github.com/RazordousJR/research-11-incremental-cycle-counting.
+**No run is open. The JGAA manuscript is approved by the PI and ready for the portal** (`log.md` 0067 to 0070). `docs/paper/jgaa/main.pdf`, 24 pages, builds clean with `docs/paper/jgaa/build.sh`; 42 verified references; six figures at 10 pt. Not submitted. The PI approved the manuscript, the AI statement and the editor request; no separate outside reader was used (PI's §9 decision, 0070). Open: the PI's portal login, the filled form's confirmation, and whether to make the repository public. The package and portal steps are in `docs/submissions/paper-1/submission-package.md`. Private remote: https://github.com/RazordousJR/research-11-incremental-cycle-counting.
 
 **Venue decided:** JGAA, WoS not needed (PI, 2026-11-04, `log.md` 0064).
 

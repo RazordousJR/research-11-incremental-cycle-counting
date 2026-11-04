@@ -24,8 +24,8 @@ Done on 2026-11-05: page 1 of `main.pdf` (commit f65792f) beside page 1 of Groß
 | Stylistic and bibliographic requirements of the Author Guidelines | JGAA class unmodified; `abbrvurl`; title case in title and headings |
 | DOIs for references where available | Checked per entry in `docs/paper/jgaa/refs-verified.md` |
 | Title case for title and section headings | Checked by hand at the compile read |
-| AI Policy agreed, use declared in Comments for the Editor | Statement drafted in `docs/paper/jgaa/ai-statement.tex`; wording is the PI's to approve (bootstrap §9, §21) |
-| Optional: preferred Editorial Board member | Open, for the PI |
+| AI Policy agreed, use declared in Comments for the Editor | Statement in `docs/paper/jgaa/ai-statement.tex`, approved by the PI on 2026-11-05 (`log.md` 0070) |
+| Optional: preferred Editorial Board member | H. Meyerhenke, the recommendation the PI approved (`log.md` 0070) |
 
 ## Required statements in the manuscript
 
