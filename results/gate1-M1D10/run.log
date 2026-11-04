@@ -1,0 +1,1163 @@
+CollegeMsg-expiry-1000 p3 P3 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.004
+CollegeMsg-expiry-1000 p3 T3 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.022
+CollegeMsg-expiry-1000 p3 M3 status=OK done=120/120 net=31024 ops=0 t=0 table=682612 secs=0.014
+CollegeMsg-expiry-1000 p3 S3 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.004
+CollegeMsg-expiry-1000 p3 M3 status=OK done=120/120 net=31024 ops=0 t=0 table=682612 secs=0.014
+CollegeMsg-expiry-1000 p3 S3 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.004
+CollegeMsg-expiry-1000 p3 P3 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.004
+CollegeMsg-expiry-1000 p3 S3 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.004
+CollegeMsg-expiry-1000 p3 P3 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.004
+CollegeMsg-expiry-1000 p3 M3 status=OK done=120/120 net=31024 ops=0 t=0 table=682612 secs=0.013
+CollegeMsg-expiry-1000 p3 S3 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.004
+CollegeMsg-expiry-1000 p3 P3 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.004
+CollegeMsg-expiry-1000 p3 M3 status=OK done=120/120 net=31024 ops=0 t=0 table=682612 secs=0.014
+CollegeMsg-expiry-1000 p3 S3 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.004
+CollegeMsg-expiry-1000 p3 P3 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.004
+CollegeMsg-expiry-1000 p3 M3 status=OK done=120/120 net=31024 ops=0 t=0 table=682612 secs=0.014
+CollegeMsg-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CELL-DONE p3 CollegeMsg expiry 1000 14:19:14
+CollegeMsg-expiry-100 p3 P3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.005
+CollegeMsg-expiry-100 p3 T3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.023
+CollegeMsg-expiry-100 p3 M3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=686364 secs=0.014
+CollegeMsg-expiry-100 p3 S3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.005
+CollegeMsg-expiry-100 p3 M3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=686364 secs=0.014
+CollegeMsg-expiry-100 p3 T3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.023
+CollegeMsg-expiry-100 p3 S3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.005
+CollegeMsg-expiry-100 p3 P3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.005
+CollegeMsg-expiry-100 p3 S3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.005
+CollegeMsg-expiry-100 p3 P3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.005
+CollegeMsg-expiry-100 p3 M3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=686364 secs=0.014
+CollegeMsg-expiry-100 p3 T3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.023
+CollegeMsg-expiry-100 p3 T3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.023
+CollegeMsg-expiry-100 p3 S3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.005
+CollegeMsg-expiry-100 p3 P3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.005
+CollegeMsg-expiry-100 p3 M3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=686364 secs=0.014
+CollegeMsg-expiry-100 p3 T3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.023
+CollegeMsg-expiry-100 p3 S3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.005
+CollegeMsg-expiry-100 p3 P3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.005
+CollegeMsg-expiry-100 p3 M3 status=OK done=1197/1197 net=31870 ops=0 t=0 table=686364 secs=0.014
+CollegeMsg-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+CELL-DONE p3 CollegeMsg expiry 100 14:19:16
+CollegeMsg-insert-1000 p3 P3 status=OK done=60/60 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-1000 p3 T3 status=OK done=60/60 net=13838 ops=0 t=14319 table=6259428 secs=0.016
+CollegeMsg-insert-1000 p3 M3 status=OK done=60/60 net=13838 ops=0 t=14319 table=1343784 secs=0.010
+CollegeMsg-insert-1000 p3 S3 status=OK done=60/60 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-1000 p3 M3 status=OK done=60/60 net=13838 ops=0 t=14319 table=1343784 secs=0.010
+CollegeMsg-insert-1000 p3 S3 status=OK done=60/60 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-1000 p3 P3 status=OK done=60/60 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-1000 p3 S3 status=OK done=60/60 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-1000 p3 P3 status=OK done=60/60 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-1000 p3 M3 status=OK done=60/60 net=13838 ops=0 t=14319 table=1343784 secs=0.010
+CollegeMsg-insert-1000 p3 S3 status=OK done=60/60 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-1000 p3 P3 status=OK done=60/60 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-1000 p3 M3 status=OK done=60/60 net=13838 ops=0 t=14319 table=1343784 secs=0.010
+CollegeMsg-insert-1000 p3 S3 status=OK done=60/60 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-1000 p3 P3 status=OK done=60/60 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-1000 p3 M3 status=OK done=60/60 net=13838 ops=0 t=14319 table=1343784 secs=0.010
+CollegeMsg-insert-1000 p3 final 14319 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CELL-DONE p3 CollegeMsg insert 1000 14:19:17
+CollegeMsg-insert-100 p3 P3 status=OK done=599/599 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-100 p3 T3 status=OK done=599/599 net=13838 ops=0 t=14319 table=6244580 secs=0.016
+CollegeMsg-insert-100 p3 M3 status=OK done=599/599 net=13838 ops=0 t=14319 table=1344824 secs=0.010
+CollegeMsg-insert-100 p3 S3 status=OK done=599/599 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-100 p3 M3 status=OK done=599/599 net=13838 ops=0 t=14319 table=1344824 secs=0.010
+CollegeMsg-insert-100 p3 S3 status=OK done=599/599 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-100 p3 P3 status=OK done=599/599 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-100 p3 S3 status=OK done=599/599 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-100 p3 P3 status=OK done=599/599 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-100 p3 M3 status=OK done=599/599 net=13838 ops=0 t=14319 table=1344824 secs=0.010
+CollegeMsg-insert-100 p3 S3 status=OK done=599/599 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-100 p3 P3 status=OK done=599/599 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-100 p3 M3 status=OK done=599/599 net=13838 ops=0 t=14319 table=1344824 secs=0.010
+CollegeMsg-insert-100 p3 S3 status=OK done=599/599 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-100 p3 P3 status=OK done=599/599 net=13838 ops=0 t=14319 table=0 secs=0.003
+CollegeMsg-insert-100 p3 M3 status=OK done=599/599 net=13838 ops=0 t=14319 table=1344824 secs=0.010
+CollegeMsg-insert-100 p3 final 14319 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CELL-DONE p3 CollegeMsg insert 100 14:19:19
+email-Eu-core-temporal-expiry-1000 p3 P3 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.021
+email-Eu-core-temporal-expiry-1000 p3 T3 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.083
+email-Eu-core-temporal-expiry-1000 p3 M3 status=OK done=665/665 net=187712 ops=0 t=0 table=400252 secs=0.074
+email-Eu-core-temporal-expiry-1000 p3 S3 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.022
+email-Eu-core-temporal-expiry-1000 p3 M3 status=OK done=665/665 net=187712 ops=0 t=0 table=400252 secs=0.074
+email-Eu-core-temporal-expiry-1000 p3 T3 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.082
+email-Eu-core-temporal-expiry-1000 p3 S3 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.022
+email-Eu-core-temporal-expiry-1000 p3 P3 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.021
+email-Eu-core-temporal-expiry-1000 p3 S3 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.022
+email-Eu-core-temporal-expiry-1000 p3 P3 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.021
+email-Eu-core-temporal-expiry-1000 p3 M3 status=OK done=665/665 net=187712 ops=0 t=0 table=400252 secs=0.074
+email-Eu-core-temporal-expiry-1000 p3 T3 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.083
+email-Eu-core-temporal-expiry-1000 p3 T3 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.083
+email-Eu-core-temporal-expiry-1000 p3 S3 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.022
+email-Eu-core-temporal-expiry-1000 p3 P3 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.021
+email-Eu-core-temporal-expiry-1000 p3 M3 status=OK done=665/665 net=187712 ops=0 t=0 table=400252 secs=0.074
+email-Eu-core-temporal-expiry-1000 p3 T3 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.082
+email-Eu-core-temporal-expiry-1000 p3 S3 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.022
+email-Eu-core-temporal-expiry-1000 p3 P3 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.021
+email-Eu-core-temporal-expiry-1000 p3 M3 status=OK done=665/665 net=187712 ops=0 t=0 table=400252 secs=0.074
+email-Eu-core-temporal-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+CELL-DONE p3 email-Eu-core-temporal expiry 1000 14:19:22
+email-Eu-core-temporal-expiry-100 p3 P3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.027
+email-Eu-core-temporal-expiry-100 p3 T3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.098
+email-Eu-core-temporal-expiry-100 p3 M3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=404888 secs=0.088
+email-Eu-core-temporal-expiry-100 p3 S3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.027
+email-Eu-core-temporal-expiry-100 p3 M3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=404888 secs=0.087
+email-Eu-core-temporal-expiry-100 p3 T3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.098
+email-Eu-core-temporal-expiry-100 p3 S3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.027
+email-Eu-core-temporal-expiry-100 p3 P3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.026
+email-Eu-core-temporal-expiry-100 p3 S3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.027
+email-Eu-core-temporal-expiry-100 p3 P3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.027
+email-Eu-core-temporal-expiry-100 p3 M3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=404888 secs=0.087
+email-Eu-core-temporal-expiry-100 p3 T3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.098
+email-Eu-core-temporal-expiry-100 p3 T3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.098
+email-Eu-core-temporal-expiry-100 p3 S3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.027
+email-Eu-core-temporal-expiry-100 p3 P3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.026
+email-Eu-core-temporal-expiry-100 p3 M3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=404888 secs=0.088
+email-Eu-core-temporal-expiry-100 p3 T3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.098
+email-Eu-core-temporal-expiry-100 p3 S3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.027
+email-Eu-core-temporal-expiry-100 p3 P3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.027
+email-Eu-core-temporal-expiry-100 p3 M3 status=OK done=6647/6647 net=222950 ops=0 t=0 table=404888 secs=0.087
+email-Eu-core-temporal-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+CELL-DONE p3 email-Eu-core-temporal expiry 100 14:19:25
+email-Eu-core-temporal-insert-1000 p3 P3 status=OK done=333/333 net=16064 ops=0 t=105461 table=0 secs=0.007
+email-Eu-core-temporal-insert-1000 p3 T3 status=OK done=333/333 net=16064 ops=0 t=105461 table=4475424 secs=0.019
+email-Eu-core-temporal-insert-1000 p3 M3 status=OK done=333/333 net=16064 ops=0 t=105461 table=899636 secs=0.013
+email-Eu-core-temporal-insert-1000 p3 S3 status=OK done=333/333 net=16064 ops=0 t=105461 table=0 secs=0.007
+email-Eu-core-temporal-insert-1000 p3 M3 status=OK done=333/333 net=16064 ops=0 t=105461 table=899636 secs=0.013
+email-Eu-core-temporal-insert-1000 p3 T3 status=OK done=333/333 net=16064 ops=0 t=105461 table=4475424 secs=0.019
+email-Eu-core-temporal-insert-1000 p3 S3 status=OK done=333/333 net=16064 ops=0 t=105461 table=0 secs=0.007
+email-Eu-core-temporal-insert-1000 p3 P3 status=OK done=333/333 net=16064 ops=0 t=105461 table=0 secs=0.007
+email-Eu-core-temporal-insert-1000 p3 S3 status=OK done=333/333 net=16064 ops=0 t=105461 table=0 secs=0.008
+email-Eu-core-temporal-insert-1000 p3 P3 status=OK done=333/333 net=16064 ops=0 t=105461 table=0 secs=0.007
+email-Eu-core-temporal-insert-1000 p3 M3 status=OK done=333/333 net=16064 ops=0 t=105461 table=899636 secs=0.013
+email-Eu-core-temporal-insert-1000 p3 T3 status=OK done=333/333 net=16064 ops=0 t=105461 table=4475424 secs=0.019
+email-Eu-core-temporal-insert-1000 p3 T3 status=OK done=333/333 net=16064 ops=0 t=105461 table=4475424 secs=0.019
+email-Eu-core-temporal-insert-1000 p3 S3 status=OK done=333/333 net=16064 ops=0 t=105461 table=0 secs=0.008
+email-Eu-core-temporal-insert-1000 p3 P3 status=OK done=333/333 net=16064 ops=0 t=105461 table=0 secs=0.007
+email-Eu-core-temporal-insert-1000 p3 M3 status=OK done=333/333 net=16064 ops=0 t=105461 table=899636 secs=0.013
+email-Eu-core-temporal-insert-1000 p3 T3 status=OK done=333/333 net=16064 ops=0 t=105461 table=4475424 secs=0.019
+email-Eu-core-temporal-insert-1000 p3 S3 status=OK done=333/333 net=16064 ops=0 t=105461 table=0 secs=0.007
+email-Eu-core-temporal-insert-1000 p3 P3 status=OK done=333/333 net=16064 ops=0 t=105461 table=0 secs=0.007
+email-Eu-core-temporal-insert-1000 p3 M3 status=OK done=333/333 net=16064 ops=0 t=105461 table=899636 secs=0.013
+email-Eu-core-temporal-insert-1000 p3 final 105461 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+CELL-DONE p3 email-Eu-core-temporal insert 1000 14:19:27
+email-Eu-core-temporal-insert-100 p3 P3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=0 secs=0.007
+email-Eu-core-temporal-insert-100 p3 T3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=4476448 secs=0.019
+email-Eu-core-temporal-insert-100 p3 M3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=899296 secs=0.013
+email-Eu-core-temporal-insert-100 p3 S3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=0 secs=0.008
+email-Eu-core-temporal-insert-100 p3 M3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=899296 secs=0.013
+email-Eu-core-temporal-insert-100 p3 T3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=4476448 secs=0.019
+email-Eu-core-temporal-insert-100 p3 S3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=0 secs=0.008
+email-Eu-core-temporal-insert-100 p3 P3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=0 secs=0.008
+email-Eu-core-temporal-insert-100 p3 S3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=0 secs=0.008
+email-Eu-core-temporal-insert-100 p3 P3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=0 secs=0.007
+email-Eu-core-temporal-insert-100 p3 M3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=899296 secs=0.013
+email-Eu-core-temporal-insert-100 p3 T3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=4476448 secs=0.019
+email-Eu-core-temporal-insert-100 p3 T3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=4476448 secs=0.019
+email-Eu-core-temporal-insert-100 p3 S3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=0 secs=0.008
+email-Eu-core-temporal-insert-100 p3 P3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=0 secs=0.007
+email-Eu-core-temporal-insert-100 p3 M3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=899296 secs=0.013
+email-Eu-core-temporal-insert-100 p3 T3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=4476448 secs=0.020
+email-Eu-core-temporal-insert-100 p3 S3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=0 secs=0.008
+email-Eu-core-temporal-insert-100 p3 P3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=0 secs=0.007
+email-Eu-core-temporal-insert-100 p3 M3 status=OK done=3324/3324 net=16064 ops=0 t=105461 table=899296 secs=0.013
+email-Eu-core-temporal-insert-100 p3 final 105461 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+CELL-DONE p3 email-Eu-core-temporal insert 100 14:19:29
+sx-mathoverflow-expiry-1000 p3 P3 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.041
+sx-mathoverflow-expiry-1000 p3 T3 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.200
+sx-mathoverflow-expiry-1000 p3 M3 status=OK done=781/781 net=485368 ops=0 t=0 table=1537264 secs=0.164
+sx-mathoverflow-expiry-1000 p3 S3 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.041
+sx-mathoverflow-expiry-1000 p3 M3 status=OK done=781/781 net=485368 ops=0 t=0 table=1537264 secs=0.163
+sx-mathoverflow-expiry-1000 p3 T3 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.200
+sx-mathoverflow-expiry-1000 p3 S3 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.041
+sx-mathoverflow-expiry-1000 p3 P3 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.042
+sx-mathoverflow-expiry-1000 p3 S3 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.041
+sx-mathoverflow-expiry-1000 p3 P3 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.041
+sx-mathoverflow-expiry-1000 p3 M3 status=OK done=781/781 net=485368 ops=0 t=0 table=1537264 secs=0.164
+sx-mathoverflow-expiry-1000 p3 T3 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.199
+sx-mathoverflow-expiry-1000 p3 T3 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.199
+sx-mathoverflow-expiry-1000 p3 S3 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.041
+sx-mathoverflow-expiry-1000 p3 P3 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.041
+sx-mathoverflow-expiry-1000 p3 M3 status=OK done=781/781 net=485368 ops=0 t=0 table=1537264 secs=0.163
+sx-mathoverflow-expiry-1000 p3 T3 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.201
+sx-mathoverflow-expiry-1000 p3 S3 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.041
+sx-mathoverflow-expiry-1000 p3 P3 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.041
+sx-mathoverflow-expiry-1000 p3 M3 status=OK done=781/781 net=485368 ops=0 t=0 table=1537264 secs=0.163
+sx-mathoverflow-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+CELL-DONE p3 sx-mathoverflow expiry 1000 14:19:33
+sx-mathoverflow-expiry-100 p3 P3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.049
+sx-mathoverflow-expiry-100 p3 T3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.279
+sx-mathoverflow-expiry-100 p3 M3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1546256 secs=0.170
+sx-mathoverflow-expiry-100 p3 S3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.043
+sx-mathoverflow-expiry-100 p3 M3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1546256 secs=0.171
+sx-mathoverflow-expiry-100 p3 S3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.044
+sx-mathoverflow-expiry-100 p3 P3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.048
+sx-mathoverflow-expiry-100 p3 S3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.043
+sx-mathoverflow-expiry-100 p3 P3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.048
+sx-mathoverflow-expiry-100 p3 M3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1546256 secs=0.170
+sx-mathoverflow-expiry-100 p3 S3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.043
+sx-mathoverflow-expiry-100 p3 P3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.049
+sx-mathoverflow-expiry-100 p3 M3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1546256 secs=0.170
+sx-mathoverflow-expiry-100 p3 S3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.043
+sx-mathoverflow-expiry-100 p3 P3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.049
+sx-mathoverflow-expiry-100 p3 M3 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1546256 secs=0.172
+sx-mathoverflow-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CELL-DONE p3 sx-mathoverflow expiry 100 14:19:37
+sx-mathoverflow-insert-1000 p3 P3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=0 secs=0.073
+sx-mathoverflow-insert-1000 p3 T3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=429156776 secs=1.696
+sx-mathoverflow-insert-1000 p3 M3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=7966016 secs=0.112
+sx-mathoverflow-insert-1000 p3 S3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=0 secs=0.087
+sx-mathoverflow-insert-1000 p3 M3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=7966016 secs=0.109
+sx-mathoverflow-insert-1000 p3 S3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=0 secs=0.083
+sx-mathoverflow-insert-1000 p3 P3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=0 secs=0.074
+sx-mathoverflow-insert-1000 p3 S3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=0 secs=0.082
+sx-mathoverflow-insert-1000 p3 P3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=0 secs=0.074
+sx-mathoverflow-insert-1000 p3 M3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=7966016 secs=0.111
+sx-mathoverflow-insert-1000 p3 S3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=0 secs=0.082
+sx-mathoverflow-insert-1000 p3 P3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=0 secs=0.073
+sx-mathoverflow-insert-1000 p3 M3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=7966016 secs=0.109
+sx-mathoverflow-insert-1000 p3 S3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=0 secs=0.082
+sx-mathoverflow-insert-1000 p3 P3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=0 secs=0.072
+sx-mathoverflow-insert-1000 p3 M3 status=OK done=391/391 net=187986 ops=0 t=1403919 table=7966016 secs=0.108
+sx-mathoverflow-insert-1000 p3 final 1403919 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CELL-DONE p3 sx-mathoverflow insert 1000 14:19:41
+sx-mathoverflow-insert-100 p3 P3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=0 secs=0.081
+sx-mathoverflow-insert-100 p3 T3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=428847464 secs=1.655
+sx-mathoverflow-insert-100 p3 M3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=7964156 secs=0.107
+sx-mathoverflow-insert-100 p3 S3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=0 secs=0.081
+sx-mathoverflow-insert-100 p3 M3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=7964156 secs=0.107
+sx-mathoverflow-insert-100 p3 S3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=0 secs=0.082
+sx-mathoverflow-insert-100 p3 P3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=0 secs=0.079
+sx-mathoverflow-insert-100 p3 S3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=0 secs=0.082
+sx-mathoverflow-insert-100 p3 P3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=0 secs=0.080
+sx-mathoverflow-insert-100 p3 M3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=7964156 secs=0.106
+sx-mathoverflow-insert-100 p3 S3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=0 secs=0.082
+sx-mathoverflow-insert-100 p3 P3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=0 secs=0.079
+sx-mathoverflow-insert-100 p3 M3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=7964156 secs=0.106
+sx-mathoverflow-insert-100 p3 S3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=0 secs=0.082
+sx-mathoverflow-insert-100 p3 P3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=0 secs=0.080
+sx-mathoverflow-insert-100 p3 M3 status=OK done=3905/3905 net=187986 ops=0 t=1403919 table=7964156 secs=0.106
+sx-mathoverflow-insert-100 p3 final 1403919 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CELL-DONE p3 sx-mathoverflow insert 100 14:19:46
+CollegeMsg-expiry-1000 p4 P4 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.006
+CollegeMsg-expiry-1000 p4 T4 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.023
+CollegeMsg-expiry-1000 p4 M4 status=OK done=120/120 net=31024 ops=0 t=0 table=682612 secs=0.016
+CollegeMsg-expiry-1000 p4 B4 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.021
+CollegeMsg-expiry-1000 p4 A4 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.037
+CollegeMsg-expiry-1000 p4 S4 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.006
+CollegeMsg-expiry-1000 p4 T4 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.023
+CollegeMsg-expiry-1000 p4 S4 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.007
+CollegeMsg-expiry-1000 p4 P4 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.006
+CollegeMsg-expiry-1000 p4 B4 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.021
+CollegeMsg-expiry-1000 p4 M4 status=OK done=120/120 net=31024 ops=0 t=0 table=682612 secs=0.016
+CollegeMsg-expiry-1000 p4 T4 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.023
+CollegeMsg-expiry-1000 p4 S4 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.007
+CollegeMsg-expiry-1000 p4 P4 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.006
+CollegeMsg-expiry-1000 p4 B4 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.021
+CollegeMsg-expiry-1000 p4 M4 status=OK done=120/120 net=31024 ops=0 t=0 table=682612 secs=0.016
+CollegeMsg-expiry-1000 p4 S4 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.007
+CollegeMsg-expiry-1000 p4 P4 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.006
+CollegeMsg-expiry-1000 p4 B4 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.021
+CollegeMsg-expiry-1000 p4 M4 status=OK done=120/120 net=31024 ops=0 t=0 table=682612 secs=0.016
+CollegeMsg-expiry-1000 p4 T4 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.023
+CollegeMsg-expiry-1000 p4 S4 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.006
+CollegeMsg-expiry-1000 p4 P4 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.006
+CollegeMsg-expiry-1000 p4 B4 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.021
+CollegeMsg-expiry-1000 p4 M4 status=OK done=120/120 net=31024 ops=0 t=0 table=682612 secs=0.016
+CollegeMsg-expiry-1000 p4 T4 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.023
+CollegeMsg-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CollegeMsg-expiry-1000 p4 final 0 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+CELL-DONE p4 CollegeMsg expiry 1000 14:19:48
+CollegeMsg-expiry-100 p4 P4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.008
+CollegeMsg-expiry-100 p4 T4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.024
+CollegeMsg-expiry-100 p4 M4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=686364 secs=0.017
+CollegeMsg-expiry-100 p4 B4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.023
+CollegeMsg-expiry-100 p4 A4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.188
+CollegeMsg-expiry-100 p4 S4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.007
+CollegeMsg-expiry-100 p4 T4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.024
+CollegeMsg-expiry-100 p4 S4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.007
+CollegeMsg-expiry-100 p4 P4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.007
+CollegeMsg-expiry-100 p4 B4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.023
+CollegeMsg-expiry-100 p4 M4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=686364 secs=0.017
+CollegeMsg-expiry-100 p4 T4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.024
+CollegeMsg-expiry-100 p4 S4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.007
+CollegeMsg-expiry-100 p4 P4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.007
+CollegeMsg-expiry-100 p4 B4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.023
+CollegeMsg-expiry-100 p4 M4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=686364 secs=0.017
+CollegeMsg-expiry-100 p4 S4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.007
+CollegeMsg-expiry-100 p4 P4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.008
+CollegeMsg-expiry-100 p4 B4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.024
+CollegeMsg-expiry-100 p4 M4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=686364 secs=0.017
+CollegeMsg-expiry-100 p4 T4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.024
+CollegeMsg-expiry-100 p4 S4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.007
+CollegeMsg-expiry-100 p4 P4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.008
+CollegeMsg-expiry-100 p4 B4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.024
+CollegeMsg-expiry-100 p4 M4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=686364 secs=0.017
+CollegeMsg-expiry-100 p4 T4 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.024
+CollegeMsg-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+CollegeMsg-expiry-100 p4 final 0 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+CELL-DONE p4 CollegeMsg expiry 100 14:19:51
+CollegeMsg-insert-1000 p4 P4 status=OK done=60/60 net=13838 ops=0 t=729064 table=0 secs=0.005
+CollegeMsg-insert-1000 p4 T4 status=OK done=60/60 net=13838 ops=0 t=729064 table=6259428 secs=0.016
+CollegeMsg-insert-1000 p4 M4 status=OK done=60/60 net=13838 ops=0 t=729064 table=1343784 secs=0.012
+CollegeMsg-insert-1000 p4 B4 status=OK done=60/60 net=13838 ops=0 t=729064 table=0 secs=0.017
+CollegeMsg-insert-1000 p4 A4 status=OK done=60/60 net=13838 ops=0 t=729064 table=0 secs=0.071
+CollegeMsg-insert-1000 p4 S4 status=OK done=60/60 net=13838 ops=0 t=729064 table=0 secs=0.005
+CollegeMsg-insert-1000 p4 T4 status=OK done=60/60 net=13838 ops=0 t=729064 table=6259428 secs=0.016
+CollegeMsg-insert-1000 p4 S4 status=OK done=60/60 net=13838 ops=0 t=729064 table=0 secs=0.006
+CollegeMsg-insert-1000 p4 P4 status=OK done=60/60 net=13838 ops=0 t=729064 table=0 secs=0.005
+CollegeMsg-insert-1000 p4 B4 status=OK done=60/60 net=13838 ops=0 t=729064 table=0 secs=0.018
+CollegeMsg-insert-1000 p4 M4 status=OK done=60/60 net=13838 ops=0 t=729064 table=1343784 secs=0.012
+CollegeMsg-insert-1000 p4 T4 status=OK done=60/60 net=13838 ops=0 t=729064 table=6259428 secs=0.016
+CollegeMsg-insert-1000 p4 S4 status=OK done=60/60 net=13838 ops=0 t=729064 table=0 secs=0.005
+CollegeMsg-insert-1000 p4 P4 status=OK done=60/60 net=13838 ops=0 t=729064 table=0 secs=0.005
+CollegeMsg-insert-1000 p4 B4 status=OK done=60/60 net=13838 ops=0 t=729064 table=0 secs=0.017
+CollegeMsg-insert-1000 p4 M4 status=OK done=60/60 net=13838 ops=0 t=729064 table=1343784 secs=0.012
+CollegeMsg-insert-1000 p4 S4 status=OK done=60/60 net=13838 ops=0 t=729064 table=0 secs=0.005
+CollegeMsg-insert-1000 p4 P4 status=OK done=60/60 net=13838 ops=0 t=729064 table=0 secs=0.005
+CollegeMsg-insert-1000 p4 B4 status=OK done=60/60 net=13838 ops=0 t=729064 table=0 secs=0.017
+CollegeMsg-insert-1000 p4 M4 status=OK done=60/60 net=13838 ops=0 t=729064 table=1343784 secs=0.012
+CollegeMsg-insert-1000 p4 T4 status=OK done=60/60 net=13838 ops=0 t=729064 table=6259428 secs=0.016
+CollegeMsg-insert-1000 p4 S4 status=OK done=60/60 net=13838 ops=0 t=729064 table=0 secs=0.005
+CollegeMsg-insert-1000 p4 P4 status=OK done=60/60 net=13838 ops=0 t=729064 table=0 secs=0.005
+CollegeMsg-insert-1000 p4 B4 status=OK done=60/60 net=13838 ops=0 t=729064 table=0 secs=0.017
+CollegeMsg-insert-1000 p4 M4 status=OK done=60/60 net=13838 ops=0 t=729064 table=1343784 secs=0.012
+CollegeMsg-insert-1000 p4 T4 status=OK done=60/60 net=13838 ops=0 t=729064 table=6259428 secs=0.016
+CollegeMsg-insert-1000 p3 final 14319 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CollegeMsg-insert-1000 p4 final 729064 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+CELL-DONE p4 CollegeMsg insert 1000 14:19:53
+CollegeMsg-insert-100 p4 P4 status=OK done=599/599 net=13838 ops=0 t=729064 table=0 secs=0.005
+CollegeMsg-insert-100 p4 T4 status=OK done=599/599 net=13838 ops=0 t=729064 table=6244580 secs=0.016
+CollegeMsg-insert-100 p4 M4 status=OK done=599/599 net=13838 ops=0 t=729064 table=1344824 secs=0.013
+CollegeMsg-insert-100 p4 B4 status=OK done=599/599 net=13838 ops=0 t=729064 table=0 secs=0.020
+CollegeMsg-insert-100 p4 A4 status=OK done=599/599 net=13838 ops=0 t=729064 table=0 secs=0.359
+CollegeMsg-insert-100 p4 S4 status=OK done=599/599 net=13838 ops=0 t=729064 table=0 secs=0.006
+CollegeMsg-insert-100 p4 T4 status=OK done=599/599 net=13838 ops=0 t=729064 table=6244580 secs=0.016
+CollegeMsg-insert-100 p4 S4 status=OK done=599/599 net=13838 ops=0 t=729064 table=0 secs=0.006
+CollegeMsg-insert-100 p4 P4 status=OK done=599/599 net=13838 ops=0 t=729064 table=0 secs=0.005
+CollegeMsg-insert-100 p4 B4 status=OK done=599/599 net=13838 ops=0 t=729064 table=0 secs=0.020
+CollegeMsg-insert-100 p4 M4 status=OK done=599/599 net=13838 ops=0 t=729064 table=1344824 secs=0.013
+CollegeMsg-insert-100 p4 T4 status=OK done=599/599 net=13838 ops=0 t=729064 table=6244580 secs=0.016
+CollegeMsg-insert-100 p4 S4 status=OK done=599/599 net=13838 ops=0 t=729064 table=0 secs=0.006
+CollegeMsg-insert-100 p4 P4 status=OK done=599/599 net=13838 ops=0 t=729064 table=0 secs=0.005
+CollegeMsg-insert-100 p4 B4 status=OK done=599/599 net=13838 ops=0 t=729064 table=0 secs=0.020
+CollegeMsg-insert-100 p4 M4 status=OK done=599/599 net=13838 ops=0 t=729064 table=1344824 secs=0.013
+CollegeMsg-insert-100 p4 S4 status=OK done=599/599 net=13838 ops=0 t=729064 table=0 secs=0.006
+CollegeMsg-insert-100 p4 P4 status=OK done=599/599 net=13838 ops=0 t=729064 table=0 secs=0.005
+CollegeMsg-insert-100 p4 B4 status=OK done=599/599 net=13838 ops=0 t=729064 table=0 secs=0.020
+CollegeMsg-insert-100 p4 M4 status=OK done=599/599 net=13838 ops=0 t=729064 table=1344824 secs=0.012
+CollegeMsg-insert-100 p4 T4 status=OK done=599/599 net=13838 ops=0 t=729064 table=6244580 secs=0.016
+CollegeMsg-insert-100 p4 S4 status=OK done=599/599 net=13838 ops=0 t=729064 table=0 secs=0.006
+CollegeMsg-insert-100 p4 P4 status=OK done=599/599 net=13838 ops=0 t=729064 table=0 secs=0.005
+CollegeMsg-insert-100 p4 B4 status=OK done=599/599 net=13838 ops=0 t=729064 table=0 secs=0.020
+CollegeMsg-insert-100 p4 M4 status=OK done=599/599 net=13838 ops=0 t=729064 table=1344824 secs=0.013
+CollegeMsg-insert-100 p4 T4 status=OK done=599/599 net=13838 ops=0 t=729064 table=6244580 secs=0.016
+CollegeMsg-insert-100 p3 final 14319 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CollegeMsg-insert-100 p4 final 729064 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+CELL-DONE p4 CollegeMsg insert 100 14:19:56
+email-Eu-core-temporal-expiry-1000 p4 P4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.030
+email-Eu-core-temporal-expiry-1000 p4 T4 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.087
+email-Eu-core-temporal-expiry-1000 p4 M4 status=OK done=665/665 net=187712 ops=0 t=0 table=400252 secs=0.084
+email-Eu-core-temporal-expiry-1000 p4 B4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.101
+email-Eu-core-temporal-expiry-1000 p4 A4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.118
+email-Eu-core-temporal-expiry-1000 p4 S4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.029
+email-Eu-core-temporal-expiry-1000 p4 A4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.118
+email-Eu-core-temporal-expiry-1000 p4 T4 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.087
+email-Eu-core-temporal-expiry-1000 p4 S4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.029
+email-Eu-core-temporal-expiry-1000 p4 P4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.030
+email-Eu-core-temporal-expiry-1000 p4 B4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.101
+email-Eu-core-temporal-expiry-1000 p4 M4 status=OK done=665/665 net=187712 ops=0 t=0 table=400252 secs=0.084
+email-Eu-core-temporal-expiry-1000 p4 A4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.118
+email-Eu-core-temporal-expiry-1000 p4 T4 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.088
+email-Eu-core-temporal-expiry-1000 p4 S4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.029
+email-Eu-core-temporal-expiry-1000 p4 P4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.030
+email-Eu-core-temporal-expiry-1000 p4 B4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.101
+email-Eu-core-temporal-expiry-1000 p4 M4 status=OK done=665/665 net=187712 ops=0 t=0 table=400252 secs=0.084
+email-Eu-core-temporal-expiry-1000 p4 S4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.029
+email-Eu-core-temporal-expiry-1000 p4 P4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.030
+email-Eu-core-temporal-expiry-1000 p4 B4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.101
+email-Eu-core-temporal-expiry-1000 p4 M4 status=OK done=665/665 net=187712 ops=0 t=0 table=400252 secs=0.084
+email-Eu-core-temporal-expiry-1000 p4 A4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.118
+email-Eu-core-temporal-expiry-1000 p4 T4 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.088
+email-Eu-core-temporal-expiry-1000 p4 S4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.029
+email-Eu-core-temporal-expiry-1000 p4 P4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.030
+email-Eu-core-temporal-expiry-1000 p4 B4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.102
+email-Eu-core-temporal-expiry-1000 p4 M4 status=OK done=665/665 net=187712 ops=0 t=0 table=400252 secs=0.084
+email-Eu-core-temporal-expiry-1000 p4 A4 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.118
+email-Eu-core-temporal-expiry-1000 p4 T4 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.087
+email-Eu-core-temporal-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+email-Eu-core-temporal-expiry-1000 p4 final 0 ops A4.t1:0 A4.t2:0 A4.t3:0 A4.t4:0 A4.t5:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+CELL-DONE p4 email-Eu-core-temporal expiry 1000 14:20:01
+email-Eu-core-temporal-expiry-100 p4 P4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.037
+email-Eu-core-temporal-expiry-100 p4 T4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.104
+email-Eu-core-temporal-expiry-100 p4 M4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=404888 secs=0.100
+email-Eu-core-temporal-expiry-100 p4 B4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.118
+email-Eu-core-temporal-expiry-100 p4 A4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.493
+email-Eu-core-temporal-expiry-100 p4 S4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.035
+email-Eu-core-temporal-expiry-100 p4 T4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.104
+email-Eu-core-temporal-expiry-100 p4 S4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.035
+email-Eu-core-temporal-expiry-100 p4 P4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.038
+email-Eu-core-temporal-expiry-100 p4 B4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.119
+email-Eu-core-temporal-expiry-100 p4 M4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=404888 secs=0.100
+email-Eu-core-temporal-expiry-100 p4 T4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.103
+email-Eu-core-temporal-expiry-100 p4 S4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.035
+email-Eu-core-temporal-expiry-100 p4 P4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.037
+email-Eu-core-temporal-expiry-100 p4 B4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.118
+email-Eu-core-temporal-expiry-100 p4 M4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=404888 secs=0.100
+email-Eu-core-temporal-expiry-100 p4 S4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.035
+email-Eu-core-temporal-expiry-100 p4 P4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.037
+email-Eu-core-temporal-expiry-100 p4 B4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.119
+email-Eu-core-temporal-expiry-100 p4 M4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=404888 secs=0.100
+email-Eu-core-temporal-expiry-100 p4 T4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.104
+email-Eu-core-temporal-expiry-100 p4 S4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.035
+email-Eu-core-temporal-expiry-100 p4 P4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.037
+email-Eu-core-temporal-expiry-100 p4 B4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=0.118
+email-Eu-core-temporal-expiry-100 p4 M4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=404888 secs=0.100
+email-Eu-core-temporal-expiry-100 p4 T4 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.104
+email-Eu-core-temporal-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+email-Eu-core-temporal-expiry-100 p4 final 0 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+CELL-DONE p4 email-Eu-core-temporal expiry 100 14:20:06
+email-Eu-core-temporal-insert-1000 p4 P4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=0 secs=0.012
+email-Eu-core-temporal-insert-1000 p4 T4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=4475424 secs=0.019
+email-Eu-core-temporal-insert-1000 p4 M4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=899636 secs=0.020
+email-Eu-core-temporal-insert-1000 p4 B4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=0 secs=0.041
+email-Eu-core-temporal-insert-1000 p4 A4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=0 secs=0.670
+email-Eu-core-temporal-insert-1000 p4 S4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=0 secs=0.013
+email-Eu-core-temporal-insert-1000 p4 T4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=4475424 secs=0.019
+email-Eu-core-temporal-insert-1000 p4 S4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=0 secs=0.013
+email-Eu-core-temporal-insert-1000 p4 P4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=0 secs=0.012
+email-Eu-core-temporal-insert-1000 p4 B4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=0 secs=0.041
+email-Eu-core-temporal-insert-1000 p4 M4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=899636 secs=0.021
+email-Eu-core-temporal-insert-1000 p4 T4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=4475424 secs=0.019
+email-Eu-core-temporal-insert-1000 p4 S4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=0 secs=0.013
+email-Eu-core-temporal-insert-1000 p4 P4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=0 secs=0.012
+email-Eu-core-temporal-insert-1000 p4 B4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=0 secs=0.041
+email-Eu-core-temporal-insert-1000 p4 M4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=899636 secs=0.021
+email-Eu-core-temporal-insert-1000 p4 S4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=0 secs=0.013
+email-Eu-core-temporal-insert-1000 p4 P4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=0 secs=0.012
+email-Eu-core-temporal-insert-1000 p4 B4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=0 secs=0.041
+email-Eu-core-temporal-insert-1000 p4 M4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=899636 secs=0.021
+email-Eu-core-temporal-insert-1000 p4 T4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=4475424 secs=0.019
+email-Eu-core-temporal-insert-1000 p4 S4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=0 secs=0.013
+email-Eu-core-temporal-insert-1000 p4 P4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=0 secs=0.012
+email-Eu-core-temporal-insert-1000 p4 B4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=0 secs=0.041
+email-Eu-core-temporal-insert-1000 p4 M4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=899636 secs=0.021
+email-Eu-core-temporal-insert-1000 p4 T4 status=OK done=333/333 net=16064 ops=0 t=4647873 table=4475424 secs=0.019
+email-Eu-core-temporal-insert-1000 p3 final 105461 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+email-Eu-core-temporal-insert-1000 p4 final 4647873 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+CELL-DONE p4 email-Eu-core-temporal insert 1000 14:20:09
+email-Eu-core-temporal-insert-100 p4 P4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=0 secs=0.013
+email-Eu-core-temporal-insert-100 p4 T4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=4476448 secs=0.019
+email-Eu-core-temporal-insert-100 p4 M4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=899296 secs=0.021
+email-Eu-core-temporal-insert-100 p4 B4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=0 secs=0.044
+email-Eu-core-temporal-insert-100 p4 A4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=0 secs=1.697
+email-Eu-core-temporal-insert-100 p4 S4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=0 secs=0.013
+email-Eu-core-temporal-insert-100 p4 T4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=4476448 secs=0.020
+email-Eu-core-temporal-insert-100 p4 S4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=0 secs=0.013
+email-Eu-core-temporal-insert-100 p4 P4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=0 secs=0.012
+email-Eu-core-temporal-insert-100 p4 B4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=0 secs=0.044
+email-Eu-core-temporal-insert-100 p4 M4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=899296 secs=0.020
+email-Eu-core-temporal-insert-100 p4 T4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=4476448 secs=0.020
+email-Eu-core-temporal-insert-100 p4 S4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=0 secs=0.013
+email-Eu-core-temporal-insert-100 p4 P4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=0 secs=0.012
+email-Eu-core-temporal-insert-100 p4 B4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=0 secs=0.044
+email-Eu-core-temporal-insert-100 p4 M4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=899296 secs=0.021
+email-Eu-core-temporal-insert-100 p4 S4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=0 secs=0.013
+email-Eu-core-temporal-insert-100 p4 P4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=0 secs=0.013
+email-Eu-core-temporal-insert-100 p4 B4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=0 secs=0.044
+email-Eu-core-temporal-insert-100 p4 M4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=899296 secs=0.021
+email-Eu-core-temporal-insert-100 p4 T4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=4476448 secs=0.019
+email-Eu-core-temporal-insert-100 p4 S4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=0 secs=0.013
+email-Eu-core-temporal-insert-100 p4 P4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=0 secs=0.012
+email-Eu-core-temporal-insert-100 p4 B4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=0 secs=0.044
+email-Eu-core-temporal-insert-100 p4 M4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=899296 secs=0.021
+email-Eu-core-temporal-insert-100 p4 T4 status=OK done=3324/3324 net=16064 ops=0 t=4647873 table=4476448 secs=0.019
+email-Eu-core-temporal-insert-100 p3 final 105461 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+email-Eu-core-temporal-insert-100 p4 final 4647873 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+CELL-DONE p4 email-Eu-core-temporal insert 100 14:20:13
+sx-mathoverflow-expiry-1000 p4 P4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.061
+sx-mathoverflow-expiry-1000 p4 T4 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.207
+sx-mathoverflow-expiry-1000 p4 M4 status=OK done=781/781 net=485368 ops=0 t=0 table=1537264 secs=0.177
+sx-mathoverflow-expiry-1000 p4 B4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.189
+sx-mathoverflow-expiry-1000 p4 A4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.154
+sx-mathoverflow-expiry-1000 p4 S4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.056
+sx-mathoverflow-expiry-1000 p4 A4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.153
+sx-mathoverflow-expiry-1000 p4 T4 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.207
+sx-mathoverflow-expiry-1000 p4 S4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.056
+sx-mathoverflow-expiry-1000 p4 P4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.061
+sx-mathoverflow-expiry-1000 p4 B4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.190
+sx-mathoverflow-expiry-1000 p4 M4 status=OK done=781/781 net=485368 ops=0 t=0 table=1537264 secs=0.177
+sx-mathoverflow-expiry-1000 p4 A4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.153
+sx-mathoverflow-expiry-1000 p4 T4 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.206
+sx-mathoverflow-expiry-1000 p4 S4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.056
+sx-mathoverflow-expiry-1000 p4 P4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.061
+sx-mathoverflow-expiry-1000 p4 B4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.189
+sx-mathoverflow-expiry-1000 p4 M4 status=OK done=781/781 net=485368 ops=0 t=0 table=1537264 secs=0.178
+sx-mathoverflow-expiry-1000 p4 S4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.056
+sx-mathoverflow-expiry-1000 p4 P4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.061
+sx-mathoverflow-expiry-1000 p4 B4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.189
+sx-mathoverflow-expiry-1000 p4 M4 status=OK done=781/781 net=485368 ops=0 t=0 table=1537264 secs=0.178
+sx-mathoverflow-expiry-1000 p4 A4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.153
+sx-mathoverflow-expiry-1000 p4 T4 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.207
+sx-mathoverflow-expiry-1000 p4 S4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.056
+sx-mathoverflow-expiry-1000 p4 P4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.060
+sx-mathoverflow-expiry-1000 p4 B4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.189
+sx-mathoverflow-expiry-1000 p4 M4 status=OK done=781/781 net=485368 ops=0 t=0 table=1537264 secs=0.177
+sx-mathoverflow-expiry-1000 p4 A4 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.153
+sx-mathoverflow-expiry-1000 p4 T4 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.207
+sx-mathoverflow-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+sx-mathoverflow-expiry-1000 p4 final 0 ops A4.t1:0 A4.t2:0 A4.t3:0 A4.t4:0 A4.t5:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+CELL-DONE p4 sx-mathoverflow expiry 1000 14:20:20
+sx-mathoverflow-expiry-100 p4 P4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.070
+sx-mathoverflow-expiry-100 p4 T4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.223
+sx-mathoverflow-expiry-100 p4 M4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1546256 secs=0.187
+sx-mathoverflow-expiry-100 p4 B4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.226
+sx-mathoverflow-expiry-100 p4 A4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.592
+sx-mathoverflow-expiry-100 p4 S4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.060
+sx-mathoverflow-expiry-100 p4 T4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.224
+sx-mathoverflow-expiry-100 p4 S4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.060
+sx-mathoverflow-expiry-100 p4 P4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.070
+sx-mathoverflow-expiry-100 p4 B4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.225
+sx-mathoverflow-expiry-100 p4 M4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1546256 secs=0.187
+sx-mathoverflow-expiry-100 p4 T4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.223
+sx-mathoverflow-expiry-100 p4 S4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.060
+sx-mathoverflow-expiry-100 p4 P4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.070
+sx-mathoverflow-expiry-100 p4 B4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.225
+sx-mathoverflow-expiry-100 p4 M4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1546256 secs=0.187
+sx-mathoverflow-expiry-100 p4 S4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.060
+sx-mathoverflow-expiry-100 p4 P4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.070
+sx-mathoverflow-expiry-100 p4 B4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.225
+sx-mathoverflow-expiry-100 p4 M4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1546256 secs=0.187
+sx-mathoverflow-expiry-100 p4 T4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.224
+sx-mathoverflow-expiry-100 p4 S4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.060
+sx-mathoverflow-expiry-100 p4 P4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.070
+sx-mathoverflow-expiry-100 p4 B4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=0.226
+sx-mathoverflow-expiry-100 p4 M4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1546256 secs=0.187
+sx-mathoverflow-expiry-100 p4 T4 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.223
+sx-mathoverflow-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-mathoverflow-expiry-100 p4 final 0 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+CELL-DONE p4 sx-mathoverflow expiry 100 14:20:27
+sx-mathoverflow-insert-1000 p4 P4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=0 secs=0.379
+sx-mathoverflow-insert-1000 p4 T4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=429156776 secs=1.642
+sx-mathoverflow-insert-1000 p4 M4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=7966016 secs=0.441
+sx-mathoverflow-insert-1000 p4 B4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=0 secs=2.217
+sx-mathoverflow-insert-1000 p4 A4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=0 secs=14.704
+sx-mathoverflow-insert-1000 p4 S4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=0 secs=0.504
+sx-mathoverflow-insert-1000 p4 T4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=429156776 secs=1.653
+sx-mathoverflow-insert-1000 p4 S4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=0 secs=0.506
+sx-mathoverflow-insert-1000 p4 P4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=0 secs=0.397
+sx-mathoverflow-insert-1000 p4 M4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=7966016 secs=0.447
+sx-mathoverflow-insert-1000 p4 T4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=429156776 secs=1.635
+sx-mathoverflow-insert-1000 p4 S4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=0 secs=0.502
+sx-mathoverflow-insert-1000 p4 P4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=0 secs=0.378
+sx-mathoverflow-insert-1000 p4 M4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=7966016 secs=0.444
+sx-mathoverflow-insert-1000 p4 S4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=0 secs=0.503
+sx-mathoverflow-insert-1000 p4 P4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=0 secs=0.379
+sx-mathoverflow-insert-1000 p4 M4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=7966016 secs=0.442
+sx-mathoverflow-insert-1000 p4 T4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=429156776 secs=1.631
+sx-mathoverflow-insert-1000 p4 S4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=0 secs=0.503
+sx-mathoverflow-insert-1000 p4 P4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=0 secs=0.379
+sx-mathoverflow-insert-1000 p4 M4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=7966016 secs=0.444
+sx-mathoverflow-insert-1000 p4 T4 status=OK done=391/391 net=187986 ops=0 t=185375938 table=429156776 secs=1.638
+sx-mathoverflow-insert-1000 p3 final 1403919 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-mathoverflow-insert-1000 p4 final 185375938 ops A4.t1:0 B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+CELL-DONE p4 sx-mathoverflow insert 1000 14:21:01
+sx-mathoverflow-insert-100 p4 P4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=0 secs=0.436
+sx-mathoverflow-insert-100 p4 T4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=428847464 secs=1.626
+sx-mathoverflow-insert-100 p4 M4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=7964156 secs=0.442
+sx-mathoverflow-insert-100 p4 B4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=0 secs=3.701
+sx-mathoverflow-insert-100 p4 A4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=0 secs=111.594
+sx-mathoverflow-insert-100 p4 S4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=0 secs=0.503
+sx-mathoverflow-insert-100 p4 T4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=428847464 secs=1.623
+sx-mathoverflow-insert-100 p4 S4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=0 secs=0.504
+sx-mathoverflow-insert-100 p4 P4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=0 secs=0.435
+sx-mathoverflow-insert-100 p4 M4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=7964156 secs=0.442
+sx-mathoverflow-insert-100 p4 T4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=428847464 secs=1.626
+sx-mathoverflow-insert-100 p4 S4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=0 secs=0.502
+sx-mathoverflow-insert-100 p4 P4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=0 secs=0.436
+sx-mathoverflow-insert-100 p4 M4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=7964156 secs=0.442
+sx-mathoverflow-insert-100 p4 S4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=0 secs=0.504
+sx-mathoverflow-insert-100 p4 P4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=0 secs=0.436
+sx-mathoverflow-insert-100 p4 M4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=7964156 secs=0.443
+sx-mathoverflow-insert-100 p4 T4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=428847464 secs=1.627
+sx-mathoverflow-insert-100 p4 S4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=0 secs=0.503
+sx-mathoverflow-insert-100 p4 P4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=0 secs=0.435
+sx-mathoverflow-insert-100 p4 M4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=7964156 secs=0.442
+sx-mathoverflow-insert-100 p4 T4 status=OK done=3905/3905 net=187986 ops=0 t=185375938 table=428847464 secs=1.626
+sx-mathoverflow-insert-100 p3 final 1403919 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-mathoverflow-insert-100 p4 final 185375938 ops A4.t1:0 B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+CELL-DONE p4 sx-mathoverflow insert 100 14:23:13
+CollegeMsg-expiry-1000 p5 PR status=OK done=120/120 net=31024 ops=0 t=0 table=3072 secs=0.017
+CollegeMsg-expiry-1000 p5 WT status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.032
+CollegeMsg-expiry-1000 p5 WJ status=OK done=120/120 net=31024 ops=0 t=0 table=1572864 secs=0.093
+CollegeMsg-expiry-1000 p5 M5 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.033
+CollegeMsg-expiry-1000 p5 A5 status=OK done=120/120 net=31024 ops=0 t=0 table=0 secs=0.094
+CollegeMsg-expiry-1000 p5 R2 status=OK done=120/120 net=31024 ops=0 t=0 table=3072 secs=0.024
+CollegeMsg-expiry-1000 p5 M5 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.033
+CollegeMsg-expiry-1000 p5 WT status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.032
+CollegeMsg-expiry-1000 p5 R2 status=OK done=120/120 net=31024 ops=0 t=0 table=3072 secs=0.024
+CollegeMsg-expiry-1000 p5 PR status=OK done=120/120 net=31024 ops=0 t=0 table=3072 secs=0.017
+CollegeMsg-expiry-1000 p5 M5 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.033
+CollegeMsg-expiry-1000 p5 WT status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.032
+CollegeMsg-expiry-1000 p5 R2 status=OK done=120/120 net=31024 ops=0 t=0 table=3072 secs=0.025
+CollegeMsg-expiry-1000 p5 PR status=OK done=120/120 net=31024 ops=0 t=0 table=3072 secs=0.017
+CollegeMsg-expiry-1000 p5 R2 status=OK done=120/120 net=31024 ops=0 t=0 table=3072 secs=0.024
+CollegeMsg-expiry-1000 p5 PR status=OK done=120/120 net=31024 ops=0 t=0 table=3072 secs=0.017
+CollegeMsg-expiry-1000 p5 M5 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.033
+CollegeMsg-expiry-1000 p5 WT status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.032
+CollegeMsg-expiry-1000 p5 M5 status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.033
+CollegeMsg-expiry-1000 p5 WT status=OK done=120/120 net=31024 ops=0 t=0 table=1880088 secs=0.032
+CollegeMsg-expiry-1000 p5 R2 status=OK done=120/120 net=31024 ops=0 t=0 table=3072 secs=0.024
+CollegeMsg-expiry-1000 p5 PR status=OK done=120/120 net=31024 ops=0 t=0 table=3072 secs=0.017
+CollegeMsg-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CollegeMsg-expiry-1000 p4 final 0 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+CollegeMsg-expiry-1000 p5 final 0 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 CollegeMsg expiry 1000 14:23:16
+CollegeMsg-expiry-100 p5 PR status=OK done=1197/1197 net=31870 ops=0 t=0 table=3072 secs=0.021
+CollegeMsg-expiry-100 p5 WT status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.033
+CollegeMsg-expiry-100 p5 WJ status=OK done=1197/1197 net=31870 ops=0 t=0 table=1572864 secs=0.096
+CollegeMsg-expiry-100 p5 M5 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.035
+CollegeMsg-expiry-100 p5 A5 status=OK done=1197/1197 net=31870 ops=0 t=0 table=0 secs=0.854
+CollegeMsg-expiry-100 p5 R2 status=OK done=1197/1197 net=31870 ops=0 t=0 table=3072 secs=0.025
+CollegeMsg-expiry-100 p5 WJ status=OK done=1197/1197 net=31870 ops=0 t=0 table=1572864 secs=0.097
+CollegeMsg-expiry-100 p5 M5 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.034
+CollegeMsg-expiry-100 p5 WT status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.033
+CollegeMsg-expiry-100 p5 R2 status=OK done=1197/1197 net=31870 ops=0 t=0 table=3072 secs=0.025
+CollegeMsg-expiry-100 p5 PR status=OK done=1197/1197 net=31870 ops=0 t=0 table=3072 secs=0.022
+CollegeMsg-expiry-100 p5 WJ status=OK done=1197/1197 net=31870 ops=0 t=0 table=1572864 secs=0.096
+CollegeMsg-expiry-100 p5 M5 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.035
+CollegeMsg-expiry-100 p5 WT status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.033
+CollegeMsg-expiry-100 p5 R2 status=OK done=1197/1197 net=31870 ops=0 t=0 table=3072 secs=0.025
+CollegeMsg-expiry-100 p5 PR status=OK done=1197/1197 net=31870 ops=0 t=0 table=3072 secs=0.022
+CollegeMsg-expiry-100 p5 R2 status=OK done=1197/1197 net=31870 ops=0 t=0 table=3072 secs=0.025
+CollegeMsg-expiry-100 p5 PR status=OK done=1197/1197 net=31870 ops=0 t=0 table=3072 secs=0.022
+CollegeMsg-expiry-100 p5 WJ status=OK done=1197/1197 net=31870 ops=0 t=0 table=1572864 secs=0.096
+CollegeMsg-expiry-100 p5 M5 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.034
+CollegeMsg-expiry-100 p5 WT status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.033
+CollegeMsg-expiry-100 p5 M5 status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.034
+CollegeMsg-expiry-100 p5 WT status=OK done=1197/1197 net=31870 ops=0 t=0 table=1899748 secs=0.033
+CollegeMsg-expiry-100 p5 R2 status=OK done=1197/1197 net=31870 ops=0 t=0 table=3072 secs=0.025
+CollegeMsg-expiry-100 p5 PR status=OK done=1197/1197 net=31870 ops=0 t=0 table=3072 secs=0.022
+CollegeMsg-expiry-100 p5 WJ status=OK done=1197/1197 net=31870 ops=0 t=0 table=1572864 secs=0.096
+CollegeMsg-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+CollegeMsg-expiry-100 p4 final 0 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+CollegeMsg-expiry-100 p5 final 0 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WJ.t2:0 WJ.t3:0 WJ.t4:0 WJ.t5:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 CollegeMsg expiry 100 14:23:20
+CollegeMsg-insert-1000 p5 PR status=OK done=60/60 net=13838 ops=0 t=18543001 table=3072 secs=0.016
+CollegeMsg-insert-1000 p5 WT status=OK done=60/60 net=13838 ops=0 t=18543001 table=6259428 secs=0.027
+CollegeMsg-insert-1000 p5 WJ status=OK done=60/60 net=13838 ops=0 t=18543001 table=12582912 secs=0.114
+CollegeMsg-insert-1000 p5 M5 status=OK done=60/60 net=13838 ops=0 t=18543001 table=6259428 secs=0.028
+CollegeMsg-insert-1000 p5 A5 status=OK done=60/60 net=13838 ops=0 t=18543001 table=0 secs=0.241
+CollegeMsg-insert-1000 p5 R2 status=OK done=60/60 net=13838 ops=0 t=18543001 table=3072 secs=0.023
+CollegeMsg-insert-1000 p5 M5 status=OK done=60/60 net=13838 ops=0 t=18543001 table=6259428 secs=0.028
+CollegeMsg-insert-1000 p5 WT status=OK done=60/60 net=13838 ops=0 t=18543001 table=6259428 secs=0.027
+CollegeMsg-insert-1000 p5 R2 status=OK done=60/60 net=13838 ops=0 t=18543001 table=3072 secs=0.023
+CollegeMsg-insert-1000 p5 PR status=OK done=60/60 net=13838 ops=0 t=18543001 table=3072 secs=0.016
+CollegeMsg-insert-1000 p5 M5 status=OK done=60/60 net=13838 ops=0 t=18543001 table=6259428 secs=0.028
+CollegeMsg-insert-1000 p5 WT status=OK done=60/60 net=13838 ops=0 t=18543001 table=6259428 secs=0.027
+CollegeMsg-insert-1000 p5 R2 status=OK done=60/60 net=13838 ops=0 t=18543001 table=3072 secs=0.023
+CollegeMsg-insert-1000 p5 PR status=OK done=60/60 net=13838 ops=0 t=18543001 table=3072 secs=0.016
+CollegeMsg-insert-1000 p5 R2 status=OK done=60/60 net=13838 ops=0 t=18543001 table=3072 secs=0.023
+CollegeMsg-insert-1000 p5 PR status=OK done=60/60 net=13838 ops=0 t=18543001 table=3072 secs=0.016
+CollegeMsg-insert-1000 p5 M5 status=OK done=60/60 net=13838 ops=0 t=18543001 table=6259428 secs=0.028
+CollegeMsg-insert-1000 p5 WT status=OK done=60/60 net=13838 ops=0 t=18543001 table=6259428 secs=0.027
+CollegeMsg-insert-1000 p5 M5 status=OK done=60/60 net=13838 ops=0 t=18543001 table=6259428 secs=0.028
+CollegeMsg-insert-1000 p5 WT status=OK done=60/60 net=13838 ops=0 t=18543001 table=6259428 secs=0.026
+CollegeMsg-insert-1000 p5 R2 status=OK done=60/60 net=13838 ops=0 t=18543001 table=3072 secs=0.023
+CollegeMsg-insert-1000 p5 PR status=OK done=60/60 net=13838 ops=0 t=18543001 table=3072 secs=0.016
+CollegeMsg-insert-1000 p3 final 14319 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CollegeMsg-insert-1000 p4 final 729064 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+CollegeMsg-insert-1000 p5 final 18543001 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 CollegeMsg insert 1000 14:23:22
+CollegeMsg-insert-100 p5 PR status=OK done=599/599 net=13838 ops=0 t=18543001 table=3072 secs=0.019
+CollegeMsg-insert-100 p5 WT status=OK done=599/599 net=13838 ops=0 t=18543001 table=6244580 secs=0.027
+CollegeMsg-insert-100 p5 WJ status=OK done=599/599 net=13838 ops=0 t=18543001 table=12582912 secs=0.114
+CollegeMsg-insert-100 p5 M5 status=OK done=599/599 net=13838 ops=0 t=18543001 table=6244580 secs=0.028
+CollegeMsg-insert-100 p5 A5 status=OK done=599/599 net=13838 ops=0 t=18543001 table=0 secs=2.328
+CollegeMsg-insert-100 p5 R2 status=OK done=599/599 net=13838 ops=0 t=18543001 table=3072 secs=0.023
+CollegeMsg-insert-100 p5 M5 status=OK done=599/599 net=13838 ops=0 t=18543001 table=6244580 secs=0.027
+CollegeMsg-insert-100 p5 WT status=OK done=599/599 net=13838 ops=0 t=18543001 table=6244580 secs=0.027
+CollegeMsg-insert-100 p5 R2 status=OK done=599/599 net=13838 ops=0 t=18543001 table=3072 secs=0.023
+CollegeMsg-insert-100 p5 PR status=OK done=599/599 net=13838 ops=0 t=18543001 table=3072 secs=0.019
+CollegeMsg-insert-100 p5 M5 status=OK done=599/599 net=13838 ops=0 t=18543001 table=6244580 secs=0.027
+CollegeMsg-insert-100 p5 WT status=OK done=599/599 net=13838 ops=0 t=18543001 table=6244580 secs=0.027
+CollegeMsg-insert-100 p5 R2 status=OK done=599/599 net=13838 ops=0 t=18543001 table=3072 secs=0.023
+CollegeMsg-insert-100 p5 PR status=OK done=599/599 net=13838 ops=0 t=18543001 table=3072 secs=0.019
+CollegeMsg-insert-100 p5 R2 status=OK done=599/599 net=13838 ops=0 t=18543001 table=3072 secs=0.023
+CollegeMsg-insert-100 p5 PR status=OK done=599/599 net=13838 ops=0 t=18543001 table=3072 secs=0.019
+CollegeMsg-insert-100 p5 M5 status=OK done=599/599 net=13838 ops=0 t=18543001 table=6244580 secs=0.028
+CollegeMsg-insert-100 p5 WT status=OK done=599/599 net=13838 ops=0 t=18543001 table=6244580 secs=0.027
+CollegeMsg-insert-100 p5 M5 status=OK done=599/599 net=13838 ops=0 t=18543001 table=6244580 secs=0.028
+CollegeMsg-insert-100 p5 WT status=OK done=599/599 net=13838 ops=0 t=18543001 table=6244580 secs=0.027
+CollegeMsg-insert-100 p5 R2 status=OK done=599/599 net=13838 ops=0 t=18543001 table=3072 secs=0.023
+CollegeMsg-insert-100 p5 PR status=OK done=599/599 net=13838 ops=0 t=18543001 table=3072 secs=0.019
+CollegeMsg-insert-100 p3 final 14319 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+CollegeMsg-insert-100 p4 final 729064 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+CollegeMsg-insert-100 p5 final 18543001 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 CollegeMsg insert 100 14:23:27
+email-Eu-core-temporal-expiry-1000 p5 PR status=OK done=665/665 net=187712 ops=0 t=0 table=3072 secs=0.074
+email-Eu-core-temporal-expiry-1000 p5 WT status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.112
+email-Eu-core-temporal-expiry-1000 p5 WJ status=OK done=665/665 net=187712 ops=0 t=0 table=786432 secs=0.250
+email-Eu-core-temporal-expiry-1000 p5 M5 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.118
+email-Eu-core-temporal-expiry-1000 p5 A5 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.246
+email-Eu-core-temporal-expiry-1000 p5 R2 status=OK done=665/665 net=187712 ops=0 t=0 table=3072 secs=0.099
+email-Eu-core-temporal-expiry-1000 p5 WJ status=OK done=665/665 net=187712 ops=0 t=0 table=786432 secs=0.249
+email-Eu-core-temporal-expiry-1000 p5 M5 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.119
+email-Eu-core-temporal-expiry-1000 p5 WT status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.112
+email-Eu-core-temporal-expiry-1000 p5 R2 status=OK done=665/665 net=187712 ops=0 t=0 table=3072 secs=0.099
+email-Eu-core-temporal-expiry-1000 p5 A5 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.246
+email-Eu-core-temporal-expiry-1000 p5 PR status=OK done=665/665 net=187712 ops=0 t=0 table=3072 secs=0.074
+email-Eu-core-temporal-expiry-1000 p5 WJ status=OK done=665/665 net=187712 ops=0 t=0 table=786432 secs=0.249
+email-Eu-core-temporal-expiry-1000 p5 M5 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.118
+email-Eu-core-temporal-expiry-1000 p5 WT status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.112
+email-Eu-core-temporal-expiry-1000 p5 R2 status=OK done=665/665 net=187712 ops=0 t=0 table=3072 secs=0.099
+email-Eu-core-temporal-expiry-1000 p5 A5 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.247
+email-Eu-core-temporal-expiry-1000 p5 PR status=OK done=665/665 net=187712 ops=0 t=0 table=3072 secs=0.074
+email-Eu-core-temporal-expiry-1000 p5 R2 status=OK done=665/665 net=187712 ops=0 t=0 table=3072 secs=0.099
+email-Eu-core-temporal-expiry-1000 p5 A5 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.247
+email-Eu-core-temporal-expiry-1000 p5 PR status=OK done=665/665 net=187712 ops=0 t=0 table=3072 secs=0.075
+email-Eu-core-temporal-expiry-1000 p5 WJ status=OK done=665/665 net=187712 ops=0 t=0 table=786432 secs=0.249
+email-Eu-core-temporal-expiry-1000 p5 M5 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.118
+email-Eu-core-temporal-expiry-1000 p5 WT status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.113
+email-Eu-core-temporal-expiry-1000 p5 M5 status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.118
+email-Eu-core-temporal-expiry-1000 p5 WT status=OK done=665/665 net=187712 ops=0 t=0 table=624784 secs=0.112
+email-Eu-core-temporal-expiry-1000 p5 R2 status=OK done=665/665 net=187712 ops=0 t=0 table=3072 secs=0.099
+email-Eu-core-temporal-expiry-1000 p5 A5 status=OK done=665/665 net=187712 ops=0 t=0 table=0 secs=0.247
+email-Eu-core-temporal-expiry-1000 p5 PR status=OK done=665/665 net=187712 ops=0 t=0 table=3072 secs=0.074
+email-Eu-core-temporal-expiry-1000 p5 WJ status=OK done=665/665 net=187712 ops=0 t=0 table=786432 secs=0.249
+email-Eu-core-temporal-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+email-Eu-core-temporal-expiry-1000 p4 final 0 ops A4.t1:0 A4.t2:0 A4.t3:0 A4.t4:0 A4.t5:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+email-Eu-core-temporal-expiry-1000 p5 final 0 ops A5.t1:0 A5.t2:0 A5.t3:0 A5.t4:0 A5.t5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WJ.t2:0 WJ.t3:0 WJ.t4:0 WJ.t5:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 email-Eu-core-temporal expiry 1000 14:23:34
+email-Eu-core-temporal-expiry-100 p5 PR status=OK done=6647/6647 net=222950 ops=0 t=0 table=3072 secs=0.102
+email-Eu-core-temporal-expiry-100 p5 WT status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.136
+email-Eu-core-temporal-expiry-100 p5 WJ status=OK done=6647/6647 net=222950 ops=0 t=0 table=786432 secs=0.316
+email-Eu-core-temporal-expiry-100 p5 M5 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.143
+email-Eu-core-temporal-expiry-100 p5 A5 status=OK done=6647/6647 net=222950 ops=0 t=0 table=0 secs=1.989
+email-Eu-core-temporal-expiry-100 p5 R2 status=OK done=6647/6647 net=222950 ops=0 t=0 table=3072 secs=0.122
+email-Eu-core-temporal-expiry-100 p5 WJ status=OK done=6647/6647 net=222950 ops=0 t=0 table=786432 secs=0.317
+email-Eu-core-temporal-expiry-100 p5 M5 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.143
+email-Eu-core-temporal-expiry-100 p5 WT status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.136
+email-Eu-core-temporal-expiry-100 p5 R2 status=OK done=6647/6647 net=222950 ops=0 t=0 table=3072 secs=0.122
+email-Eu-core-temporal-expiry-100 p5 PR status=OK done=6647/6647 net=222950 ops=0 t=0 table=3072 secs=0.102
+email-Eu-core-temporal-expiry-100 p5 WJ status=OK done=6647/6647 net=222950 ops=0 t=0 table=786432 secs=0.315
+email-Eu-core-temporal-expiry-100 p5 M5 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.143
+email-Eu-core-temporal-expiry-100 p5 WT status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.136
+email-Eu-core-temporal-expiry-100 p5 R2 status=OK done=6647/6647 net=222950 ops=0 t=0 table=3072 secs=0.122
+email-Eu-core-temporal-expiry-100 p5 PR status=OK done=6647/6647 net=222950 ops=0 t=0 table=3072 secs=0.102
+email-Eu-core-temporal-expiry-100 p5 R2 status=OK done=6647/6647 net=222950 ops=0 t=0 table=3072 secs=0.123
+email-Eu-core-temporal-expiry-100 p5 PR status=OK done=6647/6647 net=222950 ops=0 t=0 table=3072 secs=0.102
+email-Eu-core-temporal-expiry-100 p5 WJ status=OK done=6647/6647 net=222950 ops=0 t=0 table=786432 secs=0.316
+email-Eu-core-temporal-expiry-100 p5 M5 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.143
+email-Eu-core-temporal-expiry-100 p5 WT status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.136
+email-Eu-core-temporal-expiry-100 p5 M5 status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.143
+email-Eu-core-temporal-expiry-100 p5 WT status=OK done=6647/6647 net=222950 ops=0 t=0 table=640900 secs=0.136
+email-Eu-core-temporal-expiry-100 p5 R2 status=OK done=6647/6647 net=222950 ops=0 t=0 table=3072 secs=0.123
+email-Eu-core-temporal-expiry-100 p5 PR status=OK done=6647/6647 net=222950 ops=0 t=0 table=3072 secs=0.102
+email-Eu-core-temporal-expiry-100 p5 WJ status=OK done=6647/6647 net=222950 ops=0 t=0 table=786432 secs=0.316
+email-Eu-core-temporal-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+email-Eu-core-temporal-expiry-100 p4 final 0 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+email-Eu-core-temporal-expiry-100 p5 final 0 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WJ.t2:0 WJ.t3:0 WJ.t4:0 WJ.t5:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 email-Eu-core-temporal expiry 100 14:23:43
+email-Eu-core-temporal-insert-1000 p5 PR status=OK done=333/333 net=16064 ops=0 t=245585096 table=3072 secs=0.040
+email-Eu-core-temporal-insert-1000 p5 WT status=OK done=333/333 net=16064 ops=0 t=245585096 table=4475424 secs=0.045
+email-Eu-core-temporal-insert-1000 p5 WJ status=OK done=333/333 net=16064 ops=0 t=245585096 table=6291456 secs=0.216
+email-Eu-core-temporal-insert-1000 p5 M5 status=OK done=333/333 net=16064 ops=0 t=245585096 table=4178976 secs=0.048
+email-Eu-core-temporal-insert-1000 p5 A5 status=OK done=333/333 net=16064 ops=0 t=245585096 table=0 secs=3.500
+email-Eu-core-temporal-insert-1000 p5 R2 status=OK done=333/333 net=16064 ops=0 t=245585096 table=3072 secs=0.050
+email-Eu-core-temporal-insert-1000 p5 M5 status=OK done=333/333 net=16064 ops=0 t=245585096 table=4178976 secs=0.048
+email-Eu-core-temporal-insert-1000 p5 WT status=OK done=333/333 net=16064 ops=0 t=245585096 table=4475424 secs=0.045
+email-Eu-core-temporal-insert-1000 p5 R2 status=OK done=333/333 net=16064 ops=0 t=245585096 table=3072 secs=0.051
+email-Eu-core-temporal-insert-1000 p5 PR status=OK done=333/333 net=16064 ops=0 t=245585096 table=3072 secs=0.040
+email-Eu-core-temporal-insert-1000 p5 M5 status=OK done=333/333 net=16064 ops=0 t=245585096 table=4178976 secs=0.048
+email-Eu-core-temporal-insert-1000 p5 WT status=OK done=333/333 net=16064 ops=0 t=245585096 table=4475424 secs=0.044
+email-Eu-core-temporal-insert-1000 p5 R2 status=OK done=333/333 net=16064 ops=0 t=245585096 table=3072 secs=0.051
+email-Eu-core-temporal-insert-1000 p5 PR status=OK done=333/333 net=16064 ops=0 t=245585096 table=3072 secs=0.040
+email-Eu-core-temporal-insert-1000 p5 R2 status=OK done=333/333 net=16064 ops=0 t=245585096 table=3072 secs=0.050
+email-Eu-core-temporal-insert-1000 p5 PR status=OK done=333/333 net=16064 ops=0 t=245585096 table=3072 secs=0.040
+email-Eu-core-temporal-insert-1000 p5 M5 status=OK done=333/333 net=16064 ops=0 t=245585096 table=4178976 secs=0.048
+email-Eu-core-temporal-insert-1000 p5 WT status=OK done=333/333 net=16064 ops=0 t=245585096 table=4475424 secs=0.044
+email-Eu-core-temporal-insert-1000 p5 M5 status=OK done=333/333 net=16064 ops=0 t=245585096 table=4178976 secs=0.048
+email-Eu-core-temporal-insert-1000 p5 WT status=OK done=333/333 net=16064 ops=0 t=245585096 table=4475424 secs=0.044
+email-Eu-core-temporal-insert-1000 p5 R2 status=OK done=333/333 net=16064 ops=0 t=245585096 table=3072 secs=0.050
+email-Eu-core-temporal-insert-1000 p5 PR status=OK done=333/333 net=16064 ops=0 t=245585096 table=3072 secs=0.040
+email-Eu-core-temporal-insert-1000 p3 final 105461 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+email-Eu-core-temporal-insert-1000 p4 final 4647873 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+email-Eu-core-temporal-insert-1000 p5 final 245585096 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 email-Eu-core-temporal insert 1000 14:23:49
+email-Eu-core-temporal-insert-100 p5 PR status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=3072 secs=0.044
+email-Eu-core-temporal-insert-100 p5 WT status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=4476448 secs=0.045
+email-Eu-core-temporal-insert-100 p5 WJ status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=6291456 secs=0.215
+email-Eu-core-temporal-insert-100 p5 M5 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=4177952 secs=0.048
+email-Eu-core-temporal-insert-100 p5 A5 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=0 secs=29.552
+email-Eu-core-temporal-insert-100 p5 R2 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=3072 secs=0.051
+email-Eu-core-temporal-insert-100 p5 WJ status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=6291456 secs=0.215
+email-Eu-core-temporal-insert-100 p5 M5 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=4177952 secs=0.048
+email-Eu-core-temporal-insert-100 p5 WT status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=4476448 secs=0.045
+email-Eu-core-temporal-insert-100 p5 R2 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=3072 secs=0.050
+email-Eu-core-temporal-insert-100 p5 PR status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=3072 secs=0.044
+email-Eu-core-temporal-insert-100 p5 WJ status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=6291456 secs=0.217
+email-Eu-core-temporal-insert-100 p5 M5 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=4177952 secs=0.048
+email-Eu-core-temporal-insert-100 p5 WT status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=4476448 secs=0.045
+email-Eu-core-temporal-insert-100 p5 R2 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=3072 secs=0.050
+email-Eu-core-temporal-insert-100 p5 PR status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=3072 secs=0.045
+email-Eu-core-temporal-insert-100 p5 R2 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=3072 secs=0.051
+email-Eu-core-temporal-insert-100 p5 PR status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=3072 secs=0.045
+email-Eu-core-temporal-insert-100 p5 WJ status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=6291456 secs=0.215
+email-Eu-core-temporal-insert-100 p5 M5 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=4177952 secs=0.049
+email-Eu-core-temporal-insert-100 p5 WT status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=4476448 secs=0.045
+email-Eu-core-temporal-insert-100 p5 M5 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=4177952 secs=0.048
+email-Eu-core-temporal-insert-100 p5 WT status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=4476448 secs=0.045
+email-Eu-core-temporal-insert-100 p5 R2 status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=3072 secs=0.051
+email-Eu-core-temporal-insert-100 p5 PR status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=3072 secs=0.044
+email-Eu-core-temporal-insert-100 p5 WJ status=OK done=3324/3324 net=16064 ops=0 t=245585096 table=6291456 secs=0.216
+email-Eu-core-temporal-insert-100 p3 final 105461 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+email-Eu-core-temporal-insert-100 p4 final 4647873 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+email-Eu-core-temporal-insert-100 p5 final 245585096 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WJ.t2:0 WJ.t3:0 WJ.t4:0 WJ.t5:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 email-Eu-core-temporal insert 100 14:24:23
+sx-mathoverflow-expiry-1000 p5 PR status=OK done=781/781 net=485368 ops=0 t=0 table=3072 secs=0.131
+sx-mathoverflow-expiry-1000 p5 WT status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.257
+sx-mathoverflow-expiry-1000 p5 WJ status=OK done=781/781 net=485368 ops=0 t=0 table=786432 secs=0.340
+sx-mathoverflow-expiry-1000 p5 M5 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.271
+sx-mathoverflow-expiry-1000 p5 A5 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.269
+sx-mathoverflow-expiry-1000 p5 R2 status=OK done=781/781 net=485368 ops=0 t=0 table=3072 secs=0.190
+sx-mathoverflow-expiry-1000 p5 WJ status=OK done=781/781 net=485368 ops=0 t=0 table=786432 secs=0.340
+sx-mathoverflow-expiry-1000 p5 M5 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.271
+sx-mathoverflow-expiry-1000 p5 WT status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.257
+sx-mathoverflow-expiry-1000 p5 R2 status=OK done=781/781 net=485368 ops=0 t=0 table=3072 secs=0.191
+sx-mathoverflow-expiry-1000 p5 A5 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.270
+sx-mathoverflow-expiry-1000 p5 PR status=OK done=781/781 net=485368 ops=0 t=0 table=3072 secs=0.131
+sx-mathoverflow-expiry-1000 p5 WJ status=OK done=781/781 net=485368 ops=0 t=0 table=786432 secs=0.342
+sx-mathoverflow-expiry-1000 p5 M5 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.271
+sx-mathoverflow-expiry-1000 p5 WT status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.256
+sx-mathoverflow-expiry-1000 p5 R2 status=OK done=781/781 net=485368 ops=0 t=0 table=3072 secs=0.191
+sx-mathoverflow-expiry-1000 p5 A5 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.270
+sx-mathoverflow-expiry-1000 p5 PR status=OK done=781/781 net=485368 ops=0 t=0 table=3072 secs=0.131
+sx-mathoverflow-expiry-1000 p5 R2 status=OK done=781/781 net=485368 ops=0 t=0 table=3072 secs=0.191
+sx-mathoverflow-expiry-1000 p5 A5 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.271
+sx-mathoverflow-expiry-1000 p5 PR status=OK done=781/781 net=485368 ops=0 t=0 table=3072 secs=0.131
+sx-mathoverflow-expiry-1000 p5 WJ status=OK done=781/781 net=485368 ops=0 t=0 table=786432 secs=0.339
+sx-mathoverflow-expiry-1000 p5 M5 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.271
+sx-mathoverflow-expiry-1000 p5 WT status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.257
+sx-mathoverflow-expiry-1000 p5 M5 status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.271
+sx-mathoverflow-expiry-1000 p5 WT status=OK done=781/781 net=485368 ops=0 t=0 table=1555788 secs=0.256
+sx-mathoverflow-expiry-1000 p5 R2 status=OK done=781/781 net=485368 ops=0 t=0 table=3072 secs=0.191
+sx-mathoverflow-expiry-1000 p5 A5 status=OK done=781/781 net=485368 ops=0 t=0 table=0 secs=0.270
+sx-mathoverflow-expiry-1000 p5 PR status=OK done=781/781 net=485368 ops=0 t=0 table=3072 secs=0.131
+sx-mathoverflow-expiry-1000 p5 WJ status=OK done=781/781 net=485368 ops=0 t=0 table=786432 secs=0.339
+sx-mathoverflow-expiry-1000 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0 T3.t2:0 T3.t3:0 T3.t4:0 T3.t5:0
+sx-mathoverflow-expiry-1000 p4 final 0 ops A4.t1:0 A4.t2:0 A4.t3:0 A4.t4:0 A4.t5:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+sx-mathoverflow-expiry-1000 p5 final 0 ops A5.t1:0 A5.t2:0 A5.t3:0 A5.t4:0 A5.t5:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WJ.t2:0 WJ.t3:0 WJ.t4:0 WJ.t5:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 sx-mathoverflow expiry 1000 14:24:33
+sx-mathoverflow-expiry-100 p5 PR status=OK done=7809/7809 net=488660 ops=0 t=0 table=3072 secs=0.189
+sx-mathoverflow-expiry-100 p5 WT status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.283
+sx-mathoverflow-expiry-100 p5 WJ status=OK done=7809/7809 net=488660 ops=0 t=0 table=786432 secs=0.408
+sx-mathoverflow-expiry-100 p5 M5 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.298
+sx-mathoverflow-expiry-100 p5 A5 status=OK done=7809/7809 net=488660 ops=0 t=0 table=0 secs=1.834
+sx-mathoverflow-expiry-100 p5 R2 status=OK done=7809/7809 net=488660 ops=0 t=0 table=3072 secs=0.210
+sx-mathoverflow-expiry-100 p5 WJ status=OK done=7809/7809 net=488660 ops=0 t=0 table=786432 secs=0.409
+sx-mathoverflow-expiry-100 p5 M5 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.297
+sx-mathoverflow-expiry-100 p5 WT status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.282
+sx-mathoverflow-expiry-100 p5 R2 status=OK done=7809/7809 net=488660 ops=0 t=0 table=3072 secs=0.210
+sx-mathoverflow-expiry-100 p5 PR status=OK done=7809/7809 net=488660 ops=0 t=0 table=3072 secs=0.189
+sx-mathoverflow-expiry-100 p5 WJ status=OK done=7809/7809 net=488660 ops=0 t=0 table=786432 secs=0.409
+sx-mathoverflow-expiry-100 p5 M5 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.296
+sx-mathoverflow-expiry-100 p5 WT status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.282
+sx-mathoverflow-expiry-100 p5 R2 status=OK done=7809/7809 net=488660 ops=0 t=0 table=3072 secs=0.211
+sx-mathoverflow-expiry-100 p5 PR status=OK done=7809/7809 net=488660 ops=0 t=0 table=3072 secs=0.189
+sx-mathoverflow-expiry-100 p5 R2 status=OK done=7809/7809 net=488660 ops=0 t=0 table=3072 secs=0.210
+sx-mathoverflow-expiry-100 p5 PR status=OK done=7809/7809 net=488660 ops=0 t=0 table=3072 secs=0.190
+sx-mathoverflow-expiry-100 p5 WJ status=OK done=7809/7809 net=488660 ops=0 t=0 table=786432 secs=0.409
+sx-mathoverflow-expiry-100 p5 M5 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.298
+sx-mathoverflow-expiry-100 p5 WT status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.283
+sx-mathoverflow-expiry-100 p5 M5 status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.296
+sx-mathoverflow-expiry-100 p5 WT status=OK done=7809/7809 net=488660 ops=0 t=0 table=1571272 secs=0.281
+sx-mathoverflow-expiry-100 p5 R2 status=OK done=7809/7809 net=488660 ops=0 t=0 table=3072 secs=0.211
+sx-mathoverflow-expiry-100 p5 PR status=OK done=7809/7809 net=488660 ops=0 t=0 table=3072 secs=0.189
+sx-mathoverflow-expiry-100 p5 WJ status=OK done=7809/7809 net=488660 ops=0 t=0 table=786432 secs=0.407
+sx-mathoverflow-expiry-100 p3 final 0 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-mathoverflow-expiry-100 p4 final 0 ops A4.t1:0 B4.t1:0 B4.t2:0 B4.t3:0 B4.t4:0 B4.t5:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+sx-mathoverflow-expiry-100 p5 final 0 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WJ.t2:0 WJ.t3:0 WJ.t4:0 WJ.t5:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 sx-mathoverflow expiry 100 14:24:44
+sx-mathoverflow-insert-1000 p5 PR status=OK done=391/391 net=187986 ops=0 t=27396207208 table=3072 secs=2.628
+sx-mathoverflow-insert-1000 p5 WT status=OK done=391/391 net=187986 ops=0 t=27396207208 table=429156776 secs=7.729
+sx-mathoverflow-insert-1000 p5 WJ status=OK done=391/391 net=187986 ops=0 t=27396207208 table=805306368 secs=40.690
+sx-mathoverflow-insert-1000 p5 M5 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=82450016 secs=5.920
+sx-mathoverflow-insert-1000 p5 A5 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=0 secs=111.786
+sx-mathoverflow-insert-1000 p5 R2 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=3072 secs=4.137
+sx-mathoverflow-insert-1000 p5 M5 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=82450016 secs=5.928
+sx-mathoverflow-insert-1000 p5 WT status=OK done=391/391 net=187986 ops=0 t=27396207208 table=429156776 secs=7.741
+sx-mathoverflow-insert-1000 p5 R2 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=3072 secs=4.135
+sx-mathoverflow-insert-1000 p5 PR status=OK done=391/391 net=187986 ops=0 t=27396207208 table=3072 secs=2.622
+sx-mathoverflow-insert-1000 p5 M5 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=82450016 secs=5.902
+sx-mathoverflow-insert-1000 p5 WT status=OK done=391/391 net=187986 ops=0 t=27396207208 table=429156776 secs=7.737
+sx-mathoverflow-insert-1000 p5 R2 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=3072 secs=4.139
+sx-mathoverflow-insert-1000 p5 PR status=OK done=391/391 net=187986 ops=0 t=27396207208 table=3072 secs=2.624
+sx-mathoverflow-insert-1000 p5 R2 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=3072 secs=4.141
+sx-mathoverflow-insert-1000 p5 PR status=OK done=391/391 net=187986 ops=0 t=27396207208 table=3072 secs=2.613
+sx-mathoverflow-insert-1000 p5 M5 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=82450016 secs=5.918
+sx-mathoverflow-insert-1000 p5 WT status=OK done=391/391 net=187986 ops=0 t=27396207208 table=429156776 secs=7.726
+sx-mathoverflow-insert-1000 p5 M5 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=82450016 secs=5.928
+sx-mathoverflow-insert-1000 p5 WT status=OK done=391/391 net=187986 ops=0 t=27396207208 table=429156776 secs=7.722
+sx-mathoverflow-insert-1000 p5 R2 status=OK done=391/391 net=187986 ops=0 t=27396207208 table=3072 secs=4.133
+sx-mathoverflow-insert-1000 p5 PR status=OK done=391/391 net=187986 ops=0 t=27396207208 table=3072 secs=2.619
+sx-mathoverflow-insert-1000 p3 final 1403919 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-mathoverflow-insert-1000 p4 final 185375938 ops A4.t1:0 B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+sx-mathoverflow-insert-1000 p5 final 27396207208 ops A5.t1:0 M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 sx-mathoverflow insert 1000 14:29:01
+sx-mathoverflow-insert-100 p5 PR status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=3072 secs=3.599
+sx-mathoverflow-insert-100 p5 WT status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=428847464 secs=7.760
+sx-mathoverflow-insert-100 p5 WJ status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=805306368 secs=40.690
+sx-mathoverflow-insert-100 p5 M5 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=82378840 secs=5.912
+sx-mathoverflow-insert-100 p5 A5 status=TIME done=2241/3905 net=110640 ops=0 t=11437155999 table=0 secs=300.079
+sx-mathoverflow-insert-100 p5 R2 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=3072 secs=4.146
+sx-mathoverflow-insert-100 p5 M5 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=82378840 secs=5.898
+sx-mathoverflow-insert-100 p5 WT status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=428847464 secs=7.737
+sx-mathoverflow-insert-100 p5 R2 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=3072 secs=4.143
+sx-mathoverflow-insert-100 p5 PR status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=3072 secs=3.583
+sx-mathoverflow-insert-100 p5 M5 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=82378840 secs=5.893
+sx-mathoverflow-insert-100 p5 WT status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=428847464 secs=7.711
+sx-mathoverflow-insert-100 p5 R2 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=3072 secs=4.139
+sx-mathoverflow-insert-100 p5 PR status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=3072 secs=3.593
+sx-mathoverflow-insert-100 p5 R2 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=3072 secs=4.137
+sx-mathoverflow-insert-100 p5 PR status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=3072 secs=3.580
+sx-mathoverflow-insert-100 p5 M5 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=82378840 secs=5.886
+sx-mathoverflow-insert-100 p5 WT status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=428847464 secs=7.736
+sx-mathoverflow-insert-100 p5 M5 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=82378840 secs=5.924
+sx-mathoverflow-insert-100 p5 WT status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=428847464 secs=7.726
+sx-mathoverflow-insert-100 p5 R2 status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=3072 secs=4.136
+sx-mathoverflow-insert-100 p5 PR status=OK done=3905/3905 net=187986 ops=0 t=27396207208 table=3072 secs=3.586
+sx-mathoverflow-insert-100 p3 final 1403919 ops M3:0 M3:0 M3:0 M3:0 M3:0 P3.t1:0 P3.t2:0 P3.t3:0 P3.t4:0 P3.t5:0 S3.t1:0 S3.t2:0 S3.t3:0 S3.t4:0 S3.t5:0 T3.t1:0
+sx-mathoverflow-insert-100 p4 final 185375938 ops A4.t1:0 B4.t1:0 M4:0 M4:0 M4:0 M4:0 M4:0 P4.t1:0 P4.t2:0 P4.t3:0 P4.t4:0 P4.t5:0 S4.t1:0 S4.t2:0 S4.t3:0 S4.t4:0 S4.t5:0 T4.t1:0 T4.t2:0 T4.t3:0 T4.t4:0 T4.t5:0
+sx-mathoverflow-insert-100 p5 final 27396207208 ops A5.t1:0(2241/3905) M5:0 M5:0 M5:0 M5:0 M5:0 PR.t1:0 PR.t2:0 PR.t3:0 PR.t4:0 PR.t5:0 R2.t1:0 R2.t2:0 R2.t3:0 R2.t4:0 R2.t5:0 WJ.t1:0 WT.t1:0 WT.t2:0 WT.t3:0 WT.t4:0 WT.t5:0
+CELL-DONE p5 sx-mathoverflow insert 100 14:36:31
+CollegeMsg-expiry-1000 p3 M3 status=OK done=120/120 net=31024 ops=4655682 t=0 table=682612 secs=0.015
+mcheck CollegeMsg-expiry-1000-p3-M3-th16: 120 batches compared, 0 differ
+CollegeMsg-expiry-100 p3 M3 status=OK done=1197/1197 net=31870 ops=4765604 t=0 table=686364 secs=0.015
+mcheck CollegeMsg-expiry-100-p3-M3-th16: 1197 batches compared, 0 differ
+CollegeMsg-insert-1000 p3 M3 status=OK done=60/60 net=13838 ops=3701795 t=14319 table=1343784 secs=0.010
+mcheck CollegeMsg-insert-1000-p3-M3-th16: 60 batches compared, 0 differ
+CollegeMsg-insert-100 p3 M3 status=OK done=599/599 net=13838 ops=3700136 t=14319 table=1344824 secs=0.011
+mcheck CollegeMsg-insert-100-p3-M3-th16: 599 batches compared, 0 differ
+email-Eu-core-temporal-expiry-1000 p3 M3 status=OK done=665/665 net=187712 ops=26942228 t=0 table=400252 secs=0.080
+mcheck email-Eu-core-temporal-expiry-1000-p3-M3-th16: 665 batches compared, 0 differ
+email-Eu-core-temporal-expiry-100 p3 M3 status=OK done=6647/6647 net=222950 ops=32056338 t=0 table=404888 secs=0.094
+mcheck email-Eu-core-temporal-expiry-100-p3-M3-th16: 6647 batches compared, 0 differ
+email-Eu-core-temporal-insert-1000 p3 M3 status=OK done=333/333 net=16064 ops=5816180 t=105461 table=899636 secs=0.013
+mcheck email-Eu-core-temporal-insert-1000-p3-M3-th16: 333 batches compared, 0 differ
+email-Eu-core-temporal-insert-100 p3 M3 status=OK done=3324/3324 net=16064 ops=5814056 t=105461 table=899296 secs=0.014
+mcheck email-Eu-core-temporal-insert-100-p3-M3-th16: 3324 batches compared, 0 differ
+sx-mathoverflow-expiry-1000 p3 M3 status=OK done=781/781 net=485368 ops=53192154 t=0 table=1537264 secs=0.175
+mcheck sx-mathoverflow-expiry-1000-p3-M3-th16: 781 batches compared, 0 differ
+sx-mathoverflow-expiry-100 p3 M3 status=OK done=7809/7809 net=488660 ops=55077094 t=0 table=1546256 secs=0.185
+mcheck sx-mathoverflow-expiry-100-p3-M3-th16: 7809 batches compared, 0 differ
+sx-mathoverflow-insert-1000 p3 M3 status=OK done=391/391 net=187986 ops=91926248 t=1403919 table=7966016 secs=0.114
+mcheck sx-mathoverflow-insert-1000-p3-M3-th16: 391 batches compared, 0 differ
+sx-mathoverflow-insert-100 p3 M3 status=OK done=3905/3905 net=187986 ops=91935861 t=1403919 table=7964156 secs=0.114
+mcheck sx-mathoverflow-insert-100-p3-M3-th16: 3905 batches compared, 0 differ
+CollegeMsg-expiry-1000 p4 M4 status=OK done=120/120 net=31024 ops=7018913 t=0 table=682612 secs=0.017
+mcheck CollegeMsg-expiry-1000-p4-M4-th16: 120 batches compared, 0 differ
+CollegeMsg-expiry-100 p4 M4 status=OK done=1197/1197 net=31870 ops=7231875 t=0 table=686364 secs=0.018
+mcheck CollegeMsg-expiry-100-p4-M4-th16: 1197 batches compared, 0 differ
+CollegeMsg-insert-1000 p4 M4 status=OK done=60/60 net=13838 ops=8126750 t=729064 table=1343784 secs=0.013
+mcheck CollegeMsg-insert-1000-p4-M4-th16: 60 batches compared, 0 differ
+CollegeMsg-insert-100 p4 M4 status=OK done=599/599 net=13838 ops=8117935 t=729064 table=1344824 secs=0.013
+mcheck CollegeMsg-insert-100-p4-M4-th16: 599 batches compared, 0 differ
+email-Eu-core-temporal-expiry-1000 p4 M4 status=OK done=665/665 net=187712 ops=31216643 t=0 table=400252 secs=0.091
+mcheck email-Eu-core-temporal-expiry-1000-p4-M4-th16: 665 batches compared, 0 differ
+email-Eu-core-temporal-expiry-100 p4 M4 status=OK done=6647/6647 net=222950 ops=37674853 t=0 table=404888 secs=0.108
+mcheck email-Eu-core-temporal-expiry-100-p4-M4-th16: 6647 batches compared, 0 differ
+email-Eu-core-temporal-insert-1000 p4 M4 status=OK done=333/333 net=16064 ops=28637687 t=4647873 table=899636 secs=0.022
+mcheck email-Eu-core-temporal-insert-1000-p4-M4-th16: 333 batches compared, 0 differ
+email-Eu-core-temporal-insert-100 p4 M4 status=OK done=3324/3324 net=16064 ops=28634730 t=4647873 table=899296 secs=0.022
+mcheck email-Eu-core-temporal-insert-100-p4-M4-th16: 3324 batches compared, 0 differ
+sx-mathoverflow-expiry-1000 p4 M4 status=OK done=781/781 net=485368 ops=61448125 t=0 table=1537264 secs=0.191
+mcheck sx-mathoverflow-expiry-1000-p4-M4-th16: 781 batches compared, 0 differ
+sx-mathoverflow-expiry-100 p4 M4 status=OK done=7809/7809 net=488660 ops=64937115 t=0 table=1546256 secs=0.202
+mcheck sx-mathoverflow-expiry-100-p4-M4-th16: 7809 batches compared, 0 differ
+sx-mathoverflow-insert-1000 p4 M4 status=OK done=391/391 net=187986 ops=1351783372 t=185375938 table=7966016 secs=0.468
+mcheck sx-mathoverflow-insert-1000-p4-M4-th16: 391 batches compared, 0 differ
+sx-mathoverflow-insert-100 p4 M4 status=OK done=3905/3905 net=187986 ops=1353385460 t=185375938 table=7964156 secs=0.467
+mcheck sx-mathoverflow-insert-100-p4-M4-th16: 3905 batches compared, 0 differ
+CollegeMsg-expiry-1000 p5 M5 status=OK done=120/120 net=31024 ops=31119550 t=0 table=1880088 secs=0.036
+mcheck CollegeMsg-expiry-1000-p5-M5-th128: 120 batches compared, 0 differ
+CollegeMsg-expiry-100 p5 M5 status=OK done=1197/1197 net=31870 ops=31951053 t=0 table=1899748 secs=0.036
+mcheck CollegeMsg-expiry-100-p5-M5-th128: 1197 batches compared, 0 differ
+CollegeMsg-insert-1000 p5 M5 status=OK done=60/60 net=13838 ops=30724286 t=18543001 table=6259428 secs=0.028
+mcheck CollegeMsg-insert-1000-p5-M5-th128: 60 batches compared, 0 differ
+CollegeMsg-insert-100 p5 M5 status=OK done=599/599 net=13838 ops=30680557 t=18543001 table=6244580 secs=0.028
+mcheck CollegeMsg-insert-100-p5-M5-th128: 599 batches compared, 0 differ
+email-Eu-core-temporal-expiry-1000 p5 M5 status=OK done=665/665 net=187712 ops=102148090 t=0 table=624784 secs=0.125
+mcheck email-Eu-core-temporal-expiry-1000-p5-M5-th128: 665 batches compared, 0 differ
+email-Eu-core-temporal-expiry-100 p5 M5 status=OK done=6647/6647 net=222950 ops=127200529 t=0 table=640900 secs=0.152
+mcheck email-Eu-core-temporal-expiry-100-p5-M5-th128: 6647 batches compared, 0 differ
+email-Eu-core-temporal-insert-1000 p5 M5 status=OK done=333/333 net=16064 ops=76668392 t=245585096 table=4178976 secs=0.049
+mcheck email-Eu-core-temporal-insert-1000-p5-M5-th128: 333 batches compared, 0 differ
+email-Eu-core-temporal-insert-100 p5 M5 status=OK done=3324/3324 net=16064 ops=76661328 t=245585096 table=4177952 secs=0.049
+mcheck email-Eu-core-temporal-insert-100-p5-M5-th128: 3324 batches compared, 0 differ
+sx-mathoverflow-expiry-1000 p5 M5 status=OK done=781/781 net=485368 ops=198295546 t=0 table=1555788 secs=0.289
+mcheck sx-mathoverflow-expiry-1000-p5-M5-th128: 781 batches compared, 0 differ
+sx-mathoverflow-expiry-100 p5 M5 status=OK done=7809/7809 net=488660 ops=224872480 t=0 table=1571272 secs=0.320
+mcheck sx-mathoverflow-expiry-100-p5-M5-th128: 7809 batches compared, 0 differ
+sx-mathoverflow-insert-1000 p5 M5 status=OK done=391/391 net=187986 ops=11359804629 t=27396207208 table=82450016 secs=6.579
+mcheck sx-mathoverflow-insert-1000-p5-M5-th128: 391 batches compared, 0 differ
+sx-mathoverflow-insert-100 p5 M5 status=OK done=3905/3905 net=187986 ops=11351017579 t=27396207208 table=82378840 secs=6.268
+mcheck sx-mathoverflow-insert-100-p5-M5-th128: 3905 batches compared, 0 differ
+M1D04-DONE results/gate1-M1D10 main
+CollegeMsg-expiry-1000 p3 S3 status=OK done=120/120 net=31024 ops=747540 t=0 table=0 secs=0.004
+CollegeMsg-expiry-1000 p3 P3 status=OK done=120/120 net=31024 ops=1113222 t=0 table=0 secs=0.004
+CollegeMsg-expiry-1000 p3 T3 status=OK done=120/120 net=31024 ops=8403548 t=0 table=1880088 secs=0.024
+CollegeMsg-expiry-100 p3 S3 status=OK done=1197/1197 net=31870 ops=762553 t=0 table=0 secs=0.005
+CollegeMsg-expiry-100 p3 P3 status=OK done=1197/1197 net=31870 ops=1073818 t=0 table=0 secs=0.005
+CollegeMsg-expiry-100 p3 T3 status=OK done=1197/1197 net=31870 ops=8609798 t=0 table=1899748 secs=0.025
+CollegeMsg-insert-1000 p3 S3 status=OK done=60/60 net=13838 ops=446138 t=14319 table=0 secs=0.003
+CollegeMsg-insert-1000 p3 P3 status=OK done=60/60 net=13838 ops=623690 t=14319 table=0 secs=0.003
+CollegeMsg-insert-1000 p3 T3 status=OK done=60/60 net=13838 ops=7143502 t=14319 table=6259428 secs=0.016
+CollegeMsg-insert-100 p3 S3 status=OK done=599/599 net=13838 ops=445264 t=14319 table=0 secs=0.003
+CollegeMsg-insert-100 p3 P3 status=OK done=599/599 net=13838 ops=604844 t=14319 table=0 secs=0.003
+CollegeMsg-insert-100 p3 T3 status=OK done=599/599 net=13838 ops=7143262 t=14319 table=6244580 secs=0.017
+email-Eu-core-temporal-expiry-1000 p3 S3 status=OK done=665/665 net=187712 ops=4116834 t=0 table=0 secs=0.023
+email-Eu-core-temporal-expiry-1000 p3 P3 status=OK done=665/665 net=187712 ops=6155089 t=0 table=0 secs=0.021
+email-Eu-core-temporal-expiry-1000 p3 T3 status=OK done=665/665 net=187712 ops=30510262 t=0 table=624784 secs=0.088
+email-Eu-core-temporal-expiry-100 p3 S3 status=OK done=6647/6647 net=222950 ops=4776335 t=0 table=0 secs=0.027
+email-Eu-core-temporal-expiry-100 p3 P3 status=OK done=6647/6647 net=222950 ops=6870020 t=0 table=0 secs=0.027
+email-Eu-core-temporal-expiry-100 p3 T3 status=OK done=6647/6647 net=222950 ops=36809040 t=0 table=640900 secs=0.106
+email-Eu-core-temporal-insert-1000 p3 S3 status=OK done=333/333 net=16064 ops=1377016 t=105461 table=0 secs=0.007
+email-Eu-core-temporal-insert-1000 p3 P3 status=OK done=333/333 net=16064 ops=1665113 t=105461 table=0 secs=0.007
+email-Eu-core-temporal-insert-1000 p3 T3 status=OK done=333/333 net=16064 ops=9550032 t=105461 table=4475424 secs=0.020
+email-Eu-core-temporal-insert-100 p3 S3 status=OK done=3324/3324 net=16064 ops=1376584 t=105461 table=0 secs=0.008
+email-Eu-core-temporal-insert-100 p3 P3 status=OK done=3324/3324 net=16064 ops=1576676 t=105461 table=0 secs=0.007
+email-Eu-core-temporal-insert-100 p3 T3 status=OK done=3324/3324 net=16064 ops=9550552 t=105461 table=4476448 secs=0.020
+sx-mathoverflow-expiry-1000 p3 S3 status=OK done=781/781 net=485368 ops=6662022 t=0 table=0 secs=0.042
+sx-mathoverflow-expiry-1000 p3 P3 status=OK done=781/781 net=485368 ops=11223560 t=0 table=0 secs=0.042
+sx-mathoverflow-expiry-1000 p3 T3 status=OK done=781/781 net=485368 ops=66209242 t=0 table=1555788 secs=0.216
+sx-mathoverflow-expiry-100 p3 S3 status=OK done=7809/7809 net=488660 ops=6948354 t=0 table=0 secs=0.044
+sx-mathoverflow-expiry-100 p3 P3 status=OK done=7809/7809 net=488660 ops=11155213 t=0 table=0 secs=0.049
+sx-mathoverflow-expiry-100 p3 T3 status=OK done=7809/7809 net=488660 ops=71325278 t=0 table=1571272 secs=0.239
+sx-mathoverflow-insert-1000 p3 S3 status=OK done=391/391 net=187986 ops=11828606 t=1403919 table=0 secs=0.083
+sx-mathoverflow-insert-1000 p3 P3 status=OK done=391/391 net=187986 ops=17054441 t=1403919 table=0 secs=0.074
+sx-mathoverflow-insert-1000 p3 T3 status=OK done=391/391 net=187986 ops=489993592 t=1403919 table=429156776 secs=1.694
+sx-mathoverflow-insert-100 p3 S3 status=OK done=3905/3905 net=187986 ops=11819028 t=1403919 table=0 secs=0.083
+sx-mathoverflow-insert-100 p3 P3 status=OK done=3905/3905 net=187986 ops=16489171 t=1403919 table=0 secs=0.080
+sx-mathoverflow-insert-100 p3 T3 status=OK done=3905/3905 net=187986 ops=489896018 t=1403919 table=428847464 secs=1.688
+CollegeMsg-expiry-1000 p4 S4 status=OK done=120/120 net=31024 ops=12053536 t=0 table=0 secs=0.007
+CollegeMsg-expiry-1000 p4 P4 status=OK done=120/120 net=31024 ops=8664805 t=0 table=0 secs=0.007
+CollegeMsg-expiry-1000 p4 T4 status=OK done=120/120 net=31024 ops=8834188 t=0 table=1880088 secs=0.025
+CollegeMsg-expiry-1000 p4 B4 status=OK done=120/120 net=31024 ops=32541503 t=0 table=0 secs=0.022
+CollegeMsg-expiry-1000 p4 A4 status=OK done=120/120 net=31024 ops=38158418 t=0 table=0 secs=0.038
+CollegeMsg-expiry-100 p4 S4 status=OK done=1197/1197 net=31870 ops=12465610 t=0 table=0 secs=0.007
+CollegeMsg-expiry-100 p4 P4 status=OK done=1197/1197 net=31870 ops=11117176 t=0 table=0 secs=0.008
+CollegeMsg-expiry-100 p4 T4 status=OK done=1197/1197 net=31870 ops=9053336 t=0 table=1899748 secs=0.026
+CollegeMsg-expiry-100 p4 B4 status=OK done=1197/1197 net=31870 ops=47643123 t=0 table=0 secs=0.025
+CollegeMsg-expiry-100 p4 A4 status=OK done=1197/1197 net=31870 ops=203029296 t=0 table=0 secs=0.190
+CollegeMsg-insert-1000 p4 S4 status=OK done=60/60 net=13838 ops=13779122 t=729064 table=0 secs=0.006
+CollegeMsg-insert-1000 p4 P4 status=OK done=60/60 net=13838 ops=9193133 t=729064 table=0 secs=0.005
+CollegeMsg-insert-1000 p4 T4 status=OK done=60/60 net=13838 ops=7442294 t=729064 table=6259428 secs=0.017
+CollegeMsg-insert-1000 p4 B4 status=OK done=60/60 net=13838 ops=39819327 t=729064 table=0 secs=0.019
+CollegeMsg-insert-1000 p4 A4 status=OK done=60/60 net=13838 ops=84880364 t=729064 table=0 secs=0.071
+CollegeMsg-insert-100 p4 S4 status=OK done=599/599 net=13838 ops=13806774 t=729064 table=0 secs=0.006
+CollegeMsg-insert-100 p4 P4 status=OK done=599/599 net=13838 ops=11517870 t=729064 table=0 secs=0.006
+CollegeMsg-insert-100 p4 T4 status=OK done=599/599 net=13838 ops=7441180 t=729064 table=6244580 secs=0.017
+CollegeMsg-insert-100 p4 B4 status=OK done=599/599 net=13838 ops=59898612 t=729064 table=0 secs=0.023
+CollegeMsg-insert-100 p4 A4 status=OK done=599/599 net=13838 ops=439824425 t=729064 table=0 secs=0.363
+email-Eu-core-temporal-expiry-1000 p4 S4 status=OK done=665/665 net=187712 ops=37187166 t=0 table=0 secs=0.030
+email-Eu-core-temporal-expiry-1000 p4 P4 status=OK done=665/665 net=187712 ops=29047853 t=0 table=0 secs=0.031
+email-Eu-core-temporal-expiry-1000 p4 T4 status=OK done=665/665 net=187712 ops=32828480 t=0 table=624784 secs=0.094
+email-Eu-core-temporal-expiry-1000 p4 B4 status=OK done=665/665 net=187712 ops=108413928 t=0 table=0 secs=0.105
+email-Eu-core-temporal-expiry-1000 p4 A4 status=OK done=665/665 net=187712 ops=98282749 t=0 table=0 secs=0.120
+email-Eu-core-temporal-expiry-100 p4 S4 status=OK done=6647/6647 net=222950 ops=46717918 t=0 table=0 secs=0.037
+email-Eu-core-temporal-expiry-100 p4 P4 status=OK done=6647/6647 net=222950 ops=39777719 t=0 table=0 secs=0.039
+email-Eu-core-temporal-expiry-100 p4 T4 status=OK done=6647/6647 net=222950 ops=39698664 t=0 table=640900 secs=0.112
+email-Eu-core-temporal-expiry-100 p4 B4 status=OK done=6647/6647 net=222950 ops=164559778 t=0 table=0 secs=0.122
+email-Eu-core-temporal-expiry-100 p4 A4 status=OK done=6647/6647 net=222950 ops=473734475 t=0 table=0 secs=0.496
+email-Eu-core-temporal-insert-1000 p4 S4 status=OK done=333/333 net=16064 ops=38575706 t=4647873 table=0 secs=0.014
+email-Eu-core-temporal-insert-1000 p4 P4 status=OK done=333/333 net=16064 ops=32251046 t=4647873 table=0 secs=0.013
+email-Eu-core-temporal-insert-1000 p4 T4 status=OK done=333/333 net=16064 ops=10230252 t=4647873 table=4475424 secs=0.020
+email-Eu-core-temporal-insert-1000 p4 B4 status=OK done=333/333 net=16064 ops=144897389 t=4647873 table=0 secs=0.048
+email-Eu-core-temporal-insert-1000 p4 A4 status=OK done=333/333 net=16064 ops=961408153 t=4647873 table=0 secs=0.667
+email-Eu-core-temporal-insert-100 p4 S4 status=OK done=3324/3324 net=16064 ops=38571462 t=4647873 table=0 secs=0.014
+email-Eu-core-temporal-insert-100 p4 P4 status=OK done=3324/3324 net=16064 ops=33796335 t=4647873 table=0 secs=0.013
+email-Eu-core-temporal-insert-100 p4 T4 status=OK done=3324/3324 net=16064 ops=10230340 t=4647873 table=4476448 secs=0.020
+email-Eu-core-temporal-insert-100 p4 B4 status=OK done=3324/3324 net=16064 ops=166668777 t=4647873 table=0 secs=0.053
+email-Eu-core-temporal-insert-100 p4 A4 status=OK done=3324/3324 net=16064 ops=2466297371 t=4647873 table=0 secs=1.725
+sx-mathoverflow-expiry-1000 p4 S4 status=OK done=781/781 net=485368 ops=58574500 t=0 table=0 secs=0.058
+sx-mathoverflow-expiry-1000 p4 P4 status=OK done=781/781 net=485368 ops=45582038 t=0 table=0 secs=0.062
+sx-mathoverflow-expiry-1000 p4 T4 status=OK done=781/781 net=485368 ops=70096080 t=0 table=1555788 secs=0.224
+sx-mathoverflow-expiry-1000 p4 B4 status=OK done=781/781 net=485368 ops=152208821 t=0 table=0 secs=0.195
+sx-mathoverflow-expiry-1000 p4 A4 status=OK done=781/781 net=485368 ops=97147970 t=0 table=0 secs=0.156
+sx-mathoverflow-expiry-100 p4 S4 status=OK done=7809/7809 net=488660 ops=66021324 t=0 table=0 secs=0.062
+sx-mathoverflow-expiry-100 p4 P4 status=OK done=7809/7809 net=488660 ops=65610950 t=0 table=0 secs=0.073
+sx-mathoverflow-expiry-100 p4 T4 status=OK done=7809/7809 net=488660 ops=75490218 t=0 table=1571272 secs=0.243
+sx-mathoverflow-expiry-100 p4 B4 status=OK done=7809/7809 net=488660 ops=262861167 t=0 table=0 secs=0.233
+sx-mathoverflow-expiry-100 p4 A4 status=OK done=7809/7809 net=488660 ops=568715586 t=0 table=0 secs=0.606
+sx-mathoverflow-insert-1000 p4 S4 status=OK done=391/391 net=187986 ops=2242775293 t=185375938 table=0 secs=0.524
+sx-mathoverflow-insert-1000 p4 P4 status=OK done=391/391 net=187986 ops=1765527405 t=185375938 table=0 secs=0.427
+sx-mathoverflow-insert-1000 p4 T4 status=OK done=391/391 net=187986 ops=500665344 t=185375938 table=429156776 secs=1.670
+sx-mathoverflow-insert-1000 p4 B4 status=OK done=391/391 net=187986 ops=9699795232 t=185375938 table=0 secs=2.413
+sx-mathoverflow-insert-1000 p4 A4 status=OK done=391/391 net=187986 ops=22858445750 t=185375938 table=0 secs=15.103
+sx-mathoverflow-insert-100 p4 S4 status=OK done=3905/3905 net=187986 ops=2246263241 t=185375938 table=0 secs=0.529
+sx-mathoverflow-insert-100 p4 P4 status=OK done=3905/3905 net=187986 ops=2020722296 t=185375938 table=0 secs=0.481
+sx-mathoverflow-insert-100 p4 T4 status=OK done=3905/3905 net=187986 ops=500558192 t=185375938 table=428847464 secs=1.668
+sx-mathoverflow-insert-100 p4 B4 status=OK done=3905/3905 net=187986 ops=18121698106 t=185375938 table=0 secs=4.106
+sx-mathoverflow-insert-100 p4 A4 status=OK done=3905/3905 net=187986 ops=186813232596 t=185375938 table=0 secs=113.808
+CollegeMsg-expiry-1000 p5 R2 status=OK done=120/120 net=31024 ops=41152131 t=0 table=3072 secs=0.028
+CollegeMsg-expiry-1000 p5 PR status=OK done=120/120 net=31024 ops=24861811 t=0 table=3072 secs=0.019
+CollegeMsg-expiry-1000 p5 WT status=OK done=120/120 net=31024 ops=28599040 t=0 table=1880088 secs=0.034
+CollegeMsg-expiry-1000 p5 WJ status=OK done=120/120 net=31024 ops=18753032 t=0 table=1572864 secs=0.094
+CollegeMsg-expiry-1000 p5 A5 status=OK done=120/120 net=31024 ops=137625887 t=0 table=0 secs=0.096
+CollegeMsg-expiry-100 p5 R2 status=OK done=1197/1197 net=31870 ops=42546062 t=0 table=3072 secs=0.029
+CollegeMsg-expiry-100 p5 PR status=OK done=1197/1197 net=31870 ops=32209918 t=0 table=3072 secs=0.024
+CollegeMsg-expiry-100 p5 WT status=OK done=1197/1197 net=31870 ops=29359917 t=0 table=1899748 secs=0.035
+CollegeMsg-expiry-100 p5 WJ status=OK done=1197/1197 net=31870 ops=19305796 t=0 table=1572864 secs=0.097
+CollegeMsg-expiry-100 p5 A5 status=OK done=1197/1197 net=31870 ops=1338281258 t=0 table=0 secs=0.875
+CollegeMsg-insert-1000 p5 R2 status=OK done=60/60 net=13838 ops=56867773 t=18543001 table=3072 secs=0.028
+CollegeMsg-insert-1000 p5 PR status=OK done=60/60 net=13838 ops=34594704 t=18543001 table=3072 secs=0.018
+CollegeMsg-insert-1000 p5 WT status=OK done=60/60 net=13838 ops=28914460 t=18543001 table=6259428 secs=0.027
+CollegeMsg-insert-1000 p5 WJ status=OK done=60/60 net=13838 ops=21600519 t=18543001 table=12582912 secs=0.114
+CollegeMsg-insert-1000 p5 A5 status=OK done=60/60 net=13838 ops=441040770 t=18543001 table=0 secs=0.253
+CollegeMsg-insert-100 p5 R2 status=OK done=599/599 net=13838 ops=56920853 t=18543001 table=3072 secs=0.028
+CollegeMsg-insert-100 p5 PR status=OK done=599/599 net=13838 ops=43101334 t=18543001 table=3072 secs=0.022
+CollegeMsg-insert-100 p5 WT status=OK done=599/599 net=13838 ops=28872517 t=18543001 table=6244580 secs=0.028
+CollegeMsg-insert-100 p5 WJ status=OK done=599/599 net=13838 ops=21562177 t=18543001 table=12582912 secs=0.115
+CollegeMsg-insert-100 p5 A5 status=OK done=599/599 net=13838 ops=4366454111 t=18543001 table=0 secs=2.452
+email-Eu-core-temporal-expiry-1000 p5 R2 status=OK done=665/665 net=187712 ops=105096884 t=0 table=3072 secs=0.110
+email-Eu-core-temporal-expiry-1000 p5 PR status=OK done=665/665 net=187712 ops=68289445 t=0 table=3072 secs=0.079
+email-Eu-core-temporal-expiry-1000 p5 WT status=OK done=665/665 net=187712 ops=91929959 t=0 table=624784 secs=0.118
+email-Eu-core-temporal-expiry-1000 p5 WJ status=OK done=665/665 net=187712 ops=55603699 t=0 table=786432 secs=0.251
+email-Eu-core-temporal-expiry-1000 p5 A5 status=OK done=665/665 net=187712 ops=301575588 t=0 table=0 secs=0.246
+email-Eu-core-temporal-expiry-100 p5 R2 status=OK done=6647/6647 net=222950 ops=132956253 t=0 table=3072 secs=0.134
+email-Eu-core-temporal-expiry-100 p5 PR status=OK done=6647/6647 net=222950 ops=98826681 t=0 table=3072 secs=0.109
+email-Eu-core-temporal-expiry-100 p5 WT status=OK done=6647/6647 net=222950 ops=114623610 t=0 table=640900 secs=0.143
+email-Eu-core-temporal-expiry-100 p5 WJ status=OK done=6647/6647 net=222950 ops=70329075 t=0 table=786432 secs=0.318
+email-Eu-core-temporal-expiry-100 p5 A5 status=OK done=6647/6647 net=222950 ops=2762942879 t=0 table=0 secs=2.026
+email-Eu-core-temporal-insert-1000 p5 R2 status=OK done=333/333 net=16064 ops=140735647 t=245585096 table=3072 secs=0.059
+email-Eu-core-temporal-insert-1000 p5 PR status=OK done=333/333 net=16064 ops=108229110 t=245585096 table=3072 secs=0.046
+email-Eu-core-temporal-insert-1000 p5 WT status=OK done=333/333 net=16064 ops=71984484 t=245585096 table=4475424 secs=0.045
+email-Eu-core-temporal-insert-1000 p5 WJ status=OK done=333/333 net=16064 ops=57259533 t=245585096 table=6291456 secs=0.216
+email-Eu-core-temporal-insert-1000 p5 A5 status=OK done=333/333 net=16064 ops=8144232379 t=245585096 table=0 secs=3.818
+email-Eu-core-temporal-insert-100 p5 R2 status=OK done=3324/3324 net=16064 ops=140762283 t=245585096 table=3072 secs=0.060
+email-Eu-core-temporal-insert-100 p5 PR status=OK done=3324/3324 net=16064 ops=120197562 t=245585096 table=3072 secs=0.051
+email-Eu-core-temporal-insert-100 p5 WT status=OK done=3324/3324 net=16064 ops=71958622 t=245585096 table=4476448 secs=0.045
+email-Eu-core-temporal-insert-100 p5 WJ status=OK done=3324/3324 net=16064 ops=57230586 t=245585096 table=6291456 secs=0.216
+email-Eu-core-temporal-insert-100 p5 A5 status=OK done=3324/3324 net=16064 ops=69186419374 t=245585096 table=0 secs=32.271
+sx-mathoverflow-expiry-1000 p5 R2 status=OK done=781/781 net=485368 ops=186440955 t=0 table=3072 secs=0.208
+sx-mathoverflow-expiry-1000 p5 PR status=OK done=781/781 net=485368 ops=105637222 t=0 table=3072 secs=0.139
+sx-mathoverflow-expiry-1000 p5 WT status=OK done=781/781 net=485368 ops=177495063 t=0 table=1555788 secs=0.272
+sx-mathoverflow-expiry-1000 p5 WJ status=OK done=781/781 net=485368 ops=101468233 t=0 table=786432 secs=0.345
+sx-mathoverflow-expiry-1000 p5 A5 status=OK done=781/781 net=485368 ops=289257754 t=0 table=0 secs=0.270
+sx-mathoverflow-expiry-100 p5 R2 status=OK done=7809/7809 net=488660 ops=215211824 t=0 table=3072 secs=0.228
+sx-mathoverflow-expiry-100 p5 PR status=OK done=7809/7809 net=488660 ops=174745786 t=0 table=3072 secs=0.202
+sx-mathoverflow-expiry-100 p5 WT status=OK done=7809/7809 net=488660 ops=202349504 t=0 table=1571272 secs=0.298
+sx-mathoverflow-expiry-100 p5 WJ status=OK done=7809/7809 net=488660 ops=117047588 t=0 table=786432 secs=0.415
+sx-mathoverflow-expiry-100 p5 A5 status=OK done=7809/7809 net=488660 ops=2570967938 t=0 table=0 secs=1.841
+sx-mathoverflow-insert-1000 p5 R2 status=OK done=391/391 net=187986 ops=16215015360 t=27396207208 table=3072 secs=4.764
+sx-mathoverflow-insert-1000 p5 PR status=OK done=391/391 net=187986 ops=10557516968 t=27396207208 table=3072 secs=2.998
+sx-mathoverflow-insert-1000 p5 WT status=OK done=391/391 net=187986 ops=4650657604 t=27396207208 table=429156776 secs=7.839
+sx-mathoverflow-insert-1000 p5 WJ status=OK done=391/391 net=187986 ops=3923024123 t=27396207208 table=805306368 secs=41.153
+sx-mathoverflow-insert-1000 p5 A5 status=OK done=391/391 net=187986 ops=301869849512 t=27396207208 table=0 secs=126.262
+sx-mathoverflow-insert-100 p5 R2 status=OK done=3905/3905 net=187986 ops=16223520812 t=27396207208 table=3072 secs=4.801
+sx-mathoverflow-insert-100 p5 PR status=OK done=3905/3905 net=187986 ops=14132006471 t=27396207208 table=3072 secs=4.110
+sx-mathoverflow-insert-100 p5 WT status=OK done=3905/3905 net=187986 ops=4642313535 t=27396207208 table=428847464 secs=7.794
+sx-mathoverflow-insert-100 p5 WJ status=OK done=3905/3905 net=187986 ops=3916258142 t=27396207208 table=805306368 secs=41.109
+sx-mathoverflow-insert-100 p5 A5 status=TIME done=2138/3905 net=105794 ops=707551466272 t=10538526159 table=0 secs=300.079
+exact: 36 groups, 1208 files, 1172 pairs against the longest file, 2524286 batch comparisons, 0 files differ
+M1D10-DONE results/gate1-M1D10

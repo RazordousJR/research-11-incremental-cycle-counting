@@ -1,0 +1,45 @@
+fitting set: 102 arm-cells on 29 cells, 10 with a table over the LLC, on ['sx-mathoverflow insert']
+M1D07: 276 arm-cells on 66 cells, 102 over the LLC
+M1D05: 173 arm-cells on 36 cells, 42 over the LLC
+
+coefficients, ns per counted operation
+U: ops 0.408
+K: scan 0.456, probe 11.376, row 0.067, deg 0.000, tab_read 2.161, tab_write 2.327, graph 25.641, net_ops 24.678, group 0.000, rc 0.588
+KC: scan 0.464, probe 10.492, row 0.053, deg 0.000, tab_read 2.178, tab_write 1.469, graph 21.291, net_ops 30.532, group 0.000, rc 0.584, probe>LLC 0.000, tab_read>LLC 0.000, tab_write>LLC 3.792
+
+model | set | median error | winner agrees | cells | p = 5 median-score side agrees | p = 5 cells
+| U | fitting | 67.1% | 10 | 24 | 5 | 6 |
+| U | M1D07 | 71.3% | 21 | 64 | 12 | 32 |
+| U | M1D05 | 64.1% | 23 | 36 | 7 | 12 |
+| K | fitting | 19.5% | 18 | 24 | 6 | 6 |
+| K | M1D07 | 23.5% | 63 | 64 | 30 | 32 |
+| K | M1D05 | 34.1% | 23 | 36 | 10 | 12 |
+| KC | fitting | 16.2% | 18 | 24 | 6 | 6 |
+| KC | M1D07 | 23.0% | 63 | 64 | 30 | 32 |
+| KC | M1D05 | 25.8% | 22 | 36 | 10 | 12 |
+
+KC against U on M1D07: winner agreement 63 against 21 of 64, a gain of 65.6% (needs 25 points: yes); KC median error 23.0% (needs at most 25%: yes)
+OUTCOME: Carries
+
+cache, KC against K on M1D07: winners 63 against 63 of 64, median error 23.0% against 23.5%. Shown here: no (the paper needs it in M1D09 as well)
+
+prediction over clock per arm, median, KC: arm | M1D07 | M1D05
+| A4 | - | 0.66 |
+| A5 | 1.30 | 0.87 |
+| B4 | - | 0.46 |
+| M3 | 0.77 | 0.81 |
+| M4 | - | 0.76 |
+| M5 | 1.15 | 0.87 |
+| P3 | 0.82 | 1.02 |
+| P4 | - | 0.83 |
+| PR | 0.80 | 0.66 |
+| R2 | 0.76 | 0.64 |
+| S3 | 0.89 | 1.20 |
+| S4 | - | 0.95 |
+| T3 | 0.96 | 0.99 |
+| T4 | - | 1.00 |
+| WJ | 0.15 | 0.30 |
+| WT | 1.07 | 1.03 |
+
+M1D07 cells where KC names the wrong winner: cell | clock | KC
+| soc-redditHyperlinks-title expiry 100 p3 | S3 | P3 |

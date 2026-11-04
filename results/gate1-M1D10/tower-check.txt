@@ -1,0 +1,58 @@
+tower check at 2026-11-04T22:19:11
+  commit limit     111.3 GB
+  commit available 74.6 GB   (floor 40 GB)
+  RAM available    14.1 of 31.3 GB   <- NOT the meter that fails; see the header of this file
+
+  [quiet] Research 1, tetrahedral mesh generation
+           0 process(es) attributed
+           no claim file
+
+  [quiet] Research 2, sampling and reconstruction
+           0 process(es) attributed
+           no claim file
+
+  [quiet] Research 3, physics-embedded Gaussian splatting
+           0 process(es) attributed
+           no claim file
+
+  [quiet] Research 4, conservative learned collision culling
+           0 process(es) attributed
+           no claim file
+
+  [quiet] Research 5, GPU-accelerated dynamic learned indexes
+           0 process(es) attributed
+           no claim file
+
+  [quiet] Research 6, dynamic GPU approximate nearest-neighbour search
+           0 process(es) attributed
+           no claim file
+
+  [quiet] Research 7, adaptive GPU graph processing for irregular workloads
+           0 process(es) attributed
+           no claim file
+
+  [quiet] Research 8, compression-aware GPU data processing and memory management
+           0 process(es) attributed
+           no claim file
+
+  [quiet] Research 9, hybrid network performance modelling (discrete-event simulation and learned surrogates)
+           0 process(es) attributed
+           no claim file
+
+  [quiet] Research 10, cost-aware delta debugging for failure-inducing inputs
+           0 process(es) attributed
+           no claim file
+
+  [quiet] Research 11, exact batch triangle counting in dynamic graphs
+           0 process(es) attributed
+           no claim file
+
+  [quiet] Research 12, procedural terrain generation
+           0 process(es) attributed
+           no claim file
+
+  A process table is a sample. A project between subprocesses reads as quiet.
+  Research 3's driver writes a claim and releases it; Research 1's and Research 2's
+  do not, so for those two an absent claim file still means nothing.
+
+VERDICT: clear for Research 11, exact batch triangle counting in dynamic graphs. Claim it before you start.

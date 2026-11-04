@@ -1,0 +1,6 @@
+wait 22:11:05 RAM 13 GiB
+wait 22:12:05 RAM 13 GiB
+wait 22:13:06 RAM 13 GiB
+wait 22:14:06 RAM 13 GiB
+wait 22:16:08 RAM 13 GiB
+wait 22:17:09 RAM 13 GiB

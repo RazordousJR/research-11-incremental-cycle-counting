@@ -816,3 +816,25 @@ The suggestion that goes with the report is chosen by these rules and named in t
 **The PI's word again, by chat, about 21:35:** "ok aku approved", for M1D10C, with the session to be closed and the work handed to a new one. The new session takes over from ControlPC's start message.
 
 **The PI's word on the venue, by chat, 2026-11-04:** "JGAA pun ok. aku tak kiasah." Read as: the venue is JGAA, and the paper does not need WoS. KAIS is dropped as the fallback. This closes the question open since 0045.
+
+## 0065, 2026-11-04: M1D10C run and M1D10D reading: Carries
+
+**Coordination.** The session "Sambung Research 11 M1D10C" took over Research 11's GO requests at 21:40. ControlPC gave WAIT until Research 12's P7 released, at 21:46:45, then GO for 22:10:00, widened to a window of 22:10 to 23:25 because the chain's RAM check was at its edge. Free RAM read 13.78 GiB at 21:47. A retry loop started the chain each minute from 22:10, outside hh:06 to hh:08, only when free RAM read 14 GiB. The chain's own check read 13 GiB at 22:10:03, 22:15:07 and 22:18:09 and claimed nothing. It passed at 22:19:11. The 14 GiB check was not changed.
+
+**M1D10C.** One `--exclusive --timing` claim, 22:19:12 to 22:49:27, CPU 8, M1D04's binaries by hash. Timing 22:19:12 to 22:36:31, 824 timed processes; count builds to 22:49:24. Exact: `mcheck` 0 differences on every M arm, `gate1_score.py exact` against M1D02B 1,172 pairs and 0 files differ. A5 on sx-mathoverflow insert-only cut 100 stopped at 300 s in both builds, as the protocol fixes. Line not reached. `results/gate1-M1D10/README.md`.
+
+**Overlap, read after release.** ControlPC's records: the 22:06 mail ended at 22:07:34, before the claim; Research 1's `Status` and `FollowOnGate` started at 22:30:01 and `FollowOnGate` at 22:45:01, lengths unrecorded, taken as 300 s; ControlPC ran nothing; Research 12, 9 and 1 were on read and edit only, and no process table was sampled. `scripts/overlap_check.py M1D10C`, a new mode: one scored repeat covers an event, R2 on sx-mathoverflow insert-only cut 100 at +0.2% over its median and not its fastest, and the stopped A5 run, which is not scored. The 22:45:01 task fell in the count builds.
+
+**M1D10D.** `scripts/m1d10_cost.py` run once. Output and record: `results/cost-M1D10/`.
+
+| Model | M1D07 median error | M1D07 winners, 64 cells | M1D05 median error | M1D05 winners, 36 cells |
+|---|---|---|---|---|
+| U | 71.3% | 21 | 64.1% | 23 |
+| K | 23.5% | 63 | 34.1% | 23 |
+| KC | 23.0% | 63 | 25.8% | 22 |
+
+**Outcome by the rule: Carries.** KC gains 65.6 points over U in winner agreement on M1D07, where 25 are needed, at a median error of 23.0%, under 25%. M1D09 also read Carries, so section 6 claims Carries, with M1D10's coefficients and M1D09's beside them, as fixed in 493f478. Cache: KC against K on M1D07 is 63 against 63 winners and 23.0% against 23.5%, so no cache price is shown, in either fit, and none is claimed.
+
+**Read beside it.** On M1D05's streams the engineering fit names 22 of 36 winners. Unplanned breakdown: all 12 p = 5 cells are right, and 14 of 24 at p = 3 and 4 are wrong. On every miss the clock picks the scan arm, or once M4, and KC picks P, with the runner-up 0.3% to 28% behind. The fit prices a row step at 0.05 ns against M1D09's 0.23 and a degree read at zero. WJ is at a median 0.15 of its clock on M1D07, against 0.18 in M1D09, with its 768 MB table inside the fit. A probe costs 10.5 to 18 ns in the two fits, against 0.05 to 0.6 ns for a row or scan step.
+
+**For the PI.** The outcome is settled by the rule fixed first. What section 6 says about the M1D05 misses, and whether p = 4 needs its own reading, is the PI's call.

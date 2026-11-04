@@ -1,7 +1,7 @@
 """Timed processes against known background events. Read-only. Run from the project folder.
 Each timed process runs from its summary file's write time less its seconds. A process overlaps when it covers a quarter-hour mark (Research 1's tasks at :00, :15, :30,
 :45, as ControlPC read them), ControlPC's mail at :06:15 for about a minute, or one of the one-off tasks ControlPC listed for M1D06A.
-Usage: overlap_check.py [M1D07D | M1D08C]. With M1D07D, the two M1D07D claims and their passes only. With M1D08C, that claim, per core.
+Usage: overlap_check.py [M1D07D | M1D08C | M1D10C]. With M1D07D, the two M1D07D claims and their passes only. With M1D08C, that claim, per core. With M1D10C, that claim and its arm-cells.
 Prints, per claim, how slow overlapping and clean repeats run against their own arm's median on the cell, and, for every p = 5 pass, whether the best arm's
 fastest repeat overlaps, which is the only way background load could make a pass that should not be."""
 import csv
@@ -104,6 +104,39 @@ def events_m1d08c(t0, t1):
     mail = [(dt.datetime(2026, 11, 4, 14, 6, 30), 67), (dt.datetime(2026, 11, 4, 16, 6, 32), 57), (dt.datetime(2026, 11, 4, 18, 6, 33), 60)]
     return [(s, n) for s, n in out + mail if t0 <= s + dt.timedelta(seconds=n) and s <= t1]
 
+
+def events_m1d10c(t0, t1):
+    """M1D10C, from ControlPC's reading of Task Scheduler (log.md 0065): Research1-Status and Research1-FollowOnGate at 22:30:01, FollowOnGate at 22:45:01.
+    Their lengths are not recorded, and earlier runs ended within seconds, so each is taken as 300 s. The 22:06 mail ended at 22:07:34, before the claim.
+    Backup at 22:00:01 and 23:00:01 and BackupResults at 18:00:01 are outside it. ControlPC ran nothing inside it, and R12, R9 and R1 read and edited only."""
+    out = [(dt.datetime(2026, 11, 4, 22, 30, 1), 300), (dt.datetime(2026, 11, 4, 22, 45, 1), 300)]
+    return [(s, n) for s, n in out if t0 <= s + dt.timedelta(seconds=n) and s <= t1]
+
+
+if sys.argv[1:] == ["M1D10C"]:
+    CLAIMS["M1D10C"] = (dt.datetime(2026, 11, 4, 22, 19, 12), dt.datetime(2026, 11, 4, 22, 49, 27))  # M1D10-CLAIMED and M1D10-RELEASED in chain.log
+    rows10 = runs("results/gate1-M1D10/raw/*.summary.csv")
+    print(f"M1D10C, {len(rows10)} timed processes")
+    ev = per_claim("M1D10C", rows10, events_m1d10c)
+    print(f"known events inside the claim: " + ", ".join(f"{s:%H:%M:%S} for {n} s" for s, n in ev))
+    by = {}
+    for r in rows10:
+        by.setdefault(r["arm"], []).append(r)
+    print("arm-cells with an overlapping repeat: arm-cell | repeats overlapping | overlapping repeat over its median | is the fastest repeat one of them")
+    for arm in sorted(by):
+        xs = by[arm]
+        hits = [x for x in xs if hit(x, ev)]
+        if not hits:
+            continue
+        if not all(x["ok"] for x in xs) or len(xs) < 3:
+            print(f"| {arm} | {len(hits)} of {len(xs)} | not scored: " + ", ".join(f"{x['sec']:.1f} s, {'OK' if x['ok'] else 'stopped'}" for x in hits) + " | - |")
+            continue
+        med = statistics.median(x["sec"] for x in xs)
+        fastest = min(xs, key=lambda x: x["sec"])
+        print(f"| {arm} | {len(hits)} of {len(xs)} | " + ", ".join(f"{x['sec'] / med - 1:+.1%}" for x in hits) + f" | {'yes' if fastest in hits else 'no'} |")
+    last = max(r["end"] for r in rows10)
+    print(f"last timed process ended {last:%H:%M:%S}; after it the claim ran count builds only, which give no seconds to any reading")
+    sys.exit(0)
 
 if sys.argv[1:] == ["M1D08C"]:
     import m1d07_score as m7

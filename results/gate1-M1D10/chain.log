@@ -1,0 +1,13 @@
+chain attempt 22:10:03, RAM 14 GiB
+M1D10-NOT-STARTED RAM available 13 GiB, under 14
+chain attempt 22:15:07, RAM 14 GiB
+M1D10-NOT-STARTED RAM available 13 GiB, under 14
+chain attempt 22:18:09, RAM 14 GiB
+M1D10-NOT-STARTED RAM available 13 GiB, under 14
+chain attempt 22:19:11, RAM 14 GiB
+checks: RAM 14 GiB, commit free 74 GiB, both binaries' hashes good
+claimed the tower for research11: R11 M1D10C timing, exclusive, 1 thread on CPU 8, line 2 h, PI's word and ControlPC GO
+M1D10-CLAIMED 22:19:12
+released the tower claim for research11
+M1D10-RELEASED 22:49:27 exit 0
+chain finished rc 0 22:49:27
