@@ -14,6 +14,7 @@
 - **M1D07 reads Narrows** (`log.md` 0058). 12 new streams from Hanauer et al.'s set, 6 of them with real deletions, timed in two exclusive claims, exact. At p = 5, 22 of 36 new cells pass. Pooled with M1D05, 28 of 50 pass and Go holds, but the pooled p = 3 median of 0.965 breaks the trend: sharing now beats the scan at p = 3 on 27 of 36 new cells, without passing. The outline's claim sentence is rewritten. R2 is best on 43 of 50, and a scan 10% faster would take the pooled passes to 16 of 50.
 - **M1D08 reads Core-stable** (`log.md` 0061). The 24 cells near the pass line, timed on a P-core and an E-core in one exclusive claim, exact. The P-core reproduces the record: arm medians within 1%, 22 of 24 verdicts the same, and 28 of 50 pooled. The E-core passes 24 of 50 on 12 streams, and Go holds on both. The loss is on the wiki real-deletion cells, which are worse on every one there. Not a second machine.
 - **M1D09 reads Carries** (`log.md` 0063). A cost model priced by kind of operation, fitted on M1D05's streams, names the clock winner on all 64 new cells where unit cost names 21, at a median error of 22.9%. The cache-size term adds nothing, and WJ is underpriced about fivefold. Figures 3 to 6 are drawn, so the outline has its six.
+- **M1D10 reads Carries** (`log.md` 0065). The same models fitted on the 12 engineering cells, every arm timed there in one exclusive claim, exact. KC names 63 of 64 new winners, unit cost 21, at 23.0% median error. Section 6 claims Carries with M1D10's coefficients. Neither fit shows a cache price. On M1D05's streams the engineering fit misses 14 of 24 cells at p = 3 and 4, always preferring P to the scan, and none at p = 5.
 
 | Test | Verdict | Read with |
 |---|---|---|
@@ -29,16 +30,19 @@
 | M1D07E, 12 new streams, pooled | **Narrows** | Pooled Go 28 of 50 holds; pooled trend fails at p = 3, median 0.965. No pass on dewiki or sx-stackoverflow. 10% margin over the scan. One P-core, one machine |
 | M1D08, P-core against E-core | **Core-stable** | Go holds on P 28 of 50 and E 24 of 50. 6 of 24 cells differ by core; frwiki and nlwiki pass on P only. Same L3 and DRAM, so not a second machine |
 | M1D09, the cost model | **Carries** | Priced by kind: 64 of 64 new winners, unit cost 21. No cache-size effect found; WJ underpriced about 5x. Fitted on read streams, a reading of hard rule 5 |
+| M1D10, the cost model on the engineering streams | **Carries** | 63 of 64 new winners, unit cost 21, 23.0% error. No cache price in either fit; WJ at 0.15. On M1D05's streams 22 of 36: P preferred to the scan on 14 of 24 at p = 3 and 4 |
 
 The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 Stop and parked, M1C02 Stop stands, M1C01 Go read with the V margin and the ring note.
 
 ## Open
 
-**M1D10 is next** (`log.md` 0064). The PI accepted M1D09's reading of hard rule 5 and asked for the fit on the engineering streams as well: every arm timed on the 12 engineering cells in one exclusive claim with a 2-hour line, then the same models read on M1D07's streams. Protocol committed. M1D09's statement that the engineering tables fit in L3 was wrong for sx-mathoverflow insert-only, and is corrected. Waiting on ControlPC's GO for the dry run and the run. Nothing more runs on the standing order of 0056.
+**No run is open.** M1D10 is done and released (`log.md` 0065). Proposed next, toward a JGAA draft, each for the PI: redraw figure 5 from both fits; the venue-fit record against JGAA (M1A17, readiness tests 5 and 7); then draft sections 2 to 4, which no open test can change, before 5 to 8. The M1D05 misses at p = 3 and 4 go into section 6 as a limit, with no new run proposed. A second machine is still the open gap in readiness test 3. Nothing runs on the standing order of 0056.
 
 **Venue decided:** JGAA, WoS not needed (PI, 2026-11-04, `log.md` 0064).
 
 ## Handover notes
+
+- `scripts/chain_m1d10.sh` needs 14 GiB of free RAM, and with many desktop sessions loaded the machine sits near 13.8. M1D10C started only after a retry loop (`log.md` 0065). Close idle sessions before a claim.
 
 - Research 1's scheduled tasks fire at every quarter hour, and ControlPC's mail at about :06, through every claim. They are not paused for a claim. `scripts/overlap_check.py` tests timed runs against them (`log.md` 0036).
 
@@ -50,7 +54,7 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 - After release, a process with the project folder name on its command line reads as R11 load. A watcher reads only lines written after it starts.
 - DBLP sits behind a bot check and is not screened.
 - Commits are under the PI's name, with the assistant as co-author.
-- Research 11's monitoring and GO requests come from one session at a time. Since 2026-11-04 06:33 that is "Sambung Research 11: M1D07D claim 2 monitoring" (`log.md` 0056).
+- Research 11's monitoring and GO requests come from one session at a time. Since 2026-11-04 21:40 that is "Sambung Research 11 M1D10C" (`log.md` 0065).
 
 ## Environment read on 2026-11-01
 
