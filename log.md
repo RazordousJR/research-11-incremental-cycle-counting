@@ -812,3 +812,5 @@ The suggestion that goes with the report is chosen by these rules and named in t
 **Next.** M1D10B, a dry run on CollegeMsg expiry in the scratchpad, under a short ordinary claim, and then M1D10C, both on ControlPC's GO.
 
 **M1D10B, dry run.** ControlPC gave GO for the dry run now and WAIT for M1D10C until Research 12's P7 releases, at about 22:40 by its estimate, with M1D10C before Research 12's W2c run. A shared claim beside P7, 1 worker, 2 GB, 20:08:55 to 20:09:17, after `tower_check --for research11 --shared` allowed it. Two earlier attempts stopped before any claim because the commands lacked the shared declaration. `ENG=CollegeMsg:expiry scripts/run_m1d10.sh` into the scratchpad: 136 timing and 32 count summaries, every cell's arms agree, `mcheck` 0 differences on 6 runs, `gate1_score.py exact` 194 pairs and 0 files differ against M1D02B, `M1D10-DONE`. `scripts/m1d10_cost.py` read its output end to end. Its seconds were thrown away.
+
+**The PI's word again, by chat, 20:1x:** "ok aku approved", for M1D10C, with the session to be closed and the work handed to a new one. The new session takes over from ControlPC's start message.
