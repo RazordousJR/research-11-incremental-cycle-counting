@@ -939,3 +939,7 @@ The draft builds clean to 24 pages: no LaTeX error, no overfull box, no undefine
 - The repository has no licence file, so by default all rights are reserved. Choosing a licence is the PI's decision.
 
 **Next.** Wait for JGAA's editor. Any reply goes to the PI's e-mail.
+
+## 0072, 2026-11-05: MIT licence
+
+**The PI's word, in chat:** "MIT", answering the licence question of 0071. `LICENSE` is the MIT licence, with copyright held by the six authors of `AUTHORS.md`. It excludes the JGAA class and art files in `docs/paper/jgaa/`, which are the journal's.

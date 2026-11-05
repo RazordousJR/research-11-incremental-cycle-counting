@@ -36,7 +36,7 @@ The PI's readings of 2026-11-01 (`log.md` 0018): M1B02 Stop and parked, M1B03 St
 
 ## Open
 
-**Submitted to JGAA on 2026-11-05, submission 3330** (`log.md` 0071). No run is open. The submitted PDF is `docs/paper/jgaa/main.pdf` at commit ef2679d. The repository is public at https://github.com/RazordousJR/research-11-incremental-cycle-counting, with no licence file yet. Open: the editor's reply, which goes to the PI's e-mail; a licence, which is the PI's decision; and the repository URL in the data statement at the first revision.
+**Submitted to JGAA on 2026-11-05, submission 3330** (`log.md` 0071). No run is open. The submitted PDF is `docs/paper/jgaa/main.pdf` at commit ef2679d. The repository is public at https://github.com/RazordousJR/research-11-incremental-cycle-counting, under the MIT licence (`log.md` 0072). Open: the editor's reply, which goes to the PI's e-mail, and the repository URL in the data statement at the first revision.
 
 **Venue decided:** JGAA, WoS not needed (PI, 2026-11-04, `log.md` 0064).
 
