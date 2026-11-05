@@ -942,4 +942,4 @@ The draft builds clean to 24 pages: no LaTeX error, no overfull box, no undefine
 
 ## 0072, 2026-11-05: MIT licence
 
-**The PI's word, in chat:** "MIT", answering the licence question of 0071. `LICENSE` is the MIT licence, with copyright held by the six authors of `AUTHORS.md`. It excludes the JGAA class and art files in `docs/paper/jgaa/`, which are the journal's.
+**The PI's word, in chat:** "MIT", answering the licence question of 0071. `LICENSE` is the MIT licence, with copyright held by the six authors of `AUTHORS.md`. The JGAA class and art files in `docs/paper/jgaa/` are the journal's, and `NOTICE` excludes them. The exclusion is in a separate file so that `LICENSE` stays the exact MIT text, which GitHub recognises.

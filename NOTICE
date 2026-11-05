@@ -1,0 +1,6 @@
+This repository is under the MIT licence in LICENSE, with one exception.
+
+Not covered by that licence: the JGAA LaTeX class and its art files in
+docs/paper/jgaa/ (jgaa-art.cls, by.eps, by.png, orcid.eps, orcid.png,
+cube-spread.ps, cube-spread.pdf). They are copied unmodified from
+https://jgaa.info/JGAA-LaTeX.zip and remain under the journal's terms.
