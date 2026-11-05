@@ -924,3 +924,18 @@ The draft builds clean to 24 pages: no LaTeX error, no overfull box, no undefine
 **Next.** Claude opens https://jgaa.info/index.php/jgaa/login in the built-in browser. The PI logs in or registers there. Claude enters no password and creates no account, and every submitting or confirming step waits for the PI's word in chat.
 
 **Nothing is submitted.**
+
+## 0071, 2026-11-05: submitted to JGAA, and the repository made public
+
+**Submitted.** JGAA submission **3330**, on 2026-11-05, through https://jgaa.info under the PI's account, which the PI logged in to in their own Chrome. The PI's word, in chat: "Okeh tekan terus". The portal answered "Submission complete" and says a confirmation e-mail went to the PI.
+
+**What went in.**
+- Step 1: section Articles, category Regular. The PI ticked the ten requirement, contact, copyright and privacy boxes themself. The Comments for the Editor carry the approved text of 0070: the request for H. Meyerhenke and the AI declaration.
+- Step 2: `docs/paper/jgaa/main.pdf` from commit ef2679d, 879 KB, as Article Text.
+- Step 3: the title, the abstract as plain text, and the keywords of `submission-package.md`. Supporting Agencies is empty, since there is no grant. The six authors are in the order of `AUTHORS.md`, each with e-mail, country and full affiliation, and the five co-authors with their ORCID iDs. The PI's own record was changed from capitals to "Hamzah Asyrani Sulaiman", with the full affiliation, and the PI stays the principal contact. The portal's ORCID plugin gives no field for the account owner's ORCID, so it is in the PDF only. No box that sends an ORCID request e-mail was ticked.
+
+**Repository made public.** The PI's word, in chat: "Repo set aje public". Before the change: 400 tracked files, a scan of the whole history for keys, tokens and passwords found none, no dataset files, and no third-party papers. https://github.com/RazordousJR/research-11-incremental-cycle-counting is now public. Two things follow from this:
+- The submitted PDF's data statement still says "to be released on acceptance". The URL goes in at the first revision.
+- The repository has no licence file, so by default all rights are reserved. Choosing a licence is the PI's decision.
+
+**Next.** Wait for JGAA's editor. Any reply goes to the PI's e-mail.

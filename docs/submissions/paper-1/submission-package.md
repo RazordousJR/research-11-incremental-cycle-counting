@@ -1,6 +1,6 @@
 # Submission package, paper 1, JGAA
 
-Prepared on 2026-11-05 (`log.md` 0069); the PI's approval to proceed is `log.md` 0070. Nothing has been submitted. JGAA's portal is OJS at https://jgaa.info, and "Login or Register to make a submission" is on its submissions page. The PI logs in or registers; Claude never enters a password and never creates the account. Every form step that submits or confirms waits for the PI's word in chat.
+Prepared on 2026-11-05 (`log.md` 0069); the PI's approval to proceed is `log.md` 0070. **Submitted on 2026-11-05 as JGAA submission 3330** (`log.md` 0071). JGAA's portal is OJS at https://jgaa.info, and "Login or Register to make a submission" is on its submissions page. The PI logs in or registers; Claude never enters a password and never creates the account. Every form step that submits or confirms waits for the PI's word in chat.
 
 ## Gates before the portal (bootstrap §9, §21, §22)
 
@@ -11,7 +11,7 @@ Prepared on 2026-11-05 (`log.md` 0069); the PI's approval to proceed is `log.md`
 | §22 step 8, the PI reads the paper as main author and changes what they would not say | Done: the PI reports the authors read it and found it correct, with no changes (`log.md` 0070) | PI |
 | §21 AI statement, wording approved by the PI | Approved, with "revised" replaced by "approved" because no text was changed (`log.md` 0070) | PI |
 | Co-authors: all six named with their affiliations and ORCIDs from `AUTHORS.md`, which records the co-authors' standing approval | Recorded | PI |
-| Repository release: the data statement says "to be released on acceptance" | Kept as written. Making the repository public is a separate yes from the PI (`log.md` 0070) | PI |
+| Repository release: the data statement says "to be released on acceptance" | The PI made the repository public right after submission (`log.md` 0071). The URL goes into the data statement at the first revision | PI |
 
 ## What JGAA's own pages say, read 2026-11-05
 
@@ -73,3 +73,4 @@ The editor request is a recommendation. The board, read on 2026-11-05 at https:/
 2. Claude starts a new submission and fills the form from this file, step by step: checklist ticks, the Comments for the Editor, the PDF, the metadata and the authors. Each tick is a statement the PI makes, so Claude shows the list before ticking.
 3. Before the final "Finish Submission" step, Claude shows the filled form and the PI confirms in chat. Then the PI or Claude, on that word, submits.
 4. Afterwards: the submission ID and date go into `log.md`, STATUS and this file.
+5. Done on 2026-11-05: submission 3330 (`log.md` 0071).
